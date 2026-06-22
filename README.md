@@ -16,6 +16,6 @@ From work (not mandatory)
 >pip install -r requirements312.txt
 # Usage
 Lancer script:
->python handle_xmp_files.py
+>python web_quizz_yt.py
 ## Arrêter l'environement virtuel venv:
 >deactivate
