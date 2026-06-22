@@ -1,0 +1,174 @@
+{
+    "topic": "Dr. House",
+    "categories": [ "Elders", "Adults" ],
+    "generation_min": "2000s",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_allison_cameron_aka_jennifer_morrison.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_allison_cameron_aka_jennifer_morrison.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/dr_house/dr_allison_cameron_aka_jennifer_morrison.jpg" ],
+            "wrong_answers" : [ "Jennifer", "Lisa", "Zoey" ],
+            "good_answer" : "Allison"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_allison_cameron_aka_jennifer_morrison.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_allison_cameron_aka_jennifer_morrison.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/dr_house/dr_allison_cameron_aka_jennifer_morrison.jpg" ],
+            "wrong_answers" : [ "Cuddy", "Morrison", "Pierson" ],
+            "good_answer" : "Cameron"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_robert_chase_aka_jesse_spencer.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_robert_chase_aka_jesse_spencer.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/dr_house/dr_robert_chase_aka_jesse_spencer.jpg" ],
+            "wrong_answers" : [ "Chris", "Eric", "Robert" ],
+            "good_answer" : "James"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_robert_chase_aka_jesse_spencer.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_robert_chase_aka_jesse_spencer.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/dr_house/dr_robert_chase_aka_jesse_spencer.jpg" ],
+            "wrong_answers" : [ "Cameron", "Shepherd", "Wilson" ],
+            "good_answer" : "Chase"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_chris_taub_akapeter_jacobson.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_chris_taub_akapeter_jacobson.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/dr_house/dr_chris_taub_akapeter_jacobson.jpg" ],
+            "wrong_answers" : [ "Peter", "Eric", "Steve" ],
+            "good_answer" : "Chris"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_chris_taub_akapeter_jacobson.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_chris_taub_akapeter_jacobson.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/dr_house/dr_chris_taub_akapeter_jacobson.jpg" ],
+            "wrong_answers" : [ "Avery", "Jacobson", "Kovac" ],
+            "good_answer" : "Taub"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_lisa_cuddy_aka_lisa_edelstein.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_lisa_cuddy_aka_lisa_edelstein.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/dr_house/dr_lisa_cuddy_aka_lisa_edelstein.jpg" ],
+            "wrong_answers" : [ "Kerry", "Allison", "Lexie" ],
+            "good_answer" : "Lisa"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_lisa_cuddy_aka_lisa_edelstein.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_lisa_cuddy_aka_lisa_edelstein.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/dr_house/dr_lisa_cuddy_aka_lisa_edelstein.jpg" ],
+            "wrong_answers" : [ "Cameron", "Stevens", "Weaver" ],
+            "good_answer" : "Cuddy"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_eric_foreman_aka_omar_epps.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_eric_foreman_aka_omar_epps.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/dr_house/dr_eric_foreman_aka_omar_epps.jpg" ],
+            "wrong_answers" : [ "Ben", "Gregory", "Preston" ],
+            "good_answer" : "Eric"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_eric_foreman_aka_omar_epps.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_eric_foreman_aka_omar_epps.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/dr_house/dr_eric_foreman_aka_omar_epps.jpg" ],
+            "wrong_answers" : [ "Burke", "Chase", "Pratt" ],
+            "good_answer" : "Foreman"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_gregory_house_aka_hugh_laurie.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_gregory_house_aka_hugh_laurie.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/dr_house/dr_gregory_house_aka_hugh_laurie.jpg" ],
+            "wrong_answers" : [ "Eric", "Hugh", "James" ],
+            "good_answer" : "Gregory"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_gregory_house_aka_hugh_laurie.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_gregory_house_aka_hugh_laurie.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/dr_house/dr_gregory_house_aka_hugh_laurie.jpg" ],
+            "wrong_answers" : [ "Mickey", "Mouse", "Wilson" ],
+            "good_answer" : "House"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_remy_13_hadley_aka_olivia_wilde.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_remy_13_hadley_aka_olivia_wilde.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/dr_house/dr_remy_13_hadley_aka_olivia_wilde.jpg" ],
+            "wrong_answers" : [ "Alex", "Doris", "Thirteen" ],
+            "good_answer" : "Remy"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_remy_13_hadley_aka_olivia_wilde.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_remy_13_hadley_aka_olivia_wilde.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/dr_house/dr_remy_13_hadley_aka_olivia_wilde.jpg" ],
+            "wrong_answers" : [ "Corday", "Grey", "Thirteen" ],
+            "good_answer" : "Hadley"
+        },
+        {
+            "question" : "Quel est le surnom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_remy_13_hadley_aka_olivia_wilde.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_remy_13_hadley_aka_olivia_wilde.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/dr_house/dr_remy_13_hadley_aka_olivia_wilde.jpg" ],
+            "wrong_answers" : [ "Remy", "Grey", "Olivia" ],
+            "good_answer" : "Thirteen"
+        }
+    ]
+}
+    

@@ -1,0 +1,229 @@
+{
+    "topic": "TINTIN",
+    "categories": [ "All" ],
+    "generation_min": "Youngers",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "Quel est nom du chien de Tintin?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "wrong_answers" : [ "Limou", "Malou", "Idéfix" ],
+            "good_answer" : "Milou"
+        },
+        {
+            "question" : "Comment s'appellent les deux détectives à chapeaux ronds dans Tintin?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "wrong_answers" : [ "Durant et Durand", "Duplomb et Duplomp", "Starsky et Hutch" ],
+            "good_answer" : "Dupont et Dupond"
+        },
+        {
+            "question" : "D'où vient le nom Hergé qui est le nom de l'auteur?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "wrong_answers" : [ "C'est son nom de famille", "C'est parce qu'il était Radio Guide", "C'est le nom de son frère" ],
+            "good_answer" : "Ce sont les initiales de son vrai nom Georges Rémi"
+        },
+        {
+            "question" : "à quelle date est née cette bande dessinée?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "wrong_answers" : [ "le 20 février 1452", "le 3 décembre 1587", "le 25 mars 1999" ],
+            "good_answer" : "le 10 janvier 1929"
+        },
+        {
+            "question" : "Comment s'appelle l'agent d'assurance qui vient parfois rendre visite à Tintin ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "wrong_answers" : [ "Monsieur Tournesol", "Monsieur Champion", "Monsieur Lampiste" ],
+            "good_answer" : "Monsieur Lampion"
+        },
+        {
+            "question" : "Dans quel château habite le capitaine Haddock?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "wrong_answers" : [ "au château du Moulin", "au château de Moulinart", "au château de Moulissard" ],
+            "good_answer" : "au château de Moulinsart"
+        },
+        {
+            "question" : "Quels sont les deux expressions que le capitaine Haddock dit le plus souvent ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "wrong_answers" : [ "Cornichon! et Ectoplasme!", "Saperlipopette! et Maudite salopette!", "Mille milliards de mille tribords! et éclair de Quimper!" ],
+            "good_answer" : "Mille millions de mille sabords! et Tonnerre de Brest!"
+        },
+        {
+            "question" : "Comment s'appelle le fils de l'émir Ben Kalish Ezab?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "wrong_answers" : [ "Ranko", "Müller", "Bab El Her" ],
+            "good_answer" : "Abdallah"
+        },
+        {
+            "question" : "Dans les Bijoux de la Castafiore, qui est le voleur de l'émeraude ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "wrong_answers" : [ "le singe des Romanichels", "Irma", "le chien du boucher" ],
+            "good_answer" : "une pie"
+        },
+        {
+            "question" : "Dans quel livre Tintin revoit-il son ami Tchang, connu dans le Lotus Bleu?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "wrong_answers" : [ "dans 'L'île Noire'", "dans 'Les cigares du Pharaon'", "dans 'Vol 714 pour Sidney'" ],
+            "good_answer" : "dans 'Tintin au Tibet'"
+        },
+        {
+            "question" : "Comment s'appelle le bateau de l'ancêtre du capitaine Haddock?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "wrong_answers" : [ "le Karaboudjan", "le Ramona", "le Secret" ],
+            "good_answer" : "la Licorne"
+        },
+        {
+            "question" : "Où Tintin a-t-il rencontré la Castafiore pour la première fois?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "wrong_answers" : [ "à l'aéroport de Genève", "à l'Opéra de Milan", "au San Theodoros" ],
+            "good_answer" : "dans un taxi en Syldavie"
+        },
+        {
+            "question" : "Que recherche Tintin dans L'Oreille Cassée?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "wrong_answers" : [ "un missionnaire", "des rubis", "la solitude" ],
+            "good_answer" : "la statuette sacrée des Arumbayas"
+        },
+        {
+            "question" : "Comment s'appelle le valet des frères Loiseau?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "wrong_answers" : [ "Abdoul", "Badhallah", "Bickor" ],
+            "good_answer" : "Nestor"
+        },
+        {
+            "question" : "Quel est le prénom du Capitaine Haddock ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "wrong_answers" : [ "Léandre", "Léopold", "Mathusalem" ],
+            "good_answer" : "Archibald"
+        },
+        {
+            "question" : "Que contiennent les fameuses boites de crabes ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "wrong_answers" : [ "Bijoux", "Faux papiers", "Crabe" ],
+            "good_answer" : "Opium"
+        },
+        {
+            "question" : "Quel est le bateau de l'ancêtre du capitaine Haddock ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "wrong_answers" : [ "La Méduse", "Le Sirius", "L'Hippocampe" ],
+            "good_answer" : "La Licorne"
+        },
+        {
+            "question" : "Qu'est-ce qui différencie Dupont et Dupond ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "wrong_answers" : [ "Le chapeau", "Le nez", "Les sourcils" ],
+            "good_answer" : "La moustache"
+        },
+        {
+            "question" : "Quel est le prénom du Professeur Tournesol ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "wrong_answers" : [ "Albert", "Cassiosse", "Gustave" ],
+            "good_answer" : "Tryphon"
+        },
+        {
+            "question" : "Sur son pull-over, le capitaine Haddock a ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/tintin/tintin.jpg" ],
+            "wrong_answers" : [ "Un bateau", "Un drapeau de pirate", "Une barre de bâteau" ],
+            "good_answer" : "Une ancre de marine"
+        }
+    ]
+}
+    

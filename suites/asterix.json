@@ -1,0 +1,119 @@
+{
+    "topic": "ASTERIX",
+    "categories": [ "All" ],
+    "generation_min": "Youngers",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "En quel année est sortie l'album 'Astérix le Gaulois' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "wrong_answers" : [ "1951", "1956", "1966" ],
+            "good_answer" : "1961"
+        },
+        {
+            "question" : "Quel album d'Asterix n'existe pas ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "wrong_answers" : [ "Le Bouclier arverne", "Le Ciel lui tombe sur la tête", "Le Fils d'Astérix" ],
+            "good_answer" : "Astérix chez les Suisses"
+        },
+        {
+            "question" : "Dans quel album d'Astérix, Agecanonix apparait-il pour la première fois ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "wrong_answers" : [ "Astérix aux Jeux olympiques", "Astérix et Cléopâtre", "Astérix et Obélix contre César" ],
+            "good_answer" : "Astérix gladiateur"
+        },
+        {
+            "question" : "Comment s'appelle la femme du chef du village dans Asterix ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "wrong_answers" : [ "Falbala", "Ielosubmarine", "Malococcyx" ],
+            "good_answer" : "Bonemine"
+        },
+        {
+            "question" : "Comment s'appelle le forgeron dans Asterix ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "wrong_answers" : [ "Codecdivix", "Odalix", "Plaintcontrix" ],
+            "good_answer" : "Cétautomatix"
+        },
+        {
+            "question" : "Que se passe-t-il dans l'album 'Le ciel lui tombe sur la tête' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "wrong_answers" : [ "Astérix perd la mémoire", "Asterix voyage dans le temps", "Le soleil a disparu" ],
+            "good_answer" : "Des extraterrestres débarquent"
+        },
+        {
+            "question" : "Comment s'appelle la fille dont Obélix est amoureux ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "wrong_answers" : [ "Bonnemine", "Cléopâtre", "Shéhérazade" ],
+            "good_answer" : "Falbala"
+        },
+        {
+            "question" : "Dans quel album d'Asterix Idéfix fait sa première apparition ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "wrong_answers" : [ "Astérix et Cléopâtre", "Astérix le Gaulois", "La serpe d'or" ],
+            "good_answer" : "Le Tour de Gaule"
+        },
+        {
+            "question" : "Quel camps romains n'entoure pas le village d'Astérix ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "wrong_answers" : [ "Aquarium", "Laudanum", "Petibonum" ],
+            "good_answer" : "Metronum"
+        },
+        {
+            "question" : "Comment s'appelle le marchand de poissons dans Asterix ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/asterix/asterix.jpg" ],
+            "wrong_answers" : [ "Astronomix", "Cétautomatix", "Orthopédix" ],
+            "good_answer" : "Ordralfabétix"
+        }
+    ]
+}
+    

@@ -1,0 +1,168 @@
+/* NOUVEAU STYLE.CSS ADAPTÉ AU BOUTON ROUGE ROND ET AUX AUTRES RECTANGULAIRES */
+
+/* Styles généraux pour le corps, pour centrer le contenu et utiliser toute la hauteur */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #333; /* Fond sombre pour le contraste */
+  font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Organiser le contenu verticalement */
+    gap: 10px; /* Espace entre les deux conteneurs de buzzers */
+    padding: 10px;
+    box-sizing: border-box; /* Inclure le padding et la border dans la hauteur/largeur */
+}
+
+/* ------------------------------------------- */
+/* STYLES DU BOUTON ROUGE CIRCULAIRE (#bouton1) */
+/* ------------------------------------------- */
+.circular-buzzer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* Laisser une hauteur par défaut, le bouton la définira */
+}
+
+#bouton1 {
+    /* Rendre le bouton grand et circulaire */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+    /* Style et effet 3D */
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    border: 10px solid #D93F3F; /* Bordure simulant l'anneau lumineux/la base */
+    box-shadow: 0 5px 0 rgba(0, 0, 0, 0.5), 0 10px 15px rgba(0, 0, 0, 0.3);
+    
+    background-color: #D93F3F; /* Rouge */
+    transition: all 0.1s ease-out;
+}
+
+/* Effet de pression pour le bouton circulaire */
+#bouton1:active:not(:disabled) {
+    transform: translateY(3px);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.5), 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* État désactivé du bouton circulaire (Éteint) */
+#bouton1[disabled] {
+    opacity: 0.5;
+    border-color: White !important; /* Bordure blanche pour l'état éteint */
+}
+
+
+/* ------------------------------------------- */
+/* STYLES DES BOUTONS RECTANGULAIRES (#bouton2 à #bouton5) */
+/* ------------------------------------------- */
+.rectangular-buzzers {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 1; /* Occuper l'espace vertical restant */
+    gap: 10px;
+    min-height: 0; /* Important pour que flex-grow fonctionne correctement */
+}
+
+#bouton2, #bouton3, #bouton4, #bouton5 {
+    /* Occuper toute la largeur et répartir la hauteur restante */
+    width: 100%;
+    flex-grow: 1;
+    
+    /* Conserver une forme rectangulaire */
+    border-radius: 10px;
+    
+    /* Style général */
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    border: 5px solid; /* Bordure pour simuler un anneau */
+    box-shadow: 0 5px 0 rgba(0, 0, 0, 0.5);
+    transition: all 0.1s ease-out;
+}
+
+/* Couleurs spécifiques des boutons rectangulaires */
+#bouton2 { background-color: #4C8AF8; border-color: #4C8AF8; } /* Bleu */
+#bouton3 { background-color: #FFA500; border-color: #FFA500; } /* Orange */
+#bouton4 { background-color: #4CAF50; border-color: #4CAF50; } /* Vert */
+#bouton5 { background-color: #FFD700; border-color: #FFD700; } /* Jaune */
+
+/* Effet de pression pour les boutons rectangulaires */
+#bouton2:active:not(:disabled), #bouton3:active:not(:disabled), #bouton4:active:not(:disabled), #bouton5:active:not(:disabled) {
+    transform: translateY(3px);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* État désactivé des boutons rectangulaires (Éteint) */
+#bouton2[disabled], #bouton3[disabled], #bouton4[disabled], #bouton5[disabled] {
+    opacity: 0.5;
+    border-color: White !important; /* Bordure blanche pour l'état éteint */
+}
+
+/* Style de la bonne réponse (géré par le JS) */
+button[style*="border-color: red"] {
+    border-color: red !important;
+    box-shadow: 0 0 15px 5px red, 0 5px 0 rgba(0, 0, 0, 0.5) !important; /* Effet lumineux */
+    opacity: 1 !important;
+}
+
+/* Media Query pour les petits écrans: le bouton circulaire peut être plus petit */
+@media (max-width: 650px) {
+    #bouton1 {
+        width: 100px;
+        height: 100px;
+        font-size: 1.2em;
+        border-width: 5px;
+    }
+}
+
+/* --- Conservons les autres styles de votre fichier original --- */
+.table5x1 { display: inline-table; border-collapse: collapse; margin: auto; width: 100%; height: 100%; table-layout: fixed; }
+/* ... (Le reste des styles non-buzzer de l'ancien style.css est conservé) ... */
+.ligne { display: table-row; }
+.cell { border: 2px solid green; display: table-cell; padding:5px; vertical-align: middle; color:red; font-size:32px; }
+#cell1, #cell2, #cell3, #cell4, #cell5 { border: 2px solid green; display: table-cell; padding:5px; vertical-align: middle; color:red; font-size:32px; text-align: center; }
+#BOUTTONDIV { text-align: center; }
+/* ... (Les styles .players, .players_table, .button-77, etc. sont conservés) ... */
+.players { margin-left: auto; margin-right: auto; }
+.btn-group button { background-color: #4CAF50; border: 1px solid green; color: white; padding: 10px 24px; cursor: pointer; float: left; }
+.btn-group:after { content: ""; clear: both; display: table; }
+.btn-group button:not(:last-child) { border-right: none; }
+.btn-group button:hover { background-color: #3e8e41; }
+.btn-group button:disabled, button[disabled]{ border: 1px solid #999999; background-color: #cccccc; color: #666666; }
+.players_table { width: 90%; border-collapse: collapse; }
+.players_table, .players_caption, .players_th, .players_td { border: 1px solid lightgrey; }
+.players_table, .players_caption { height: 66px; font-weight: bold; font-size:60px; padding-top: 5px; border-bottom: none; }
+.players_th { height: 60px; font-weight: bold; font-size:50px; padding-top: 5px; border-bottom: none; }
+.players_tr { height: 33px; }
+.players_tr:nth-child(even) { background-color: #f0f0f0 }
+.player_red_displayed_tr { background-color: #ff0000; }
+.player_blue_displayed_tr { background-color: #0000ff; }
+.player_orange_displayed_tr { background-color: #ff7700; }
+.player_green_displayed_tr { background-color: #00ff00; }
+.player_yellow_displayed_tr { background-color: #ffff00; }
+.players_td { text-align: center; font-weight:normal; font-size:30px; }
+.players_body{ height:100%; margin:0;padding:0; }
+.answers_label{ display: inline-block; clear: left; width: 100%; border-style:solid; border-width: 10px; font-size:50px; text-align: center; }
+.questionbox { display: flex; align-items: center; justify-content: center; }
+.gamebox { display: flex; align-items: flex-start; height: 640px; justify-content: space-between; }
+.answerbox { display: flex; flex-direction: column; justify-content: space-between; height: 500px; }
+.button-77 { /* ... */ } /* Styles conservés */
+@media (min-width: 768px) { .button-77 { padding: 19px 32px; } }
+.button-77:before, .button-77:after { border-radius: 80px; }
+.button-77:before { background-color: rgba(249, 58, 19, .32); content: ""; display: block; height: 100%; left: 0; overflow: hidden; position: absolute; top: 0; width: 100%; z-index: -2; }
+.button-77:after { background-color: initial; background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%); bottom: 4px; content: ""; display: block; left: 4px; overflow: hidden; position: absolute; right: 4px; top: 4px; transition: all 100ms ease-out; z-index: -1; }
+.button-77:hover:not(:disabled):after { bottom: 0; left: 0; right: 0; top: 0; transition-timing-function: ease-in; }
+.button-77:active:not(:disabled) { color: #ccc; }
+.button-77:active:not(:disabled):after { background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%); bottom: 4px; left: 4px; right: 4px; top: 4px; }
+.button-77:disabled { cursor: default; opacity: .24; }
+.myRow { display: grid; grid-template-columns: auto; padding: 10px; }

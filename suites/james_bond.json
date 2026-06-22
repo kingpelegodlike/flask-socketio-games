@@ -1,0 +1,151 @@
+{
+    "topic": "JAMES BOND",
+    "categories": [ "Elders", "Adults" ],
+    "generation_min": "Adults",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "Pierce Brosnan est le Bond qui a le plus tué de méchants. Mais combien ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "wrong_answers" : [ "237", "541", "76" ],
+            "good_answer" : "140"
+        },
+        {
+            "question" : "Quel groupe scandinave a écrit une chanson thème, qui n’a finalement pas servi à un film de James Bond ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/james_bond/ace_of_base_goldeneye.jpg" ],
+            "wrong_answers" : [ "Abba - Moonraker", "Aqua - Demain ne meurt jamais", "Lordi - Meurs un autre jour" ],
+            "good_answer" : "Ace of Base - GoldenEye"
+        },
+        {
+            "question" : "Quel film est paru en premier ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/james_bond/bons_baisers_de_russie.jpg" ],
+            "wrong_answers" : [ "Au service secret de Sa Majesté", "Moonraker", "Permis de tuer" ],
+            "good_answer" : "Bons baisers de Russie"
+        },
+        {
+            "question" : "Quelle actrice française a décliné un rôle de James Bond Girl ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/james_bond/brigitte_bardot.jpg" ],
+            "wrong_answers" : [ "Catherine Deneuve", "Marion Cotillard", "Sophie Marceau" ],
+            "good_answer" : "Brigitte Bardot"
+        },
+        {
+            "question" : "Quel est le générique d’ouverture de la saga James Bond où il n’y a que des hommes ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/james_bond/casino_royale.jpg" ],
+            "wrong_answers" : [ "Opération Tonnerre", "Goldfinger", "Meurs un autre jour" ],
+            "good_answer" : "Casino Royale"
+        },
+        {
+            "question" : "En 1984, quel acteur français a été candidat pour succéder à Roger Moore ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/james_bond/christophe_lambert.jpg" ],
+            "wrong_answers" : [ "Bernard Giraudeau", "Gérard Depardieu", "Jean Reno" ],
+            "good_answer" : "Christophe Lambert"
+        },
+        {
+            "question" : "Quel comédien a le plus joué dans les films de James Bond ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/james_bond/desmond_llewelyn.jpg" ],
+            "wrong_answers" : [ "Bernard Giraudeau", "Gérard Depardieu", "Jean Reno" ],
+            "good_answer" : "Desmond Llewelyn dans le rôle de Q"
+        },
+        {
+            "question" : "Dans quel petit rôle apparaît John Barry, le compositeur de douze bandes originales de James Bond ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "wrong_answers" : [ "En chauffeur de taxi dans 'Casino Royale'", "En cithariste dans 'Octopussy'", "En joueur de cornemuse dans 'Au service secret de Sa Majesté'" ],
+            "good_answer" : "En chef d’orchestre dans 'Tuer n’est pas jouer'"
+        },
+        {
+            "question" : "Quel homme célèbre a utilisé le pistolet Walther PPK de James Bond ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "wrong_answers" : [ "Clyde Barrow, pour ses braquages", "Lee Oswald, pour assassiner Kennedy", "Lucky Luke, pour tirer plus vite que son ombre" ],
+            "good_answer" : "Hitler, pour se suicider"
+        },
+        {
+            "question" : "Quel film comporte une chasse à moto sur les pistes de ski ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/james_bond/rien_que_pour_vos_yeux.jpg" ],
+            "wrong_answers" : [ "Clyde Barrow, pour ses braquages", "Lee Oswald, pour assassiner Kennedy", "Lucky Luke, pour tirer plus vite que son ombre" ],
+            "good_answer" : "Rien que pour vos yeux"
+        },
+        {
+            "question" : "Dans combien de films apparaît l’agent 002 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "wrong_answers" : [ "Aucun, pour ses braquages", "Deux", "Un" ],
+            "good_answer" : "Trois"
+        },
+        {
+            "question" : "Dans 'Le Monde ne suffit pas', quel gadget utilise Pierce Brosnan ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "wrong_answers" : [ "Des chaussures à ressort", "Une cravate-élastique", "Un caleçon à explosif" ],
+            "good_answer" : "Une montre-grappin"
+        },
+        {
+            "question" : "Dans quel film, George Lazenby interpréte James Bond ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/james_bond/james_bond.jpg" ],
+            "wrong_answers" : [ "Les diamants sont éternels", "Opération Tonnerre", "On ne vit que deux fois" ],
+            "good_answer" : "Au service secret de sa majesté"
+        }
+    ]
+}

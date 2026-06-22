@@ -1,0 +1,119 @@
+{
+    "topic": "Les Mondes Engloutis",
+    "categories": [ "Elders", "Adults" ],
+    "generation_min": "1980s",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/les_mondes_engloutis/arkana.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/les_mondes_engloutis/arkana.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/les_mondes_engloutis/arkana.jpg" ],
+            "wrong_answers" : [ "Shagma", "Shag-Shag", "Vanessa" ],
+            "good_answer" : "Arkana"
+        },
+        {
+            "question" : "Comment s'appelle ces personnages ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/les_mondes_engloutis/bic_et_bac.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/les_mondes_engloutis/bic_et_bac.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/les_mondes_engloutis/bic_et_bac.jpg" ],
+            "wrong_answers" : [ "Flic et Flac", "Shag et Shag", "Zig et Zag" ],
+            "good_answer" : "Bic et Bac"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/les_mondes_engloutis/bob.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/les_mondes_engloutis/bob.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/les_mondes_engloutis/bob.jpg" ],
+            "wrong_answers" : [ "Matt", "Max", "Spartakus" ],
+            "good_answer" : "Bob"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/les_mondes_engloutis/massmedia.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/les_mondes_engloutis/massmedia.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/les_mondes_engloutis/massmedia.jpg" ],
+            "wrong_answers" : [ "Balladur", "Gloria", "Rebecca" ],
+            "good_answer" : "Massmédia"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/les_mondes_engloutis/mattymate.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/les_mondes_engloutis/mattymate.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/les_mondes_engloutis/mattymate.jpg" ],
+            "wrong_answers" : [ "Marcus", "Maxagaz", "Seskapile" ],
+            "good_answer" : "Mattymate"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/les_mondes_engloutis/maxagaz.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/les_mondes_engloutis/maxagaz.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/les_mondes_engloutis/maxagaz.jpg" ],
+            "wrong_answers" : [ "Massmédia", "Mattymate", "Seskapile" ],
+            "good_answer" : "Maxagaz"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/les_mondes_engloutis/rebecca.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/les_mondes_engloutis/rebecca.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/les_mondes_engloutis/rebecca.jpg" ],
+            "wrong_answers" : [ "Claire", "Isa", "Marie" ],
+            "good_answer" : "Rebecca"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/les_mondes_engloutis/seskapile.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/les_mondes_engloutis/seskapile.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/les_mondes_engloutis/seskapile.jpg" ],
+            "wrong_answers" : [ "Beaucamion", "Massmédia", "Mattymate" ],
+            "good_answer" : "Seskapile"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/les_mondes_engloutis/shag_shag.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/les_mondes_engloutis/shag_shag.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/les_mondes_engloutis/shag_shag.jpg" ],
+            "wrong_answers" : [ "Arkana", "Shagma", "Shagmir" ],
+            "good_answer" : "Shag-Shag"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/les_mondes_engloutis/spartakus.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/les_mondes_engloutis/spartakus.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/les_mondes_engloutis/spartakus.jpg" ],
+            "wrong_answers" : [ "Bob", "Marcus", "Maximus" ],
+            "good_answer" : "Spartakus"
+        }
+    ]
+}
+    

@@ -1,0 +1,240 @@
+{
+    "topic": "How I Met Your Mother",
+    "categories": [ "Elders", "Adults", "Teenagers" ],
+    "generation_min": "1990s",
+    "generation_max": "1970s",
+    "questions": [
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/lily_aldrin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/lily_aldrin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/how_i_met_your_mother/lily_aldrin.jpg" ],
+            "wrong_answers" : [ "Hannigan", "Scherbatsky", "Summers" ],
+            "good_answer" : "Aldrin"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/barney_stinson.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/barney_stinson.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/how_i_met_your_mother/barney_stinson.jpg" ],
+            "wrong_answers" : [ "Doug", "Patrick", "Ted" ],
+            "good_answer" : "Barney"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/carl.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/carl.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/how_i_met_your_mother/carl.jpg" ],
+            "wrong_answers" : [ "Jason", "Kevin", "Mike" ],
+            "good_answer" : "Carl"
+        },
+        {
+            "question" : "Quel est la profession de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/carl.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/carl.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/how_i_met_your_mother/carl.jpg" ],
+            "wrong_answers" : [ "Baby Sitter", "Chauffeur de taxi", "Medecin" ],
+            "good_answer" : "Barman"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/marshall_eriksen.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/marshall_eriksen.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/how_i_met_your_mother/marshall_eriksen.jpg" ],
+            "wrong_answers" : [ "Aldrin", "Pierson", "Zinman" ],
+            "good_answer" : "Eriksen"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/judy_eriksen.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/judy_eriksen.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/how_i_met_your_mother/judy_eriksen.jpg" ],
+            "wrong_answers" : [ "Aldrin", "Mosby", "Stinson" ],
+            "good_answer" : "Eriksen"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/judy_eriksen.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/judy_eriksen.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/how_i_met_your_mother/judy_eriksen.jpg" ],
+            "wrong_answers" : [ "Claire", "Juliette", "Sabrina" ],
+            "good_answer" : "Judy"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/lily_aldrin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/lily_aldrin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/how_i_met_your_mother/lily_aldrin.jpg" ],
+            "wrong_answers" : [ "Buffy", "Rubby", "Steffany" ],
+            "good_answer" : "Lily"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/marshall_eriksen.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/marshall_eriksen.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/how_i_met_your_mother/marshall_eriksen.jpg" ],
+            "wrong_answers" : [ "Jason", "Robin", "Ted" ],
+            "good_answer" : "Marshall"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/ted_mosby.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/ted_mosby.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/how_i_met_your_mother/ted_mosby.jpg" ],
+            "wrong_answers" : [ "Aldrin", "Radnor", "Stinson" ],
+            "good_answer" : "Mosby"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/zoey_pierson.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/zoey_pierson.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/how_i_met_your_mother/zoey_pierson.jpg" ],
+            "wrong_answers" : [ "Cameron", "Garvey", "Petteruti" ],
+            "good_answer" : "Pierson"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/ranjit.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/ranjit.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/how_i_met_your_mother/ranjit.jpg" ],
+            "wrong_answers" : [ "Kara", "Sayid", "Taiksi" ],
+            "good_answer" : "Ranjit"
+        },
+        {
+            "question" : "Quel est la profession de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/ranjit.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/ranjit.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/how_i_met_your_mother/ranjit.jpg" ],
+            "wrong_answers" : [ "Avocat", "Pâtissier", "Plombier" ],
+            "good_answer" : "Chauffeur de taxi"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/robin_scherbatsky.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/robin_scherbatsky.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/how_i_met_your_mother/robin_scherbatsky.jpg" ],
+            "wrong_answers" : [ "Cobie", "Lily", "Samantha" ],
+            "good_answer" : "Robin"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/robin_scherbatsky.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/robin_scherbatsky.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/how_i_met_your_mother/robin_scherbatsky.jpg" ],
+            "wrong_answers" : [ "Aldrin", "Mosby", "Smulders" ],
+            "good_answer" : "Scherbatsky"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/barney_stinson.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/barney_stinson.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/how_i_met_your_mother/barney_stinson.jpg" ],
+            "wrong_answers" : [ "Eriksen", "Harris", "Mosby" ],
+            "good_answer" : "Stinson"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/ted_mosby.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/ted_mosby.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/how_i_met_your_mother/ted_mosby.jpg" ],
+            "wrong_answers" : [ "Barney", "Josh", "Marshall" ],
+            "good_answer" : "Ted"
+        },
+        {
+            "question" : "Quel est la profession de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/ted_mosby.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/ted_mosby.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/how_i_met_your_mother/ted_mosby.jpg" ],
+            "wrong_answers" : [ "Avocat", "Instituteur", "On ne sait pas" ],
+            "good_answer" : "Architecte"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/victoria.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/victoria.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/how_i_met_your_mother/victoria.jpg" ],
+            "wrong_answers" : [ "Sandy", "Stella", "Zoé" ],
+            "good_answer" : "Victoria"
+        },
+        {
+            "question" : "Quel est la profession de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/victoria.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/victoria.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/how_i_met_your_mother/victoria.jpg" ],
+            "wrong_answers" : [ "Dermatologue", "Présentatrice TV", "Stripteaseuse" ],
+            "good_answer" : "Pâtissière"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/zoey_pierson.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/how_i_met_your_mother/zoey_pierson.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/how_i_met_your_mother/zoey_pierson.jpg" ],
+            "wrong_answers" : [ "Allison", "Jennifer", "Quinn" ],
+            "good_answer" : "Zoey"
+        }
+    ]
+}
+    

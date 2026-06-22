@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB QUIZ Connection</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .label-text {
+            font-size: 22px;
+            color: #555;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        /* Style adaptatif et moderne pour le champ Nom */
+        #new_name {
+            font-size: 24px;
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+            height: 120px; /* Ajusté pour mobile (au lieu de 300px qui masquerait l'écran) */
+            border: 2px solid #bdc3c7;
+            border-radius: 8px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        /* Format Combo Box (select) optimisé pour l'écran d'un mobile */
+        #generation_select {
+            font-size: 22px;
+            width: 90%;
+            max-width: 400px;
+            height: 60px; /* Hauteur confortable pour le clic tactile (Touch target) */
+            padding: 10px;
+            border: 2px solid #007bff;
+            border-radius: 8px;
+            background-color: #ffffff;
+            color: #333;
+            text-align: center;
+            text-align-last: center; /* Centre le texte de l'option sélectionnée */
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            appearance: none; /* Supprime le style par défaut lourd d'iOS/Android */
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+
+        /* Ajout d'une petite flèche personnalisée pour remplacer le natif épuré */
+        .select-container {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+        }
+
+        /* Style adaptatif pour le bouton de validation */
+        #myButton {
+            font-size: 22px;
+            width: 80%;
+            max-width: 300px;
+            height: 70px;
+            margin-top: 30px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: background-color 0.2s;
+        }
+
+        #myButton:active {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>WEB QUIZ Connection</h1>
+
+    <form action="" onsubmit="return false;">
+        <p class="label-text">Entrez votre nom pour jouer</p>
+        <p>
+            <input id="new_name" type="text" name="new_name" onKeyPress="return checkEnter(event)"/>
+        </p>
+        
+        <p class="label-text">Entrez votre génération pour déterminer les questions</p>
+        <p class="select-container">
+            <select name="generation_select" id="generation_select">
+                <option selected="selected" value=""></option>
+                <option value="Elders">Ancien</option>
+                <option value="1970s">1970s</option>
+                <option value="1980s">1980s</option>
+                <option value="1990s">1990s</option>
+                <option value="2000s">2000s</option>
+                <option value="2010s">2010s</option>
+                <option value="Youngers">Jeune</option>
+            </select>
+        </p>
+        
+        <p>
+            <input type="button" id="myButton" onclick="validPlayer();" value="Valider pour Buzzer" />
+        </p>
+    </form>
+
+    <script>
+        function checkEnter(e){ 
+            var characterCode; 
+
+            if(e && e.which){ 
+                characterCode = e.which; 
+            }
+            else{
+                e = event;
+                characterCode = e.keyCode; 
+            }
+
+            if(characterCode == 13){ 
+                var myBtn = document.getElementById('myButton');
+                var new_name = document.getElementById('new_name').value;
+                var generation_element = document.getElementById("generation_select");
+                var generation_select_idx = generation_element.selectedIndex;
+                var generation_select_value = generation_element.options[generation_select_idx].value;
+                
+                if (generation_select_value == "") {
+                    alert("Sélectionnez votre génération !");
+                    return false;
+                }
+                
+                myBtn.addEventListener('click', function(event) {
+                    var new_location = "web_quizz_buzzer?new_name="+new_name+"&generation="+generation_select_value;
+                    window.location.href=new_location;
+                });
+                myBtn.click();
+                return false;
+            }
+            else{
+                return true;
+            }
+        };
+
+        function validPlayer() {
+            var new_name = document.getElementById('new_name').value;
+            var generation_element = document.getElementById("generation_select");
+            var generation_select_idx = generation_element.selectedIndex;
+            var generation_select_value = generation_element.options[generation_select_idx].value;
+            
+            if (generation_select_value == "") {
+                alert("Sélectionnez votre génération !");
+                return false;
+            }
+            var new_location = "web_quizz_buzzer?new_name="+new_name+"&generation="+generation_select_value;
+            window.location.href=new_location;
+            return false;
+        };
+    </script>
+</body>
+</html>

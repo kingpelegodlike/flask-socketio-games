@@ -1,0 +1,163 @@
+{
+    "topic": "ROCKY",
+    "categories": [ "Elders", "Adults", "Teenagers" ],
+    "generation_min": "1990s",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "Dans quel ville se passe le film 'Rocky' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky_saga.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky_saga.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/rocky_saga.jpg" ],
+            "wrong_answers" : [ "Detroit", "Seattle", "Washingthon" ],
+            "good_answer" : "Philadelphie"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky/apollo_creed.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky/apollo_creed.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/rocky/apollo_creed.jpg" ],
+            "wrong_answers" : [ "Carl", "Clubber", "Duke" ],
+            "good_answer" : "Apollo"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky/apollo_creed.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky/apollo_creed.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/rocky/apollo_creed.jpg" ],
+            "wrong_answers" : [ "Fury", "Lang", "Washington" ],
+            "good_answer" : "Creed"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky/ivan_drago.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky/ivan_drago.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/rocky/ivan_drago.jpg" ],
+            "wrong_answers" : [ "Drako", "Gorski", "Malefoy" ],
+            "good_answer" : "Drago"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky/ivan_drago.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky/ivan_drago.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/rocky/ivan_drago.jpg" ],
+            "wrong_answers" : [ "Boris", "Sergei", "Vlad" ],
+            "good_answer" : "Ivan"
+        },
+        {
+            "question" : "Dans Rocky IV, que représente le short de Rocky dans le combat final ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky_saga.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky_saga.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/rocky_iv.jpg" ],
+            "wrong_answers" : [ "Un aigle royal", "Apollo", "Adrienne" ],
+            "good_answer" : "Le drapeau des USA"
+        },
+        {
+            "question" : "Quel est le surnom du personnage de 'Rocky' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky_saga.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky_saga.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/rocky_saga.jpg" ],
+            "wrong_answers" : [ "Le Bulldog féroce", "Le Marteau-piqueur", "L'éléphant de Carthage" ],
+            "good_answer" : "L'étalon italien"
+        },
+        {
+            "question" : "Quel est le titre du 6e film de la saga 'Rocky' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky_saga.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky_saga.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/rocky_balboa.jpg" ],
+            "wrong_answers" : [ "Rocky Last battle", "Rocky VI", "Rox et Rocky" ],
+            "good_answer" : "Rocky Balboa"
+        },
+        {
+            "question" : "Quel est le titre du 5e film de la saga 'Rocky' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky_saga.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky_saga.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/rocky_v.jpg" ],
+            "wrong_answers" : [ "Rocky Revenge", "Rocky VS The World", "Rocky Balboa" ],
+            "good_answer" : "Rocky V"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky/mickey.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky/mickey.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/rocky/mickey.jpg" ],
+            "wrong_answers" : [ "Moe", "Bart", "Joe" ],
+            "good_answer" : "Mickey"
+        },
+        {
+            "question" : "Comment se nomme ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky/clubber_lang.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky/clubber_lang.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/rocky/clubber_lang.jpg" ],
+            "wrong_answers" : [ "Mister T.", "Barracuda", "Laurence Tureaud" ],
+            "good_answer" : "Clubber Lang"
+        },
+        {
+            "question" : "Comment se nomme ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky/tommy_gunn.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky/tommy_gunn.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/rocky/tommy_gunn.jpg" ],
+            "wrong_answers" : [ "George Washington Duke", "Robert Balboa", "Burt Young" ],
+            "good_answer" : "Tommy Gunn"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky/adrienne.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky/adrienne.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/rocky/adrienne.jpg" ],
+            "wrong_answers" : [ "Alex", "Annie", "Andréa" ],
+            "good_answer" : "Adrienne"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky/paulie.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/rocky/paulie.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/rocky/paulie.jpg" ],
+            "wrong_answers" : [ "Rocky", "Burt", "Mickey" ],
+            "good_answer" : "Paulie"
+        }
+    ]
+}
+    

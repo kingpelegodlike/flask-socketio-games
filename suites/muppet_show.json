@@ -1,0 +1,262 @@
+{
+    "topic": "MUPPET SHOW",
+    "categories": [ "Elders", "Adults" ],
+    "generation_min": "1980s",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/animal.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/animal.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/animal.jpg" ],
+            "wrong_answers" : [ "Bestiol", "Monstrueux", "Sauvage" ],
+            "good_answer" : "Animal"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/annie_sue.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/annie_sue.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/annie_sue.jpg" ],
+            "wrong_answers" : [ "Audrey Parking", "Mary Kavan", "Stella Puro" ],
+            "good_answer" : "Annie Sue"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/beaker.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/beaker.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/beaker.jpg" ],
+            "wrong_answers" : [ "Bee Bee Beep", "Floyd", "Zoot" ],
+            "good_answer" : "Beaker"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/beaker.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/beaker.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/beaker.jpg" ],
+            "wrong_answers" : [ "Balaidacier", "Grosbras", "Lafleur" ],
+            "good_answer" : "Beauregard"
+        },
+        {
+            "question" : "Quel est le nom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/sweetums.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/sweetums.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/sweetums.jpg" ],
+            "wrong_answers" : [ "Bobo", "Funzie", "Seymour" ],
+            "good_answer" : "Sweetums"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/floyd_pepper.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/floyd_pepper.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/floyd_pepper.jpg" ],
+            "wrong_answers" : [ "Billy Spice", "Harold Salt", "Mark Suggar" ],
+            "good_answer" : "Floyd Pepper"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/fozzie.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/fozzie.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/fozzie.jpg" ],
+            "wrong_answers" : [ "Funzie", "Gonzoe", "Gunzie" ],
+            "good_answer" : "Fozzie"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/gonzo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/gonzo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/gonzo.jpg" ],
+            "wrong_answers" : [ "Beaker", "Scooter", "Fozzie" ],
+            "good_answer" : "Gonzo"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/hilda.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/hilda.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/hilda.jpg" ],
+            "wrong_answers" : [ "Olga", "Stella", "Vania" ],
+            "good_answer" : "Hilda"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/janice.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/janice.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/janice.jpg" ],
+            "wrong_answers" : [ "Clarissa", "Lou", "Mookie" ],
+            "good_answer" : "Janice"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/kermit.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/kermit.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/kermit.jpg" ],
+            "wrong_answers" : [ "Kerminal", "Kermitterrand", "Yoda" ],
+            "good_answer" : "Kermit"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/chef_suedois.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/chef_suedois.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/chef_suedois.jpg" ],
+            "wrong_answers" : [ "Chef danois", "Chef talien", "Chef norvégien" ],
+            "good_answer" : "Chef suédois"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/piggy.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/piggy.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/piggy.jpg" ],
+            "wrong_answers" : [ "Peggy", "Penny", "Picardy" ],
+            "good_answer" : "Piggy"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/rowlf.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/rowlf.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/rowlf.jpg" ],
+            "wrong_answers" : [ "Doogie", "Scooter", "Snappy" ],
+            "good_answer" : "Rowfl"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/sam.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/sam.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/sam.jpg" ],
+            "wrong_answers" : [ "Emmanuel Chain", "Robin", "Seymour" ],
+            "good_answer" : "Sam"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/scooter.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/scooter.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/scooter.jpg" ],
+            "wrong_answers" : [ "Beaker", "Sweetums", "Walbec" ],
+            "good_answer" : "Scooter"
+        },
+        {
+            "question" : "Quel est son prénom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/statler.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/statler.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/statler.jpg" ],
+            "wrong_answers" : [ "Jerry", "Richard", "Waldorf" ],
+            "good_answer" : "Statler"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/docteur_walbec_bunsen.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/docteur_walbec_bunsen.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/docteur_walbec_bunsen.jpg" ],
+            "wrong_answers" : [ "Jean-Pierre Coffe", "Scooter", "Statler" ],
+            "good_answer" : "Walbec Bunsen"
+        },
+        {
+            "question" : "Quel est son prénom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/waldorf.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/waldorf.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/waldorf.jpg" ],
+            "wrong_answers" : [ "Jerry", "Richard", "Statler" ],
+            "good_answer" : "Waldorf"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/zoot.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/zoot.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/zoot.jpg" ],
+            "wrong_answers" : [ "Andy", "Benny", "Bull" ],
+            "good_answer" : "Zoot"
+        },
+        {
+            "question" : "Quel instrument de musique joue-t-il ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/animal.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/animal.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/animal_batteur.jpg" ],
+            "wrong_answers" : [ "Guitare", "Piano", "Violon" ],
+            "good_answer" : "Batterie"
+        },
+        {
+            "question" : "Quel instrument de musique joue-t-elle ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/janice.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/janice.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/janice_guitare.jpg" ],
+            "wrong_answers" : [ "Saxophone", "Aucun, chanteuse", "Triangle" ],
+            "good_answer" : "Guitare"
+        },
+        {
+            "question" : "Quel est le nom du groupe de musique où il joue ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/animal.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/emissions_tv/muppet_show/animal.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/emissions_tv/muppet_show/the_electric_mayhem.jpg" ],
+            "wrong_answers" : [ "Dingoes Ate My Baby", "Pain Cave", "Spinal Mystic" ],
+            "good_answer" : "The Electric Mayhem"
+        }
+    ]
+}
+    

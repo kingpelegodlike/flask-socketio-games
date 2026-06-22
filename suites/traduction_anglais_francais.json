@@ -1,0 +1,119 @@
+{
+    "topic": "Traduction Anglais <> Francais",
+    "categories": [ "All" ],
+    "generation_min": "Teenagers",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "Comment dit-on 'Library' en français ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/translation.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/translation.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/translation.jpg" ],
+            "wrong_answers" : [ "Armoire", "Livre", "Magasin" ],
+            "good_answer" : "Bibliothèque"
+        },
+        {
+            "question" : "Comment dit-on 'Tableau de Bord' en anglais ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/translation.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/translation.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/translation.jpg" ],
+            "wrong_answers" : [ "Dashpicture", "Frameboard", "Runboard" ],
+            "good_answer" : "Dashboard"
+        },
+        {
+            "question" : "Comment dit-on 'Stylo Plume' en anglais ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/translation.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/translation.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/translation.jpg" ],
+            "wrong_answers" : [ "Lightweight Pen", "Plum Pen", "Vintage Pen" ],
+            "good_answer" : "Feather Pen"
+        },
+        {
+            "question" : "Comment dit-on 'Speakerphone' en français ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/translation.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/translation.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/translation.jpg" ],
+            "wrong_answers" : [ "Enceinte Connectée", "Microphone", "Porte-Voix" ],
+            "good_answer" : "Haut-Parleur"
+        },
+        {
+            "question" : "Comment dit-on 'Lampe' en anglais ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/translation.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/translation.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/translation.jpg" ],
+            "wrong_answers" : [ "Lemp", "Lomp", "Lump" ],
+            "good_answer" : "Lamp"
+        },
+        {
+            "question" : "Comment dit-on 'Ordinateur Portable' en anglais ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/translation.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/translation.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/translation.jpg" ],
+            "wrong_answers" : [ "Computer", "Loptop", "Transportable Computer" ],
+            "good_answer" : "Laptop"
+        },
+        {
+            "question" : "Comment dit-on 'Pomme De Pin' en anglais ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/translation.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/translation.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/translation.jpg" ],
+            "wrong_answers" : [ "Apple Pine", "Apple Tree", "Pinapple" ],
+            "good_answer" : "Pine Cone"
+        },
+        {
+            "question" : "Comment dit-on 'Global Warming' en français ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/translation.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/translation.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/translation.jpg" ],
+            "wrong_answers" : [ "Catastrophes Naturelles", "Température Ambiante", "Température Globale" ],
+            "good_answer" : "Réchauffement Climatique"
+        },
+        {
+            "question" : "Comment dit-on 'Tripod' en français ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/translation.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/translation.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/translation.jpg" ],
+            "wrong_answers" : [ "Balai", "Manche", "Vélo" ],
+            "good_answer" : "Trépied"
+        },
+        {
+            "question" : "Quel animal s'écrit en anglais 'Owl' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/translation.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/translation.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/translation.jpg" ],
+            "wrong_answers" : [ "Cygne", "Orarie", "Hérisson" ],
+            "good_answer" : "Hibou"
+        }
+    ]
+}
+    

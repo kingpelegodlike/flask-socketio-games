@@ -1,0 +1,174 @@
+{
+    "topic": "Calcul mental",
+    "categories": [ "All" ],
+    "generation_min": "Youngers",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "Quel est le résultat de ( 4 + 2 )^2 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/calcul_mental.jpg" ],
+            "wrong_answers" : [ "12", "20", "24" ],
+            "good_answer" : "36"
+        },
+        {
+            "question" : "Quel est le résultat de 17 + 8 + 11 + 21 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/calcul_mental.jpg" ],
+            "wrong_answers" : [ "47", "51", "53" ],
+            "good_answer" : "57"
+        },
+        {
+            "question" : "Quel est le résultat de 431 + 212 - 11 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/calcul_mental.jpg" ],
+            "wrong_answers" : [ "628", "634", "644" ],
+            "good_answer" : "632"
+        },
+        {
+            "question" : "Combien fait 25 X 31 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/calcul_mental.jpg" ],
+            "wrong_answers" : [ "725", "750", "825" ],
+            "good_answer" : "775"
+        },
+        {
+            "question" : "Combien fait  9 X 9 X 11 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/calcul_mental.jpg" ],
+            "wrong_answers" : [ "819", "881", "909" ],
+            "good_answer" : "891"
+        },
+        {
+            "question" : "Combien fait 5 + 5 + 5 + 5 + 5 + 6 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/calcul_mental.jpg" ],
+            "wrong_answers" : [ "29", "30", "32" ],
+            "good_answer" : "31"
+        },
+        {
+            "question" : "Combien fait 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/calcul_mental.jpg" ],
+            "wrong_answers" : [ "44", "46", "50" ],
+            "good_answer" : "45"
+        },
+        {
+            "question" : "Combien fait 4 + 4 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/calcul_mental.jpg" ],
+            "wrong_answers" : [ "10", "4", "6" ],
+            "good_answer" : "8"
+        },
+        {
+            "question" : "Combien fait (25 + 25) / (25 x 2) ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/calcul_mental.jpg" ],
+            "wrong_answers" : [ "2", "4", "50" ],
+            "good_answer" : "1"
+        },
+        {
+            "question" : "Combien fait 1 + 1 x 6 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/calcul_mental.jpg" ],
+            "wrong_answers" : [ "12", "18", "8" ],
+            "good_answer" : "7"
+        },
+        {
+            "question" : "Combien fait 12 + 24 + (100-50) ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/calcul_mental.jpg" ],
+            "wrong_answers" : [ "106", "136", "96" ],
+            "good_answer" : "86"
+        },
+        {
+            "question" : "Combien fait 18 / 6 / 2 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/calcul_mental.jpg" ],
+            "wrong_answers" : [ "0.5", "2", "2.5" ],
+            "good_answer" : "1.5"
+        },
+        {
+            "question" : "Combien fait 47 / 2 / 2 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/calcul_mental.jpg" ],
+            "wrong_answers" : [ "10", "10.75", "4" ],
+            "good_answer" : "11.75"
+        },
+        {
+            "question" : "Combien fait 150 / 6 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/calcul_mental.jpg" ],
+            "wrong_answers" : [ "20", "27", "30" ],
+            "good_answer" : "25"
+        },
+        {
+            "question" : "Combien fait: 240 / 3 + 10 / 5 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/calcul_mental.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/calcul_mental.jpg" ],
+            "wrong_answers" : [ "48", "74", "90" ],
+            "good_answer" : "82"
+        }
+    ]
+}
+    

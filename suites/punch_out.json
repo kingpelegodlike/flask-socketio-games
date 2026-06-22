@@ -1,0 +1,207 @@
+{
+    "topic": "PUNCH-OUT",
+    "categories": [ "Elders", "Adults" ],
+    "generation_min": "1990s",
+    "generation_max": "1970s",
+    "questions": [
+        {
+            "question" : "Quel boxeur incarnez-vous ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/punch_out.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/punch_out.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/punch_out/punch_out.jpg" ],
+            "wrong_answers" : [ "Big Mac", "Doc Louis", "Mr Sandman" ],
+            "good_answer" : "Little Mac"
+        },
+        {
+            "question" : "De quelle nationalité est Soda Popinski ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/punch_out.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/punch_out.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/punch_out/punch_out.jpg" ],
+            "wrong_answers" : [ "Irlandaise", "Turque", "Italienne" ],
+            "good_answer" : "Russe"
+        },
+        {
+            "question" : "De quel type de boxe s'agit-il ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/punch_out.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/punch_out.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/punch_out/punch_out.jpg" ],
+            "wrong_answers" : [ "Boxe française", "Boxe américaine", "Boxe thaïlandaise" ],
+            "good_answer" : "Boxe anglaise"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/aran_ryan.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/aran_ryan.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/punch_out/aran_ryan.jpg" ],
+            "wrong_answers" : [ "Abel", "Rocket Samchay", "Steve Fox" ],
+            "good_answer" : "Aran Ryan"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/bald_bull.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/bald_bull.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/punch_out/bald_bull.jpg" ],
+            "wrong_answers" : [ "Big Willy Johnson", "Pizza Pasta", "Rick Bruiser" ],
+            "good_answer" : "Bald Bull"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/bear_hugger.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/bear_hugger.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/punch_out/bear_hugger.jpg" ],
+            "wrong_answers" : [ "Small Tony", "Tank Thrasher", "Wave Berry" ],
+            "good_answer" : "Bear Hugger"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/disco_kid.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/disco_kid.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/punch_out/disco_kid.jpg" ],
+            "wrong_answers" : [ "Bald Bull", "Incredible Pit", "Rocket Samchay" ],
+            "good_answer" : "Disco Kid"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/doc_louis.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/doc_louis.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/punch_out/doc_louis.jpg" ],
+            "wrong_answers" : [ "Balrog", "Nick Bruiser", "Super Nick" ],
+            "good_answer" : "Doc Louis"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/don_flamenco.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/don_flamenco.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/punch_out/don_flamenco.jpg" ],
+            "wrong_answers" : [ "Butcher Brown", "Disco Kid", "Gabby Jay" ],
+            "good_answer" : "Don Flamenco"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/glass_joe.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/glass_joe.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/punch_out/glass_joe.jpg" ],
+            "wrong_answers" : [ "Hurricane Mick", "Kid Quick", "Steven Power" ],
+            "good_answer" : "Glass Joe"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/great_tiger.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/great_tiger.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/punch_out/great_tiger.jpg" ],
+            "wrong_answers" : [ "Mumbai Tony", "Rocket Samchay", "Sagat" ],
+            "good_answer" : "Great Tiger"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/king_hippo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/king_hippo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/punch_out/king_hippo.jpg" ],
+            "wrong_answers" : [ "Bald Bull", "Boris Knokimov", "Disco Kid" ],
+            "good_answer" : "King Hippo"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/little_mac.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/little_mac.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/punch_out/little_mac.jpg" ],
+            "wrong_answers" : [ "Dudley", "Fast Joe", "James McCloud" ],
+            "good_answer" : "Little Mac"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/mr_sandman.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/mr_sandman.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/punch_out/mr_sandman.jpg" ],
+            "wrong_answers" : [ "Angel Rivera", "Bald Bull", "Balrog" ],
+            "good_answer" : "Mr. Sandman"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/piston_hondo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/piston_hondo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/punch_out/piston_hondo.jpg" ],
+            "wrong_answers" : [ "Engine Jack", "Hokuto", "Salua" ],
+            "good_answer" : "Piston Hondo"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/soda_popinski.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/soda_popinski.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/punch_out/soda_popinski.jpg" ],
+            "wrong_answers" : [ "Masked Muscle", "Mr. Sandman", "Zangief" ],
+            "good_answer" : "Soda Popinski"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/super_macho_man.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/super_macho_man.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/punch_out/super_macho_man.jpg" ],
+            "wrong_answers" : [ "Disco Kid", "Gabby Jay", "Selene Strike" ],
+            "good_answer" : "Super Macho Man"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/von_kaiser.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/punch_out/von_kaiser.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/punch_out/von_kaiser.jpg" ],
+            "wrong_answers" : [ "Big Willy Johnson", "Hoy Quarlow", "Mr. Dream" ],
+            "good_answer" : "Von Kaiser"
+        }
+    ]
+}
+    

@@ -1,0 +1,107 @@
+{
+    "topic": "BABAR",
+    "categories": [ "All" ],
+    "generation_min": "Youngers",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "Qui n'est pas un enfant de Babar ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/babar/babar.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/babar/babar.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/babar/arthur.jpg" ],
+            "wrong_answers" : [ "Alexandre", "Flore", "Pom" ],
+            "good_answer" : "Arthur"
+        },
+        {
+            "question" : "Comment s'appelle la ville où habite Babar ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/babar/babar.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/babar/babar.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/babar/celesteville.jpg" ],
+            "wrong_answers" : [ "Babarland", "Bonheurbourg", "Eléphantoria" ],
+            "good_answer" : "Célesteville"
+        },
+        {
+            "question" : "Dans 'Babar', qui est le plus vieux, parmis les personnages suivants ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/babar/babar.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/babar/babar.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/babar/cornelius.jpg" ],
+            "wrong_answers" : [ "Arthur", "Pompadour", "Zéphir" ],
+            "good_answer" : "Cornélius"
+        },
+        {
+            "question" : "En quel année sort le premier album de Babar ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/babar/babar.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/babar/babar.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/babar/babar.jpg" ],
+            "wrong_answers" : [ "1911", "1951", "1971" ],
+            "good_answer" : "1931"
+        },
+        {
+            "question" : "Qui est le créateur de Babar ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/babar/babar.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/babar/babar.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/babar/babar.jpg" ],
+            "wrong_answers" : [ "Matthieu de Thiers", "Patrick du Puit", "Stéphane de Champignac" ],
+            "good_answer" : "Jean de Brunhoff"
+        },
+        {
+            "question" : "Comment s'appelle la vieille dame, dans 'Babar' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/babar/babar.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/babar/babar.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/babar/la_vieille_dame.jpg" ],
+            "wrong_answers" : [ "Ghislaine", "Marguerite", "Pompadour" ],
+            "good_answer" : "La vieille dame"
+        },
+        {
+            "question" : "Dans 'Babar', comment s'appelle le roi des rhinocéros ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/babar/babar.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/babar/rataxes.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/babar/rataxes.jpg" ],
+            "wrong_answers" : [ "Basile", "Podular", "Zéphir" ],
+            "good_answer" : "Rataxès"
+        },
+        {
+            "question" : "Quel personnage est un singe, dans 'Babar' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/babar/babar.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/babar/zephir.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/babar/zephir.jpg" ],
+            "wrong_answers" : [ "Arthur", "Basile", "Poutifour" ],
+            "good_answer" : "Zéphir"
+        },
+        {
+            "question" : "La femme de babar est aussi sa ...",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/babar/babar.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/babar/celeste.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/babar/celeste.jpg" ],
+            "wrong_answers" : [ "demi-soeur", "nièce", "marraine" ],
+            "good_answer" : "cousine"
+        }
+    ]
+}

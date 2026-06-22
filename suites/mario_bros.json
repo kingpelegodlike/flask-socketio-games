@@ -1,0 +1,163 @@
+{
+    "topic": "MARIO BROS",
+    "categories": [ "All" ],
+    "generation_min": "Youngers",
+    "generation_max": "1980s",
+    "questions": [
+        {
+            "question" : "Quel est le nom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/bidosaure.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/bidosaure.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/mario_bros/bidosaure.jpg" ],
+            "wrong_answers" : [ "Bubu", "Chapica", "Tricornus" ],
+            "good_answer" : "Bidosaure"
+        },
+        {
+            "question" : "Quel est le nom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/birdo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/birdo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/mario_bros/birdo.jpg" ],
+            "wrong_answers" : [ "Octoboo", "Picos", "Yoshette" ],
+            "good_answer" : "Birdo"
+        },
+        {
+            "question" : "Quel est le nom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/bloops.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/bloops.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/mario_bros/bloops.jpg" ],
+            "wrong_answers" : [ "Boo", "Pokey", "Wiggler" ],
+            "good_answer" : "Bloops"
+        },
+        {
+            "question" : "Quel est le nom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/bob_omb.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/bob_omb.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/mario_bros/bob_omb.jpg" ],
+            "wrong_answers" : [ "Bill Ball", "Cheep-Cheep", "Maskass" ],
+            "good_answer" : "Bob-omb"
+        },
+        {
+            "question" : "Quel est le nom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/boo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/boo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/mario_bros/boo.jpg" ],
+            "wrong_answers" : [ "Chomp", "Pokey", "Snifitt" ],
+            "good_answer" : "Boo"
+        },
+        {
+            "question" : "Quel est le nom de ce Koopa ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/iggy_koopa.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/iggy_koopa.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/mario_bros/iggy_koopa.jpg" ],
+            "wrong_answers" : [ "Larry", "Lemmy", "Wendy O." ],
+            "good_answer" : "Iggy"
+        },
+        {
+            "question" : "Quel est le nom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/kamek.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/kamek.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/mario_bros/kamek.jpg" ],
+            "wrong_answers" : [ "Dimensio", "Mimic", "Sorbetti" ],
+            "good_answer" : "Kamek"
+        },
+        {
+            "question" : "Quel est le nom de ce Koopa ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/larry_koopa.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/larry_koopa.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/mario_bros/larry_koopa.jpg" ],
+            "wrong_answers" : [ "Lemmy", "Ludwig Von", "Roy" ],
+            "good_answer" : "Larry"
+        },
+        {
+            "question" : "Quel est le nom de ce Koopa ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/lemmy_koopa.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/lemmy_koopa.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/mario_bros/lemmy_koopa.jpg" ],
+            "wrong_answers" : [ "Larry", "Morton Jr.", "Roy" ],
+            "good_answer" : "Lemmy"
+        },
+        {
+            "question" : "Quel est le nom de ce Koopa ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/ludwig_von_koopa.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/ludwig_von_koopa.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/mario_bros/ludwig_von_koopa.jpg" ],
+            "wrong_answers" : [ "Iggy", "Lemmy", "Roy" ],
+            "good_answer" : "Ludwig Von"
+        },
+        {
+            "question" : "Quel est le nom de ce Koopa ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/morton_koopa_jr.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/morton_koopa_jr.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/mario_bros/morton_koopa_jr.jpg" ],
+            "wrong_answers" : [ "Lemmy", "Ludwig Von", "Roy" ],
+            "good_answer" : "Morton Jr."
+        },
+        {
+            "question" : "Quel est le nom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/roi_bob_omb.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/roi_bob_omb.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/mario_bros/roi_bob_omb.jpg" ],
+            "wrong_answers" : [ "Roi Bill", "Roi Glover", "Roi Moustache" ],
+            "good_answer" : "Roi Bob-Omb"
+        },
+        {
+            "question" : "Quel est le nom de ce Koopa ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/roy_koopa.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/roy_koopa.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/mario_bros/roy_koopa.jpg" ],
+            "wrong_answers" : [ "Iggy", "Larry", "Ludwig Von" ],
+            "good_answer" : "Roy"
+        },
+        {
+            "question" : "Quel est le nom de ce Koopa ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/wendy_o_koopa.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/mario_bros/wendy_o_koopa.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/mario_bros/wendy_o_koopa.jpg" ],
+            "wrong_answers" : [ "Peach", "Lemmy", "Morton Jr." ],
+            "good_answer" : "Wendy O."
+        }
+    ]
+}
+    

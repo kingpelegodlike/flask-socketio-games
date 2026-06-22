@@ -1,0 +1,174 @@
+{
+    "topic": "DISNEY",
+    "categories": [ "All" ],
+    "generation_min": "Youngers",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "Quel héros de Disney ne veut pas grandir ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/disney/peter_pan.jpg" ],
+            "wrong_answers" : [ "Simba", "Mickey", "Baloo" ],
+            "good_answer" : "Peter Pan"
+        },
+        {
+            "question" : "Dans 'la belle au bois dormant', quel est l'animal qui est perché sur l'épaule de la sorcière ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/la_belle_au_bois_dormant.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/la_belle_au_bois_dormant.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/disney/la_belle_au_bois_dormant_corbeau.jpg" ],
+            "wrong_answers" : [ "Une mygale", "Une abeille", "Un furet" ],
+            "good_answer" : "Un corbeau"
+        },
+        {
+            "question" : "Qui est Cléo dans 'Pinocchio' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/pinocchio.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/pinocchio.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/disney/pinocchio_cleo.jpg" ],
+            "wrong_answers" : [ "Un chat", "Un chien", "Une baleine" ],
+            "good_answer" : "Un poisson"
+        },
+        {
+            "question" : "Qui est 'Jiminy' pour 'Pinocchio' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/pinocchio.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/pinocchio_jiminy_criquet.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/disney/pinocchio_jiminy_criquet.jpg" ],
+            "wrong_answers" : [ "Son pantin", "Son père", "Son meilleur ami" ],
+            "good_answer" : "Sa conscience"
+        },
+        {
+            "question" : "Qui confectionne la robe de bal de 'Cendrillon' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/disney/cendrillon.jpg" ],
+            "wrong_answers" : [ "Les scarabées et les rats", "Les abeilles et les chats", "Les mouches et les corbeaux" ],
+            "good_answer" : "Les oiseaux et les souris"
+        },
+        {
+            "question" : "Où dort Cendrillon dans le dessin animé du même nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/cendrillon.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/cendrillon.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/disney/cendrillon.jpg" ],
+            "wrong_answers" : [ "Dans le salon", "Dans la cave", "Dans une grande chambre" ],
+            "good_answer" : "Dans le grenier"
+        },
+        {
+            "question" : "Quel personnage ne figure pas dans 'Le livre de la jungle' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/disney/le_roi_lion_scar.jpg" ],
+            "wrong_answers" : [ "King Louie", "Bagheera", "Baloo" ],
+            "good_answer" : "Scar"
+        },
+        {
+            "question" : "Que sont les soldats de la reine dans 'Alice au pays des merveilles' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/alice_au_pays_des_merveilles.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/disney/alice_au_pays_des_merveilles_soldats.jpg" ],
+            "wrong_answers" : [ "Des arbres", "Des épingles", "Des dés" ],
+            "good_answer" : "Des cartes"
+        },
+        {
+            "question" : "Comment s'appelle l'héroïne de 'Le bossu de Notre Dame' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/le_bossu_notre_dame.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/disney/le_bossu_notre_dame_esmeralda.jpg" ],
+            "wrong_answers" : [ "Emma", "Carmen", "Mercédes" ],
+            "good_answer" : "Esméralda"
+        },
+        {
+            "question" : "Dans quelle ville se déroule 'Les Aristochats' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/les_aristochats_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/les_aristochats_logo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/disney/les_aristochats_paris.jpg" ],
+            "wrong_answers" : [ "Rome", "Londres", "Pékin" ],
+            "good_answer" : "Paris"
+        },
+        {
+            "question" : "Ou est chanté 'Il en faut peu pour être heureux' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/disney/le_livre_de_la_jungle.jpg" ],
+            "wrong_answers" : [ "Les Aventures de Bernard et Bianca", "Le Roi Lion", "La petite Sirène" ],
+            "good_answer" : "Le Livre de la Jungle"
+        },
+        {
+            "question" : "Quel animal est le plus grand ennemi du capitaine Crochet dans 'Peter Pan' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/peter_pan.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/disney/peter_pan_tick_tock.jpg" ],
+            "wrong_answers" : [ "Un requin", "Un faucon", "Un loup" ],
+            "good_answer" : "Un crocodile"
+        },
+        {
+            "question" : "Quel est le nom du tigre dans 'Le Livre de la Jungle' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/le_livre_de_la_jungle.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/le_livre_de_la_jungle.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/disney/le_livre_de_la_jungle.jpg" ],
+            "wrong_answers" : [ "Rajah", "Bagheera", "Kaa" ],
+            "good_answer" : "Shere Khan"
+        },
+        {
+            "question" : "Dans quel Disney rencontre-t-on un coq nommé 'Hei Hei' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/disney/disney.jpg" ],
+            "wrong_answers" : [ "Bambi", "Mulan", "Aladdin" ],
+            "good_answer" : "Vaiana"
+        },
+        {
+            "question" : "De quel film d'animation provient la réplique : 'Vers l'infini et au-delà !' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/disney/disney.jpg" ],
+            "wrong_answers" : [ "Woody", "Flash McQueen", "Bob Razowski" ],
+            "good_answer" : "Buzz l'Éclair"
+        }
+    ]
+}
+    

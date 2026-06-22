@@ -1,0 +1,240 @@
+{
+    "topic": "L'Agence tous risques",
+    "categories": [ "Elders", "Adults" ],
+    "generation_min": "1980s",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "Quel est le titre VO de série ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/l_agence_tout_risques.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/l_agence_tout_risques.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_a_team/the_a_team.jpg" ],
+            "wrong_answers" : [ "The All Risks Agency", "Who's the boss ?", "The Dirty Four" ],
+            "good_answer" : "The A-Team"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/amy_amanda_triple_a_allen.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/amy_amanda_triple_a_allen.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_a_team/amy_amanda_triple_a_allen.jpg" ],
+            "wrong_answers" : [ "Baker", "Carrere", "Decker" ],
+            "good_answer" : "Allen"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/amy_amanda_triple_a_allen.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/amy_amanda_triple_a_allen.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_a_team/amy_amanda_triple_a_allen.jpg" ],
+            "wrong_answers" : [ "Carla", "Tawnia", "Tia" ],
+            "good_answer" : "Amy Amanda"
+        },
+        {
+            "question" : "Quel est le pseudonyme de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/amy_amanda_triple_a_allen.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/amy_amanda_triple_a_allen.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_a_team/amy_amanda_triple_a_allen.jpg" ],
+            "wrong_answers" : [ "Double A", "Double G", "Triple M" ],
+            "good_answer" : "Triple A"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/sergent_bosco_albert_baracuda_baracus.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/sergent_bosco_albert_baracuda_baracus.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_a_team/sergent_bosco_albert_baracuda_baracus.jpg" ],
+            "wrong_answers" : [ "Barnabe", "Lucking", "Sparte" ],
+            "good_answer" : "Baracus"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/sergent_bosco_albert_baracuda_baracus.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/sergent_bosco_albert_baracuda_baracus.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_a_team/sergent_bosco_albert_baracuda_baracus.jpg" ],
+            "wrong_answers" : [ "Christopher Swann", "Dominic Steve", "Jake Derrick" ],
+            "good_answer" : "Bosco Albert"
+        },
+        {
+            "question" : "Quel est le pseudonyme de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/sergent_bosco_albert_baracuda_baracus.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/sergent_bosco_albert_baracuda_baracus.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_a_team/sergent_bosco_albert_baracuda_baracus.jpg" ],
+            "wrong_answers" : [ "Hulk", "Mister T", "Piranha" ],
+            "good_answer" : "Barracuda"
+        },
+        {
+            "question" : "Quel est le grade de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/sergent_bosco_albert_baracuda_baracus.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/sergent_bosco_albert_baracuda_baracus.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_a_team/sergent_bosco_albert_baracuda_baracus.jpg" ],
+            "wrong_answers" : [ "Lieutenant", "Capitaine", "Colonel" ],
+            "good_answer" : "Sergent"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/lieutenant_templeton_fute_peck.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/lieutenant_templeton_fute_peck.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_a_team/lieutenant_templeton_fute_peck.jpg" ],
+            "wrong_answers" : [ "Banks", "Murdock", "Wilson" ],
+            "good_answer" : "Peck"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/lieutenant_templeton_fute_peck.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/lieutenant_templeton_fute_peck.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_a_team/lieutenant_templeton_fute_peck.jpg" ],
+            "wrong_answers" : [ "Desmond", "Harold", "Ian" ],
+            "good_answer" : "Templeton"
+        },
+        {
+            "question" : "Quel est le pseudonyme de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/lieutenant_templeton_fute_peck.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/lieutenant_templeton_fute_peck.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_a_team/lieutenant_templeton_fute_peck.jpg" ],
+            "wrong_answers" : [ "Cerveau", "Looping", "Playboy" ],
+            "good_answer" : "Futé"
+        },
+        {
+            "question" : "Quel est le grade de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/lieutenant_templeton_fute_peck.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/lieutenant_templeton_fute_peck.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_a_team/lieutenant_templeton_fute_peck.jpg" ],
+            "wrong_answers" : [ "Sergent", "Capitaine", "Colonel" ],
+            "good_answer" : "Lieutenant"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/colonel_john_hannibal_smith.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/colonel_john_hannibal_smith.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_a_team/colonel_john_hannibal_smith.jpg" ],
+            "wrong_answers" : [ "Barca", "Lecter", "Quinn" ],
+            "good_answer" : "Smith"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/colonel_john_hannibal_smith.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/colonel_john_hannibal_smith.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_a_team/colonel_john_hannibal_smith.jpg" ],
+            "wrong_answers" : [ "Jake", "James", "Joey" ],
+            "good_answer" : "John"
+        },
+        {
+            "question" : "Quel est le pseudonyme de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/colonel_john_hannibal_smith.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/colonel_john_hannibal_smith.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_a_team/colonel_john_hannibal_smith.jpg" ],
+            "wrong_answers" : [ "Baal", "Cesar", "Dexter" ],
+            "good_answer" : "Hannibal"
+        },
+        {
+            "question" : "Quel est le grade de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/colonel_john_hannibal_smith.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/colonel_john_hannibal_smith.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_a_team/colonel_john_hannibal_smith.jpg" ],
+            "wrong_answers" : [ "Sergent", "Capitaine", "Lieutenant" ],
+            "good_answer" : "Colonel"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/capitaine_henry_looping_murdock.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/capitaine_henry_looping_murdock.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_a_team/capitaine_henry_looping_murdock.jpg" ],
+            "wrong_answers" : [ "Faraday", "Gale", "Littleton" ],
+            "good_answer" : "Murdock"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/capitaine_henry_looping_murdock.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/capitaine_henry_looping_murdock.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_a_team/capitaine_henry_looping_murdock.jpg" ],
+            "wrong_answers" : [ "Angel", "Cody", "Scott" ],
+            "good_answer" : "Henry"
+        },
+        {
+            "question" : "Quel est le pseudonyme de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/capitaine_henry_looping_murdock.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/capitaine_henry_looping_murdock.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_a_team/capitaine_henry_looping_murdock.jpg" ],
+            "wrong_answers" : [ "Cornichon", "Futé", "Simplet" ],
+            "good_answer" : "Looping"
+        },
+        {
+            "question" : "Quel est le grade de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/capitaine_henry_looping_murdock.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/capitaine_henry_looping_murdock.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_a_team/capitaine_henry_looping_murdock.jpg" ],
+            "wrong_answers" : [ "Sergent", "Colonel", "Lieutenant" ],
+            "good_answer" : "Capitaine"
+        },
+        {
+            "question" : "Quel est le modèle de la camionnette ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/l_agence_tout_risques.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_a_team/l_agence_tout_risques.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_a_team/the_a_team_van.jpg" ],
+            "wrong_answers" : [ "DMC-12", "Ectomobile-1", "HUM Torpedo" ],
+            "good_answer" : "GMC Vandura"
+        }
+    ]
+}
+    

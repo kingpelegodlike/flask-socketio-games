@@ -1,0 +1,306 @@
+{
+    "topic": "MALCOLM",
+    "categories": [ "Adults", "Teenagers" ],
+    "generation_min": "2010s",
+    "generation_max": "1990s",
+    "questions": [
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/abe_kenarban_actor_gary_anthony_williams.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/abe_kenarban_actor_gary_anthony_williams.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/abe_kenarban_actor_gary_anthony_williams.jpg" ],
+            "wrong_answers" : [ "Craig Feldspar", "Kevin", "Stevie Kenarban" ],
+            "good_answer" : "Abe Kenarban"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/caroline_miller_actor_catherine_lloyd_burns.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/caroline_miller_actor_catherine_lloyd_burns.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/caroline_miller_actor_catherine_lloyd_burns.jpg" ],
+            "wrong_answers" : [ "Cynthia Watts", "Gretchen Mannkusser", "Jessica Folwing" ],
+            "good_answer" : "Caroline Miller"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/chad_actor_cameron_monaghan.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/chad_actor_cameron_monaghan.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/chad_actor_cameron_monaghan.jpg" ],
+            "wrong_answers" : [ "Abe", "Craig", "Stevie" ],
+            "good_answer" : "Chad"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/craig_feldspar_actor_david_anthony_higgins.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/craig_feldspar_actor_david_anthony_higgins.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/craig_feldspar_actor_david_anthony_higgins.jpg" ],
+            "wrong_answers" : [ "Abe Kenarban", "Dabney Hooper", "Stevie Taylor" ],
+            "good_answer" : "Craig Feldspar"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/cynthia_sanders_actor_tania_raymonde.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/cynthia_sanders_actor_tania_raymonde.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/cynthia_sanders_actor_tania_raymonde.jpg" ],
+            "wrong_answers" : [ "Alex", "Caroline", "Kitty" ],
+            "good_answer" : "Cynthia"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/dabney_sullivan_actor_kyle_sullivan.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/dabney_sullivan_actor_kyle_sullivan.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/dabney_sullivan_actor_kyle_sullivan.jpg" ],
+            "wrong_answers" : [ "Kevin", "Kyle", "Lloyd" ],
+            "good_answer" : "Dabney"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/dewey_erik_per_sullivan.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/dewey_erik_per_sullivan.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/dewey_erik_per_sullivan.jpg" ],
+            "wrong_answers" : [ "Francis", "Malcolm", "Reese" ],
+            "good_answer" : "Dewey"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/edwin_spangler_actor_daniel_von_bargen.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/edwin_spangler_actor_daniel_von_bargen.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/edwin_spangler_actor_daniel_von_bargen.jpg" ],
+            "wrong_answers" : [ "George Minkowski", "Lloyd Bowler", "Parker Scavo" ],
+            "good_answer" : "Edwin Spangler"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/eric_hanson_actor_eric_nenninger.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/eric_hanson_actor_eric_nenninger.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/eric_hanson_actor_eric_nenninger.jpg" ],
+            "wrong_answers" : [ "Barney", "Malcom", "Reese" ],
+            "good_answer" : "Francis"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/francis_actor_christopher_masterson.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/francis_actor_christopher_masterson.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/francis_actor_christopher_masterson.jpg" ],
+            "wrong_answers" : [ "Barney", "Francis", "William" ],
+            "good_answer" : "Eric"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/gretchen_mannkusser_actor_meagen_fay.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/gretchen_mannkusser_actor_meagen_fay.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/gretchen_mannkusser_actor_meagen_fay.jpg" ],
+            "wrong_answers" : [ "Heïdi Vonbrutt", "Leslie Arzt", "Norma Harper" ],
+            "good_answer" : "Gretchen Mannkusser"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/hal_actor_bryan_cranston.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/hal_actor_bryan_cranston.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/hal_actor_bryan_cranston.jpg" ],
+            "wrong_answers" : [ "Francis", "Reese", "Walter" ],
+            "good_answer" : "Hal"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/david_hanson_actor_danny_mc_carthy.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/david_hanson_actor_danny_mc_carthy.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/david_hanson_actor_danny_mc_carthy.jpg" ],
+            "wrong_answers" : [ "Craig", "Peter", "Steevie" ],
+            "good_answer" : "Hanson"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/ida_welker.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/ida_welker.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/ida_welker.jpg" ],
+            "wrong_answers" : [ "Caroline Miller", "Kitty Kenarban", "Lois Stark" ],
+            "good_answer" : "Ida Kenzel"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/jamie_wilkerson.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/jamie_wilkerson.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/jamie_wilkerson.jpg" ],
+            "wrong_answers" : [ "Dewey", "Francis", "Reese" ],
+            "good_answer" : "Jamie"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/jessica_actor_hayden_pannetiere.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/jessica_actor_hayden_pannetiere.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/jessica_actor_hayden_pannetiere.jpg" ],
+            "wrong_answers" : [ "Cynthia", "Jamie", "Lois" ],
+            "good_answer" : "Jessica"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/stevie_kenarban_actor_craig_lamar_traylor.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/stevie_kenarban_actor_craig_lamar_traylor.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/stevie_kenarban_actor_craig_lamar_traylor.jpg" ],
+            "wrong_answers" : [ "Abe", "Kevin", "Marco" ],
+            "good_answer" : "Stevie"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/kitty_kenarban_actor_merrin_dungey.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/kitty_kenarban_actor_merrin_dungey.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/kitty_kenarban_actor_merrin_dungey.jpg" ],
+            "wrong_answers" : [ "Cynthia Miller", "Gretchen Mannkusser", "Lois Lane" ],
+            "good_answer" : "Kitty Kenarban"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/kyle_actor_will_jennings.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/kyle_actor_will_jennings.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/kyle_actor_will_jennings.jpg" ],
+            "wrong_answers" : [ "Dewey", "Kevin", "Reese" ],
+            "good_answer" : "Kyle"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/lionel_herkabe_actor_chris_eigeman.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/lionel_herkabe_actor_chris_eigeman.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/lionel_herkabe_actor_chris_eigeman.jpg" ],
+            "wrong_answers" : [ "Edwin Spangler", "Henry Gale", "Orson Hodge" ],
+            "good_answer" : "Lionel Herkabe"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/lloyd_actor_evan_matthew_cohen.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/lloyd_actor_evan_matthew_cohen.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/lloyd_actor_evan_matthew_cohen.jpg" ],
+            "wrong_answers" : [ "Dewey", "Kevin", "Kyle" ],
+            "good_answer" : "Lloyd"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/lois_wilkerson_actor_jane_frances_kaczmarek.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/lois_wilkerson_actor_jane_frances_kaczmarek.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/lois_wilkerson_actor_jane_frances_kaczmarek.jpg" ],
+            "wrong_answers" : [ "Caroline", "Jamie", "Jessica" ],
+            "good_answer" : "Lois"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/malcolm__actor_frankie_muniz.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/malcolm__actor_frankie_muniz.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/malcolm__actor_frankie_muniz.jpg" ],
+            "wrong_answers" : [ "Dewey", "Francis", "Reese" ],
+            "good_answer" : "Malcolm"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/otto_mannkusser_actor_kenneth_mars.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/otto_mannkusser_actor_kenneth_mars.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/otto_mannkusser_actor_kenneth_mars.jpg" ],
+            "wrong_answers" : [ "Danny Bolen", "Edwin Spangler", "Seth Norris" ],
+            "good_answer" : "Otto Mannkusser"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/piama_tananahaakna_actor_emy_coligado.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/piama_tananahaakna_actor_emy_coligado.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/piama_tananahaakna_actor_emy_coligado.jpg" ],
+            "wrong_answers" : [ "Caroline Miller", "Cynthia Scott", "Gretchen Mannkusser" ],
+            "good_answer" : "Piama Tananahaakna"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/polly_actor_julie_hagerty.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/polly_actor_julie_hagerty.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/polly_actor_julie_hagerty.jpg" ],
+            "wrong_answers" : [ "Caroline Miller", "Cynthia", "Jessica" ],
+            "good_answer" : "Polly"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/reese_actor_justin_berfield.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm/reese_actor_justin_berfield.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm/reese_actor_justin_berfield.jpg" ],
+            "wrong_answers" : [ "Dewey", "Francis", "Jamie" ],
+            "good_answer" : "Reese"
+        }
+    ]
+}
+    

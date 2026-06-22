@@ -1,0 +1,163 @@
+{
+    "topic": "Animes des années 90",
+    "categories": [ "Elders", "Adults" ],
+    "generation_min": "2000s",
+    "generation_max": "1980s",
+    "questions": [
+        {
+            "question" : "De quel anime viens ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/gto_onizuka.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/gto_onizuka.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/gto_logo.jpg" ],
+            "wrong_answers" : [ "Fruits basket", "Hunter x Hunter", "Golden Boy" ],
+            "good_answer" : "GTO"
+        },
+        {
+            "question" : "De quel anime viens ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/sailor_moon.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/sailor_moon.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/sailor_moon_cover.jpg" ],
+            "wrong_answers" : [ "Gigi", "Slayers", "Emi magique" ],
+            "good_answer" : "Sailor Moon"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage de 'Porco Rosso' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/porco_rosso_marco.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/porco_rosso_marco.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/porco_rosso_marco.jpg" ],
+            "wrong_answers" : [ "Julio", "Paulo", "Angelo" ],
+            "good_answer" : "Marco"
+        },
+        {
+            "question" : "Quel acteur double ce personnage dans la VF de 'Porco Rosso' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/porco_rosso_marco.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/porco_rosso_marco.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/porco_rosso_marco.jpg" ],
+            "wrong_answers" : [ "Claude Brasseur", "Jean Rochefort", "Vincent Cassel" ],
+            "good_answer" : "Jean Reno"
+        },
+        {
+            "question" : "Comment s'appelle le jeune pilote de l'EVA-01 dans Neon Genesis Evangelion ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "wrong_answers" : [ "Spike Spiegel", "Yusuke Urameshi", "Shinichi Kudo" ],
+            "good_answer" : "Shinji Ikari"
+        },
+        {
+            "question" : "Quel est le nom du vaisseau spatial de Spike Spiegel dans Cowboy Bebop ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "wrong_answers" : [ "Going Merry", "Outlaw Star", "White Base" ],
+            "good_answer" : "Bebop"
+        },
+        {
+            "question" : "Quel Pokémon est le premier compagnon de Sacha à entrer dans sa Pokéball ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "wrong_answers" : [ "Salamèche", "Carapuce", "Bulbizarre" ],
+            "good_answer" : "Pikachu"
+        },
+        {
+            "question" : "Quel petit animal ailé jaune guide Sakura dans sa quête des cartes dans Cardcaptor Sakura ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "wrong_answers" : [ "Luna", "Mokona", "Happy" ],
+            "good_answer" : "Kerobero"
+        },
+        {
+            "question" : "Quel est le vrai nom du détective victime du poison qui l'a transformé en Conan Edogawa ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "wrong_answers" : [ "Heiji Hattori", "Kaito Kuroba", "Suguru Kinniku" ],
+            "good_answer" : "Shinichi Kudo"
+        },
+        {
+            "question" : "Quel est le surnom du tireur Vash the Stampede dans l'anime Trigun ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "wrong_answers" : [ "Le Faucheur d'âmes", "L'Éclair noir", "Le Chasseur de primes" ],
+            "good_answer" : "Le Typhon humanoïde"
+        },
+        {
+            "question" : "Quelle est la voiture pilotée par Takumi Fujiwara pour livrer le tofu dans Initial D ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "wrong_answers" : [ "Nissan Skyline GTR", "Mazda RX-7", "Honda Civic" ],
+            "good_answer" : "Toyota AE86"
+        },
+        {
+            "question" : "Quelle est la spécificité unique du sabre de Kenshin Himura dans Kenshin le Vagabond ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "wrong_answers" : [ "Il est en bois", "Il est invisible", "Il a deux lames" ],
+            "good_answer" : "Il a une lame inversée"
+        },
+        {
+            "question" : "Quelle fonction Yusuke Urameshi occupe-t-il après avoir été ressuscité au début de Yu Yu Hakusho ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "wrong_answers" : [ "Chasseur de primes", "Exorciste impérial", "Faucheur de vœux" ],
+            "good_answer" : "Détective du monde des esprits"
+        },
+        {
+            "question" : "Dans quel sport Hanamichi Sakuragi tente d'impressionner Haruko dans Slam Dunk ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/quizz_animes_annees_1990.jpg" ],
+            "wrong_answers" : [ "Le Football", "Le Baseball", "Le Volley-ball" ],
+            "good_answer" : "Le Basket-ball"
+        }
+    ]
+}
+    

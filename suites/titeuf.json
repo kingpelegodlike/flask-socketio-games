@@ -1,0 +1,108 @@
+{
+    "topic": "TITEUF",
+    "categories": [ "Teenagers" ],
+    "generation_min": "Youngers",
+    "generation_max": "2000s",
+    "questions": [
+        {
+            "question" : "Comment s'appelle le dessinateur de Titeuf ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "wrong_answers" : [ "Zip", "Zup", "Zap" ],
+            "good_answer" : "Zep"
+        },
+        {
+            "question" : "Titeuf porte ce nom car sa tête est ronde comme :",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "wrong_answers" : [ "Un boeuf", "Un ballon", "Une roue" ],
+            "good_answer" : "Un oeuf"
+        },
+        {
+            "question" : "Le meilleur copain de Titeuf s'appelle :",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "wrong_answers" : [ "Jeannot", "Freddy", "Freddy" ],
+            "good_answer" : "Manu"
+        },
+        {
+            "question" : "Quel est l'âge éternel de Titeuf et de ses copains ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "wrong_answers" : [ "5 ans", "6 ans", "7 ans" ],
+            "good_answer" : "8 ans"
+        },
+        {
+            "question" : "Il existe combien de tomes de Titeuf ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "wrong_answers" : [ "100", "50", "20" ],
+            "good_answer" : "10"
+        },
+        {
+            "question" : "Quel est le nom du guide 'éducatif' de Titeuf sur la sexualité ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "wrong_answers" : [ "Le guide du sexe", "Le guide du zizi", "Le guide du panpan-cucul" ],
+            "good_answer" : "Le guide du zizi sexuel"
+        },
+        {
+            "question" : "Comment s'appelle la fille dont Titeuf est amoureux ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "wrong_answers" : [ "Tania", "Sarah", "Léa" ],
+            "good_answer" : "Nadia"
+        },
+        {
+            "question" : "Quelle est la langue dans laquelle Titeuf ne parle pas encore ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "wrong_answers" : [ "L'espagnol", "Le coréen", "Le portugais" ],
+            "good_answer" : "Le japonais"
+        },
+        {
+            "question" : "Quelle phrase est répétée à longueur d’épisodes par Titeuf ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/titeuf/titeuf.jpg" ],
+            "wrong_answers" : [ "J'ai le seum", "C'est parti mon kiki", "J'tai cassé" ],
+            "good_answer" : "C'est pô juste"
+        }
+    ]
+}
+    

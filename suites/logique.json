@@ -1,0 +1,152 @@
+{
+    "topic": "LOGIQUE",
+    "categories": [ "All" ],
+    "generation_min": "Teenagers",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "Quelle forme faut-il pour compléter cette suite logique ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 20,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/logique/forme.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/logique/forme.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/logique/forme.jpg" ],
+            "wrong_answers" : [ "Forme A", "Forme C", "Forme D" ],
+            "good_answer" : "Forme B"
+        },
+        {
+            "question" : "Quelle forme faut-il ajouter à cette roue pour suivre la logique ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 20,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/logique/forme_roue.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/logique/forme_roue.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/logique/forme_roue.jpg" ],
+            "wrong_answers" : [ "Forme A", "Forme B", "Forme D" ],
+            "good_answer" : "Forme C"
+        },
+        {
+            "question" : "Combien de carrés pouvez-vous compter au maximum dans cette forme ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 20,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/logique/forme_nb_carres.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/logique/forme_nb_carres.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/logique/forme_nb_carres.jpg" ],
+            "wrong_answers" : [ "10", "12", "13" ],
+            "good_answer" : "11"
+        },
+        {
+            "question" : "Combien de triangles pouvez-vous compter au maximum dans cette image ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 20,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/logique/forme_nb_triangles.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/logique/forme_nb_triangles.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/logique/forme_nb_triangles.jpg" ],
+            "wrong_answers" : [ "14", "16", "15" ],
+            "good_answer" : "17"
+        },
+        {
+            "question" : "Quelle lettre faut-il ajouter pour compléter cette suite logique: E I M Q _ ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 20,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/quiz_logique.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/quiz_logique.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/quiz_logique.jpg" ],
+            "wrong_answers" : [ "P", "N", "S" ],
+            "good_answer" : "U"
+        },
+        {
+            "question" : "Quel est le domino manquant pour suivre la logique ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 20,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/logique/domino_manquant.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/logique/domino_manquant.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/logique/domino_manquant.jpg" ],
+            "wrong_answers" : [ "Domino A", "Domino D", "Domino C" ],
+            "good_answer" : "Domino B"
+        },
+        {
+            "question" : "Quelle lettre faut-il ajouter pour continuer cette suite logique : A B E C I D _ ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 20,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/quiz_logique.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/quiz_logique.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/quiz_logique.jpg" ],
+            "wrong_answers" : [ "F", "C", "U" ],
+            "good_answer" : "O"
+        },
+        {
+            "question" : "Quelle est la valeur du point d'interrogation pour suivre la logique ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 20,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/logique/valeur_point_interrogation.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/logique/valeur_point_interrogation.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/logique/valeur_point_interrogation.jpg" ],
+            "wrong_answers" : [ "2", "3", "4" ],
+            "good_answer" : "1"
+        },
+        {
+            "question" : "En suivant la logique, lequel des montages photo est l'intrus ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 20,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/logique/intrus_montage.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/logique/intrus_montage.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/logique/intrus_montage.jpg" ],
+            "wrong_answers" : [ "Photo A", "Photo B", "Photo C" ],
+            "good_answer" : "Photo D"
+        },
+        {
+            "question" : "Quelle est la lettre manquante dans cette suite : N _ S E Q X T ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 20,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/quiz_logique.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/quiz_logique.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/quiz_logique.jpg" ],
+            "wrong_answers" : [ "P", "A", "G" ],
+            "good_answer" : "X"
+        },
+        {
+            "question" : "Si un a 2, si trois a 5 et si quatre a 6, alors combien a six ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 20,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/quiz_logique.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/quiz_logique.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/quiz_logique.jpg" ],
+            "wrong_answers" : [ "6", "4", "5" ],
+            "good_answer" : "3"
+        },
+        {
+            "question" : "Quel est le mot caché derrière ce code ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 20,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/logique/mot_cache_code.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/logique/mot_cache_code.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/logique/mot_cache_code.jpg" ],
+            "wrong_answers" : [ "ECOEURE", "DANDIDE", "GALOPER" ],
+            "good_answer" : "FARFELU"
+        },
+        {
+            "question" : "Quel est le mot caché derrière ce code ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 20,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/logique/lettre_point_interrogation.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/logique/lettre_point_interrogation.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/logique/lettre_point_interrogation.jpg" ],
+            "wrong_answers" : [ "K", "N", "Q" ],
+            "good_answer" : "O"
+        }
+    ]
+}
+    

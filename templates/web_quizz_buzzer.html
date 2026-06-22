@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+  
+<html>
+<head>
+    <title>BUZZER BUZZ!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style_gemini.css') }}"> 
+    
+    <script type="text/javascript" src="{{ url_for('static',filename='dist/libs/jquery.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static',filename='dist/libs/socket.io.min.js') }}"></script>
+    
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function() {
+            // Le code JavaScript est conservé car il gère la logique Socket.IO et les états 'disabled'/'border-color'.
+            // Seuls les sélecteurs CSS (IDs) sont pertinents pour la mise à jour visuelle.
+            namespace = '/buz';
+            var socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port + namespace);
+            
+            var play_timeout = 10000;
+            var name = "unknown";
+            var status = "deactiv_buttons";
+            var answer = "aucune";
+            var timeout_var_function;
+            var start_time;
+            var endTime;
+            
+            getParameterByName('new_name', 'generation');
+            
+            socket.on('my_response', function(msg) {
+                console.log("receveive ", msg.action);
+                
+                // Fonctions d'aide (conservées et adaptées aux nouveaux styles si nécessaire)
+                function deactivateAndStylize(action) {
+                    $('#bouton1, #bouton2, #bouton3, #bouton4, #bouton5').attr('disabled','disabled');
+                    $('#bouton1, #bouton2, #bouton3, #bouton4, #bouton5').css('border-color','White').css('opacity', '0.5'); 
+                    status = action;
+                    console.log("status is ", status);
+                }
+
+                function activateAndReset(action) {
+                    $('#bouton1, #bouton2, #bouton3, #bouton4, #bouton5').removeAttr('disabled').css('opacity', '1');
+                    $('#bouton1').css('border-color', '#D93F3F'); 
+                    $('#bouton2').css('border-color', '#4C8AF8'); 
+                    $('#bouton3').css('border-color', '#FFA500'); 
+                    $('#bouton4').css('border-color', '#4CAF50'); 
+                    $('#bouton5').css('border-color', '#FFD700'); 
+                    status = action;
+                    console.log("status is ", status);
+                }
+
+                // ... (Le reste de la logique socket.on('my_response') est inchangé) ...
+                 if ( msg.action == "activ_all_buttons" || msg.action == "get_players" ) {
+                    activateAndReset(msg.action);
+                }
+                else if ( msg.action == "activ_buttons" ) {
+                    $('#bouton2, #bouton3, #bouton4, #bouton5').removeAttr('disabled').css('opacity', '1');
+                    $('#bouton2').css('border-color', '#4C8AF8'); 
+                    $('#bouton3').css('border-color', '#FFA500'); 
+                    $('#bouton4').css('border-color', '#4CAF50'); 
+                    $('#bouton5').css('border-color', '#FFD700');
+                    status = msg.action;
+                    console.log("status is ", status);
+                }
+                else if ( msg.action == "next_question" ) {
+                    console.log("receveive my_response with action:" + msg.action + " and answer:"+answer);
+                    $('#bouton2, #bouton3, #bouton4, #bouton5').removeAttr('disabled').css('opacity', '1');
+                    $('#bouton2').css('border-color', '#4C8AF8'); 
+                    $('#bouton3').css('border-color', '#FFA500'); 
+                    $('#bouton4').css('border-color', '#4CAF50'); 
+                    $('#bouton5').css('border-color', '#FFD700');
+                    $('#bouton1').attr('disabled','disabled').css('border-color','White').css('opacity', '0.5'); // Le bouton 1 reste désactivé
+                    
+                    status = msg.action;
+                    answer = ('answer' in msg) ? msg.answer : "aucune";
+                    play_timeout = ('timeout' in msg) ? msg.timeout : 10000;
+                    console.log("status is ", status);
+                    timeout_var_function = setTimeout(timeoutFunction, play_timeout);
+                    start_time = new Date();
+                    endTime = new Date(start_time.getTime() + play_timeout);
+                    console.log("start time is ", start_time);
+                    console.log("end time is ", endTime);
+                }
+                else if ( msg.action == "clear_timeout" ) {
+                    console.log("receveive my_response with action:" + msg.action);
+                    clearTimeout(timeout_var_function);
+                    timeoutFunction();
+                }
+                else if ( msg.action == "deactiv_buttons" || msg.action == "end_game" ) {
+                    deactivateAndStylize(msg.action == "end_game" ? "get_players" : msg.action);
+                }
+                else if ( msg.action == "new_game" ) {
+                    var new_location = "web_quizz_login";
+                    window.location.href=new_location;
+                    return false;
+                }
+                else if ( msg.action == "deactiv_button1" ) {
+                    $('#bouton1').attr('disabled','disabled').css('border-color','White').css('opacity', '0.5');
+                    console.log("status is ", status);
+                }
+                else if ( msg.action == "deactiv_button2" ) {
+                    $('#bouton2').attr('disabled','disabled').css('border-color','White').css('opacity', '0.5');
+                    console.log("status is ", status);
+                }
+                else if ( msg.action == "player_ready" ) {
+                    deactivateAndStylize(msg.action);
+                    $('#bouton1').removeAttr('disabled').css('border-color','#D93F3F').css('opacity', '1'); 
+                }
+                else if ( msg.action == "display_topic" ) {
+                    console.log("receveive my_response with action:" + msg.action);
+                    deactivateAndStylize(msg.action);
+                    $('#bouton2, #bouton3, #bouton4, #bouton5').removeAttr('disabled').css('opacity', '1');
+                    $('#bouton2').css('border-color', '#4C8AF8'); 
+                    $('#bouton3').css('border-color', '#FFA500'); 
+                    $('#bouton4').css('border-color', '#4CAF50'); 
+                    $('#bouton5').css('border-color', '#FFD700');
+                    
+                    play_timeout = ('timeout' in msg) ? msg.timeout : 10000;
+                    timeout_var_function = setTimeout(timeoutFunction, play_timeout);
+                    start_time = new Date();
+                    endTime = new Date(start_time.getTime() + play_timeout);
+                }
+                // ... (Fin de la logique socket.on('my_response')) ...
+
+                $('#bouton1').text(('b1' in msg) ? msg.b1 : "ROUGE");
+                $('#bouton2').text(('b2' in msg) ? msg.b2 : "BLEU");
+                $('#bouton3').text(('b3' in msg) ? msg.b3 : "ORANGE");
+                $('#bouton4').text(('b4' in msg) ? msg.b4 : "VERT");
+                $('#bouton5').text(('b5' in msg) ? msg.b5 : "JAUNE");
+            });
+            
+            // ... (Le reste du code JS est inchangé) ...
+            
+            socket.on('disable_button', function(msg) {
+                console.log("disable button number ", msg.number);
+                if ( msg.number == "1" ) {
+                    $('#bouton1').attr('disabled','disabled').css('border-color','White').css('opacity', '0.5');
+                } else if ( msg.number == "2" ) {
+                    $('#bouton2').attr('disabled','disabled').css('border-color','White').css('opacity', '0.5');
+                } else if ( msg.number == "3" ) {
+                    $('#bouton3').attr('disabled','disabled').css('border-color','White').css('opacity', '0.5');
+                } else if ( msg.number == "4" ) {
+                    $('#bouton4').attr('disabled','disabled').css('border-color','White').css('opacity', '0.5');
+                } else if ( msg.number == "5" ) {
+                    $('#bouton5').attr('disabled','disabled').css('border-color','White').css('opacity', '0.5');
+                } else {
+                    console.log("unknown button number");
+                }
+            });
+            
+            document.body.addEventListener("click", event => {
+                if (event.target.nodeName == "BUTTON") {
+                    console.log("Clicked", event.target.id);
+                    if ( (event.target.id == "bouton5") && (status == "get_players") ) {
+                        deactivateAndStylize("deactiv_buttons");
+                    }
+                    if ( (event.target.id != "bouton5") && (status == "get_players") ) {
+                        name = $(event.target).text();
+                    }
+                    if ( (event.target.id == "bouton1") && (status == "player_ready") ) {
+                        $('#bouton1').attr('disabled','disabled');
+                    }
+                    if ( (status == "next_question") || (status == "display_topic") ) {
+                        // Désactiver tous les boutons et appliquer une bordure grise (attente)
+                        $('#bouton1, #bouton2, #bouton3, #bouton4, #bouton5').attr('disabled','disabled').css('opacity', '0.5');
+                        $('#bouton1, #bouton2, #bouton3, #bouton4, #bouton5').css('border-color','LightGrey');
+                        
+                        // Mettre le bouton cliqué en blanc (feedback visuel immédiat)
+                        $(event.target).css('border-color','White').css('opacity', '1');
+                        
+                        start_time = new Date();
+                        var timeDiff = endTime - start_time;
+                        var play_time = ((play_timeout - timeDiff) / 1000).toFixed(3);
+                    }
+                    socket.emit('bouton_click_event', {data: event.target.id, time: play_time, name: name, status: status});
+                }
+            });
+            function timeoutFunction() {
+                console.log("trigger timeoutFunction with answer:" + answer);
+                $('#bouton1, #bouton2, #bouton3, #bouton4, #bouton5').attr('disabled','disabled').css('opacity', '0.5');
+                $('#bouton1, #bouton2, #bouton3, #bouton4, #bouton5').css('border-color','LightGrey');
+                
+                // Mettre la bordure en ROUGE pour la bonne réponse (le CSS gère l'effet lumineux)
+                if (answer == "bouton1") $('#bouton1').css('border-color','Red').css('opacity', '1');
+                if (answer == "bouton2") $('#bouton2').css('border-color','Red').css('opacity', '1');
+                if (answer == "bouton3") $('#bouton3').css('border-color','Red').css('opacity', '1');
+                if (answer == "bouton4") $('#bouton4').css('border-color','Red').css('opacity', '1');
+                if (answer == "bouton5") $('#bouton5').css('border-color','Red').css('opacity', '1');
+            }
+            function sleepFunction() {
+                console.log("trigger sleepFunction with answer:" + answer);
+                if (answer == "bouton1") $('#bouton1').css('border-color','Red');
+                if (answer == "bouton2") $('#bouton2').css('border-color','Red');
+                if (answer == "bouton3") $('#bouton3').css('border-color','Red');
+                if (answer == "bouton4") $('#bouton4').css('border-color','Red');
+                if (answer == "bouton5") $('#bouton5').css('border-color','Red');
+            }
+            function getParameterByName(new_name, new_generation, url) {
+                if (!url) url = window.location.href;
+                new_name = new_name.replace(/[\[\]]/g, '\\$&');
+                var regex = new RegExp('[?&]' + new_name + '(=([^&#]*)|&|#|$)'),
+                    results = regex.exec(url);
+                if (!results) return null;
+                if (!results[2]) return '';
+                name = decodeURIComponent(results[2].replace(/\+/g, ' '));
+                new_generation = new_generation.replace(/[\[\]]/g, '\\$&');
+                var regex = new RegExp('[?&]' + new_generation + '(=([^&#]*)|&|#|$)'),
+                    results = regex.exec(url);
+                if (!results) return null;
+                if (!results[2]) return '';
+                generation = decodeURIComponent(results[2].replace(/\+/g, ' '));
+                var rtn = url.split("?")[0];
+                window.history.pushState({}, document.title, rtn);
+                window.history.replaceState({}, document.title, rtn);
+                socket.emit('add_player', {name: name, generation: generation});
+                return '';
+            }
+        });
+    </script>
+
+</head>
+<body>
+    <div class="circular-buzzer">
+        <button type="button" disabled id="bouton1">ROUGE</button>
+    </div>
+    
+    <div class="rectangular-buzzers">
+        <button type="button" disabled id="bouton2">BLEU</button>
+        <button type="button" disabled id="bouton3">ORANGE</button>
+        <button type="button" disabled id="bouton4">VERT</button>
+        <button type="button" disabled id="bouton5">JAUNE</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,119 @@
+{
+    "topic": "BISOUNOURS",
+    "categories": [ "All" ],
+    "generation_min": "2000s",
+    "generation_max": "1970s",
+    "questions": [
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/bisounours/grognon.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/bisounours/grognon.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/bisounours/grognon.jpg" ],
+            "wrong_answers" : [ "Grossaverse", "Gropleureur", "Grosdodo" ],
+            "good_answer" : "Grognon"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/bisounours/grosbisou.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/bisounours/grosbisou.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/bisounours/grosbisou.jpg" ],
+            "wrong_answers" : [ "Groscalin", "Groscopain", "Grosjojo" ],
+            "good_answer" : "Grosbisou"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/bisounours/groscheri.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/bisounours/groscheri.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/bisounours/groscheri.jpg" ],
+            "wrong_answers" : [ "Grosbisou", "Grosgniasse", "Grosjojo" ],
+            "good_answer" : "Groschéri"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/bisounours/groscopain.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/bisounours/groscopain.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/bisounours/groscopain.jpg" ],
+            "wrong_answers" : [ "Grosfarceur", "Grosjojo", "Grossier" ],
+            "good_answer" : "Groscopain"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/bisounours/grosdodo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/bisounours/grosdodo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/bisounours/grosdodo.jpg" ],
+            "wrong_answers" : [ "Grognon", "Groscul", "Grosdormeur" ],
+            "good_answer" : "Grosdodo"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/bisounours/grosfarceur.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/bisounours/grosfarceur.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/bisounours/grosfarceur.jpg" ],
+            "wrong_answers" : [ "Grosjojo", "Grosmetroboulotdodo", "Grosveinard" ],
+            "good_answer" : "Grosfarceur"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/bisounours/grosgateau.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/bisounours/grosgateau.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/bisounours/grosgateau.jpg" ],
+            "wrong_answers" : [ "Grosfarceur", "Groschampion", "Grosgourmand" ],
+            "good_answer" : "Grosgâteau"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/bisounours/grosjojo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/bisounours/grosjojo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/bisounours/grosjojo.jpg" ],
+            "wrong_answers" : [ "Groschéri", "Grotesque", "Grosrayon" ],
+            "good_answer" : "Grosjojo"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/bisounours/grostaquin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/bisounours/grostaquin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/bisounours/grostaquin.jpg" ],
+            "wrong_answers" : [ "Grosveinard", "Grostendre", "Grosrayon" ],
+            "good_answer" : "Grostaquin"
+        },
+        {
+            "question" : "Quel est son nom ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/bisounours/grosveinard.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/bisounours/grosveinard.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/bisounours/grosveinard.jpg" ],
+            "wrong_answers" : [ "Grosbuveur", "Groscopain", "Grosecret" ],
+            "good_answer" : "Grosveinard"
+        }
+    ]
+}
+    

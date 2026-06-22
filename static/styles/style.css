@@ -1,0 +1,402 @@
+html,body{
+  height:100%;
+  margin:0;padding:0;
+}
+
+.table5x1 {
+    display: inline-table;
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+}
+
+.ligne {
+    display: table-row;
+}
+
+.cell {
+    border: 2px solid green;
+    display: table-cell;
+    padding:5px;
+    vertical-align: middle;
+    color:red;
+    font-size:32px;
+}
+
+#cell1, #cell2, #cell3, #cell4, #cell5 {
+    border: 2px solid green;
+    display: table-cell;
+    padding:5px;
+    vertical-align: middle;
+    color:red;
+    font-size:32px;
+    text-align: center;
+}
+
+#BOUTTONDIV {
+    text-align: center;
+}
+
+#bouton1, #bouton2, #bouton3, #bouton4, #bouton5{
+  vertical-align: middle;
+  font-size:32px;
+  width:100%;
+  height:20%;
+  border-width: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-color: black;
+}
+#bouton1, #bouton2, #bouton3, #bouton4, #bouton5:active {
+  box-shadow: 0 5px 0 #00823F;
+  top: 5px;
+}
+
+.players {
+    /* width: 50%; */
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 5px; */
+}
+
+.btn-group button {
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+
+.btn-group button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.players_table {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+.players_table, .players_caption, .players_th, .players_td {
+    border: 1px solid lightgrey;
+}
+
+.players_table, .players_caption {
+    height: 66px;
+    font-weight: bold;
+    font-size:60px;
+    padding-top: 5px;
+    border-bottom: none;
+}
+
+.players_th {
+    height: 60px;
+    font-weight: bold;
+    font-size:50px;
+    padding-top: 5px;
+    border-bottom: none;
+}
+
+.players_tr {
+    height: 33px;
+}
+
+.players_tr:nth-child(even) {
+    background-color: #f0f0f0
+}
+
+.player_red_displayed_tr {
+  background-color: #ff0000;
+}
+
+.player_blue_displayed_tr {
+  background-color: #0000ff;
+}
+
+.player_orange_displayed_tr {
+  background-color: #ff7700;
+}
+
+.player_green_displayed_tr {
+  background-color: #00ff00;
+}
+
+.player_yellow_displayed_tr {
+  background-color: #ffff00;
+}
+
+.players_td {
+    text-align: center;
+    font-weight:normal;
+    font-size:30px;
+}
+
+.players_body{
+  height:100%;
+  margin:0;padding:0;
+}
+
+.answers_label{
+    display: inline-block;
+    clear: left;
+    width: 100%;
+    border-style:solid;
+    border-width: 10px;
+    font-size:50px;
+    text-align: center;
+}
+.questionbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gamebox {
+  display: flex;
+  align-items: flex-start;
+  height: 640px;
+  justify-content: space-between;
+}
+.answerbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
+}
+
+.button-77 {
+  align-items: center;
+  appearance: none;
+  background-clip: padding-box;
+  background-color: initial;
+  background-image: none;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: Eina01,sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  justify-content: center;
+  line-height: 24px;
+  margin: 0;
+  min-height: 64px;
+  outline: none;
+  overflow: visible;
+  padding: 19px 26px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: auto;
+  word-break: keep-all;
+  z-index: 0;
+}
+
+@media (min-width: 768px) {
+  .button-77 {
+    padding: 19px 32px;
+  }
+}
+
+.button-77:before,
+.button-77:after {
+  border-radius: 80px;
+}
+
+.button-77:before {
+  background-color: rgba(249, 58, 19, .32);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+.button-77:after {
+  background-color: initial;
+  background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  bottom: 4px;
+  content: "";
+  display: block;
+  left: 4px;
+  overflow: hidden;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  transition: all 100ms ease-out;
+  z-index: -1;
+}
+
+.button-77:hover:not(:disabled):after {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition-timing-function: ease-in;
+}
+
+.button-77:active:not(:disabled) {
+  color: #ccc;
+}
+
+.button-77:active:not(:disabled):after {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  top: 4px;
+}
+
+.button-77:disabled {
+  cursor: default;
+  opacity: .24;
+}
+
+.myRow {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px;
+}
+
+:root {
+  --primary-bg: #f4f7f6;
+  --header-bg: #2c3e50;
+  --text-color: #333;
+  --up-color: #27ae60;
+  --down-color: #e74c3c;
+  --stable-color: #95a5a6;
+}
+
+.leaderboard-container {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 800px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: var(--header-bg);
+  color: white;
+}
+
+th, td {
+  padding: 15px 20px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+.rank {
+  font-weight: bold;
+  width: 50px;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+}
+
+.player-img {
+  width: 35px;
+  height: 35px;
+  background: #ddd;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+/* Styles de Progression */
+.progression {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.up { color: var(--up-color); }
+.down { color: var(--down-color); }
+.stable { color: var(--stable-color); }
+
+.icon {
+  margin-right: 5px;
+  font-size: 1.2em;
+}
+tbody tr {
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+/* Optionnel : effet de surbrillance quand une ligne bouge */
+.moving {
+  background-color: #e8f4fd !important;
+}
+
+/* Style pour les LED des buzzers */
+.led-indicator {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #444 0 -1px 9px, rgba(0, 0, 0, 0.1) 0 2px 12px;
+    vertical-align: middle;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+/* Un seul flash rapide */
+.led-on {
+    animation: led-single-flash 0.3s ease-out;
+}
+
+@keyframes led-single-flash {
+    0% {
+        background-color: #FF0000;
+        box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #600 0 -1px 9px, #F00 0 2px 12px;
+    }
+    100% {
+        background-color: #bbb;
+        box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #444 0 -1px 9px, rgba(0, 0, 0, 0.1) 0 2px 12px;
+    }
+}

@@ -1,0 +1,163 @@
+{
+    "topic": "NARUTO",
+    "categories": [ "All" ],
+    "generation_min": "2010s",
+    "generation_max": "1970s",
+    "questions": [
+        {
+            "question" : "A quel clan appartient ce dôjutsu ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/byakugan.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/byakugan.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/byakugan.jpg" ],
+            "wrong_answers" : [ "Nara", "Papaga", "Uchiwa" ],
+            "good_answer" : "Hyûga"
+        },
+        {
+            "question" : "Quel est ce dôjutsu ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/byakugan.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/byakugan.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/byakugan.jpg" ],
+            "wrong_answers" : [ "Gurrenlagan", "Rinnegan", "Sharingan‎" ],
+            "good_answer" : "Byakugan"
+        },
+        {
+            "question" : "Quel est ce dôjutsu ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/rinnegan.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/rinnegan.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/rinnegan.jpg" ],
+            "wrong_answers" : [ "Byakugan", "Spielvan", "Sharingan‎" ],
+            "good_answer" : "Rinnegan"
+        },
+        {
+            "question" : "A quel clan appartient ce dôjutsu ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/sharingan.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/sharingan.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/sharingan.jpg" ],
+            "wrong_answers" : [ "Sarutobi", "Yamanaka", "Inuzuka‎" ],
+            "good_answer" : "Uchiwa"
+        },
+        {
+            "question" : "Quel est ce dôjutsu ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/sharingan.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/sharingan.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/sharingan.jpg" ],
+            "wrong_answers" : [ "Byakugan", "Rinnegan", "Gurrenlagan‎" ],
+            "good_answer" : "Sharingan"
+        },
+        {
+            "question" : "A qui appartient ce Mangekyô Sharingan ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_itachi.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_itachi.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/mangekyo_sharingan_itachi.jpg" ],
+            "wrong_answers" : [ "Izuna", "Kakashi", "Madara‎" ],
+            "good_answer" : "Itachi"
+        },
+        {
+            "question" : "A qui appartient ce Mangekyô Sharingan ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_izuna.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_izuna.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/mangekyo_sharingan_izuna.jpg" ],
+            "wrong_answers" : [ "Obito", "Shisui", "Madara‎" ],
+            "good_answer" : "Izuna"
+        },
+        {
+            "question" : "A qui appartient ce Mangekyô Sharingan ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_kakashi.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_kakashi.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/mangekyo_sharingan_kakashi.jpg" ],
+            "wrong_answers" : [ "Itachi", "Izuna", "Madara‎" ],
+            "good_answer" : "Kakashi"
+        },
+        {
+            "question" : "A qui appartient ce Mangekyô Sharingan ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_madara.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_madara.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/mangekyo_sharingan_madara.jpg" ],
+            "wrong_answers" : [ "Izuna", "Kakashi", "Shisui‎" ],
+            "good_answer" : "Madara"
+        },
+        {
+            "question" : "A qui appartient ce Mangekyô Sharingan ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_sasuke.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_sasuke.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/mangekyo_sharingan_sasuke.jpg" ],
+            "wrong_answers" : [ "Izuna", "Itachi", "Madara‎" ],
+            "good_answer" : "Sasuke"
+        },
+        {
+            "question" : "Qui a réussi a obtenir un Mangekyô Sharingan éternel ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/eternal_mangekyo_sharingan_madara.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/eternal_mangekyo_sharingan_madara.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/eternal_mangekyo_sharingan_madara.jpg" ],
+            "wrong_answers" : [ "Sasuke", "Itachi", "Shisui‎" ],
+            "good_answer" : "Madara"
+        },
+        {
+            "question" : "A qui appartient ce Mangekyô Sharingan ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_shisui.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_shisui.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/mangekyo_sharingan_shisui.jpg" ],
+            "wrong_answers" : [ "Izuna", "Obito", "Madara‎" ],
+            "good_answer" : "Shisui"
+        },
+        {
+            "question" : "Comment acquiert-on le Mangekyô Sharingan ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/naruto_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/naruto_logo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/naruto_logo.jpg" ],
+            "wrong_answers" : [ "En devenant adulte", "Par entraînement", "Quand son père meurt‎" ],
+            "good_answer" : "En tuant un être cher"
+        },
+        {
+            "question" : "Qui est le mentor ninja de l'Équipe 7 au début de la série Naruto ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/naruto_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/naruto_logo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/naruto_logo.jpg" ],
+            "wrong_answers" : [ "Jiraya", "Orochimaru", "Asuma Sarutobi" ],
+            "good_answer" : "Kakashi Hatake"
+        }
+    ]
+}
+    

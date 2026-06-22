@@ -1,0 +1,195 @@
+{
+    "topic": "Hélène et les Garcons",
+    "categories": [ "Elders", "Adults" ],
+    "generation_min": "1990s",
+    "generation_max": "1970s",
+    "questions": [
+        {
+            "question" : "comment s'appelle la cafétéria où ils se retrouvent souvent ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/helene_et_les_garcons_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/helene_et_les_garcons_logo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/helene_et_les_garcons/helene_et_les_garcons_logo.jpg" ],
+            "wrong_answers" : [ "Bamboo's Cafe", "Cesar's Cafe", "Le Blue Rabbit" ],
+            "good_answer" : "Alfredo's Cafe"
+        },
+        {
+            "question" : "De quelle origine est Johanna ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/helene_et_les_garcons_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/helene_et_les_garcons_logo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/helene_et_les_garcons/helene_et_les_garcons_logo.jpg" ],
+            "wrong_answers" : [ "Las Vegas", "Los Angeles", "Wisconsin" ],
+            "good_answer" : "Texas"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/adeline_roquier.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/adeline_roquier.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/helene_et_les_garcons/adeline_roquier.jpg" ],
+            "wrong_answers" : [ "Bénédicte", "Hélène", "Linda" ],
+            "good_answer" : "Adeline"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/benedicte_breton.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/benedicte_breton.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/helene_et_les_garcons/benedicte_breton.jpg" ],
+            "wrong_answers" : [ "Adeline", "Johanna", "Laly" ],
+            "good_answer" : "Bénédicte"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/cathy.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/cathy.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/helene_et_les_garcons/cathy.jpg" ],
+            "wrong_answers" : [ "Linda", "Isabelle", "Rosy" ],
+            "good_answer" : "Cathy"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/christian_roquier.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/christian_roquier.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/helene_et_les_garcons/christian_roquier.jpg" ],
+            "wrong_answers" : [ "Christophe", "Olivier", "Bruno" ],
+            "good_answer" : "Christian"
+        },
+        {
+            "question" : "Quel est le surnom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/christian_roquier.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/christian_roquier.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/helene_et_les_garcons/christian_roquier.jpg" ],
+            "wrong_answers" : [ "Gri-Gri d'amour", "Zi-Zi d'amour", "Pi-Pi d'amour" ],
+            "good_answer" : "Cri-Cri d'amour"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/christophe.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/christophe.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/helene_et_les_garcons/christophe.jpg" ],
+            "wrong_answers" : [ "Christian", "Etienne", "Sébastien" ],
+            "good_answer" : "Christophe"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/etienne.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/etienne.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/helene_et_les_garcons/etienne.jpg" ],
+            "wrong_answers" : [ "Christophe", "Nicolas", "José" ],
+            "good_answer" : "Etienne"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/helene_girard.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/helene_girard.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/helene_et_les_garcons/helene_girard.jpg" ],
+            "wrong_answers" : [ "Laly", "Nathalie", "Adeline" ],
+            "good_answer" : "Hélène"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/johanna_mac_cormick.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/johanna_mac_cormick.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/helene_et_les_garcons/johanna_mac_cormick.jpg" ],
+            "wrong_answers" : [ "Hélène", "Nathalie", "Linda" ],
+            "good_answer" : "Johanna"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/jose_da_silva.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/jose_da_silva.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/helene_et_les_garcons/jose_da_silva.jpg" ],
+            "wrong_answers" : [ "Etienne", "Olivier", "Laurent" ],
+            "good_answer" : "José"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/laly_pollei.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/laly_pollei.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/helene_et_les_garcons/laly_pollei.jpg" ],
+            "wrong_answers" : [ "Cathy", "Adeline", "Bénédicte" ],
+            "good_answer" : "Laly"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/nathalie_gommez.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/nathalie_gommez.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/helene_et_les_garcons/nathalie_gommez.jpg" ],
+            "wrong_answers" : [ "Cathy", "Laly", "Lilas" ],
+            "good_answer" : "Nathalie"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/nicolas_vernier.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/nicolas_vernier.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/helene_et_les_garcons/nicolas_vernier.jpg" ],
+            "wrong_answers" : [ "Christian", "Christophe", "José" ],
+            "good_answer" : "Nicolas"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/sebastien.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/sebastien.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/helene_et_les_garcons/sebastien.jpg" ],
+            "wrong_answers" : [ "Nicolas", "Christophe", "Olivier" ],
+            "good_answer" : "Sébastien"
+        },
+        {
+            "question" : "Qui est la peste de la série ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/helene_et_les_garcons_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/helene_et_les_garcons/helene_et_les_garcons_logo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/helene_et_les_garcons/nathalie_gommez.jpg" ],
+            "wrong_answers" : [ "Adeline", "Bénédicte", "Joséphine" ],
+            "good_answer" : "Nathalie"
+        }
+    ]
+}

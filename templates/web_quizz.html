@@ -1,0 +1,1177 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB QUIZ</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/jquery.countdown.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='dist/themes/default/style.min.css') }}" />
+</head>
+<body>
+    <!-- <h1>Flask-SocketIO QUIZ Test</h1> -->
+    <div class="btn-group" id="menu_boutons">
+        <form id="start_quizz_form" method="POST" action="#">
+            <button type="submit" id="start_quizz_button" value="Launch QUIZ">DEMARRER LE QUIZ</button>
+        </form>
+        <form id="new_game_form" method="POST" action="#">
+            <button type="submit" style="display: 'none';visibility: hidden;" id="new_game_button" disabled value="New QUIZ">NOUVELLE PARTIE</button>
+        </form>
+    </div>
+    <div class="btn-group" id="player_boutons">
+        <form id="del_player_1_form" method="POST" action="#">
+            <button type="submit" id="del_player_1_button" style="display:none;">Player1</button>
+        </form>
+        <form id="del_player_2_form" method="POST" action="#">
+            <button type="submit" id="del_player_2_button" style="display:none;">Player2</button>
+        </form>
+        <form id="del_player_3_form" method="POST" action="#">
+            <button type="submit" id="del_player_3_button" style="display:none;">Player3</button>
+        </form>
+        <form id="del_player_4_form" method="POST" action="#">
+            <button type="submit" id="del_player_4_button" style="display:none;">Player4</button>
+        </form>
+        <form id="del_player_5_form" method="POST" action="#">
+            <button type="submit" id="del_player_5_button" style="display:none;">Player5</button>
+        </form>
+        <form id="del_player_6_form" method="POST" action="#">
+            <button type="submit" id="del_player_6_button" style="display:none;">Player6</button>
+        </form>
+        <form id="del_player_7_form" method="POST" action="#">
+            <button type="submit" id="del_player_7_button" style="display:none;">Player7</button>
+        </form>
+        <form id="del_player_8_form" method="POST" action="#">
+            <button type="submit" id="del_player_8_button" style="display:none;">Player8</button>
+        </form>
+        <form id="del_player_9_form" method="POST" action="#">
+            <button type="submit" id="del_player_9_button" style="display:none;">Player9</button>
+        </form>
+    </div>
+    <hr>
+    <div id="suite_parameter_div">
+      <form>
+        <fieldset>
+          <legend>PARAMETRES</legend>
+          <p>
+            <label id="is_players_report_presence_label">Les joueurs doivent signaler leur présence à chaque question:</label>
+            <input type="checkbox" id="is_players_report_presence_checkbox" name="is_players_report_presence_checkbox">
+          </p>
+          <p>
+            <label>Nombre de sujets</label>
+            <input type = "topic_nbr" id = "topic_nbr" value = "2" />
+          </p>
+          <p>
+            <label>Nombre de questions maximum par sujet</label>
+            <input type = "question_nbr_per_topic" id = "question_nbr_per_topic" value = "2" />
+          </p>
+          <p>
+            <label for="players_category">Catégorie de joueur:</label>
+            <select id="players_category" name="players_category">
+              <option value="All">ALL</option>
+              <option value="Elders">Elders</option>
+              <option value="Adults">Adults</option>
+              <option value="Teenagers">Teenagers</option>
+              <option value="Childs">Childs</option>
+            </select>
+          </p>
+          <p>
+            <label id="is_score_per_time_range_label">Calculer le score par tranche de temps:</label>
+            <input type="checkbox" id="is_score_per_time_range_checkbox" name="is_score_per_time_range_checkbox">
+          </p>
+
+          <!-- DIVS INVISIBLES POUR LES BUZZERS AVEC LED -->
+          <div id="buzz_player_1_div" style="display: none; margin-top: 10px; padding: 5px; border: 1px dashed #ccc;">
+            <label for="buzz_player_1_name">Buzzer 1 - Nom :</label>
+            <input type="text" id="buzz_player_1_name" placeholder="Nom du joueur 1">
+            <label for="buzz_player_1_name">Génération :</label>
+            <select name="buzz_player_1_generation_select" id="buzz_player_1_generation_select">
+                <option selected="selected" value=""></option>
+                <option value="Elders">Ancien</option>
+                <option value="1970s">1970s</option>
+                <option value="1980s">1980s</option>
+                <option value="1990s">1990s</option>
+                <option value="2000s">2000s</option>
+                <option value="2010s">2010s</option>
+                <option value="Youngers">Jeune</option>
+            </select>
+            <button type="button" id="buzz_player_1_btn">Ajouter le Buzzer 1</button>
+            <span id="buzz_player_1_led" class="led-indicator"></span>
+          </div>
+          <div id="buzz_player_2_div" style="display: none; margin-top: 10px; padding: 5px; border: 1px dashed #ccc;">
+            <label for="buzz_player_2_name">Buzzer 2 - Nom :</label>
+            <input type="text" id="buzz_player_2_name" placeholder="Nom du joueur 2">
+            <label for="buzz_player_2_name">Génération :</label>
+            <select name="buzz_player_2_generation_select" id="buzz_player_2_generation_select">
+                <option selected="selected" value=""></option>
+                <option value="Elders">Ancien</option>
+                <option value="1970s">1970s</option>
+                <option value="1980s">1980s</option>
+                <option value="1990s">1990s</option>
+                <option value="2000s">2000s</option>
+                <option value="2010s">2010s</option>
+                <option value="Youngers">Jeune</option>
+            </select>
+            <button type="button" id="buzz_player_2_btn">Ajouter le Buzzer 2</button>
+            <span id="buzz_player_2_led" class="led-indicator"></span>
+          </div>
+          <div id="buzz_player_3_div" style="display: none; margin-top: 10px; padding: 5px; border: 1px dashed #ccc;">
+            <label for="buzz_player_3_name">Buzzer 3 - Nom :</label>
+            <input type="text" id="buzz_player_3_name" placeholder="Nom du joueur 3">
+            <label for="buzz_player_3_name">Génération :</label>
+            <select name="buzz_player_3_generation_select" id="buzz_player_3_generation_select">
+                <option selected="selected" value=""></option>
+                <option value="Elders">Ancien</option>
+                <option value="1970s">1970s</option>
+                <option value="1980s">1980s</option>
+                <option value="1990s">1990s</option>
+                <option value="2000s">2000s</option>
+                <option value="2010s">2010s</option>
+                <option value="Youngers">Jeune</option>
+            </select>
+            <button type="button" id="buzz_player_3_btn">Ajouter le Buzzer 3</button>
+            <span id="buzz_player_3_led" class="led-indicator"></span>
+          </div>
+          <div id="buzz_player_4_div" style="display: none; margin-top: 10px; padding: 5px; border: 1px dashed #ccc;">
+            <label for="buzz_player_4_name">Buzzer 4 - Nom :</label>
+            <input type="text" id="buzz_player_4_name" placeholder="Nom du joueur 4">
+            <label for="buzz_player_4_name">Génération :</label>
+            <select name="buzz_player_4_generation_select" id="buzz_player_4_generation_select">
+                <option selected="selected" value=""></option>
+                <option value="Elders">Ancien</option>
+                <option value="1970s">1970s</option>
+                <option value="1980s">1980s</option>
+                <option value="1990s">1990s</option>
+                <option value="2000s">2000s</option>
+                <option value="2010s">2010s</option>
+                <option value="Youngers">Jeune</option>
+            </select>
+            <button type="button" id="buzz_player_4_btn">Ajouter le Buzzer 4</button>
+            <span id="buzz_player_4_led" class="led-indicator"></span>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <h2 id="topic">Question:</h2>
+    <div id="question_div" class="questionbox">
+        <textarea style="border-style:solid;border-width: 10px;border-color:black;font-size:60px;height: 140px;width: 100%;text-align: justify;text-align-last: center;"  name="question" id="question">EN ATTENTE DES JOUEURS&#13;activez le son de la video Youtube</textarea>
+    </div>
+    <div id="game_div" class="gamebox">
+        <div>
+            <div id="qrcode_div">
+                <input id="qrcode_label" onchange="UpdateQRCode(this.value)" size="30" value="Scanner le QR code pour jouer"/><br>
+                <iframe id="qrcode" src="" width="250" height="250"></iframe>
+            </div>
+        <section>
+        <div class="answerbox">
+            <div><label style="border-color:white;" class="answers_label" name="reponse1" id="reponse1">&nbsp;</label></div>
+            <div><label style="border-color:white;" class="answers_label" name="reponse2" id="reponse2">&nbsp;</label></div>
+            <div><label style="border-color:white;" class="answers_label" name="reponse3" id="reponse3">&nbsp;</label></div>
+            <div><label style="border-color:white;" class="answers_label" name="reponse4" id="reponse4">&nbsp;</label></div>
+        </div>
+        </section>
+        </div>
+        <div id="media_div" style="height: 480px;width: 640px;">
+            <input type="text" id="youtube_link" style="display:none;">
+            <div id="video-placeholder" style="display:inline-block;">
+                <iframe id="player" type="text/html" width="640" height="480"
+                        src="http://www.youtube.com/embed/KDPhIQcaovQ?enablejsapi=1&mute=1&origin=*"
+                        frameborder="0">
+                </iframe>
+            </div>
+            <audio id="question_audio"><source  id="question_audio_src" src=""></source></audio> 
+            <img style="height: 480px;width: 640px;display:none;" id="question_image" src="/static/images/quiz.jpg" alt="">
+            <video id="question_video" preload="none"><source  id="question_video_src" src=""></source></video>
+        </div>
+        <div id="defaultCountdown"></div>
+        <div id="leaderboard" class="leaderboard-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rang</th>
+                        <th>Joueur</th>
+                        <th>Score</th>
+                        <th>Time</th>
+                        <th>Progression</th>
+                    </tr>
+                </thead>
+                <tbody id="leaderboard_body">
+                </tbody>
+            </table>
+            <label name="players_console" id="players_console">&nbsp;</label>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static',filename='dist/libs/jquery.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static',filename='dist/countdown/jquery.plugin.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static',filename='dist/countdown/jquery.countdown.js') }}"></script>
+    <script src="{{ url_for('static',filename='dist/libs/socket.io.min.js') }}"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function() {
+            namespace = '/test';
+            
+            var player_list = [];
+            var status = "deactiv_buttons";
+            var currentTime = Date.now();
+            var question_audio = document.getElementById('question_audio');
+            var question_audio_src = document.getElementById('question_audio_src');
+            var question_video = document.getElementById('question_video');
+            var question_video_src = document.getElementById('question_video_src');
+            document.cookie = "question_audio_current_time=0";
+            question_video.addEventListener("ended", function(){
+                console.log('video completed');
+                question_video.setAttribute('data-icon','');
+            }); 
+
+            var socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port + namespace);
+
+            // ==========================================
+            // LOGIQUE GAMEPAD INTEGREE
+            // ==========================================
+            var ancienneConfigurationBoutons = {};
+
+            function scruterManettes() {
+                var manettes = navigator.getGamepads ? navigator.getGamepads() : [];
+                for (var i = 0; i < manettes.length; i++) {
+                    var manette = manettes[i];
+                    if (manette) {
+                        if (!ancienneConfigurationBoutons[manette.index]) {
+                            ancienneConfigurationBoutons[manette.index] = [];
+                        }
+                        for (var b = 0; b < manette.buttons.length; b++) {
+                            var bouton = manette.buttons[b];
+                            var estPresse = (typeof(bouton) === "object") ? bouton.pressed : (bouton === 1.0);
+                            var etaitPresse = ancienneConfigurationBoutons[manette.index][b] || false;
+                            
+                            if (estPresse && !etaitPresse) {
+                                console.log("Game Status " + status + " Manette " + manette.index + " (" + manette.id + ") : Bouton " + b + " pressé !");
+                                if ( status == "deactiv_buttons" ) {
+                                    socket.emit('gamepad_press', {
+                                        gamepad_index: manette.index,
+                                        gamepad_id: manette.id,
+                                        button_index: b
+                                    });
+                                }
+                                else if ( status == "set_questions" ) {
+                                    var timeElapsed = ((Date.now() - currentTime) / 1000).toFixed(3);
+                                    socket.emit('gamepad_press_button', {
+                                        gamepad_index: manette.index,
+                                        gamepad_id: manette.id,
+                                        button_index: b,
+                                        time: timeElapsed
+                                    });
+                                }
+                            }
+                            ancienneConfigurationBoutons[manette.index][b] = estPresse;
+                        }
+                    }
+                }
+                requestAnimationFrame(scruterManettes);
+            }
+
+            window.addEventListener("gamepadconnected", function(e) {
+                console.log("Manette connectée à l'index %d : %s. %d boutons.", 
+                    e.gamepad.index, e.gamepad.id, e.gamepad.buttons.length);
+            });
+
+            requestAnimationFrame(scruterManettes);
+
+            // ==========================================
+            // LOGIQUE DE RECEPTION ET EMISSION DES BUZZERS
+            // ==========================================
+            socket.on('add_buzz_player', function(msg) {
+                console.log("Événement add_buzz_player reçu du serveur.");
+                if (msg && msg.buzz_nb) {
+                    $('#buzz_player_' + msg.buzz_nb + '_div').show();
+                    
+                    var $led = $('#buzz_player_' + msg.buzz_nb + '_led');
+                    
+                    // Désactive et force le redémarrage de l'animation à chaque appui
+                    $led.removeClass('led-on');
+                    $led[0].offsetHeight; // Astuce magique pour forcer un reflow CSS
+                    $led.addClass('led-on');
+                }
+            });
+
+            for (let i = 1; i <= 4; i++) {
+                $(`#buzz_player_${i}_btn`).click(function(e) {
+                    e.preventDefault();
+                    var nomBuzzer = $(`#buzz_player_${i}_name`).val();
+                    var generation_element = document.getElementById("buzz_player_"+i+"_generation_select");
+                    var generation_select_idx = generation_element.selectedIndex;
+                    var generation_select_value = generation_element.options[generation_select_idx].value;
+                    
+                    if (generation_select_value == "") {
+                        alert("Sélectionnez votre génération !");
+                        return false;
+                    }
+                    
+                    console.log("Envoi du buzzer " + i + " avec le nom: " + nomBuzzer);
+                    socket.emit('add_buzz_player', {
+                        buzz_nb: i,
+                        name: nomBuzzer,
+                        generation: generation_select_value
+                    });
+                });
+            }
+            // ==========================================
+
+            socket.on('my_response', function(msg) {
+                $('#log').append('<br>' + $('<div/>').text('Received #' + msg.count + ': ' + msg.name + ' push ' + msg.data + ' in ' + msg.time + ' seconds').html());
+                if ('name' in msg) {
+                    if ( status == "get_players" ) {
+                      row = '<tr><td class="fname">'+msg.name+'</td><td class="lname">'+msg.data+'</td></tr>';
+                      $('.connected_players table > tbody').append(row);
+                    }
+                    else {
+                      var index_to_splice = -1;
+                      var rows;
+                      $('.players table > tbody').empty();
+                      player_list.forEach(function(item, index, array) {
+                          if (item.name == msg.name) {
+                              index_to_splice = index;
+                          }
+                      });
+                      if (index_to_splice == -1) {
+                          player_list.push(msg);
+                      } else {
+                          player_list.splice(index_to_splice, 1, msg);
+                      }
+                      player_list.forEach(function(item, index, array) {
+                          rows += '<tr><td class="fname">'+item.name+'</td><td class="lname">'+item.data+'</td><td>'+item.time+'</td></tr>';
+                      });
+                      $('.players table > tbody').append(rows);
+                  }
+                }
+            });
+            
+            socket.on('add_player', function(msg) {
+                var button = document.getElementById("del_player_"+msg.number+"_button");
+                button.innerHTML='Sup. ' + msg.name;
+                button.style.display = 'inline-block';
+                button.style.visibility = "visible";
+                updateLeaderboard(msg.leaderboard_update);
+            });
+            
+            socket.on('del_player', function(msg) {
+                const tbody = document.getElementById('leaderboard_body');
+                let row = tbody.querySelector(`tr[data-id="${msg.name}"]`);
+                if (row) {
+                    row.remove();
+                }
+                updateLeaderboard(msg.leaderboard_update);
+            });
+            
+            socket.on('add_players_console', function(msg) {
+                var players_console = document.getElementById("players_console");
+                if (msg.time == "0") {
+                    console.log("receveive add_players_console with comment:" + msg.comment + " media_type:(" + msg.media_type + ") media:(" + msg.media + ") and players:" + msg.players);
+                    showPlayerBoutonsForm()
+                    hideAllDelPlayerButtons()
+                    for ( i = 0; i < msg.players.length; i++ ) {
+                        var button = document.getElementById("del_player_"+(i+1)+"_button");
+                        button.innerHTML='Sup. ' + msg.players[i];
+                        button.style.display = 'block';
+                        button.style.visibility = "visible";
+                    }
+                    console.log("log to players_console " + msg.name + " " + msg.comment);
+                    players_console.innerHTML = players_console.innerHTML + "<br />" + msg.name + " " + msg.comment;
+                    console.log("rename labels and borders");
+                    renameLabel('question', 'PRET A JOUER ?');
+                    renameLabel('reponse1', "&nbsp;");
+                    recolorBorder('reponse1', 'white')
+                    renameLabel('reponse2', "&nbsp;");
+                    recolorBorder('reponse2', 'white')
+                    renameLabel('reponse3', "&nbsp;");
+                    recolorBorder('reponse3', 'white')
+                    renameLabel('reponse4', "&nbsp;");
+                    recolorBorder('reponse4', 'white')
+                    
+                    // On éteint toutes les LED à la réinitialisation
+                    $('.led-indicator').removeClass('led-on');
+
+                    console.log("empty question image");
+                    document.getElementById('question_image').setAttribute("src", "");
+                    if ( msg.media_type == "image" ) {
+                        document.getElementById("question_image").style.display = 'inline-block';
+                        document.getElementById('question_image').setAttribute("src", msg.media);
+                    }
+                    console.log("empty audio");
+                    question_audio.pause();
+                    question_audio.currentTime = 0;
+                    question_audio_src.src = "";
+                    question_audio.currentTime = 0;
+                    if ( msg.sound != "" ) {
+                        question_audio_src.src = msg.sound;
+                        question_audio.load();
+                        question_audio.play();
+                    }
+                    console.log("empty video");
+                    question_video.pause();
+                    question_video.currentTime = 0;
+                    question_video_src.src = "";
+                    question_video.pause();
+                    question_video.currentTime = 0;
+                    if ( msg.media_type == "video" ) {
+                        question_video_src.src = msg.media;
+                        if ( msg.media != "" ) {
+                            question_video.load();
+                            question_video.play();
+                        }
+                    }
+                }
+                else {
+                    console.log("receveive add_players_console with player:" + msg.name + " who played in " + msg.time + " seconds");
+                    players_console.innerHTML = players_console.innerHTML + "<br />" + msg.name + " played in " + msg.time + " seconds";
+                }
+            });
+            
+            socket.on('update_players', function(msg) {
+                updateLeaderboard(msg.leaderboard_update);
+            });
+            
+            socket.on('display_topic', function(msg) {
+                document.getElementById("players_console").innerHTML = "";
+                console.log("receveive " + msg.action + " " + msg.question + " sound:(" + msg.sound + ") media_type:(" + msg.media_type + ") media:(" + msg.media + ")");
+                console.log("with blue button 2:" + msg.b2 + " orange button 3:" + msg.b3 + " green button 4:" + msg.b4 + " yellow button 5:" + msg.b5);
+                hideMenuBoutonsForm()
+                hidePlayerBoutonsForm()
+                $('#defaultCountdown').countdown('destroy');
+                $('#defaultCountdown').countdown({until: msg.timeout, format: 'S'});
+                renameLabel('question', msg.question);
+                renameLabel('reponse1', msg.b2);
+                var border_color = (msg.b2 === "&nbsp;") ? 'white' : 'blue';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton2") {
+                        border_color = "blue";
+                    }
+                }
+                recolorBorder('reponse1', border_color)
+                renameLabel('reponse2', msg.b3);
+                var border_color = (msg.b3 === "&nbsp;") ? 'white' : 'orange';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton3") {
+                        border_color = "orange";
+                    }
+                }
+                recolorBorder('reponse2', border_color)
+                renameLabel('reponse3', msg.b4);
+                var border_color = (msg.b4 === "&nbsp;") ? 'white' : 'green';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton4") {
+                        border_color = "green";
+                    }
+                }
+                recolorBorder('reponse3', border_color)
+                renameLabel('reponse4', msg.b5);
+                var border_color = (msg.b5 === "&nbsp;") ? 'white' : 'yellow';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton5") {
+                        border_color = "yellow";
+                    }
+                }
+                recolorBorder('reponse4', border_color)
+                document.getElementById('question_image').setAttribute("src", "");
+                if ( msg.media_type == "image" ) {
+                    document.getElementById("question_image").style.display = 'inline-block';
+                    document.getElementById('question_image').setAttribute("src", msg.media);
+                }
+                
+                question_audio.pause();
+                question_audio.currentTime = 0;
+                question_audio_src.src = "";
+                question_audio.currentTime = 0;
+                if ( msg.sound != "" ) {
+                    question_audio_src.src = msg.sound;
+                    question_audio.load();
+                    question_audio.play();
+                }
+                
+                question_video.pause();
+                question_video.currentTime = 0;
+                question_video_src.src = "";
+                question_video.pause();
+                question_video.currentTime = 0;
+                if ( msg.media_type == "video" ) {
+                    question_video_src.src = msg.media;
+                    if ( msg.media != "" ) {
+                        question_video.load();
+                        question_video.play();
+                    }
+                }
+                player.stopVideo();
+            });
+
+            socket.on('player_choose_category', function(msg) {
+                var players_console = document.getElementById("players_console");
+                console.log("receveive player_choose_category for player name:" + msg.name);
+                players_console.innerHTML = players_console.innerHTML + "<br />" + msg.name + " choose a topic";
+            });
+            
+            socket.on('display_question', function(msg) {
+                console.log("receveive " + msg.action + " with topic:" + msg.topic + " question:" + msg.question + " sound:(" + msg.sound + ") media_type:(" + msg.media_type + ") media:(" + msg.media + ") timeout:(" + msg.timeout + ")");
+                hideMenuBoutonsForm()
+                hidePlayerBoutonsForm()
+                $('#defaultCountdown').countdown('destroy');
+                $('#defaultCountdown').countdown({until: msg.timeout, format: 'S'});
+                document.getElementById("topic").innerHTML = "Question " + msg.topic;
+                renameLabel('question', msg.question);
+                renameLabel('reponse1', msg.b2);
+                var border_color = (msg.b2 === "&nbsp;") ? 'white' : 'blue';
+                recolorBorder('reponse1', border_color)
+                renameLabel('reponse2', msg.b3);
+                var border_color = (msg.b3 === "&nbsp;") ? 'white' : 'orange';
+                recolorBorder('reponse2', border_color)
+                renameLabel('reponse3', msg.b4);
+                recolorBorder('reponse3', border_color)
+                renameLabel('reponse4', msg.b5);
+                recolorBorder('reponse4', border_color)
+                
+                // On éteint toutes les LED à l'apparition de la nouvelle question
+                $('.led-indicator').removeClass('led-on');
+
+                if (typeof msg.answer === 'undefined') {
+                    var players_console = document.getElementById("players_console");               
+                    players_console.innerHTML = "";
+                }
+                document.getElementById('question_image').setAttribute("src", "");
+                if ( msg.media_type == "image" ) {
+                    document.getElementById("question_image").style.display = 'inline-block';
+                    document.getElementById('question_image').setAttribute("src", msg.media);
+                }
+                
+                question_audio.pause();
+                question_audio.currentTime = 0;
+                question_audio_src.src = "";
+                if ( msg.sound != "" ) {
+                    question_audio_src.src = msg.sound;
+                    question_audio.load();
+                    question_audio.play();
+                }
+                
+                question_video.pause();
+                question_video.currentTime = 0;
+                question_video_src.src = "";
+                question_video.pause();
+                question_video.currentTime = 0;
+                if ( msg.media_type == "video" ) {
+                    question_video_src.src = msg.media;
+                    if ( msg.media != "" ) {
+                        question_video.load();
+                        question_video.play();
+                    }
+                }
+                player.stopVideo();
+                document.getElementById("video-placeholder").style.display = 'none';
+                if ( msg.media_type == "youtube" ) {
+                    let medias = msg.media.split("&");
+                    let nb_medias = medias.length;
+                    document.getElementById("youtube_link").value = medias[0];
+                    if ( nb_medias > 1 ) {
+                        document.getElementById("question_image").style.display = 'inline-block';
+                        document.getElementById('question_image').setAttribute("src", medias[1]);
+                    }
+                    else {
+                        document.getElementById("question_image").style.display = 'none';
+                    }
+                    player.loadVideoById(medias[0], msg.start_time);
+                }
+                if ( msg.media_type == "youtube_animated" ) {
+                    document.getElementById("question_image").style.display = 'none';
+                    document.getElementById("youtube_link").value = msg.media;
+                    document.getElementById("video-placeholder").style.display = 'inline-block'
+                    player.loadVideoById(msg.media, msg.start_time);
+                }
+            });
+            
+            socket.on('display_answer_question', function(msg) {
+                console.log("receveive " + msg.action + " " + msg.question + " sound:(" + msg.sound + ") media_type:(" + msg.media_type + ") media:(" + msg.media + ")");
+                console.log("with blue button 2:" + msg.b2 + " orange button 3:" + msg.b3 + " green button 4:" + msg.b4 + " yellow button 5:" + msg.b5);
+                document.getElementById("players_console").innerHTML = "";
+                hideMenuBoutonsForm()
+                hidePlayerBoutonsForm()
+                $('#defaultCountdown').countdown('destroy');
+                $('#defaultCountdown').countdown({until: msg.timeout, format: 'S'});
+                renameLabel('question', msg.question);
+                renameLabel('reponse1', msg.b2);
+                var border_color = (msg.b2 === "&nbsp;") ? 'white' : 'blue';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton2") {
+                        border_color = "blue";
+                    }
+                }
+                recolorBorder('reponse1', border_color)
+                renameLabel('reponse2', msg.b3);
+                var border_color = (msg.b3 === "&nbsp;") ? 'white' : 'orange';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton3") {
+                        border_color = "orange";
+                    }
+                }
+                recolorBorder('reponse2', border_color)
+                renameLabel('reponse3', msg.b4);
+                var border_color = (msg.b4 === "&nbsp;") ? 'white' : 'green';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton4") {
+                        border_color = "green";
+                    }
+                }
+                recolorBorder('reponse3', border_color)
+                renameLabel('reponse4', msg.b5);
+                var border_color = (msg.b5 === "&nbsp;") ? 'white' : 'yellow';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton5") {
+                        border_color = "yellow";
+                    }
+                }
+                recolorBorder('reponse4', border_color)
+                document.getElementById('question_image').setAttribute("src", "");
+                if ( msg.media_type == "image" ) {
+                    document.getElementById("question_image").style.display = 'inline-block';
+                    document.getElementById('question_image').setAttribute("src", msg.media);
+                }
+
+                currentTime = Date.now();
+                question_audio.pause();
+                question_audio.currentTime = 0;
+                question_audio_src.src = "";
+                question_audio.currentTime = 0;
+                if ( msg.sound != "" ) {
+                    question_audio_src.src = msg.sound;
+                    question_audio.load();
+                    question_audio.play();
+                }
+                
+                question_video.pause();
+                question_video.currentTime = 0;
+                question_video_src.src = "";
+                question_video.pause();
+                question_video.currentTime = 0;
+                if ( msg.media_type == "video" ) {
+                    question_video_src.src = msg.media;
+                    if ( msg.media != "" ) {
+                        question_video.load();
+                        question_video.play();
+                    }
+                }
+                player.stopVideo();
+                document.getElementById("video-placeholder").style.display = 'none';
+                if ( msg.media_type == "youtube" ) {
+                    let medias = msg.media.split("&");
+                    let nb_medias = medias.length;
+                    document.getElementById("youtube_link").value = medias[0];
+                    if ( nb_medias > 1 ) {
+                        document.getElementById("question_image").style.display = 'inline-block';
+                        document.getElementById('question_image').setAttribute("src", medias[1]);
+                    }
+                    else {
+                        document.getElementById("question_image").style.display = 'none'
+                    }
+                    player.loadVideoById(medias[0], msg.start_time);
+                }
+                if ( msg.media_type == "youtube_animated" ) {
+                    document.getElementById("question_image").style.display = 'none';
+                    document.getElementById("youtube_link").value = msg.media;
+                    document.getElementById("video-placeholder").style.display = 'inline-block'
+                    player.loadVideoById(msg.media, msg.start_time);
+                }
+            });
+            
+            socket.on('display_answer', function(msg) {
+                console.log("receveive " + msg.action + " " + msg.question + " sound:(" + msg.sound + ") media_type:(" + msg.media_type + ") media:(" + msg.media + ") timeout:(" + msg.timeout + ")");
+                console.log("with blue button 2:" + msg.b2 + " orange button 3:" + msg.b3 + " green button 4:" + msg.b4 + " yellow button 5:" + msg.b5);
+                console.log("The answer button is " + msg.answer);
+                hideMenuBoutonsForm();
+                hidePlayerBoutonsForm();
+                $('#defaultCountdown').countdown('destroy');
+                $('#defaultCountdown').countdown({until: msg.timeout, format: 'S'});
+                renameLabel('question', msg.question);
+                renameLabel('reponse1', msg.b2);
+                var border_color = (msg.b2 === "&nbsp;") ? 'white' : 'blue';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton2") {
+                        border_color = "blue";
+                    }
+                }
+                recolorBorder('reponse1', border_color)
+                renameLabel('reponse2', msg.b3);
+                var border_color = (msg.b3 === "&nbsp;") ? 'white' : 'orange';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton3") {
+                        border_color = "orange";
+                    }
+                }
+                recolorBorder('reponse2', border_color)
+                renameLabel('reponse3', msg.b4);
+                var border_color = (msg.b4 === "&nbsp;") ? 'white' : 'green';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton4") {
+                        border_color = "green";
+                    }
+                }
+                recolorBorder('reponse3', border_color)
+                renameLabel('reponse4', msg.b5);
+                var border_color = (msg.b5 === "&nbsp;") ? 'white' : 'yellow';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton5") {
+                        border_color = "yellow";
+                    }
+                }
+                recolorBorder('reponse4', border_color)
+                document.getElementById('question_image').setAttribute("src", "");
+                if ( msg.media_type == "image" ) {
+                    document.getElementById("question_image").style.display = 'inline-block';
+                    document.getElementById('question_image').setAttribute("src", msg.media);
+                }
+                
+                question_audio.pause();
+                question_audio.currentTime = 0;
+                question_audio_src.src = "";
+                question_audio.currentTime = 0;
+                if ( msg.sound != "" ) {
+                    question_audio_src.src = msg.sound;
+                    question_audio.load();
+                    question_audio.play();
+                }
+                
+                question_video.pause();
+                question_video.currentTime = 0;
+                question_video_src.src = "";
+                question_video.pause();
+                question_video.currentTime = 0;
+                if ( msg.media_type == "video" ) {
+                    question_video_src.src = msg.media;
+                    if ( msg.media != "" ) {
+                        question_video.load();
+                        question_video.play();
+                    }
+                }
+                player.stopVideo();
+                document.getElementById("video-placeholder").style.display = 'none';
+                if ( msg.media_type == "youtube" ) {
+                    let medias = msg.media.split("&");
+                    let nb_medias = medias.length;
+                    document.getElementById("youtube_link").value = medias[0];
+                    if ( nb_medias > 1 ) {
+                        document.getElementById("question_image").style.display = 'inline-block';
+                        document.getElementById('question_image').setAttribute("src", medias[1]);
+                    }
+                    else {
+                        document.getElementById("question_image").style.display = 'none'
+                    }
+                    player.loadVideoById(medias[0], msg.start_time);
+                }
+                if ( msg.media_type == "youtube_animated" ) {
+                    document.getElementById("question_image").style.display = 'none';
+                    document.getElementById("youtube_link").value = msg.media;
+                    document.getElementById("video-placeholder").style.display = 'inline-block'
+                    player.loadVideoById(msg.media, msg.start_time);
+                }
+            });
+            
+            socket.on('enabled_next_question', function(msg) {
+                console.log("receveive enabled_next_question with action:" + msg.action);
+                document.getElementById("start_quizz_button").disabled = true;
+            });
+            
+            socket.on('enabled_all_questions', function(msg) {
+                console.log("receveive enabled_all_questions with action:" + msg.action);
+                document.getElementById("start_quizz_button").disabled = false;
+            });
+            
+            socket.on('end_game', function(msg) {
+                console.log("receveive " + msg.action + " with leader:" + msg.leader + " and scores:" + msg.scores + " and play_times:" + msg.play_times);
+                hidePlayerBoutonsForm()
+                players_console.innerHTML = "";
+                renameLabel('question', "'"+ msg.leader + "' EST LE VAINQUEUR");
+                var i;
+                $('#players table > tbody').empty();
+                for ( i = 0; i < msg.names.length; i++ ) {
+                    row = '<tr class="players_tr"><td class="players_td">'+msg.names[i]+'</td><td class="players_td">'+msg.scores[i]+' pts</td><td class ="players_td">'+msg.play_times[i]+' s</td></tr>';
+                    $('#players table > tbody').append(row);
+                }
+                renameLabel('reponse1', "&nbsp;");
+                recolorBorder('reponse1', 'white')
+                renameLabel('reponse2', "&nbsp;");
+                recolorBorder('reponse2', 'white')
+                renameLabel('reponse3', "&nbsp;");
+                recolorBorder('reponse3', 'white')
+                renameLabel('reponse4', "&nbsp;");
+                recolorBorder('reponse4', 'white')
+                renameLabel('start_quizz_button', "End Game");
+                $('form#start_quizz_button').data = "End Game";
+                $('form#start_quizz_button').text = "End Game";
+                $('form#start_quizz_button').innerHTML = "End Game";
+                document.getElementById("start_quizz_button").disabled = true;
+                players_console.innerHTML = players_console.innerHTML + "<br />GAME OVER";
+                document.getElementById("menu_boutons").style.display = 'none'
+                document.getElementById("menu_boutons").style.visibility = "hidden";
+                document.getElementById("media_div").style.display = 'none'
+                document.getElementById("media_div").style.visibility = "hidden";
+                document.getElementById("defaultCountdown").style.display = 'none'
+                document.getElementById("defaultCountdown").style.visibility = "hidden";
+                document.getElementById('question_image').setAttribute("src", "");
+                if ( msg.media_type == "image" ) {
+                    document.getElementById("media_div").style.display = 'inline-block'
+                    document.getElementById("media_div").style.visibility = "visible";
+                    document.getElementById("question_image").style.display = 'inline-block';
+                    document.getElementById('question_image').setAttribute("src", msg.media);
+                }
+                
+                question_audio.pause();
+                question_audio.currentTime = 0;
+                question_audio_src.src = "";
+                question_audio.currentTime = 0;
+                if ( msg.sound != "" ) {
+                    question_audio_src.src = msg.sound;
+                    question_audio.load();
+                    question_audio.play();
+                }
+                
+                question_video.pause();
+                question_video.currentTime = 0;
+                question_video_src.src = "";
+                player.stopVideo();
+                document.getElementById("video-placeholder").style.display = 'none';
+            });
+
+            socket.on('new_game', function(msg) {
+                players_console.innerHTML = "";
+                console.log("receveive " + msg.action);
+                console.log("show menu_boutons");
+                document.getElementById("menu_boutons").style.display = 'inline-block';
+                document.getElementById("menu_boutons").style.visibility = "visible";
+                console.log("hide start_quizz_button");
+                $('form#start_quizz_button').visibility = 'hidden';
+                document.getElementById("start_quizz_button").style.display = 'none';
+                document.getElementById("start_quizz_button").style.visibility = "hidden";
+                document.getElementById("start_quizz_button").disabled = true;
+                console.log("show new_game_form");
+                $('form#new_game_form').visibility = 'visible';
+                document.getElementById("new_game_button").style.display = 'inline-block';
+                document.getElementById("new_game_button").style.visibility = "visible";
+                document.getElementById("new_game_button").disabled = false;
+            });
+
+            socket.on('updateLeaderboard', (newOrder) => {
+                const tableBody = document.querySelector('tbody');
+                const rows = Array.from(tableBody.querySelectorAll('tr'));
+
+                const positions = {};
+                rows.forEach(row => {
+                    const id = row.dataset.id;
+                    positions[id] = row.getBoundingClientRect().top;
+                });
+
+                newOrder.forEach(player => {
+                    const row = rows.find(r => r.dataset.id === player.id);
+                    if (row) {
+                        updateRowUI(row, player); 
+                        tableBody.appendChild(row);
+                    }
+                });
+
+                const newRows = Array.from(tableBody.querySelectorAll('tr'));
+                newRows.forEach(row => {
+                    const id = row.dataset.id;
+                    const oldTop = positions[id];
+                    const newTop = row.getBoundingClientRect().top;
+                    const delta = oldTop - newTop;
+
+                    if (delta !== 0) {
+                        row.style.transition = 'none';
+                        row.style.transform = `translateY(${delta}px)`;
+                        row.offsetHeight; 
+                        row.style.transition = 'transform 0.6s ease';
+                        row.style.transform = 'translateY(0)';
+                    }
+                });
+            });
+
+            $('form#get_players').submit(function(event) {
+                status = "get_players";
+                $('form#connected_players').visibility = 'visible';
+                socket.emit('get_players');
+                document.getElementById("players_selected_button").disabled = false;
+                document.getElementById("get_players_button").disabled = true;
+                return false;
+            });
+            $('form#players_selected').submit(function(event) {
+                status = "players_selected";
+                socket.emit('players_selected');
+                document.getElementById("players_selected_button").disabled = true;
+                document.getElementById("suite_parameter_div").style.display = 'inline-block';
+                document.getElementById("suite_parameter_div").style.visibility = "visible";
+                return false;
+            });
+            $('form#set_questions').submit(function(event) {
+                status = "set_questions";
+                var question_nbr_per_quiz = document.getElementById("question_nbr").value;
+                console.log("Number of Questions max for quiz:"+question_nbr_per_quiz);
+                var question_nbr_per_suite = document.getElementById("question_nbr_per_suite").value;
+                console.log("Number of Questions max per suite:"+question_nbr_per_suite);
+                document.getElementById("start_quizz_button").disabled = false;
+                document.getElementById("suite_parameter_div").style.display = 'none';
+                document.getElementById("suite_parameter_div").style.visibility = "hidden";
+                return false;
+            });
+            $('form#del_player_1_form').submit(function(event) {
+                button = document.getElementById("del_player_1_button")
+                button.style.display = 'none';
+                button.style.visibility = "hidden";
+                player_name = button.innerHTML;
+                player_name = player_name.replace('Sup. ', '');
+                socket.emit('del_player', {name: player_name});
+                return false;
+            });
+            $('form#del_player_2_form').submit(function(event) {
+                button = document.getElementById("del_player_2_button")
+                button.style.display = 'none';
+                button.style.visibility = "hidden";
+                player_name = button.innerHTML;
+                player_name = player_name.replace('Sup. ', '');
+                socket.emit('del_player', {name: player_name});
+                return false;
+            });
+            $('form#del_player_3_form').submit(function(event) {
+                button = document.getElementById("del_player_3_button")
+                button.style.display = 'none';
+                button.style.visibility = "hidden";
+                player_name = button.innerHTML;
+                player_name = player_name.replace('Sup. ', '');
+                socket.emit('del_player', {name: player_name});
+                return false;
+            });
+            $('form#del_player_4_form').submit(function(event) {
+                button = document.getElementById("del_player_4_button")
+                button.style.display = 'none';
+                button.style.visibility = "hidden";
+                player_name = button.innerHTML;
+                player_name = player_name.replace('Sup. ', '');
+                socket.emit('del_player', {name: player_name});
+                return false;
+            });
+            $('form#del_player_5_form').submit(function(event) {
+                button = document.getElementById("del_player_5_button")
+                button.style.display = 'none';
+                button.style.visibility = "hidden";
+                player_name = button.innerHTML;
+                player_name = player_name.replace('Sup. ', '');
+                socket.emit('del_player', {name: player_name});
+                return false;
+            });
+            $('form#del_player_6_form').submit(function(event) {
+                button = document.getElementById("del_player_6_button")
+                button.style.display = 'none';
+                button.style.visibility = "hidden";
+                player_name = button.innerHTML;
+                player_name = player_name.replace('Sup. ', '');
+                socket.emit('del_player', {name: player_name});
+                return false;
+            });
+            $('form#del_player_7_form').submit(function(event) {
+                button = document.getElementById("del_player_7_button")
+                button.style.display = 'none';
+                button.style.visibility = "hidden";
+                player_name = button.innerHTML;
+                player_name = player_name.replace('Sup. ', '');
+                socket.emit('del_player', {name: player_name});
+                return false;
+            });
+            $('form#del_player_8_form').submit(function(event) {
+                button = document.getElementById("del_player_8_button")
+                button.style.display = 'none';
+                button.style.visibility = "hidden";
+                player_name = button.innerHTML;
+                player_name = player_name.replace('Sup. ', '');
+                socket.emit('del_player', {name: player_name});
+                return false;
+            });
+            $('form#del_player_9_form').submit(function(event) {
+                button = document.getElementById("del_player_9_button")
+                button.style.display = 'none';
+                button.style.visibility = "hidden";
+                player_name = button.innerHTML;
+                player_name = player_name.replace('Sup. ', '');
+                socket.emit('del_player', {name: player_name});
+                return false;
+            });
+            $('form#activ_all_buttons').submit(function(event) {
+                socket.emit('activ_all_buttons');
+                return false;
+            });
+            $('form#activ_buttons').submit(function(event) {
+                socket.emit('activ_buttons');
+                return false;
+            });
+            $('form#next_question').submit(function(event) {
+                document.getElementById("start_quizz_button").disabled = true;
+                socket.emit('next_question');
+                return false;
+            });
+            $('form#start_quizz_form').submit(function(event) {
+                status = "set_questions";
+                var is_players_report_presence = document.getElementById("is_players_report_presence_checkbox").checked;
+                var topic_nbr = document.getElementById("topic_nbr").value;
+                console.log("Number of topics:"+topic_nbr);
+                var question_nbr_per_topic = document.getElementById("question_nbr_per_topic").value;
+                console.log("Number of Questions max per topics:"+question_nbr_per_topic);
+                var players_category_select = document.getElementById("players_category");
+                var players_category_id = players_category_select.selectedIndex;
+                var players_category_value = players_category_select.options[players_category_id].value;
+                var is_score_per_time_range = document.getElementById("is_score_per_time_range_checkbox").checked;
+                document.getElementById("suite_parameter_div").style.display = 'none';
+                document.getElementById("suite_parameter_div").style.visibility = "hidden";
+                document.getElementById("qrcode_div").style.display = 'none';
+                document.getElementById("start_quizz_button").disabled = true;
+                hideMenuBoutonsForm();
+                document.getElementById("video-placeholder").style.display = 'none';
+                socket.emit('launch_quiz', {players_category: players_category_value, topic_nbr: topic_nbr, question_nbr_per_topic: question_nbr_per_topic, is_players_report_presence: is_players_report_presence, is_score_per_time_range: is_score_per_time_range});
+                return false;
+            });
+            $('form#new_game_form').submit(function(event) {
+                socket.emit('new_game');
+                var new_location = "web_quizz";
+                window.location.href=new_location;
+                return false;
+            });
+            $('form#deactiv_buttons').submit(function(event) {
+                socket.emit('deactiv_buttons');
+                return false;
+            });
+        });
+    </script>
+    <script>
+        function renameLabel(label_name, new_value) { 
+            var x = document.getElementById(label_name);               
+            x.innerHTML = new_value;
+        }
+        function recolorBorder(label_name, new_value) { 
+            var x = document.getElementById(label_name);               
+            x.style.borderColor = new_value;
+        }
+        function showMenuBoutonsForm() {
+            document.getElementById("menu_boutons").style.display = 'block';
+        }
+        function hideMenuBoutonsForm() {
+            document.getElementById("menu_boutons").style.display = 'none';
+        }
+        function showPlayerBoutonsForm() {
+            document.getElementById("player_boutons").style.display = 'block';
+        }
+        function hidePlayerBoutonsForm() {
+            document.getElementById("player_boutons").style.display = 'none';
+        }
+        function hideAllDelPlayerButtons() {
+            var i;
+            for ( i = 1; i < 10; i++ ) {
+                var button = document.getElementById("del_player_"+i+"_button");
+                button.style.display = 'none';
+                button.style.visibility = "hidden";
+            }
+        }
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        var player;
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+                height: '480',
+                width: '640',
+                videoId: document.getElementById("youtube_link").value,
+                events: {
+                    'onReady': onPlayerReady,
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+            player.PlayerState = YT.PlayerState.ENDED;
+        }
+        function onPlayerReady(event) {
+            event.target.playVideo();
+        }
+        var done = false;
+        function onPlayerStateChange(event) {
+            if (event.data == YT.PlayerState.PLAYING && !done) {
+                done = true;
+            }
+        }
+        function UpdateQRCode(val){
+            document.getElementById("qrcode").setAttribute("src","https://api.mimfa.net/qrcode?value="+encodeURIComponent(location.protocol + '//' + location.host + '/web_quizz_login')+"&as=value");
+        }
+        document.addEventListener("DOMContentLoaded", function(){
+            UpdateQRCode(document.getElementById("qrcode").value);
+        });
+        function updateLeaderboard(players) {
+            const tbody = document.getElementById('leaderboard_body');
+            if (!tbody) return; 
+            
+            const rowPositions = {};
+            Array.from(tbody.rows).forEach(row => {
+                const id = row.dataset.id;
+                rowPositions[id] = row.getBoundingClientRect().top;
+            });
+
+            players.forEach((player) => {
+                let row = tbody.querySelector(`tr[data-id="${player.id}"]`);
+                
+                if (!row) {
+                    row = document.createElement('tr');
+                    row.dataset.id = player.id;
+                    tbody.appendChild(row);
+                }
+
+                const progClass = player.progression > 0 ? 'up' : (player.progression < 0 ? 'down' : 'stable');
+                const progIcon = player.progression > 0 ? '▲' : (player.progression < 0 ? '▼' : '▬');
+                const progValue = player.progression === 0 ? '0' : Math.abs(player.progression);
+
+                row.innerHTML = `
+                    <td class="rank">${player.rank}</td>
+                    <td class="player">
+                        <div class="player-img"></div>
+                        <span>${player.name}</span>
+                    </td>
+                    <td>${player.points.toLocaleString()} pts</td>
+                    <td>${player.play_time || 0} s</td>
+                    <td class="progression ${progClass}">
+                        <span class="icon">${progIcon}</span> ${progValue}
+                    </td>
+                `;
+
+                tbody.appendChild(row);
+            });
+
+            Array.from(tbody.rows).forEach(row => {
+                const id = row.dataset.id;
+                const oldTop = rowPositions[id];
+                
+                if (oldTop) {
+                    const newTop = row.getBoundingClientRect().top;
+                    const delta = oldTop - newTop;
+
+                    if (delta !== 0) {
+                        row.style.transition = 'none';
+                        row.style.transform = `translateY(${delta}px)`;
+
+                        requestAnimationFrame(() => {
+                            row.style.transition = 'transform 0.6s cubic-bezier(0.4, 0, 0.2, 1)';
+                            row.style.transform = 'translateY(0)';
+                        });
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>

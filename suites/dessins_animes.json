@@ -1,0 +1,207 @@
+{
+    "topic": "DESSINS ANIMES",
+    "categories": [ "Elders", "Adults" ],
+    "generation_min": "Teenagers",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "Qui est le plus petit des freres Daltons ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/lucky_luke/daltons.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/lucky_luke/daltons.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/lucky_luke/daltons.jpg" ],
+            "wrong_answers" : [ "Averell", "Jack", "William" ],
+            "good_answer" : "Joe"
+        },
+        {
+            "question" : "Qui est le plus grand des freres Daltons ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/lucky_luke/daltons.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/lucky_luke/daltons.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/lucky_luke/daltons.jpg" ],
+            "wrong_answers" : [ "Joe", "Jack", "William" ],
+            "good_answer" : "Averell"
+        },
+        {
+            "question" : "Dans quel dessin anime participe t-il ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/scooby_doo/sammy.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/scooby_doo/sammy.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/scooby_doo/sammy.jpg" ],
+            "wrong_answers" : [ "Naruto", "Nemo", "winnie L'ourson" ],
+            "good_answer" : "Scooby-Doo"
+        },
+        {
+            "question" : "Quel est le nom de ce personnage de Scooby-Doo ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/scooby_doo/fred.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/scooby_doo/fred.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/scooby_doo/fred.jpg" ],
+            "wrong_answers" : [ "Johnny", "Billy", "Sam" ],
+            "good_answer" : "Véra"
+        },
+        {
+            "question" : "D'après un dessin animé des années 90, comment se prénomme le cinquième mousquetaire ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/quiz.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/quiz.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/quiz.jpg" ],
+            "wrong_answers" : [ "Gaston", "Marcel", "Firmin" ],
+            "good_answer" : "Albert"
+        },
+        {
+            "question" : "Comment s'appelle la nièce de Inspecteur Gadget ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/inspecteur_gadget_sophie.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/inspecteur_gadget_sophie.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/inspecteur_gadget_sophie.jpg" ],
+            "wrong_answers" : [ "Marie", "Julie", "Penny" ],
+            "good_answer" : "Sophie"
+        },
+        {
+            "question" : "Comment se nomme le grand méchant dans 'l'Inspecteur Gadget' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/inspecteur_gadget_dr_mad.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/inspecteur_gadget_dr_mad.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/inspecteur_gadget_dr_mad.jpg" ],
+            "wrong_answers" : [ "Dr.Gang", "Dr.Bugz", "Dr.Punch" ],
+            "good_answer" : "Dr.Mad"
+        },
+        {
+            "question" : "Quel est le métier de Bob l'Éponge ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/bob_l_eponge.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/bob_l_eponge.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/bob_l_eponge_cuisinier.jpg" ],
+            "wrong_answers" : [ "Moniteur d'auto-école", "Chasseur de méduses", "Pilote de bateau" ],
+            "good_answer" : "Cuisinier"
+        },
+        {
+            "question" : "Quel est le nom de cette héroïne d'une série Disney ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/kim_possible.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/kim_possible.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/kim_possible.jpg" ],
+            "wrong_answers" : [ "Carmen Sandiego", "Gretchen", "Diana Lombard" ],
+            "good_answer" : "Kim Possible"
+        },
+        {
+            "question" : "Quel est le nom du chien du pilote d'avion ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/diabolo_et_satanas.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/diabolo_et_satanas.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/diabolo_et_satanas.jpg" ],
+            "wrong_answers" : [ "Général", "Looping", "Zéphyrin" ],
+            "good_answer" : "Diabolo"
+        },
+        {
+            "question" : "Quel est le nom de ces petits ours qui habitent une forêt magique ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/les_gummi.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/les_gummi.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/les_gummi.jpg" ],
+            "wrong_answers" : [ "Les Bisounours", "Les Bobobos", "Les Minipouss" ],
+            "good_answer" : "Les Gummi"
+        },
+        {
+            "question" : "Quel est le nom de ce jeune indien sioux ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/yakari.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/yakari.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/yakari.jpg" ],
+            "wrong_answers" : [ "Yiraki", "Yakira", "Yikara" ],
+            "good_answer" : "Yakari"
+        },
+        {
+            "question" : "Qui est le meilleur ami d'Arnold dans 'Hé Arnold' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/hey_arnold.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/hey_arnold.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/hey_arnold.jpg" ],
+            "wrong_answers" : [ "Eugène", "Sid", "Stinky" ],
+            "good_answer" : "Gerald"
+        },
+        {
+            "question" : "Quel garçon se réveille chaque jour avec une apparence différente ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/quiz.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/quiz.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/martin_matin.jpg" ],
+            "wrong_answers" : [ "Jacob", "Lucas", "Benji" ],
+            "good_answer" : "Martin"
+        },
+        {
+            "question" : "Quel personnage ne fait pas partie des Winx ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/winx.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/winx.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/winx.jpg" ],
+            "wrong_answers" : [ "Bloom", "Stella", "Musa" ],
+            "good_answer" : "Clover"
+        },
+        {
+            "question" : "Quel est le nom de l’acolyte féminine dans 'Martin Mystère' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/martin_mystere.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/martin_mystere.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/martin_mystere.jpg" ],
+            "wrong_answers" : [ "Luna", "Sophie", "Kim" ],
+            "good_answer" : "Diana"
+        },
+        {
+            "question" : "Quel est le fondateur de l’organisation WOOHP dans 'Totally Spies' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/totally_spies.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/totally_spies.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/totally_spies.jpg" ],
+            "wrong_answers" : [ "John", "Jack", "Victor" ],
+            "good_answer" : "Jerry"
+        },
+        {
+            "question" : "Quelle phrase est répétée dans le générique original de 'Totally Spies' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/totally_spies.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/totally_spies.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/totally_spies.jpg" ],
+            "wrong_answers" : [ "Spice up your life", "Girl Power", "Move your body" ],
+            "good_answer" : "Here we go"
+        }
+    ]
+}
+    

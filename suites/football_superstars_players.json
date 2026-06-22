@@ -1,0 +1,184 @@
+{
+    "topic": "Les stars du Football",
+    "categories": [ "All" ],
+    "generation_min": "Adults",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "A quelle unique équipe Francesco Totti fut un grand buteur ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/francesco_totti.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/francesco_totti.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/football/francesco_totti.jpg" ],
+            "wrong_answers" : [ "Atalanta Bergame", "Bologne", "Udinese" ],
+            "good_answer" : "AS Rome"
+        },
+        {
+            "question" : "Sepp Maier a remporté 3 fois la Champions League en gardant les buts de quelle équipe ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/sepp_maier.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/sepp_maier.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/football/sepp_maier.jpg" ],
+            "wrong_answers" : [ "Bayer Leverkusen", "Borussia Mönchengladbach", "Werder de Brême" ],
+            "good_answer" : "Bayern de Munich"
+        },
+        {
+            "question" : "Dans quel club était Lev Yachine, le seul gardien 'Ballon d'or' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/lev_yachine.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/lev_yachine.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/football/lev_yachine.jpg" ],
+            "wrong_answers" : [ "CSKA Moscou", "Spartak Moscou", "Torpédo Moscou" ],
+            "good_answer" : "Dynamo Moscou"
+        },
+        {
+            "question" : "A quel club Giuseppe Bergomi est-il indissociable ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/giuseppe_bergomi.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/giuseppe_bergomi.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/football/giuseppe_bergomi.jpg" ],
+            "wrong_answers" : [ "Bari", "Bologne", "Vérone" ],
+            "good_answer" : "Inter Milan"
+        },
+        {
+            "question" : "A quel club Franco Baresi est-il indissociable ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/franco_baresi_italie.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/franco_baresi_italie.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/football/franco_baresi_milan_ac.jpg" ],
+            "wrong_answers" : [ "Fiorentina", "Juventus de Turin", "Naples" ],
+            "good_answer" : "Milan AC"
+        },
+        {
+            "question" : "A quel club Paolo Maldini est-il indissociable ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/paolo_maldini.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/paolo_maldini.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/football/paolo_maldini_milan_ac.jpg" ],
+            "wrong_answers" : [ "Lazio de Rome", "Sampdoria de Gênes", "Torino" ],
+            "good_answer" : "Milan AC"
+        },
+        {
+            "question" : "Jean-Luc Ettori a fait le bonheur de l'équipe de France et à quel club ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/jean_luc_ettori.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/jean_luc_ettori.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/football/jean_luc_ettori_as_monaco.jpg" ],
+            "wrong_answers" : [ "Bordeaux", "Marseille", "Montpellier" ],
+            "good_answer" : "Monaco"
+        },
+        {
+            "question" : "A quel club Jean-Paul Bertrand-Demanes est-il indissociable ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/jean_paul_bertrand_demanes.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/jean_paul_bertrand_demanes.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/football/jean_paul_bertrand_demanes_fc_nantes.jpg" ],
+            "wrong_answers" : [ "Brest", "Lens", "Lyon" ],
+            "good_answer" : "Nantes"
+        },
+        {
+            "question" : "Dans quel club Cristiano Ronaldo n'a jamais évolué ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/christiano_ronaldo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/christiano_ronaldo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/football/christiano_ronaldo.jpg" ],
+            "wrong_answers" : [ "Manchester United", "Sporting Portugal", "Juventus" ],
+            "good_answer" : "Benfica"
+        },
+        {
+            "question" : "Quel joueur était surnommé le 'Hollandais volant' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/quiz_football.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/quiz_football.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/football/johan_cruyff_1974.jpg" ],
+            "wrong_answers" : [ "Ronald Koeman", "Robin Van Persie", "Mark Van Bommel" ],
+            "good_answer" : "Johan Cruyff"
+        },
+        {
+            "question" : "Dans quel club français Karim Benzema a-t-il débuté sa carrière ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/quiz_football.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/quiz_football.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/football/karim_benzema_ol.jpg" ],
+            "wrong_answers" : [ "OM", "PSG", "Monaco" ],
+            "good_answer" : "OL"
+        },
+        {
+            "question" : "En quelle année Lionel Messi a-t-il remporté son premier Ballon d'or ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/lionel_messi.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/lionel_messi.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/football/lionel_messi.jpg" ],
+            "wrong_answers" : [ "2011", "2012", "2014" ],
+            "good_answer" : "2009"
+        },
+        {
+            "question" : "Quel est le milieu de terrain emblématique de Liverpool ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/quiz_football.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/quiz_football.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/football/steven_gerrard_liverpool.jpg" ],
+            "wrong_answers" : [ "Franck Lampard", "David Beckham", "Paul Scholes" ],
+            "good_answer" : "Steven Gerrard"
+        },
+        {
+            "question" : "Quel joueur anglais n'a jamais reçu le Ballon d'or ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/quiz_football.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/quiz_football.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/football/wayne_rooney_england.jpg" ],
+            "wrong_answers" : [ "Michael Owen", "Kevin Keegan", "Bobby Charlton" ],
+            "good_answer" : "Wayne Rooney"
+        },
+        {
+            "question" : "Dans quel club Bobby Charlton a-t-il inscrit 199 buts ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/bobby_charlton.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/bobby_charlton.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/football/bobby_charlton.jpg" ],
+            "wrong_answers" : [ "Liverpool FC", "Porthsmouth FC", "Blackpool FC" ],
+            "good_answer" : "Manchester United"
+        },
+        {
+            "question" : "Quel joueur de foot anglais a joué au PSG en 2013 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/quiz_football.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/football/quiz_football.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/football/david_beckham_psg.jpg" ],
+            "wrong_answers" : [ "Steven Gerrard", "Ashley Cole", "Franck Lampard" ],
+            "good_answer" : "David Beckham"
+        }
+    ]
+}

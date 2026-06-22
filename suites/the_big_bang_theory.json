@@ -1,0 +1,251 @@
+{
+    "topic": "The Big Bang Theory",
+    "categories": [ "Elders", "Adults", "Teenagers" ],
+    "generation_min": "2000s",
+    "generation_max": "1970s",
+    "questions": [
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/amy_farrah_fowler.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/amy_farrah_fowler.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_big_bang_theory/amy_farrah_fowler.jpg" ],
+            "wrong_answers" : [ "Parker", "Hofstadter", "Bloom" ],
+            "good_answer" : "Fawler"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/amy_farrah_fowler.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/amy_farrah_fowler.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_big_bang_theory/amy_farrah_fowler.jpg" ],
+            "wrong_answers" : [ "Penny", "Sarrah", "Suzy" ],
+            "good_answer" : "Amy"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/bernadette_rostenkowski.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/bernadette_rostenkowski.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_big_bang_theory/bernadette_rostenkowski.jpg" ],
+            "wrong_answers" : [ "Penny", "Claire", "Denise" ],
+            "good_answer" : "Bernadette"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/howard_wolowitz.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/howard_wolowitz.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_big_bang_theory/howard_wolowitz.jpg" ],
+            "wrong_answers" : [ "Karnowitz", "Mintsky", "Rostenkowski" ],
+            "good_answer" : "Wolowitz"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/howard_wolowitz.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/howard_wolowitz.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_big_bang_theory/howard_wolowitz.jpg" ],
+            "wrong_answers" : [ "Kyle", "Sheldon", "Steeven" ],
+            "good_answer" : "Howard"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/leonard_hofstadter.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/leonard_hofstadter.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_big_bang_theory/leonard_hofstadter.jpg" ],
+            "wrong_answers" : [ "Harper", "Hipstater", "Hurtner" ],
+            "good_answer" : "Hofstadter"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/leonard_hofstadter.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/leonard_hofstadter.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_big_bang_theory/leonard_hofstadter.jpg" ],
+            "wrong_answers" : [ "Barry", "Basile", "Sheldon" ],
+            "good_answer" : "Leonard"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/penny.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/penny.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_big_bang_theory/penny.jpg" ],
+            "wrong_answers" : [ "Amy", "Kaley", "Roxanne" ],
+            "good_answer" : "Penny"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/rajesh_koothrappali.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/rajesh_koothrappali.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_big_bang_theory/rajesh_koothrappali.jpg" ],
+            "wrong_answers" : [ "Kaan", "Nayyar", "Hurtner" ],
+            "good_answer" : "Koothrappali"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/rajesh_koothrappali.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/rajesh_koothrappali.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_big_bang_theory/rajesh_koothrappali.jpg" ],
+            "wrong_answers" : [ "Sanjay", "Venkatesh", "Adoot" ],
+            "good_answer" : "Rajesh"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/sheldon_cooper.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/sheldon_cooper.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_big_bang_theory/sheldon_cooper.jpg" ],
+            "wrong_answers" : [ "Carter", "Hofstadter", "Hoover" ],
+            "good_answer" : "Cooper"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/sheldon_cooper.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/sheldon_cooper.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_big_bang_theory/sheldon_cooper.jpg" ],
+            "wrong_answers" : [ "Howard", "Leonard", "Stuart" ],
+            "good_answer" : "Sheldon"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/stuart_bloom.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/stuart_bloom.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_big_bang_theory/stuart_bloom.jpg" ],
+            "wrong_answers" : [ "Barry", "Bert", "Brian" ],
+            "good_answer" : "Stuart"
+        },
+        {
+            "question" : "Avec qui se marie Bernadette ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_big_bang_theory/mariage_bernadette_et_howard.jpg" ],
+            "wrong_answers" : [ "Leonard", "Rajesh", "Sheldon" ],
+            "good_answer" : "Howard"
+        },
+        {
+            "question" : "Avec qui se marie Amy ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_big_bang_theory/mariage_amy_et_sheldon.jpg" ],
+            "wrong_answers" : [ "Leonard", "Rajesh", "Howard" ],
+            "good_answer" : "Sheldon"
+        },
+        {
+            "question" : "Avec qui se marie Penny ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_big_bang_theory/mariage_amy_et_sheldon.jpg" ],
+            "wrong_answers" : [ "Leonard", "Rajesh", "Howard" ],
+            "good_answer" : "Sheldon"
+        },
+        {
+            "question" : "Quel type de physicien est Leonard ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "wrong_answers" : [ "Théoricien", "Astrophysicien", "Aérospatiale" ],
+            "good_answer" : "Expérimental"
+        },
+        {
+            "question" : "Quel type de physicien est Rajesh ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "wrong_answers" : [ "Théoricien", "Expérimental", "Aérospatiale" ],
+            "good_answer" : "Astrophysicien"
+        },
+        {
+            "question" : "Quel type de physicien est Howard ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "wrong_answers" : [ "Théoricien", "Expérimental", "Astrophysicien" ],
+            "good_answer" : "Aérospatiale"
+        },
+        {
+            "question" : "Quel type de physicien est Sheldon ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "wrong_answers" : [ "Aérospatiale", "Expérimental", "Astrophysicien" ],
+            "good_answer" : "Théoricien"
+        },
+        {
+            "question" : "Quel est le métier de Amy ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "wrong_answers" : [ "Serveuse", "Actrice", "Microbiologiste" ],
+            "good_answer" : "Neuroscientifique"
+        },
+        {
+            "question" : "Quel est le métier de Bernadette ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_big_bang_theory/the_big_bang_theory.jpg" ],
+            "wrong_answers" : [ "Physicienne", "Actrice", "Neuroscientifique" ],
+            "good_answer" : "Microbiologiste"
+        }
+    ]
+}
+    

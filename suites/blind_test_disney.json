@@ -1,0 +1,120 @@
+{
+    "topic": "Blind Test DISNEY",
+    "categories": [ "All" ],
+    "generation_min": "Youngers",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "Quel est ce dessin animé ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 24,
+            "waiting_answer_start_time": 10.0,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "waiting_answer_media" : [ "nsIoOzX5p18.yt", "/static/images/disney/disney.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/disney/le_roi_lion.jpg" ],
+            "wrong_answers" : [ "Raiponce", "Pocahontas", "Le Livre de la Jungle" ],
+            "good_answer" : "Le Roi Lion"
+        },
+        {
+            "question" : "Quel est ce dessin animé ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 30,
+            "waiting_answer_start_time": 40.0,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "waiting_answer_media" : [ "zk_QxnVWHug.yt", "/static/images/disney/disney.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/disney/blanch_neige.jpg" ],
+            "wrong_answers" : [ "Cendrillon", "Alice au Pays des Merveilles", "Pocahontas" ],
+            "good_answer" : "Blanche Neige et les 7 Nains"
+        },
+        {
+            "question" : "Quel est ce dessin animé ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 23,
+            "waiting_answer_start_time": 10.0,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "waiting_answer_media" : [ "1hck1t9tbiA.yt", "/static/images/disney/disney.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/disney/peter_pan.jpg" ],
+            "wrong_answers" : [ "Pinocchio", "La Belle et la Bête", "Alice au Pays des Merveilles" ],
+            "good_answer" : "Peter Pan"
+        },
+        {
+            "question" : "Quel est ce dessin animé ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 30,
+            "waiting_answer_start_time": 104.0,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "waiting_answer_media" : [ "rQgjzwBkSeo.yt", "/static/images/disney/disney.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/disney/la_belle_et_la_bete.jpg" ],
+            "wrong_answers" : [ "Blanche Neige", "Cendrillon", "Le Roi Lion" ],
+            "good_answer" : "La Belle et la Bête"
+        },
+        {
+            "question" : "Quel est ce dessin animé ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 20,
+            "waiting_answer_start_time": 25.0,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "waiting_answer_media" : [ "utOjfcQfjOs.yt", "/static/images/disney/disney.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/disney/aladdin.jpg" ],
+            "wrong_answers" : [ "Le Roi Lion", "Les Aristochats", "Le Livre de la Jungle" ],
+            "good_answer" : "Aladdin"
+        },
+        {
+            "question" : "Quel est ce dessin animé ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 14,
+            "waiting_answer_start_time": 3.0,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "waiting_answer_media" : [ "XKnMMmZ-LpI.yt", "/static/images/disney/disney.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/disney/cendrillon.jpg" ],
+            "wrong_answers" : [ "Blanche Neige", "Robin des Bois", "La Petite Sirène" ],
+            "good_answer" : "Cendrillon"
+        },
+        {
+            "question" : "Quel est ce dessin animé ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 19,
+            "waiting_answer_start_time": 10.0,
+            "answer_timeout": 10,
+            "answer_start_time": 28.0,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "waiting_answer_media" : [ "bGZSc0l1BBw.yt", "/static/images/disney/disney.jpg" ],
+            "answer_media" : [ "bGZSc0l1BBw.yt", "/static/images/disney/la_petite_sirene.jpg" ],
+            "wrong_answers" : [ "Le Livre de la Jungle", "La Princesse et la Grenouille", "Les Aventures de Bernard et Bianca" ],
+            "good_answer" : "La Petite Sirène"
+        },
+        {
+            "question" : "Quel est ce dessin animé ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 26,
+            "waiting_answer_start_time": 63.0,
+            "answer_timeout": 6,
+            "answer_start_time": 89.0,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "waiting_answer_media" : [ "m9N9CxzBNcs.yt" ],
+            "answer_media" : [ "m9N9CxzBNcs.yt", "/static/images/disney/la_princesse_et_la_grenouille.jpg", "/static/images/disney/disney.jpg" ],
+            "wrong_answers" : [ "Ratatouille", "Rox et Rouky", "Les Aristochats" ],
+            "good_answer" : "La Princesse et la Grenouille"
+        },
+        {
+            "question" : "Quel est ce dessin animé ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 17,
+            "waiting_answer_start_time": 20.0,
+            "answer_timeout": 5,
+            "answer_start_time": 36.0,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
+            "waiting_answer_media" : [ "q5Mb-cTOfiE.yt", "/static/images/disney/disney.jpg" ],
+            "answer_media" : [ "q5Mb-cTOfiE.yt", "/static/images/disney/hercule.jpg" ],
+            "wrong_answers" : [ "Rox et Rouky", "Mary Poppins", "Les 101 Dalmatiens" ],
+            "good_answer" : "Hercule"
+        }
+    ]
+}
+    

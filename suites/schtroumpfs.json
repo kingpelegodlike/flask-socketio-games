@@ -1,0 +1,163 @@
+{
+    "topic": "LES SCHTROUMPFS",
+    "categories": [ "All" ],
+    "generation_min": "Youngers",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "Qui a créé la Schtroumpfette ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/schtroumpfs/schtroumpfs.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/schtroumpfs/schtroumpfette.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/schtroumpfs/gargamel.jpg" ],
+            "wrong_answers" : [ "Dieu", "Le grand Schtroumpf", "Schtroumpf bricoleur" ],
+            "good_answer" : "Gargamel"
+        },
+        {
+            "question" : "Quel est l'auteur des Schtroumpfs ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/schtroumpfs/schtroumpfs_nameless.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/schtroumpfs/schtroumpfs_nameless.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/schtroumpfs/schtroumpfs.jpg" ],
+            "wrong_answers" : [ "Hergé", "Karl Marx", "Roba" ],
+            "good_answer" : "Peyo"
+        },
+        {
+            "question" : "Quel est le nom anglais des Schtroumpfs ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/schtroumpfs/schtroumpfs.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/dessins_animes/schtroumpfs/schtroumpfs.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/schtroumpfs/smurfs.jpg" ],
+            "wrong_answers" : [ "Little blue guys", "Shutters", "Ziggots" ],
+            "good_answer" : "Smurfs"
+        },
+        {
+            "question" : "De quelle couleur est le bonnet du Grand Schtroumpf ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/quiz.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/quiz.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/schtroumpfs/schtroumpfs.jpg" ],
+            "wrong_answers" : [ "Blanc", "Vert", "Noir" ],
+            "good_answer" : "Rouge"
+        },
+        {
+            "question" : "Quel acteur prête sa voix au Grand Schtroumpf ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/schtroumpfs/schtroumpfs.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/schtroumpfs/schtroumpfs.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/schtroumpfs/gerard_hernandez.jpg" ],
+            "wrong_answers" : [ "Roger Carel", "André Dussolier", "Roland Giraud" ],
+            "good_answer" : "Gérard Hernandez"
+        },
+        {
+            "question" : "Comment s’appelle le sorcier qui pourchasse les Schtroumpfs ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/schtroumpfs/schtroumpfs.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/schtroumpfs/schtroumpfs.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/schtroumpfs/gargamel.jpg" ],
+            "wrong_answers" : [ "Pantagruel", "Gilliver", "Azraël" ],
+            "good_answer" : "Gargamel"
+        },
+        {
+            "question" : "Quel animal est Azraël ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/schtroumpfs/schtroumpfs.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/schtroumpfs/schtroumpfs.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/schtroumpfs/schtroumpfs.jpg" ],
+            "wrong_answers" : [ "Chien", "Corbeau", "Dragon" ],
+            "good_answer" : "Chat"
+        },
+        {
+            "question" : "Quelle est la forme des maisons des Schtroumpfs ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/quiz.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/quiz.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/schtroumpfs/schtroumpfs.jpg" ],
+            "wrong_answers" : [ "Pomme", "Fleur", "Ananas" ],
+            "good_answer" : "Champignon"
+        },
+        {
+            "question" : "Dans quelle bande dessinée, les Schtroumpfs sont apparus avant d’avoir leurs propres histoires ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/schtroumpfs/schtroumpfs.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/schtroumpfs/schtroumpfs.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/schtroumpfs/schtroumpfs.jpg" ],
+            "wrong_answers" : [ "Gaston Lagaffe", "Léonard", "Achille Talon" ],
+            "good_answer" : "Johan et Pirlouit"
+        },
+        {
+            "question" : "Quelle est la nourriture préférée des Schtroumpfs ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/schtroumpfs/schtroumpfs.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/schtroumpfs/schtroumpfs.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/schtroumpfs/schtroumpfs.jpg" ],
+            "wrong_answers" : [ "Le Sureau", "La Canneberge", "Le Goyavier" ],
+            "good_answer" : "La Salsepareille"
+        },
+        {
+            "question" : "Quel accessoire permet de reconnaitre le Schtroumpf coquet ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/schtroumpfs/schtroumpfs.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/schtroumpfs/schtroumpfs.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/schtroumpfs/schtroumpfs.jpg" ],
+            "wrong_answers" : [ "Une chaine autour du cou", "Des gants blancs", "Une bouteille de parfum" ],
+            "good_answer" : "Une fleur sur son bonnet"
+        },
+        {
+            "question" : "Comment s’appelle le second Schtroumpf de sexe féminin ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/schtroumpfs/schtroumpfs.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/schtroumpfs/schtroumpfs.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/schtroumpfs/schtroumpfs.jpg" ],
+            "wrong_answers" : [ "Coquette", "Zézette", "Craquette" ],
+            "good_answer" : "Sassette"
+        },
+        {
+            "question" : "Quel est le premier album des Schtroumpfs publié en 1963 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/schtroumpfs/schtroumpfs.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/schtroumpfs/schtroumpfs.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/schtroumpfs/schtroumpfs.jpg" ],
+            "wrong_answers" : [ "Les Schtroumpfs et le livre qui dit tout", "La soupe aux Schtroumpfs", "La menace Schtroumpfs" ],
+            "good_answer" : "Les Schtroumpfs noirs"
+        },
+        {
+            "question" : "Où les Schtroumpfs débarquent dans le film Les Schtroumpfs de 2011 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/schtroumpfs/schtroumpfs.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/schtroumpfs/schtroumpfs.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/dessins_animes/schtroumpfs/schtroumpfs.jpg" ],
+            "wrong_answers" : [ "Londres", "Paris", "Rome" ],
+            "good_answer" : "New York"
+        }
+    ]
+}
+    

@@ -1,0 +1,174 @@
+{
+    "topic": "LES EXPERTS",
+    "categories": [ "Elders", "Adults" ],
+    "generation_min": "2000s",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "De quelle série des Experts ce personnage est-il issu ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/las_vegas_gil_grissom.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/las_vegas_gil_grissom.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/experts/logo_experts_las_vegas.jpg" ],
+            "wrong_answers" : [ "Aucune des 3", "Miami", "Manhattan" ],
+            "good_answer" : "Las Vegas"
+        },
+        {
+            "question" : "De quelle série des Experts ce personnage est-il issu ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/las_vegas_catherine_willows.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/las_vegas_catherine_willows.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/experts/logo_experts_las_vegas.jpg" ],
+            "wrong_answers" : [ "Aucune des 3", "Miami", "Manhattan" ],
+            "good_answer" : "Las Vegas"
+        },
+        {
+            "question" : "De quelle série des Experts ce personnage est-il issu ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/las_vegas_jorja_fox.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/las_vegas_jorja_fox.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/experts/logo_experts_las_vegas.jpg" ],
+            "wrong_answers" : [ "Aucune des 3", "Miami", "Manhattan" ],
+            "good_answer" : "Las Vegas"
+        },
+        {
+            "question" : "De quelle série des Experts ce personnage est-il issu ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/las_vegas_nick_stokes.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/las_vegas_nick_stokes.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/experts/logo_experts_las_vegas.jpg" ],
+            "wrong_answers" : [ "Aucune des 3", "Miami", "Manhattan" ],
+            "good_answer" : "Las Vegas"
+        },
+        {
+            "question" : "De quelle série des Experts ce personnage est-il issu ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/las_vegas_greg_sanders.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/las_vegas_greg_sanders.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/experts/logo_experts_las_vegas.jpg" ],
+            "wrong_answers" : [ "Aucune des 3", "Miami", "Manhattan" ],
+            "good_answer" : "Las Vegas"
+        },
+        {
+            "question" : "De quelle série des Experts ce personnage est-il issu ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/miami_horatio_caine.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/miami_horatio_caine.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/experts/logo_experts_miami.jpg" ],
+            "wrong_answers" : [ "Aucune des 3", "Las Vegas", "Manhattan" ],
+            "good_answer" : "Miami"
+        },
+        {
+            "question" : "De quelle série des Experts ce personnage est-il issu ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/miami_calleigh_duquesne.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/miami_calleigh_duquesne.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/experts/logo_experts_miami.jpg" ],
+            "wrong_answers" : [ "Aucune des 3", "Las Vegas", "Manhattan" ],
+            "good_answer" : "Miami"
+        },
+        {
+            "question" : "De quelle série des Experts ce personnage est-il issu ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/miami_dr_tara_price.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/miami_dr_tara_price.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/experts/logo_experts_miami.jpg" ],
+            "wrong_answers" : [ "Aucune des 3", "Las Vegas", "Manhattan" ],
+            "good_answer" : "Miami"
+        },
+        {
+            "question" : "De quelle série des Experts ce personnage est-il issu ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/miami_eric_delko.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/miami_eric_delko.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/experts/logo_experts_miami.jpg" ],
+            "wrong_answers" : [ "Aucune des 3", "Las Vegas", "Manhattan" ],
+            "good_answer" : "Miami"
+        },
+        {
+            "question" : "De quelle série des Experts ce personnage est-il issu ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/miami_natalia_boa_vista.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/miami_natalia_boa_vista.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/experts/logo_experts_miami.jpg" ],
+            "wrong_answers" : [ "Aucune des 3", "Las Vegas", "Manhattan" ],
+            "good_answer" : "Miami"
+        },
+        {
+            "question" : "De quelle série des Experts ce personnage est-il issu ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/manhattan_adam_ross.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/manhattan_adam_ross.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/experts/logo_experts_manhattan.jpg" ],
+            "wrong_answers" : [ "Aucune des 3", "Las Vegas", "Miami" ],
+            "good_answer" : "Manhattan"
+        },
+        {
+            "question" : "De quelle série des Experts ce personnage est-il issu ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/manhattan_danny_messer.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/manhattan_danny_messer.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/experts/logo_experts_manhattan.jpg" ],
+            "wrong_answers" : [ "Aucune des 3", "Las Vegas", "Miami" ],
+            "good_answer" : "Manhattan"
+        },
+        {
+            "question" : "De quelle série des Experts ce personnage est-il issu ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/manhattan_jo_danville.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/manhattan_jo_danville.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/experts/logo_experts_manhattan.jpg" ],
+            "wrong_answers" : [ "Aucune des 3", "Las Vegas", "Miami" ],
+            "good_answer" : "Manhattan"
+        },
+        {
+            "question" : "De quelle série des Experts ce personnage est-il issu ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/manhattan_mac_taylor.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/manhattan_mac_taylor.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/experts/logo_experts_manhattan.jpg" ],
+            "wrong_answers" : [ "Aucune des 3", "Las Vegas", "Miami" ],
+            "good_answer" : "Manhattan"
+        },
+        {
+            "question" : "De quelle série des Experts ce personnage est-il issu ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/manhattan_sid_hammerback.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/experts/manhattan_sid_hammerback.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/experts/logo_experts_manhattan.jpg" ],
+            "wrong_answers" : [ "Aucune des 3", "Las Vegas", "Miami" ],
+            "good_answer" : "Manhattan"
+        }
+    ]
+}
+    

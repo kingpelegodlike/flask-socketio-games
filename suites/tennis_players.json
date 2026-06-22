@@ -1,0 +1,207 @@
+{
+    "topic": "CELEBRITES DU TENNIS",
+    "categories": [ "Elders", "Adults" ],
+    "generation_min": "Adults",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "Qui est-ce ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/bjorn_borg.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/bjorn_borg.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/tennis/bjorn_borg.jpg" ],
+            "wrong_answers" : [ "André Agassi", "John McEnroe", "Mats Wilander" ],
+            "good_answer" : "Björn Borg"
+        },
+        {
+            "question" : "Que est la nationalité de ce joueur de tennis",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/novak_djokovic.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/novak_djokovic.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/tennis/novak_djokovic.jpg" ],
+            "wrong_answers" : [ "Russe", "Croate", "Polonaise" ],
+            "good_answer" : "Serbe"
+        },
+        {
+            "question" : "Qui est-ce ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/novak_djokovic.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/novak_djokovic.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/tennis/novak_djokovic.jpg" ],
+            "wrong_answers" : [ "Roger Federer", "Nenad Zimonjic", "Nikolay Davydenko" ],
+            "good_answer" : "Novak Djokovic"
+        },
+        {
+            "question" : "Qui est-ce ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/boris_becker.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/boris_becker.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/tennis/boris_becker.jpg" ],
+            "wrong_answers" : [ "Björn Borg", "Jimmy Connors", "John McEnroe" ],
+            "good_answer" : "Boris Becker"
+        },
+        {
+            "question" : "Qui est-ce ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/gustavo_kuerten.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/gustavo_kuerten.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/tennis/gustavo_kuerten.jpg" ],
+            "wrong_answers" : [ "Albert Costa", "Gaston Gaudio", "Juan Carlos Ferrero" ],
+            "good_answer" : "Gustavo Kuerten"
+        },
+        {
+            "question" : "Qui est-ce ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/jimmy_connors.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/jimmy_connors.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/tennis/jimmy_connors.jpg" ],
+            "wrong_answers" : [ "Björn Borg", "Boris Becker", "John McEnroe" ],
+            "good_answer" : "Jimmy Connors"
+        },
+        {
+            "question" : "Qui est-ce ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/john_mc_enroe.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/john_mc_enroe.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/tennis/john_mc_enroe.jpg" ],
+            "wrong_answers" : [ "Henri Leconte", "Jimmy Connors", "Pete Sampras" ],
+            "good_answer" : "John McEnroe"
+        },
+        {
+            "question" : "Qui est-ce ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/rafael_nadal.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/rafael_nadal.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/tennis/rafael_nadal.jpg" ],
+            "wrong_answers" : [ "Juan Carlos Ferrero", "Robin Soderling", "Roger Federer" ],
+            "good_answer" : "Rafael Nadal"
+        },
+        {
+            "question" : "Qui est-ce ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/roger_federer.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/roger_federer.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/tennis/roger_federer.jpg" ],
+            "wrong_answers" : [ "Gustavo Kuerten", "Rafael Nadal", "Robin Soderling" ],
+            "good_answer" : "Roger Federer"
+        },
+        {
+            "question" : "Qui détient 14 victoires à Roland-Garros ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/quiz.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/quiz.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/tennis/rafael_nadal.jpg" ],
+            "wrong_answers" : [ "Roger Federer", "Novak Djokovic", "Carlos Alcaraz" ],
+            "good_answer" : "Rafael Nadal"
+        },
+        {
+            "question" : "Quel joueur surnommé 'Le Maestro', a pris sa retraite en 2022 avec 20 titres du Grand Chelem ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/quiz.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/quiz.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/tennis/roger_federer.jpg" ],
+            "wrong_answers" : [ "Stan Wawrinka", "Andy Murray", "Pete Sampras" ],
+            "good_answer" : "Roger Federer"
+        },
+        {
+            "question" : "Quelle joueuse a remporté 23 titres du Grand Chelem en simple ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/quiz.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/quiz.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/tennis.jpg" ],
+            "wrong_answers" : [ "Venus Williams", "Steffi Graf", "Maria Sharapova" ],
+            "good_answer" : "Serena Williams"
+        },
+        {
+            "question" : "Quel joueur détient le record du nombre de semaines passées numéro 1 mondial à l'ATP ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/quiz.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/quiz.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/tennis/novak_djokovic.jpg" ],
+            "wrong_answers" : [ "Daniil Medvedev", "Andre Agassi", "Marat Safin" ],
+            "good_answer" : "Novak Djokovic"
+        },
+        {
+            "question" : "Quelle joueuse a réalisé le 'Golden Slam' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/quiz.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/quiz.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/tennis/quiz.jpg" ],
+            "wrong_answers" : [ "Martina Navratilova", "Chris Evert", "Monica Seles" ],
+            "good_answer" : "Steffi Graf"
+        },
+        {
+            "question" : "Quel joueur français a remporté Roland-Garros en simple messieurs, en 1983 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/quiz.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/quiz.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/tennis/quiz.jpg" ],
+            "wrong_answers" : [ "Henri Leconte", "Guy Forget", "Jo-Wilfried Tsonga" ],
+            "good_answer" : "Yannick Noah"
+        },
+        {
+            "question" : "Quel joueur volcanique criait régulièrement 'You cannot be serious!' au corps arbitral ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/quiz.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/quiz.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/tennis/john_mc_enroe.jpg" ],
+            "wrong_answers" : [ "Jimmy Connors", "Ivan Lendl", "Jim Courier" ],
+            "good_answer" : "John McEnroe"
+        },
+        {
+            "question" : "Quel joueur a réalisé deux fois le Grand Chelem calendaire (en 1962 et 1969) ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/quiz.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/quiz.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/tennis/quiz.jpg" ],
+            "wrong_answers" : [ "Ken Rosewall", "John Newcombe", "Lleyton Hewitt" ],
+            "good_answer" : "Rod Laver"
+        },
+        {
+            "question" : "Quel joueur a dominé les années 1990 en remportant 14 tournois du Grand Chelem ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/quiz.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/sport/tennis/quiz.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/sport/tennis/quiz.jpg" ],
+            "wrong_answers" : [ "Andre Agassi", "Michael Chang", "Andy Roddick" ],
+            "good_answer" : "Pete Sampras"
+        }
+    ]
+}
+    

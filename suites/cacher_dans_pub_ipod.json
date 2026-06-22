@@ -1,0 +1,119 @@
+{
+    "topic": "Qui est caché dans la pub iPod ?",
+    "categories": [ "All" ],
+    "generation_min": "Adults",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "Qui est ce personnage en tôle piloté par Actarus ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/pub_ipod/goldorak.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/pub_ipod/goldorak.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/pub_ipod/goldorak.jpg" ],
+            "wrong_answers" : [ "Nono le robot", "Conan le barbare", "R2D2" ],
+            "good_answer" : "Goldorak"
+        },
+        {
+            "question" : "Quel est ce personnage de Disney ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/pub_ipod/donald.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/pub_ipod/donald.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/pub_ipod/donald.jpg" ],
+            "wrong_answers" : [ "Goofy", "Gontran Bonheur", "Picsou" ],
+            "good_answer" : "Donald Duck"
+        },
+        {
+            "question" : "Belle archéologue ultra athlétique !",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/pub_ipod/lara_croft.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/pub_ipod/lara_croft.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/pub_ipod/lara_croft.jpg" ],
+            "wrong_answers" : [ "Eva Joly", "Wonder Woman", "Xena" ],
+            "good_answer" : "Lara Croft"
+        },
+        {
+            "question" : "Si tu es Romain, évite de croiser ce type",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/pub_ipod/obelix.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/pub_ipod/obelix.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/pub_ipod/obelix.jpg" ],
+            "wrong_answers" : [ "Ducobu", "Quizzdefolix", "Astérix" ],
+            "good_answer" : "Obélix"
+        },
+        {
+            "question" : "Si tu es Français, évite de croiser ce type",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/pub_ipod/nicolas_sarkozy.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/pub_ipod/nicolas_sarkozy.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/pub_ipod/nicolas_sarkozy.jpg" ],
+            "wrong_answers" : [ "Arnold Schwarzenegger", "Justin Bieber", "Emmanuel Macron" ],
+            "good_answer" : "Nicolas Sarkozy"
+        },
+        {
+            "question" : "Justement, parfois il vaut mieux être sourd que d'entendre la réponse d'au-dessus !",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/pub_ipod/professeur_tournesol.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/pub_ipod/professeur_tournesol.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/pub_ipod/professeur_tournesol.jpg" ],
+            "wrong_answers" : [ "Professeur Nimbus", "Albert Einstein", "Professeur Foldingue" ],
+            "good_answer" : "Professeur Tournesol"
+        },
+        {
+            "question" : "Le seul facteur qui distribue le courrier en hélicoptère à deux roues",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/pub_ipod/fernandel.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/pub_ipod/fernandel.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/pub_ipod/fernandel.jpg" ],
+            "wrong_answers" : [ "Olivier Besancenot", "Jacques Tati", "X-Facteur" ],
+            "good_answer" : "Fernandel"
+        },
+        {
+            "question" : "Pour cette bestiole, prévoir un cable d'ipod de 25 mètres",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/pub_ipod/marsupilami.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/pub_ipod/marsupilami.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/pub_ipod/marsupilami.jpg" ],
+            "wrong_answers" : [ "Taz", "Felix le Chat", "Snoopy" ],
+            "good_answer" : "Marsupilami"
+        },
+        {
+            "question" : "Ce gros chat a beaucoup d'esprit !",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/pub_ipod/le_chat.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/pub_ipod/le_chat.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/pub_ipod/le_chat.jpg" ],
+            "wrong_answers" : [ "Gros Minet", "Garfield", "Felix le Chat" ],
+            "good_answer" : "Le Chat"
+        },
+        {
+            "question" : "Et enfin, on ne change pas une équipe qui gagne  bien que",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/pub_ipod/dupont_et_dupond.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/pub_ipod/dupont_et_dupond.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/pub_ipod/dupont_et_dupond.jpg" ],
+            "wrong_answers" : [ "Blake et Mortimer", "Nicolas et Barack", "Laurell et Hardy" ],
+            "good_answer" : "Dupont et Dupond"
+        }
+    ]
+}
+    

@@ -1,0 +1,165 @@
+{
+    "topic": "Blind Test Séries des années 80",
+    "categories": [ "Elders" ],
+    "generation_min": "1990s",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "Quel est le nom de cette série ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 30,
+            "waiting_answer_start_time": 10.0,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_80.jpg" ],
+            "waiting_answer_media" : [ "ekfLBZ7VuZ8.yt", "/static/images/series/series_annees_80.jpg" ],
+            "answer_media" : [ "/static/sounds/series/21_jump_street_answer.mp3", "/static/images/series/21_Jump_Street.jpg" ],
+            "wrong_answers" : [ "Magnum", "Deux flics à Miami", "Clair de lune" ],
+            "good_answer" : "21 Jump Street"
+        },
+        {
+            "question" : "Quel est le nom de cette série ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 30,
+            "waiting_answer_start_time": 10.0,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_80.jpg" ],
+            "waiting_answer_media" : [ "mu1WQMC5bp0.yt", "/static/images/series/series_annees_80.jpg" ],
+            "answer_media" : [ "/static/sounds/series/baywatch_answer.mp3", "/static/images/series/baywatch.jpg" ],
+            "wrong_answers" : [ "K2000", "Les Années Collège", "Sauvés par le gong" ],
+            "good_answer" : "Alerte à Malibu"
+        },
+        {
+            "question" : "Quel est le nom de cette série ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 30,
+            "waiting_answer_start_time": 0.0,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_80.jpg" ],
+            "waiting_answer_media" : [ "QvnSZurSATo.yt", "/static/images/series/series_annees_80.jpg" ],
+            "answer_media" : [ "/static/sounds/series/beverly_hills_answer.mp3", "/static/images/series/beverly_hills.jpg" ],
+            "wrong_answers" : [ "Friends", "Riptide", "Quoi de neuf docteur" ],
+            "good_answer" : "Beverley Hills"
+        },
+        {
+            "question" : "Quel est le nom de cette série ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 30,
+            "waiting_answer_start_time": 0.0,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_80.jpg" ],
+            "waiting_answer_media" : [ "6stIFV34uMc.yt", "/static/images/series/series_annees_80.jpg" ],
+            "answer_media" : [ "/static/sounds/series/buffy_contre_les_vampires_answer.mp3", "/static/images/series/buffy_contre_les_vampires.jpg" ],
+            "wrong_answers" : [ "Friends", "V", "Seinfeld" ],
+            "good_answer" : "Buffy contre les vampires"
+        },
+        {
+            "question" : "Quel est le nom de cette série ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 30,
+            "waiting_answer_start_time": 39.0,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_80.jpg" ],
+            "waiting_answer_media" : [ "DLs2nVxfljY.yt", "/static/images/series/series_annees_80.jpg" ],
+            "answer_media" : [ "/static/sounds/series/code_quantum_answer.mp3", "/static/images/series/code_quantum.jpg" ],
+            "wrong_answers" : [ "Mac Gyver", "Roseanne", "CHiPs" ],
+            "good_answer" : "Code Quantum"
+        },
+        {
+            "question" : "Quel est le nom de cette série ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 30,
+            "waiting_answer_start_time": 0.0,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_80.jpg" ],
+            "waiting_answer_media" : [ "7z65wK5kgOY.yt", "/static/images/series/series_annees_80.jpg" ],
+            "answer_media" : [ "/static/sounds/series/friends_answer.mp3", "/static/images/series/friends.jpg" ],
+            "wrong_answers" : [ "How I met you mother", "Beverley Hills", "21 Jump Street" ],
+            "good_answer" : "Friends"
+        },
+        {
+            "question" : "Quel est le nom de cette série ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 30,
+            "waiting_answer_start_time": 23.0,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_80.jpg" ],
+            "waiting_answer_media" : [ "liTCHcrCqDI.yt", "/static/images/series/series_annees_80.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_a_team/l_agence_tout_risques.jpg" ],
+            "wrong_answers" : [ "Mac Gyver", "Magnum", "Le Saint" ],
+            "good_answer" : "Agence Tout Risque"
+        },
+        {
+            "question" : "Quel est le nom de cette série ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 30,
+            "waiting_answer_start_time": 0.0,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_80.jpg" ],
+            "waiting_answer_media" : [ "gZZu1OHTQMg.yt", "/static/images/series/series_annees_80.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/cosby_show.jpg" ],
+            "wrong_answers" : [ "Campus Show", "Madame est servie", "Roseanne" ],
+            "good_answer" : "Cosby Show"
+        },
+        {
+            "question" : "Quel est le nom de cette série ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 30,
+            "waiting_answer_start_time": 0.0,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_80.jpg" ],
+            "waiting_answer_media" : [ "lc8RFPZUkiQ.yt", "/static/images/series/series_annees_80.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/mac_gyver.jpg" ],
+            "wrong_answers" : [ "Code Quantum", "Magnum", "21 Jump Street" ],
+            "good_answer" : "Mac Gyver"
+        },
+        {
+            "question" : "Quel est le nom de cette série ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 30,
+            "waiting_answer_start_time": 8.0,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_80.jpg" ],
+            "waiting_answer_media" : [ "vrwtuPfIKn8.yt", "/static/images/series/series_annees_80.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/rick_hunter.jpg" ],
+            "wrong_answers" : [ "Hooker", "Magnum", "21 Jump Street" ],
+            "good_answer" : "Rick Hunter"
+        },
+        {
+            "question" : "Quel est le nom de cette série ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 30,
+            "waiting_answer_start_time": 0.0,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_80.jpg" ],
+            "waiting_answer_media" : [ "dEjXPY9jOx8.yt", "/static/images/series/series_annees_80.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/miami_vice.jpg" ],
+            "wrong_answers" : [ "Hooker", "Riptide", "Rick Hunter" ],
+            "good_answer" : "Miami Vice"
+        },
+        {
+            "question" : "Quel est le nom de cette série ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 30,
+            "waiting_answer_start_time": 0.0,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_80.jpg" ],
+            "waiting_answer_media" : [ "8j7lW8sa4dU.yt", "/static/images/series/series_annees_80.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/chips.jpg" ],
+            "wrong_answers" : [ "La Loi de Los Angeles", "Riptide", "Cagney et Lacey" ],
+            "good_answer" : "CHiPs"
+        },
+        {
+            "question" : "Quel est le nom de cette série ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 30,
+            "waiting_answer_start_time": 0.0,
+            "answer_timeout": 5,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_80.jpg" ],
+            "waiting_answer_media" : [ "OMq59GCaIfw.yt", "/static/images/series/series_annees_80.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/riptide.jpg" ],
+            "wrong_answers" : [ "Magnum", "Rick Hunter", "Mac Gyver" ],
+            "good_answer" : "Riptide"
+        }
+    ]
+}
+    

@@ -1,0 +1,42 @@
+{
+    "topic": "Animes des années 2010",
+    "categories": [ "Teenagers", "Youngers" ],
+    "generation_min": "Youngers",
+    "generation_max": "2000s",
+    "questions": [
+        {
+            "question" : "Dans L'Attaque des Titans, quel mur est détruit en tout premier par le Titan Colossal ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2010.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2010.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/quizz_animes_annees_2010.jpg" ],
+            "wrong_answers" : [ "Le mur Rose", "Le mur Sina", "Le mur Sinaé" ],
+            "good_answer" : "Le mur Maria"
+        },
+        {
+            "question" : "Dans quel jeu vidéo en réalité virtuelle Kirito se retrouve-t-il piégé dans Sword Art Online ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2010.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2010.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/quizz_animes_annees_2010.jpg" ],
+            "wrong_answers" : [ "Alfheim Online", "Gun Gale Online", "Elder Tale" ],
+            "good_answer" : "Sword Art Online"
+        },
+        {
+            "question" : "Quel est le nom de famille de Deku, le protagoniste de My Hero Academia ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2010.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2010.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/quizz_animes_annees_2010.jpg" ],
+            "wrong_answers" : [ "Bakugo", "Todoroki", "Kirishima" ],
+            "good_answer" : "Midoriya"
+        }
+    ]
+}
+    

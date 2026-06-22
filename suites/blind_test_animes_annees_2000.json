@@ -1,0 +1,141 @@
+{
+    "topic": "Blind Test Animes des années 2000",
+    "categories": [ "Teenagers" ],
+    "generation_min": "Youngers",
+    "generation_max": "1990s",
+    "questions": [
+        {
+            "question" : "De quel Anime vient ce générique ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 90,
+            "waiting_answer_start_time": 0.0,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "waiting_answer_media" : [ "G8CFuZ9MseQ.yt", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/code_geass.jpg" ],
+            "wrong_answers" : [ "Guilty Crown", "Eureka Seven", "Gundam" ],
+            "good_answer" : "Code Geass"
+        },
+		{
+            "question" : "De quel Anime vient ce générique ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 90,
+            "waiting_answer_start_time": 0.0,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "waiting_answer_media" : [ "xWK2HWHP3fc.yt", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/d_gray_man.jpg" ],
+            "wrong_answers" : [ "Blue Exorcist", "Bleach", "Ao no Exorcist" ],
+            "good_answer" : "D Gray Man"
+        },
+		{
+            "question" : "De quel Anime vient ce générique ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 90,
+            "waiting_answer_start_time": 0.0,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "waiting_answer_media" : [ "97dkzVU4p-M.yt", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/naruto_shippuden.jpg" ],
+            "wrong_answers" : [ "Bleach", "Soul Eater", "Demon Slayer" ],
+            "good_answer" : "Naruto Shippuden"
+        },
+		{
+            "question" : "De quel Anime vient ce générique ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 90,
+            "waiting_answer_start_time": 0.0,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "waiting_answer_media" : [ "KSI_lwmtcoo.yt", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/blood_plus.jpg" ],
+            "wrong_answers" : [ "Claymore", "Vampire Hunter D Bloodlust", "Jyu Oh Sei" ],
+            "good_answer" : "Blood+"
+        },
+		{
+            "question" : "De quel Anime vient ce générique ? ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 90,
+            "waiting_answer_start_time": 0.0,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "waiting_answer_media" : [ "FKqAe4HRdr8.yt", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/bleach.jpg" ],
+            "wrong_answers" : [ "Naruto Shippuden", "Naruto", "Soul Eater" ],
+            "good_answer" : "Bleach"
+        },
+		{
+            "question" : "De quel Anime vient ce générique ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 90,
+            "waiting_answer_start_time": 0.0,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "waiting_answer_media" : [ "JXTNhHfcHpU.yt", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/darker_than_black.jpg" ],
+            "wrong_answers" : [ "Witch Hunter Robin", "Eden of the East", "Death Note" ],
+            "good_answer" : "Darker than Black"
+        },
+		{
+            "question" : "De quel Anime vient ce générique ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 90,
+            "waiting_answer_start_time": 0.0,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "waiting_answer_media" : [ "FwgMxjhXkKo.yt", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/gurren_lagann.jpg" ],
+            "wrong_answers" : [ "Kill la Kill", "Neon Genesis Evangelion", "Eureka Seven" ],
+            "good_answer" : "Gurren Lagann"
+        },
+		{
+            "question" : "De quel Anime vient ce générique ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 90,
+            "waiting_answer_start_time": 0.0,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "waiting_answer_media" : [ "mFLZ-I2r3Mc.yt", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/naruto_shippuden.jpg" ],
+            "wrong_answers" : [ "Naruto", "Bleach", "Kill la Kill" ],
+            "good_answer" : "Naruto Shippuuden"
+        },
+        {
+            "question": "De quel Anime vient ce générique ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 80,
+            "waiting_answer_start_time": 0.0,
+            "answer_timeout": 3,
+            "question_media": [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "waiting_answer_media": [ "EtGhFQ88mjc.yt", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "answer_media": [ "/static/sounds/timeout.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "wrong_answers": [ "Monster", "Parasyte", "Psycho-Pass" ],
+            "good_answer": "Death Note"
+        },
+        {
+            "question": "De quel Anime vient ce générique ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 86,
+            "waiting_answer_start_time": 0.0,
+            "answer_timeout": 3,
+            "question_media": [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "waiting_answer_media": [ "elyXcwunIYA.yt", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "answer_media": [ "/static/sounds/timeout.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "wrong_answers": [ "D.Gray-man", "Fullmetal Alchemist", "Soul Eater" ],
+            "good_answer": "Fullmetal Alchemist: Brotherhood"
+        },
+        {
+            "question": "De quel Anime vient ce générique ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 90,
+            "waiting_answer_start_time": 0.0,
+            "answer_timeout": 3,
+            "question_media": [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "waiting_answer_media": [ "_YNtUuuBL78.yt", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "answer_media": [ "/static/sounds/timeout.mp3", "/static/images/animes/one_piece.jpg" ],
+            "wrong_answers": [ "Fairy Tail", "Dragon Ball Z", "Hunter x Hunter" ],
+            "good_answer": "One Piece"
+        }
+    ]
+}
+    

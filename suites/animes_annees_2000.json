@@ -1,0 +1,119 @@
+{
+    "topic": "Animes des années 2000",
+    "categories": [ "Teenagers" ],
+    "generation_min": "2010s",
+    "generation_max": "1990s",
+    "questions": [
+        {
+            "question" : "De quel manga Tohru est-elle l'héroïne?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/fruits_basket_tohru_honda.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/fruits_basket.jpg" ],
+            "wrong_answers" : [ "Marmelade Boy", "Nana", "Twinkle Stars" ],
+            "good_answer" : "Fruits basket"
+        },
+        {
+            "question" : "Comment se nomme le personnage principal du manga One Piece ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/one_piece.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/one_piece.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/one_piece.jpg" ],
+            "wrong_answers" : [ "Arlong", "Rob Lucci", "Akainu" ],
+            "good_answer" : "Monkey D. Luffy"
+        },
+        {
+            "question" : "A quelle animée est associé le personnage de Tai ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/digimon_tai_kamiya.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/digimon_tai_kamiya.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/digimon.jpg" ],
+            "wrong_answers" : [ "Pokemon", "Medabots", "Yu-Gi-Oh" ],
+            "good_answer" : "Digimon"
+        },
+        {
+            "question" : "Quel animal est Hamtaro ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/hamtaro.jpg" ],
+            "wrong_answers" : [ "Une poule", "Un dragon", "Un chat" ],
+            "good_answer" : "Un hamster"
+        },
+        {
+            "question" : "Qui est le mentor ninja de l'Équipe 7 au début de la série Naruto ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/naruto_logo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/naruto_logo.jpg" ],
+            "wrong_answers" : [ "Jiraya", "Orochimaru", "Asuma Sarutobi" ],
+            "good_answer" : "Kakashi Hatake"
+        },
+        {
+            "question" : "Quel Dieu de la mort (Shinigami) accompagne Light Yagami dans Death Note ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "wrong_answers" : [ "Rem", "Sidoh", "Jealous" ],
+            "good_answer" : "Ryuk"
+        },
+        {
+            "question" : "Quel objet légendaire Edward et Alphonse Elric recherchent-ils dans Fullmetal Alchemist ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "wrong_answers" : [ "La Triforce", "Les Dragon Balls", "Le Death Note" ],
+            "good_answer" : "La Pierre Philosophale"
+        },
+        {
+            "question" : "Quelle est la couleur de cheveux distinctive d'Ichigo Kurosaki dans Bleach ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/bleach.jpg" ],
+            "wrong_answers" : [ "Bleu", "Noir", "Vert" ],
+            "good_answer" : "Orange"
+        },
+        {
+            "question" : "Quel examen Gon Freecss passe-t-il au début de l'histoire pour retrouver son père ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/quizz_animes_annees_2000.jpg" ],
+            "wrong_answers" : [ "L'examen des Chûnin", "L'examen des Chevaliers-Mages", "Le Tournoi Céleste" ],
+            "good_answer" : "L'examen de Hunter"
+        },
+        {
+            "question" : "Quel pouvoir Lelouch Lamperouge obtient-il dans l'anime Code Geass ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/code_geass.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/code_geass.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/code_geass.jpg" ],
+            "wrong_answers" : [ "Le Nen", "Le Haki", "Le Death Note" ],
+            "good_answer" : "Le Geass"
+        }
+    ]
+}
+    

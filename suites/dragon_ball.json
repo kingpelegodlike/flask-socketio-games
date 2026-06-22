@@ -1,0 +1,295 @@
+{
+    "topic": "DRAGON BALL",
+    "categories": [ "All" ],
+    "generation_min": "Teenagers",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "Combien y a t'il de Dragon Balls ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/dragon_ball.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/dragon_ball.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/dragon_balls.jpg" ],
+            "wrong_answers" : [ "8", "9", "4" ],
+            "good_answer" : "7"
+        },
+        {
+            "question" : "Quel numéro porte la Dragon Ball du grand-père de Son Goku ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/dragon_ball.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/dragon_ball.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/dragon_ball_4.jpg" ],
+            "wrong_answers" : [ "1", "9", "7" ],
+            "good_answer" : "4"
+        },
+        {
+            "question" : "Que peut faire le dragon Shenron",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/shenron.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/shenron.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/shenron.jpg" ],
+            "wrong_answers" : [ "Exaucer 3 souhaits", "Maudire 1 personne", "Exaucer 2 souhaits" ],
+            "good_answer" : "Exaucer 1 souhait"
+        },
+        {
+            "question" : "Qui est le maitre d'art martiaux de Son Goku et Krilin ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/dragon_ball.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/dragon_ball.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/tortue_geniale.jpg" ],
+            "wrong_answers" : [ "Maître Karin ", "Le Tout-Puissant", "Corbeau Génial" ],
+            "good_answer" : "Tortue Geniale"
+        },
+        {
+            "question" : "Quel est le pseudonyme de Tortue Genial au premier tournoi ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/jackie_chun.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/jackie_chun.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/jackie_chun.jpg" ],
+            "wrong_answers" : [ "Mik Her Krane", "Pilaf", "Dr Slump" ],
+            "good_answer" : "Jackie Chun"
+        },
+        {
+            "question" : "Comment s'appelle le petit cochon ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/oolong.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/oolong.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/oolong.jpg" ],
+            "wrong_answers" : [ "Puerh", "Pilaf", "Upa" ],
+            "good_answer" : "Oolong"
+        },
+        {
+            "question" : "Quel est le nom de ce roi ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/pilaf.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/pilaf.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/pilaf.jpg" ],
+            "wrong_answers" : [ "Oolong", "Upa", "Soba" ],
+            "good_answer" : "Pilaf"
+        },
+        {
+            "question" : "Qui est Baba la Voyante pour Tortue Géniale",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/baba.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/baba.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/baba.jpg" ],
+            "wrong_answers" : [ "Sa mère", "Sa grand-mère", "Sa cousine" ],
+            "good_answer" : "Sa soeur"
+        },
+        {
+            "question" : "Comment Krilin résiste à Bacterian et sa puanteur",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/bacterian.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/bacterian.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/bacterian.jpg" ],
+            "wrong_answers" : [ "Il se bouche le nez", "Il met une combinaison", "Il utilise un masque" ],
+            "good_answer" : "Il ne possède pas de nez"
+        },
+        {
+            "question" : "Qui est le personage principal de 'Dragon Ball' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/dragon_ball.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/dragon_ball.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/son_goku_enfant.jpg" ],
+            "wrong_answers" : [ "SonGohan", "Les Boules de Cristal", "Satan" ],
+            "good_answer" : "SonGoku"
+        },
+        {
+            "question" : "Qui a créé Boo ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/boo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/boo.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/babidi.jpg" ],
+            "wrong_answers" : [ "Bibidi", "Bobidi", "Dr. Gero" ],
+            "good_answer" : "Babidi"
+        },
+        {
+            "question" : "Qui à conçu ce déguisement ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/great_saiyaman.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/great_saiyaman.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/bulma_adult.jpg" ],
+            "wrong_answers" : [ "Chichi", "Piccolo", "Son Gohan" ],
+            "good_answer" : "Bulma"
+        },
+        {
+            "question" : "Qui est sa mère ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/marron.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/marron.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/c18.jpg" ],
+            "wrong_answers" : [ "Bulma", "Lynch", "Videl" ],
+            "good_answer" : "C-18"
+        },
+        {
+            "question" : "Qui est son père ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/marron.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/marron.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/krillin.jpg" ],
+            "wrong_answers" : [ "Son Gohan", "Son Goku", "Vegeta" ],
+            "good_answer" : "Krilin"
+        },
+        {
+            "question" : "Quel voeux souhaite-t-il faire avec les Dragon Balls ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/general_red.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/general_red.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/general_red.jpg" ],
+            "wrong_answers" : [ "Avoir la jeunesse éternelle", "Etre le maître du monde", "Retrouver la vue" ],
+            "good_answer" : "Devenir plus grand"
+        },
+        {
+            "question" : "Sans Trunks du futur, comment serait mort Son Gokû ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/trunks_futur.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/trunks_futur.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/son_goku_adulte.jpg" ],
+            "wrong_answers" : [ "Tué par Cell", "Tué par Freezer", "Tué par les Cyborgs" ],
+            "good_answer" : "D'une maladie cardiaque"
+        },
+        {
+            "question" : "Qui a détruit la planète Vegeta ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/planete_vegeta.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/planete_vegeta.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/freezer.jpg" ],
+            "wrong_answers" : [ "Bardock", "Une comète", "Vegeta" ],
+            "good_answer" : "Freezer"
+        },
+        {
+            "question" : "Quel monnaie est utilisé dans Dragon Ball ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/dragon_ball.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/dragon_ball.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/zeni.jpg" ],
+            "wrong_answers" : [ "le Kron", "le Yen", "le Zloti" ],
+            "good_answer" : "le Zéni"
+        },
+        {
+            "question" : "Comment meurt ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/dabra.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/dabra.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/boo.jpg" ],
+            "wrong_answers" : [ "Coupé", "Ecartelé", "Explosé" ],
+            "good_answer" : "Mangé"
+        },
+        {
+            "question" : "Qui tue Son Goku la première fois ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/son_goku_adulte.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/son_goku_adulte.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/piccolo_adulte.jpg" ],
+            "wrong_answers" : [ "Cell", "Freezer", "Raditz" ],
+            "good_answer" : "Piccolo"
+        },
+        {
+            "question" : "Qui est son père ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/videl.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/videl.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/mr_satan.jpg" ],
+            "wrong_answers" : [ "Son Gohan", "Trunk", "Vegeta" ],
+            "good_answer" : "Satan"
+        },
+        {
+            "question" : "Qui a tué Krilin la première fois ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/krillin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/krillin.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/tambourine.jpg" ],
+            "wrong_answers" : [ "Freezer", "Nappa", "Piccolo" ],
+            "good_answer" : "Tambourine"
+        },
+        {
+            "question" : "Quel est le nom de cet appareil ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/scouter.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/scouter.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/scouter.jpg" ],
+            "wrong_answers" : [ "Analyser", "Eyeshield", "Proceeding" ],
+            "good_answer" : "Scouter"
+        },
+        {
+            "question" : "Qui a tué ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/son_gohan_grand_pere.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/son_gohan_grand_pere.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/son_goku_enfant.jpg" ],
+            "wrong_answers" : [ "Piccolo", "Tao Pai Pai", "Vegeta" ],
+            "good_answer" : "Son Goku"
+        },
+        {
+            "question" : "Dans Dragon Ball Z, qui tue Freezer ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/freezer_forme_finale.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/freezer_forme_finale.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/trunks_futur.jpg" ],
+            "wrong_answers" : [ "Son Gohan", "Son Goku", "Vegeta" ],
+            "good_answer" : "Trunks"
+        },
+        {
+            "question" : "Quel est le nom de cette épée ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/dragon_ball/dragon_ball_question.mp3", "/static/images/animes/dragon_ball/son_gohan_z_sword.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_waiting_answer.mp3", "/static/images/animes/dragon_ball/son_gohan_z_sword.jpg" ],
+            "answer_media" : [ "/static/sounds/dragon_ball/dragon_ball_answer.mp3", "/static/images/animes/dragon_ball/son_gohan_z_sword.jpg" ],
+            "wrong_answers" : [ "Dragon sword", "Master sword", "Thunder sword" ],
+            "good_answer" : "Z sword"
+        }
+    ]
+}
+    

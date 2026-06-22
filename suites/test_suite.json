@@ -1,0 +1,29 @@
+{
+    "topic": "TEST",
+    "categories": [ "All" ],
+    "questions": [
+        {
+            "question" : "Quel est la couleur du cheval blanc d'Henry IV ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/robot.png" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3" ],
+            "wrong_answers" : [ "Noir", "Marron", "Gris" ],
+            "good_answer" : "Blanc"
+        },
+        {
+            "question" : "Qui est Johnny des quatre fantastique ?   ",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/robot.png" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/kingpele2.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/robot.png" ],
+            "wrong_answers" : [ "Pierre", "Invisible", "Elastique" ],
+            "good_answer" : "Torche"
+        }
+    ]
+}
+    

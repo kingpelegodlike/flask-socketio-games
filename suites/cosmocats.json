@@ -1,0 +1,185 @@
+{
+    "topic": "COSMOCATS",
+    "categories": [ "Elders" ],
+    "generation_min": "1990s",
+    "generation_max": "1970s",
+    "questions": [
+        {
+            "question" : "Qui est-ce ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats/felibelle.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats/felibelle.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/cosmocats/felibelle.jpg" ],
+            "wrong_answers" : [ "Catarina", "Panthéra", "Speedkat" ],
+            "good_answer" : "Félibelle"
+        },
+        {
+            "question" : "Qui est-ce ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats/pantero.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats/pantero.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/cosmocats/pantero.jpg" ],
+            "wrong_answers" : [ "Black Cat", "Grey Yoda", "Sage Singe" ],
+            "good_answer" : "Pantéro"
+        },
+        {
+            "question" : "Qui est-ce ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats/starlion.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats/starlion.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/cosmocats/starlion.jpg" ],
+            "wrong_answers" : [ "Bravelion", "Lionheart", "Sunlion" ],
+            "good_answer" : "Starlion"
+        },
+        {
+            "question" : "Qui est-ce ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats/tigro.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats/tigro.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/cosmocats/tigro.jpg" ],
+            "wrong_answers" : [ "Fastiger", "Suntiger", "Thundertiger" ],
+            "good_answer" : "Tigro"
+        },
+        {
+            "question" : "Qui est-ce ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats/wilykat.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats/wilykat.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/cosmocats/wilykat.jpg" ],
+            "wrong_answers" : [ "Katarania", "Lionus", "Speedycat" ],
+            "good_answer" : "WilyKat"
+        },
+        {
+            "question" : "Qui est-ce ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats/wilykit.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats/wilykit.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/cosmocats/wilykit.jpg" ],
+            "wrong_answers" : [ "Lion Delta", "Lynxo", "Tigrus" ],
+            "good_answer" : "Wilykit"
+        },
+        {
+            "question" : "Quel est le nom de la momie démoniaque qui est le pire ennemi des Cosmocats ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "wrong_answers" : [ "Skeletor", "Megatron", "Mumm-Rax" ],
+            "good_answer" : "Mumm-Ra"
+        },
+        {
+            "question" : "Comment s'appelle l'épée magique ultra-puissante détenue par Starlion ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "wrong_answers" : [ "L'Épée du Pouvoir", "Excalibur", "La Lame de Thundera" ],
+            "good_answer" : "L'Épée d'Omens"
+        },
+        {
+            "question" : "De quelle planète originaire, viennent les Cosmocats ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "wrong_answers" : [ "Eternia", "Cybertron", "Félinia" ],
+            "good_answer" : "Thundera"
+        },
+        {
+            "question" : "Comment s'appelle la nounou de Starlion ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "wrong_answers" : [ "Orko", "Gringer", "Smarf" ],
+            "good_answer" : "Snarf"
+        },
+        {
+            "question" : "Qu'est-ce qui est incrusté dans le pommeau de l'épée de Starlion ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "wrong_answers" : [ "Le Cristal d'Omens", "La Pierre de Foudre", "Le Coeur du Lion" ],
+            "good_answer" : "L'OEil de Thundera"
+        },
+        {
+            "question" : "Comment s'appelle le mentor spirituel de Starlion, sous forme de fantôme ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "wrong_answers" : [ "Lynxo", "Bengali", "Claudus" ],
+            "good_answer" : "Jaga"
+        },
+        {
+            "question" : "Quel est le nom du véhicule de combat tout-terrain blindé construit par Pantéro ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "wrong_answers" : [ "Le Tank-O-Phant", "Le Félinomobile", "L'Attaquor" ],
+            "good_answer" : "Le Cosmocars"
+        },
+        {
+            "question" : "De quelle planète proviennent les Mutants menés par Karcha ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "wrong_answers" : [ "Skeletoria", "Etheria", "Preternia" ],
+            "good_answer" : "Plun-Darr"
+        },
+        {
+            "question" : "Sur quelle planète les Cosmocats s'installent-ils après la destruction de leur monde ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "wrong_answers" : [ "La Terre des Anciens", "Félinia", "La Planète Noire" ],
+            "good_answer" : "La Troisième Terre"
+        },
+        {
+            "question" : "Quel est le cri de ralliement de Starlion pour appeler ses compagnons avec son épée ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/cosmocats.jpg" ],
+            "wrong_answers" : [ "Par le pouvoir du Crâne Ancestral !", "Transformation !", "Fidèles au poste !" ],
+            "good_answer" : "Cosmocats, HO !"
+        }
+    ]
+}
+    

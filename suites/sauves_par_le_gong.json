@@ -1,0 +1,151 @@
+{
+    "topic": "Sauvés par le Gong",
+    "categories": [ "Elders", "Adults" ],
+    "generation_min": "1980s",
+    "generation_max": "1970s",
+    "questions": [
+        {
+            "question" : "Quel est le nom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/ac_slater.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/ac_slater.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/sauves_par_le_gong/ac_slater.jpg" ],
+            "wrong_answers" : [ "Cruz", "Kilmer", "Ryder" ],
+            "good_answer" : "Slater"
+        },
+        {
+            "question" : "Quel est le nom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/richard_belding.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/richard_belding.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/sauves_par_le_gong/richard_belding.jpg" ],
+            "wrong_answers" : [ "Moore", "Musso", "Wentworth" ],
+            "good_answer" : "Belding"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/jessie_spano.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/jessie_spano.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/sauves_par_le_gong/jessie_spano.jpg" ],
+            "wrong_answers" : [ "Cynthia", "Lisa", "Maria" ],
+            "good_answer" : "Jessica"
+        },
+        {
+            "question" : "Quel est le surnom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/jessie_spano.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/jessie_spano.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/sauves_par_le_gong/jessie_spano.jpg" ],
+            "wrong_answers" : [ "Jeff", "Jenny", "Jess" ],
+            "good_answer" : "Jessie"
+        },
+        {
+            "question" : "Quel est le nom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/kelly_kapowski.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/kelly_kapowski.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/sauves_par_le_gong/kelly_kapowski.jpg" ],
+            "wrong_answers" : [ "Kaponovitch", "Kavowski", "Krakowski" ],
+            "good_answer" : "Kapowski"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/kelly_kapowski.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/kelly_kapowski.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/sauves_par_le_gong/kelly_kapowski.jpg" ],
+            "wrong_answers" : [ "Brenda", "Donna", "Lisa" ],
+            "good_answer" : "Kelly"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/lisa_marie_turtle.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/lisa_marie_turtle.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/sauves_par_le_gong/lisa_marie_turtle.jpg" ],
+            "wrong_answers" : [ "Jessica", "Miranda", "Sarah" ],
+            "good_answer" : "Lisa"
+        },
+        {
+            "question" : "Quel est le nom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/lisa_marie_turtle.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/lisa_marie_turtle.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/sauves_par_le_gong/lisa_marie_turtle.jpg" ],
+            "wrong_answers" : [ "Carosi", "Powers", "Spano" ],
+            "good_answer" : "Turtle"
+        },
+        {
+            "question" : "Quel est le nom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/screech_power.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/screech_power.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/sauves_par_le_gong/screech_power.jpg" ],
+            "wrong_answers" : [ "Levinson", "Steiner", "Urkel" ],
+            "good_answer" : "Powers"
+        },
+        {
+            "question" : "Quel est le surnom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/screech_power.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/screech_power.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/sauves_par_le_gong/screech_power.jpg" ],
+            "wrong_answers" : [ "Jerry", "Steve", "Urkel" ],
+            "good_answer" : "Screech"
+        },
+        {
+            "question" : "Quel est le surnom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/zack_morris.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/zack_morris.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/sauves_par_le_gong/zack_morris.jpg" ],
+            "wrong_answers" : [ "Genius", "Zachary", "ZM" ],
+            "good_answer" : "Zack"
+        },
+        {
+            "question" : "Quel est le nom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/zack_morris.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/zack_morris.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/sauves_par_le_gong/zack_morris.jpg" ],
+            "wrong_answers" : [ "Green", "Leery", "Lewis" ],
+            "good_answer" : "Morris"
+        },
+        {
+            "question" : "Quel est le titre VO de 'Sauvés par le gong' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/sauves_par_le_gong_logo_vf.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/sauves_par_le_gong/sauves_par_le_gong_logo_vf.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/sauves_par_le_gong/sauves_par_le_gong_logo_vf.jpg" ],
+            "wrong_answers" : [ "Good Morning School", "Junior High", "One Tree Hill" ],
+            "good_answer" : "Saved by the Bell"
+        }
+    ]
+}

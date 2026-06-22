@@ -1,0 +1,229 @@
+{
+    "topic": "Séries des années 90",
+    "categories": [ "Elders" ],
+    "generation_min": "1990s",
+    "generation_max": "1970s",
+    "questions": [
+        {
+            "question" : "DANS LE PRINCE DE BEL-AIR, SUR QUELLE CHANSON DE TOM JONES CARLTON ADORE-T-IL DANSER ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/le_prince_de_bel_air.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/le_prince_de_bel_air.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/le_prince_de_bel_air.jpg" ],
+            "wrong_answers" : [ "Sexbomb", "Thunderball", "Delilah" ],
+            "good_answer" : "It's Not Unusual"
+        },
+        {
+            "question" : "DANS LE CAMÉLÉON, QU'EST CE QUI REND JAROD UNIQUE ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/le_cameleon.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/le_cameleon.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/le_cameleon.jpg" ],
+            "wrong_answers" : [ "Il peut se fondre dans le décor", "Il a une force incroyable", "Il a des pouvoirs psychiques" ],
+            "good_answer" : "Il est extrêmement intelligent"
+        },
+        {
+            "question" : "DANS UNE NOUNOU D'ENFER, CHEZ QUI FRAN TRAVAILLE-T-ELLE ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/une_nounou_d_enfer.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/une_nounou_d_enfer.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/une_nounou_d_enfer.jpg" ],
+            "wrong_answers" : [ "Claire Babcock", "Sylvia Fine", "Valérie Toriello" ],
+            "good_answer" : "Maxwell Sheffield"
+        },
+        {
+            "question" : "DANS NOTRE BELLE FAMILLE, QUEL EST LE NOM DE FAMILLE DE FRANK ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/notre_belle_famille.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/notre_belle_famille.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/notre_belle_famille.jpg" ],
+            "wrong_answers" : [ "Baker", "Milano", "Foster" ],
+            "good_answer" : "Lambert"
+        },
+        {
+            "question" : "DANS URGENCES, LEQUEL DE CES MÉDECINS MEURT D'UNE TUMEUR AU CERVEAU ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/urgences.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/urgences.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/urgences.jpg" ],
+            "wrong_answers" : [ "Douglas Ross", "Susan Lewis", "John Carter" ],
+            "good_answer" : "Mark Greene"
+        },
+        {
+            "question" : "QUEL EST LE NOM DE FAMILLE DE MALCOLM ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/malcolm.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/malcolm.jpg" ],
+            "wrong_answers" : [ "Kenarban", "Miller", "Feldspar" ],
+            "good_answer" : "On ne le connaît pas"
+        },
+        {
+            "question" : "QUELLE EST L'ARME DE PRÉDILECTION DE XENA LA GUERRIÈRE ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/xena_la_guerriere.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/xena_la_guerriere.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/xena_la_guerriere.jpg" ],
+            "wrong_answers" : [ "Une épée", "Un fouet", "Une hallebarde" ],
+            "good_answer" : "Un chakram"
+        },
+        {
+            "question" : "DANS CHARMED, QUI A ÉTÉ VICTIME DE LA MALÉDICTION DES PIRATES ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/charmed.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/charmed.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/charmed.jpg" ],
+            "wrong_answers" : [ "Phoebe", "Piper", "Leo" ],
+            "good_answer" : "Paige"
+        },
+        {
+            "question" : "DANS MARIÉS, DEUX ENFANTS, COMMENT S'APPELLE LE PREMIER MARI DE MARCY ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/maries_deux_enfants.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/maries_deux_enfants.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/maries_deux_enfants.jpg" ],
+            "wrong_answers" : [ "Jefferson", "Gary", "Al" ],
+            "good_answer" : "Steeve"
+        },
+        {
+            "question" : "DANS BUFFY CONTRE LES VAMPIRES, COMBIEN DE FOIS BUFFY EST-ELLE MORTE ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/buffy_contre_les_vampires.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/buffy_contre_les_vampires.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/buffy_contre_les_vampires.jpg" ],
+            "wrong_answers" : [ "Jamais", "Une fois", "Trois fois" ],
+            "good_answer" : "Deux fois"
+        },
+        {
+            "question" : "Quel est le titre VO de 'Buffy contre les Vampires' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/buffy_contre_les_vampires.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/buffy_contre_les_vampires.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/buffy_contre_les_vampires.jpg" ],
+            "wrong_answers" : [ "Buffy the Slayer", "Buffy vs the Vampires", "The true blood of Buffy" ],
+            "good_answer" : "Buffy the Vampire Slayer"
+        },
+        {
+            "question" : "Quel est le nom de l'actrice qui joue 'Buffy' dans 'Buffy contre les Vampires' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/buffy_contre_les_vampires.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/buffy_contre_les_vampires.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/buffy_contre_les_vampires.jpg" ],
+            "wrong_answers" : [ "Jennie Garth", "Kristy Swanson", "Tori Spelling" ],
+            "good_answer" : "Sarah Michelle Gellar"
+        },
+        {
+            "question" : "Quel est le prénom du commissaire principal Navarro ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/navarro.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/navarro.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/navarro.jpg" ],
+            "wrong_answers" : [ "Patrick", "Roger", "Sébastien" ],
+            "good_answer" : "Antoine"
+        },
+        {
+            "question" : "Quel série Power Rangers est-ce ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/power_rangers_turbo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/power_rangers_turbo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/power_rangers_turbo.jpg" ],
+            "wrong_answers" : [ "Force mystique", "Fureur de la Jungle", "Dino" ],
+            "good_answer" : "Turbo"
+        },
+        {
+            "question" : "Dans quelle série trouve-t-on ces personnages ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/notre_belle_famille_nameless.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/notre_belle_famille_nameless.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/notre_belle_famille.jpg" ],
+            "wrong_answers" : [ "Une Nounou d'Enfer", "Sauvés par le Gong", "7 à la maison" ],
+            "good_answer" : "Notre Belle Famille"
+        },
+        {
+            "question" : "Quel est le titre VO de 'Hartley, coeurs à vif' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/hartley_coeurs_a_vif.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/hartley_coeurs_a_vif.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/hartley_coeurs_a_vif.jpg" ],
+            "wrong_answers" : [ "Degrassi High", "Hartley, bright hearts", "The Heartbreak Kid" ],
+            "good_answer" : "Heartbreak High"
+        },
+        {
+            "question" : "Dans quel pays se déroule 'Hartley, coeurs à vif' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/hartley_coeurs_a_vif.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/hartley_coeurs_a_vif.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/hartley_coeurs_a_vif.jpg" ],
+            "wrong_answers" : [ "Afrique du Sud", "Angleterre", "USA" ],
+            "good_answer" : "Australie"
+        },
+        {
+            "question" : "Dans quel ville se déroule 'Hartley, coeurs à vif' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/hartley_coeurs_a_vif.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/hartley_coeurs_a_vif.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/hartley_coeurs_a_vif.jpg" ],
+            "wrong_answers" : [ "Canberra", "Hartley", "Melbourne" ],
+            "good_answer" : "Sidney"
+        },
+        {
+            "question" : "Dans quelle série, le personnage principal a le corps presque entièrement tatoué ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_90.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_90.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/series_annees_90.jpg" ],
+            "wrong_answers" : [ "Breaking Bad", "La Casa de papel", "Dexter" ],
+            "good_answer" : "Prison Break"
+        },
+        {
+            "question" : "Dans quelle série trouve-t-on 'Fran Fine' et 'Maxwell Sheffield' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_90.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_90.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/une_nounou_d_enfer.jpg" ],
+            "wrong_answers" : [ "Notre belle famille", "La Fête à la maison", "Madame est servie" ],
+            "good_answer" : "Une nounou d'enfer"
+        }
+    ]
+}
+    

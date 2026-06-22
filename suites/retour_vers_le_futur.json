@@ -1,0 +1,207 @@
+{
+    "topic": "RETOUR VERS LE FUTUR",
+    "categories": [ "Elders", "Adults" ],
+    "generation_min": "2000s",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "Dans 'Retour vers le futur I': quelle vitesse la voiture doit prendre pour voyager dans le temps ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_delorean.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_delorean.jpg" ],
+            "wrong_answers" : [ "141 mph", "42 mph", "69 mph" ],
+            "good_answer" : "88 mph"
+        },
+        {
+            "question" : "Dans 'Retour vers le futur I': A quelle heure l'éclair frappe-t-il l'horloge de l'hôtel de ville en 1955 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_logo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_logo.jpg" ],
+            "wrong_answers" : [ "0h07", "21h41", "23h37" ],
+            "good_answer" : "22h04"
+        },
+        {
+            "question" : "Dans 'Retour vers le futur I': Quel est le nom du chien du Doc ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_einstein.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_einstein.jpg" ],
+            "wrong_answers" : [ "Archimède", "Copernic", "Verne" ],
+            "good_answer" : "Einstein"
+        },
+        {
+            "question" : "Dans 'Retour vers le futur I': Pour qui se fait passer Marty dans son costume anti-radiation ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_dark_vador.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_dark_vador.jpg" ],
+            "wrong_answers" : [ "Doctor Who", "Freddy Krueger", "Spock" ],
+            "good_answer" : "Dark Vador"
+        },
+        {
+            "question" : "Dans 'Retour vers le futur I': sur quelle musique ce sont-il embrassés pour la première fois ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_baiser.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_baiser.jpg" ],
+            "wrong_answers" : [ "Night Train", "The Power of Love", "The Wallflower" ],
+            "good_answer" : "Earth Angel"
+        },
+        {
+            "question" : "Dans 'Retour vers le futur I': Quel est le prénom du père de Marty McFly ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_george.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_george.jpg" ],
+            "wrong_answers" : [ "Charles", "Edouard", "Henri" ],
+            "good_answer" : "George"
+        },
+        {
+            "question" : "Dans 'Retour vers le futur I': comment s'appelle le maire de Hill Valley en 1985 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_logo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_goldie_1985.jpg" ],
+            "wrong_answers" : [ "Lou Caruthers", "Sam Baines", "Stephen Strickland" ],
+            "good_answer" : "Goldie Wilson"
+        },
+        {
+            "question" : "Dans 'Retour vers le futur I': Quel est le prénom de la copine de Marty McFly ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_jennifer.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_jennifer.jpg" ],
+            "wrong_answers" : [ "Samantha", "Sarah", "Steffy" ],
+            "good_answer" : "Jennifer"
+        },
+        {
+            "question" : "A la fin de 'Retour vers le Futur I': Quel musique joue Marty McFly ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_johnny_b_goode.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_johnny_b_goode.jpg" ],
+            "wrong_answers" : [ "Back in Time", "Double back", "Power of Love" ],
+            "good_answer" : "Johnny B. Goode"
+        },
+        {
+            "question" : "Dans 'Retour vers le futur I': Quel est le prénom de la mère de Marty McFly ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_lorraine.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_lorraine.jpg" ],
+            "wrong_answers" : [ "Amelie", "Hortense", "Nathalie" ],
+            "good_answer" : "Lorraine"
+        },
+        {
+            "question" : "Dans 'Retour vers le futur I': comment s'appelle le maire de Hill Valley en 1955 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_logo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_logo.jpg" ],
+            "wrong_answers" : [ "Chuck Berry", "Goldie Wilson", "Sam Baines" ],
+            "good_answer" : "Red Thomas"
+        },
+        {
+            "question" : "Qui est le réalisateur de 'Retour vers le Futur I' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_logo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_1_logo.jpg" ],
+            "wrong_answers" : [ "Bob Gale", "Joe Dante", "Steven Spielberg" ],
+            "good_answer" : "Robert Zemeckis"
+        },
+        {
+            "question" : "Dans 'Retour vers le Futur II': quel est la marque des chaussures de Marty en 2015 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_2_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_2_logo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_2_nike.jpg" ],
+            "wrong_answers" : [ "Adidas", "Convers", "Rebook" ],
+            "good_answer" : "Nike"
+        },
+        {
+            "question" : "Dans 'Retour vers le Futur II': quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_2_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_2_griff.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_2_griff.jpg" ],
+            "wrong_answers" : [ "Biff", "Dliff", "Stiff" ],
+            "good_answer" : "Griff"
+        },
+        {
+            "question" : "Dans 'Retour vers le Futur II': quel musique entend-t-on lorsqu'il rentre dans le bar ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_2_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_2_logo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_2_logo.jpg" ],
+            "wrong_answers" : [ "Bad", "Thriller", "The Final Countdown" ],
+            "good_answer" : "Beat it"
+        },
+        {
+            "question" : "Dans 'Retour vers le Futur II': quel est le numéro du film 'Les dents de la mer' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_2_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_2_jaws_19.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_2_jaws_19.jpg" ],
+            "wrong_answers" : [ "13", "42", "7" ],
+            "good_answer" : "19"
+        },
+        {
+            "question" : "Dans 'Retour vers le Futur III': quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_3_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_3_clara.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_3_clara.jpg" ],
+            "wrong_answers" : [ "Jane", "Mary", "Susan" ],
+            "good_answer" : "Clara"
+        },
+        {
+            "question" : "Dans 'Retour vers le Futur III': quel groupe de musique peut-on voir ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_3_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_3_logo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/retour_vers_le_futur/retour_vers_le_futur_3_logo.jpg" ],
+            "wrong_answers" : [ "ACDC", "Iron Maiden", "Run–D.M.C" ],
+            "good_answer" : "ZZ Top"
+        }
+    ]
+}
+    

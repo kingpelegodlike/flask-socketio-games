@@ -1,0 +1,207 @@
+{
+    "topic": "Séries des années 2000",
+    "categories": [ "Elders", "Adults" ],
+    "generation_min": "1990s",
+    "generation_max": "1970s",
+    "questions": [
+        {
+            "question" : "Quel est le prénom du docteur House ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_2000.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_gregory_house_aka_hugh_laurie.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/dr_house/dr_gregory_house_aka_hugh_laurie.jpg" ],
+            "wrong_answers" : [ "James", "Mike-Douglas", "Theodore" ],
+            "good_answer" : "Gregory"
+        },
+        {
+            "question" : "Qui est Remy Hadley dans 'Dr House' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_2000.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/dr_house/dr_house.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/dr_house/dr_remy_13_hadley_aka_olivia_wilde.jpg" ],
+            "wrong_answers" : [ "Le créateur de la série", "Le frère de Dr House", "Sa patrone" ],
+            "good_answer" : "Numéro 13"
+        },
+        {
+            "question" : "Quel est le titre VO de '24 heures chrono' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_2000.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_2000.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/24_logo.jpg" ],
+            "wrong_answers" : [ "24 hours", "Another Bad Day", "Jack Bauer" ],
+            "good_answer" : "24"
+        },
+        {
+            "question" : "Quel est le titre VO de 'Les Experts' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_2000.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_2000.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/csi_logo.jpg" ],
+            "wrong_answers" : [ "Cops", "Scientific Police", "The expert" ],
+            "good_answer" : "CSI: Crime Scene Investigation"
+        },
+        {
+            "question" : "De quel série est issue cette réplique ? Pinage !!!!",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_2000.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_2000.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/hero_corp.jpg" ],
+            "wrong_answers" : [ "Californication", "Game of Thrones", "Glee" ],
+            "good_answer" : "Hero Corp"
+        },
+        {
+            "question" : "De quel série est issue cette réplique ? Suit up !",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_2000.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_2000.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/how_i_met_your_mother.jpg" ],
+            "wrong_answers" : [ "24h Chrono", "Desperate Housewives", "Sex and the City" ],
+            "good_answer" : "How I Met Your Mother"
+        },
+        {
+            "question" : "Quel série Power Rangers est-ce ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/power_rangers_force_mystique.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/power_rangers_force_mystique.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/power_rangers_force_mystique.jpg" ],
+            "wrong_answers" : [ "Turbo", "Fureur de la Jungle", "Dino" ],
+            "good_answer" : "Force mystique"
+        },
+        {
+            "question" : "Comment s'appelle l'organisme où travaille ce personnage dans 'Les 4400' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/les_4400/tom_baldwin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/les_4400/tom_baldwin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/les_4400/tom_baldwin.jpg" ],
+            "wrong_answers" : [ "CAT", "CTU", "FBI" ],
+            "good_answer" : "NTAC"
+        },
+        {
+            "question" : "Dans quel ville se situe principalement l'action dans 'Les 4400' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/les_4400/les_4400.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/les_4400/les_4400.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/les_4400/les_4400.jpg" ],
+            "wrong_answers" : [ "Houston", "Philadelphie", "Portland" ],
+            "good_answer" : "Seattle"
+        },
+        {
+            "question" : "Quel est le nom de ce personnage de 'Les 4400' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/les_4400/tom_baldwin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/les_4400/tom_baldwin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/les_4400/tom_baldwin.jpg" ],
+            "wrong_answers" : [ "Jack Bauer", "Collin Farrell", "Richard Ryland" ],
+            "good_answer" : "Tom Baldwin"
+        },
+        {
+            "question" : "Quel est le nom de ce personnage de 'Les 4400' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/les_4400/diana_skouris.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/les_4400/diana_skouris.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/les_4400/diana_skouris.jpg" ],
+            "wrong_answers" : [ "Alana Bordino", "Karina Ioannou", "Maia Poulos" ],
+            "good_answer" : "Diana Skouris"
+        },
+        {
+            "question" : "Quel est le nom de ce personnage de 'Les 4400' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/les_4400/isabelle_tyler.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/les_4400/isabelle_tyler.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/les_4400/isabelle_tyler.jpg" ],
+            "wrong_answers" : [ "Cynthia Mareva", "Maia Moore", "Meghan Ross" ],
+            "good_answer" : "Isabelle Tyler"
+        },
+        {
+            "question" : "Quel est le nom de ce personnage de 'Les 4400' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/les_4400/jed_garrity.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/les_4400/jed_garrity.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/les_4400/jed_garrity.jpg" ],
+            "wrong_answers" : [ "Brady Dunleavy", "Danny Pacella", "Dennis Wingate" ],
+            "good_answer" : "Jed Garrity"
+        },
+        {
+            "question" : "Quel est le nom de ce personnage de 'Les 4400' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/les_4400/jordan_collier.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/les_4400/jordan_collier.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/les_4400/jordan_collier.jpg" ],
+            "wrong_answers" : [ "Kyle Branson", "Richard Ryland", "Tom Tyler" ],
+            "good_answer" : "Jordan Collier"
+        },
+        {
+            "question" : "Quel est le nom de ce personnage de 'Les 4400' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/les_4400/kyle_baldwin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/les_4400/kyle_baldwin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/les_4400/kyle_baldwin.jpg" ],
+            "wrong_answers" : [ "Jordan Farrell", "Marco Garrity", "Shawn Jarvis" ],
+            "good_answer" : "Kyle Baldwin"
+        },
+        {
+            "question" : "Quel est le nom de ce personnage de 'Les 4400' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/les_4400/maia_rutledge.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/les_4400/maia_rutledge.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/les_4400/maia_rutledge.jpg" ],
+            "wrong_answers" : [ "Alana Doyle", "Diana Farrell", "Isabelle Ryland" ],
+            "good_answer" : "Maia Rutledge"
+        },
+        {
+            "question" : "Quel est le nom de ce personnage de 'Les 4400' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/les_4400/richard_tyler.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/les_4400/richard_tyler.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/les_4400/richard_tyler.jpg" ],
+            "wrong_answers" : [ "Jordan Collier", "Kevin Moore", "Matthew Ryland" ],
+            "good_answer" : "Richard Tyler"
+        },
+        {
+            "question" : "Quel est le nom de ce personnage de 'Les 4400' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/les_4400/shawn_farrell.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/les_4400/shawn_farrell.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/les_4400/shawn_farrell.jpg" ],
+            "wrong_answers" : [ "Kevin Baldwin", "Kyle Tyler", "Stan Rutledge" ],
+            "good_answer" : "Shawn Farrell"
+        }
+    ]
+}
+    

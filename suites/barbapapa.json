@@ -1,0 +1,117 @@
+{
+    "topic": "BARBAPAPA",
+    "categories": [ "Elders", "Adults" ],
+    "questions": [
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/barbapapa/barbabelle.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/barbapapa/barbabelle.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/barbapapa/barbabelle.jpg" ],
+            "wrong_answers" : [ "Barbalala", "Barbarella", "Barbibourge" ],
+            "good_answer" : "Barbabelle"
+        },
+        {
+            "question" : "Qui est Barbibul dans Barbapapa ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/barbapapa.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/barbapapa.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/barbapapa/barbibul.jpg" ],
+            "wrong_answers" : [ "l'ami des animaux", "l'intellectuelle", "l'artiste peintre" ],
+            "good_answer" : "l'inventeur"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/barbapapa/barbalala.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/barbapapa/barbalala.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/barbapapa/barbalala.jpg" ],
+            "wrong_answers" : [ "Barbabelle", "Barbonnasse", "Barbotine" ],
+            "good_answer" : "Barbalala"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/barbapapa/barbamama.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/barbapapa/barbamama.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/barbapapa/barbamama.jpg" ],
+            "wrong_answers" : [ "Barbabelle", "Barbablack", "Barbalala" ],
+            "good_answer" : "Barbamama"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/barbapapa/barbapapa.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/barbapapa/barbapapa.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/barbapapa/barbapapa.jpg" ],
+            "wrong_answers" : [ "Barbadaron", "Barbaronsachacohen", "Barbaturique" ],
+            "good_answer" : "Barbapapa"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/barbapapa/barbibul.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/barbapapa/barbibul.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/barbapapa/barbibul.jpg" ],
+            "wrong_answers" : [ "Barbaborgne", "Barbasavant", "Barbidou" ],
+            "good_answer" : "Barbibul"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/barbapapa/barbidou.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/barbapapa/barbidou.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/barbapapa/barbidou.jpg" ],
+            "wrong_answers" : [ "Barbazoophile", "Barbibul", "Barbidur" ],
+            "good_answer" : "Barbidou"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/barbapapa/barbidur.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/barbapapa/barbidur.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/barbapapa/barbidur.jpg" ],
+            "wrong_answers" : [ "Barbacoco", "Barbacostaud", "Barbibul" ],
+            "good_answer" : "Barbidur"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/barbapapa/barbotine.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/barbapapa/barbotine.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/barbapapa/barbotine.jpg" ],
+            "wrong_answers" : [ "Barbalala", "Barbalolo", "Barbibelle" ],
+            "good_answer" : "Barbotine"
+        },
+        {
+            "question" : "Comment s'appelle ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/barbapapa/barbouille.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/barbapapa/barbouille.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/barbapapa/barbouille.jpg" ],
+            "wrong_answers" : [ "Barbapoil", "Barbidou", "Barbonoir" ],
+            "good_answer" : "Barbouille"
+        }
+    ]
+}
+    

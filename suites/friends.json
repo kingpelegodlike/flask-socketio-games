@@ -1,0 +1,262 @@
+{
+    "topic": "FRIENDS",
+    "categories": [ "Elders", "Adults", "Teenagers" ],
+    "generation_min": "2000s",
+    "generation_max": "1970s",
+    "questions": [
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/pete_becker.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/pete_becker.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/pete_becker.jpg" ],
+            "wrong_answers" : [ "Callfielder", "Fisher", "Straker" ],
+            "good_answer" : "Becker"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/chandler_bing.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/chandler_bing.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/chandler_bing.jpg" ],
+            "wrong_answers" : [ "Geller", "Green", "Tribbiani" ],
+            "good_answer" : "Bing"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/phoebe_buffay.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/phoebe_buffay.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/phoebe_buffay.jpg" ],
+            "wrong_answers" : [ "Geller", "Green", "Kudrow" ],
+            "good_answer" : "Buffay"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/chandler_bing.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/chandler_bing.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/chandler_bing.jpg" ],
+            "wrong_answers" : [ "Joey", "Matthew", "Ross" ],
+            "good_answer" : "Chandler"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/ross_geller.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/ross_geller.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/ross_geller.jpg" ],
+            "wrong_answers" : [ "Green", "Bing", "Schwimmer" ],
+            "good_answer" : "Geller"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/jack_geller.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/jack_geller.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/jack_geller.jpg" ],
+            "wrong_answers" : [ "Green", "Hannigan", "Tribbiani" ],
+            "good_answer" : "Geller"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/judy_geller.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/judy_geller.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/judy_geller.jpg" ],
+            "wrong_answers" : [ "Bing", "Buffay", "Green" ],
+            "good_answer" : "Geller"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/rachel_green.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/rachel_green.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/rachel_green.jpg" ],
+            "wrong_answers" : [ "Bing", "Aniston", "Buffay" ],
+            "good_answer" : "Green"
+        },
+        {
+            "question" : "Quel est le prénom ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/gunther.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/gunther.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/gunther.jpg" ],
+            "wrong_answers" : [ "Brian", "Cole", "Franck" ],
+            "good_answer" : "Gunther"
+        },
+        {
+            "question" : "Quel est le prénom ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/jack_geller.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/jack_geller.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/jack_geller.jpg" ],
+            "wrong_answers" : [ "Frank", "Mike", "Richard" ],
+            "good_answer" : "Jack"
+        },
+        {
+            "question" : "Quel est le surnom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/joey_tribbiani.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/joey_tribbiani.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/joey_tribbiani.jpg" ],
+            "wrong_answers" : [ "Chandler", "Matt", "Ross" ],
+            "good_answer" : "Joey"
+        },
+        {
+            "question" : "Quel est le vrai prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/joey_tribbiani.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/joey_tribbiani.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/joey_tribbiani.jpg" ],
+            "wrong_answers" : [ "Joaquim", "Joeffrey", "Johan" ],
+            "good_answer" : "Joseph"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/judy_geller.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/judy_geller.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/judy_geller.jpg" ],
+            "wrong_answers" : [ "Charlie", "Kathy", "Mona" ],
+            "good_answer" : "Judy"
+        },
+        {
+            "question" : "Quel est le deuxième prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/rachel_green.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/rachel_green.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/rachel_green.jpg" ],
+            "wrong_answers" : [ "Myriam", "Sarah", "Sophia" ],
+            "good_answer" : "Karen"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/monica_geller.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/monica_geller.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/monica_geller.jpg" ],
+            "wrong_answers" : [ "Courteney", "Phoebe", "Rachel" ],
+            "good_answer" : "Monica"
+        },
+        {
+            "question" : "Quel est le deuxième prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/chandler_bing.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/chandler_bing.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/chandler_bing.jpg" ],
+            "wrong_answers" : [ "Agnes", "Chantal", "Sandra" ],
+            "good_answer" : "Muriel"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/gunther.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/gunther.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/gunther.jpg" ],
+            "wrong_answers" : [ "Fairchild", "Michael", "Tyler" ],
+            "good_answer" : "On ne sait pas"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/pete_becker.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/pete_becker.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/pete_becker.jpg" ],
+            "wrong_answers" : [ "Eric", "John", "Oliver" ],
+            "good_answer" : "Pete"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/phoebe_buffay.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/phoebe_buffay.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/phoebe_buffay.jpg" ],
+            "wrong_answers" : [ "Lisa", "Monica", "Rachel" ],
+            "good_answer" : "Phoebe"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/rachel_green.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/rachel_green.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/rachel_green.jpg" ],
+            "wrong_answers" : [ "Jennifer", "Monica", "Phoebe" ],
+            "good_answer" : "Rachel"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/ross_geller.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/ross_geller.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/ross_geller.jpg" ],
+            "wrong_answers" : [ "Chandler", "David", "Joey" ],
+            "good_answer" : "Ross"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/mr_treeger.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/mr_treeger.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/mr_treeger.jpg" ],
+            "wrong_answers" : [ "Burgin", "Farber", "Robinson" ],
+            "good_answer" : "Treeger"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/joey_tribbiani.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/friends/joey_tribbiani.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends/joey_tribbiani.jpg" ],
+            "wrong_answers" : [ "Bing", "Geller", "Soprano" ],
+            "good_answer" : "Tribbiani"
+        }
+    ]
+}
+    

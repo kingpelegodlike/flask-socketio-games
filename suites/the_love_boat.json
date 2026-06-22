@@ -1,0 +1,262 @@
+{
+    "topic": "La croisière s'amuse",
+    "categories": [ "Elders", "Adults" ],
+    "generation_min": "1980s",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "Quel est le titre VO de série ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/la_croisiere_s_amuse.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/la_croisiere_s_amuse.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/the_love_boat.jpg" ],
+            "wrong_answers" : [ "Longest journey", "Sea", "The funny cruise" ],
+            "good_answer" : "Love Boat"
+        },
+        {
+            "question" : "Quel est son role ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/isaac_washington_actor_ted_lange.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/isaac_washington_actor_ted_lange.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/isaac_washington_actor_ted_lange.jpg" ],
+            "wrong_answers" : [ "Bagagiste", "Agent de Sécurité", "Capitaine" ],
+            "good_answer" : "Barman"
+        },
+        {
+            "question" : "Quel est son role ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/capitaine_merrill_stubing_actor_gavin_mac_leod.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/capitaine_merrill_stubing_actor_gavin_mac_leod.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/capitaine_merrill_stubing_actor_gavin_mac_leod.jpg" ],
+            "wrong_answers" : [ "Barman", "Agent de Sécurité", "Serveur" ],
+            "good_answer" : "Capitaine"
+        },
+        {
+            "question" : "Quel est son role ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/docteur_adam_bricker_actor_bernie_kopell.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/docteur_adam_bricker_actor_bernie_kopell.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/docteur_adam_bricker_actor_bernie_kopell.jpg" ],
+            "wrong_answers" : [ "Barman", "Capitaine", "Bagagiste" ],
+            "good_answer" : "Docteur"
+        },
+        {
+            "question" : "Quel est le nom du luxueux paquebot ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/la_croisiere_s_amuse_pacific_princess.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/la_croisiere_s_amuse_pacific_princess.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/la_croisiere_s_amuse_pacific_princess.jpg" ],
+            "wrong_answers" : [ "Pink Paradise", "Popular Popeye", "Princess Paradise" ],
+            "good_answer" : "Pacific Princess"
+        },
+        {
+            "question" : "Quel est le surnom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/ashley_ace_covington_evans_actor_ted_mc_ginley.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/ashley_ace_covington_evans_actor_ted_mc_ginley.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/ashley_ace_covington_evans_actor_ted_mc_ginley.jpg" ],
+            "wrong_answers" : [ "Arrow", "Dick", "Voice" ],
+            "good_answer" : "Ace"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/ashley_ace_covington_evans_actor_ted_mc_ginley.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/ashley_ace_covington_evans_actor_ted_mc_ginley.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/ashley_ace_covington_evans_actor_ted_mc_ginley.jpg" ],
+            "wrong_answers" : [ "Adam", "Frank", "Judy" ],
+            "good_answer" : "Ashley"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/ashley_ace_covington_evans_actor_ted_mc_ginley.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/ashley_ace_covington_evans_actor_ted_mc_ginley.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/ashley_ace_covington_evans_actor_ted_mc_ginley.jpg" ],
+            "wrong_answers" : [ "Bricker", "McCoy", "Stubing" ],
+            "good_answer" : "Covington Evans"
+        },
+        {
+            "question" : "Quel est le surnom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/burl_gopher_smith_actor_fred_grandy.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/burl_gopher_smith_actor_fred_grandy.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/burl_gopher_smith_actor_fred_grandy.jpg" ],
+            "wrong_answers" : [ "Doctor", "The Voice", "Tiny" ],
+            "good_answer" : "Gopher"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/burl_gopher_smith_actor_fred_grandy.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/burl_gopher_smith_actor_fred_grandy.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/burl_gopher_smith_actor_fred_grandy.jpg" ],
+            "wrong_answers" : [ "Adam", "Isaac", "Merrill" ],
+            "good_answer" : "Burl"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/burl_gopher_smith_actor_fred_grandy.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/burl_gopher_smith_actor_fred_grandy.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/burl_gopher_smith_actor_fred_grandy.jpg" ],
+            "wrong_answers" : [ "Bricker", "McCoy", "Stubing" ],
+            "good_answer" : "Smith"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/docteur_adam_bricker_actor_bernie_kopell.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/docteur_adam_bricker_actor_bernie_kopell.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/docteur_adam_bricker_actor_bernie_kopell.jpg" ],
+            "wrong_answers" : [ "Burl", "Isaac", "Merrill" ],
+            "good_answer" : "Adam"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/docteur_adam_bricker_actor_bernie_kopell.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/docteur_adam_bricker_actor_bernie_kopell.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/docteur_adam_bricker_actor_bernie_kopell.jpg" ],
+            "wrong_answers" : [ "McCoy", "Smith", "Stubing" ],
+            "good_answer" : "Bricker"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/isaac_washington_actor_ted_lange.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/isaac_washington_actor_ted_lange.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/isaac_washington_actor_ted_lange.jpg" ],
+            "wrong_answers" : [ "Aaron", "Abraham", "Thomas" ],
+            "good_answer" : "Isaac"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/isaac_washington_actor_ted_lange.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/isaac_washington_actor_ted_lange.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/isaac_washington_actor_ted_lange.jpg" ],
+            "wrong_answers" : [ "Jackson", "Jefferson", "Johnson" ],
+            "good_answer" : "Washington"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/judy_mc_coy_actor_pat_klous.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/judy_mc_coy_actor_pat_klous.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/judy_mc_coy_actor_pat_klous.jpg" ],
+            "wrong_answers" : [ "Julie", "Patti", "Vicki" ],
+            "good_answer" : "Judy"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/judy_mc_coy_actor_pat_klous.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/judy_mc_coy_actor_pat_klous.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/judy_mc_coy_actor_pat_klous.jpg" ],
+            "wrong_answers" : [ "Bricker", "Covington Evans", "Smith" ],
+            "good_answer" : "McCoy"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/julie_mc_coy_actor_lauren_tewes.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/julie_mc_coy_actor_lauren_tewes.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/julie_mc_coy_actor_lauren_tewes.jpg" ],
+            "wrong_answers" : [ "Ashley", "Judy", "Vicki" ],
+            "good_answer" : "Julie"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/julie_mc_coy_actor_lauren_tewes.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/julie_mc_coy_actor_lauren_tewes.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/julie_mc_coy_actor_lauren_tewes.jpg" ],
+            "wrong_answers" : [ "Bricker", "Evans", "Stubing" ],
+            "good_answer" : "McCoy"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/capitaine_merrill_stubing_actor_gavin_mac_leod.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/capitaine_merrill_stubing_actor_gavin_mac_leod.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/capitaine_merrill_stubing_actor_gavin_mac_leod.jpg" ],
+            "wrong_answers" : [ "Adam", "Burl", "Isaac" ],
+            "good_answer" : "Merrill"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/capitaine_merrill_stubing_actor_gavin_mac_leod.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/capitaine_merrill_stubing_actor_gavin_mac_leod.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/capitaine_merrill_stubing_actor_gavin_mac_leod.jpg" ],
+            "wrong_answers" : [ "Bricker", "McCoy", "Smith" ],
+            "good_answer" : "Stubing"
+        },
+        {
+            "question" : "Quel est le prénom de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/vicki_stubing_actor_jill_whelan.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/vicki_stubing_actor_jill_whelan.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/vicki_stubing_actor_jill_whelan.jpg" ],
+            "wrong_answers" : [ "Ashley", "Julie", "Sarah" ],
+            "good_answer" : "Vicki"
+        },
+        {
+            "question" : "Quel est le nom de famille de ce personnage ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/vicki_stubing_actor_jill_whelan.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/the_love_boat/vicki_stubing_actor_jill_whelan.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/the_love_boat/vicki_stubing_actor_jill_whelan.jpg" ],
+            "wrong_answers" : [ "McCoy", "Smith", "Washington" ],
+            "good_answer" : "Stubing"
+        }
+    ]
+}
+    

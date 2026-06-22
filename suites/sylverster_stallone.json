@@ -1,0 +1,284 @@
+{
+    "topic": "Sylverster Stallone",
+    "categories": [ "Elders", "Adults" ],
+    "generation_min": "2000s",
+    "generation_max": "Elders",
+    "questions": [
+        {
+            "question" : "Dans quel film joue Sylvester Stalone ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/rambo_1.jpg" ],
+            "wrong_answers" : [ "Teminator", "Le contrat", "Prédator" ],
+            "good_answer" : "Rambo"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'L'embrouille est dans le sac' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/angelo_provolone.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/angelo_provolone.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/angelo_provolone.jpg" ],
+            "wrong_answers" : [ "Adam Gibson", "Alan Schaeffer", "Ivan Danko" ],
+            "good_answer" : "Angelo Provolone"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'Expendables' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/barney_ross.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/barney_ross.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/barney_ross.jpg" ],
+            "wrong_answers" : [ "Dom Cobb", "Alan Schaeffer", "Jack Biggs" ],
+            "good_answer" : "Barney Ross"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'La Taverne de l'enfer' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/cosmo_carboni.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/cosmo_carboni.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/cosmo_carboni.jpg" ],
+            "wrong_answers" : [ "Razor Charlie", "Scott Fuller", "Seth Gecko" ],
+            "good_answer" : "Cosmo Carboni"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'Les Faucons de la nuit' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/deke_da_silva.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/deke_da_silva.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/deke_da_silva.jpg" ],
+            "wrong_answers" : [ "Joe Bomowski", "Lincoln Hawk", "Raymond Tango" ],
+            "good_answer" : "Deke DaSilva"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'Haute Sécurité' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/frank_leone.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/frank_leone.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/frank_leone.jpg" ],
+            "wrong_answers" : [ "Alex Hesse", "Harrison Hill", "Marion Cobretti" ],
+            "good_answer" : "Frank Leone"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'Capone' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/frank_nitti.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/frank_nitti.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/frank_nitti.jpg" ],
+            "wrong_answers" : [ "Al Capone", "Eliot Ness", "Jim Malone" ],
+            "good_answer" : "Frank Nitti"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'Copland' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/freddy_heflin.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/freddy_heflin.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/freddy_heflin.jpg" ],
+            "wrong_answers" : [ "Gabe Walker", "John Spartan", "Kit Latura" ],
+            "good_answer" : "Freddy Heflin"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'Cliffhanger' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/gabe_walker.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/gabe_walker.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/gabe_walker.jpg" ],
+            "wrong_answers" : [ "Calvin Candie", "Jim Carroll", "Joe Bomowski" ],
+            "good_answer" : "Gabe Walker"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'Du plomb dans la tête' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/jimmy_bobo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/jimmy_bobo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/jimmy_bobo.jpg" ],
+            "wrong_answers" : [ "Barney Ross", "Jack Slater", "John Spartan" ],
+            "good_answer" : "Jimmy Bobo"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'Arrête ou ma mère va tirer !' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/joe_bomowski.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/joe_bomowski.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/joe_bomowski.jpg" ],
+            "wrong_answers" : [ "Jimmy Monroe", "John McClane", "Malcolm Crowe" ],
+            "good_answer" : "Joe Bomowski"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'Driven' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/joe_tanto.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/joe_tanto.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/joe_tanto.jpg" ],
+            "wrong_answers" : [ "Alex Hesse", "Calvin Candie", "Malcolm Crowe" ],
+            "good_answer" : "Joe Tanto"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'Rambo 3' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/john_rambo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/john_rambo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/john_rambo.jpg" ],
+            "wrong_answers" : [ "Mike Rambo", "Rambo Balboa", "Steve Rambo" ],
+            "good_answer" : "John Rambo"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'Demolition Man' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/john_spartan.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/john_spartan.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/john_spartan.jpg" ],
+            "wrong_answers" : [ "Jack Slater", "Jericho Cane", "Korben Dallas" ],
+            "good_answer" : "John Spartan"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'F.I.S.T' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/johnny_kovak.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/johnny_kovak.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/johnny_kovak.jpg" ],
+            "wrong_answers" : [ "Max Iron", "Richard Gecko", "Rowdy Herrington" ],
+            "good_answer" : "Johnny D. Kovak"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'Judge Dredd' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/judge_dredd.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/judge_dredd.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/judge_dredd.jpg" ],
+            "wrong_answers" : [ "Butch Coolidge", "Douglas Quaid", "James Cole" ],
+            "good_answer" : "Joseph Dredd"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'Daylight' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/kit_latura.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/kit_latura.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/kit_latura.jpg" ],
+            "wrong_answers" : [ "Joseph Dredd", "Ray Quick", "Robert Rath" ],
+            "good_answer" : "Kit Latura"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'Over the top Bras de fer' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/lincoln_hawk.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/lincoln_hawk.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/lincoln_hawk.jpg" ],
+            "wrong_answers" : [ "Amsterdam Vallon", "Joseph Dredd", "Julius Benedict" ],
+            "good_answer" : "Lincoln Hawk"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'Cobra' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/marion_cobretti.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/marion_cobretti.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/marion_cobretti.jpg" ],
+            "wrong_answers" : [ "Jeff Talley", "John Matrix", "Mick Snake" ],
+            "good_answer" : "Marion Cobretti"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'L'Expert' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/ray_quick.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/ray_quick.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/ray_quick.jpg" ],
+            "wrong_answers" : [ "Brandon Darrow", "Cosmo Carboni", "Hudson Hawk" ],
+            "good_answer" : "Ray Quick"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'Tango et Cash' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/raymond_tango.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/raymond_tango.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/raymond_tango.jpg" ],
+            "wrong_answers" : [ "Gabriel Cash", "Trench Mauser", "Yves Perret" ],
+            "good_answer" : "Raymond Tango"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'A nous la victoire' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/robert_hatch.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/robert_hatch.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/robert_hatch.jpg" ],
+            "wrong_answers" : [ "James Cole", "Jason McClane", "Nick Martinelli" ],
+            "good_answer" : "Robert Hatch"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'Assassins' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/robert_rath.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/robert_rath.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/robert_rath.jpg" ],
+            "wrong_answers" : [ "Arnie Grape", "John Kimble", "Julius Benedict" ],
+            "good_answer" : "Robert Rath"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'Rocky 3' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/rocky_balboa.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/rocky_balboa.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/rocky_balboa.jpg" ],
+            "wrong_answers" : [ "Rocky Bilbo", "Rocky Bonanza", "Rocky Danza" ],
+            "good_answer" : "Rocky Balboa"
+        },
+        {
+            "question" : "Quel est le nom de son personnage dans le film 'Mission 3D Spy kids 3' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/toy_master.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/sylvester_stallone/toy_master.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/sylvester_stallone/toy_master.jpg" ],
+            "wrong_answers" : [ "Dollman", "Puppeter", "Warlock" ],
+            "good_answer" : "Toy Master"
+        }
+    ]
+}
+    
