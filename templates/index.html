@@ -1,0 +1,776 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Flask-SocketIO Test</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/jquery.countdown.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='dist/themes/default/style.min.css') }}" />
+    <script src="{{ url_for('static',filename='dist/libs/jquery.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static',filename='dist/countdown/jquery.plugin.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static',filename='dist/countdown/jquery.countdown.js') }}"></script>
+    <script src="{{ url_for('static',filename='dist/jstree.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='dist/libs/socket.io.min.js') }}"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function() {
+            // Use a "/test" namespace.
+            // An application can open a connection on multiple namespaces, and
+            // Socket.IO will multiplex all those connections on a single
+            // physical channel. If you don't care about multiple channels, you
+            // can set the namespace to an empty string.
+            namespace = '/test';
+            
+            var player_list = [];
+            var status = "deactiv_buttons";
+            var question_audio = document.getElementById('question_audio');
+            var question_audio_src = document.getElementById('question_audio_src');
+            var question_video = document.getElementById('question_video');
+            var question_video_src = document.getElementById('question_video_src');
+            question_video.addEventListener("ended", function(){
+                console.log('video completed');
+                //display banner on video ending
+                question_video.setAttribute('data-icon','');
+            }); 
+
+            // Connect to the Socket.IO server.
+            // The connection URL has the following format:
+            //     http[s]://<domain>:<port>[/<namespace>]
+            var socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port + namespace);
+
+            // Event handler for server sent data.
+            // The callback function is invoked whenever the server emits data
+            // to the client. The data is then displayed in the "Received"
+            // section of the page.
+            socket.on('my_response', function(msg) {
+                $('#log').append('<br>' + $('<div/>').text('Received #' + msg.count + ': ' + msg.name + ' push ' + msg.data + ' in ' + msg.time + ' seconds').html());
+                if ('name' in msg) {
+                    if ( status == "get_players" ) {
+                      // player_list.push(msg);
+                      row = '<tr><td class="fname">'+msg.name+'</td><td class="lname">'+msg.data+'</td></tr>';
+                      $('.connected_players table > tbody').append(row);
+                    }
+                    else {
+                      var index_to_splice = -1;
+                      var rows;
+                      // clear the table
+                      $('.players table > tbody').empty();
+                      player_list.forEach(function(item, index, array) {
+                          if (item.name == msg.name) {
+                              index_to_splice = index;
+                          }
+                      });
+                      if (index_to_splice == -1) {
+                          player_list.push(msg);
+                      } else {
+                          player_list.splice(index_to_splice, 1, msg);
+                      }
+                      player_list.forEach(function(item, index, array) {
+                          rows += '<tr><td class="fname">'+item.name+'</td><td class="lname">'+item.data+'</td><td>'+item.time+'</td></tr>';
+                      });
+                      $('.players table > tbody').append(rows);
+                  }
+                }
+            });
+            
+            /* socket.on('my_name', function(msg) {
+                $('#players').append('<br>' + $('<div/>').text('Received #' + msg.count + ': ' + msg.data).html());
+                if ( ( status == "get_players" ) && ( msg.data == "bouton5" ) ) {
+                    // player_list.push(msg);
+                    row = '<tr><td class="fname">'+msg.name+'</td><td class="lname">'+msg.data+'</td></tr>';
+                    $('#connected_players table > tbody').append(row);
+                }
+            }); */
+            
+            socket.on('add_player', function(msg) {
+                row = '<tr class="players_tr"><td class="players_td">'+msg.name+'</td><td players_td="lname"></td></tr>';
+                $('#players table > tbody').append(row);
+                player_nb = $('#players table > tbody > tr').length;
+                // alert(player_nb + " Players");
+                // player_nb = addTablePlayer(msg.name);
+                var button = document.getElementById("del_player_"+player_nb+"_button");
+                button.innerHTML='Sup. ' + msg.name;
+                button.style.display = 'inline-block';
+                button.style.visibility = "visible";
+            });
+            
+            socket.on('del_player', function(msg) {
+                // RANKINGTABLE PART BEGIN
+                // delTablePlayer(msg.name);
+                // RANKINGTABLE PART END
+                // PLAYERS SCORE CLASSIQUE PART BEGIN
+                var del_index = -1;
+                $('#players table > tbody  > tr').each(function(index, tr) { 
+                    console.log(index);
+                    console.log(tr);
+                    var identifiant = $(this).find('td').eq(0).html();
+                    console.log(identifiant);
+                    if (identifiant == msg.name) {
+                        del_index = index + 1;
+                    }
+                    /* $(this).find('td').each (function(td_index, td) {
+                        console.log(td_index);
+                        console.log(td);
+                    }); */
+                });
+                // var table = $('#players table > tbody');
+                var table = document.getElementById("players_table");
+                table.deleteRow(del_index);
+                // PLAYERS SCORE CLASSIQUE PART END
+            });
+            
+            socket.on('add_players_console', function(msg) {
+                var players_console = document.getElementById("players_console");
+                if (msg.time == "0") {
+                    players_console.innerHTML = players_console.innerHTML + "<br />" + msg.name + " " + msg.comment;
+                    renameLabel('question', 'PRET A JOUER ?');
+                    renameLabel('reponse1', "&nbsp;");
+                    recolorBorder('reponse1', 'white')
+                    renameLabel('reponse2', "&nbsp;");
+                    recolorBorder('reponse2', 'white')
+                    renameLabel('reponse3', "&nbsp;");
+                    recolorBorder('reponse3', 'white')
+                    renameLabel('reponse4', "&nbsp;");
+                    recolorBorder('reponse4', 'white')
+                    document.getElementById('question_image').setAttribute("src", "");
+                }
+                else {
+                    players_console.innerHTML = players_console.innerHTML + "<br />" + msg.name + " played in " + msg.time + " seconds";
+                }              
+            });
+            
+            socket.on('add_players', function(msg) {
+                var i;
+                for ( i = 0; i < msg.names.length; i++ ) {
+                    row = '<tr class="players_tr"><td class="players_td">'+msg.names[i]+'</td><td class="players_td">'+msg.scores[i]+' pts</td><td class ="players_td">'+msg.play_times[i]+' s</td></tr>';
+                    $('#players table > tbody').append(row);
+                }
+            });
+            
+            socket.on('update_players', function(msg) {
+                var i;
+                $('#players table > tbody').empty();
+                for ( i = 0; i < msg.names.length; i++ ) {
+                    // PLAYERS SCORE CLASSIQUE PART BEGIN
+                    row = '<tr class="players_tr"><td class="players_td">'+msg.names[i]+'</td><td class="players_td">'+msg.scores[i]+' pts</td><td class ="players_td">'+msg.play_times[i]+' s</td></tr>';
+                    $('#players table > tbody').append(row);
+                    // PLAYERS SCORE CLASSIQUE PART END
+                    // RANKINGTABLE PART BEGIN
+                    // setPlayerScore(msg.names[i], msg.scores[i], msg.play_times[i])
+                    // RANKINGTABLE PART END
+                }
+                // RANKINGTABLE PART BEGIN
+                // updateTable(true);
+                // RANKINGTABLE PART END
+            });
+            
+            socket.on('display_question', function(msg) {
+                console.log("receveive " + msg.action + " with topic:" + msg.topic + " question:" + msg.question + " sound:(" + msg.sound + ") media_type:(" + msg.media_type + ") media:(" + msg.media + ") timeout:(" + msg.timeout + ")");
+                // $('#question').innerHTML=msg.question;
+                // $('#reponse1').innerHTML=msg.b2;
+                // $('#reponse2').innerHTML=msg.b3;
+                // $('#reponse3').innerHTML=msg.b4;
+                // $('#reponse4').innerHTML=msg.b5;
+                $('#defaultCountdown').countdown('destroy');
+                $('#defaultCountdown').countdown({until: msg.timeout, format: 'S'});
+                document.getElementById("topic").innerHTML = "Question " + msg.topic;
+                renameLabel('question', msg.question);
+                renameLabel('reponse1', msg.b2);
+                var border_color = (msg.b2 === "&nbsp;") ? 'white' : 'blue';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton2") {
+                        border_color = "blue";
+                    }
+                }
+                recolorBorder('reponse1', border_color)
+                renameLabel('reponse2', msg.b3);
+                var border_color = (msg.b3 === "&nbsp;") ? 'white' : 'orange';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton3") {
+                        border_color = "orange";
+                    }
+                }
+                recolorBorder('reponse2', border_color)
+                renameLabel('reponse3', msg.b4);
+                var border_color = (msg.b4 === "&nbsp;") ? 'white' : 'green';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton4") {
+                        border_color = "green";
+                    }
+                }
+                recolorBorder('reponse3', border_color)
+                renameLabel('reponse4', msg.b5);
+                var border_color = (msg.b5 === "&nbsp;") ? 'white' : 'yellow';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton5") {
+                        border_color = "yellow";
+                    }
+                }
+                recolorBorder('reponse4', border_color)
+                if (typeof msg.answer === 'undefined') {
+                    var players_console = document.getElementById("players_console");               
+                    players_console.innerHTML = "";
+                }
+                document.getElementById('question_image').setAttribute("src", "");
+                if ( msg.media_type == "image" ) {
+                    document.getElementById('question_image').setAttribute("src", msg.media);
+                }
+                
+                question_audio.pause();
+                question_audio.currentTime = 0;
+                question_audio_src.src = "";
+                // question_audio.load();
+                // question_audio.play();
+                // question_audio.pause();
+                question_audio.currentTime = 0;
+                if ( msg.sound != "" ) {
+                    question_audio_src.src = msg.sound;
+                    question_audio.load();
+                    question_audio.play();
+                }
+                
+                question_video.pause();
+                question_video.currentTime = 0;
+                question_video_src.src = "";
+                // question_video.load();
+                // question_video.play();
+                question_video.pause();
+                question_video.currentTime = 0;
+                if ( msg.media_type == "video" ) {
+                    question_video_src.src = msg.media;
+                    if ( msg.media != "" ) {
+                        question_video.load();
+                        question_video.play();
+                    }
+                }
+            });
+            
+            socket.on('ask_question', function(msg) {
+                console.log("receveive " + msg.action + " " + msg.question + " sound:(" + msg.sound + ") media_type:(" + msg.media_type + ") media:(" + msg.media + ")");
+                console.log("with blue button 2:" + msg.b2 + " orange button 3:" + msg.b3 + " green button 4:" + msg.b4 + " yellow button 5:" + msg.b5);
+                // $('#question').innerHTML=msg.question;
+                // $('#reponse1').innerHTML=msg.b2;
+                // $('#reponse2').innerHTML=msg.b3;
+                // $('#reponse3').innerHTML=msg.b4;
+                // $('#reponse4').innerHTML=msg.b5;
+                renameLabel('question', msg.question);
+                renameLabel('reponse1', msg.b2);
+                var border_color = (msg.b2 === "&nbsp;") ? 'white' : 'blue';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton2") {
+                        border_color = "blue";
+                    }
+                }
+                recolorBorder('reponse1', border_color)
+                renameLabel('reponse2', msg.b3);
+                var border_color = (msg.b3 === "&nbsp;") ? 'white' : 'orange';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton3") {
+                        border_color = "orange";
+                    }
+                }
+                recolorBorder('reponse2', border_color)
+                renameLabel('reponse3', msg.b4);
+                var border_color = (msg.b4 === "&nbsp;") ? 'white' : 'green';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton4") {
+                        border_color = "green";
+                    }
+                }
+                recolorBorder('reponse3', border_color)
+                renameLabel('reponse4', msg.b5);
+                var border_color = (msg.b5 === "&nbsp;") ? 'white' : 'yellow';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton5") {
+                        border_color = "yellow";
+                    }
+                }
+                recolorBorder('reponse4', border_color)
+                document.getElementById('question_image').setAttribute("src", "");
+                if ( msg.media_type == "image" ) {
+                    document.getElementById('question_image').setAttribute("src", msg.media);
+                }
+                
+                question_audio.pause();
+                question_audio.currentTime = 0;
+                question_audio_src.src = "";
+                // question_audio.load();
+                // question_audio.play();
+                // question_audio.pause();
+                question_audio.currentTime = 0;
+                if ( msg.sound != "" ) {
+                    question_audio_src.src = msg.sound;
+                    question_audio.load();
+                    question_audio.play();
+                }
+                
+                question_video.pause();
+                question_video.currentTime = 0;
+                question_video_src.src = "";
+                // question_video.load();
+                // question_video.play();
+                question_video.pause();
+                question_video.currentTime = 0;
+                if ( msg.media_type == "video" ) {
+                    question_video_src.src = msg.media;
+                    if ( msg.media != "" ) {
+                        question_video.load();
+                        question_video.play();
+                    }
+                }
+            });
+            
+            socket.on('enabled_next_question', function(msg) {
+                console.log("receveive enabled_next_question with action:" + msg.action);
+                document.getElementById("next_question_button").disabled = false;
+                document.getElementById("all_questions_button").disabled = true;
+            });
+            
+            socket.on('enabled_all_questions', function(msg) {
+                console.log("receveive enabled_all_questions with action:" + msg.action);
+                document.getElementById("next_question_button").disabled = true;
+                document.getElementById("all_questions_button").disabled = false;
+            });
+            
+            socket.on('end_game', function(msg) {
+                console.log("receveive " + msg.action + " leader:" + msg.leader);
+                renameLabel('question', msg.leader + ' EST LE VAINQUEUR');
+                renameLabel('reponse1', "&nbsp;");
+                recolorBorder('reponse1', 'white')
+                renameLabel('reponse2', "&nbsp;");
+                recolorBorder('reponse2', 'white')
+                renameLabel('reponse3', "&nbsp;");
+                recolorBorder('reponse3', 'white')
+                renameLabel('reponse4', "&nbsp;");
+                recolorBorder('reponse4', 'white')
+                document.getElementById('question_image').setAttribute("src", "");
+                renameLabel('next_question_button', "End Game");
+                renameLabel('all_questions_button', "End Game");
+                $('form#next_question_button').data = "End Game";
+                $('form#next_question_button').text = "End Game";
+                $('form#next_question_button').innerHTML = "End Game";
+                $('form#all_questions_button').data = "End Game";
+                $('form#all_questions_button').text = "End Game";
+                $('form#all_questions_button').innerHTML = "End Game";
+                document.getElementById("next_question_button").disabled = true;
+                document.getElementById("all_questions_button").disabled = true;
+                players_console.innerHTML = players_console.innerHTML + "<br />GAME OVER";
+                document.getElementById('question_image').setAttribute("src", "");
+                
+                question_audio.pause();
+                question_audio.currentTime = 0;
+                question_audio_src.src = "";
+                question_audio.load();
+                question_audio.play();
+                question_audio.pause();
+                question_audio.currentTime = 0;
+                
+                question_video.pause();
+                question_video.currentTime = 0;
+                question_video_src.src = "";
+                question_video.load();
+                question_video.play();
+                question_video.pause();
+                question_video.currentTime = 0;
+            });
+
+            $('form#get_players').submit(function(event) {
+                status = "get_players";
+                $('form#connected_players').visibility = 'visible';
+                socket.emit('get_players');
+                document.getElementById("players_selected_button").disabled = false;
+                document.getElementById("get_players_button").disabled = true;
+                return false;
+            });
+            $('form#players_selected').submit(function(event) {
+                status = "players_selected";
+                socket.emit('players_selected');
+                document.getElementById("set_questions_button").disabled = false;
+                document.getElementById("players_selected_button").disabled = true;
+                document.getElementById("jstree").style.display = 'inline-block';
+                document.getElementById("jstree").style.visibility = "visible";
+                document.getElementById("suite_parameter_div").style.display = 'inline-block';
+                document.getElementById("suite_parameter_div").style.visibility = "visible";
+                return false;
+            });
+            $('form#set_questions').submit(function(event) {
+                status = "set_questions";
+                console.log($("#jstree").jstree("get_selected",true));
+                var question_nbr_per_quiz = document.getElementById("question_nbr").value;
+                console.log("Number of Questions max for quiz:"+question_nbr_per_quiz);
+                var question_nbr_per_suite = document.getElementById("question_nbr_per_suite").value;
+                console.log("Number of Questions max per suite:"+question_nbr_per_suite);
+                socket.emit('set_questions', {data: $("#jstree").jstree("get_selected",true), question_nbr: question_nbr_per_quiz, question_nbr_per_suite: question_nbr_per_suite});
+                document.getElementById("next_question_button").disabled = false;
+                document.getElementById("all_questions_button").disabled = false;
+                document.getElementById("set_questions_button").disabled = true;
+                document.getElementById("jstree").style.display = 'none'
+                document.getElementById("jstree").style.visibility = "hidden";
+                document.getElementById("suite_parameter_div").style.display = 'none';
+                document.getElementById("suite_parameter_div").style.visibility = "hidden";
+                return false;
+            });
+            $('form#del_player_1_form').submit(function(event) {
+                button = document.getElementById("del_player_1_button")
+                button.style.display = 'none';
+                button.style.visibility = "hidden";
+                player_name = button.innerHTML;
+                player_name = player_name.replace('Sup. ', '');
+                socket.emit('del_player', {name: player_name});
+                return false;
+            });
+            $('form#del_player_2_form').submit(function(event) {
+                button = document.getElementById("del_player_2_button")
+                button.style.display = 'none';
+                button.style.visibility = "hidden";
+                player_name = button.innerHTML;
+                player_name = player_name.replace('Sup. ', '');
+                socket.emit('del_player', {name: player_name});
+                return false;
+            });
+            $('form#del_player_3_form').submit(function(event) {
+                button = document.getElementById("del_player_3_button")
+                button.style.display = 'none';
+                button.style.visibility = "hidden";
+                player_name = button.innerHTML;
+                player_name = player_name.replace('Sup. ', '');
+                socket.emit('del_player', {name: player_name});
+                return false;
+            });
+            $('form#del_player_4_form').submit(function(event) {
+                button = document.getElementById("del_player_4_button")
+                button.style.display = 'none';
+                button.style.visibility = "hidden";
+                player_name = button.innerHTML;
+                player_name = player_name.replace('Sup. ', '');
+                socket.emit('del_player', {name: player_name});
+                return false;
+            });
+            $('form#del_player_5_form').submit(function(event) {
+                button = document.getElementById("del_player_5_button")
+                button.style.display = 'none';
+                button.style.visibility = "hidden";
+                player_name = button.innerHTML;
+                player_name = player_name.replace('Sup. ', '');
+                socket.emit('del_player', {name: player_name});
+                return false;
+            });
+            $('form#del_player_6_form').submit(function(event) {
+                button = document.getElementById("del_player_6_button")
+                button.style.display = 'none';
+                button.style.visibility = "hidden";
+                player_name = button.innerHTML;
+                player_name = player_name.replace('Sup. ', '');
+                socket.emit('del_player', {name: player_name});
+                return false;
+            });
+            $('form#del_player_7_form').submit(function(event) {
+                button = document.getElementById("del_player_7_button")
+                button.style.display = 'none';
+                button.style.visibility = "hidden";
+                player_name = button.innerHTML;
+                player_name = player_name.replace('Sup. ', '');
+                socket.emit('del_player', {name: player_name});
+                return false;
+            });
+            $('form#del_player_8_form').submit(function(event) {
+                button = document.getElementById("del_player_8_button")
+                button.style.display = 'none';
+                button.style.visibility = "hidden";
+                player_name = button.innerHTML;
+                player_name = player_name.replace('Sup. ', '');
+                socket.emit('del_player', {name: player_name});
+                return false;
+            });
+            $('form#del_player_9_form').submit(function(event) {
+                button = document.getElementById("del_player_9_button")
+                button.style.display = 'none';
+                button.style.visibility = "hidden";
+                player_name = button.innerHTML;
+                player_name = player_name.replace('Sup. ', '');
+                socket.emit('del_player', {name: player_name});
+                return false;
+            });
+            $('form#activ_all_buttons').submit(function(event) {
+                socket.emit('activ_all_buttons');
+                return false;
+            });
+            $('form#activ_buttons').submit(function(event) {
+                socket.emit('activ_buttons');
+                return false;
+            });
+            $('form#next_question').submit(function(event) {
+                document.getElementById("next_question_button").disabled = true;
+                document.getElementById("all_questions_button").disabled = true;
+                socket.emit('next_question');
+                return false;
+            });
+            $('form#all_questions').submit(function(event) {
+                document.getElementById("next_question_button").disabled = true;
+                document.getElementById("all_questions_button").disabled = true;
+                socket.emit('all_questions');
+                return false;
+            });
+            $('form#deactiv_buttons').submit(function(event) {
+                socket.emit('deactiv_buttons');
+                return false;
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>Flask-SocketIO QUIZ Test</h1>
+    <div class="btn-group" id="menu_boutons">
+        <!-- <form id="get_players" method="POST" action="#">
+            <button type="submit" id="get_players_button" value="get players">Get players</button>
+        </form> -->
+        <!-- <form id="players_selected" method="POST" action="#">
+            <button type="submit" id="players_selected_button" disabled value="Close Player Selection">Close Player Selection</button>
+        </form> -->
+        <form id="set_questions" method="POST" action="#">
+            <button type="submit" id="set_questions_button" value="Close Questions Selection">Close Questions Selection</button>
+        </form>
+        <form id="next_question" method="POST" action="#">
+            <button type="submit" id="next_question_button" disabled value="Launch Next Question">Launch Next Question</button>
+        </form>
+        <form id="all_questions" method="POST" action="#">
+            <button type="submit" id="all_questions_button" disabled value="Launch All Questions">Launch All Questions</button>
+        </form>
+    </div>
+    <div class="btn-group" id="player_boutons">
+        <form id="del_player_1_form" method="POST" action="#">
+            <button type="submit" id="del_player_1_button" style="display:none;">Player1</button>
+        </form>
+        <form id="del_player_2_form" method="POST" action="#">
+            <button type="submit" id="del_player_2_button" style="display:none;">Player2</button>
+        </form>
+        <form id="del_player_3_form" method="POST" action="#">
+            <button type="submit" id="del_player_3_button" style="display:none;">Player3</button>
+        </form>
+        <form id="del_player_4_form" method="POST" action="#">
+            <button type="submit" id="del_player_4_button" style="display:none;">Player4</button>
+        </form>
+        <form id="del_player_5_form" method="POST" action="#">
+            <button type="submit" id="del_player_5_button" style="display:none;">Player5</button>
+        </form>
+        <form id="del_player_6_form" method="POST" action="#">
+            <button type="submit" id="del_player_6_button" style="display:none;">Player6</button>
+        </form>
+        <form id="del_player_7_form" method="POST" action="#">
+            <button type="submit" id="del_player_7_button" style="display:none;">Player7</button>
+        </form>
+        <form id="del_player_8_form" method="POST" action="#">
+            <button type="submit" id="del_player_8_button" style="display:none;">Player8</button>
+        </form>
+        <form id="del_player_9_form" method="POST" action="#">
+            <button type="submit" id="del_player_9_button" style="display:none;">Player9</button>
+        </form>
+    </div>
+    <!-- <div id="suite_parameter_div" hidden> -->
+    <div id="suite_parameter_div">
+      <form>
+        <fieldset>
+          <legend>Suite Parameters</legend>
+          <p>
+            <label>Nombre de questions maximum</label>
+            <input type = "question_nbr" id = "question_nbr" value = "20" />
+          </p>
+          <p>
+            <label>Nombre de questions maximum par suite</label>
+            <input type = "question_nbr_per_suite" id = "question_nbr_per_suite" value = "5" />
+          </p>
+        </fieldset>
+      </form>
+    </div>
+    <!-- 3 setup a container element -->
+    <!-- <div id="jstree" hidden> -->
+    <div id="jstree">
+    <!-- in this example the tree is populated from inline HTML -->
+        <ul  class="questions_list" id="questions_list">
+        <li id="test_suite">TEST</li>
+        <li>Animes
+            <ul>
+            <li id="dragon_ball">Dragon Ball</li>
+            <li id="pokemon">Pokemon</li>
+            <li id="les_chevaliers_du_zodiaque">Les Chevaliers du Zodiaque</li>
+            <li id="simpson">Les Simpson</li>
+            <li id="olive_et_tom">Olive et Tom</li>
+            <li id="south_park">South Park</li>
+            </ul>
+        </li>
+        <li>Années 80
+            <ul>
+            <li id="animes_annees_80">Animes Années 80</li>
+            <li id="mask">MASK</li>
+            <li id="series_annees_80">Séries Années 80</li>
+            </ul>
+        </li>
+        <li>Années 90
+            <ul>
+            <li id="series_annees_90">Séries Années 90</li>
+            </ul>
+        </li>
+        <li>Années 2000
+            <ul>
+            <li id="series_annees_2000">Séries Années 2000</li>
+            </ul>
+        </li>
+        <li>Bande dessinées
+            <ul>
+            <li id="asterix">Asterix</li>
+            <li id="babar">Babar</li>
+            <li id="titeuf">Titeuf</li>
+            <li id="tintin">Tintin</li>
+            </ul>
+        </li>
+        <li>Blind Tests
+            <ul>
+            <li id="blind_test_disney">disney</li>
+            <li id="blind_test_rap_annees_90">Music Rap Années 90</li>
+            <li id="blind_test_rnb_annees_90">Music RNB Années 90</li>
+            <li id="blind_test_series_annees_80">Séries Années 80</li>
+            </ul>
+        </li>
+        <li>Cinéma
+            <ul>
+            <li id="disney">Disney</li>
+            <li id="james_bond">James Bond</li>
+            <li id="harry_potter">Harry Potter</li>
+            <li id="retour_vers_le_futur">Retour ver le Futur</li>
+            <li id="star_wars">Star Wars</li>
+            </ul>
+        </li>
+        <li>Football
+            <ul>
+            <li id="effectif_france_2018">Equipe de France 2018</li>
+            </ul>
+        </li>
+        <li>General
+            <ul>
+            <li id="animaux_et_vegetaux">Animaux et Végétaux</li>
+            <li id="art_et_litterature">Art et Littérature</li>
+            <li id="astronomie">Astronomie</li>
+            <li id="cacher_dans_pub_ipod">Cacher dans une Pub iPod</li>
+            <li id="cinema">Cinéma</li>
+            <li id="corps_et_sante">Corps et Santé</li>
+            <li id="cuisine">Cuisine</li>
+            <li id="emissions_tv">Emissions TV</li>
+            <li id="histoire_et_geographie">Histoire et Géographie</li>
+            <li id="jeux_video">Jeux vidéo</li>
+            <li id="robots">Les Robots</li>
+            <li id="musique">Musique</li>
+            <li id="science_et_technologie">Science et Technologie</li>
+            <li id="sport">Sport</li>
+            <li id="super_heros">Super-Héros</li>
+            </ul>
+        </li>
+        <li>Series Ados
+            <ul>
+            <li id="violetta">Violetta</li>
+            </ul>
+        </li>
+        </ul>
+    </div>
+    <hr>
+    <h2 id="topic">Question:</h2>
+    <div class="questionbox">
+        <textarea style="border-style:solid;border-width: 10px;border-color:black;font-size:60px;height: 140px;width: 100%;text-align: justify;text-align-last: center;"  name="question" id="question">&nbsp;</textarea>
+    </div>
+    <div class="gamebox">
+        <div>
+        <section>
+        <div class="answerbox">
+            <div><label style="border-color:white;" class="answers_label" name="reponse1" id="reponse1">&nbsp;</label></div>
+            <div><label style="border-color:white;" class="answers_label" name="reponse2" id="reponse2">&nbsp;</label></div>
+            <div><label style="border-color:white;" class="answers_label" name="reponse3" id="reponse3">&nbsp;</label></div>
+            <div><label style="border-color:white;" class="answers_label" name="reponse4" id="reponse4">&nbsp;</label></div>
+        </div>
+        </section>
+        </div>
+        <div style="height: 480px;width: 640px;background-color: powderblue;">
+            <audio id="question_audio"><source  id="question_audio_src" src=""></source></audio> 
+            <img style="height: 480px;width: 640px;" id="question_image" src="" alt="">
+            <!-- <video id="question_video" preload="none" src=""></video> -->
+            <video id="question_video" preload="none"><source  id="question_video_src" src=""></source></video>
+        </div>
+        <div id="defaultCountdown"></div>
+        <!-- PLAYERS SCORE DIV CLASSIQUE PART BEGIN -->
+        <div id="players">
+            <table id="players_table" class="players_table">
+                <caption class="players_caption">Players</caption>
+                <thead class="players_thead">
+                    <tr class="players_tr">
+                        <th class="players_th">Name</th>
+                        <th class="players_th">Score</th>
+                        <th class="players_th">Time</th>
+                    </tr>
+                </thead>
+                <tbody class="players_body">
+                </tbody>
+            </table>
+            <label name="players_console" id="players_console">&nbsp;</label>
+        </div>
+        <!-- PLAYERS SCORE DIV CLASSIQUE PART END -->
+        <!-- RANKINGTABLE PART BEGIN -->
+        <!--
+        <div id="players" style="width:50%;">
+            <div class="tableHolder">
+            <table class="template" style="display:none;">
+                <thead>
+                    <tr>
+                        <th class="players_th anim:position"><a href="#">Pos</a></th>
+                        <th class="players_th anim:id"><a href="#">Name</a></th>
+                        <th class="players_th anim:update"><a href="#">Score</a></th>
+                        <th class="players_th anim:update"><a href="#">Time</a></th>
+                    </tr>
+                </thead>
+                <tbody>      </tbody>
+            </table>
+            </div>
+            <label name="players_console" id="players_console">&nbsp;</label>
+        </div>
+        -->
+        <!-- RANKINGTABLE PART END -->
+    </div>
+    <script>
+        function renameLabel(label_name, new_value) { 
+            var x = document.getElementById(label_name);               
+            x.innerHTML = new_value;
+        }
+        function recolorBorder(label_name, new_value) { 
+            var x = document.getElementById(label_name);               
+            x.style.borderColor = new_value;
+        } 
+    </script>
+  <!-- <script src="static/dist/jstree.min.js"></script> -->
+  <script>
+  $(function () {
+    // 6 create an instance when the DOM is ready
+    $('#jstree').jstree({
+  "core" : {
+    "themes" : {
+      "variant" : "large"
+    }
+  },
+  "checkbox" : {
+    "keep_selected_style" : false
+  },
+  "plugins" : [ "wholerow", "checkbox" ]
+});
+    // 7 bind to events triggered on the tree
+    $('#jstree').on("changed.jstree", function (e, data) {
+      console.log(data.selected);
+    });
+    
+    
+  });
+  </script>
+</body>
+</html>
