@@ -7,9 +7,9 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/jquery.countdown.css') }}">
     <link rel="stylesheet" href="{{ url_for('static',filename='dist/themes/default/style.min.css') }}" />
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script> -->
 </head>
 <body>
-    <!-- <h1>Flask-SocketIO QUIZ Test</h1> -->
     <div class="btn-group" id="menu_boutons">
         <form id="start_quizz_form" method="POST" action="#">
             <button type="submit" id="start_quizz_button" value="Launch QUIZ">DEMARRER LE QUIZ</button>
@@ -79,7 +79,6 @@
             <input type="checkbox" id="is_score_per_time_range_checkbox" name="is_score_per_time_range_checkbox">
           </p>
 
-          <!-- DIVS INVISIBLES POUR LES BUZZERS AVEC LED -->
           <div id="buzz_player_1_div" style="display: none; margin-top: 10px; padding: 5px; border: 1px dashed #ccc;">
             <label for="buzz_player_1_name">Buzzer 1 - Nom :</label>
             <input type="text" id="buzz_player_1_name" placeholder="Nom du joueur 1">
@@ -158,8 +157,8 @@
     <div id="game_div" class="gamebox">
         <div>
             <div id="qrcode_div">
-                <input id="qrcode_label" onchange="UpdateQRCode(this.value)" size="30" value="Scanner le QR code pour jouer"/><br>
-                <iframe id="qrcode" src="" width="250" height="250"></iframe>
+                <input id="qrcode_label" size="30" value="Scanner le QR code pour jouer"/><br>
+                <div id="qrcode" style="display: inline-block; padding: 10px; background: white; margin-top: 5px; border-radius: 4px;"></div>
             </div>
         <section>
         <div class="answerbox">
@@ -205,6 +204,7 @@
     <script type="text/javascript" src="{{ url_for('static',filename='dist/countdown/jquery.plugin.js') }}"></script>
     <script type="text/javascript" src="{{ url_for('static',filename='dist/countdown/jquery.countdown.js') }}"></script>
     <script src="{{ url_for('static',filename='dist/libs/socket.io.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='dist/libs/qrcode.min.js') }}"></script>
     <script type="text/javascript" charset="utf-8">
         $(document).ready(function() {
             namespace = '/test';
@@ -1107,12 +1107,28 @@
                 done = true;
             }
         }
-        function UpdateQRCode(val){
-            document.getElementById("qrcode").setAttribute("src","https://api.mimfa.net/qrcode?value="+encodeURIComponent(location.protocol + '//' + location.host + '/web_quizz_login')+"&as=value");
+        
+        // Updated to use local browser compiler rendering instead of api.qrserver.com
+        function UpdateQRCode(){
+            var targetUrl = location.protocol + '//' + location.host + '/web_quizz_login';
+            var container = document.getElementById("qrcode");
+            
+            // Wipe out old canvases/images before drawing a clean one
+            container.innerHTML = ""; 
+            
+            new QRCode(container, {
+                text: targetUrl,
+                width: 250,
+                height: 250,
+                colorDark : "#000000",
+                colorLight : "#ffffff",
+                correctLevel : QRCode.CorrectLevel.M
+            });
         }
         document.addEventListener("DOMContentLoaded", function(){
-            UpdateQRCode(document.getElementById("qrcode").value);
+            UpdateQRCode();
         });
+        
         function updateLeaderboard(players) {
             const tbody = document.getElementById('leaderboard_body');
             if (!tbody) return; 

@@ -1212,7 +1212,12 @@ if __name__ == '__main__':
     if args.suites:
         suites_path = args.suites
     hostname = socket.gethostname()
+    # s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    # s.connect(("8.8.8.8", 80))
+    # hostname = s.getsockname()[0]
+    # s.close()
     logger.info('launch http://%s:5000/web_quizz', hostname)
     logger.info('launch http://%s:5000/web_quizz_login', hostname)
     socketio.run(app, host="0.0.0.0", port=5000, debug=True)
+    # socketio.run(app, host=hostname, port=5000, debug=True)
     # socketio.run(app, host="127.0.0.1", port=5000, debug=True)
