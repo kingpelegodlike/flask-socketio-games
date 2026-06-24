@@ -1,0 +1,707 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Flask-SocketIO Test QUESTION</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/jquery.countdown.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='dist/themes/default/style.min.css') }}" />
+    <script src="{{ url_for('static',filename='dist/libs/jquery.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static',filename='dist/countdown/jquery.plugin.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static',filename='dist/countdown/jquery.countdown.js') }}"></script>
+    <script src="{{ url_for('static',filename='dist/jstree.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='dist/libs/socket.io.min.js') }}"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function() {
+            // Use a "/test_question" namespace.
+            // An application can open a connection on multiple namespaces, and
+            // Socket.IO will multiplex all those connections on a single
+            // physical channel. If you don't care about multiple channels, you
+            // can set the namespace to an empty string.
+            namespace = '/test_question';
+            
+            var status = "deactiv_buttons";
+            var question_audio = document.getElementById('question_audio');
+            var question_audio_src = document.getElementById('question_audio_src');
+            var question_video = document.getElementById('question_video');
+            var question_video_src = document.getElementById('question_video_src');
+            question_video.addEventListener("ended", function(){
+                console.log('video completed');
+                //display banner on video ending
+                question_video.setAttribute('data-icon','');
+            }); 
+
+            // Connect to the Socket.IO server.
+            // The connection URL has the following format:
+            //     http[s]://<domain>:<port>[/<namespace>]
+            var socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port + namespace);
+
+            socket.on('popup_error_msg', function(msg) {
+                alert("ERROR: " + msg.error_msg);
+            });
+            
+            socket.on('update_players', function(msg) {
+                updateLeaderboard(msg.leaderboard_update);
+            });
+
+            socket.on('display_question', function(msg) {
+                console.log("receveive " + msg.action + " with topic:" + msg.topic + " question:" + msg.question + " sound:(" + msg.sound + ") media_type:(" + msg.media_type + ") media:(" + msg.media + ") timeout:(" + msg.timeout + ")");
+                $('#defaultCountdown').countdown('destroy');
+                $('#defaultCountdown').countdown({until: msg.timeout, format: 'S'});
+                document.getElementById("topic").innerHTML = "Question " + msg.topic;
+                renameLabel('question', msg.question);
+                renameLabel('reponse1', msg.b2);
+                var border_color = (msg.b2 === "&nbsp;") ? 'white' : 'blue';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton2") {
+                        border_color = "blue";
+                    }
+                }
+                recolorBorder('reponse1', border_color)
+                renameLabel('reponse2', msg.b3);
+                var border_color = (msg.b3 === "&nbsp;") ? 'white' : 'orange';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton3") {
+                        border_color = "orange";
+                    }
+                }
+                recolorBorder('reponse2', border_color)
+                renameLabel('reponse3', msg.b4);
+                var border_color = (msg.b4 === "&nbsp;") ? 'white' : 'green';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton4") {
+                        border_color = "green";
+                    }
+                }
+                recolorBorder('reponse3', border_color)
+                renameLabel('reponse4', msg.b5);
+                var border_color = (msg.b5 === "&nbsp;") ? 'white' : 'yellow';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton5") {
+                        border_color = "yellow";
+                    }
+                }
+                recolorBorder('reponse4', border_color)
+                document.getElementById('question_image').setAttribute("src", "");
+                if ( msg.media_type == "image" ) {
+                    document.getElementById("question_image").style.display = 'inline-block';
+                    document.getElementById('question_image').setAttribute("src", msg.media);
+                }
+                
+                question_audio.pause();
+                question_audio.currentTime = 0;
+                question_audio_src.src = "";
+                if ( msg.sound != "" ) {
+                    question_audio_src.src = msg.sound;
+                    question_audio.load();
+                    question_audio.play();
+                }
+                
+                question_video.pause();
+                question_video.currentTime = 0;
+                question_video_src.src = "";
+                question_video.pause();
+                question_video.currentTime = 0;
+                if ( msg.media_type == "video" ) {
+                    question_video_src.src = msg.media;
+                    if ( msg.media != "" ) {
+                        question_video.load();
+                        question_video.play();
+                    }
+                }
+                player.stopVideo();
+                document.getElementById("video-placeholder").style.display = 'none';
+                if ( msg.media_type == "youtube" ) {
+                    let medias = msg.media.split("&");
+                    let nb_medias = medias.length;
+                    document.getElementById("youtube_link").value = medias[0];
+                    if ( nb_medias > 1 ) {
+                        document.getElementById("question_image").style.display = 'inline-block';
+                        document.getElementById('question_image').setAttribute("src", medias[1]);
+                    }
+                    else {
+                        document.getElementById("question_image").style.display = 'none';
+                    }
+                    // alert("player.loadVideoById("+msg.media+", "+ 0.0+")");
+                    player.loadVideoById(medias[0], msg.start_time);
+                }
+                if ( msg.media_type == "youtube_animated" ) {
+                    document.getElementById("question_image").style.display = 'none';
+                    document.getElementById("youtube_link").value = msg.media;
+                    // alert("youtube_animated: display video");
+                    document.getElementById("video-placeholder").style.display = 'inline-block'
+                    // alert("player.loadVideoById("+msg.media+", "+ 0.0+")");
+                    player.loadVideoById(msg.media, msg.start_time);
+                }
+            });
+            
+            socket.on('display_answer_question', function(msg) {
+                console.log("receveive " + msg.action + " " + msg.question + " sound:(" + msg.sound + ") media_type:(" + msg.media_type + ") media:(" + msg.media + ")");
+                console.log("with blue button 2:" + msg.b2 + " orange button 3:" + msg.b3 + " green button 4:" + msg.b4 + " yellow button 5:" + msg.b5);
+                $('#defaultCountdown').countdown('destroy');
+                $('#defaultCountdown').countdown({until: msg.timeout, format: 'S'});
+                document.getElementById("topic").innerHTML = "Question " + msg.topic;
+                renameLabel('question', msg.question);
+                renameLabel('reponse1', msg.b2);
+                var border_color = (msg.b2 === "&nbsp;") ? 'white' : 'blue';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton2") {
+                        border_color = "blue";
+                    }
+                }
+                recolorBorder('reponse1', border_color)
+                renameLabel('reponse2', msg.b3);
+                var border_color = (msg.b3 === "&nbsp;") ? 'white' : 'orange';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton3") {
+                        border_color = "orange";
+                    }
+                }
+                recolorBorder('reponse2', border_color)
+                renameLabel('reponse3', msg.b4);
+                var border_color = (msg.b4 === "&nbsp;") ? 'white' : 'green';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton4") {
+                        border_color = "green";
+                    }
+                }
+                recolorBorder('reponse3', border_color)
+                renameLabel('reponse4', msg.b5);
+                var border_color = (msg.b5 === "&nbsp;") ? 'white' : 'yellow';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton5") {
+                        border_color = "yellow";
+                    }
+                }
+                recolorBorder('reponse4', border_color)
+                document.getElementById('question_image').setAttribute("src", "");
+                if ( msg.media_type == "image" ) {
+                    document.getElementById("question_image").style.display = 'inline-block';
+                    document.getElementById('question_image').setAttribute("src", msg.media);
+                }
+                
+                question_audio.pause();
+                question_audio.currentTime = 0;
+                question_audio_src.src = "";
+                question_audio.currentTime = 0;
+                if ( msg.sound != "" ) {
+                    question_audio_src.src = msg.sound;
+                    question_audio.load();
+                    question_audio.play();
+                }
+                
+                question_video.pause();
+                question_video.currentTime = 0;
+                question_video_src.src = "";
+                question_video.pause();
+                question_video.currentTime = 0;
+                if ( msg.media_type == "video" ) {
+                    question_video_src.src = msg.media;
+                    if ( msg.media != "" ) {
+                        question_video.load();
+                        question_video.play();
+                    }
+                }
+                player.stopVideo();
+                document.getElementById("video-placeholder").style.display = 'none';
+                if ( msg.media_type == "youtube" ) {
+                    let medias = msg.media.split("&");
+                    let nb_medias = medias.length;
+                    document.getElementById("youtube_link").value = medias[0];
+                    if ( nb_medias > 1 ) {
+                        document.getElementById("question_image").style.display = 'inline-block';
+                        document.getElementById('question_image').setAttribute("src", medias[1]);
+                    }
+                    else {
+                        document.getElementById("question_image").style.display = 'none'
+                    }
+                    // alert("player.loadVideoById("+msg.media+", "+ 0.0+")");
+                    player.loadVideoById(medias[0], msg.start_time);
+                }
+                if ( msg.media_type == "youtube_animated" ) {
+                    document.getElementById("question_image").style.display = 'none';
+                    document.getElementById("youtube_link").value = msg.media;
+                    // alert("youtube_animated: display video");
+                    document.getElementById("video-placeholder").style.display = 'inline-block'
+                    // alert("player.loadVideoById("+msg.media+", "+ 0.0+")");
+                    player.loadVideoById(msg.media, msg.start_time);
+                }
+            });
+            
+            socket.on('display_answer', function(msg) {
+                console.log("receveive " + msg.action + " " + msg.question + " sound:(" + msg.sound + ") media_type:(" + msg.media_type + ") media:(" + msg.media + ") timeout:(" + msg.timeout + ")");
+                console.log("with blue button 2:" + msg.b2 + " orange button 3:" + msg.b3 + " green button 4:" + msg.b4 + " yellow button 5:" + msg.b5);
+                console.log("The answer button is " + msg.answer);
+                $('#defaultCountdown').countdown('destroy');
+                $('#defaultCountdown').countdown({until: msg.timeout, format: 'S'});
+                document.getElementById("topic").innerHTML = "Question " + msg.topic;
+                renameLabel('question', msg.question);
+                renameLabel('reponse1', msg.b2);
+                var border_color = (msg.b2 === "&nbsp;") ? 'white' : 'blue';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton2") {
+                        border_color = "blue";
+                    }
+                }
+                recolorBorder('reponse1', border_color)
+                renameLabel('reponse2', msg.b3);
+                var border_color = (msg.b3 === "&nbsp;") ? 'white' : 'orange';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton3") {
+                        border_color = "orange";
+                    }
+                }
+                recolorBorder('reponse2', border_color)
+                renameLabel('reponse3', msg.b4);
+                var border_color = (msg.b4 === "&nbsp;") ? 'white' : 'green';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton4") {
+                        border_color = "green";
+                    }
+                }
+                recolorBorder('reponse3', border_color)
+                renameLabel('reponse4', msg.b5);
+                var border_color = (msg.b5 === "&nbsp;") ? 'white' : 'yellow';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton5") {
+                        border_color = "yellow";
+                    }
+                }
+                recolorBorder('reponse4', border_color)
+                document.getElementById('question_image').setAttribute("src", "");
+                if ( msg.media_type == "image" ) {
+                    document.getElementById("question_image").style.display = 'inline-block';
+                    document.getElementById('question_image').setAttribute("src", msg.media);
+                }
+                
+                question_audio.pause();
+                question_audio.currentTime = 0;
+                question_audio_src.src = "";
+                question_audio.currentTime = 0;
+                if ( msg.sound != "" ) {
+                    question_audio_src.src = msg.sound;
+                    question_audio.load();
+                    question_audio.play();
+                }
+                
+                question_video.pause();
+                question_video.currentTime = 0;
+                question_video_src.src = "";
+                question_video.pause();
+                question_video.currentTime = 0;
+                if ( msg.media_type == "video" ) {
+                    question_video_src.src = msg.media;
+                    if ( msg.media != "" ) {
+                        question_video.load();
+                        question_video.play();
+                    }
+                }
+                player.stopVideo();
+                document.getElementById("video-placeholder").style.display = 'none';
+                if ( msg.media_type == "youtube" ) {
+                    let medias = msg.media.split("&");
+                    let nb_medias = medias.length;
+                    document.getElementById("youtube_link").value = medias[0];
+                    if ( nb_medias > 1 ) {
+                        document.getElementById("question_image").style.display = 'inline-block';
+                        document.getElementById('question_image').setAttribute("src", medias[1]);
+                    }
+                    else {
+                        document.getElementById("question_image").style.display = 'none'
+                    }
+                    // alert("player.loadVideoById("+msg.media+", "+ 0.0+")");
+                    player.loadVideoById(medias[0], msg.start_time);
+                }
+                if ( msg.media_type == "youtube_animated" ) {
+                    document.getElementById("question_image").style.display = 'none';
+                    document.getElementById("youtube_link").value = msg.media;
+                    // alert("youtube_animated: display video");
+                    document.getElementById("video-placeholder").style.display = 'inline-block'
+                    // alert("player.loadVideoById("+msg.media+", "+ 0.0+")");
+                    player.loadVideoById(msg.media, msg.start_time);
+                }
+            });
+            
+            socket.on('ask_question', function(msg) {
+                console.log("receveive " + msg.action + " " + msg.question + " sound:(" + msg.sound + ") media_type:(" + msg.media_type + ") media:(" + msg.media + ")");
+                console.log("with blue button 2:" + msg.b2 + " orange button 3:" + msg.b3 + " green button 4:" + msg.b4 + " yellow button 5:" + msg.b5);
+                // $('#question').innerHTML=msg.question;
+                // $('#reponse1').innerHTML=msg.b2;
+                // $('#reponse2').innerHTML=msg.b3;
+                // $('#reponse3').innerHTML=msg.b4;
+                // $('#reponse4').innerHTML=msg.b5;
+                renameLabel('question', msg.question);
+                renameLabel('reponse1', msg.b2);
+                var border_color = (msg.b2 === "&nbsp;") ? 'white' : 'blue';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton2") {
+                        border_color = "blue";
+                    }
+                }
+                recolorBorder('reponse1', border_color)
+                renameLabel('reponse2', msg.b3);
+                var border_color = (msg.b3 === "&nbsp;") ? 'white' : 'orange';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton3") {
+                        border_color = "orange";
+                    }
+                }
+                recolorBorder('reponse2', border_color)
+                renameLabel('reponse3', msg.b4);
+                var border_color = (msg.b4 === "&nbsp;") ? 'white' : 'green';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton4") {
+                        border_color = "green";
+                    }
+                }
+                recolorBorder('reponse3', border_color)
+                renameLabel('reponse4', msg.b5);
+                var border_color = (msg.b5 === "&nbsp;") ? 'white' : 'yellow';
+                if ( msg.answer) {
+                    border_color = "lightgrey";
+                    if (msg.answer == "bouton5") {
+                        border_color = "yellow";
+                    }
+                }
+                recolorBorder('reponse4', border_color)
+                document.getElementById('question_image').setAttribute("src", "");
+                if ( msg.media_type == "image" ) {
+                    document.getElementById('question_image').setAttribute("src", msg.media);
+                }
+                
+                question_audio.pause();
+                question_audio.currentTime = 0;
+                question_audio_src.src = "";
+                // question_audio.load();
+                // question_audio.play();
+                // question_audio.pause();
+                question_audio.currentTime = 0;
+                if ( msg.sound != "" ) {
+                    question_audio_src.src = msg.sound;
+                    question_audio.load();
+                    question_audio.play();
+                }
+                
+                question_video.pause();
+                question_video.currentTime = 0;
+                question_video_src.src = "";
+                // question_video.load();
+                // question_video.play();
+                question_video.pause();
+                question_video.currentTime = 0;
+                if ( msg.media_type == "video" ) {
+                    question_video_src.src = msg.media;
+                    if ( msg.media != "" ) {
+                        question_video.load();
+                        question_video.play();
+                    }
+                }
+            });
+            
+            socket.on('enabled_next_question', function(msg) {
+                console.log("receveive enabled_next_question with action:" + msg.action);
+                document.getElementById("next_question_button").disabled = false;
+                document.getElementById("all_questions_button").disabled = true;
+            });
+            
+            socket.on('enabled_all_questions', function(msg) {
+                console.log("receveive enabled_all_questions with action:" + msg.action);
+                document.getElementById("next_question_button").disabled = true;
+                document.getElementById("all_questions_button").disabled = false;
+            });
+            
+            socket.on('end_game', function(msg) {
+                console.log("receveive " + msg.action + " leader:" + msg.leader);
+                renameLabel('question', msg.leader + ' EST LE VAINQUEUR');
+                renameLabel('reponse1', "&nbsp;");
+                recolorBorder('reponse1', 'white')
+                renameLabel('reponse2', "&nbsp;");
+                recolorBorder('reponse2', 'white')
+                renameLabel('reponse3', "&nbsp;");
+                recolorBorder('reponse3', 'white')
+                renameLabel('reponse4', "&nbsp;");
+                recolorBorder('reponse4', 'white')
+                document.getElementById('question_image').setAttribute("src", "");
+                // renameLabel('next_question_button', "End Game");
+                // renameLabel('all_questions_button', "End Game");
+                document.getElementById('question_image').setAttribute("src", "");
+                
+                question_audio.pause();
+                question_audio.currentTime = 0;
+                question_audio_src.src = "";
+                question_audio.load();
+                question_audio.play();
+                question_audio.pause();
+                question_audio.currentTime = 0;
+                
+                question_video.pause();
+                question_video.currentTime = 0;
+                question_video_src.src = "";
+                question_video.load();
+                question_video.play();
+                question_video.pause();
+                question_video.currentTime = 0;
+
+                player.stopVideo();
+            });
+
+            $('form#display_question_form').submit(function(event) {
+                status = "display_question";
+                var suite_file_name = document.getElementById("suite_file_name").value;
+                console.log("Suite file name:"+suite_file_name);
+                var question_nbr = document.getElementById("question_nbr").value;
+                console.log("Question Number:"+question_nbr);
+                socket.emit('test_display_question', {suite_file_name: suite_file_name, question_nbr: question_nbr});
+                return false;
+            });
+            $('form#activ_all_buttons').submit(function(event) {
+                socket.emit('activ_all_buttons');
+                return false;
+            });
+            $('form#activ_buttons').submit(function(event) {
+                socket.emit('activ_buttons');
+                return false;
+            });
+            $('form#display_answer_question_form').submit(function(event) {
+                status = "display_answer_question";
+                var suite_file_name = document.getElementById("suite_file_name").value;
+                console.log("Suite file name:"+suite_file_name);
+                var question_nbr = document.getElementById("question_nbr").value;
+                console.log("Question Number:"+question_nbr);
+                socket.emit('test_display_answer_question', {suite_file_name: suite_file_name, question_nbr: question_nbr});
+                return false;
+            });
+            $('form#display_answer_form').submit(function(event) {
+                status = "display_answer";
+                var suite_file_name = document.getElementById("suite_file_name").value;
+                console.log("Suite file name:"+suite_file_name);
+                var question_nbr = document.getElementById("question_nbr").value;
+                console.log("Question Number:"+question_nbr);
+                socket.emit('test_display_answer', {suite_file_name: suite_file_name, question_nbr: question_nbr});
+                return false;
+            });
+            $('form#deactiv_buttons').submit(function(event) {
+                socket.emit('deactiv_buttons');
+                return false;
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>Flask-SocketIO QUIZ Test</h1>
+    <div class="btn-group" id="menu_boutons">
+        <form id="display_question_form" method="POST" action="#">
+            <button type="submit" id="display_question_button" value="Display Question">Display Question</button>
+        </form>
+        <form id="display_answer_question_form" method="POST" action="#">
+            <button type="submit" id="display_answer_question_button" value="Display Answer Question">Display Answer Question</button>
+        </form>
+        <form id="display_answer_form" method="POST" action="#">
+            <button type="submit" id="display_answer_button" value="Display Answer">Display Answer</button>
+        </form>
+    </div>
+    <div id="suite_parameter_div">
+      <form>
+        <fieldset>
+          <legend>Suite Parameters</legend>
+          <p>
+            <label>Suite file name</label>
+            <input type = "suite_file_name" id = "suite_file_name" value = "blind_test_series_annees_80" />
+          </p>
+          <p>
+            <label>Question number</label>
+            <input type = "question_nbr" id = "question_nbr" value = "1" />
+          </p>
+        </fieldset>
+      </form>
+    </div>
+    <hr>
+    <h2 id="topic">Question:</h2>
+    <div id="question_div" class="questionbox">
+        <textarea style="border-style:solid;border-width: 10px;border-color:black;font-size:60px;height: 140px;width: 100%;text-align: justify;text-align-last: center;"  name="question" id="question">EN ATTENTE DES JOUEURS&#13;activez le son de la video Youtube</textarea>
+    </div>
+    <div class="gamebox">
+        <div>
+        <section>
+        <div class="answerbox">
+            <div><label style="border-color:white;" class="answers_label" name="reponse1" id="reponse1">&nbsp;</label></div>
+            <div><label style="border-color:white;" class="answers_label" name="reponse2" id="reponse2">&nbsp;</label></div>
+            <div><label style="border-color:white;" class="answers_label" name="reponse3" id="reponse3">&nbsp;</label></div>
+            <div><label style="border-color:white;" class="answers_label" name="reponse4" id="reponse4">&nbsp;</label></div>
+        </div>
+        </section>
+        </div>
+        <!-- <div id="media_div" style="height: 480px;width: 640px;background-color: powderblue;"> -->
+        <div id="media_div" style="height: 480px;width: 640px;">
+            <input type="text" id="youtube_link" style="display:none;">
+            <div id="video-placeholder" style="display:inline-block;">
+                <iframe id="player" type="text/html" width="640" height="480"
+                        src="http://www.youtube.com/embed/KDPhIQcaovQ?enablejsapi=1&mute=1&origin=*"
+                        frameborder="0">
+                </iframe>
+            </div>
+            <audio id="question_audio"><source  id="question_audio_src" src=""></source></audio> 
+            <img style="height: 480px;width: 640px;display:none;" id="question_image" src="/static/images/quiz.jpg" alt="">
+            <!-- <video id="question_video" preload="none" src=""></video> -->
+            <video id="question_video" preload="none"><source  id="question_video_src" src=""></source></video>
+        </div>
+        <div id="defaultCountdown"></div>
+        <div id="leaderboard" class="leaderboard-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rang</th>
+                        <th>Joueur</th>
+                        <th>Score</th>
+                        <th>Time</th>
+                        <th>Progression</th>
+                    </tr>
+                </thead>
+                <tbody id="leaderboard_body">
+                </tbody>
+            </table>
+            <label name="players_console" id="players_console">&nbsp;</label>
+        </div>
+    </div>
+    <script>
+        function renameLabel(label_name, new_value) { 
+            var x = document.getElementById(label_name);               
+            x.innerHTML = new_value;
+        }
+        function recolorBorder(label_name, new_value) { 
+            var x = document.getElementById(label_name);               
+            x.style.borderColor = new_value;
+        } 
+    </script>
+  <!-- <script src="static/dist/jstree.min.js"></script> -->
+  <script>
+  $(function () {
+    // 6 create an instance when the DOM is ready
+    $('#jstree').jstree({
+        "core" : {
+            "themes" : {
+                "variant" : "large"
+            }
+        },
+        "checkbox" : {
+            "keep_selected_style" : false
+        },
+        "plugins" : [ "wholerow", "checkbox" ]
+    });
+    // 7 bind to events triggered on the tree
+    $('#jstree').on("changed.jstree", function (e, data) {
+      console.log(data.selected);
+    });
+    
+    
+  });
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        var player;
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+                height: '480',
+                width: '640',
+                videoId: document.getElementById("youtube_link").value,
+                events: {
+                    'onReady': onPlayerReady,
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+            player.PlayerState = YT.PlayerState.ENDED;
+        }
+        function onPlayerReady(event) {
+            // alert("body script onPlayerReady play video");
+            event.target.playVideo();
+        }
+        var done = false;
+        function onPlayerStateChange(event) {
+            if (event.data == YT.PlayerState.PLAYING && !done) {
+                //setTimeout(stopVideo, 6000);
+                done = true;
+            }
+        }
+        function updateLeaderboard(players) {
+            // 1. Target the specific body for the leaderboard
+            const tbody = document.getElementById('leaderboard_body');
+            if (!tbody) return; 
+            
+            // 2. Capture current positions for FLIP animation
+            const rowPositions = {};
+            Array.from(tbody.rows).forEach(row => {
+                const id = row.dataset.id;
+                rowPositions[id] = row.getBoundingClientRect().top;
+            });
+
+            // 3. Update content and reorder
+            players.forEach((player) => {
+                let row = tbody.querySelector(`tr[data-id="${player.id}"]`);
+                
+                if (!row) {
+                    row = document.createElement('tr');
+                    row.dataset.id = player.id;
+                    tbody.appendChild(row);
+                }
+
+                const progClass = player.progression > 0 ? 'up' : (player.progression < 0 ? 'down' : 'stable');
+                const progIcon = player.progression > 0 ? '▲' : (player.progression < 0 ? '▼' : '▬');
+                const progValue = player.progression === 0 ? '0' : Math.abs(player.progression);
+
+                // Matching the structure of your leaderboard columns
+                row.innerHTML = `
+                    <td class="rank">${player.rank}</td>
+                    <td class="player">
+                        <div class="player-img"></div>
+                        <span>${player.name}</span>
+                    </td>
+                    <td>${player.points.toLocaleString()} pts</td>
+                    <td>${player.play_time || 0} s</td>
+                    <td class="progression ${progClass}">
+                        <span class="icon">${progIcon}</span> ${progValue}
+                    </td>
+                `;
+
+                tbody.appendChild(row);
+            });
+
+            // 4. Apply FLIP Animation
+            Array.from(tbody.rows).forEach(row => {
+                const id = row.dataset.id;
+                const oldTop = rowPositions[id];
+                
+                if (oldTop) {
+                    const newTop = row.getBoundingClientRect().top;
+                    const delta = oldTop - newTop;
+
+                    if (delta !== 0) {
+                        row.style.transition = 'none';
+                        row.style.transform = `translateY(${delta}px)`;
+
+                        requestAnimationFrame(() => {
+                            row.style.transition = 'transform 0.6s cubic-bezier(0.4, 0, 0.2, 1)';
+                            row.style.transform = 'translateY(0)';
+                        });
+                    }
+                }
+            });
+        }
+  </script>
+</body>
+</html>

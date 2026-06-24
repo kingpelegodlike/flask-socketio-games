@@ -1,6 +1,8 @@
 {
     "topic": "TEST",
     "categories": [ "All" ],
+    "generation_min": "Youngers",
+    "generation_max": "Elders",
     "questions": [
         {
             "question" : "Quel est la couleur du cheval blanc d'Henry IV ?",

@@ -59,7 +59,7 @@
             "waiting_answer_start_time": 75.0,
             "answer_timeout": 5,
             "question_media" : [ "/static/sounds/music/countdown_blind_test_rap_annees_90.mp3", "/static/images/musique/blind_test_rap_annees_90.jpg" ],
-            "waiting_answer_media" : [ "fWCZse1iwE0.yta" ],
+            "waiting_answer_media" : [ "fWCZse1iwE0.yt", "/static/images/musique/blind_test_rap_annees_90.jpg" ],
             "answer_media" : [ "/static/sounds/music/snoop_dogg-gin_and_juice-answer.mp3", "/static/images/music_covers/snoop_dogg-gin_and_juice.jpg" ],
             "wrong_answers" : [ "What's my name", "Murder was the case", "Aint No Fun" ],
             "good_answer" : "Gin and Juice"
@@ -71,7 +71,7 @@
             "waiting_answer_start_time": 20.0,
             "answer_timeout": 5,
             "question_media" : [ "/static/sounds/music/countdown_blind_test_rap_annees_90.mp3", "/static/images/musique/blind_test_rap_annees_90.jpg" ],
-            "waiting_answer_media" : [ "1plPyJdXKIY.yta" ],
+            "waiting_answer_media" : [ "1plPyJdXKIY.yt", "/static/images/musique/blind_test_rap_annees_90.jpg" ],
             "answer_media" : [ "/static/sounds/music/warren_g-regulate-answer.mp3", "/static/images/music_covers/warren_g-regulate.jpg" ],
             "wrong_answers" : [ "G Funk Era", "Warren G on the street", "The Return of the Regulator" ],
             "good_answer" : "Regulate"
@@ -108,7 +108,7 @@
             "answer_timeout": 5,
             "question_media" : [ "/static/sounds/music/countdown_blind_test_rap_annees_90.mp3", "/static/images/musique/blind_test_rap_annees_90.jpg" ],
             "waiting_answer_media" : [ "fG9lFewfGEs.yt", "/static/images/musique/blind_test_rap_annees_90.jpg" ],
-            "answer_media" : [ "/static/sounds/music/de_la_soul-me_myself_and_i-answer.mp3", "/static/images/music_covers/de_la_soul-me_myself_and_i.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/music_covers/de_la_soul-me_myself_and_i.jpg" ],
             "wrong_answers" : [ "Me Myself and I", "Naughty By Nature", "Arrested Developement" ],
             "good_answer" : "De La Soul"
         },

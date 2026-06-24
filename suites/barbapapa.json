@@ -1,6 +1,8 @@
 {
     "topic": "BARBAPAPA",
     "categories": [ "Elders", "Adults" ],
+    "generation_min": "1990s",
+    "generation_max": "1970s",
     "questions": [
         {
             "question" : "Comment s'appelle ce personnage ?",

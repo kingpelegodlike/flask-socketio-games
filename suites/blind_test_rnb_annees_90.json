@@ -192,10 +192,10 @@
             "waiting_answer_timeout": 30,
             "waiting_answer_no_stop": 1,
             "waiting_answer_start_time": 40.0,
-            "answer_timeout": 6,
+            "answer_timeout": 5,
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/musique/blind_test_rnb_annees_90.jpg" ],
             "waiting_answer_media" : [ "q3qDESAvzh0.yt", "/static/images/musique/blind_test_rnb_annees_90.jpg" ],
-            "answer_media" : [ "/static/sounds/music/another_level-freak_me-answer.mp3", "/static/images/music_covers/another_level-freak_me.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/music_covers/another_level-freak_me.jpg" ],
             "wrong_answers" : [ "Boyz II Men", "Blackstreet", "All 4 One" ],
             "good_answer" : "Another Level"
         },
@@ -324,7 +324,7 @@
             "waiting_answer_start_time": 41.0,
             "answer_timeout": 5,
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/musique/blind_test_rnb_annees_90.jpg" ],
-            "waiting_answer_media" : [ "Rciee-oQLoI.yta" ],
+            "waiting_answer_media" : [ "Rciee-oQLoI.yt", "/static/images/musique/blind_test_rnb_annees_90.jpg" ],
             "answer_media" : [ "/static/sounds/music/boyz_ii_men-motownphilly-answer.mp3", "/static/images/music_covers/boyz_ii_men-motownphilly.jpg" ],
             "wrong_answers" : [ "Boyz II Men", "Under Pressure", "Sympin'" ],
             "good_answer" : "Motownphilly"
@@ -363,7 +363,7 @@
             "waiting_answer_start_time": 85.0,
             "answer_timeout": 5,
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/musique/blind_test_rnb_annees_90.jpg" ],
-            "waiting_answer_media" : [ "qSIOp_K5GMw.yta" ],
+            "waiting_answer_media" : [ "qSIOp_K5GMw.yt", "/static/images/musique/blind_test_rnb_annees_90.jpg" ],
             "answer_media" : [ "/static/sounds/music/brandy_and_monica-the_boy_is_mine-answer.mp3", "/static/images/music_covers/brandy_and_monica-the_boy_is_mine.jpg" ],
             "wrong_answers" : [ "Aaliyah et Cassie", "Christina Milian et Whitney Houston", "Mary J. Blidge et Chaka Khan" ],
             "good_answer" : "Brandy et Monica"
@@ -376,7 +376,7 @@
             "waiting_answer_start_time": 58.0,
             "answer_timeout": 5,
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/musique/blind_test_rnb_annees_90.jpg" ],
-            "waiting_answer_media" : [ "A1kzG9Ld1kI.yta" ],
+            "waiting_answer_media" : [ "A1kzG9Ld1kI.yt", "/static/images/musique/blind_test_rnb_annees_90.jpg" ],
             "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/music_covers/brian_mcknight-anytime.jpg" ],
             "wrong_answers" : [ "Back At One", "U Turn", "Brian McKnight" ],
             "good_answer" : "Anytime"

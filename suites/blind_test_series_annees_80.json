@@ -12,7 +12,7 @@
             "answer_timeout": 5,
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_80.jpg" ],
             "waiting_answer_media" : [ "ekfLBZ7VuZ8.yt", "/static/images/series/series_annees_80.jpg" ],
-            "answer_media" : [ "/static/sounds/series/21_jump_street_answer.mp3", "/static/images/series/21_Jump_Street.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/21_Jump_Street.jpg" ],
             "wrong_answers" : [ "Magnum", "Deux flics à Miami", "Clair de lune" ],
             "good_answer" : "21 Jump Street"
         },
@@ -24,7 +24,7 @@
             "answer_timeout": 5,
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_80.jpg" ],
             "waiting_answer_media" : [ "mu1WQMC5bp0.yt", "/static/images/series/series_annees_80.jpg" ],
-            "answer_media" : [ "/static/sounds/series/baywatch_answer.mp3", "/static/images/series/baywatch.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/baywatch.jpg" ],
             "wrong_answers" : [ "K2000", "Les Années Collège", "Sauvés par le gong" ],
             "good_answer" : "Alerte à Malibu"
         },
@@ -36,7 +36,7 @@
             "answer_timeout": 5,
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_80.jpg" ],
             "waiting_answer_media" : [ "QvnSZurSATo.yt", "/static/images/series/series_annees_80.jpg" ],
-            "answer_media" : [ "/static/sounds/series/beverly_hills_answer.mp3", "/static/images/series/beverly_hills.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/beverly_hills.jpg" ],
             "wrong_answers" : [ "Friends", "Riptide", "Quoi de neuf docteur" ],
             "good_answer" : "Beverley Hills"
         },
@@ -48,7 +48,7 @@
             "answer_timeout": 5,
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_80.jpg" ],
             "waiting_answer_media" : [ "6stIFV34uMc.yt", "/static/images/series/series_annees_80.jpg" ],
-            "answer_media" : [ "/static/sounds/series/buffy_contre_les_vampires_answer.mp3", "/static/images/series/buffy_contre_les_vampires.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/buffy_contre_les_vampires.jpg" ],
             "wrong_answers" : [ "Friends", "V", "Seinfeld" ],
             "good_answer" : "Buffy contre les vampires"
         },
@@ -60,7 +60,7 @@
             "answer_timeout": 5,
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_80.jpg" ],
             "waiting_answer_media" : [ "DLs2nVxfljY.yt", "/static/images/series/series_annees_80.jpg" ],
-            "answer_media" : [ "/static/sounds/series/code_quantum_answer.mp3", "/static/images/series/code_quantum.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/code_quantum.jpg" ],
             "wrong_answers" : [ "Mac Gyver", "Roseanne", "CHiPs" ],
             "good_answer" : "Code Quantum"
         },
@@ -72,7 +72,7 @@
             "answer_timeout": 5,
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/series/series_annees_80.jpg" ],
             "waiting_answer_media" : [ "7z65wK5kgOY.yt", "/static/images/series/series_annees_80.jpg" ],
-            "answer_media" : [ "/static/sounds/series/friends_answer.mp3", "/static/images/series/friends.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/series/friends.jpg" ],
             "wrong_answers" : [ "How I met you mother", "Beverley Hills", "21 Jump Street" ],
             "good_answer" : "Friends"
         },
