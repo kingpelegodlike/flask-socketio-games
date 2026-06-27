@@ -3,6 +3,7 @@ import argparse
 import socket
 import os
 import fnmatch
+import qrcode
 import json
 import logging
 import logging.config
@@ -1087,14 +1088,17 @@ def gamepad_press_button_event(message):
     message_items = ""
     for key, value in message.items():
         message_items = "{}, {} = {}".format(message_items, key, value)
-    logger.debug("Receive from '/test' namespace 'gamepad_press_button' event with data %s", message_items[1:])
+    logger.debug(\
+        "Receive from '/test' namespace 'gamepad_press_button' event with data %s for game state %s", \
+        message_items[1:], game_state)
     button_idx = message["button_index"]
     button_name = "bouton0"
     buzzer_number = 0
     if button_idx in [0, 5, 10, 15]: # red
         button_name = "bouton1"
-        buzzer_number = 1
-        return
+        buzzer_number = button_idx // 5 + 1
+        if game_state != GameState.WAITING_PLAYERS:
+            return
     if button_idx in [1, 2, 3, 4]:
         buzzer_number = 1
     elif button_idx in [6, 7, 8, 9]:
@@ -1104,7 +1108,8 @@ def gamepad_press_button_event(message):
     elif button_idx in [16, 17, 18, 19]:
         buzzer_number = 4
     else:
-        return
+        if buzzer_number == 0:
+            return
     if button_idx in [4, 9, 14, 19]: # Blue
         button_name = "bouton2"
     elif button_idx in [3, 8, 13, 18]: # Orange
@@ -1114,7 +1119,8 @@ def gamepad_press_button_event(message):
     elif button_idx in [1, 6, 11, 16]: # yellow
         button_name = "bouton5"
     else:
-        return
+        if button_name == "bouton0":
+            return
     buzzer_player_name = game.get_player_name_from_buzz_number(buzzer_number)
     if game_state == GameState.WAITING_PLAYERS :
         try:
@@ -1216,6 +1222,9 @@ if __name__ == '__main__':
     # s.connect(("8.8.8.8", 80))
     # hostname = s.getsockname()[0]
     # s.close()
+    host_ip = socket.gethostbyname(hostname)
+    qr = qrcode.make(f"http://{host_ip}:5000/web_quizz_login")
+    qr.save("static/qrcode.png")
     logger.info('launch http://%s:5000/web_quizz', hostname)
     logger.info('launch http://%s:5000/web_quizz_login', hostname)
     socketio.run(app, host="0.0.0.0", port=5000, debug=True)
