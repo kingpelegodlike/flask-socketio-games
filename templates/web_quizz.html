@@ -4,6 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEB QUIZ</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/jquery.countdown.css') }}">
     <link rel="stylesheet" href="{{ url_for('static',filename='dist/themes/default/style.min.css') }}" />
@@ -159,7 +160,7 @@
             <div id="qrcode_div">
                 <!-- <input id="qrcode_label" size="30" value="Scanner le QR code pour jouer"/><br>
                 <div id="qrcode" style="display: inline-block; padding: 10px; background: white; margin-top: 5px; border-radius: 4px;"></div> -->
-                <img src="/static/qrcode.png"><br>Scanner le QR code pour joue</img>
+                <img src="/static/qrcode.png"><br>Scanner le QR code pour jouer</img>
             </div>
         <section>
         <div class="answerbox">
@@ -1126,9 +1127,9 @@
                 correctLevel : QRCode.CorrectLevel.M
             });
         }
-        document.addEventListener("DOMContentLoaded", function(){
-            UpdateQRCode();
-        });
+        // document.addEventListener("DOMContentLoaded", function(){
+        //     UpdateQRCode();
+        // });
         
         function updateLeaderboard(players) {
             const tbody = document.getElementById('leaderboard_body');
