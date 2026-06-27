@@ -24,6 +24,7 @@ From work (not mandatory)
 
 ### packages by packages
 > python -m pip install Flask-SocketIO
+> python -m pip install "qrcode[pil]"
 
 ### with requirements file
 >pip install -r requirements312.txt
