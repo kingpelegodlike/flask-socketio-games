@@ -1,0 +1,40 @@
+{
+    "yt": {
+        "1": {
+            "id": "J94BReLsc2U",
+            "artists": "DJ Sebb; Junior; Black-T; PLL",
+            "title": "Roulman",
+            "album": "",
+            "year": "2022",
+            "genders": "Sega",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez le titre de la chanson",
+            "masked_id": ""
+        },
+        "2": {
+            "id": "Gs3X_S0NfCk",
+            "artists": "Mister Love; System R",
+            "title": "Tousse sali",
+            "album": "",
+            "year": "2014",
+            "genders": "Sega",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez le titre de la chanson",
+            "masked_id": ""
+        },
+        "3": {
+            "id": "DteadNTOtrc",
+            "artists": "Alain Ramanisum; Ravanna",
+            "title": "Li Tourne",
+            "album": "Suprem Sega",
+            "year": "2002",
+            "genders": "Sega",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": ""
+        }
+    }
+}

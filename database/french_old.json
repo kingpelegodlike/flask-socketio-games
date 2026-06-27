@@ -1,0 +1,30 @@
+{
+    "yt": {
+        "1": {
+            "id": "JpJ3gEB6sJ4",
+            "artists": "Alain Chamfort",
+            "title": "Bambou",
+            "album": "Amour Annee Zero",
+            "year": "1981",
+            "genders": "Pop; Chanson Francaise",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "2": {
+            "id": "pLVyJVHPTOM",
+            "artists": "Marc Lavoine",
+            "title": "Elle A Les Yeux Revolver",
+            "album": "Marc Lavoine",
+            "year": "1985",
+            "genders": "Pop; New Wave; Chanson Francaise",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": "",
+            "start_time": "0"
+        }
+    }
+}

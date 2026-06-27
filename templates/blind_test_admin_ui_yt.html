@@ -1,0 +1,1534 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon"  type="image/png" 
+      href="{{ url_for('static',filename='images/favicon.png') }}">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
+    <script src="{{ url_for('static',filename='dist/libs/jquery.js') }}"></script>
+    <script src="{{ url_for('static',filename='dist/libs/socket.io.min.js') }}"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function() {
+            // Use a "/blind_test_admin" namespace.
+            // An application can open a connection on multiple namespaces, and
+            // Socket.IO will multiplex all those connections on a single
+            // physical channel. If you don't care about multiple channels, you
+            // can set the namespace to an empty string.
+            namespace = '/blind_test_admin_ui_yt';
+            var good_answer = document.getElementById('good_answer');
+            var good_answer_src = document.getElementById('good_answer_src');
+            var wrong_answer = document.getElementById('wrong_answer');
+            var wrong_answer_src = document.getElementById('wrong_answer_src');
+            var question_type = "";
+            var question_audio = document.getElementById('question_audio');
+            var question_audio_src = document.getElementById('question_audio_src');
+            // var question_audio_current_time = 0;
+            // var waiting_answer_audio = document.getElementById('waiting_answer_audio');
+            // var waiting_answer_audio_src = document.getElementById('waiting_answer_audio_src');
+            var video_current_time = 0.0;
+            var player_turn = "";
+            var game_without_buzzer = false;
+            document.cookie = "question_audio_current_time=0";
+            // Connect to the Socket.IO server.
+            // The connection URL has the following format:
+            //     http[s]://<domain>:<port>[/<namespace>]
+            var socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port + namespace);
+            socket.emit('get_players');
+            
+            socket.on('add_player', function(msg) {
+                row = '<tr class="players_tr"><td class="players_td">'+msg.player_name+'</td><td class="players_td">'+msg.player_score+'</td></tr>';
+                $('#players table > tbody').append(row);
+                player_nb = $('#players table > tbody > tr').length;
+                var player_div = document.getElementById("player_"+player_nb+"_div");
+                player_div.style.display = 'inline-block';
+                player_div.style.visibility = "visible";
+                // var input_player = document.getElementById("player_"+player_nb+"_input");
+                // input_player.innerHTML = msg.player_name;
+                // input_player.value = msg.player_name;
+                var name_player_label = document.getElementById("name_player_"+player_nb+"_label");
+                name_player_label.innerHTML = msg.player_name;
+                var player_nb_status_button = document.getElementById("player_"+player_nb+"_status_button");
+                player_nb_status_button.innerHTML = "WAITING";
+                player_nb_status_button.style.background='#808080';
+                var score_player_label = document.getElementById("score_player_"+player_nb+"_label");
+                score_player_label.innerHTML = msg.player_score + " points";
+                var button = document.getElementById("del_player_"+player_nb+"_button");
+                button.innerHTML = 'Sup. ' + msg.player_name;
+            });
+            
+            socket.on('set_player_ready', function(msg) {
+                var player_index = -1;
+                $('#players table > tbody  > tr').each(function(index, tr) { 
+                    var identifiant = $(this).find('td').eq(0).html();
+                    if (identifiant == msg.player_name) {
+                        player_index = index + 1;
+                        console.log("Set player '" + msg.player_name + "' number " + player_index + " ready");
+                        var player_nb_status_button = document.getElementById("player_"+player_index+"_status_button");
+                        player_nb_status_button.innerHTML = "READY";
+                        player_nb_status_button.style.background='#0096FF';
+                    }
+                });
+            });
+
+            $('form#add_player_form').submit(function(event) {
+                var new_player_name = document.getElementById("add_player_input").value;
+                game_without_buzzer = true;
+                socket.emit('add_player', {player_name: new_player_name});
+                return false;
+            });
+            
+            socket.on('update_score_player', function(msg) {
+                var player_index = -1;
+                $('#players table > tbody  > tr').each(function(index, tr) { 
+                    console.log(index);
+                    console.log(tr);
+                    var identifiant = $(this).find('td').eq(0).html();
+                    console.log(identifiant);
+                    if (identifiant == msg.player_name) {
+                        player_index = index + 1;
+                    }
+                });
+                var score_player_label = document.getElementById("score_player_"+player_index+"_label");
+                score_player_label.innerHTML = msg.score + " points";
+            });
+
+            $('form#update_score_player_1_form').submit(function(event) {
+                var name_player_label = document.getElementById("name_player_1_label");
+                player_name = name_player_label.innerHTML;
+                var update_score_player_input = document.getElementById("update_score_player_1_input");
+                update_score = update_score_player_input.value;
+                socket.emit('update_score_player', {player_name: player_name, update_score: update_score});
+                return false;
+            });
+            $('form#update_score_player_2_form').submit(function(event) {
+                var name_player_label = document.getElementById("name_player_2_label");
+                player_name = name_player_label.innerHTML;
+                var update_score_player_input = document.getElementById("update_score_player_2_input");
+                update_score = update_score_player_input.value;
+                socket.emit('update_score_player', {player_name: player_name, update_score: update_score});
+                return false;
+            });
+            $('form#update_score_player_3_form').submit(function(event) {
+                var name_player_label = document.getElementById("name_player_3_label");
+                player_name = name_player_label.innerHTML;
+                var update_score_player_input = document.getElementById("update_score_player_3_input");
+                update_score = update_score_player_input.value;
+                socket.emit('update_score_player', {player_name: player_name, update_score: update_score});
+                return false;
+            });
+            $('form#update_score_player_4_form').submit(function(event) {
+                var name_player_label = document.getElementById("name_player_4_label");
+                player_name = name_player_label.innerHTML;
+                var update_score_player_input = document.getElementById("update_score_player_4_input");
+                update_score = update_score_player_input.value;
+                socket.emit('update_score_player', {player_name: player_name, update_score: update_score});
+                return false;
+            });
+            $('form#update_score_player_5_form').submit(function(event) {
+                var name_player_label = document.getElementById("name_player_5_label");
+                player_name = name_player_label.innerHTML;
+                var update_score_player_input = document.getElementById("update_score_player_5_input");
+                update_score = update_score_player_input.value;
+                socket.emit('update_score_player', {player_name: player_name, update_score: update_score});
+                return false;
+            });
+            $('form#update_score_player_6_form').submit(function(event) {
+                var name_player_label = document.getElementById("name_player_6_label");
+                player_name = name_player_label.innerHTML;
+                var update_score_player_input = document.getElementById("update_score_player_6_input");
+                update_score = update_score_player_input.value;
+                socket.emit('update_score_player', {player_name: player_name, update_score: update_score});
+                return false;
+            });
+            $('form#update_score_player_7_form').submit(function(event) {
+                var name_player_label = document.getElementById("name_player_7_label");
+                player_name = name_player_label.innerHTML;
+                var update_score_player_input = document.getElementById("update_score_player_7_input");
+                update_score = update_score_player_input.value;
+                socket.emit('update_score_player', {player_name: player_name, update_score: update_score});
+                return false;
+            });
+            $('form#update_score_player_8_form').submit(function(event) {
+                var name_player_label = document.getElementById("name_player_8_label");
+                player_name = name_player_label.innerHTML;
+                var update_score_player_input = document.getElementById("update_score_player_8_input");
+                update_score = update_score_player_input.value;
+                socket.emit('update_score_player', {player_name: player_name, update_score: update_score});
+                return false;
+            });
+            
+            socket.on('del_player', function(msg) {
+                var del_index = -1;
+                $('#players table > tbody  > tr').each(function(index, tr) { 
+                    console.log(index);
+                    console.log(tr);
+                    var identifiant = $(this).find('td').eq(0).html();
+                    console.log(identifiant);
+                    if (identifiant == msg.player_name) {
+                        del_index = index + 1;
+                    }
+                });
+                var table = document.getElementById("players_table");
+                table.deleteRow(del_index);
+            });
+
+            $('form#del_player_1_form').submit(function(event) {
+                var player_div = document.getElementById("player_1_div");
+                player_div.style.display = 'none';
+                player_div.style.visibility = "hidden";
+                var name_player_label = document.getElementById("name_player_1_label");
+                player_name = name_player_label.innerHTML;
+                socket.emit('del_player', {player_name: player_name});
+                return false;
+            });
+            $('form#del_player_2_form').submit(function(event) {
+                var player_div = document.getElementById("player_2_div");
+                player_div.style.display = 'none';
+                player_div.style.visibility = "hidden";
+                var name_player_label = document.getElementById("name_player_2_label");
+                player_name = name_player_label.innerHTML;
+                socket.emit('del_player', {player_name: player_name});
+                return false;
+            });
+            $('form#del_player_3_form').submit(function(event) {
+                var player_div = document.getElementById("player_3_div");
+                player_div.style.display = 'none';
+                player_div.style.visibility = "hidden";
+                var name_player_label = document.getElementById("name_player_3_label");
+                player_name = name_player_label.innerHTML;
+                socket.emit('del_player', {player_name: player_name});
+                return false;
+            });
+            $('form#del_player_4_form').submit(function(event) {
+                var player_div = document.getElementById("player_4_div");
+                player_div.style.display = 'none';
+                player_div.style.visibility = "hidden";
+                var name_player_label = document.getElementById("name_player_4_label");
+                player_name = name_player_label.innerHTML;
+                socket.emit('del_player', {player_name: player_name});
+                return false;
+            });
+            $('form#del_player_5_form').submit(function(event) {
+                var player_div = document.getElementById("player_5_div");
+                player_div.style.display = 'none';
+                player_div.style.visibility = "hidden";
+                var name_player_label = document.getElementById("name_player_5_label");
+                player_name = name_player_label.innerHTML;
+                socket.emit('del_player', {player_name: player_name});
+                return false;
+            });
+            $('form#del_player_6_form').submit(function(event) {
+                var player_div = document.getElementById("player_6_div");
+                player_div.style.display = 'none';
+                player_div.style.visibility = "hidden";
+                var name_player_label = document.getElementById("name_player_6_label");
+                player_name = name_player_label.innerHTML;
+                socket.emit('del_player', {player_name: player_name});
+                return false;
+            });
+            $('form#del_player_7_form').submit(function(event) {
+                var player_div = document.getElementById("player_7_div");
+                player_div.style.display = 'none';
+                player_div.style.visibility = "hidden";
+                var name_player_label = document.getElementById("name_player_7_label");
+                player_name = name_player_label.innerHTML;
+                socket.emit('del_player', {player_name: player_name});
+                return false;
+            });
+            $('form#del_player_8_form').submit(function(event) {
+                var player_div = document.getElementById("player_8_div");
+                player_div.style.display = 'none';
+                player_div.style.visibility = "hidden";
+                var name_player_label = document.getElementById("name_player_8_label");
+                player_name = name_player_label.innerHTML;
+                socket.emit('del_player', {player_name: player_name});
+                return false;
+            });
+            
+            $('form#new_question_form').submit(function(event) {
+                question_type = "";
+                var nb_random_yt_id_input = document.getElementById("nb_random_yt_id_input").value;
+                var expected_answer_select_element = document.getElementById("expected_answer_select");
+                var is_players_report_presence = document.getElementById("is_players_report_presence_checkbox").checked;
+                var table = document.getElementById("players_table");
+                var idx = expected_answer_select_element.selectedIndex;
+                var val = expected_answer_select_element.options[idx].value;
+                var topic = expected_answer_select_element.options[idx].innerHTML;
+                var playlist_database_elem = document.getElementById("playlist_database_select");
+                var playlist_database_idx = playlist_database_elem.selectedIndex;
+                var playlist_database_value = playlist_database_elem.options[playlist_database_idx].value;
+                var question_value = "";
+                if (nb_random_yt_id_input != 0){
+                    if (table.tBodies[0].rows.length == 0) {
+                        alert("Need players");
+                        return false;
+                    }
+                    question_type="youtube_suite";
+                    question_value = document.getElementById("youtube_link").value;
+                    video_current_time = 0.0;
+                    socket.emit('new_question', {topic: "suite", format: question_type, value: nb_random_yt_id_input, db: playlist_database_value, is_players_report_presence: is_players_report_presence});
+                    return false;
+                }
+                if ( val == 0 ) {
+                    alert("Choisir une réponse attendue");
+                    return false;
+                }
+                if( document.getElementById("my_file").files.length == 0 ){
+                    if ( document.getElementById("youtube_link").value == "") {
+                        alert("mp3 file missing or youtube video link missing");
+                        return false;
+                    }
+                    else {
+                        console.log("question_type = youtube");
+                        question_type = "youtube";
+                        question_value = document.getElementById("youtube_link").value;
+                        video_current_time = 0.0;
+                    }
+                }
+                else {
+                    question_type="mp3";
+                    // question_value = document.getElementById("uploadMsg").innerHTML;
+                    question_value = document.getElementById("my_file").files[0].name;
+                }
+                player_turn = "";
+                var waiting_player_answer_label = document.getElementById("waiting_player_answer_label");
+                waiting_player_answer_label.innerHTML = player_turn;
+                $('#good_answer_button').attr('disabled','disabled');
+                $('#wrong_answer_button').attr('disabled','disabled');
+                $('#pause_question_button').attr('disabled','disabled');
+                $('#stop_question_button').removeAttr('disabled');
+                $('#allow_answer_button').removeAttr('disabled');
+                if (game_without_buzzer) $('#set_players_ready_button').removeAttr('disabled');
+                socket.emit('new_question', {topic: topic, format: question_type, value: question_value, db: playlist_database_value, is_players_report_presence: is_players_report_presence});
+                return false;
+            });
+            
+            socket.on('set_answer', function(msg) {
+                document.getElementById("answer_label").innerHTML = "Response is " + msg.answer;
+                if (msg.youtube_answer_id != "") {
+                    document.getElementById("youtube_link").value = msg.youtube_answer_id;
+                }
+            });
+            
+            socket.on('play_question', function(msg) {
+                if (question_type == "mp3") {
+                    var my_file_input = document.getElementById("my_file");
+                    var fileObj = my_file_input.files[0];
+                    var file = URL.createObjectURL(fileObj); 
+                    question_audio.pause();
+                    question_audio.currentTime = 0;
+                    question_audio_src.src = file;
+                    question_audio.load();
+                    question_audio.play();
+                }
+                if (question_type == "youtube") {
+                    // alert("on play_question play video");
+                    var video_id = document.getElementById("youtube_link").value;
+                    // video_current_time = 0.0;
+                    video_current_time = parseFloat(msg.start_time);
+                    // alert("on play_question play video at " + video_current_time);
+                    // player.loadVideoById(video_id, video_current_time);
+                }
+                if (question_type == "youtube_suite") {
+                    // alert("on play_question play video");
+                    var video_id = document.getElementById("youtube_link").value;
+                    $('#next_question_button').removeAttr('disabled');
+                    // video_current_time = 0.0;
+                    video_current_time = parseFloat(msg.start_time);
+                    // alert("on play_question play video at " + video_current_time);
+                    // player.loadVideoById(video_id, video_current_time);
+                    // player.playVideo();
+                    // player.unMute();
+                }
+            });
+            
+            socket.on('pause_blind_test', function(msg) {
+                console.log("WAIT FOR " + msg.player_name + " ANSWER");
+                player_turn = msg.player_name;
+                var waiting_player_answer_label = document.getElementById("waiting_player_answer_label");
+                waiting_player_answer_label.innerHTML = "<p class='.answers_label'>WAIT FOR <strong><mark><font size='7'>" + msg.player_name + "</font></mark></strong> ANSWER</p>";
+                // waiting_answer_audio.load();
+                // waiting_answer_audio.play();
+                $('#good_answer_button').removeAttr('disabled');
+                $('#wrong_answer_button').removeAttr('disabled');
+                $('#pause_question_button').attr('disabled','disabled');
+                $('#stop_question_button').removeAttr('disabled');
+                $('#allow_answer_button').attr('disabled','disabled');
+                if (question_type == "mp3") {
+                  question_audio.pause();
+                }
+                var player_index = -1;
+                $('#players table > tbody  > tr').each(function(index, tr) { 
+                    console.log(index);
+                    console.log(tr);
+                    var identifiant = $(this).find('td').eq(0).html();
+                    console.log(identifiant);
+                    if (identifiant == msg.player_name) {
+                        player_index = index + 1;
+                    }
+                });
+                var player_nb_status_button = document.getElementById("player_"+player_index+"_status_button");
+                player_nb_status_button.innerHTML = "WAITING";
+                player_nb_status_button.style.background='#FFFF00';
+            });
+            
+            socket.on('continue_blind_test', function(msg) {
+                player_turn = "";
+                var waiting_player_answer_label = document.getElementById("waiting_player_answer_label");
+                waiting_player_answer_label.innerHTML = player_turn;
+                $('#good_answer_button').attr('disabled','disabled');
+                $('#wrong_answer_button').attr('disabled','disabled');
+                $('#pause_question_button').removeAttr('disabled');
+                $('#stop_question_button').removeAttr('disabled');
+                $('#allow_answer_button').removeAttr('disabled');
+                if (question_type == "mp3") {
+                  question_audio.play();
+                }
+                if (question_type.startsWith("youtube")) {
+                  var video_id = document.getElementById("youtube_link").value;
+                  //player.playVideo();
+                  // player.loadVideoById(video_id, video_current_time);
+                }
+            });
+            
+            socket.on('stop_blind_test', function(msg) {
+                player_turn = "";
+                document.getElementById("waiting_player_answer_label").innerHTML = player_turn;
+                document.getElementById("answer_label").innerHTML = "";
+                document.getElementById("nb_random_yt_id_input").value = 0;
+                $('#good_answer_button').attr('disabled','disabled');
+                $('#wrong_answer_button').attr('disabled','disabled');
+                if('enable_stop_question_button' in msg){
+                  $('#stop_question_button').removeAttr('disabled');
+                }
+                else {
+                  $('#stop_question_button').attr('disabled','disabled');
+                }
+                if('enable_next_question_button' in msg){
+                  $('#next_question_button').removeAttr('disabled');
+                }
+                else {
+                  $('#next_question_button').attr('disabled','disabled');
+                }
+                $('#allow_answer_button').attr('disabled','disabled');
+                if (game_without_buzzer) $('#set_players_ready_button').attr('disabled','disabled');
+                if (question_type == "mp3") {
+                  question_audio.pause();
+                  question_audio.currentTime = 0;
+                  // document.getElementById("uploadMsg").innerHTML = "Filename will appear here after file has been selected";
+                }
+                if (question_type.startsWith("youtube")) {
+                  if (!('enable_stop_question_button' in msg)) {
+                    // alert("Stop youtube video");
+                    console.log("Stop youtube video");
+                    document.getElementById("youtube_link").value = "";
+                    // player.stopVideo();
+                  }
+                }
+                
+                var player_index = -1;
+                $('#players table > tbody  > tr').each(function(index, tr) { 
+                    player_index = index + 1;
+                    var player_nb_status_button = document.getElementById("player_"+player_index+"_status_button");
+                    player_nb_status_button.innerHTML = "WAITING";
+                    player_nb_status_button.style.background='#D3D3D3';
+                });
+            });
+
+            $('form#good_answer_form').submit(function(event) {
+                if (question_type == "mp3") {
+                    document.cookie = "question_audio_current_time="+question_audio.currentTime;
+                }
+                // if (question_type.startsWith("youtube")) {
+                    // document.cookie = "question_audio_current_time="+player.getCurrentTime();
+                //}
+                // good_answer_audio.load();
+                // good_answer_audio.play();
+                if (question_type == "mp3") {
+                    checkAudio();
+                }
+                // if (question_type.startsWith("youtube")) {
+                  // player.playVideo();
+                //}
+                console.log("good answer from player '" + player_turn + "'");
+                var player_index = -1;
+                $('#players table > tbody  > tr').each(function(index, tr) { 
+                    // console.log('good_answer_form' + index);
+                    var identifiant = $(this).find('td').eq(0).html();
+                    console.log("good_answer_form check player '" + identifiant + "' status");
+                    if (identifiant == player_turn) {
+                        console.log("good_answer_form player '" + identifiant + "' WIN");
+                        player_index = index + 1;
+                        var player_nb_status_button = document.getElementById("player_"+player_index+"_status_button");
+                        player_nb_status_button.innerHTML = "WIN";
+                        player_nb_status_button.style.background='#008000';
+                    }
+                    else {
+                        console.log("good_answer_form player '" + identifiant + "' LOOSE");
+                        player_index = index + 1;
+                        var player_nb_status_button = document.getElementById("player_"+player_index+"_status_button");
+                        player_nb_status_button.innerHTML = "LOOSE";
+                        player_nb_status_button.style.background='#FF0000';
+                    }
+                });
+                $('#good_answer_button').attr('disabled','disabled');
+                $('#wrong_answer_button').attr('disabled','disabled');
+                $('#pause_question_button').removeAttr('disabled','disabled');
+                $('#stop_question_button').removeAttr('disabled');
+                $('#allow_answer_button').attr('disabled','disabled');
+                if (game_without_buzzer) $('#set_players_ready_button').attr('disabled','disabled');
+                document.getElementById("my_file").value = "";
+                document.getElementById("youtube_link").value = "";
+                socket.emit('good_answer', {player_name: player_turn});
+                player_turn = "";
+                var waiting_player_answer_label = document.getElementById("waiting_player_answer_label");
+                waiting_player_answer_label.innerHTML = player_turn;
+                return false;
+            });
+            
+            $('form#wrong_answer_form').submit(function(event) {
+                // wrong_answer_audio.load();
+                // wrong_answer_audio.play();
+                socket.emit('wrong_answer', {player_name: player_turn});
+                var player_index = -1;
+                $('#players table > tbody  > tr').each(function(index, tr) { 
+                    var identifiant = $(this).find('td').eq(0).html();
+                    if (identifiant == player_turn) {
+                        console.log("wrong_answer_form player '" + identifiant + "' LOOSE");
+                        player_index = index + 1;
+                        var player_nb_status_button = document.getElementById("player_"+player_index+"_status_button");
+                        player_nb_status_button.innerHTML = "LOOSE";
+                        player_nb_status_button.style.background='#FF0000';
+                    }
+                });
+                player_turn = "";
+                var waiting_player_answer_label = document.getElementById("waiting_player_answer_label");
+                waiting_player_answer_label.innerHTML = player_turn;
+                $('#good_answer_button').attr('disabled','disabled');
+                $('#wrong_answer_button').attr('disabled','disabled');
+                $('#pause_question_button').removeAttr('disabled','disabled');
+                $('#stop_question_button').attr('disabled','disabled');
+                $('#allow_answer_button').attr('disabled','disabled');
+                return false;
+            });
+            
+            $('form#pause_question_form').submit(function(event) {
+                var pause_question_button_elem = document.getElementById("pause_question_button");
+                var pause_question_button_value = pause_question_button_elem.value;
+                if (pause_question_button_value == "PAUSE") {
+                  var waiting_player_answer_label = document.getElementById("waiting_player_answer_label");
+                  waiting_player_answer_label.innerHTML = "GAME PAUSED";
+                  $('#good_answer_button').attr('disabled','disabled');
+                  $('#wrong_answer_button').attr('disabled','disabled');
+                  $('#stop_question_button').removeAttr('disabled');
+                  $('#allow_answer_button').attr('disabled','disabled');
+                  if (question_type == "mp3") {
+                    document.cookie = "question_audio_current_time="+question_audio.currentTime;
+                    question_audio.pause();
+                  }
+                  if (question_type == "youtube") {
+                    // document.cookie = "question_audio_current_time="+player.getCurrentTime();
+                    var video_id = document.getElementById("youtube_link").value;
+                    // video_current_time = player.getCurrentTime();
+                    // alert("video current time is " + video_current_time);
+                    // player.cueVideoById(video_id, video_current_time);
+                  }
+                  pause_question_button_elem.value = "REPRISE"
+                  pause_question_button_elem.innerHTML = "REPRISE";
+                  socket.emit('pause_question');
+                  return false;
+                }
+                else {
+                  var waiting_player_answer_label = document.getElementById("waiting_player_answer_label");
+                  waiting_player_answer_label.innerHTML = "GAME RESUMED";
+                  if (game_without_buzzer == false) $('#good_answer_button').removeAttr('disabled');
+                  if (game_without_buzzer == false) $('#wrong_answer_button').removeAttr('disabled');
+                  $('#stop_question_button').removeAttr('disabled');
+                  $('#allow_answer_button').removeAttr('disabled');
+                  if (question_type == "mp3") {
+                      checkAudio();
+                  }
+                  // if (question_type == "youtube") {
+                      // player.playVideo();
+                  // }
+                  pause_question_button_elem.value = "PAUSE"
+                  pause_question_button_elem.innerHTML = "PAUSE";
+                  socket.emit('reprise_question');
+                  return false;
+                }
+            });
+            
+            $('form#next_question_form').submit(function(event) {
+                player_turn = "";
+                var waiting_player_answer_label = document.getElementById("waiting_player_answer_label");
+                waiting_player_answer_label.innerHTML = player_turn;
+                $('#good_answer_button').attr('disabled','disabled');
+                $('#wrong_answer_button').attr('disabled','disabled');
+                document.getElementById("pause_question_button").value = "PAUSE";
+                document.getElementById("pause_question_button").innerHTML = "PAUSE";
+                $('#pause_question_button').attr('disabled','disabled');
+                $('#next_question_button').attr('disabled','disabled');
+                $('#stop_question_button').attr('disabled','disabled');
+                $('#allow_answer_button').attr('disabled','disabled');
+                document.getElementById("my_file").value = "";
+                question_audio.pause();
+                question_audio.currentTime = 0;
+                document.getElementById("youtube_link").value = "";
+                // player.stopVideo();
+                document.getElementById("expected_answer_select").selectedIndex = 0;
+                socket.emit('next_question');
+                return false;
+            });
+            
+            $('form#stop_question_form').submit(function(event) {
+                player_turn = "";
+                var waiting_player_answer_label = document.getElementById("waiting_player_answer_label");
+                waiting_player_answer_label.innerHTML = player_turn;
+                $('#good_answer_button').attr('disabled','disabled');
+                $('#wrong_answer_button').attr('disabled','disabled');
+                document.getElementById("pause_question_button").value = "PAUSE";
+                document.getElementById("pause_question_button").innerHTML = "PAUSE";
+                $('#pause_question_button').attr('disabled','disabled');
+                $('#stop_question_button').attr('disabled','disabled');
+                $('#allow_answer_button').attr('disabled','disabled');
+                document.getElementById("my_file").value = "";
+                question_audio.pause();
+                question_audio.currentTime = 0;
+                document.getElementById("youtube_link").value = "";
+                // player.stopVideo();
+                document.getElementById("expected_answer_select").selectedIndex = 0;
+                socket.emit('stop_question');
+                return false;
+            });
+            
+            $('form#allow_answer_form').submit(function(event) {
+                player_turn = "";
+                var waiting_player_answer_label = document.getElementById("waiting_player_answer_label");
+                waiting_player_answer_label.innerHTML = player_turn;
+                $('#good_answer_button').attr('disabled','disabled');
+                $('#wrong_answer_button').attr('disabled','disabled');
+                $('#stop_question_button').attr('disabled','disabled');
+                $('#allow_answer_button').attr('disabled','disabled');
+                if (question_type == "mp3") {
+                  question_audio.play();
+                }
+                // if (question_type == "youtube") {
+                  // player.playVideo();
+                // }
+                $('#players table > tbody  > tr').each(function(index, tr) { 
+                    var identifiant = $(this).find('td').eq(0).html();
+                    console.log("allow_answer_form player '" + identifiant + "' READY AGAIN");
+                    var player_index = index + 1;
+                    var player_nb_status_button = document.getElementById("player_"+player_index+"_status_button");
+                    player_nb_status_button.innerHTML = "READY";
+                    player_nb_status_button.style.background='#0096FF';
+                });
+                socket.emit('allow_answer');
+                return false;
+            });
+            
+            $('form#set_players_ready_form').submit(function(event) {
+                $('#set_players_ready_button').attr('disabled','disabled');
+                socket.emit('set_players_ready');
+                return false;
+            });
+
+            $('form#search_video_artists_form').submit(function(event) {
+                var search_db_value = document.getElementById("search_db_input").value;
+                socket.emit('search_video', {artists: search_db_value});
+                return false;
+            });
+
+            $('form#search_video_title_form').submit(function(event) {
+                var search_db_value = document.getElementById("search_db_input").value;
+                socket.emit('search_video', {title: search_db_value});
+                return false;
+            });
+
+            $('form#search_video_album_form').submit(function(event) {
+                var search_db_value = document.getElementById("search_db_input").value;
+                socket.emit('search_video', {album: search_db_value});
+                return false;
+            });
+
+            $('form#search_video_year_form').submit(function(event) {
+                var search_db_value = document.getElementById("search_db_input").value;
+                socket.emit('search_video', {year: search_db_value});
+                return false;
+            });
+
+            $('form#search_video_genders_form').submit(function(event) {
+                var search_db_value = document.getElementById("search_db_input").value;
+                socket.emit('search_video', {genders: search_db_value});
+                return false;
+            });
+            
+            socket.on('videos_find', function(msg) {
+                var videos_find = msg.videos_find;
+                var video_links_area = document.getElementById("video_links_area");
+                video_links_area.innerHTML = videos_find;
+            });
+
+            $('form#video_to_db_form').submit(function(event) {
+                var video_id_value = document.getElementById("add_video_id_input").value;
+                var video_artists_value = document.getElementById("add_video_artists_input").value;
+                var video_title_value = document.getElementById("add_video_title_input").value;
+                var video_album_value = document.getElementById("add_video_album_input").value;
+                var video_year_value = document.getElementById("add_video_year_input").value;
+                var video_genders_value = document.getElementById("add_video_genders_input").value;
+                var video_sampled_by_value = document.getElementById("add_video_sampled_by_input").value;
+                var video_sample_from_value = document.getElementById("add_video_sample_from_input").value;
+                var add_video_topic_select_element = document.getElementById("add_video_topic_select");
+                var add_video_topic_select_idx = add_video_topic_select_element.selectedIndex;
+                var add_video_topic_select_val = add_video_topic_select_element.options[add_video_topic_select_idx].value;
+                var video_topic_value = add_video_topic_select_element.options[add_video_topic_select_idx].innerHTML;
+                var video_masked_id_value = document.getElementById("add_video_masked_id_input").value;
+                var start_time_element = document.getElementById("start_time_select");
+                var start_time_select_idx = start_time_element.selectedIndex;
+                var start_time_select_value = start_time_element.options[start_time_select_idx].value;
+                var database_1_element = document.getElementById("database_1_select");
+                var database_1_select_idx = database_1_element.selectedIndex;
+                var database_1_select_value = database_1_element.options[database_1_select_idx].value;
+                var database_2_element = document.getElementById("database_2_select");
+                var database_2_select_idx = database_2_element.selectedIndex;
+                var database_2_select_value = database_2_element.options[database_2_select_idx].value;
+                var database_3_element = document.getElementById("database_3_select");
+                var database_3_select_idx = database_3_element.selectedIndex;
+                var database_3_select_value = database_3_element.options[database_3_select_idx].value;
+                var database_4_element = document.getElementById("database_4_select");
+                var database_4_select_idx = database_4_element.selectedIndex;
+                var database_4_select_value = database_4_element.options[database_4_select_idx].value;
+                var database_5_element = document.getElementById("database_5_select");
+                var database_5_select_idx = database_5_element.selectedIndex;
+                var database_5_select_value = database_5_element.options[database_5_select_idx].value;
+                console.log("add_video_to_db_form video_id_value='"+video_id_value+"' video_title_value='"+video_title_value+"'");
+                // alert("add_video_to_db_form video_id_value = " + video_id_value);
+                // alert("add_video_to_db_form artists:" + video_artists_value);
+                // alert("add_video_to_db_form title:" + video_title_value);
+                // alert("add_video_to_db_form album:" + video_album_value);
+                // alert("add_video_to_db_form year:" + video_year_value);
+                // alert("add_video_to_db_form genders:" + video_genders_value);
+                // alert("add_video_to_db_form sampled_by:" + video_sampled_by_value);
+                // alert("add_video_to_db_form sample_from:" + video_sample_from_value);
+                // alert("add_video_to_db_form masked_id: " + video_masked_id_value);
+                // alert("add_video_to_db_form start_time:" + start_time_select_value);
+                // alert("add_video_to_db_form db1:" + database_1_select_value);
+                // alert("add_video_to_db_form db2:" + database_2_select_value);
+                // alert("add_video_to_db_form db3:" + database_3_select_value);
+                // alert("add_video_to_db_form db4:" + database_4_select_value);
+                // alert("add_video_to_db_form db5:" + database_5_select_value);
+                if ( video_id_value == "" ) {
+                    alert("Saisir l'ID de la video");
+                    return false;
+                }
+                if ( video_artists_value == "" ) {
+                    alert("Saisir les artistes de la video");
+                    return false;
+                }
+                if ( video_title_value == "" ) {
+                    alert("Saisir le titre de la video");
+                    return false;
+                }
+                socket.emit('add_video_to_db', {id: video_id_value,
+                                                artists: video_artists_value,
+                                                title: video_title_value,
+                                                album: video_album_value,
+                                                year: video_year_value,
+                                                genders: video_genders_value,
+                                                sampled_by: video_sampled_by_value,
+                                                sample_from: video_sample_from_value,
+                                                topic: video_topic_value,
+                                                masked_id: video_masked_id_value,
+                                                start_time: start_time_select_value,
+                                                db1: database_1_select_value,
+                                                db2: database_2_select_value,
+                                                db3: database_3_select_value,
+                                                db4: database_4_select_value,
+                                                db5: database_5_select_value});
+                return false;
+            });
+            
+            socket.on('video_added', function(msg) {
+                alert("video added");
+                document.getElementById("add_video_id_input").value = "";
+                document.getElementById("add_video_artists_input").value = "";
+                document.getElementById("add_video_title_input").value = "";
+                document.getElementById("add_video_album_input").value = "";
+                document.getElementById("add_video_year_input").value = "";
+                document.getElementById("add_video_genders_input").value = "";
+                document.getElementById("add_video_sampled_by_input").value = "";
+                document.getElementById("add_video_sample_from_input").value = "";
+                document.getElementById("add_video_topic_select").selectedIndex = 0;
+                document.getElementById("add_video_masked_id_input").value = "";
+                document.getElementById("start_time_select").selectedIndex = 0;
+                document.getElementById("database_1_select").selectedIndex = 0;
+                document.getElementById("database_2_select").selectedIndex = 0;
+                document.getElementById("database_3_select").selectedIndex = 0;
+                document.getElementById("database_4_select").selectedIndex = 0;
+                document.getElementById("database_5_select").selectedIndex = 0;
+            });
+        });
+    </script>
+
+    <title>Blind Test Admin</title>
+  </head>
+  <body>
+    <h1>Blind Test Admin</h1>
+    <form id="new_question_form" method="POST" action="#">
+      <button class="button-77" role="button" type="submit" id="new_question_button" name="new_question">Start Blind Test</button>
+    </form>
+    <label id="answer_label"></label>
+    <label id="waiting_player_answer_label"></label>
+    <div class="btn-group">
+      <form id="good_answer_form" method="POST" action="#">
+        <audio id="good_answer_audio"><source  id="good_answer_src" src="{{ url_for('static',filename='sounds/correct_answer.wav') }}"></source></audio>
+        <button type="submit" disabled id="good_answer_button" name="good_answer" placeholder="OK" value="OK">OK</button>
+      </form>
+      <form id="wrong_answer_form" method="POST" action="#">
+        <audio id="wrong_answer_audio"><source  id="wrong_answer_src" src="{{ url_for('static',filename='sounds/wrong_answer.wav') }}"></source></audio>
+        <button type="submit" disabled id="wrong_answer_button" name="wrong_answer" placeholder="KO" value="KO">KO</button>
+      </form>
+      <form id="pause_question_form" method="POST" action="#">
+        <button type="submit" disabled id="pause_question_button" name="pause_question" placeholder="PAUSE" value="PAUSE">PAUSE</button>
+      </form>
+      <form id="next_question_form" method="POST" action="#">
+        <button type="submit" disabled id="next_question_button" name="next_question" placeholder="NEXT" value="NEXT">NEXT</button>
+      </form>
+      <form id="stop_question_form" method="POST" action="#">
+        <button type="submit" disabled id="stop_question_button" name="stop_question" placeholder="STOP" value="STOP">STOP</button>
+      </form>
+      <form id="allow_answer_form" method="POST" action="#">
+        <button type="submit" disabled id="allow_answer_button" name="allow_answer" placeholder="Players can answer again" value="Players can answer again">Players can answer again</button>
+      </form>
+      <form id="set_players_ready_form" method="POST" action="#">
+        <button type="submit" disabled id="set_players_ready_button" name="set_players_ready" placeholder="Players are ready" value="Players are ready">Players are ready</button>
+      </form>
+    </div>
+    <div>
+      <label id="is_players_report_presence_label">Les joueurs doivent signaler leur présence à chaque question:</label>
+      <input type="checkbox" id="is_players_report_presence_checkbox" name="is_players_report_presence_checkbox">
+    </div>
+    <div class="myRow">
+      <div id="add_player_div" style="display: inline-block;">
+        <form id="add_player_form" method="POST" action="#">
+          <label id="add_player_label">Nouveau joueur:</label>
+          <input id="add_player_input"></input>
+          <button type="submit" id="add_player_button">Ajouter</button>
+        </form>
+      </div>
+      <!-- <br> -->
+      <div id="player_1_div" style="display:none;">
+        <div id="name_player_1_div" style="display: inline-block;">
+          <label id="name_player_1_label">Player1</label>
+        </div>
+        <div id="score_player_1_div" style="display: inline-block;">
+          <label id="score_player_1_label">0 points</label>
+        </div>
+        <div id="player_1_status_div" style="display: inline-block;">
+          <form id="player_1_status_form" method="POST" action="#">
+            <button type="submit" id="player_1_status_button">WAITING</button>
+          </form>
+        </div>
+        <div id="update_score_player_1_div" style="display: inline-block;">
+          <form id="update_score_player_1_form" method="POST" action="#">
+            <input type="number" id="update_score_player_1_input" value=0></input>
+            <button type="submit" id="update_score_1_button">Update</button>
+          </form>
+        </div>
+        <div id="del_player_1_div" style="display: inline-block;">
+          <form id="del_player_1_form" method="POST" action="#">
+            <button type="submit" id="del_player_1_button">Player1</button>
+          </form>
+        </div>
+      </div>
+      <!-- <br> -->
+      <div id="player_2_div" style="display:none;">
+        <div id="name_player_2_div" style="display: inline-block;">
+          <label id="name_player_2_label">Player2</label>
+        </div>
+        <div id="score_player_2_div" style="display: inline-block;">
+          <label id="score_player_2_label">0 points</label>
+        </div>
+        <div id="player_2_status_div" style="display: inline-block;">
+          <form id="player_2_status_form" method="POST" action="#">
+            <button type="submit" id="player_2_status_button">WAITING</button>
+          </form>
+        </div>
+        <div id="update_score_player_2_div" style="display: inline-block;">
+          <form id="update_score_player_2_form" method="POST" action="#">
+            <input type="number" id="update_score_player_2_input" value=0></input>
+            <button type="submit" id="update_score_2_button">Update</button>
+          </form>
+        </div>
+        <div id="del_player_2_div" style="display: inline-block;">
+          <form id="del_player_2_form" method="POST" action="#">
+            <button type="submit" id="del_player_2_button">Player2</button>
+          </form>
+        </div>
+      </div>
+      <!-- <br> -->
+      <div id="player_3_div" style="display:none;">
+        <div id="name_player_3_div" style="display: inline-block;">
+          <label id="name_player_3_label">Player3</label>
+        </div>
+        <div id="score_player_3_div" style="display: inline-block;">
+          <label id="score_player_3_label">0 points</label>
+        </div>
+        <div id="player_3_status_div" style="display: inline-block;">
+          <form id="player_3_status_form" method="POST" action="#">
+            <button type="submit" id="player_3_status_button">WAITING</button>
+          </form>
+        </div>
+        <div id="update_score_player_3_div" style="display: inline-block;">
+          <form id="update_score_player_3_form" method="POST" action="#">
+            <input type="number" id="update_score_player_3_input" value=0></input>
+            <button type="submit" id="update_score_3_button">Update</button>
+          </form>
+        </div>
+        <div id="del_player_3_div" style="display: inline-block;">
+          <form id="del_player_3_form" method="POST" action="#">
+            <button type="submit" id="del_player_3_button">Player3</button>
+          </form>
+        </div>
+      </div>
+      <!-- <br> -->
+      <div id="player_4_div" style="display:none;">
+        <div id="name_player_4_div" style="display: inline-block;">
+          <label id="name_player_4_label">Player4</label>
+        </div>
+        <div id="score_player_4_div" style="display: inline-block;">
+          <label id="score_player_4_label">0 points</label>
+        </div>
+        <div id="player_4_status_div" style="display: inline-block;">
+          <form id="player_4_status_form" method="POST" action="#">
+            <button type="submit" id="player_4_status_button">WAITING</button>
+          </form>
+        </div>
+        <div id="update_score_player_4_div" style="display: inline-block;">
+          <form id="update_score_player_4_form" method="POST" action="#">
+            <input type="number" id="update_score_player_4_input" value=0></input>
+            <button type="submit" id="update_score_4_button">Update</button>
+          </form>
+        </div>
+        <div id="del_player_4_div" style="display: inline-block;">
+          <form id="del_player_4_form" method="POST" action="#">
+            <button type="submit" id="del_player_4_button">Player4</button>
+          </form>
+        </div>
+      </div>
+      <!-- <br> -->
+      <div id="player_5_div" style="display:none;">
+        <div id="name_player_5_div" style="display: inline-block;">
+          <label id="name_player_5_label">Player5</label>
+        </div>
+        <div id="score_player_5_div" style="display: inline-block;">
+          <label id="score_player_5_label">0 points</label>
+        </div>
+        <div id="player_5_status_div" style="display: inline-block;">
+          <form id="player_5_status_form" method="POST" action="#">
+            <button type="submit" id="player_5_status_button">WAITING</button>
+          </form>
+        </div>
+        <div id="update_score_player_5_div" style="display: inline-block;">
+          <form id="update_score_player_5_form" method="POST" action="#">
+            <input type="number" id="update_score_player_5_input" value=0></input>
+            <button type="submit" id="update_score_5_button">Update</button>
+          </form>
+        </div>
+        <div id="del_player_5_div" style="display: inline-block;">
+          <form id="del_player_5_form" method="POST" action="#">
+            <button type="submit" id="del_player_5_button">Player5</button>
+          </form>
+        </div>
+      </div>
+      <!-- <br> -->
+      <div id="player_6_div" style="display:none;">
+        <div id="name_player_6_div" style="display: inline-block;">
+          <label id="name_player_6_label">Player6</label>
+        </div>
+        <div id="score_player_6_div" style="display: inline-block;">
+          <label id="score_player_6_label">0 points</label>
+        </div>
+        <div id="player_6_status_div" style="display: inline-block;">
+          <form id="player_6_status_form" method="POST" action="#">
+            <button type="submit" id="player_6_status_button">WAITING</button>
+          </form>
+        </div>
+        <div id="update_score_player_6_div" style="display: inline-block;">
+          <form id="update_score_player_6_form" method="POST" action="#">
+            <input type="number" id="update_score_player_6_input" value=0></input>
+            <button type="submit" id="update_score_6_button">Update</button>
+          </form>
+        </div>
+        <div id="del_player_6_div" style="display: inline-block;">
+          <form id="del_player_6_form" method="POST" action="#">
+            <button type="submit" id="del_player_6_button">Player6</button>
+          </form>
+        </div>
+      </div>
+      <!-- <br> -->
+      <div id="player_7_div" style="display:none;">
+        <div id="name_player_7_div" style="display: inline-block;">
+          <label id="name_player_7_label">Player7</label>
+        </div>
+        <div id="score_player_7_div" style="display: inline-block;">
+          <label id="score_player_7_label">0 points</label>
+        </div>
+        <div id="player_7_status_div" style="display: inline-block;">
+          <form id="player_7_status_form" method="POST" action="#">
+            <button type="submit" id="player_7_status_button">WAITING</button>
+          </form>
+        </div>
+        <div id="update_score_player_7_div" style="display: inline-block;">
+          <form id="update_score_player_7_form" method="POST" action="#">
+            <input type="number" id="update_score_player_7_input" value=0></input>
+            <button type="submit" id="update_score_7_button">Update</button>
+          </form>
+        </div>
+        <div id="del_player_7_div" style="display: inline-block;">
+          <form id="del_player_7_form" method="POST" action="#">
+            <button type="submit" id="del_player_7_button">Player7</button>
+          </form>
+        </div>
+      </div>
+      <!-- <br> -->
+      <div id="player_8_div" style="display:none;">
+        <div id="name_player_8_div" style="display: inline-block;">
+          <label id="name_player_8_label">Player8</label>
+        </div>
+        <div id="score_player_8_div" style="display: inline-block;">
+          <label id="score_player_8_label">0 points</label>
+        </div>
+        <div id="player_8_status_div" style="display: inline-block;">
+          <form id="player_8_status_form" method="POST" action="#">
+            <button type="submit" id="player_8_status_button">WAITING</button>
+          </form>
+        </div>
+        <div id="update_score_player_8_div" style="display: inline-block;">
+          <form id="update_score_player_8_form" method="POST" action="#">
+            <input type="number" id="update_score_player_8_input" value=0></input>
+            <button type="submit" id="update_score_8_button">Update</button>
+          </form>
+        </div>
+        <div id="del_player_8_div" style="display: inline-block;">
+          <form id="del_player_8_form" method="POST" action="#">
+            <button type="submit" id="del_player_8_button">Player8</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- PLAYERS SCORE DIV CLASSIQUE PART BEGIN -->
+    <div id="players">
+        <table id="players_table" class="players_table" style="display:none;">
+            <caption class="players_caption">Players</caption>
+            <thead class="players_thead">
+                <tr class="players_tr">
+                    <th class="players_th">Name</th>
+                    <th class="players_th">Score</th>
+                </tr>
+            </thead>
+            <tbody class="players_body">
+            </tbody>
+        </table>
+        <label name="players_console" id="players_console">&nbsp;</label>
+    </div>
+    <div>
+      <label style="font-size: 24px;font-weight: bold;">Choisir la réponse attendue</label>
+      <select name="expected_answer_select" id="expected_answer_select" onchange="update_expected_answer(this)">
+        <option selected="selected" value="0"></option>
+        <option value="1">Donnez n'importe quel élément de la chanson</option>
+        <option value="2">Donnez l'artiste de la chanson</option>
+        <option value="3">Donnez le titre de la chanson</option>
+        <option value="4">Donnez le nom de Album ou film ou Serie</option>
+        <option value="5">Donnez tous les artistes de la chanson</option>
+        <option value="6">Donnez l'année</option>
+        <option value="7">Donnez l'artiste orginal</option>
+        <option value="8">Donnez l'artiste copieur</option>
+        <option value="9">Donnez le genre</option>
+      </select>
+    </div>
+    <div id="container">
+      <div>
+        <label style="font-size: 24px;font-weight: bold;" for="folder1">Choisir la musique au format MP3</label>
+          <!-- <input type="file" id="my_file" onchange="changeFileName(this.value);"> -->
+          <input type="file" id="my_file">
+          <!-- <p id="uploadMsg">Filename will appear here after file has been selected</p> -->
+      </div>
+    </div>
+    <div>
+      <audio id="question_audio"><source  id="question_audio_src" src=""></source></audio>
+      <!-- <audio id="waiting_answer_audio"><source  id="waiting_answer_audio_src" src="{{ url_for('static',filename='sounds/buzz.wav') }}"></source></audio> -->
+    </div>
+    <div id="youtube">
+      <div>
+        <label style="font-size: 24px;font-weight: bold;">Choisir la musique sur Youtube avec son ID</label>
+        <input type="text" id="youtube_link">
+      </div>
+    </div>
+    <div>
+      <label style="font-size: 24px;font-weight: bold;">Choisir une suite aléatoire de musique sur Youtube</label>
+      <select name="playlist_database_select" id="playlist_database_select" onchange="update_add_video_topic(this)">
+        <option selected="selected" value="default"></option>
+        <option value="africain">Africain</option>
+        <option value="animes">Animes</option>
+        <option value="asian">Asiatique</option>
+        <option value="bollywood">Bollywood</option>
+        <option value="dancehall">Dancehall</option>
+        <option value="electro_house_dance">Electro House Dance</option>
+        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
+        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
+        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
+        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
+        <option value="french">Francais</option>
+        <option value="french_old">Francais Ancien</option>
+        <option value="french_198x">Francais 198x</option>
+        <option value="french_199x">Francais 199x</option>
+        <option value="french_200x">Francais 200x</option>
+        <option value="french_201x">Francais 201x</option>
+        <option value="french_202x">Francais 202x</option>
+        <option value="funk_disco_19xx">Funk Disco 19xx</option>
+        <option value="funk_disco_20xx">Funk Disco 20xx</option>
+        <option value="jazz">Jazz</option>
+        <option value="latin">Latino</option>
+        <option value="oriental">Oriental</option>
+        <option value="pop">Pop</option>
+        <option value="pop_old">Pop Ancien</option>
+        <option value="pop_198x">Pop 198x</option>
+        <option value="pop_199x">Pop 199x</option>
+        <option value="pop_200x">Pop 200x</option>
+        <option value="pop_201x">Pop 201x</option>
+        <option value="pop_202x">Pop 202x</option>
+        <option value="rap">Rap</option>
+        <option value="rap_19xx">Rap 19xx</option>
+        <option value="rap_200x">Rap 200x</option>
+        <option value="rap_201x">Rap 201x</option>
+        <option value="rap_202x">Rap 202x</option>
+        <option value="reggae">Reggae</option>
+        <option value="reggaetton">Reggaetton</option>
+        <option value="rnb">R&B</option>
+        <option value="rnb_old">R&B Ancien</option>
+        <option value="rnb_199x">R&B 199x</option>
+        <option value="rnb_200x">R&B 200x</option>
+        <option value="rnb_201x">R&B 201x</option>
+        <option value="rnb_202x">R&B 202x</option>
+        <option value="rock">Rock</option>
+        <option value="sega">Sega</option>
+        <option value="soul">Soul</option>
+        <option value="soundtracks">Soundtracks</option>
+        <option value="tv_show">TV Show</option>
+        <option value="zouk">Zouk</option>
+        <option value="zouk_19xx">Zouk 19xx</option>
+        <option value="zouk_20xx">Zouk 20xx</option>
+      </select>
+      <input type="number" id="nb_random_yt_id_input" value=0></input>
+    </div>
+    <div>
+      <hr>
+      <label>Search Youtube Video ID in Database</label>
+      <input type="text" id="search_db_input">
+      <form id="search_video_artists_form" method="POST" action="#">
+        <button type="submit" id="search_video_artists_button">Search by artist</button>
+      </form>
+      <form id="search_video_title_form" method="POST" action="#">
+        <button type="submit" id="search_video_title_button">Search by title</button>
+      </form>
+      <form id="search_video_album_form" method="POST" action="#">
+        <button type="submit" id="search_video_album_button">Search by album or Film or TV Show</button>
+      </form>
+      <form id="search_video_year_form" method="POST" action="#">
+        <button type="submit" id="search_video_year_button">Search by year</button>
+      </form>
+      <form id="search_video_genders_form" method="POST" action="#">
+        <button type="submit" id="search_video_genders_button">Search by gender</button>
+      </form>
+      <textarea id="video_links_area" name="video_links_area" rows="4" cols="200"></textarea>
+    </div>
+    <div>
+      <hr>
+      <label>Add Youtube Video ID in Database</label>
+      </br>
+      <label>ID:</label>
+      <input type="text" id="add_video_id_input">
+      <label>Artists:</label>
+      <input type="text" id="add_video_artists_input">
+      <label>Titre:</label>
+      <input type="text" id="add_video_title_input">
+      <label>Album/Film/TV Show:</label>
+      <input type="text" id="add_video_album_input">
+      <label>Year:</label>
+      <input type="text" id="add_video_year_input">
+      <label>Genders:</label>
+      <input type="text" id="add_video_genders_input">
+      <label>Sampled by:</label>
+      <input type="text" id="add_video_sampled_by_input">
+      <label>Sample from:</label>
+      <input type="text" id="add_video_sample_from_input">
+      <label>Topic:</label>
+      <select name="add_video_topic_select" id="add_video_topic_select" onchange="update_add_video_topic(this)">
+        <option selected="selected" value="0"></option>
+        <option value="1">Donnez n'importe quel élément de la chanson</option>
+        <option value="2">Donnez l'artiste de la chanson</option>
+        <option value="3">Donnez le titre de la chanson</option>
+        <option value="4">Donnez le nom de Album</option>
+        <option value="5">Donnez le nom du film</option>
+        <option value="6">Donnez le nom de la Serie TV</option>
+        <option value="7">Donnez tous les artistes de la chanson</option>
+        <option value="8">Donnez l'année</option>
+        <option value="9">Donnez l'artiste orginal</option>
+        <option value="10">Donnez l'artiste copieur</option>
+        <option value="11">Donnez le genre</option>
+      </select>
+      <label>Masked ID:</label>
+      <input type="text" id="add_video_masked_id_input">
+      <label>Temps de début:</label>
+      <select name="start_time_select" id="start_time_select" onchange="update_add_video_topic(this)">
+        <option selected="selected" value="0">0 sec</option>
+        <option value="10">10 sec</option>
+        <option value="20">20 sec</option>
+        <option value="30">30 sec</option>
+        <option value="40">40 sec</option>
+        <option value="50">50 sec</option>
+        <option value="60">60 sec</option>
+        <option value="70">70 sec</option>
+        <option value="80">80 sec</option>
+        <option value="90">90 sec</option>
+      </select>
+      <label>Database:</label>
+      <select name="database_1_select" id="database_1_select" onchange="update_add_video_topic(this)">
+        <option selected="selected" value=""></option>
+        <option value="africain">Africain</option>
+        <option value="animes">Animes</option>
+        <option value="asian">Asiatique</option>
+        <option value="bollywood">Bollywood</option>
+        <option value="dancehall">Dancehall</option>
+        <option value="electro_house_dance">Electro House Dance</option>
+        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
+        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
+        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
+        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
+        <option value="french">Francais</option>
+        <option value="french_old">Francais Ancien</option>
+        <option value="french_198x">Francais 198x</option>
+        <option value="french_199x">Francais 199x</option>
+        <option value="french_200x">Francais 200x</option>
+        <option value="french_201x">Francais 201x</option>
+        <option value="french_202x">Francais 202x</option>
+        <option value="funk_disco_19xx">Funk Disco 19xx</option>
+        <option value="funk_disco_20xx">Funk Disco 20xx</option>
+        <option value="jazz">Jazz</option>
+        <option value="latin">Latino</option>
+        <option value="oriental">Oriental</option>
+        <option value="pop">Pop</option>
+        <option value="pop_old">Pop Ancien</option>
+        <option value="pop_198x">Pop 198x</option>
+        <option value="pop_199x">Pop 199x</option>
+        <option value="pop_200x">Pop 200x</option>
+        <option value="pop_201x">Pop 201x</option>
+        <option value="pop_202x">Pop 202x</option>
+        <option value="rap">Rap</option>
+        <option value="rap_19xx">Rap 19xx</option>
+        <option value="rap_200x">Rap 200x</option>
+        <option value="rap_201x">Rap 201x</option>
+        <option value="rap_202x">Rap 202x</option>
+        <option value="reggae">Reggae</option>
+        <option value="reggaetton">Reggaetton</option>
+        <option value="rnb">R&B</option>
+        <option value="rnb_old">R&B Ancien</option>
+        <option value="rnb_199x">R&B 199x</option>
+        <option value="rnb_200x">R&B 200x</option>
+        <option value="rnb_201x">R&B 201x</option>
+        <option value="rnb_202x">R&B 202x</option>
+        <option value="rock">Rock</option>
+        <option value="sega">Sega</option>
+        <option value="soul">Soul</option>
+        <option value="soundtracks">Soundtracks</option>
+        <option value="tv_show">TV Show</option>
+        <option value="zouk">Zouk</option>
+        <option value="zouk_19xx">Zouk 19xx</option>
+        <option value="zouk_20xx">Zouk 20xx</option>
+      </select>
+      <select name="database_2_select" id="database_2_select" onchange="update_add_video_topic(this)">
+        <option selected="selected" value=""></option>
+        <option value="africain">Africain</option>
+        <option value="animes">Animes</option>
+        <option value="asian">Asiatique</option>
+        <option value="bollywood">Bollywood</option>
+        <option value="dancehall">Dancehall</option>
+        <option value="electro_house_dance">Electro House Dance</option>
+        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
+        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
+        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
+        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
+        <option value="french">Francais</option>
+        <option value="french_old">Francais Ancien</option>
+        <option value="french_198x">Francais 198x</option>
+        <option value="french_199x">Francais 199x</option>
+        <option value="french_200x">Francais 200x</option>
+        <option value="french_201x">Francais 201x</option>
+        <option value="french_202x">Francais 202x</option>
+        <option value="funk_disco_19xx">Funk Disco 19xx</option>
+        <option value="funk_disco_20xx">Funk Disco 20xx</option>
+        <option value="jazz">Jazz</option>
+        <option value="latin">Latino</option>
+        <option value="oriental">Oriental</option>
+        <option value="pop">Pop</option>
+        <option value="pop_old">Pop Ancien</option>
+        <option value="pop_198x">Pop 198x</option>
+        <option value="pop_199x">Pop 199x</option>
+        <option value="pop_200x">Pop 200x</option>
+        <option value="pop_201x">Pop 201x</option>
+        <option value="pop_202x">Pop 202x</option>
+        <option value="rap">Rap</option>
+        <option value="rap_19xx">Rap 19xx</option>
+        <option value="rap_200x">Rap 200x</option>
+        <option value="rap_201x">Rap 201x</option>
+        <option value="rap_202x">Rap 202x</option>
+        <option value="reggae">Reggae</option>
+        <option value="reggaetton">Reggaetton</option>
+        <option value="rnb">R&B</option>
+        <option value="rnb_old">R&B Ancien</option>
+        <option value="rnb_199x">R&B 199x</option>
+        <option value="rnb_200x">R&B 200x</option>
+        <option value="rnb_201x">R&B 201x</option>
+        <option value="rnb_202x">R&B 202x</option>
+        <option value="rock">Rock</option>
+        <option value="sega">Sega</option>
+        <option value="soul">Soul</option>
+        <option value="soundtracks">Soundtracks</option>
+        <option value="tv_show">TV Show</option>
+        <option value="zouk">Zouk</option>
+        <option value="zouk_19xx">Zouk 19xx</option>
+        <option value="zouk_20xx">Zouk 20xx</option>
+      </select>
+      <select name="database_3_select" id="database_3_select" onchange="update_add_video_topic(this)">
+        <option selected="selected" value=""></option>
+        <option value="africain">Africain</option>
+        <option value="animes">Animes</option>
+        <option value="asian">Asiatique</option>
+        <option value="bollywood">Bollywood</option>
+        <option value="dancehall">Dancehall</option>
+        <option value="electro_house_dance">Electro House Dance</option>
+        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
+        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
+        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
+        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
+        <option value="french">Francais</option>
+        <option value="french_old">Francais Ancien</option>
+        <option value="french_198x">Francais 198x</option>
+        <option value="french_199x">Francais 199x</option>
+        <option value="french_200x">Francais 200x</option>
+        <option value="french_201x">Francais 201x</option>
+        <option value="french_202x">Francais 202x</option>
+        <option value="funk_disco_19xx">Funk Disco 19xx</option>
+        <option value="funk_disco_20xx">Funk Disco 20xx</option>
+        <option value="jazz">Jazz</option>
+        <option value="latin">Latino</option>
+        <option value="oriental">Oriental</option>
+        <option value="pop">Pop</option>
+        <option value="pop_old">Pop Ancien</option>
+        <option value="pop_198x">Pop 198x</option>
+        <option value="pop_199x">Pop 199x</option>
+        <option value="pop_200x">Pop 200x</option>
+        <option value="pop_201x">Pop 201x</option>
+        <option value="pop_202x">Pop 202x</option>
+        <option value="rap">Rap</option>
+        <option value="rap_19xx">Rap 19xx</option>
+        <option value="rap_200x">Rap 200x</option>
+        <option value="rap_201x">Rap 201x</option>
+        <option value="rap_202x">Rap 202x</option>
+        <option value="reggae">Reggae</option>
+        <option value="reggaetton">Reggaetton</option>
+        <option value="rnb">R&B</option>
+        <option value="rnb_old">R&B Ancien</option>
+        <option value="rnb_199x">R&B 199x</option>
+        <option value="rnb_200x">R&B 200x</option>
+        <option value="rnb_201x">R&B 201x</option>
+        <option value="rnb_202x">R&B 202x</option>
+        <option value="rock">Rock</option>
+        <option value="sega">Sega</option>
+        <option value="soul">Soul</option>
+        <option value="soundtracks">Soundtracks</option>
+        <option value="tv_show">TV Show</option>
+        <option value="zouk">Zouk</option>
+        <option value="zouk_19xx">Zouk 19xx</option>
+        <option value="zouk_20xx">Zouk 20xx</option>
+      </select>
+      <select name="database_4_select" id="database_4_select" onchange="update_add_video_topic(this)">
+        <option selected="selected" value=""></option>
+        <option value="africain">Africain</option>
+        <option value="animes">Animes</option>
+        <option value="asian">Asiatique</option>
+        <option value="bollywood">Bollywood</option>
+        <option value="dancehall">Dancehall</option>
+        <option value="electro_house_dance">Electro House Dance</option>
+        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
+        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
+        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
+        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
+        <option value="french">Francais</option>
+        <option value="french_old">Francais Ancien</option>
+        <option value="french_198x">Francais 198x</option>
+        <option value="french_199x">Francais 199x</option>
+        <option value="french_200x">Francais 200x</option>
+        <option value="french_201x">Francais 201x</option>
+        <option value="french_202x">Francais 202x</option>
+        <option value="funk_disco_19xx">Funk Disco 19xx</option>
+        <option value="funk_disco_20xx">Funk Disco 20xx</option>
+        <option value="jazz">Jazz</option>
+        <option value="latin">Latino</option>
+        <option value="oriental">Oriental</option>
+        <option value="pop">Pop</option>
+        <option value="pop_old">Pop Ancien</option>
+        <option value="pop_198x">Pop 198x</option>
+        <option value="pop_199x">Pop 199x</option>
+        <option value="pop_200x">Pop 200x</option>
+        <option value="pop_201x">Pop 201x</option>
+        <option value="pop_202x">Pop 202x</option>
+        <option value="rap">Rap</option>
+        <option value="rap_19xx">Rap 19xx</option>
+        <option value="rap_200x">Rap 200x</option>
+        <option value="rap_201x">Rap 201x</option>
+        <option value="rap_202x">Rap 202x</option>
+        <option value="reggae">Reggae</option>
+        <option value="reggaetton">Reggaetton</option>
+        <option value="rnb">R&B</option>
+        <option value="rnb_old">R&B Ancien</option>
+        <option value="rnb_199x">R&B 199x</option>
+        <option value="rnb_200x">R&B 200x</option>
+        <option value="rnb_201x">R&B 201x</option>
+        <option value="rnb_202x">R&B 202x</option>
+        <option value="rock">Rock</option>
+        <option value="sega">Sega</option>
+        <option value="soul">Soul</option>
+        <option value="soundtracks">Soundtracks</option>
+        <option value="tv_show">TV Show</option>
+        <option value="zouk">Zouk</option>
+        <option value="zouk_19xx">Zouk 19xx</option>
+        <option value="zouk_20xx">Zouk 20xx</option>
+      </select>
+      <select name="database_5_select" id="database_5_select" onchange="update_add_video_topic(this)">
+        <option selected="selected" value=""></option>
+        <option value="africain">Africain</option>
+        <option value="animes">Animes</option>
+        <option value="asian">Asiatique</option>
+        <option value="bollywood">Bollywood</option>
+        <option value="dancehall">Dancehall</option>
+        <option value="electro_house_dance">Electro House Dance</option>
+        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
+        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
+        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
+        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
+        <option value="french">Francais</option>
+        <option value="french_old">Francais Ancien</option>
+        <option value="french_198x">Francais 198x</option>
+        <option value="french_199x">Francais 199x</option>
+        <option value="french_200x">Francais 200x</option>
+        <option value="french_201x">Francais 201x</option>
+        <option value="french_202x">Francais 202x</option>
+        <option value="funk_disco_19xx">Funk Disco 19xx</option>
+        <option value="funk_disco_20xx">Funk Disco 20xx</option>
+        <option value="jazz">Jazz</option>
+        <option value="latin">Latino</option>
+        <option value="oriental">Oriental</option>
+        <option value="pop">Pop</option>
+        <option value="pop_old">Pop Ancien</option>
+        <option value="pop_198x">Pop 198x</option>
+        <option value="pop_199x">Pop 199x</option>
+        <option value="pop_200x">Pop 200x</option>
+        <option value="pop_201x">Pop 201x</option>
+        <option value="pop_202x">Pop 202x</option>
+        <option value="rap">Rap</option>
+        <option value="rap_19xx">Rap 19xx</option>
+        <option value="rap_200x">Rap 200x</option>
+        <option value="rap_201x">Rap 201x</option>
+        <option value="rap_202x">Rap 202x</option>
+        <option value="reggae">Reggae</option>
+        <option value="reggaetton">Reggaetton</option>
+        <option value="rnb">R&B</option>
+        <option value="rnb_old">R&B Ancien</option>
+        <option value="rnb_199x">R&B 199x</option>
+        <option value="rnb_200x">R&B 200x</option>
+        <option value="rnb_201x">R&B 201x</option>
+        <option value="rnb_202x">R&B 202x</option>
+        <option value="rock">Rock</option>
+        <option value="sega">Sega</option>
+        <option value="soul">Soul</option>
+        <option value="soundtracks">Soundtracks</option>
+        <option value="tv_show">TV Show</option>
+        <option value="zouk">Zouk</option>
+        <option value="zouk_19xx">Zouk 19xx</option>
+        <option value="zouk_20xx">Zouk 20xx</option>
+      </select>
+      <form id="video_to_db_form" method="POST" action="#">
+        <button type="submit" id="video_to_db_button"> Add Video </button>
+      </form>
+    </div>
+    <script>
+        function update_expected_answer(element)
+        {
+            var idx=element.selectedIndex;
+            var val=element.options[idx].value;
+            var content=element.options[idx].innerHTML;
+            // alert(val + " " + content);
+        }
+        function update_add_video_topic(element)
+        {
+            var idx=element.selectedIndex;
+            var val=element.options[idx].value;
+            var content=element.options[idx].innerHTML;
+            // alert(val + " " + content);
+        }
+
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        // var player;
+        // function onYouTubeIframeAPIReady() {
+            // player = new YT.Player('player', {
+                // height: '390',
+                // width: '640',
+                // videoId: document.getElementById("youtube_link").value,
+                // events: {
+                    // 'onStateChange': onPlayerStateChange
+                // }
+            // });
+            // player.PlayerState = YT.PlayerState.ENDED;
+        // }
+        // function onPlayerReady(event) {
+            // alert("body script onPlayerReady play video");
+            // event.target.playVideo();
+        // }
+        var done = false;
+        // function onPlayerStateChange(event) {
+            // if (event.data == YT.PlayerState.PLAYING && !done) {
+                // done = true;
+            // }
+        // }
+        function checkAudio() {
+            if(good_answer_audio.paused === false) {
+                window.setTimeout(checkAudio, 100); /* this checks the flag every 100 milliseconds*/
+            } else {
+                console.log("good_answer_audio finished");
+                var question_audio = document.getElementById('question_audio');
+                var question_audio_src = document.getElementById('question_audio_src');
+                let question_audio_current_time;
+                const name = "question_audio_current_time=";
+                const cDecoded = decodeURIComponent(document.cookie); //to be careful
+                const cArr = cDecoded .split('; ');
+                // let res;
+                cArr.forEach(val => {
+                    if (val.indexOf(name) === 0) question_audio_current_time = val.substring(name.length);
+                })
+                console.log("question_audio_current_time is " + question_audio_current_time);
+                question_audio.load();
+                question_audio.currentTime = parseFloat(question_audio_current_time);
+                question_audio.play();
+            }
+        }
+    </script>
+  </body>
+</html>

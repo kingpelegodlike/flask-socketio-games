@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="{{ url_for('static',filename='dist/libs/jquery.js') }}"></script>
+    <script src="{{ url_for('static',filename='dist/libs/socket.io.min.js') }}"></script>
+    
+    <title>Blind Test Players Board</title>
+
+    <style>
+      /* Styles pour le tableau de bord */
+      body {
+          font-family: Arial, sans-serif;
+          margin: 20px;
+          text-align: center;
+          background-color: #f4f4f4;
+      }
+      h1, h2, h3 {
+          color: #2c3e50;
+          margin-bottom: 5px;
+      }
+      #players_table {
+          width: 80%;
+          margin: 20px auto;
+          border-collapse: collapse;
+          font-size: 1.2em;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          background-color: white;
+      }
+      #players_table th, #players_table td {
+          border: 1px solid #ddd;
+          padding: 12px;
+          text-align: left;
+      }
+      #players_table th {
+          background-color: #34495e;
+          color: white;
+          text-transform: uppercase;
+      }
+      /* Styles des statuts pour une meilleure lisibilité */
+      .status_cell {
+          font-weight: bold;
+          text-align: center;
+          border-radius: 4px;
+          padding: 5px;
+      }
+      .status_ready { background-color: #3498db; color: white; }
+      .status_playing { background-color: #2ecc71; color: white; }
+      .status_waiting { background-color: #f1c40f; color: #333; }
+      .status_win { background-color: #27ae60; color: white; }
+      .status_lose { background-color: #e74c3c; color: white; }
+      .status_answer { background-color: #f39c12; color: white; }
+    </style>
+
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function() {
+            namespace = '/blind_test_ui_yt';
+            var good_answer_audio = document.getElementById('good_answer_audio');
+            var good_answer_audio_src = document.getElementById('good_answer_audio_src');
+            var wrong_answer_audio = document.getElementById('wrong_answer_audio');
+            var wrong_answer_audio_src = document.getElementById('wrong_answer_audio_src');
+            var waiting_answer_audio = document.getElementById('waiting_answer_audio');
+            var waiting_answer_audio_src = document.getElementById('waiting_answer_audio_src');
+            var question_type = "";
+            var video_current_time = 0.0;
+            var socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port + namespace);
+            socket.emit('get_players');
+            
+            // Fonction pour trier le tableau par score (DESCENDANT)
+            function sortScoreboard() {
+                var tbody = $('#players_table tbody');
+                var rows = tbody.find('tr').get();
+                
+                rows.sort(function(a, b) {
+                    // Récupère le score depuis l'attribut data-score
+                    var scoreA = parseInt($(a).attr('data-score') || 0);
+                    var scoreB = parseInt($(b).attr('data-score') || 0);
+                    // Tri descendant (score le plus élevé en premier)
+                    return scoreB - scoreA;
+                });
+                
+                // Ré-ajoute les lignes triées au tableau
+                $.each(rows, function(index, row) {
+                    tbody.append(row);
+                });
+            }
+
+
+            socket.on('add_player', function(msg) {
+                var playerName = msg.player_name;
+                var initialScore = msg.player_score || 0;
+                
+                // Crée la nouvelle ligne de tableau
+                var row = '<tr class="players_tr" data-player-name="'+playerName+'" data-score="'+initialScore+'">';
+                row += '<td class="players_td">'+playerName+'</td>';
+                row += '<td class="players_td score_cell">'+initialScore+' points</td>';
+                row += '<td class="players_td status_cell status_waiting">EN ATTENTE</td>';
+                row += '</tr>';
+                
+                $('#players_table > tbody').append(row);
+                
+                // Trie le tableau après l'ajout
+                sortScoreboard();
+
+                // Suppression de toute la logique gérant les DIVs rigides (player_1_div, etc.)
+            });
+            
+            socket.on('update_score_player', function(msg) {
+                var playerName = msg.player_name;
+                var newScore = msg.score;
+                
+                // 1. Mettre à jour le joueur gagnant
+                $('#players_table tbody tr[data-player-name="' + playerName + '"]').each(function() {
+                    var $row = $(this);
+                    
+                    // Mise à jour de l'attribut de score pour le tri
+                    $row.attr('data-score', newScore);
+                    // Mise à jour de l'affichage du score
+                    $row.find('td').eq(1).html(newScore + " points");
+                    
+                    // Mise à jour du statut
+                    $row.find('td').eq(2).html("GAGNE").removeClass().addClass('players_td status_cell status_win');
+                });
+                
+                // 2. Mettre à jour le statut des autres joueurs (PERD)
+                $('#players_table tbody tr').each(function() {
+                    var $row = $(this);
+                    var name = $row.attr('data-player-name');
+                    // Si ce n'est pas le joueur qui vient de gagner
+                    if (name !== playerName) {
+                        // Mettre à jour le statut à "PERD"
+                        $row.find('td').eq(2).html("PERD").removeClass().addClass('players_td status_cell status_lose');
+                    }
+                });
+                
+                // 3. Trier le tableau après la mise à jour des scores
+                sortScoreboard();
+            });
+            
+            socket.on('del_player', function(msg) {
+                // Supprimer la ligne du joueur
+                $('#players_table tbody tr[data-player-name="' + msg.player_name + '"]').remove();
+            });
+
+            socket.on('is_players_ready', function(msg) {
+              // Mettre tous les joueurs à "PAS PRÊT"
+              $('#players_table tbody tr').each(function() {
+                $(this).find('td').eq(2).html("PAS PRÊT").removeClass().addClass('players_td status_cell status_waiting');
+              });
+            });
+            
+            socket.on('set_player_ready', function(msg) {
+                // Mettre le joueur spécifié à "PRÊT"
+                $('#players_table tbody tr[data-player-name="' + msg.player_name + '"]').each(function() {
+                    $(this).find('td').eq(2).html("PRÊT").removeClass().addClass('players_td status_cell status_ready');
+                });
+            });
+            
+            // Les événements suivants sont mis à jour pour cibler la table
+            
+            socket.on('waiting_players_answer', function(msg) {
+                if ("topic" in msg) {
+                  document.getElementById("topic_label").innerHTML = msg.topic;
+                }
+                $('#players_table tbody tr').each(function() { 
+                    var identifiant = $(this).attr('data-player-name');
+                    var $statusCell = $(this).find('td').eq(2);
+                    
+                    if (msg.player_name_list.includes(identifiant)) {
+                        $statusCell.html("PARTIE EN COURS").removeClass().addClass('players_td status_cell status_playing');
+                    } else {
+                        $statusCell.html("ÉLIMINÉ").removeClass().addClass('players_td status_cell status_lose');
+                    }
+                });
+            });
+            
+            socket.on('good_answer', function(msg) {
+                good_answer_audio.load();
+                good_answer_audio.play();
+            });
+            
+            socket.on('wrong_answer', function(msg) {
+                wrong_answer_audio.load();
+                wrong_answer_audio.play();
+            });
+            
+            socket.on('set_answer', function(msg) {
+                question_type = msg.question_type;
+                if (msg.youtube_answer_id != "") {
+                    document.getElementById("youtube_link").value = msg.youtube_answer_id;
+                }
+            });
+            
+            socket.on('play_question', function(msg) {
+                if (question_type == "mp3") {
+                    var my_file_input = document.getElementById("my_file");
+                    var fileObj = my_file_input.files[0];
+                    var file = URL.createObjectURL(fileObj); 
+                    question_audio.pause();
+                    question_audio.currentTime = 0;
+                    question_audio_src.src = file;
+                    question_audio.load();
+                    question_audio.play();
+                }
+                if (question_type == "youtube") {
+                    // alert("on play_question play video");
+                    var video_id = document.getElementById("youtube_link").value;
+                    // video_current_time = 0.0;
+                    video_current_time = parseFloat(msg.start_time);
+                    // alert("on play_question play video at " + video_current_time);
+                    player.loadVideoById(video_id, video_current_time);
+                }
+                if (question_type == "youtube_suite") {
+                    // alert("on play_question play video");
+                    var video_id = document.getElementById("youtube_link").value;
+                    // video_current_time = 0.0;
+                    video_current_time = parseFloat(msg.start_time);
+                    // alert("on play_question play video id " + video_id + " at " + video_current_time);
+                    player.loadVideoById(video_id, video_current_time);
+                    // player.playVideo();
+                    // player.unMute();
+                }
+            });
+            
+            socket.on('waiting_player', function(msg) {
+                $('#players_table tbody tr').each(function() { 
+                    var identifiant = $(this).attr('data-player-name');
+                    var $statusCell = $(this).find('td').eq(2);
+                    
+                    if (identifiant === msg.player_name) {
+                        $statusCell.html("DOIT RÉPONDRE").removeClass().addClass('players_td status_cell status_answer');
+                    } else {
+                        $statusCell.html("ATTENTE RÉPONSE").removeClass().addClass('players_td status_cell status_playing');
+                    }
+                });
+                waiting_answer_audio.load();
+                waiting_answer_audio.play();
+            });
+            
+            socket.on('pause_blind_test', function(msg) {
+                if (question_type == "mp3") {
+                  question_audio.pause();
+                }
+                if (question_type.startsWith("youtube")) {
+                  var video_id = document.getElementById("youtube_link").value;
+                  video_current_time = player.getCurrentTime();
+                  // alert("video current time is " + video_current_time);
+                  player.cueVideoById(video_id, video_current_time);
+                }
+            });
+            
+            socket.on('resume_blind_test', function(msg) {
+                if (question_type == "mp3") {
+                  question_audio.pause();
+                }
+                if (question_type.startsWith("youtube")) {
+                  var video_id = document.getElementById("youtube_link").value;
+                  // alert("video current time is " + video_current_time);
+                  player.loadVideoById(video_id, video_current_time);
+                }
+            });
+
+            socket.on('end_game', function(msg) {
+              $('#players_table tbody tr').each(function() {
+                $(this).find('td').eq(2).html("ATTENDS NOUVELLE QUESTION").removeClass().addClass('players_td status_cell status_ready');
+              });
+              if (question_type == "mp3") {
+                question_audio.pause();
+                question_audio.currentTime = 0;
+              }
+              if (question_type.startsWith("youtube")) {
+                document.getElementById("youtube_link").value = "";
+                player.stopVideo();
+              }
+            });
+
+            socket.on('game_status', function(msg) {
+                if ("status" in msg) {
+                  document.getElementById("game_status_label").innerHTML = msg.status;
+                }
+            });
+            
+            // Tous les autres événements qui manipulent les statuts des joueurs ont été mis à jour pour cibler la table.
+            
+            // Suppression de toute la logique gérant les DIVs rigides (player_1_div, etc.)
+        });
+    </script>
+
+  </head>
+  <body>
+    <h1>Blind Test Players Board</h1>
+    <h2>Thème: <label name="topic_label" id="topic_label"></label></h2>
+    <h3>État du jeu: <label name="game_status_label" id="game_status_label"></label></h3>
+
+    <div>
+      <!-- <audio id="question_audio"><source  id="question_audio_src" src=""></source></audio> -->
+      <audio id="waiting_answer_audio"><source  id="waiting_answer_audio_src" src="{{ url_for('static',filename='sounds/buzz.wav') }}"></source></audio>
+      <audio id="good_answer_audio"><source  id="good_answer_audio_src" src="{{ url_for('static',filename='sounds/correct_answer.wav') }}"></source></audio>
+      <audio id="wrong_answer_audio"><source  id="wrong_answer_audio_src" src="{{ url_for('static',filename='sounds/wrong_answer.wav') }}"></source></audio>
+    </div>
+    
+    <div id="players">
+        <table id="players_table" class="players_table">
+            <caption class="players_caption">Joueurs</caption>
+            <thead class="players_thead">
+                <tr class="players_tr">
+                    <th class="players_th">Nom</th>
+                    <th class="players_th">Score</th>
+                    <th class="players_th">Statut</th>
+                </tr>
+            </thead>
+            <tbody class="players_body">
+            </tbody>
+        </table>
+        <label name="players_console" id="players_console">&nbsp;</label>
+    </div>
+    <div id="qrcode_div">
+      <!-- <input id="qrcode_label" onchange="UpdateQRCode(this.value)" size="30" value="Scanner le QR code pour jouer"/><br>
+      <iframe id="qrcode" src="" width="250" height="250"></iframe> -->
+      <img src="/static/qrcode.png"><br>Scanner le QR code pour jouer</img>
+    </div>
+    <div id="youtube">
+        <!-- <input type="text" id="youtube_link" style="display:none;"> -->
+        <input type="text" id="youtube_link">
+        <button id="hide_or_show_youtube_div_button" onclick="hideOrShowYoutubeDiv()">hide</button>
+        <div id="video-placeholder" style="display:inline-block;">
+          <iframe id="player" type="text/html" width="1280" height="720"
+                  src="http://www.youtube.com/embed/KDPhIQcaovQ?enablejsapi=1&mute=1"
+                  frameborder="0">
+          </iframe>
+        </div>
+    </div>
+  </body>
+  <script>
+      function UpdateQRCode(val){
+          document.getElementById("qrcode").setAttribute("src","https://api.mimfa.net/qrcode?value="+encodeURIComponent(location.protocol + '//' + location.host + '/blind_test_login')+"&as=value");
+      }
+
+        function hideOrShowYoutubeDiv() {
+          // var x = document.getElementById("youtube");
+          var x = document.getElementById("video-placeholder");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+            document.getElementById("hide_or_show_youtube_div_button").innerHTML = "hide";
+          } else {
+            x.style.display = "none";
+            document.getElementById("hide_or_show_youtube_div_button").innerHTML = "show";
+          }
+        }
+
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        var player;
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+                height: '720',
+                width: '1280',
+                videoId: document.getElementById("youtube_link").value,
+                events: {
+                    'onReady': onPlayerReady,
+                    'onStateChange': onPlayerStateChange,
+                    'onError': onPlayerError
+                }
+            });
+            player.PlayerState = YT.PlayerState.ENDED;
+        }
+        function onPlayerReady(event) {
+            // alert("body script onPlayerReady play video");
+            event.target.playVideo();
+        }
+        var done = false;
+        function onPlayerStateChange(event) {
+            if (event.data == YT.PlayerState.PLAYING && !done) {
+                //setTimeout(stopVideo, 6000);
+                done = true;
+            }
+        }
+        function onPlayerError(event) {
+            // Error codes:
+            // 2 – Invalid parameter
+            // 5 – HTML5 player error
+            // 100 – Video not found / Private
+            // 101 or 150 – Embedding disabled by owner
+            var errorCode = event.data;
+            console.log("Error detected: " + errorCode);
+            
+            console.log("Video id " + document.getElementById("youtube_link").value + " unavailable, skipping...");
+            // socket.emit('video_error_skip_request'); // Tell server to skip to next song
+        }
+    //   document.addEventListener("DOMContentLoaded", function(){
+    //       UpdateQRCode(document.getElementById("qrcode").value);
+    //   });
+  </script>
+</html>

@@ -1,0 +1,105 @@
+{
+    "yt": {
+        "1": {
+            "id": "YwedGlEX02k",
+            "artists": "Maxim Nucci; Ginie Line",
+            "title": "A Ceux Qu'on Aime",
+            "album": "Alive Bande Originale",
+            "year": "2004",
+            "genders": "Chanson Francaise; Pop; Soundtrack",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez le titre de la chanson",
+            "masked_id": ""
+        },
+        "2": {
+            "id": "C_l54lHAmLU",
+            "artists": "Pascal Obispo; Natasha St Pier",
+            "title": "Mourir Demain",
+            "album": "",
+            "year": "2004",
+            "genders": "Chanson Francaise; Pop; Rock",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez tous les artistes de la chanson",
+            "masked_id": ""
+        },
+        "3": {
+            "id": "2_jm5xcm-bY",
+            "artists": "Zaz",
+            "title": "Toute ma vie",
+            "album": "Effet miroir",
+            "year": "2018",
+            "genders": "Pop; Rock; Chanson Francaise",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": ""
+        },
+        "4": {
+            "id": "tj5RqZpEnGk",
+            "artists": "Sinclair",
+            "title": "A la vitesse du soleil",
+            "album": "Supernova Superstar",
+            "year": "2001",
+            "genders": "Pop; Chanson Francaise",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "5": {
+            "id": "p4io1b_H2Cc",
+            "artists": "Sinclair",
+            "title": "Comme je suis",
+            "album": "Comme je suis",
+            "year": "2004",
+            "genders": "Pop; Chanson Francaise",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "6": {
+            "id": "AQgXByUHhRw",
+            "artists": "Christophe Willem",
+            "title": "Double Je",
+            "album": "Inventaire",
+            "year": "2007",
+            "genders": "House; Chanson Francaise; Pop",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "7": {
+            "id": "U8DD1c24bwk",
+            "artists": "Yannick Noah",
+            "title": "Aux Arbres Citoyens",
+            "album": "Charango",
+            "year": "2006",
+            "genders": "Pop; Chanson Francaise",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "8": {
+            "id": "pgviOQdzHoA",
+            "artists": "Yannick Noah",
+            "title": "La Voix Des Sages",
+            "album": "Simon Papa Tara",
+            "year": "2000",
+            "genders": "Pop; Reggae; Chanson Francaise",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": "",
+            "start_time": "0"
+        }
+    }
+}

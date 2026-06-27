@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+  
+<html>
+<head>
+    <title>Buzzer Blind Test Circulaire Max</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
+    <script type="text/javascript" src="{{ url_for('static',filename='dist/libs/jquery.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static',filename='dist/libs/socket.io.min.js') }}"></script>
+    
+    <style>
+        /* CSS AJUSTÉ POUR LE PLEIN ÉCRAN ET LA CIRCULARITÉ */
+        html, body {
+            height: 100%; /* Important pour que 100vh fonctionne */
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Empêche les barres de défilement */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #2c3e50;
+            font-family: Arial, sans-serif;
+        }
+
+        #buzzer-container {
+            /* Conteneur pour s'assurer que le bouton est centré */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        #bouton1 {
+            /* Largeur et hauteur égales utilisant 90% de la plus petite dimension (vmin) */
+            /* C'est ce qui garantit qu'il reste un cercle MAXIMAL */
+            width: 90vmin;
+            height: 90vmin;
+            
+            /* Les max-size garantissent qu'il ne dépasse pas 90% du viewport */
+            max-width: 90vw;
+            max-height: 90vh;
+            
+            border-radius: 50%; /* Essentiel pour la forme circulaire */
+            
+            /* Styles du Buzzer */
+            background-color: #e74c3c !important; /* Rouge par défaut */
+            border: 20px solid #c0392b; /* Bordure épaisse */
+            color: white;
+            cursor: pointer;
+            outline: none;
+            transition: background-color 0.1s, transform 0.1s, box-shadow 0.1s;
+            box-shadow: 0 15px #a03022; /* Ombre pour l'effet 3D */
+            
+            /* CENTRAGE DU TEXTE */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 5%; 
+        }
+
+        #bouton1:active:not(:disabled) {
+            box-shadow: 0 5px #a03022;
+            transform: translateY(10px);
+        }
+        
+        #bouton1:disabled {
+            cursor: not-allowed;
+            opacity: 0.8;
+            background-color: #95a5a6 !important; /* Gris si désactivé */
+            border-color: #7f8c8d;
+            box-shadow: 0 15px #666;
+            transform: translateY(0);
+        }
+
+        #buzzer-text {
+            /* Taille de police proportionnelle à la taille du bouton */
+            font-size: 8vmin; 
+            font-weight: bold;
+            line-height: 1.2;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        #status-message {
+            position: absolute;
+            bottom: 10px;
+            color: #ecf0f1;
+            font-size: 1em;
+        }
+    </style>
+
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function() {
+            // Utilisation des variables d'état et de Socket.IO existantes
+            namespace = '/blind_test_buz';
+            var socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port + namespace);
+            
+            var play_timeout = 10000;
+            var name = "unknown";
+            var status = "deactiv_buttons";
+            var answer = "aucune";
+            var timeout_var_function;
+            var start_time;
+            var endTime;
+            
+            getParameterByName('new_name');
+            
+            // RÉFÉRENCES JQUERY
+            var $buzzer = $('#bouton1');
+            var $buzzerText = $('#buzzer-text');
+            var $statusMessage = $('#status-message');
+            
+            // --- GESTION DES ÉVÉNEMENTS SOCKET.IO (LOGIQUE DE JEU) ---
+            
+            socket.on('ready_to_play', function(msg) {
+                console.log("ready_to_play");
+                $buzzer.removeAttr('disabled');
+                status = msg.action;
+                $buzzerText.text(('b1' in msg) ? msg.b1 : "PRÊT À BUZZER");
+                $statusMessage.text("Statut : " + status.replace('_', ' ').toUpperCase());
+            });
+            
+            socket.on('play_blind_test', function(msg) {
+                console.log("play_blind_test");
+                player_name_list = msg.player_name_list;
+                if ( player_name_list.includes(name) ) {
+                    $buzzer.removeAttr('disabled');
+                    status = msg.action;
+                    $buzzerText.text(('b1' in msg) ? msg.b1 : "BUZZER!");
+                    $statusMessage.text("Statut : " + status.replace('_', ' ').toUpperCase());
+                }
+            });
+            
+            socket.on('pause_blind_test', function(msg) {
+                console.log("pause_blind_test");
+                player_name_list = msg.player_name_list;
+                if ( player_name_list.includes(name) ) {
+                    $buzzer.attr('disabled','disabled');
+                    status = msg.action;
+                    $buzzerText.text(('b1' in msg) ? msg.b1 : "PAUSE");
+                    $statusMessage.text("Statut : " + status.replace('_', ' ').toUpperCase());
+                }
+            });
+            
+            socket.on('end_game', function(msg) {
+                console.log("end_game");
+                $buzzer.attr('disabled','disabled');
+                status = "end_game";
+                $buzzerText.text(('b1' in msg) ? msg.b1 : "FIN DU JEU");
+                $statusMessage.text("Statut : " + status.replace('_', ' ').toUpperCase());
+            });
+            
+            socket.on('my_response', function(msg) {
+                console.log("receveive ", msg.action);
+                
+                if ( msg.action == "activ_all_buttons" || msg.action == "get_players") {
+                    $buzzer.removeAttr('disabled');
+                    status = msg.action;
+                } else if ( msg.action == "next_question" ) {
+                    status = msg.action;
+                    answer = ('answer' in msg) ? msg.answer : "aucune";
+                    play_timeout = ('timeout' in msg) ? msg.timeout : 10000;
+                    timeout_var_function = setTimeout(timeoutFunction, play_timeout);
+                    start_time = new Date();
+                    endTime = new Date(start_time.getTime() + play_timeout);
+                } else if ( msg.action == "clear_timeout" ) {
+                    clearTimeout(timeout_var_function);
+                    timeoutFunction();
+                } else if ( msg.action == "deactiv_buttons" || msg.action == "deactiv_button1" ) {
+                    $buzzer.attr('disabled','disabled');
+                    status = msg.action;
+                }
+                
+                $buzzerText.text(('b1' in msg) ? msg.b1 : "BUZZER");
+                $statusMessage.text("Statut : " + status.replace('_', ' ').toUpperCase());
+            });
+            
+            socket.on('disable_button', function(msg) {
+                if ( msg.number == "1" ) {
+                    $buzzer.attr('disabled','disabled');
+                }
+            });
+            
+            // --- GESTION DU CLIC ---
+            
+            document.body.addEventListener("click", event => {
+                // Vérifie si l'élément cliqué ou son parent est le bouton (pour capturer le clic sur le texte interne)
+                if (event.target.id == "bouton1" || event.target.parentNode.id == "bouton1") {
+                    console.log("Clicked", event.target.id);
+                    
+                    if (status == "next_question") {
+                        $buzzer.attr('disabled','disabled');
+                        // Calcul du temps de réaction
+                        start_time = new Date();
+                        var timeDiff = endTime - start_time;
+                        var play_time = ((play_timeout - timeDiff) / 1000).toFixed(3);
+                        // Affichage du nom du joueur et du temps dans le buzzer
+                        $buzzerText.text(name + "\n" + play_time + "s");
+                    }
+                    
+                    // Émission de l'événement au serveur
+                    socket.emit('bouton_click_event', {data: "bouton1", time: play_time, name: name, status: status});
+                }
+            });
+            
+            // --- FONCTIONS EXISTANTES ---
+            
+            function timeoutFunction() {
+                console.log("trigger timeoutFunction with answer:" + answer);
+                $buzzer.attr('disabled','disabled');
+            }
+            
+            function sleepFunction() {
+                // Fonction non utilisée
+            }
+            
+            function getParameterByName(new_name, url) {
+                if (!url) url = window.location.href;
+                new_name = new_name.replace(/[\[\]]/g, '\\$&');
+                console.log("New name : " + new_name);
+                var regex = new RegExp('[?&]' + new_name + '(=([^&#]*)|&|#|$)'),
+                    results = regex.exec(url);
+                // CAS 1: Nom trouvé dans l'URL (Première connexion)
+                if (results && results[2]) {
+                    name = decodeURIComponent(results[2].replace(/\+/g, ' '));
+                    
+                    // Sauvegarde dans le stockage de session (pour les rafraîchissements)
+                    console.log("Save session player name : " + name);
+                    sessionStorage.setItem('blind_test_player_name', name);
+                    
+                    // Nettoyage de l'URL
+                    var rtn = url.split("?")[0];
+                    window.history.pushState({}, document.title, rtn);
+                    window.history.replaceState({}, document.title, rtn);
+                    status = "WAIT PLAYERS AND GAME START";
+                    document.getElementById("buzzer-text").innerHTML = name;
+                    document.getElementById("status-message").innerHTML = status ;
+                    
+                    socket.emit('add_player', {name: name});
+                    return '';
+                } 
+                // CAS 2: Pas de nom dans l'URL (Rafraîchissement probable)
+                else {
+                    var storedName = sessionStorage.getItem('blind_test_player_name');
+                    if (storedName) {
+                        name = storedName;
+                        console.log("Nom récupéré après refresh : " + name);
+                        status = "WAIT PLAYERS AND GAME START";
+                        document.getElementById("buzzer-text").innerHTML = name;
+                        document.getElementById("status-message").innerHTML = status ;
+                        socket.emit('add_player', {name: name});
+                    }
+                    return null;
+                }
+            }
+        });
+    </script>
+
+<body>
+    <div id="buzzer-container">
+        <button type="button" disabled id="bouton1">
+            <span id="buzzer-text">ROUGE</span>
+        </button>
+    </div>
+    <p id="status-message">Statut : Initialisation...</p>
+</body>
+</html>

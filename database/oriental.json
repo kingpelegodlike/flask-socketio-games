@@ -1,0 +1,142 @@
+{
+    "yt": {
+        "1": {
+            "id": "Ynt4sbzAxLU",
+            "artists": "Magic System; 113; Mohamed Lamine",
+            "title": "Un Gaou A Oran",
+            "album": "Rai N'B Fever",
+            "year": "2004",
+            "genders": "Africain; Oriental",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": ""
+        },
+        "2": {
+            "id": "C_dfLy58mrE",
+            "artists": "Magic System; Big Ali; Bilal; Akil",
+            "title": "C Cho Ca Brule",
+            "album": "Rai N'B Fever 2",
+            "year": "2006",
+            "genders": "Africain Oriental",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez le titre de la chanson",
+            "masked_id": ""
+        },
+        "3": {
+            "id": "pBjUc3lpdAg",
+            "artists": "Mohamed Lamine; Mokobe; Mory Kante",
+            "title": "African Tonik",
+            "album": "",
+            "year": "2008",
+            "genders": "Africain; Electro; Rai",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": ""
+        },
+        "4": {
+            "id": "wAqTaGl2kIc",
+            "artists": "Khaled",
+            "title": "C'est La Vie",
+            "album": "C'est La Vie",
+            "year": "2012",
+            "genders": "Pop Oriental",
+            "sampled_by": "Marc Anthony - Vivir Mi Vida",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": ""
+        },
+        "5": {
+            "id": "DORHU1KVXrU",
+            "artists": "Amir Jamal",
+            "title": "Kaho Na Kaho",
+            "album": "Murder Soundtrack",
+            "year": "2004",
+            "genders": "Indian Song; Soundtrack; Oriental",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez le nom du film",
+            "masked_id": ""
+        },
+        "6": {
+            "id": "24uKjgESYWo",
+            "artists": "Khaled",
+            "title": "Aicha",
+            "album": "Sahra",
+            "year": "1996",
+            "genders": "Pop Oriental Chanson Francaise",
+            "sampled_by": "Rafael Santana - Aisha (Zouk Remix)",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "7": {
+            "id": "aITqpStvKEE",
+            "artists": "Khaled",
+            "title": "Edia E'sseba",
+            "album": "Kenza",
+            "year": "1999",
+            "genders": "Pop; Oriental; Rai",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "8": {
+            "id": "d25y0kJY_xI",
+            "artists": "Khaled; Amar",
+            "title": "El Harba Wine",
+            "album": "Kenza",
+            "year": "1999",
+            "genders": "Oriental; Rai; Pop",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "9": {
+            "id": "kq34Q5rtMsQ",
+            "artists": "Khaled",
+            "title": "Ya Aachkou",
+            "album": "Kenza",
+            "year": "1998",
+            "genders": "Pop; Rai; Oriental",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "10": {
+            "id": "tTcnIYYeZI8",
+            "artists": "Khaled",
+            "title": "Didi",
+            "album": "Khaled",
+            "year": "1992",
+            "genders": "Pop; Oriental",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "11": {
+            "id": "NL0A5597OPI",
+            "artists": "Hisham Abbas",
+            "title": "Habibi Dah (Nari Nari)",
+            "album": "Habibi Dah",
+            "year": "2001",
+            "genders": "Oriental; Pop",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "masked_id": "",
+            "start_time": "0"
+        }
+    }
+}

@@ -1,5 +1,8 @@
 Flask SocketIO Games
 Games with Flask SocketIO Web Interfaces
+- Quizz
+- Blind Test
+
 # Installation
 ## export environement variables for Pip to get packages in a depot list
 > export PIP_INDEX_URL="https://pypi.python.org/simple"
@@ -25,13 +28,18 @@ From work (not mandatory)
 ### packages by packages
 > python -m pip install Flask-SocketIO
 > python -m pip install "qrcode[pil]"
+> python -m pip install tinydb
 
 ### with requirements file
 >pip install -r requirements312.txt
 
-# Usage
+# Quizz
 Lancer script:  
 >python web_quizz_yt.py
+
+# Blind Test
+Lancer script:  
+>python web_blind_test_ui_yt.py
 
 ## Arrêter l'environement virtuel venv:
 >deactivate

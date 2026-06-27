@@ -1,0 +1,127 @@
+{
+    "yt": {
+        "1": {
+            "id": "G7ehRDQPt0Q",
+            "artists": "Sniper",
+            "title": "Zamalia",
+            "album": "Trait pour trait",
+            "year": "2006",
+            "genders": "Rap Chanson Francaise Ragga",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": ""
+        },
+        "2": {
+            "id": "tR0WMdIqxus",
+            "artists": "Public Enemy; Benny Benassi",
+            "title": "Bring The Noise",
+            "album": "Bring The Noise Remix",
+            "year": "2007",
+            "genders": "Rap; House; Electro",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": ""
+        },
+        "3": {
+            "id": "gU1S3N-n8eY",
+            "artists": "Rohff; DJ Abdel; Oliver Cheatham",
+            "title": "Samedi soir",
+            "album": "La Vie avant la mort",
+            "year": "2001",
+            "genders": "Rap Funk",
+            "sampled_by": "",
+            "sample_from": "Oliver Cheatham - Get Down Saturday Night",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": ""
+        },
+        "4": {
+            "id": "Wj7lL6eDOqc",
+            "artists": "Eminem",
+            "title": "Lose Yourself",
+            "album": "8 Mile Soundtrack",
+            "year": "2002",
+            "genders": "Rap; Soundtrack",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez le nom du film",
+            "masked_id": ""
+        },
+        "5": {
+            "id": "ueVVYc_JsQI",
+            "artists": "Method Man; Redman; Toni Braxton",
+            "title": "How High",
+            "album": "How High Soundtrack",
+            "year": "2001",
+            "genders": "Rap; Soundtrack",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": ""
+        },
+        "6": {
+            "id": "bbDUj_PMdUk",
+            "artists": "Lumidee; Tony Sunshine",
+            "title": "She's Like The Wind",
+            "album": "Unexpected",
+            "year": "2007",
+            "genders": "RnB Rap",
+            "sampled_by": "",
+            "sample_from": "Dirty Dancing - She's Like the Wind",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": ""
+        },
+        "7": {
+            "id": "V6nXQY0c4iA",
+            "artists": "Black Eyed Peas",
+            "title": "Let's Get It Started",
+            "album": "Elephunk",
+            "year": "2003",
+            "genders": "RnB; Rap; Pop",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": ""
+        },
+        "8": {
+            "id": "wMw-DtcIe2I",
+            "artists": "Shydeeh",
+            "title": "Don't Even Touch",
+            "album": "",
+            "year": "2003",
+            "genders": "Zouk; Rap",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "9": {
+            "id": "zFVqE36M-tQ",
+            "artists": "Shydeeh",
+            "title": "Wooh She's Who",
+            "album": "",
+            "year": "2001",
+            "genders": "Zouk; Rap",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "10": {
+            "id": "TQV-0fwwCQM",
+            "artists": "One-T; Cool-T",
+            "title": "The Magic Key",
+            "album": "The One-T ODC",
+            "year": "2006",
+            "genders": "Rap; Pop; House",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "masked_id": "",
+            "start_time": "0"
+        }
+    }
+}
