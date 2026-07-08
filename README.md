@@ -1,4 +1,4 @@
-Flask SocketIO Games
+# Flask SocketIO Games  
 Games with Flask SocketIO Web Interfaces
 - Quizz
 - Blind Test
@@ -26,9 +26,9 @@ From work (not mandatory)
 >python -m pip install --upgrade pip
 
 ### packages by packages
-> python -m pip install Flask-SocketIO
-> python -m pip install "qrcode[pil]"
-> python -m pip install tinydb
+> python -m pip install Flask-SocketIO  
+> python -m pip install "qrcode[pil]"  
+> python -m pip install tinydb  
 
 ### with requirements file
 >pip install -r requirements312.txt

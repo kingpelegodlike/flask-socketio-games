@@ -355,6 +355,105 @@
             "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/pac_man_logo.jpg" ],
             "wrong_answers" : [ "Atari", "Capcom", "Tecmo" ],
             "good_answer" : "Namco"
+        },
+        {
+            "question" : "De quel sport est inspiré le jeu 'Pong' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/video_games.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/video_games.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/video_games.jpg" ],
+            "wrong_answers" : [ "Golf", "Football", "Karaté" ],
+            "good_answer" : "Tennis de table"
+        },
+        {
+            "question" : "Dans 'Tetris' comment s'appellent les pièces qu'il faut aligner ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/tetris.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/tetris.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/tetris.jpg" ],
+            "wrong_answers" : [ "Bricominos", "Pas de nom", "Tetras" ],
+            "good_answer" : "Tétrominos"
+        },
+        {
+            "question" : "Dans 'Pac-Man', qu'est-ce qui hante le labyrinthe ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/pac_man_logo.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/pac_man_logo.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/pac_man_logo.jpg" ],
+            "wrong_answers" : [ "Plantes ca rnivores", "Squelettes", "Zombies" ],
+            "good_answer" : "Fantomes"
+        },
+        {
+            "question" : "Que trouve-t-on à la fin de 'Space Invaders' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/video_games.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/video_games.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/video_games.jpg" ],
+            "wrong_answers" : [ "Etoile Noire", "Vaisseau mère", "la Terre" ],
+            "good_answer" : "Pas de fin"
+        },
+        {
+            "question" : "Comment s'appelle le royaume dans 'Super Mario' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/video_games.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/video_games.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/video_games.jpg" ],
+            "wrong_answers" : [ "Margarita", "Sunshine", "Peach" ],
+            "good_answer" : "Champignon"
+        },
+        {
+            "question" : "Comment s'appelle la monnaie dans 'SimCity' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/video_games.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/video_games.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/video_games.jpg" ],
+            "wrong_answers" : [ "Simthune", "Simcash", "Simmoney" ],
+            "good_answer" : "Simflouz"
+        },
+        {
+            "question" : "Quel animal est 'Sonic' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/video_games.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/video_games.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/video_games.jpg" ],
+            "wrong_answers" : [ "Chien", "Souris", "Chat" ],
+            "good_answer" : "Hérisson"
+        },
+        {
+            "question" : "Qu'est-ce qu'on fait dans 'Doom' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/video_games.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/video_games.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/video_games.jpg" ],
+            "wrong_answers" : [ "On enquête", "On conduit", "On navigue" ],
+            "good_answer" : "On tire"
+        },
+        {
+            "question" : "Quel est le signe distinctif de 'Donkey Kong' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/video_games.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/video_games/video_games.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/video_games/video_games.jpg" ],
+            "wrong_answers" : [ "Casquette bleue", "Slip vert", "Costume noir" ],
+            "good_answer" : "Cravate rouge"
         }
     ]
 }
