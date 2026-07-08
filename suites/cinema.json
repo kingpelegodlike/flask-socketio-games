@@ -1015,6 +1015,127 @@
             "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/cinema.jpg" ],
             "wrong_answers" : [ "Troie", "Kingdom of Heaven", "Robin des Bois" ],
             "good_answer" : "Gladiator"
+        },
+        {
+            "question" : "Avec quelle actrice, Alain Delon est en duo dans le film 'La piscine' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/cinema.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/cinema.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/cinema.jpg" ],
+            "wrong_answers" : [ "Marie Laforet", "Mireille Darc", "Claudia Cardinale" ],
+            "good_answer" : "Romy Schneider"
+        },
+        {
+            "question" : "Quel mot est une réplique culte du film 'The Mask' ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/cinema.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/cinema.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/cinema.jpg" ],
+            "wrong_answers" : [ "Okay", "Génialissime", "Fabuleux" ],
+            "good_answer" : "Splendide"
+        },
+        {
+            "question" : "Quelle actrice incarne Nicole Kidman dans un biopic en 2014 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/cinema.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/cinema.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/cinema.jpg" ],
+            "wrong_answers" : [ "Elizabeth Taylor", "Audrey Hepburn", "Marlene Dietrich" ],
+            "good_answer" : "Grace Kelly"
+        },
+        {
+            "question" : "Pour quel film en 2016, Leonardo DiCaprio a eu l'Oscar du meilleur acteur ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/cinema.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/cinema.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/cinema.jpg" ],
+            "wrong_answers" : [ "Inception", "Gatsby le Magnifique", "Le Loup de Wall Street" ],
+            "good_answer" : "The Revenant"
+        },
+        {
+            "question" : "Le premier film Indiana Jones sorti en 1981 sont 'Les aventuriers ...",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/cinema.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/cinema.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/cinema.jpg" ],
+            "wrong_answers" : [ "du cadran de la destiné", "du temple maudit", "de la dernière croisade" ],
+            "good_answer" : "de l'arche perdue"
+        },
+        {
+            "question" : "Qui incarne la bête dans le 'La Belle et la Bête' de 1946 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/cinema.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/cinema.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/cinema.jpg" ],
+            "wrong_answers" : [ "Philippe Noiret", "Michel Piccoli", "Jacques Perrin" ],
+            "good_answer" : "Jean Marais"
+        },
+        {
+            "question" : "Qui incarne Nicolas Sarkozy dans le film 'Présidents' en 2021 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/cinema.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/cinema.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/cinema.jpg" ],
+            "wrong_answers" : [ "Albert Dupontel", "Christian Clavier", "Gil Alma" ],
+            "good_answer" : "Jean Dujardin"
+        },
+        {
+            "question" : "Qui a réalisé le film “Les Infiltrés” de 2006 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/cinema.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/cinema.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/cinema.jpg" ],
+            "wrong_answers" : [ "Clint Eastwood", "Woody Allen", "Quentin Tarantino" ],
+            "good_answer" : "Martin Scorsese"
+        },
+        {
+            "question" : "Quelle saga littéraire a été adaptée en 5 films à partir de 2008 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/cinema.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/cinema.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/cinema.jpg" ],
+            "wrong_answers" : [ "Le Seigneur des Anneaux", "Harry Potter", "Cinquantes Nuances de Grey" ],
+            "good_answer" : "Twilight"
+        },
+        {
+            "question" : "Qui interprète Cléopâtre dans 'Astérix et Obélix : l’Empire du milieu' en 2023 ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/cinema.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/cinema.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/cinema.jpg" ],
+            "wrong_answers" : [ "Monica Belluci", "Laeticia Casta", "Leïla Bekhti" ],
+            "good_answer" : "Marion Cotillard"
+        },
+        {
+            "question" : "Dans 'Lucy' de Luc Besson, qui incarne le professeur Norman ?",
+            "question_timeout" : 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/cinema.jpg" ],
+            "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/cinema/cinema.jpg" ],
+            "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/cinema/cinema.jpg" ],
+            "wrong_answers" : [ "Denzel Washington", "Samuel L. Jackson", "Forest Whitaker" ],
+            "good_answer" : "Morgan Freeman"
         }
     ]
 }
