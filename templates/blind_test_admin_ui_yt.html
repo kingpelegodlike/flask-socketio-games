@@ -88,21 +88,14 @@
                 $(`#buzz_player_${i}_btn`).click(function(e) {
                     e.preventDefault();
                     var nomBuzzer = $(`#buzz_player_${i}_name`).val();
-                    var generation_element = document.getElementById("buzz_player_" + i + "_generation_select");
-                    var generation_select_value = generation_element.options[generation_element.selectedIndex].value;
                     if (nomBuzzer == "") {
                         alert("Saisissez le nom du joueur !");
-                        return false;
-                    }
-                    if (generation_select_value == "") {
-                        alert("Sélectionnez votre génération !");
                         return false;
                     }
                     console.log("Envoi du buzzer " + i + " avec le nom: " + nomBuzzer);
                     socket.emit('add_buzz_player', {
                         buzz_nb: i,
-                        name: nomBuzzer,
-                        generation: generation_select_value
+                        name: nomBuzzer
                     });
                 });
             }
@@ -891,68 +884,24 @@
       <div id="buzz_player_1_div" style="display: none; margin-top: 10px; padding: 5px; border: 1px dashed #ccc;">
         <label for="buzz_player_1_name">Buzzer 1 - Nom :</label>
         <input type="text" id="buzz_player_1_name" placeholder="Nom du joueur 1">
-        <label for="buzz_player_1_generation_select">Génération :</label>
-        <select name="buzz_player_1_generation_select" id="buzz_player_1_generation_select">
-            <option selected="selected" value=""></option>
-            <option value="Elders">Ancien</option>
-            <option value="1970s">1970s</option>
-            <option value="1980s">1980s</option>
-            <option value="1990s">1990s</option>
-            <option value="2000s">2000s</option>
-            <option value="2010s">2010s</option>
-            <option value="Youngers">Jeune</option>
-        </select>
         <button type="button" id="buzz_player_1_btn">Ajouter le Buzzer 1</button>
         <span id="buzz_player_1_led" class="led-indicator"></span>
       </div>
       <div id="buzz_player_2_div" style="display: none; margin-top: 10px; padding: 5px; border: 1px dashed #ccc;">
         <label for="buzz_player_2_name">Buzzer 2 - Nom :</label>
         <input type="text" id="buzz_player_2_name" placeholder="Nom du joueur 2">
-        <label for="buzz_player_2_generation_select">Génération :</label>
-        <select name="buzz_player_2_generation_select" id="buzz_player_2_generation_select">
-            <option selected="selected" value=""></option>
-            <option value="Elders">Ancien</option>
-            <option value="1970s">1970s</option>
-            <option value="1980s">1980s</option>
-            <option value="1990s">1990s</option>
-            <option value="2000s">2000s</option>
-            <option value="2010s">2010s</option>
-            <option value="Youngers">Jeune</option>
-        </select>
         <button type="button" id="buzz_player_2_btn">Ajouter le Buzzer 2</button>
         <span id="buzz_player_2_led" class="led-indicator"></span>
       </div>
       <div id="buzz_player_3_div" style="display: none; margin-top: 10px; padding: 5px; border: 1px dashed #ccc;">
         <label for="buzz_player_3_name">Buzzer 3 - Nom :</label>
         <input type="text" id="buzz_player_3_name" placeholder="Nom du joueur 3">
-        <label for="buzz_player_3_generation_select">Génération :</label>
-        <select name="buzz_player_3_generation_select" id="buzz_player_3_generation_select">
-            <option selected="selected" value=""></option>
-            <option value="Elders">Ancien</option>
-            <option value="1970s">1970s</option>
-            <option value="1980s">1980s</option>
-            <option value="1990s">1990s</option>
-            <option value="2000s">2000s</option>
-            <option value="2010s">2010s</option>
-            <option value="Youngers">Jeune</option>
-        </select>
         <button type="button" id="buzz_player_3_btn">Ajouter le Buzzer 3</button>
         <span id="buzz_player_3_led" class="led-indicator"></span>
       </div>
       <div id="buzz_player_4_div" style="display: none; margin-top: 10px; padding: 5px; border: 1px dashed #ccc;">
         <label for="buzz_player_4_name">Buzzer 4 - Nom :</label>
         <input type="text" id="buzz_player_4_name" placeholder="Nom du joueur 4">
-        <label for="buzz_player_4_generation_select">Génération :</label>
-        <select name="buzz_player_4_generation_select" id="buzz_player_4_generation_select">
-            <option selected="selected" value=""></option>
-            <option value="Elders">Ancien</option>
-            <option value="1970s">1970s</option>
-            <option value="1980s">1980s</option>
-            <option value="1990s">1990s</option>
-            <option value="2000s">2000s</option>
-            <option value="2010s">2010s</option>
-            <option value="Youngers">Jeune</option>
-        </select>
         <button type="button" id="buzz_player_4_btn">Ajouter le Buzzer 4</button>
         <span id="buzz_player_4_led" class="led-indicator"></span>
       </div>
