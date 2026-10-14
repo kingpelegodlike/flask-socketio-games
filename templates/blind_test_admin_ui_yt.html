@@ -4,8 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon"  type="image/png" 
-      href="{{ url_for('static',filename='images/favicon.png') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
     <script src="{{ url_for('static',filename='dist/libs/jquery.js') }}"></script>
@@ -37,6 +36,76 @@
             //     http[s]://<domain>:<port>[/<namespace>]
             var socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port + namespace);
             socket.emit('get_players');
+
+            var ancienneConfigurationBoutons = {};
+
+            function scruterManettes() {
+                var manettes = navigator.getGamepads ? navigator.getGamepads() : [];
+                for (var i = 0; i < manettes.length; i++) {
+                    var manette = manettes[i];
+                    if (manette) {
+                        if (!ancienneConfigurationBoutons[manette.index]) {
+                            ancienneConfigurationBoutons[manette.index] = [];
+                        }
+                        for (var b = 0; b < manette.buttons.length; b++) {
+                            var bouton = manette.buttons[b];
+                            var estPresse = (typeof(bouton) === "object") ? bouton.pressed : (bouton === 1.0);
+                            var etaitPresse = ancienneConfigurationBoutons[manette.index][b] || false;
+                            if (estPresse && !etaitPresse) {
+                                console.log("Manette " + manette.index + " (" + manette.id + ") : Bouton " + b + " pressé !");
+                                socket.emit('gamepad_press', {
+                                    gamepad_index: manette.index,
+                                    gamepad_id: manette.id,
+                                    button_index: b
+                                });
+                            }
+                            ancienneConfigurationBoutons[manette.index][b] = estPresse;
+                        }
+                    }
+                }
+                requestAnimationFrame(scruterManettes);
+            }
+
+            window.addEventListener("gamepadconnected", function(e) {
+                console.log("Manette connectée à l'index %d : %s. %d boutons.",
+                    e.gamepad.index, e.gamepad.id, e.gamepad.buttons.length);
+            });
+
+            requestAnimationFrame(scruterManettes);
+
+            socket.on('add_buzz_player', function(msg) {
+                console.log("Événement add_buzz_player reçu du serveur.");
+                if (msg && msg.buzz_nb) {
+                    $('#buzz_player_' + msg.buzz_nb + '_div').show();
+                    var $led = $('#buzz_player_' + msg.buzz_nb + '_led');
+                    $led.removeClass('led-on');
+                    $led[0].offsetHeight; // force un reflow CSS pour relancer l'animation
+                    $led.addClass('led-on');
+                }
+            });
+
+            for (let i = 1; i <= 4; i++) {
+                $(`#buzz_player_${i}_btn`).click(function(e) {
+                    e.preventDefault();
+                    var nomBuzzer = $(`#buzz_player_${i}_name`).val();
+                    var generation_element = document.getElementById("buzz_player_" + i + "_generation_select");
+                    var generation_select_value = generation_element.options[generation_element.selectedIndex].value;
+                    if (nomBuzzer == "") {
+                        alert("Saisissez le nom du joueur !");
+                        return false;
+                    }
+                    if (generation_select_value == "") {
+                        alert("Sélectionnez votre génération !");
+                        return false;
+                    }
+                    console.log("Envoi du buzzer " + i + " avec le nom: " + nomBuzzer);
+                    socket.emit('add_buzz_player', {
+                        buzz_nb: i,
+                        name: nomBuzzer,
+                        generation: generation_select_value
+                    });
+                });
+            }
             
             socket.on('add_player', function(msg) {
                 row = '<tr class="players_tr"><td class="players_td">'+msg.player_name+'</td><td class="players_td">'+msg.player_score+'</td></tr>';
@@ -818,6 +887,74 @@
           <input id="add_player_input"></input>
           <button type="submit" id="add_player_button">Ajouter</button>
         </form>
+      </div>
+      <div id="buzz_player_1_div" style="display: none; margin-top: 10px; padding: 5px; border: 1px dashed #ccc;">
+        <label for="buzz_player_1_name">Buzzer 1 - Nom :</label>
+        <input type="text" id="buzz_player_1_name" placeholder="Nom du joueur 1">
+        <label for="buzz_player_1_generation_select">Génération :</label>
+        <select name="buzz_player_1_generation_select" id="buzz_player_1_generation_select">
+            <option selected="selected" value=""></option>
+            <option value="Elders">Ancien</option>
+            <option value="1970s">1970s</option>
+            <option value="1980s">1980s</option>
+            <option value="1990s">1990s</option>
+            <option value="2000s">2000s</option>
+            <option value="2010s">2010s</option>
+            <option value="Youngers">Jeune</option>
+        </select>
+        <button type="button" id="buzz_player_1_btn">Ajouter le Buzzer 1</button>
+        <span id="buzz_player_1_led" class="led-indicator"></span>
+      </div>
+      <div id="buzz_player_2_div" style="display: none; margin-top: 10px; padding: 5px; border: 1px dashed #ccc;">
+        <label for="buzz_player_2_name">Buzzer 2 - Nom :</label>
+        <input type="text" id="buzz_player_2_name" placeholder="Nom du joueur 2">
+        <label for="buzz_player_2_generation_select">Génération :</label>
+        <select name="buzz_player_2_generation_select" id="buzz_player_2_generation_select">
+            <option selected="selected" value=""></option>
+            <option value="Elders">Ancien</option>
+            <option value="1970s">1970s</option>
+            <option value="1980s">1980s</option>
+            <option value="1990s">1990s</option>
+            <option value="2000s">2000s</option>
+            <option value="2010s">2010s</option>
+            <option value="Youngers">Jeune</option>
+        </select>
+        <button type="button" id="buzz_player_2_btn">Ajouter le Buzzer 2</button>
+        <span id="buzz_player_2_led" class="led-indicator"></span>
+      </div>
+      <div id="buzz_player_3_div" style="display: none; margin-top: 10px; padding: 5px; border: 1px dashed #ccc;">
+        <label for="buzz_player_3_name">Buzzer 3 - Nom :</label>
+        <input type="text" id="buzz_player_3_name" placeholder="Nom du joueur 3">
+        <label for="buzz_player_3_generation_select">Génération :</label>
+        <select name="buzz_player_3_generation_select" id="buzz_player_3_generation_select">
+            <option selected="selected" value=""></option>
+            <option value="Elders">Ancien</option>
+            <option value="1970s">1970s</option>
+            <option value="1980s">1980s</option>
+            <option value="1990s">1990s</option>
+            <option value="2000s">2000s</option>
+            <option value="2010s">2010s</option>
+            <option value="Youngers">Jeune</option>
+        </select>
+        <button type="button" id="buzz_player_3_btn">Ajouter le Buzzer 3</button>
+        <span id="buzz_player_3_led" class="led-indicator"></span>
+      </div>
+      <div id="buzz_player_4_div" style="display: none; margin-top: 10px; padding: 5px; border: 1px dashed #ccc;">
+        <label for="buzz_player_4_name">Buzzer 4 - Nom :</label>
+        <input type="text" id="buzz_player_4_name" placeholder="Nom du joueur 4">
+        <label for="buzz_player_4_generation_select">Génération :</label>
+        <select name="buzz_player_4_generation_select" id="buzz_player_4_generation_select">
+            <option selected="selected" value=""></option>
+            <option value="Elders">Ancien</option>
+            <option value="1970s">1970s</option>
+            <option value="1980s">1980s</option>
+            <option value="1990s">1990s</option>
+            <option value="2000s">2000s</option>
+            <option value="2010s">2010s</option>
+            <option value="Youngers">Jeune</option>
+        </select>
+        <button type="button" id="buzz_player_4_btn">Ajouter le Buzzer 4</button>
+        <span id="buzz_player_4_led" class="led-indicator"></span>
       </div>
       <!-- <br> -->
       <div id="player_1_div" style="display:none;">
