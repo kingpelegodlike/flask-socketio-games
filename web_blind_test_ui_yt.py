@@ -486,6 +486,34 @@ def add_player(message):
         socketio.emit('add_player', emit_data_to_namespace_blind_test_ui_yt, namespace='/blind_test_ui_yt')
 
 
+@socketio.on('add_buzz_player', namespace='/blind_test_admin_ui_yt')
+def add_buzz_player(message):
+    logger.info("Receive 'add_buzz_player' event from '/blind_test_admin_ui_yt' with data %s", message)
+    res = game.add_player(message['name'], buzzer=message['buzz_nb'])
+    logger.debug("Result is %s", res)
+    if res == "ADDED":
+        emit_data = {'player_name': message['name'], 'player_score': 0}
+        socketio.emit('add_player', emit_data, namespace='/blind_test_admin_ui_yt')
+        socketio.emit('add_player', emit_data, namespace='/blind_test_ui_yt')
+
+@socketio.on('gamepad_press', namespace='/blind_test_admin_ui_yt')
+def gamepad_press_event(message):
+    if message["gamepad_id"] != "Buzz (Vendor: 054c Product: 1000)":
+        return
+    buzz_nb = {0: 1, 5: 2, 10: 3, 15: 4}.get(message["button_index"])
+    if buzz_nb:
+        if game.state == GameState.DISPLAY_QUESTION:
+            player_name = game.get_player_name_from_buzz_number(buzz_nb)
+            if player_name in game.get_player_name_list_not_played():
+                bouton_click_event({
+                    "name": player_name,
+                    "data": "bouton1",
+                    "time": 0,
+                    "status": "play_blind_test"
+                })
+            return
+        socketio.emit('add_buzz_player', {"buzz_nb": buzz_nb}, namespace='/blind_test_admin_ui_yt')
+
 def check_str_in_str(str1, str2):
     if str2.lower().find(str1.lower()) != -1:
         return True

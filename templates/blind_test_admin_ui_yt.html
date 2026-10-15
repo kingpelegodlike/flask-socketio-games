@@ -4,10 +4,727 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon"  type="image/png" 
-      href="{{ url_for('static',filename='images/favicon.png') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
+
+    <title>Blind Test Admin</title>
+  </head>
+  <body>
+    <h1>Blind Test Admin</h1>
+    <form id="new_question_form" method="POST" action="#">
+      <button class="button-77" role="button" type="submit" id="new_question_button" name="new_question">Start Blind Test</button>
+    </form>
+    <label id="answer_label"></label>
+    <label id="waiting_player_answer_label"></label>
+    <div class="btn-group">
+      <form id="good_answer_form" method="POST" action="#">
+        <audio id="good_answer_audio"><source  id="good_answer_src" src="{{ url_for('static',filename='sounds/correct_answer.wav') }}"></source></audio>
+        <button type="submit" disabled id="good_answer_button" name="good_answer" placeholder="OK" value="OK">OK</button>
+      </form>
+      <form id="wrong_answer_form" method="POST" action="#">
+        <audio id="wrong_answer_audio"><source  id="wrong_answer_src" src="{{ url_for('static',filename='sounds/wrong_answer.wav') }}"></source></audio>
+        <button type="submit" disabled id="wrong_answer_button" name="wrong_answer" placeholder="KO" value="KO">KO</button>
+      </form>
+      <form id="pause_question_form" method="POST" action="#">
+        <button type="submit" disabled id="pause_question_button" name="pause_question" placeholder="PAUSE" value="PAUSE">PAUSE</button>
+      </form>
+      <form id="next_question_form" method="POST" action="#">
+        <button type="submit" disabled id="next_question_button" name="next_question" placeholder="NEXT" value="NEXT">NEXT</button>
+      </form>
+      <form id="stop_question_form" method="POST" action="#">
+        <button type="submit" disabled id="stop_question_button" name="stop_question" placeholder="STOP" value="STOP">STOP</button>
+      </form>
+      <form id="allow_answer_form" method="POST" action="#">
+        <button type="submit" disabled id="allow_answer_button" name="allow_answer" placeholder="Players can answer again" value="Players can answer again">Players can answer again</button>
+      </form>
+      <form id="set_players_ready_form" method="POST" action="#">
+        <button type="submit" disabled id="set_players_ready_button" name="set_players_ready" placeholder="Players are ready" value="Players are ready">Players are ready</button>
+      </form>
+    </div>
+    <div>
+      <label id="is_players_report_presence_label">Les joueurs doivent signaler leur présence à chaque question:</label>
+      <input type="checkbox" id="is_players_report_presence_checkbox" name="is_players_report_presence_checkbox">
+    </div>
+    <div class="myRow">
+      <div id="add_player_div" style="display: inline-block;">
+        <form id="add_player_form" method="POST" action="#">
+          <label id="add_player_label">Nouveau joueur:</label>
+          <input id="add_player_input"></input>
+          <button type="submit" id="add_player_button">Ajouter</button>
+        </form>
+      </div>
+      <div id="buzz_player_1_div" style="display: none; margin-top: 10px; padding: 5px; border: 1px dashed #ccc;">
+        <label for="buzz_player_1_name">Buzzer 1 - Nom :</label>
+        <input type="text" id="buzz_player_1_name" placeholder="Nom du joueur 1">
+        <button type="button" id="buzz_player_1_btn">Ajouter le Buzzer 1</button>
+        <span id="buzz_player_1_led" class="led-indicator"></span>
+      </div>
+      <div id="buzz_player_2_div" style="display: none; margin-top: 10px; padding: 5px; border: 1px dashed #ccc;">
+        <label for="buzz_player_2_name">Buzzer 2 - Nom :</label>
+        <input type="text" id="buzz_player_2_name" placeholder="Nom du joueur 2">
+        <button type="button" id="buzz_player_2_btn">Ajouter le Buzzer 2</button>
+        <span id="buzz_player_2_led" class="led-indicator"></span>
+      </div>
+      <div id="buzz_player_3_div" style="display: none; margin-top: 10px; padding: 5px; border: 1px dashed #ccc;">
+        <label for="buzz_player_3_name">Buzzer 3 - Nom :</label>
+        <input type="text" id="buzz_player_3_name" placeholder="Nom du joueur 3">
+        <button type="button" id="buzz_player_3_btn">Ajouter le Buzzer 3</button>
+        <span id="buzz_player_3_led" class="led-indicator"></span>
+      </div>
+      <div id="buzz_player_4_div" style="display: none; margin-top: 10px; padding: 5px; border: 1px dashed #ccc;">
+        <label for="buzz_player_4_name">Buzzer 4 - Nom :</label>
+        <input type="text" id="buzz_player_4_name" placeholder="Nom du joueur 4">
+        <button type="button" id="buzz_player_4_btn">Ajouter le Buzzer 4</button>
+        <span id="buzz_player_4_led" class="led-indicator"></span>
+      </div>
+      <!-- <br> -->
+      <div id="player_1_div" style="display:none;">
+        <div id="name_player_1_div" style="display: inline-block;">
+          <label id="name_player_1_label">Player1</label>
+        </div>
+        <div id="score_player_1_div" style="display: inline-block;">
+          <label id="score_player_1_label">0 points</label>
+        </div>
+        <div id="player_1_status_div" style="display: inline-block;">
+          <form id="player_1_status_form" method="POST" action="#">
+            <button type="submit" id="player_1_status_button">WAITING</button>
+          </form>
+        </div>
+        <div id="update_score_player_1_div" style="display: inline-block;">
+          <form id="update_score_player_1_form" method="POST" action="#">
+            <input type="number" id="update_score_player_1_input" value=0></input>
+            <button type="submit" id="update_score_1_button">Update</button>
+          </form>
+        </div>
+        <div id="del_player_1_div" style="display: inline-block;">
+          <form id="del_player_1_form" method="POST" action="#">
+            <button type="submit" id="del_player_1_button">Player1</button>
+          </form>
+        </div>
+      </div>
+      <!-- <br> -->
+      <div id="player_2_div" style="display:none;">
+        <div id="name_player_2_div" style="display: inline-block;">
+          <label id="name_player_2_label">Player2</label>
+        </div>
+        <div id="score_player_2_div" style="display: inline-block;">
+          <label id="score_player_2_label">0 points</label>
+        </div>
+        <div id="player_2_status_div" style="display: inline-block;">
+          <form id="player_2_status_form" method="POST" action="#">
+            <button type="submit" id="player_2_status_button">WAITING</button>
+          </form>
+        </div>
+        <div id="update_score_player_2_div" style="display: inline-block;">
+          <form id="update_score_player_2_form" method="POST" action="#">
+            <input type="number" id="update_score_player_2_input" value=0></input>
+            <button type="submit" id="update_score_2_button">Update</button>
+          </form>
+        </div>
+        <div id="del_player_2_div" style="display: inline-block;">
+          <form id="del_player_2_form" method="POST" action="#">
+            <button type="submit" id="del_player_2_button">Player2</button>
+          </form>
+        </div>
+      </div>
+      <!-- <br> -->
+      <div id="player_3_div" style="display:none;">
+        <div id="name_player_3_div" style="display: inline-block;">
+          <label id="name_player_3_label">Player3</label>
+        </div>
+        <div id="score_player_3_div" style="display: inline-block;">
+          <label id="score_player_3_label">0 points</label>
+        </div>
+        <div id="player_3_status_div" style="display: inline-block;">
+          <form id="player_3_status_form" method="POST" action="#">
+            <button type="submit" id="player_3_status_button">WAITING</button>
+          </form>
+        </div>
+        <div id="update_score_player_3_div" style="display: inline-block;">
+          <form id="update_score_player_3_form" method="POST" action="#">
+            <input type="number" id="update_score_player_3_input" value=0></input>
+            <button type="submit" id="update_score_3_button">Update</button>
+          </form>
+        </div>
+        <div id="del_player_3_div" style="display: inline-block;">
+          <form id="del_player_3_form" method="POST" action="#">
+            <button type="submit" id="del_player_3_button">Player3</button>
+          </form>
+        </div>
+      </div>
+      <!-- <br> -->
+      <div id="player_4_div" style="display:none;">
+        <div id="name_player_4_div" style="display: inline-block;">
+          <label id="name_player_4_label">Player4</label>
+        </div>
+        <div id="score_player_4_div" style="display: inline-block;">
+          <label id="score_player_4_label">0 points</label>
+        </div>
+        <div id="player_4_status_div" style="display: inline-block;">
+          <form id="player_4_status_form" method="POST" action="#">
+            <button type="submit" id="player_4_status_button">WAITING</button>
+          </form>
+        </div>
+        <div id="update_score_player_4_div" style="display: inline-block;">
+          <form id="update_score_player_4_form" method="POST" action="#">
+            <input type="number" id="update_score_player_4_input" value=0></input>
+            <button type="submit" id="update_score_4_button">Update</button>
+          </form>
+        </div>
+        <div id="del_player_4_div" style="display: inline-block;">
+          <form id="del_player_4_form" method="POST" action="#">
+            <button type="submit" id="del_player_4_button">Player4</button>
+          </form>
+        </div>
+      </div>
+      <!-- <br> -->
+      <div id="player_5_div" style="display:none;">
+        <div id="name_player_5_div" style="display: inline-block;">
+          <label id="name_player_5_label">Player5</label>
+        </div>
+        <div id="score_player_5_div" style="display: inline-block;">
+          <label id="score_player_5_label">0 points</label>
+        </div>
+        <div id="player_5_status_div" style="display: inline-block;">
+          <form id="player_5_status_form" method="POST" action="#">
+            <button type="submit" id="player_5_status_button">WAITING</button>
+          </form>
+        </div>
+        <div id="update_score_player_5_div" style="display: inline-block;">
+          <form id="update_score_player_5_form" method="POST" action="#">
+            <input type="number" id="update_score_player_5_input" value=0></input>
+            <button type="submit" id="update_score_5_button">Update</button>
+          </form>
+        </div>
+        <div id="del_player_5_div" style="display: inline-block;">
+          <form id="del_player_5_form" method="POST" action="#">
+            <button type="submit" id="del_player_5_button">Player5</button>
+          </form>
+        </div>
+      </div>
+      <!-- <br> -->
+      <div id="player_6_div" style="display:none;">
+        <div id="name_player_6_div" style="display: inline-block;">
+          <label id="name_player_6_label">Player6</label>
+        </div>
+        <div id="score_player_6_div" style="display: inline-block;">
+          <label id="score_player_6_label">0 points</label>
+        </div>
+        <div id="player_6_status_div" style="display: inline-block;">
+          <form id="player_6_status_form" method="POST" action="#">
+            <button type="submit" id="player_6_status_button">WAITING</button>
+          </form>
+        </div>
+        <div id="update_score_player_6_div" style="display: inline-block;">
+          <form id="update_score_player_6_form" method="POST" action="#">
+            <input type="number" id="update_score_player_6_input" value=0></input>
+            <button type="submit" id="update_score_6_button">Update</button>
+          </form>
+        </div>
+        <div id="del_player_6_div" style="display: inline-block;">
+          <form id="del_player_6_form" method="POST" action="#">
+            <button type="submit" id="del_player_6_button">Player6</button>
+          </form>
+        </div>
+      </div>
+      <!-- <br> -->
+      <div id="player_7_div" style="display:none;">
+        <div id="name_player_7_div" style="display: inline-block;">
+          <label id="name_player_7_label">Player7</label>
+        </div>
+        <div id="score_player_7_div" style="display: inline-block;">
+          <label id="score_player_7_label">0 points</label>
+        </div>
+        <div id="player_7_status_div" style="display: inline-block;">
+          <form id="player_7_status_form" method="POST" action="#">
+            <button type="submit" id="player_7_status_button">WAITING</button>
+          </form>
+        </div>
+        <div id="update_score_player_7_div" style="display: inline-block;">
+          <form id="update_score_player_7_form" method="POST" action="#">
+            <input type="number" id="update_score_player_7_input" value=0></input>
+            <button type="submit" id="update_score_7_button">Update</button>
+          </form>
+        </div>
+        <div id="del_player_7_div" style="display: inline-block;">
+          <form id="del_player_7_form" method="POST" action="#">
+            <button type="submit" id="del_player_7_button">Player7</button>
+          </form>
+        </div>
+      </div>
+      <!-- <br> -->
+      <div id="player_8_div" style="display:none;">
+        <div id="name_player_8_div" style="display: inline-block;">
+          <label id="name_player_8_label">Player8</label>
+        </div>
+        <div id="score_player_8_div" style="display: inline-block;">
+          <label id="score_player_8_label">0 points</label>
+        </div>
+        <div id="player_8_status_div" style="display: inline-block;">
+          <form id="player_8_status_form" method="POST" action="#">
+            <button type="submit" id="player_8_status_button">WAITING</button>
+          </form>
+        </div>
+        <div id="update_score_player_8_div" style="display: inline-block;">
+          <form id="update_score_player_8_form" method="POST" action="#">
+            <input type="number" id="update_score_player_8_input" value=0></input>
+            <button type="submit" id="update_score_8_button">Update</button>
+          </form>
+        </div>
+        <div id="del_player_8_div" style="display: inline-block;">
+          <form id="del_player_8_form" method="POST" action="#">
+            <button type="submit" id="del_player_8_button">Player8</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- PLAYERS SCORE DIV CLASSIQUE PART BEGIN -->
+    <div id="players">
+        <table id="players_table" class="players_table" style="display:none;">
+            <caption class="players_caption">Players</caption>
+            <thead class="players_thead">
+                <tr class="players_tr">
+                    <th class="players_th">Name</th>
+                    <th class="players_th">Score</th>
+                </tr>
+            </thead>
+            <tbody class="players_body">
+            </tbody>
+        </table>
+        <label name="players_console" id="players_console">&nbsp;</label>
+    </div>
+    <div>
+      <label style="font-size: 24px;font-weight: bold;">Choisir la réponse attendue</label>
+      <select name="expected_answer_select" id="expected_answer_select" onchange="update_expected_answer(this)">
+        <option selected="selected" value="0"></option>
+        <option value="1">Donnez n'importe quel élément de la chanson</option>
+        <option value="2">Donnez l'artiste de la chanson</option>
+        <option value="3">Donnez le titre de la chanson</option>
+        <option value="4">Donnez le nom de Album ou film ou Serie</option>
+        <option value="5">Donnez tous les artistes de la chanson</option>
+        <option value="6">Donnez l'année</option>
+        <option value="7">Donnez l'artiste orginal</option>
+        <option value="8">Donnez l'artiste copieur</option>
+        <option value="9">Donnez le genre</option>
+      </select>
+    </div>
+    <div id="container">
+      <div>
+        <label style="font-size: 24px;font-weight: bold;" for="folder1">Choisir la musique au format MP3</label>
+          <!-- <input type="file" id="my_file" onchange="changeFileName(this.value);"> -->
+          <input type="file" id="my_file">
+          <!-- <p id="uploadMsg">Filename will appear here after file has been selected</p> -->
+      </div>
+    </div>
+    <div>
+      <audio id="question_audio"><source  id="question_audio_src" src=""></source></audio>
+      <!-- <audio id="waiting_answer_audio"><source  id="waiting_answer_audio_src" src="{{ url_for('static',filename='sounds/buzz.wav') }}"></source></audio> -->
+    </div>
+    <div id="youtube">
+      <div>
+        <label style="font-size: 24px;font-weight: bold;">Choisir la musique sur Youtube avec son ID</label>
+        <input type="text" id="youtube_link">
+      </div>
+    </div>
+    <div>
+      <label style="font-size: 24px;font-weight: bold;">Choisir une suite aléatoire de musique sur Youtube</label>
+      <select name="playlist_database_select" id="playlist_database_select" onchange="update_add_video_topic(this)">
+        <option selected="selected" value="default"></option>
+        <option value="africain">Africain</option>
+        <option value="animes">Animes</option>
+        <option value="asian">Asiatique</option>
+        <option value="bollywood">Bollywood</option>
+        <option value="dancehall">Dancehall</option>
+        <option value="electro_house_dance">Electro House Dance</option>
+        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
+        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
+        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
+        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
+        <option value="french">Francais</option>
+        <option value="french_old">Francais Ancien</option>
+        <option value="french_198x">Francais 198x</option>
+        <option value="french_199x">Francais 199x</option>
+        <option value="french_200x">Francais 200x</option>
+        <option value="french_201x">Francais 201x</option>
+        <option value="french_202x">Francais 202x</option>
+        <option value="funk_disco_19xx">Funk Disco 19xx</option>
+        <option value="funk_disco_20xx">Funk Disco 20xx</option>
+        <option value="jazz">Jazz</option>
+        <option value="latin">Latino</option>
+        <option value="oriental">Oriental</option>
+        <option value="pop">Pop</option>
+        <option value="pop_old">Pop Ancien</option>
+        <option value="pop_198x">Pop 198x</option>
+        <option value="pop_199x">Pop 199x</option>
+        <option value="pop_200x">Pop 200x</option>
+        <option value="pop_201x">Pop 201x</option>
+        <option value="pop_202x">Pop 202x</option>
+        <option value="rap">Rap</option>
+        <option value="rap_19xx">Rap 19xx</option>
+        <option value="rap_200x">Rap 200x</option>
+        <option value="rap_201x">Rap 201x</option>
+        <option value="rap_202x">Rap 202x</option>
+        <option value="reggae">Reggae</option>
+        <option value="reggaetton">Reggaetton</option>
+        <option value="rnb">R&B</option>
+        <option value="rnb_old">R&B Ancien</option>
+        <option value="rnb_199x">R&B 199x</option>
+        <option value="rnb_200x">R&B 200x</option>
+        <option value="rnb_201x">R&B 201x</option>
+        <option value="rnb_202x">R&B 202x</option>
+        <option value="rock">Rock</option>
+        <option value="sega">Sega</option>
+        <option value="soul">Soul</option>
+        <option value="soundtracks">Soundtracks</option>
+        <option value="tv_show">TV Show</option>
+        <option value="zouk">Zouk</option>
+        <option value="zouk_19xx">Zouk 19xx</option>
+        <option value="zouk_20xx">Zouk 20xx</option>
+      </select>
+      <input type="number" id="nb_random_yt_id_input" value=0></input>
+    </div>
+    <div>
+      <hr>
+      <label>Search Youtube Video ID in Database</label>
+      <input type="text" id="search_db_input">
+      <form id="search_video_artists_form" method="POST" action="#">
+        <button type="submit" id="search_video_artists_button">Search by artist</button>
+      </form>
+      <form id="search_video_title_form" method="POST" action="#">
+        <button type="submit" id="search_video_title_button">Search by title</button>
+      </form>
+      <form id="search_video_album_form" method="POST" action="#">
+        <button type="submit" id="search_video_album_button">Search by album or Film or TV Show</button>
+      </form>
+      <form id="search_video_year_form" method="POST" action="#">
+        <button type="submit" id="search_video_year_button">Search by year</button>
+      </form>
+      <form id="search_video_genders_form" method="POST" action="#">
+        <button type="submit" id="search_video_genders_button">Search by gender</button>
+      </form>
+      <textarea id="video_links_area" name="video_links_area" rows="4" cols="200"></textarea>
+    </div>
+    <div>
+      <hr>
+      <label>Add Youtube Video ID in Database</label>
+      </br>
+      <label>ID:</label>
+      <input type="text" id="add_video_id_input">
+      <label>Artists:</label>
+      <input type="text" id="add_video_artists_input">
+      <label>Titre:</label>
+      <input type="text" id="add_video_title_input">
+      <label>Album/Film/TV Show:</label>
+      <input type="text" id="add_video_album_input">
+      <label>Year:</label>
+      <input type="text" id="add_video_year_input">
+      <label>Genders:</label>
+      <input type="text" id="add_video_genders_input">
+      <label>Sampled by:</label>
+      <input type="text" id="add_video_sampled_by_input">
+      <label>Sample from:</label>
+      <input type="text" id="add_video_sample_from_input">
+      <label>Topic:</label>
+      <select name="add_video_topic_select" id="add_video_topic_select" onchange="update_add_video_topic(this)">
+        <option selected="selected" value="0"></option>
+        <option value="1">Donnez n'importe quel élément de la chanson</option>
+        <option value="2">Donnez l'artiste de la chanson</option>
+        <option value="3">Donnez le titre de la chanson</option>
+        <option value="4">Donnez le nom de Album</option>
+        <option value="5">Donnez le nom du film</option>
+        <option value="6">Donnez le nom de la Serie TV</option>
+        <option value="7">Donnez tous les artistes de la chanson</option>
+        <option value="8">Donnez l'année</option>
+        <option value="9">Donnez l'artiste orginal</option>
+        <option value="10">Donnez l'artiste copieur</option>
+        <option value="11">Donnez le genre</option>
+      </select>
+      <label>Masked ID:</label>
+      <input type="text" id="add_video_masked_id_input">
+      <label>Temps de début:</label>
+      <select name="start_time_select" id="start_time_select" onchange="update_add_video_topic(this)">
+        <option selected="selected" value="0">0 sec</option>
+        <option value="10">10 sec</option>
+        <option value="20">20 sec</option>
+        <option value="30">30 sec</option>
+        <option value="40">40 sec</option>
+        <option value="50">50 sec</option>
+        <option value="60">60 sec</option>
+        <option value="70">70 sec</option>
+        <option value="80">80 sec</option>
+        <option value="90">90 sec</option>
+      </select>
+      <label>Database:</label>
+      <select name="database_1_select" id="database_1_select" onchange="update_add_video_topic(this)">
+        <option selected="selected" value=""></option>
+        <option value="africain">Africain</option>
+        <option value="animes">Animes</option>
+        <option value="asian">Asiatique</option>
+        <option value="bollywood">Bollywood</option>
+        <option value="dancehall">Dancehall</option>
+        <option value="electro_house_dance">Electro House Dance</option>
+        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
+        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
+        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
+        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
+        <option value="french">Francais</option>
+        <option value="french_old">Francais Ancien</option>
+        <option value="french_198x">Francais 198x</option>
+        <option value="french_199x">Francais 199x</option>
+        <option value="french_200x">Francais 200x</option>
+        <option value="french_201x">Francais 201x</option>
+        <option value="french_202x">Francais 202x</option>
+        <option value="funk_disco_19xx">Funk Disco 19xx</option>
+        <option value="funk_disco_20xx">Funk Disco 20xx</option>
+        <option value="jazz">Jazz</option>
+        <option value="latin">Latino</option>
+        <option value="oriental">Oriental</option>
+        <option value="pop">Pop</option>
+        <option value="pop_old">Pop Ancien</option>
+        <option value="pop_198x">Pop 198x</option>
+        <option value="pop_199x">Pop 199x</option>
+        <option value="pop_200x">Pop 200x</option>
+        <option value="pop_201x">Pop 201x</option>
+        <option value="pop_202x">Pop 202x</option>
+        <option value="rap">Rap</option>
+        <option value="rap_19xx">Rap 19xx</option>
+        <option value="rap_200x">Rap 200x</option>
+        <option value="rap_201x">Rap 201x</option>
+        <option value="rap_202x">Rap 202x</option>
+        <option value="reggae">Reggae</option>
+        <option value="reggaetton">Reggaetton</option>
+        <option value="rnb">R&B</option>
+        <option value="rnb_old">R&B Ancien</option>
+        <option value="rnb_199x">R&B 199x</option>
+        <option value="rnb_200x">R&B 200x</option>
+        <option value="rnb_201x">R&B 201x</option>
+        <option value="rnb_202x">R&B 202x</option>
+        <option value="rock">Rock</option>
+        <option value="sega">Sega</option>
+        <option value="soul">Soul</option>
+        <option value="soundtracks">Soundtracks</option>
+        <option value="tv_show">TV Show</option>
+        <option value="zouk">Zouk</option>
+        <option value="zouk_19xx">Zouk 19xx</option>
+        <option value="zouk_20xx">Zouk 20xx</option>
+      </select>
+      <select name="database_2_select" id="database_2_select" onchange="update_add_video_topic(this)">
+        <option selected="selected" value=""></option>
+        <option value="africain">Africain</option>
+        <option value="animes">Animes</option>
+        <option value="asian">Asiatique</option>
+        <option value="bollywood">Bollywood</option>
+        <option value="dancehall">Dancehall</option>
+        <option value="electro_house_dance">Electro House Dance</option>
+        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
+        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
+        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
+        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
+        <option value="french">Francais</option>
+        <option value="french_old">Francais Ancien</option>
+        <option value="french_198x">Francais 198x</option>
+        <option value="french_199x">Francais 199x</option>
+        <option value="french_200x">Francais 200x</option>
+        <option value="french_201x">Francais 201x</option>
+        <option value="french_202x">Francais 202x</option>
+        <option value="funk_disco_19xx">Funk Disco 19xx</option>
+        <option value="funk_disco_20xx">Funk Disco 20xx</option>
+        <option value="jazz">Jazz</option>
+        <option value="latin">Latino</option>
+        <option value="oriental">Oriental</option>
+        <option value="pop">Pop</option>
+        <option value="pop_old">Pop Ancien</option>
+        <option value="pop_198x">Pop 198x</option>
+        <option value="pop_199x">Pop 199x</option>
+        <option value="pop_200x">Pop 200x</option>
+        <option value="pop_201x">Pop 201x</option>
+        <option value="pop_202x">Pop 202x</option>
+        <option value="rap">Rap</option>
+        <option value="rap_19xx">Rap 19xx</option>
+        <option value="rap_200x">Rap 200x</option>
+        <option value="rap_201x">Rap 201x</option>
+        <option value="rap_202x">Rap 202x</option>
+        <option value="reggae">Reggae</option>
+        <option value="reggaetton">Reggaetton</option>
+        <option value="rnb">R&B</option>
+        <option value="rnb_old">R&B Ancien</option>
+        <option value="rnb_199x">R&B 199x</option>
+        <option value="rnb_200x">R&B 200x</option>
+        <option value="rnb_201x">R&B 201x</option>
+        <option value="rnb_202x">R&B 202x</option>
+        <option value="rock">Rock</option>
+        <option value="sega">Sega</option>
+        <option value="soul">Soul</option>
+        <option value="soundtracks">Soundtracks</option>
+        <option value="tv_show">TV Show</option>
+        <option value="zouk">Zouk</option>
+        <option value="zouk_19xx">Zouk 19xx</option>
+        <option value="zouk_20xx">Zouk 20xx</option>
+      </select>
+      <select name="database_3_select" id="database_3_select" onchange="update_add_video_topic(this)">
+        <option selected="selected" value=""></option>
+        <option value="africain">Africain</option>
+        <option value="animes">Animes</option>
+        <option value="asian">Asiatique</option>
+        <option value="bollywood">Bollywood</option>
+        <option value="dancehall">Dancehall</option>
+        <option value="electro_house_dance">Electro House Dance</option>
+        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
+        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
+        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
+        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
+        <option value="french">Francais</option>
+        <option value="french_old">Francais Ancien</option>
+        <option value="french_198x">Francais 198x</option>
+        <option value="french_199x">Francais 199x</option>
+        <option value="french_200x">Francais 200x</option>
+        <option value="french_201x">Francais 201x</option>
+        <option value="french_202x">Francais 202x</option>
+        <option value="funk_disco_19xx">Funk Disco 19xx</option>
+        <option value="funk_disco_20xx">Funk Disco 20xx</option>
+        <option value="jazz">Jazz</option>
+        <option value="latin">Latino</option>
+        <option value="oriental">Oriental</option>
+        <option value="pop">Pop</option>
+        <option value="pop_old">Pop Ancien</option>
+        <option value="pop_198x">Pop 198x</option>
+        <option value="pop_199x">Pop 199x</option>
+        <option value="pop_200x">Pop 200x</option>
+        <option value="pop_201x">Pop 201x</option>
+        <option value="pop_202x">Pop 202x</option>
+        <option value="rap">Rap</option>
+        <option value="rap_19xx">Rap 19xx</option>
+        <option value="rap_200x">Rap 200x</option>
+        <option value="rap_201x">Rap 201x</option>
+        <option value="rap_202x">Rap 202x</option>
+        <option value="reggae">Reggae</option>
+        <option value="reggaetton">Reggaetton</option>
+        <option value="rnb">R&B</option>
+        <option value="rnb_old">R&B Ancien</option>
+        <option value="rnb_199x">R&B 199x</option>
+        <option value="rnb_200x">R&B 200x</option>
+        <option value="rnb_201x">R&B 201x</option>
+        <option value="rnb_202x">R&B 202x</option>
+        <option value="rock">Rock</option>
+        <option value="sega">Sega</option>
+        <option value="soul">Soul</option>
+        <option value="soundtracks">Soundtracks</option>
+        <option value="tv_show">TV Show</option>
+        <option value="zouk">Zouk</option>
+        <option value="zouk_19xx">Zouk 19xx</option>
+        <option value="zouk_20xx">Zouk 20xx</option>
+      </select>
+      <select name="database_4_select" id="database_4_select" onchange="update_add_video_topic(this)">
+        <option selected="selected" value=""></option>
+        <option value="africain">Africain</option>
+        <option value="animes">Animes</option>
+        <option value="asian">Asiatique</option>
+        <option value="bollywood">Bollywood</option>
+        <option value="dancehall">Dancehall</option>
+        <option value="electro_house_dance">Electro House Dance</option>
+        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
+        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
+        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
+        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
+        <option value="french">Francais</option>
+        <option value="french_old">Francais Ancien</option>
+        <option value="french_198x">Francais 198x</option>
+        <option value="french_199x">Francais 199x</option>
+        <option value="french_200x">Francais 200x</option>
+        <option value="french_201x">Francais 201x</option>
+        <option value="french_202x">Francais 202x</option>
+        <option value="funk_disco_19xx">Funk Disco 19xx</option>
+        <option value="funk_disco_20xx">Funk Disco 20xx</option>
+        <option value="jazz">Jazz</option>
+        <option value="latin">Latino</option>
+        <option value="oriental">Oriental</option>
+        <option value="pop">Pop</option>
+        <option value="pop_old">Pop Ancien</option>
+        <option value="pop_198x">Pop 198x</option>
+        <option value="pop_199x">Pop 199x</option>
+        <option value="pop_200x">Pop 200x</option>
+        <option value="pop_201x">Pop 201x</option>
+        <option value="pop_202x">Pop 202x</option>
+        <option value="rap">Rap</option>
+        <option value="rap_19xx">Rap 19xx</option>
+        <option value="rap_200x">Rap 200x</option>
+        <option value="rap_201x">Rap 201x</option>
+        <option value="rap_202x">Rap 202x</option>
+        <option value="reggae">Reggae</option>
+        <option value="reggaetton">Reggaetton</option>
+        <option value="rnb">R&B</option>
+        <option value="rnb_old">R&B Ancien</option>
+        <option value="rnb_199x">R&B 199x</option>
+        <option value="rnb_200x">R&B 200x</option>
+        <option value="rnb_201x">R&B 201x</option>
+        <option value="rnb_202x">R&B 202x</option>
+        <option value="rock">Rock</option>
+        <option value="sega">Sega</option>
+        <option value="soul">Soul</option>
+        <option value="soundtracks">Soundtracks</option>
+        <option value="tv_show">TV Show</option>
+        <option value="zouk">Zouk</option>
+        <option value="zouk_19xx">Zouk 19xx</option>
+        <option value="zouk_20xx">Zouk 20xx</option>
+      </select>
+      <select name="database_5_select" id="database_5_select" onchange="update_add_video_topic(this)">
+        <option selected="selected" value=""></option>
+        <option value="africain">Africain</option>
+        <option value="animes">Animes</option>
+        <option value="asian">Asiatique</option>
+        <option value="bollywood">Bollywood</option>
+        <option value="dancehall">Dancehall</option>
+        <option value="electro_house_dance">Electro House Dance</option>
+        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
+        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
+        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
+        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
+        <option value="french">Francais</option>
+        <option value="french_old">Francais Ancien</option>
+        <option value="french_198x">Francais 198x</option>
+        <option value="french_199x">Francais 199x</option>
+        <option value="french_200x">Francais 200x</option>
+        <option value="french_201x">Francais 201x</option>
+        <option value="french_202x">Francais 202x</option>
+        <option value="funk_disco_19xx">Funk Disco 19xx</option>
+        <option value="funk_disco_20xx">Funk Disco 20xx</option>
+        <option value="jazz">Jazz</option>
+        <option value="latin">Latino</option>
+        <option value="oriental">Oriental</option>
+        <option value="pop">Pop</option>
+        <option value="pop_old">Pop Ancien</option>
+        <option value="pop_198x">Pop 198x</option>
+        <option value="pop_199x">Pop 199x</option>
+        <option value="pop_200x">Pop 200x</option>
+        <option value="pop_201x">Pop 201x</option>
+        <option value="pop_202x">Pop 202x</option>
+        <option value="rap">Rap</option>
+        <option value="rap_19xx">Rap 19xx</option>
+        <option value="rap_200x">Rap 200x</option>
+        <option value="rap_201x">Rap 201x</option>
+        <option value="rap_202x">Rap 202x</option>
+        <option value="reggae">Reggae</option>
+        <option value="reggaetton">Reggaetton</option>
+        <option value="rnb">R&B</option>
+        <option value="rnb_old">R&B Ancien</option>
+        <option value="rnb_199x">R&B 199x</option>
+        <option value="rnb_200x">R&B 200x</option>
+        <option value="rnb_201x">R&B 201x</option>
+        <option value="rnb_202x">R&B 202x</option>
+        <option value="rock">Rock</option>
+        <option value="sega">Sega</option>
+        <option value="soul">Soul</option>
+        <option value="soundtracks">Soundtracks</option>
+        <option value="tv_show">TV Show</option>
+        <option value="zouk">Zouk</option>
+        <option value="zouk_19xx">Zouk 19xx</option>
+        <option value="zouk_20xx">Zouk 20xx</option>
+      </select>
+      <form id="video_to_db_form" method="POST" action="#">
+        <button type="submit" id="video_to_db_button"> Add Video </button>
+      </form>
+    </div>
     <script src="{{ url_for('static',filename='dist/libs/jquery.js') }}"></script>
     <script src="{{ url_for('static',filename='dist/libs/socket.io.min.js') }}"></script>
     <script type="text/javascript" charset="utf-8">
@@ -37,6 +754,69 @@
             //     http[s]://<domain>:<port>[/<namespace>]
             var socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port + namespace);
             socket.emit('get_players');
+
+            var ancienneConfigurationBoutons = {};
+
+            function scruterManettes() {
+                var manettes = navigator.getGamepads ? navigator.getGamepads() : [];
+                for (var i = 0; i < manettes.length; i++) {
+                    var manette = manettes[i];
+                    if (manette) {
+                        if (!ancienneConfigurationBoutons[manette.index]) {
+                            ancienneConfigurationBoutons[manette.index] = [];
+                        }
+                        for (var b = 0; b < manette.buttons.length; b++) {
+                            var bouton = manette.buttons[b];
+                            var estPresse = (typeof(bouton) === "object") ? bouton.pressed : (bouton === 1.0);
+                            var etaitPresse = ancienneConfigurationBoutons[manette.index][b] || false;
+                            if (estPresse && !etaitPresse) {
+                                console.log("Manette " + manette.index + " (" + manette.id + ") : Bouton " + b + " pressé !");
+                                socket.emit('gamepad_press', {
+                                    gamepad_index: manette.index,
+                                    gamepad_id: manette.id,
+                                    button_index: b
+                                });
+                            }
+                            ancienneConfigurationBoutons[manette.index][b] = estPresse;
+                        }
+                    }
+                }
+                requestAnimationFrame(scruterManettes);
+            }
+
+            window.addEventListener("gamepadconnected", function(e) {
+                console.log("Manette connectée à l'index %d : %s. %d boutons.",
+                    e.gamepad.index, e.gamepad.id, e.gamepad.buttons.length);
+            });
+
+            requestAnimationFrame(scruterManettes);
+
+            socket.on('add_buzz_player', function(msg) {
+                console.log("Événement add_buzz_player reçu du serveur.");
+                if (msg && msg.buzz_nb) {
+                    $('#buzz_player_' + msg.buzz_nb + '_div').show();
+                    var $led = $('#buzz_player_' + msg.buzz_nb + '_led');
+                    $led.removeClass('led-on');
+                    $led[0].offsetHeight; // force un reflow CSS pour relancer l'animation
+                    $led.addClass('led-on');
+                }
+            });
+
+            for (let i = 1; i <= 4; i++) {
+                $(`#buzz_player_${i}_btn`).click(function(e) {
+                    e.preventDefault();
+                    var nomBuzzer = $(`#buzz_player_${i}_name`).val();
+                    if (nomBuzzer == "") {
+                        alert("Saisissez le nom du joueur !");
+                        return false;
+                    }
+                    console.log("Envoi du buzzer " + i + " avec le nom: " + nomBuzzer);
+                    socket.emit('add_buzz_player', {
+                        buzz_nb: i,
+                        name: nomBuzzer
+                    });
+                });
+            }
             
             socket.on('add_player', function(msg) {
                 row = '<tr class="players_tr"><td class="players_td">'+msg.player_name+'</td><td class="players_td">'+msg.player_score+'</td></tr>';
@@ -772,700 +1552,6 @@
             });
         });
     </script>
-
-    <title>Blind Test Admin</title>
-  </head>
-  <body>
-    <h1>Blind Test Admin</h1>
-    <form id="new_question_form" method="POST" action="#">
-      <button class="button-77" role="button" type="submit" id="new_question_button" name="new_question">Start Blind Test</button>
-    </form>
-    <label id="answer_label"></label>
-    <label id="waiting_player_answer_label"></label>
-    <div class="btn-group">
-      <form id="good_answer_form" method="POST" action="#">
-        <audio id="good_answer_audio"><source  id="good_answer_src" src="{{ url_for('static',filename='sounds/correct_answer.wav') }}"></source></audio>
-        <button type="submit" disabled id="good_answer_button" name="good_answer" placeholder="OK" value="OK">OK</button>
-      </form>
-      <form id="wrong_answer_form" method="POST" action="#">
-        <audio id="wrong_answer_audio"><source  id="wrong_answer_src" src="{{ url_for('static',filename='sounds/wrong_answer.wav') }}"></source></audio>
-        <button type="submit" disabled id="wrong_answer_button" name="wrong_answer" placeholder="KO" value="KO">KO</button>
-      </form>
-      <form id="pause_question_form" method="POST" action="#">
-        <button type="submit" disabled id="pause_question_button" name="pause_question" placeholder="PAUSE" value="PAUSE">PAUSE</button>
-      </form>
-      <form id="next_question_form" method="POST" action="#">
-        <button type="submit" disabled id="next_question_button" name="next_question" placeholder="NEXT" value="NEXT">NEXT</button>
-      </form>
-      <form id="stop_question_form" method="POST" action="#">
-        <button type="submit" disabled id="stop_question_button" name="stop_question" placeholder="STOP" value="STOP">STOP</button>
-      </form>
-      <form id="allow_answer_form" method="POST" action="#">
-        <button type="submit" disabled id="allow_answer_button" name="allow_answer" placeholder="Players can answer again" value="Players can answer again">Players can answer again</button>
-      </form>
-      <form id="set_players_ready_form" method="POST" action="#">
-        <button type="submit" disabled id="set_players_ready_button" name="set_players_ready" placeholder="Players are ready" value="Players are ready">Players are ready</button>
-      </form>
-    </div>
-    <div>
-      <label id="is_players_report_presence_label">Les joueurs doivent signaler leur présence à chaque question:</label>
-      <input type="checkbox" id="is_players_report_presence_checkbox" name="is_players_report_presence_checkbox">
-    </div>
-    <div class="myRow">
-      <div id="add_player_div" style="display: inline-block;">
-        <form id="add_player_form" method="POST" action="#">
-          <label id="add_player_label">Nouveau joueur:</label>
-          <input id="add_player_input"></input>
-          <button type="submit" id="add_player_button">Ajouter</button>
-        </form>
-      </div>
-      <!-- <br> -->
-      <div id="player_1_div" style="display:none;">
-        <div id="name_player_1_div" style="display: inline-block;">
-          <label id="name_player_1_label">Player1</label>
-        </div>
-        <div id="score_player_1_div" style="display: inline-block;">
-          <label id="score_player_1_label">0 points</label>
-        </div>
-        <div id="player_1_status_div" style="display: inline-block;">
-          <form id="player_1_status_form" method="POST" action="#">
-            <button type="submit" id="player_1_status_button">WAITING</button>
-          </form>
-        </div>
-        <div id="update_score_player_1_div" style="display: inline-block;">
-          <form id="update_score_player_1_form" method="POST" action="#">
-            <input type="number" id="update_score_player_1_input" value=0></input>
-            <button type="submit" id="update_score_1_button">Update</button>
-          </form>
-        </div>
-        <div id="del_player_1_div" style="display: inline-block;">
-          <form id="del_player_1_form" method="POST" action="#">
-            <button type="submit" id="del_player_1_button">Player1</button>
-          </form>
-        </div>
-      </div>
-      <!-- <br> -->
-      <div id="player_2_div" style="display:none;">
-        <div id="name_player_2_div" style="display: inline-block;">
-          <label id="name_player_2_label">Player2</label>
-        </div>
-        <div id="score_player_2_div" style="display: inline-block;">
-          <label id="score_player_2_label">0 points</label>
-        </div>
-        <div id="player_2_status_div" style="display: inline-block;">
-          <form id="player_2_status_form" method="POST" action="#">
-            <button type="submit" id="player_2_status_button">WAITING</button>
-          </form>
-        </div>
-        <div id="update_score_player_2_div" style="display: inline-block;">
-          <form id="update_score_player_2_form" method="POST" action="#">
-            <input type="number" id="update_score_player_2_input" value=0></input>
-            <button type="submit" id="update_score_2_button">Update</button>
-          </form>
-        </div>
-        <div id="del_player_2_div" style="display: inline-block;">
-          <form id="del_player_2_form" method="POST" action="#">
-            <button type="submit" id="del_player_2_button">Player2</button>
-          </form>
-        </div>
-      </div>
-      <!-- <br> -->
-      <div id="player_3_div" style="display:none;">
-        <div id="name_player_3_div" style="display: inline-block;">
-          <label id="name_player_3_label">Player3</label>
-        </div>
-        <div id="score_player_3_div" style="display: inline-block;">
-          <label id="score_player_3_label">0 points</label>
-        </div>
-        <div id="player_3_status_div" style="display: inline-block;">
-          <form id="player_3_status_form" method="POST" action="#">
-            <button type="submit" id="player_3_status_button">WAITING</button>
-          </form>
-        </div>
-        <div id="update_score_player_3_div" style="display: inline-block;">
-          <form id="update_score_player_3_form" method="POST" action="#">
-            <input type="number" id="update_score_player_3_input" value=0></input>
-            <button type="submit" id="update_score_3_button">Update</button>
-          </form>
-        </div>
-        <div id="del_player_3_div" style="display: inline-block;">
-          <form id="del_player_3_form" method="POST" action="#">
-            <button type="submit" id="del_player_3_button">Player3</button>
-          </form>
-        </div>
-      </div>
-      <!-- <br> -->
-      <div id="player_4_div" style="display:none;">
-        <div id="name_player_4_div" style="display: inline-block;">
-          <label id="name_player_4_label">Player4</label>
-        </div>
-        <div id="score_player_4_div" style="display: inline-block;">
-          <label id="score_player_4_label">0 points</label>
-        </div>
-        <div id="player_4_status_div" style="display: inline-block;">
-          <form id="player_4_status_form" method="POST" action="#">
-            <button type="submit" id="player_4_status_button">WAITING</button>
-          </form>
-        </div>
-        <div id="update_score_player_4_div" style="display: inline-block;">
-          <form id="update_score_player_4_form" method="POST" action="#">
-            <input type="number" id="update_score_player_4_input" value=0></input>
-            <button type="submit" id="update_score_4_button">Update</button>
-          </form>
-        </div>
-        <div id="del_player_4_div" style="display: inline-block;">
-          <form id="del_player_4_form" method="POST" action="#">
-            <button type="submit" id="del_player_4_button">Player4</button>
-          </form>
-        </div>
-      </div>
-      <!-- <br> -->
-      <div id="player_5_div" style="display:none;">
-        <div id="name_player_5_div" style="display: inline-block;">
-          <label id="name_player_5_label">Player5</label>
-        </div>
-        <div id="score_player_5_div" style="display: inline-block;">
-          <label id="score_player_5_label">0 points</label>
-        </div>
-        <div id="player_5_status_div" style="display: inline-block;">
-          <form id="player_5_status_form" method="POST" action="#">
-            <button type="submit" id="player_5_status_button">WAITING</button>
-          </form>
-        </div>
-        <div id="update_score_player_5_div" style="display: inline-block;">
-          <form id="update_score_player_5_form" method="POST" action="#">
-            <input type="number" id="update_score_player_5_input" value=0></input>
-            <button type="submit" id="update_score_5_button">Update</button>
-          </form>
-        </div>
-        <div id="del_player_5_div" style="display: inline-block;">
-          <form id="del_player_5_form" method="POST" action="#">
-            <button type="submit" id="del_player_5_button">Player5</button>
-          </form>
-        </div>
-      </div>
-      <!-- <br> -->
-      <div id="player_6_div" style="display:none;">
-        <div id="name_player_6_div" style="display: inline-block;">
-          <label id="name_player_6_label">Player6</label>
-        </div>
-        <div id="score_player_6_div" style="display: inline-block;">
-          <label id="score_player_6_label">0 points</label>
-        </div>
-        <div id="player_6_status_div" style="display: inline-block;">
-          <form id="player_6_status_form" method="POST" action="#">
-            <button type="submit" id="player_6_status_button">WAITING</button>
-          </form>
-        </div>
-        <div id="update_score_player_6_div" style="display: inline-block;">
-          <form id="update_score_player_6_form" method="POST" action="#">
-            <input type="number" id="update_score_player_6_input" value=0></input>
-            <button type="submit" id="update_score_6_button">Update</button>
-          </form>
-        </div>
-        <div id="del_player_6_div" style="display: inline-block;">
-          <form id="del_player_6_form" method="POST" action="#">
-            <button type="submit" id="del_player_6_button">Player6</button>
-          </form>
-        </div>
-      </div>
-      <!-- <br> -->
-      <div id="player_7_div" style="display:none;">
-        <div id="name_player_7_div" style="display: inline-block;">
-          <label id="name_player_7_label">Player7</label>
-        </div>
-        <div id="score_player_7_div" style="display: inline-block;">
-          <label id="score_player_7_label">0 points</label>
-        </div>
-        <div id="player_7_status_div" style="display: inline-block;">
-          <form id="player_7_status_form" method="POST" action="#">
-            <button type="submit" id="player_7_status_button">WAITING</button>
-          </form>
-        </div>
-        <div id="update_score_player_7_div" style="display: inline-block;">
-          <form id="update_score_player_7_form" method="POST" action="#">
-            <input type="number" id="update_score_player_7_input" value=0></input>
-            <button type="submit" id="update_score_7_button">Update</button>
-          </form>
-        </div>
-        <div id="del_player_7_div" style="display: inline-block;">
-          <form id="del_player_7_form" method="POST" action="#">
-            <button type="submit" id="del_player_7_button">Player7</button>
-          </form>
-        </div>
-      </div>
-      <!-- <br> -->
-      <div id="player_8_div" style="display:none;">
-        <div id="name_player_8_div" style="display: inline-block;">
-          <label id="name_player_8_label">Player8</label>
-        </div>
-        <div id="score_player_8_div" style="display: inline-block;">
-          <label id="score_player_8_label">0 points</label>
-        </div>
-        <div id="player_8_status_div" style="display: inline-block;">
-          <form id="player_8_status_form" method="POST" action="#">
-            <button type="submit" id="player_8_status_button">WAITING</button>
-          </form>
-        </div>
-        <div id="update_score_player_8_div" style="display: inline-block;">
-          <form id="update_score_player_8_form" method="POST" action="#">
-            <input type="number" id="update_score_player_8_input" value=0></input>
-            <button type="submit" id="update_score_8_button">Update</button>
-          </form>
-        </div>
-        <div id="del_player_8_div" style="display: inline-block;">
-          <form id="del_player_8_form" method="POST" action="#">
-            <button type="submit" id="del_player_8_button">Player8</button>
-          </form>
-        </div>
-      </div>
-    </div>
-    <!-- PLAYERS SCORE DIV CLASSIQUE PART BEGIN -->
-    <div id="players">
-        <table id="players_table" class="players_table" style="display:none;">
-            <caption class="players_caption">Players</caption>
-            <thead class="players_thead">
-                <tr class="players_tr">
-                    <th class="players_th">Name</th>
-                    <th class="players_th">Score</th>
-                </tr>
-            </thead>
-            <tbody class="players_body">
-            </tbody>
-        </table>
-        <label name="players_console" id="players_console">&nbsp;</label>
-    </div>
-    <div>
-      <label style="font-size: 24px;font-weight: bold;">Choisir la réponse attendue</label>
-      <select name="expected_answer_select" id="expected_answer_select" onchange="update_expected_answer(this)">
-        <option selected="selected" value="0"></option>
-        <option value="1">Donnez n'importe quel élément de la chanson</option>
-        <option value="2">Donnez l'artiste de la chanson</option>
-        <option value="3">Donnez le titre de la chanson</option>
-        <option value="4">Donnez le nom de Album ou film ou Serie</option>
-        <option value="5">Donnez tous les artistes de la chanson</option>
-        <option value="6">Donnez l'année</option>
-        <option value="7">Donnez l'artiste orginal</option>
-        <option value="8">Donnez l'artiste copieur</option>
-        <option value="9">Donnez le genre</option>
-      </select>
-    </div>
-    <div id="container">
-      <div>
-        <label style="font-size: 24px;font-weight: bold;" for="folder1">Choisir la musique au format MP3</label>
-          <!-- <input type="file" id="my_file" onchange="changeFileName(this.value);"> -->
-          <input type="file" id="my_file">
-          <!-- <p id="uploadMsg">Filename will appear here after file has been selected</p> -->
-      </div>
-    </div>
-    <div>
-      <audio id="question_audio"><source  id="question_audio_src" src=""></source></audio>
-      <!-- <audio id="waiting_answer_audio"><source  id="waiting_answer_audio_src" src="{{ url_for('static',filename='sounds/buzz.wav') }}"></source></audio> -->
-    </div>
-    <div id="youtube">
-      <div>
-        <label style="font-size: 24px;font-weight: bold;">Choisir la musique sur Youtube avec son ID</label>
-        <input type="text" id="youtube_link">
-      </div>
-    </div>
-    <div>
-      <label style="font-size: 24px;font-weight: bold;">Choisir une suite aléatoire de musique sur Youtube</label>
-      <select name="playlist_database_select" id="playlist_database_select" onchange="update_add_video_topic(this)">
-        <option selected="selected" value="default"></option>
-        <option value="africain">Africain</option>
-        <option value="animes">Animes</option>
-        <option value="asian">Asiatique</option>
-        <option value="bollywood">Bollywood</option>
-        <option value="dancehall">Dancehall</option>
-        <option value="electro_house_dance">Electro House Dance</option>
-        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
-        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
-        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
-        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
-        <option value="french">Francais</option>
-        <option value="french_old">Francais Ancien</option>
-        <option value="french_198x">Francais 198x</option>
-        <option value="french_199x">Francais 199x</option>
-        <option value="french_200x">Francais 200x</option>
-        <option value="french_201x">Francais 201x</option>
-        <option value="french_202x">Francais 202x</option>
-        <option value="funk_disco_19xx">Funk Disco 19xx</option>
-        <option value="funk_disco_20xx">Funk Disco 20xx</option>
-        <option value="jazz">Jazz</option>
-        <option value="latin">Latino</option>
-        <option value="oriental">Oriental</option>
-        <option value="pop">Pop</option>
-        <option value="pop_old">Pop Ancien</option>
-        <option value="pop_198x">Pop 198x</option>
-        <option value="pop_199x">Pop 199x</option>
-        <option value="pop_200x">Pop 200x</option>
-        <option value="pop_201x">Pop 201x</option>
-        <option value="pop_202x">Pop 202x</option>
-        <option value="rap">Rap</option>
-        <option value="rap_19xx">Rap 19xx</option>
-        <option value="rap_200x">Rap 200x</option>
-        <option value="rap_201x">Rap 201x</option>
-        <option value="rap_202x">Rap 202x</option>
-        <option value="reggae">Reggae</option>
-        <option value="reggaetton">Reggaetton</option>
-        <option value="rnb">R&B</option>
-        <option value="rnb_old">R&B Ancien</option>
-        <option value="rnb_199x">R&B 199x</option>
-        <option value="rnb_200x">R&B 200x</option>
-        <option value="rnb_201x">R&B 201x</option>
-        <option value="rnb_202x">R&B 202x</option>
-        <option value="rock">Rock</option>
-        <option value="sega">Sega</option>
-        <option value="soul">Soul</option>
-        <option value="soundtracks">Soundtracks</option>
-        <option value="tv_show">TV Show</option>
-        <option value="zouk">Zouk</option>
-        <option value="zouk_19xx">Zouk 19xx</option>
-        <option value="zouk_20xx">Zouk 20xx</option>
-      </select>
-      <input type="number" id="nb_random_yt_id_input" value=0></input>
-    </div>
-    <div>
-      <hr>
-      <label>Search Youtube Video ID in Database</label>
-      <input type="text" id="search_db_input">
-      <form id="search_video_artists_form" method="POST" action="#">
-        <button type="submit" id="search_video_artists_button">Search by artist</button>
-      </form>
-      <form id="search_video_title_form" method="POST" action="#">
-        <button type="submit" id="search_video_title_button">Search by title</button>
-      </form>
-      <form id="search_video_album_form" method="POST" action="#">
-        <button type="submit" id="search_video_album_button">Search by album or Film or TV Show</button>
-      </form>
-      <form id="search_video_year_form" method="POST" action="#">
-        <button type="submit" id="search_video_year_button">Search by year</button>
-      </form>
-      <form id="search_video_genders_form" method="POST" action="#">
-        <button type="submit" id="search_video_genders_button">Search by gender</button>
-      </form>
-      <textarea id="video_links_area" name="video_links_area" rows="4" cols="200"></textarea>
-    </div>
-    <div>
-      <hr>
-      <label>Add Youtube Video ID in Database</label>
-      </br>
-      <label>ID:</label>
-      <input type="text" id="add_video_id_input">
-      <label>Artists:</label>
-      <input type="text" id="add_video_artists_input">
-      <label>Titre:</label>
-      <input type="text" id="add_video_title_input">
-      <label>Album/Film/TV Show:</label>
-      <input type="text" id="add_video_album_input">
-      <label>Year:</label>
-      <input type="text" id="add_video_year_input">
-      <label>Genders:</label>
-      <input type="text" id="add_video_genders_input">
-      <label>Sampled by:</label>
-      <input type="text" id="add_video_sampled_by_input">
-      <label>Sample from:</label>
-      <input type="text" id="add_video_sample_from_input">
-      <label>Topic:</label>
-      <select name="add_video_topic_select" id="add_video_topic_select" onchange="update_add_video_topic(this)">
-        <option selected="selected" value="0"></option>
-        <option value="1">Donnez n'importe quel élément de la chanson</option>
-        <option value="2">Donnez l'artiste de la chanson</option>
-        <option value="3">Donnez le titre de la chanson</option>
-        <option value="4">Donnez le nom de Album</option>
-        <option value="5">Donnez le nom du film</option>
-        <option value="6">Donnez le nom de la Serie TV</option>
-        <option value="7">Donnez tous les artistes de la chanson</option>
-        <option value="8">Donnez l'année</option>
-        <option value="9">Donnez l'artiste orginal</option>
-        <option value="10">Donnez l'artiste copieur</option>
-        <option value="11">Donnez le genre</option>
-      </select>
-      <label>Masked ID:</label>
-      <input type="text" id="add_video_masked_id_input">
-      <label>Temps de début:</label>
-      <select name="start_time_select" id="start_time_select" onchange="update_add_video_topic(this)">
-        <option selected="selected" value="0">0 sec</option>
-        <option value="10">10 sec</option>
-        <option value="20">20 sec</option>
-        <option value="30">30 sec</option>
-        <option value="40">40 sec</option>
-        <option value="50">50 sec</option>
-        <option value="60">60 sec</option>
-        <option value="70">70 sec</option>
-        <option value="80">80 sec</option>
-        <option value="90">90 sec</option>
-      </select>
-      <label>Database:</label>
-      <select name="database_1_select" id="database_1_select" onchange="update_add_video_topic(this)">
-        <option selected="selected" value=""></option>
-        <option value="africain">Africain</option>
-        <option value="animes">Animes</option>
-        <option value="asian">Asiatique</option>
-        <option value="bollywood">Bollywood</option>
-        <option value="dancehall">Dancehall</option>
-        <option value="electro_house_dance">Electro House Dance</option>
-        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
-        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
-        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
-        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
-        <option value="french">Francais</option>
-        <option value="french_old">Francais Ancien</option>
-        <option value="french_198x">Francais 198x</option>
-        <option value="french_199x">Francais 199x</option>
-        <option value="french_200x">Francais 200x</option>
-        <option value="french_201x">Francais 201x</option>
-        <option value="french_202x">Francais 202x</option>
-        <option value="funk_disco_19xx">Funk Disco 19xx</option>
-        <option value="funk_disco_20xx">Funk Disco 20xx</option>
-        <option value="jazz">Jazz</option>
-        <option value="latin">Latino</option>
-        <option value="oriental">Oriental</option>
-        <option value="pop">Pop</option>
-        <option value="pop_old">Pop Ancien</option>
-        <option value="pop_198x">Pop 198x</option>
-        <option value="pop_199x">Pop 199x</option>
-        <option value="pop_200x">Pop 200x</option>
-        <option value="pop_201x">Pop 201x</option>
-        <option value="pop_202x">Pop 202x</option>
-        <option value="rap">Rap</option>
-        <option value="rap_19xx">Rap 19xx</option>
-        <option value="rap_200x">Rap 200x</option>
-        <option value="rap_201x">Rap 201x</option>
-        <option value="rap_202x">Rap 202x</option>
-        <option value="reggae">Reggae</option>
-        <option value="reggaetton">Reggaetton</option>
-        <option value="rnb">R&B</option>
-        <option value="rnb_old">R&B Ancien</option>
-        <option value="rnb_199x">R&B 199x</option>
-        <option value="rnb_200x">R&B 200x</option>
-        <option value="rnb_201x">R&B 201x</option>
-        <option value="rnb_202x">R&B 202x</option>
-        <option value="rock">Rock</option>
-        <option value="sega">Sega</option>
-        <option value="soul">Soul</option>
-        <option value="soundtracks">Soundtracks</option>
-        <option value="tv_show">TV Show</option>
-        <option value="zouk">Zouk</option>
-        <option value="zouk_19xx">Zouk 19xx</option>
-        <option value="zouk_20xx">Zouk 20xx</option>
-      </select>
-      <select name="database_2_select" id="database_2_select" onchange="update_add_video_topic(this)">
-        <option selected="selected" value=""></option>
-        <option value="africain">Africain</option>
-        <option value="animes">Animes</option>
-        <option value="asian">Asiatique</option>
-        <option value="bollywood">Bollywood</option>
-        <option value="dancehall">Dancehall</option>
-        <option value="electro_house_dance">Electro House Dance</option>
-        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
-        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
-        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
-        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
-        <option value="french">Francais</option>
-        <option value="french_old">Francais Ancien</option>
-        <option value="french_198x">Francais 198x</option>
-        <option value="french_199x">Francais 199x</option>
-        <option value="french_200x">Francais 200x</option>
-        <option value="french_201x">Francais 201x</option>
-        <option value="french_202x">Francais 202x</option>
-        <option value="funk_disco_19xx">Funk Disco 19xx</option>
-        <option value="funk_disco_20xx">Funk Disco 20xx</option>
-        <option value="jazz">Jazz</option>
-        <option value="latin">Latino</option>
-        <option value="oriental">Oriental</option>
-        <option value="pop">Pop</option>
-        <option value="pop_old">Pop Ancien</option>
-        <option value="pop_198x">Pop 198x</option>
-        <option value="pop_199x">Pop 199x</option>
-        <option value="pop_200x">Pop 200x</option>
-        <option value="pop_201x">Pop 201x</option>
-        <option value="pop_202x">Pop 202x</option>
-        <option value="rap">Rap</option>
-        <option value="rap_19xx">Rap 19xx</option>
-        <option value="rap_200x">Rap 200x</option>
-        <option value="rap_201x">Rap 201x</option>
-        <option value="rap_202x">Rap 202x</option>
-        <option value="reggae">Reggae</option>
-        <option value="reggaetton">Reggaetton</option>
-        <option value="rnb">R&B</option>
-        <option value="rnb_old">R&B Ancien</option>
-        <option value="rnb_199x">R&B 199x</option>
-        <option value="rnb_200x">R&B 200x</option>
-        <option value="rnb_201x">R&B 201x</option>
-        <option value="rnb_202x">R&B 202x</option>
-        <option value="rock">Rock</option>
-        <option value="sega">Sega</option>
-        <option value="soul">Soul</option>
-        <option value="soundtracks">Soundtracks</option>
-        <option value="tv_show">TV Show</option>
-        <option value="zouk">Zouk</option>
-        <option value="zouk_19xx">Zouk 19xx</option>
-        <option value="zouk_20xx">Zouk 20xx</option>
-      </select>
-      <select name="database_3_select" id="database_3_select" onchange="update_add_video_topic(this)">
-        <option selected="selected" value=""></option>
-        <option value="africain">Africain</option>
-        <option value="animes">Animes</option>
-        <option value="asian">Asiatique</option>
-        <option value="bollywood">Bollywood</option>
-        <option value="dancehall">Dancehall</option>
-        <option value="electro_house_dance">Electro House Dance</option>
-        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
-        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
-        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
-        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
-        <option value="french">Francais</option>
-        <option value="french_old">Francais Ancien</option>
-        <option value="french_198x">Francais 198x</option>
-        <option value="french_199x">Francais 199x</option>
-        <option value="french_200x">Francais 200x</option>
-        <option value="french_201x">Francais 201x</option>
-        <option value="french_202x">Francais 202x</option>
-        <option value="funk_disco_19xx">Funk Disco 19xx</option>
-        <option value="funk_disco_20xx">Funk Disco 20xx</option>
-        <option value="jazz">Jazz</option>
-        <option value="latin">Latino</option>
-        <option value="oriental">Oriental</option>
-        <option value="pop">Pop</option>
-        <option value="pop_old">Pop Ancien</option>
-        <option value="pop_198x">Pop 198x</option>
-        <option value="pop_199x">Pop 199x</option>
-        <option value="pop_200x">Pop 200x</option>
-        <option value="pop_201x">Pop 201x</option>
-        <option value="pop_202x">Pop 202x</option>
-        <option value="rap">Rap</option>
-        <option value="rap_19xx">Rap 19xx</option>
-        <option value="rap_200x">Rap 200x</option>
-        <option value="rap_201x">Rap 201x</option>
-        <option value="rap_202x">Rap 202x</option>
-        <option value="reggae">Reggae</option>
-        <option value="reggaetton">Reggaetton</option>
-        <option value="rnb">R&B</option>
-        <option value="rnb_old">R&B Ancien</option>
-        <option value="rnb_199x">R&B 199x</option>
-        <option value="rnb_200x">R&B 200x</option>
-        <option value="rnb_201x">R&B 201x</option>
-        <option value="rnb_202x">R&B 202x</option>
-        <option value="rock">Rock</option>
-        <option value="sega">Sega</option>
-        <option value="soul">Soul</option>
-        <option value="soundtracks">Soundtracks</option>
-        <option value="tv_show">TV Show</option>
-        <option value="zouk">Zouk</option>
-        <option value="zouk_19xx">Zouk 19xx</option>
-        <option value="zouk_20xx">Zouk 20xx</option>
-      </select>
-      <select name="database_4_select" id="database_4_select" onchange="update_add_video_topic(this)">
-        <option selected="selected" value=""></option>
-        <option value="africain">Africain</option>
-        <option value="animes">Animes</option>
-        <option value="asian">Asiatique</option>
-        <option value="bollywood">Bollywood</option>
-        <option value="dancehall">Dancehall</option>
-        <option value="electro_house_dance">Electro House Dance</option>
-        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
-        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
-        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
-        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
-        <option value="french">Francais</option>
-        <option value="french_old">Francais Ancien</option>
-        <option value="french_198x">Francais 198x</option>
-        <option value="french_199x">Francais 199x</option>
-        <option value="french_200x">Francais 200x</option>
-        <option value="french_201x">Francais 201x</option>
-        <option value="french_202x">Francais 202x</option>
-        <option value="funk_disco_19xx">Funk Disco 19xx</option>
-        <option value="funk_disco_20xx">Funk Disco 20xx</option>
-        <option value="jazz">Jazz</option>
-        <option value="latin">Latino</option>
-        <option value="oriental">Oriental</option>
-        <option value="pop">Pop</option>
-        <option value="pop_old">Pop Ancien</option>
-        <option value="pop_198x">Pop 198x</option>
-        <option value="pop_199x">Pop 199x</option>
-        <option value="pop_200x">Pop 200x</option>
-        <option value="pop_201x">Pop 201x</option>
-        <option value="pop_202x">Pop 202x</option>
-        <option value="rap">Rap</option>
-        <option value="rap_19xx">Rap 19xx</option>
-        <option value="rap_200x">Rap 200x</option>
-        <option value="rap_201x">Rap 201x</option>
-        <option value="rap_202x">Rap 202x</option>
-        <option value="reggae">Reggae</option>
-        <option value="reggaetton">Reggaetton</option>
-        <option value="rnb">R&B</option>
-        <option value="rnb_old">R&B Ancien</option>
-        <option value="rnb_199x">R&B 199x</option>
-        <option value="rnb_200x">R&B 200x</option>
-        <option value="rnb_201x">R&B 201x</option>
-        <option value="rnb_202x">R&B 202x</option>
-        <option value="rock">Rock</option>
-        <option value="sega">Sega</option>
-        <option value="soul">Soul</option>
-        <option value="soundtracks">Soundtracks</option>
-        <option value="tv_show">TV Show</option>
-        <option value="zouk">Zouk</option>
-        <option value="zouk_19xx">Zouk 19xx</option>
-        <option value="zouk_20xx">Zouk 20xx</option>
-      </select>
-      <select name="database_5_select" id="database_5_select" onchange="update_add_video_topic(this)">
-        <option selected="selected" value=""></option>
-        <option value="africain">Africain</option>
-        <option value="animes">Animes</option>
-        <option value="asian">Asiatique</option>
-        <option value="bollywood">Bollywood</option>
-        <option value="dancehall">Dancehall</option>
-        <option value="electro_house_dance">Electro House Dance</option>
-        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
-        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
-        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
-        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
-        <option value="french">Francais</option>
-        <option value="french_old">Francais Ancien</option>
-        <option value="french_198x">Francais 198x</option>
-        <option value="french_199x">Francais 199x</option>
-        <option value="french_200x">Francais 200x</option>
-        <option value="french_201x">Francais 201x</option>
-        <option value="french_202x">Francais 202x</option>
-        <option value="funk_disco_19xx">Funk Disco 19xx</option>
-        <option value="funk_disco_20xx">Funk Disco 20xx</option>
-        <option value="jazz">Jazz</option>
-        <option value="latin">Latino</option>
-        <option value="oriental">Oriental</option>
-        <option value="pop">Pop</option>
-        <option value="pop_old">Pop Ancien</option>
-        <option value="pop_198x">Pop 198x</option>
-        <option value="pop_199x">Pop 199x</option>
-        <option value="pop_200x">Pop 200x</option>
-        <option value="pop_201x">Pop 201x</option>
-        <option value="pop_202x">Pop 202x</option>
-        <option value="rap">Rap</option>
-        <option value="rap_19xx">Rap 19xx</option>
-        <option value="rap_200x">Rap 200x</option>
-        <option value="rap_201x">Rap 201x</option>
-        <option value="rap_202x">Rap 202x</option>
-        <option value="reggae">Reggae</option>
-        <option value="reggaetton">Reggaetton</option>
-        <option value="rnb">R&B</option>
-        <option value="rnb_old">R&B Ancien</option>
-        <option value="rnb_199x">R&B 199x</option>
-        <option value="rnb_200x">R&B 200x</option>
-        <option value="rnb_201x">R&B 201x</option>
-        <option value="rnb_202x">R&B 202x</option>
-        <option value="rock">Rock</option>
-        <option value="sega">Sega</option>
-        <option value="soul">Soul</option>
-        <option value="soundtracks">Soundtracks</option>
-        <option value="tv_show">TV Show</option>
-        <option value="zouk">Zouk</option>
-        <option value="zouk_19xx">Zouk 19xx</option>
-        <option value="zouk_20xx">Zouk 20xx</option>
-      </select>
-      <form id="video_to_db_form" method="POST" action="#">
-        <button type="submit" id="video_to_db_button"> Add Video </button>
-      </form>
-    </div>
     <script>
         function update_expected_answer(element)
         {
