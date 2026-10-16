@@ -163,6 +163,7 @@ def new_question(message):
     detail_str = ""
     youtube_answer_id = ""
     start_time = "0"
+    game.youtube_suite_total_questions = 0
     if question_format == "youtube":
         db = TinyDB('database/default.json', indent=4)
         table = db.table('yt')
@@ -187,6 +188,7 @@ def new_question(message):
         random.shuffle(all_yt_fields)
         # logger.debug("Random all_yt_fields is:\n%s", all_yt_fields)
         youtube_suite = all_yt_fields[:int(question_value)]
+        game.youtube_suite_total_questions = len(youtube_suite)
         # logger.debug("youtube_suite is:\n%s", youtube_suite)
         game.question = youtube_suite.pop()
         # logger.debug("Game question is: %s with type %s", game.question, type(game.question))
@@ -197,7 +199,8 @@ def new_question(message):
                 detail_str = f'{detail_str}{key}="{value}" '
         youtube_answer_id = game.question['id']
         message['topic'] = game.question.get('topic', "Donnez l'artiste de la chanson")
-        topic_str = message['topic']
+        question_number = game.youtube_suite_total_questions - len(youtube_suite)
+        topic_str = f"{question_number}/{game.youtube_suite_total_questions}: {message['topic']}"
         start_time = game.question.get('start_time', "0")
         # logger.debug("Set Youtube questions left: %s", youtube_suite)
         game.set_youtube_questions(youtube_suite)
@@ -382,7 +385,12 @@ def next_question():
     youtube_answer_id = result['id']
     topic = result.get('topic', "Donnez l'artiste de la chanson")
     start_time = result.get('start_time', "0")
-    emit_data_to_namespace_blind_test_admin_ui_yt["topic"] = topic
+    question_number = game.youtube_suite_total_questions - len(game.questions)
+    if game.youtube_suite_total_questions:
+        topic_prefix = f"{question_number}/{game.youtube_suite_total_questions}: "
+    else:
+        topic_prefix = ""
+    emit_data_to_namespace_blind_test_admin_ui_yt["topic"] = f"{topic_prefix}{topic}"
     emit_data_to_namespace_blind_test_admin_ui_yt["response"] = answer_str
     emit_data_to_namespace_blind_test_admin_ui_yt["detail"] = detail_str
     emit_data_to_namespace_blind_test_admin_ui_yt["youtube_answer_id"] = youtube_answer_id

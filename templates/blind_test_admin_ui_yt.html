@@ -12,9 +12,6 @@
   </head>
   <body>
     <h1>Blind Test Admin</h1>
-    <form id="new_question_form" method="POST" action="#">
-      <button class="button-77" role="button" type="button" id="new_question_button" name="new_question">Start Blind Test</button>
-    </form>
     <h2><label id="topic_label"></label></h2>
     <h2><label id="answer_label"></label></h2>
     <label id="detail_label"></label>
@@ -297,7 +294,16 @@
         <label name="players_console" id="players_console">&nbsp;</label>
     </div>
     <div>
-      <label style="font-size: 24px;font-weight: bold;">Choisir la réponse attendue</label>
+      <label style="font-size: 24px;font-weight: bold;">Choisir la playlist aléatoire sur Youtube</label>
+      <select name="playlist_database_select" id="playlist_database_select" onchange="update_add_video_topic(this)">
+      </select>
+      <label style="font-size: 24px;font-weight: bold;">avec</label>
+      <input type="number" id="nb_random_yt_id_input" value="0" min="0" max="99" step="1" style="width: 4em;"></input>
+      <label style="font-size: 24px;font-weight: bold;">titres</label>
+    </div>
+    <div><label style="font-size: 20px;">OU</label></div>
+    <div>
+      <label style="font-size: 24px;">Choisir la réponse attendue</label>
       <select name="expected_answer_select" id="expected_answer_select" onchange="update_expected_answer(this)">
         <option selected="selected" value="0"></option>
         <option value="1">Donnez n'importe quel élément de la chanson</option>
@@ -313,7 +319,7 @@
     </div>
     <div id="container">
       <div>
-        <label style="font-size: 24px;font-weight: bold;" for="folder1">Choisir la musique au format MP3</label>
+        <label style="font-size: 24px;" for="folder1">Avec la musique au format MP3</label>
           <!-- <input type="file" id="my_file" onchange="changeFileName(this.value);"> -->
           <input type="file" id="my_file">
           <!-- <p id="uploadMsg">Filename will appear here after file has been selected</p> -->
@@ -325,19 +331,16 @@
     </div>
     <div id="youtube">
       <div>
-        <label style="font-size: 24px;font-weight: bold;">Choisir la musique sur Youtube avec son ID</label>
+        <label style="font-size: 24px;">Ou la musique sur Youtube avec son ID</label>
         <input type="text" id="youtube_link">
       </div>
     </div>
+    <form id="new_question_form" method="POST" action="#">
+      <button class="button-77" role="button" type="button" id="new_question_button" name="new_question">Start Blind Test</button>
+    </form>
+    <hr class="section-divider">
     <div>
-      <label style="font-size: 24px;font-weight: bold;">Choisir une suite aléatoire de musique sur Youtube</label>
-      <select name="playlist_database_select" id="playlist_database_select" onchange="update_add_video_topic(this)">
-      </select>
-      <input type="number" id="nb_random_yt_id_input" value=0></input>
-    </div>
-    <div>
-      <hr>
-      <label>Search Youtube Video ID in Database</label>
+      <label style="font-size: 24px;font-weight: bold;">Search Youtube Video ID in Database</label>
       <input type="text" id="search_db_input">
       <form id="search_video_artists_form" method="POST" action="#">
         <button type="submit" id="search_video_artists_button">Search by artist</button>
@@ -356,9 +359,9 @@
       </form>
       <textarea id="video_links_area" name="video_links_area" rows="4" cols="200"></textarea>
     </div>
+    <hr class="section-divider">
     <div>
-      <hr>
-      <label>Add Youtube Video ID in Database</label>
+      <label style="font-size: 24px;font-weight: bold;">Add Youtube Video ID in Database</label>
       </br>
       <label>ID:</label>
       <input type="text" id="add_video_id_input">
@@ -780,6 +783,7 @@
                     question_type="youtube_suite";
                     question_value = document.getElementById("youtube_link").value;
                     video_current_time = 0.0;
+                    $('#stop_question_button').removeAttr('disabled');
                     $('#new_question_button').attr('disabled', 'disabled');
                     socket.emit('new_question', {topic: "suite", format: question_type, value: nb_random_yt_id_input, db: playlist_database_value, is_players_report_presence: is_players_report_presence});
                     return false;
@@ -934,6 +938,7 @@
                 }
                 else {
                   $('#next_question_button').attr('disabled','disabled');
+                  $('#new_question_button').removeAttr('disabled');
                 }
                 $('#allow_answer_button').attr('disabled','disabled');
                 if (game_without_buzzer) $('#set_players_ready_button').attr('disabled','disabled');
@@ -1093,7 +1098,7 @@
                 document.getElementById("pause_question_button").innerHTML = "PAUSE";
                 $('#pause_question_button').attr('disabled','disabled');
                 $('#next_question_button').attr('disabled','disabled');
-                $('#stop_question_button').attr('disabled','disabled');
+                $('#stop_question_button').removeAttr('disabled');
                 $('#allow_answer_button').attr('disabled','disabled');
                 document.getElementById("my_file").value = "";
                 question_audio.pause();

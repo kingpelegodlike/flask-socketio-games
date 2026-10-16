@@ -216,6 +216,76 @@
             "reponse": "H.E.R. ou Pop Smoke ou Chris Brown ou Slide",
             "masked_id": "",
             "start_time": "0"
+        },
+        "17": {
+            "id": "Ylf8gJQe8So",
+            "artists": "Lucky Daye",
+            "title": "Over",
+            "album": "Candydrip",
+            "year": "2021",
+            "genders": "RnB",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Lucky Daye; Over",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "18": {
+            "id": "LQKEsIDkhMg",
+            "artists": "Lucky Daye",
+            "title": "Cherry Forest",
+            "album": "Candydrip",
+            "year": "2022",
+            "genders": "RnB; Soul",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Lucky Daye / Cherry Forest",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "19": {
+            "id": "FjlwJwhRMd4",
+            "artists": "Lucky Daye; Yebba",
+            "title": "How Much Can A Heart Take",
+            "album": "Table For Two",
+            "year": "2021",
+            "genders": "RnB; Soul",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Lucky Daye / Yebba / How Much Can A Heart Take",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "20": {
+            "id": "wVgG1dG7Pb8",
+            "artists": "Lucky Daye",
+            "title": "HERicane",
+            "album": "Algorithm",
+            "year": "2024",
+            "genders": "RnB; Soul",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Lucky Daye / HERicane",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "21": {
+            "id": "Hz4OK2dUiWc",
+            "artists": "Lucky Daye; Teddy Swims",
+            "title": "Blame",
+            "album": "Algorithm",
+            "year": "2024",
+            "genders": "RnB; Soul",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Lucky Daye / Teddy Swims / Blame",
+            "masked_id": "",
+            "start_time": "0"
         }
     }
 }

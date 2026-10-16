@@ -338,6 +338,20 @@
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
             "masked_id": ""
+        },
+        "27": {
+            "id": "CVzj0MkDHMQ",
+            "artists": "Aupinard",
+            "title": "Le feu",
+            "album": "pluie, montagnes et soleil",
+            "year": "2025",
+            "genders": "Chanson Francaise; Bossa Nova",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "reponse": "Aupinard",
+            "masked_id": "",
+            "start_time": "0"
         }
     }
 }

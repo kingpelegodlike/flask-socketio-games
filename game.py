@@ -54,6 +54,7 @@ class Game:
     self.removed_players = {}
     self.player_names = []
     self.questions = []
+    self.youtube_suite_total_questions = 0
     self.state = GameState.NOT_STARTED # Screen that the users are on
     self.round = 0
     self.letters_guessed = []
