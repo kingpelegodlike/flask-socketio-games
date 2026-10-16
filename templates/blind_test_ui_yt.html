@@ -121,17 +121,17 @@
                     $row.find('td').eq(1).html(newScore + " points");
                     
                     // Mise à jour du statut
-                    $row.find('td').eq(2).html("GAGNE").removeClass().addClass('players_td status_cell status_win');
+                    $row.find('td').eq(2).html("BONNE REPONSE").removeClass().addClass('players_td status_cell status_win');
                 });
                 
-                // 2. Mettre à jour le statut des autres joueurs (PERD)
+                // 2. Mettre à jour le statut des autres joueurs (TROP TARD)
                 $('#players_table tbody tr').each(function() {
                     var $row = $(this);
                     var name = $row.attr('data-player-name');
                     // Si ce n'est pas le joueur qui vient de gagner
                     if (name !== playerName) {
-                        // Mettre à jour le statut à "PERD"
-                        $row.find('td').eq(2).html("PERD").removeClass().addClass('players_td status_cell status_lose');
+                        // Mettre à jour le statut à "TROP TARD"
+                        $row.find('td').eq(2).html("TROP TARD").removeClass().addClass('players_td status_cell status_lose');
                     }
                 });
                 
@@ -161,6 +161,7 @@
             // Les événements suivants sont mis à jour pour cibler la table
             
             socket.on('waiting_players_answer', function(msg) {
+                                $('#correct_answer_label').text('').hide();
                 if ("topic" in msg) {
                   document.getElementById("topic_label").innerHTML = msg.topic;
                 }
@@ -177,6 +178,9 @@
             });
             
             socket.on('good_answer', function(msg) {
+                if (msg.response) {
+                    $('#correct_answer_label').text('Réponse : ' + msg.response).show();
+                }
                 good_answer_audio.load();
                 good_answer_audio.play();
             });
@@ -263,6 +267,8 @@
             });
 
             socket.on('end_game', function(msg) {
+                            document.getElementById("topic_label").textContent = "";
+                            $('#correct_answer_label').text('').hide();
               $('#players_table tbody tr').each(function() {
                 $(this).find('td').eq(2).html("ATTENDS NOUVELLE QUESTION").removeClass().addClass('players_td status_cell status_ready');
               });
@@ -291,7 +297,8 @@
   </head>
   <body>
     <h1>Blind Test Players Board</h1>
-    <h2>Thème: <label name="topic_label" id="topic_label"></label></h2>
+    <h2>QUESTION: <label name="topic_label" id="topic_label"></label></h2>
+    <h2 id="correct_answer_label" style="display:none;"></h2>
     <h3>État du jeu: <label name="game_status_label" id="game_status_label"></label></h3>
 
     <div>
@@ -325,6 +332,7 @@
         <!-- <input type="text" id="youtube_link" style="display:none;"> -->
         <input type="text" id="youtube_link">
         <button id="hide_or_show_youtube_div_button" onclick="hideOrShowYoutubeDiv()">hide</button>
+        <br>
         <div id="video-placeholder" style="display:inline-block;">
           <iframe id="player" type="text/html" width="1280" height="720"
                   src="http://www.youtube.com/embed/KDPhIQcaovQ?enablejsapi=1&mute=1"

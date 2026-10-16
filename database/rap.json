@@ -1,4 +1,5 @@
 {
+    "name": "Rap",
     "yt": {
         "1": {
             "id": "NLXiGXbxl6Q",
@@ -10,6 +11,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "2": {
@@ -22,6 +24,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "3": {
@@ -34,6 +37,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "4": {
@@ -46,6 +50,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "5": {
@@ -58,6 +63,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "6": {
@@ -70,6 +76,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "7": {
@@ -82,6 +89,7 @@
             "sampled_by": "",
             "sample_from": "Gala - Freed From Desire",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "8": {
@@ -94,6 +102,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "9": {
@@ -106,6 +115,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "10": {
@@ -118,6 +128,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "11": {
@@ -130,6 +141,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "12": {
@@ -142,6 +154,7 @@
             "sampled_by": "",
             "sample_from": "Daft Punk - One More Time",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "13": {
@@ -154,6 +167,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "14": {
@@ -166,6 +180,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "15": {
@@ -178,6 +193,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "16": {
@@ -190,6 +206,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "17": {
@@ -202,6 +219,7 @@
             "sampled_by": "",
             "sample_from": "Queen - Another One Bites The Dust",
             "topic": "Donnez l'artiste orginal",
+            "reponse": "",
             "masked_id": ""
         },
         "18": {
@@ -214,6 +232,7 @@
             "sampled_by": "",
             "sample_from": "Kool And The Gang - Ladies Night",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "19": {
@@ -226,6 +245,7 @@
             "sampled_by": "",
             "sample_from": "Grandmaster Flash - The Message",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "20": {
@@ -238,6 +258,7 @@
             "sampled_by": "Ice Cube - Check Yo Self",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "21": {
@@ -250,6 +271,7 @@
             "sampled_by": "",
             "sample_from": "Oliver Cheatham - Get Down Saturday Night",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "22": {
@@ -262,6 +284,7 @@
             "sampled_by": "",
             "sample_from": "Patrice Rushen - Forget Me Nots",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "23": {
@@ -274,6 +297,7 @@
             "sampled_by": "",
             "sample_from": "Carl Carlton - She's a bad mama jama",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "24": {
@@ -286,6 +310,7 @@
             "sampled_by": "",
             "sample_from": "Chic - Le Freak",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "25": {
@@ -298,6 +323,7 @@
             "sampled_by": "Daddy Yankee - Con Calma",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "26": {
@@ -310,6 +336,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
+            "reponse": "",
             "masked_id": ""
         },
         "27": {
@@ -322,6 +349,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
+            "reponse": "",
             "masked_id": ""
         },
         "28": {
@@ -334,6 +362,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "29": {
@@ -346,6 +375,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
+            "reponse": "",
             "masked_id": ""
         },
         "30": {
@@ -358,6 +388,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "31": {
@@ -370,6 +401,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "32": {
@@ -382,6 +414,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "33": {
@@ -394,6 +427,7 @@
             "sampled_by": "",
             "sample_from": "Dirty Dancing - She's Like the Wind",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "34": {
@@ -406,6 +440,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "35": {
@@ -418,6 +453,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "36": {
@@ -430,6 +466,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "37": {
@@ -442,6 +479,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez tous les artistes de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "38": {
@@ -454,6 +492,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "39": {
@@ -466,6 +505,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez tous les artistes de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "40": {
@@ -478,6 +518,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "41": {
@@ -490,6 +531,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "42": {
@@ -502,6 +544,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "43": {
@@ -514,6 +557,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "44": {
@@ -526,6 +570,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "45": {
@@ -538,6 +583,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "46": {
@@ -550,6 +596,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "47": {
@@ -562,6 +609,7 @@
             "sampled_by": "",
             "sample_from": "Madonna - Holiday",
             "topic": "Donnez l'artiste orginal",
+            "reponse": "",
             "masked_id": ""
         },
         "48": {
@@ -574,6 +622,7 @@
             "sampled_by": "",
             "sample_from": "Cyndi Lauper - True Colors",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "49": {
@@ -586,6 +635,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "50": {
@@ -598,6 +648,7 @@
             "sampled_by": "",
             "sample_from": "Mariah Carey - Fantasy",
             "topic": "Donnez l'artiste orginal",
+            "reponse": "",
             "masked_id": ""
         },
         "51": {
@@ -610,6 +661,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "52": {
@@ -622,6 +674,7 @@
             "sampled_by": "",
             "sample_from": "Patrice Rushen - Remind Me",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "53": {
@@ -634,6 +687,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "54": {
@@ -646,6 +700,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "55": {
@@ -658,6 +713,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "56": {
@@ -670,6 +726,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "57": {
@@ -682,6 +739,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "58": {
@@ -694,6 +752,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "60"
         },
@@ -707,6 +766,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -720,6 +780,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -733,6 +794,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -746,6 +808,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -759,6 +822,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -772,6 +836,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -785,6 +850,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -798,6 +864,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -811,6 +878,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -824,6 +892,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
+            "reponse": "",
             "masked_id": "",
             "start_time": "40"
         },
@@ -837,6 +906,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -850,6 +920,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "10"
         },
@@ -863,6 +934,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -876,6 +948,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -889,6 +962,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -902,6 +976,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "10"
         },
@@ -915,6 +990,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "20"
         },
@@ -928,6 +1004,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -941,6 +1018,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -954,6 +1032,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -967,6 +1046,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -980,6 +1060,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -993,6 +1074,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "20"
         },
@@ -1006,6 +1088,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1019,6 +1102,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1032,6 +1116,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1045,6 +1130,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1058,6 +1144,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1071,6 +1158,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1084,6 +1172,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1097,6 +1186,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1110,6 +1200,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1123,6 +1214,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1136,6 +1228,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1149,6 +1242,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1162,6 +1256,7 @@
             "sampled_by": "",
             "sample_from": "Ashanti - Baby",
             "topic": "Donnez l'artiste orginal",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1175,6 +1270,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "20"
         },
@@ -1188,6 +1284,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1201,6 +1298,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1214,6 +1312,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1227,6 +1326,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1240,6 +1340,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1253,6 +1354,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1266,6 +1368,7 @@
             "sampled_by": "",
             "sample_from": "Nelly - Hot In Herre",
             "topic": "Donnez l'artiste orginal",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1279,6 +1382,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1292,6 +1396,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1305,6 +1410,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1318,6 +1424,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1331,6 +1438,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "40"
         },
@@ -1344,6 +1452,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1357,6 +1466,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1370,6 +1480,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1383,6 +1494,7 @@
             "sampled_by": "Hatik - Angela",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1396,6 +1508,7 @@
             "sampled_by": "",
             "sample_from": "Saian Supa Crew - Angela",
             "topic": "Donnez l'artiste orginal",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1409,6 +1522,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1422,6 +1536,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1435,6 +1550,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1448,6 +1564,7 @@
             "sampled_by": "",
             "sample_from": "Michael McDonald - I Keep Forgettin'",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1461,6 +1578,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "10"
         },
@@ -1474,6 +1592,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1487,6 +1606,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1500,6 +1620,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         }

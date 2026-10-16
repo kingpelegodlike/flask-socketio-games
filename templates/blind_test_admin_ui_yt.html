@@ -13,9 +13,11 @@
   <body>
     <h1>Blind Test Admin</h1>
     <form id="new_question_form" method="POST" action="#">
-      <button class="button-77" role="button" type="submit" id="new_question_button" name="new_question">Start Blind Test</button>
+      <button class="button-77" role="button" type="button" id="new_question_button" name="new_question">Start Blind Test</button>
     </form>
-    <label id="answer_label"></label>
+    <h2><label id="topic_label"></label></h2>
+    <h2><label id="answer_label"></label></h2>
+    <label id="detail_label"></label>
     <label id="waiting_player_answer_label"></label>
     <div class="btn-group">
       <form id="good_answer_form" method="POST" action="#">
@@ -330,57 +332,6 @@
     <div>
       <label style="font-size: 24px;font-weight: bold;">Choisir une suite aléatoire de musique sur Youtube</label>
       <select name="playlist_database_select" id="playlist_database_select" onchange="update_add_video_topic(this)">
-        <option selected="selected" value="default"></option>
-        <option value="africain">Africain</option>
-        <option value="animes">Animes</option>
-        <option value="asian">Asiatique</option>
-        <option value="bollywood">Bollywood</option>
-        <option value="dancehall">Dancehall</option>
-        <option value="electro_house_dance">Electro House Dance</option>
-        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
-        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
-        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
-        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
-        <option value="french">Francais</option>
-        <option value="french_old">Francais Ancien</option>
-        <option value="french_198x">Francais 198x</option>
-        <option value="french_199x">Francais 199x</option>
-        <option value="french_200x">Francais 200x</option>
-        <option value="french_201x">Francais 201x</option>
-        <option value="french_202x">Francais 202x</option>
-        <option value="funk_disco_19xx">Funk Disco 19xx</option>
-        <option value="funk_disco_20xx">Funk Disco 20xx</option>
-        <option value="jazz">Jazz</option>
-        <option value="latin">Latino</option>
-        <option value="oriental">Oriental</option>
-        <option value="pop">Pop</option>
-        <option value="pop_old">Pop Ancien</option>
-        <option value="pop_198x">Pop 198x</option>
-        <option value="pop_199x">Pop 199x</option>
-        <option value="pop_200x">Pop 200x</option>
-        <option value="pop_201x">Pop 201x</option>
-        <option value="pop_202x">Pop 202x</option>
-        <option value="rap">Rap</option>
-        <option value="rap_19xx">Rap 19xx</option>
-        <option value="rap_200x">Rap 200x</option>
-        <option value="rap_201x">Rap 201x</option>
-        <option value="rap_202x">Rap 202x</option>
-        <option value="reggae">Reggae</option>
-        <option value="reggaetton">Reggaetton</option>
-        <option value="rnb">R&B</option>
-        <option value="rnb_old">R&B Ancien</option>
-        <option value="rnb_199x">R&B 199x</option>
-        <option value="rnb_200x">R&B 200x</option>
-        <option value="rnb_201x">R&B 201x</option>
-        <option value="rnb_202x">R&B 202x</option>
-        <option value="rock">Rock</option>
-        <option value="sega">Sega</option>
-        <option value="soul">Soul</option>
-        <option value="soundtracks">Soundtracks</option>
-        <option value="tv_show">TV Show</option>
-        <option value="zouk">Zouk</option>
-        <option value="zouk_19xx">Zouk 19xx</option>
-        <option value="zouk_20xx">Zouk 20xx</option>
       </select>
       <input type="number" id="nb_random_yt_id_input" value=0></input>
     </div>
@@ -411,20 +362,28 @@
       </br>
       <label>ID:</label>
       <input type="text" id="add_video_id_input">
+      </br>
       <label>Artists:</label>
       <input type="text" id="add_video_artists_input">
+      </br>
       <label>Titre:</label>
       <input type="text" id="add_video_title_input">
+      </br>
       <label>Album/Film/TV Show:</label>
       <input type="text" id="add_video_album_input">
+      </br>
       <label>Year:</label>
       <input type="text" id="add_video_year_input">
+      </br>
       <label>Genders:</label>
       <input type="text" id="add_video_genders_input">
+      </br>
       <label>Sampled by:</label>
       <input type="text" id="add_video_sampled_by_input">
+      </br>
       <label>Sample from:</label>
       <input type="text" id="add_video_sample_from_input">
+      </br>
       <label>Topic:</label>
       <select name="add_video_topic_select" id="add_video_topic_select" onchange="update_add_video_topic(this)">
         <option selected="selected" value="0"></option>
@@ -440,8 +399,13 @@
         <option value="10">Donnez l'artiste copieur</option>
         <option value="11">Donnez le genre</option>
       </select>
+      </br>
+      <label for="add_video_reponse_input">Réponse:</label>
+      <input type="text" id="add_video_reponse_input">
+      </br>
       <label>Masked ID:</label>
       <input type="text" id="add_video_masked_id_input">
+      </br>
       <label>Temps de début:</label>
       <select name="start_time_select" id="start_time_select" onchange="update_add_video_topic(this)">
         <option selected="selected" value="0">0 sec</option>
@@ -455,276 +419,23 @@
         <option value="80">80 sec</option>
         <option value="90">90 sec</option>
       </select>
-      <label>Database:</label>
+      </br>
+      <label>Databases:</label>
       <select name="database_1_select" id="database_1_select" onchange="update_add_video_topic(this)">
-        <option selected="selected" value=""></option>
-        <option value="africain">Africain</option>
-        <option value="animes">Animes</option>
-        <option value="asian">Asiatique</option>
-        <option value="bollywood">Bollywood</option>
-        <option value="dancehall">Dancehall</option>
-        <option value="electro_house_dance">Electro House Dance</option>
-        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
-        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
-        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
-        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
-        <option value="french">Francais</option>
-        <option value="french_old">Francais Ancien</option>
-        <option value="french_198x">Francais 198x</option>
-        <option value="french_199x">Francais 199x</option>
-        <option value="french_200x">Francais 200x</option>
-        <option value="french_201x">Francais 201x</option>
-        <option value="french_202x">Francais 202x</option>
-        <option value="funk_disco_19xx">Funk Disco 19xx</option>
-        <option value="funk_disco_20xx">Funk Disco 20xx</option>
-        <option value="jazz">Jazz</option>
-        <option value="latin">Latino</option>
-        <option value="oriental">Oriental</option>
-        <option value="pop">Pop</option>
-        <option value="pop_old">Pop Ancien</option>
-        <option value="pop_198x">Pop 198x</option>
-        <option value="pop_199x">Pop 199x</option>
-        <option value="pop_200x">Pop 200x</option>
-        <option value="pop_201x">Pop 201x</option>
-        <option value="pop_202x">Pop 202x</option>
-        <option value="rap">Rap</option>
-        <option value="rap_19xx">Rap 19xx</option>
-        <option value="rap_200x">Rap 200x</option>
-        <option value="rap_201x">Rap 201x</option>
-        <option value="rap_202x">Rap 202x</option>
-        <option value="reggae">Reggae</option>
-        <option value="reggaetton">Reggaetton</option>
-        <option value="rnb">R&B</option>
-        <option value="rnb_old">R&B Ancien</option>
-        <option value="rnb_199x">R&B 199x</option>
-        <option value="rnb_200x">R&B 200x</option>
-        <option value="rnb_201x">R&B 201x</option>
-        <option value="rnb_202x">R&B 202x</option>
-        <option value="rock">Rock</option>
-        <option value="sega">Sega</option>
-        <option value="soul">Soul</option>
-        <option value="soundtracks">Soundtracks</option>
-        <option value="tv_show">TV Show</option>
-        <option value="zouk">Zouk</option>
-        <option value="zouk_19xx">Zouk 19xx</option>
-        <option value="zouk_20xx">Zouk 20xx</option>
       </select>
       <select name="database_2_select" id="database_2_select" onchange="update_add_video_topic(this)">
-        <option selected="selected" value=""></option>
-        <option value="africain">Africain</option>
-        <option value="animes">Animes</option>
-        <option value="asian">Asiatique</option>
-        <option value="bollywood">Bollywood</option>
-        <option value="dancehall">Dancehall</option>
-        <option value="electro_house_dance">Electro House Dance</option>
-        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
-        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
-        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
-        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
-        <option value="french">Francais</option>
-        <option value="french_old">Francais Ancien</option>
-        <option value="french_198x">Francais 198x</option>
-        <option value="french_199x">Francais 199x</option>
-        <option value="french_200x">Francais 200x</option>
-        <option value="french_201x">Francais 201x</option>
-        <option value="french_202x">Francais 202x</option>
-        <option value="funk_disco_19xx">Funk Disco 19xx</option>
-        <option value="funk_disco_20xx">Funk Disco 20xx</option>
-        <option value="jazz">Jazz</option>
-        <option value="latin">Latino</option>
-        <option value="oriental">Oriental</option>
-        <option value="pop">Pop</option>
-        <option value="pop_old">Pop Ancien</option>
-        <option value="pop_198x">Pop 198x</option>
-        <option value="pop_199x">Pop 199x</option>
-        <option value="pop_200x">Pop 200x</option>
-        <option value="pop_201x">Pop 201x</option>
-        <option value="pop_202x">Pop 202x</option>
-        <option value="rap">Rap</option>
-        <option value="rap_19xx">Rap 19xx</option>
-        <option value="rap_200x">Rap 200x</option>
-        <option value="rap_201x">Rap 201x</option>
-        <option value="rap_202x">Rap 202x</option>
-        <option value="reggae">Reggae</option>
-        <option value="reggaetton">Reggaetton</option>
-        <option value="rnb">R&B</option>
-        <option value="rnb_old">R&B Ancien</option>
-        <option value="rnb_199x">R&B 199x</option>
-        <option value="rnb_200x">R&B 200x</option>
-        <option value="rnb_201x">R&B 201x</option>
-        <option value="rnb_202x">R&B 202x</option>
-        <option value="rock">Rock</option>
-        <option value="sega">Sega</option>
-        <option value="soul">Soul</option>
-        <option value="soundtracks">Soundtracks</option>
-        <option value="tv_show">TV Show</option>
-        <option value="zouk">Zouk</option>
-        <option value="zouk_19xx">Zouk 19xx</option>
-        <option value="zouk_20xx">Zouk 20xx</option>
       </select>
       <select name="database_3_select" id="database_3_select" onchange="update_add_video_topic(this)">
-        <option selected="selected" value=""></option>
-        <option value="africain">Africain</option>
-        <option value="animes">Animes</option>
-        <option value="asian">Asiatique</option>
-        <option value="bollywood">Bollywood</option>
-        <option value="dancehall">Dancehall</option>
-        <option value="electro_house_dance">Electro House Dance</option>
-        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
-        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
-        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
-        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
-        <option value="french">Francais</option>
-        <option value="french_old">Francais Ancien</option>
-        <option value="french_198x">Francais 198x</option>
-        <option value="french_199x">Francais 199x</option>
-        <option value="french_200x">Francais 200x</option>
-        <option value="french_201x">Francais 201x</option>
-        <option value="french_202x">Francais 202x</option>
-        <option value="funk_disco_19xx">Funk Disco 19xx</option>
-        <option value="funk_disco_20xx">Funk Disco 20xx</option>
-        <option value="jazz">Jazz</option>
-        <option value="latin">Latino</option>
-        <option value="oriental">Oriental</option>
-        <option value="pop">Pop</option>
-        <option value="pop_old">Pop Ancien</option>
-        <option value="pop_198x">Pop 198x</option>
-        <option value="pop_199x">Pop 199x</option>
-        <option value="pop_200x">Pop 200x</option>
-        <option value="pop_201x">Pop 201x</option>
-        <option value="pop_202x">Pop 202x</option>
-        <option value="rap">Rap</option>
-        <option value="rap_19xx">Rap 19xx</option>
-        <option value="rap_200x">Rap 200x</option>
-        <option value="rap_201x">Rap 201x</option>
-        <option value="rap_202x">Rap 202x</option>
-        <option value="reggae">Reggae</option>
-        <option value="reggaetton">Reggaetton</option>
-        <option value="rnb">R&B</option>
-        <option value="rnb_old">R&B Ancien</option>
-        <option value="rnb_199x">R&B 199x</option>
-        <option value="rnb_200x">R&B 200x</option>
-        <option value="rnb_201x">R&B 201x</option>
-        <option value="rnb_202x">R&B 202x</option>
-        <option value="rock">Rock</option>
-        <option value="sega">Sega</option>
-        <option value="soul">Soul</option>
-        <option value="soundtracks">Soundtracks</option>
-        <option value="tv_show">TV Show</option>
-        <option value="zouk">Zouk</option>
-        <option value="zouk_19xx">Zouk 19xx</option>
-        <option value="zouk_20xx">Zouk 20xx</option>
       </select>
       <select name="database_4_select" id="database_4_select" onchange="update_add_video_topic(this)">
-        <option selected="selected" value=""></option>
-        <option value="africain">Africain</option>
-        <option value="animes">Animes</option>
-        <option value="asian">Asiatique</option>
-        <option value="bollywood">Bollywood</option>
-        <option value="dancehall">Dancehall</option>
-        <option value="electro_house_dance">Electro House Dance</option>
-        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
-        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
-        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
-        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
-        <option value="french">Francais</option>
-        <option value="french_old">Francais Ancien</option>
-        <option value="french_198x">Francais 198x</option>
-        <option value="french_199x">Francais 199x</option>
-        <option value="french_200x">Francais 200x</option>
-        <option value="french_201x">Francais 201x</option>
-        <option value="french_202x">Francais 202x</option>
-        <option value="funk_disco_19xx">Funk Disco 19xx</option>
-        <option value="funk_disco_20xx">Funk Disco 20xx</option>
-        <option value="jazz">Jazz</option>
-        <option value="latin">Latino</option>
-        <option value="oriental">Oriental</option>
-        <option value="pop">Pop</option>
-        <option value="pop_old">Pop Ancien</option>
-        <option value="pop_198x">Pop 198x</option>
-        <option value="pop_199x">Pop 199x</option>
-        <option value="pop_200x">Pop 200x</option>
-        <option value="pop_201x">Pop 201x</option>
-        <option value="pop_202x">Pop 202x</option>
-        <option value="rap">Rap</option>
-        <option value="rap_19xx">Rap 19xx</option>
-        <option value="rap_200x">Rap 200x</option>
-        <option value="rap_201x">Rap 201x</option>
-        <option value="rap_202x">Rap 202x</option>
-        <option value="reggae">Reggae</option>
-        <option value="reggaetton">Reggaetton</option>
-        <option value="rnb">R&B</option>
-        <option value="rnb_old">R&B Ancien</option>
-        <option value="rnb_199x">R&B 199x</option>
-        <option value="rnb_200x">R&B 200x</option>
-        <option value="rnb_201x">R&B 201x</option>
-        <option value="rnb_202x">R&B 202x</option>
-        <option value="rock">Rock</option>
-        <option value="sega">Sega</option>
-        <option value="soul">Soul</option>
-        <option value="soundtracks">Soundtracks</option>
-        <option value="tv_show">TV Show</option>
-        <option value="zouk">Zouk</option>
-        <option value="zouk_19xx">Zouk 19xx</option>
-        <option value="zouk_20xx">Zouk 20xx</option>
       </select>
       <select name="database_5_select" id="database_5_select" onchange="update_add_video_topic(this)">
-        <option selected="selected" value=""></option>
-        <option value="africain">Africain</option>
-        <option value="animes">Animes</option>
-        <option value="asian">Asiatique</option>
-        <option value="bollywood">Bollywood</option>
-        <option value="dancehall">Dancehall</option>
-        <option value="electro_house_dance">Electro House Dance</option>
-        <option value="electro_house_dance_199x">Electro House Dance 199x</option>
-        <option value="electro_house_dance_200x">Electro House Dance 200x</option>
-        <option value="electro_house_dance_201x">Electro House Dance 201x</option>
-        <option value="electro_house_dance_202x">Electro House Dance 202x</option>
-        <option value="french">Francais</option>
-        <option value="french_old">Francais Ancien</option>
-        <option value="french_198x">Francais 198x</option>
-        <option value="french_199x">Francais 199x</option>
-        <option value="french_200x">Francais 200x</option>
-        <option value="french_201x">Francais 201x</option>
-        <option value="french_202x">Francais 202x</option>
-        <option value="funk_disco_19xx">Funk Disco 19xx</option>
-        <option value="funk_disco_20xx">Funk Disco 20xx</option>
-        <option value="jazz">Jazz</option>
-        <option value="latin">Latino</option>
-        <option value="oriental">Oriental</option>
-        <option value="pop">Pop</option>
-        <option value="pop_old">Pop Ancien</option>
-        <option value="pop_198x">Pop 198x</option>
-        <option value="pop_199x">Pop 199x</option>
-        <option value="pop_200x">Pop 200x</option>
-        <option value="pop_201x">Pop 201x</option>
-        <option value="pop_202x">Pop 202x</option>
-        <option value="rap">Rap</option>
-        <option value="rap_19xx">Rap 19xx</option>
-        <option value="rap_200x">Rap 200x</option>
-        <option value="rap_201x">Rap 201x</option>
-        <option value="rap_202x">Rap 202x</option>
-        <option value="reggae">Reggae</option>
-        <option value="reggaetton">Reggaetton</option>
-        <option value="rnb">R&B</option>
-        <option value="rnb_old">R&B Ancien</option>
-        <option value="rnb_199x">R&B 199x</option>
-        <option value="rnb_200x">R&B 200x</option>
-        <option value="rnb_201x">R&B 201x</option>
-        <option value="rnb_202x">R&B 202x</option>
-        <option value="rock">Rock</option>
-        <option value="sega">Sega</option>
-        <option value="soul">Soul</option>
-        <option value="soundtracks">Soundtracks</option>
-        <option value="tv_show">TV Show</option>
-        <option value="zouk">Zouk</option>
-        <option value="zouk_19xx">Zouk 19xx</option>
-        <option value="zouk_20xx">Zouk 20xx</option>
       </select>
       <form id="video_to_db_form" method="POST" action="#">
         <button type="submit" id="video_to_db_button"> Add Video </button>
       </form>
     </div>
+    <div id="database-options" data-options="{{ databases|tojson|forceescape }}" hidden></div>
     <script src="{{ url_for('static',filename='dist/libs/jquery.js') }}"></script>
     <script src="{{ url_for('static',filename='dist/libs/socket.io.min.js') }}"></script>
     <script type="text/javascript" charset="utf-8">
@@ -735,11 +446,30 @@
             // physical channel. If you don't care about multiple channels, you
             // can set the namespace to an empty string.
             namespace = '/blind_test_admin_ui_yt';
+            var databaseOptions = JSON.parse(document.getElementById('database-options').dataset.options);
+            function populateDatabaseSelect(selectId, includeEmptyOption, selectedValue) {
+              var select = document.getElementById(selectId);
+              select.options.length = 0;
+              if (includeEmptyOption) {
+                select.add(new Option(selectedValue || '', selectedValue || ''));
+              }
+              databaseOptions.forEach(function(database) {
+                select.add(new Option(database.name, database.value));
+              });
+              if (selectedValue) {
+                select.value = selectedValue;
+              }
+            }
+            populateDatabaseSelect('playlist_database_select', true, 'default');
+            for (var databaseSelectIndex = 1; databaseSelectIndex <= 5; databaseSelectIndex++) {
+              populateDatabaseSelect('database_' + databaseSelectIndex + '_select', true, '');
+            }
             var good_answer = document.getElementById('good_answer');
             var good_answer_src = document.getElementById('good_answer_src');
             var wrong_answer = document.getElementById('wrong_answer');
             var wrong_answer_src = document.getElementById('wrong_answer_src');
             var question_type = "";
+            var current_answer = "";
             var question_audio = document.getElementById('question_audio');
             var question_audio_src = document.getElementById('question_audio_src');
             // var question_audio_current_time = 0;
@@ -1028,7 +758,8 @@
                 return false;
             });
             
-            $('form#new_question_form').submit(function(event) {
+            $('#new_question_button').click(function(event) {
+              event.preventDefault();
                 question_type = "";
                 var nb_random_yt_id_input = document.getElementById("nb_random_yt_id_input").value;
                 var expected_answer_select_element = document.getElementById("expected_answer_select");
@@ -1049,6 +780,7 @@
                     question_type="youtube_suite";
                     question_value = document.getElementById("youtube_link").value;
                     video_current_time = 0.0;
+                    $('#new_question_button').attr('disabled', 'disabled');
                     socket.emit('new_question', {topic: "suite", format: question_type, value: nb_random_yt_id_input, db: playlist_database_value, is_players_report_presence: is_players_report_presence});
                     return false;
                 }
@@ -1082,12 +814,19 @@
                 $('#stop_question_button').removeAttr('disabled');
                 $('#allow_answer_button').removeAttr('disabled');
                 if (game_without_buzzer) $('#set_players_ready_button').removeAttr('disabled');
+                $('#new_question_button').attr('disabled', 'disabled');
                 socket.emit('new_question', {topic: topic, format: question_type, value: question_value, db: playlist_database_value, is_players_report_presence: is_players_report_presence});
                 return false;
             });
             
             socket.on('set_answer', function(msg) {
-                document.getElementById("answer_label").innerHTML = "Response is " + msg.answer;
+              current_answer = msg.response || "";
+              topic = "Question: " + msg.topic || "Question: N/A";
+              answer = "Response: " + current_answer;
+              detail = "Detail: " + msg.detail || "Detail: N/A";
+              document.getElementById("answer_label").textContent = answer;
+              document.getElementById("topic_label").textContent = topic;
+              document.getElementById("detail_label").textContent = detail;
                 if (msg.youtube_answer_id != "") {
                     document.getElementById("youtube_link").value = msg.youtube_answer_id;
                 }
@@ -1177,7 +916,10 @@
             socket.on('stop_blind_test', function(msg) {
                 player_turn = "";
                 document.getElementById("waiting_player_answer_label").innerHTML = player_turn;
-                document.getElementById("answer_label").innerHTML = "";
+                if (!('enable_stop_question_button' in msg)) {
+                  document.getElementById("answer_label").innerHTML = "";
+                  document.getElementById("detail_label").innerHTML = "";
+                }
                 document.getElementById("nb_random_yt_id_input").value = 0;
                 $('#good_answer_button').attr('disabled','disabled');
                 $('#wrong_answer_button').attr('disabled','disabled');
@@ -1262,7 +1004,7 @@
                 if (game_without_buzzer) $('#set_players_ready_button').attr('disabled','disabled');
                 document.getElementById("my_file").value = "";
                 document.getElementById("youtube_link").value = "";
-                socket.emit('good_answer', {player_name: player_turn});
+                socket.emit('good_answer', {player_name: player_turn, response: current_answer});
                 player_turn = "";
                 var waiting_player_answer_label = document.getElementById("waiting_player_answer_label");
                 waiting_player_answer_label.innerHTML = player_turn;
@@ -1365,6 +1107,7 @@
             
             $('form#stop_question_form').submit(function(event) {
                 player_turn = "";
+              $('#new_question_button').removeAttr('disabled');
                 var waiting_player_answer_label = document.getElementById("waiting_player_answer_label");
                 waiting_player_answer_label.innerHTML = player_turn;
                 $('#good_answer_button').attr('disabled','disabled');
@@ -1461,6 +1204,7 @@
                 var video_genders_value = document.getElementById("add_video_genders_input").value;
                 var video_sampled_by_value = document.getElementById("add_video_sampled_by_input").value;
                 var video_sample_from_value = document.getElementById("add_video_sample_from_input").value;
+                var video_reponse_value = document.getElementById("add_video_reponse_input").value;
                 var add_video_topic_select_element = document.getElementById("add_video_topic_select");
                 var add_video_topic_select_idx = add_video_topic_select_element.selectedIndex;
                 var add_video_topic_select_val = add_video_topic_select_element.options[add_video_topic_select_idx].value;
@@ -1521,6 +1265,7 @@
                                                 sampled_by: video_sampled_by_value,
                                                 sample_from: video_sample_from_value,
                                                 topic: video_topic_value,
+                                                reponse: video_reponse_value,
                                                 masked_id: video_masked_id_value,
                                                 start_time: start_time_select_value,
                                                 db1: database_1_select_value,
@@ -1541,6 +1286,7 @@
                 document.getElementById("add_video_genders_input").value = "";
                 document.getElementById("add_video_sampled_by_input").value = "";
                 document.getElementById("add_video_sample_from_input").value = "";
+                document.getElementById("add_video_reponse_input").value = "";
                 document.getElementById("add_video_topic_select").selectedIndex = 0;
                 document.getElementById("add_video_masked_id_input").value = "";
                 document.getElementById("start_time_select").selectedIndex = 0;

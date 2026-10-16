@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import os
+import json
 import socket
 import re
 import random
@@ -68,7 +69,24 @@ def countdown_ready_thread(counter):
 
 @app.route('/blind_test_admin_ui_yt')
 def blind_test_admin_ui_yt():
-    return render_template('blind_test_admin_ui_yt.html', async_mode=socketio.async_mode)
+    database_directory = os.path.join(os.path.dirname(__file__), 'database')
+    databases = []
+    for filename in sorted(os.listdir(database_directory)):
+        if filename.endswith('.json'):
+            if filename.startswith('default'):
+                continue
+            database_path = os.path.join(database_directory, filename)
+            with open(database_path, encoding='utf-8') as database_file:
+                database_data = json.load(database_file)
+            databases.append({
+                'value': os.path.splitext(filename)[0],
+                'name': database_data.get('name', os.path.splitext(filename)[0])
+            })
+    return render_template(
+        'blind_test_admin_ui_yt.html',
+        async_mode=socketio.async_mode,
+        databases=databases
+    )
 
 @app.route('/blind_test_ui_yt')
 def blind_test_ui_yt():
@@ -140,27 +158,28 @@ def new_question(message):
     question_format = message['format']
     question_value = message['value']
     # logger.debug("question_value is:%s", question_value)
+    topic_str = ""
     answer_str = ""
+    detail_str = ""
     youtube_answer_id = ""
     start_time = "0"
     if question_format == "youtube":
-        # db = TinyDB('db.json', indent=4)
         db = TinyDB('database/default.json', indent=4)
         table = db.table('yt')
         song = Query()
         result = table.search(song.id == question_value)
         logger.info("Result: %s with %s type", result, type(result))
         if result:
+            topic_str = result[0].get('topic', "Donnez l'artiste de la chanson")
+            answer_str = result[0].get('reponse', '')
             for key, value in result[0].items():
-                # logger.debug("key: %s, value: %s", key, value)
-                if key not in ['start_time']:
-                    answer_str = f'{answer_str}{key}="{value}" '
+                if key not in ['start_time', 'reponse', 'topic']:
+                    detail_str = f'{detail_str}{key}="{value}" '
                 if key == 'start_time':
                     start_time = value
         youtube_answer_id = question_value
     elif question_format == "youtube_suite":
         db_name = f"database/{message['db']}.json"
-        # db = TinyDB('db.json', indent=4)
         db = TinyDB(db_name, indent=4)
         table = db.table('yt')
         all_yt_fields = table.all()
@@ -171,18 +190,25 @@ def new_question(message):
         # logger.debug("youtube_suite is:\n%s", youtube_suite)
         game.question = youtube_suite.pop()
         # logger.debug("Game question is: %s with type %s", game.question, type(game.question))
+        answer_str = game.question.get('reponse', '')
         for key, value in game.question.items():
             # logger.debug("key: %s, value: %s", key, value)
-            if key not in ['start_time']:
-                answer_str = f'{answer_str}{key}="{value}" '
+            if key not in ['start_time', 'reponse', 'topic']:
+                detail_str = f'{detail_str}{key}="{value}" '
         youtube_answer_id = game.question['id']
         message['topic'] = game.question.get('topic', "Donnez l'artiste de la chanson")
+        topic_str = message['topic']
         start_time = game.question.get('start_time', "0")
         # logger.debug("Set Youtube questions left: %s", youtube_suite)
         game.set_youtube_questions(youtube_suite)
     else:
         answer_str = question_value
-    emit_data_to_namespace_blind_test_admin_ui_yt = {'answer': answer_str, 'youtube_answer_id': youtube_answer_id}
+    emit_data_to_namespace_blind_test_admin_ui_yt = {
+        'response': answer_str,
+        'detail': detail_str,
+        'youtube_answer_id': youtube_answer_id,
+        'topic': topic_str
+    }
     logger.info("emit to '/blind_test_admin_ui_yt' namespace 'set_answer' event with data %s", emit_data_to_namespace_blind_test_admin_ui_yt)
     socketio.emit('set_answer', emit_data_to_namespace_blind_test_admin_ui_yt, namespace='/blind_test_admin_ui_yt')
     emit_set_answer_to_namespace_blind_test_ui_yt = {'youtube_answer_id': youtube_answer_id, 'question_type': question_format}
@@ -242,19 +268,23 @@ def good_answer(message):
     # logger.info("Game questions number = %s", len(game.questions))
     if game.is_next_question():
         answer_str = ""
+        detail_str = ""
         youtube_answer_id = ""
         game.get_next_question()
         result = game.question
         # logger.debug("New Game question is: %s with type %s", result, type(result))
+        answer_str = result.get('reponse', '')
         for key, value in result.items():
             # logger.debug("key: %s, value: %s", key, value)
-            answer_str = f'{answer_str}{key}="{value}" '
+            if key not in ['start_time', 'reponse']:
+                detail_str = f'{detail_str}{key}="{value}" '
         youtube_answer_id = result['id']
         emit_data_to_namespace_blind_test_admin_ui_yt["enable_next_question_button"] = True
-        emit_data_to_namespace_blind_test_admin_ui_yt["answer"] = answer_str
+        emit_data_to_namespace_blind_test_admin_ui_yt["response"] = answer_str
+        emit_data_to_namespace_blind_test_admin_ui_yt["detail"] = detail_str
         emit_data_to_namespace_blind_test_admin_ui_yt["youtube_answer_id"] = youtube_answer_id
-    logger.info("emit to '/blind_test_ui_yt' namespace 'good_answer' event")
-    socketio.emit('good_answer', {}, namespace='/blind_test_ui_yt')
+    logger.info("emit to '/blind_test_ui_yt' namespace 'good_answer' event with data %s", {'response': message.get('response', '')})
+    socketio.emit('good_answer', {'response': message.get('response', '')}, namespace='/blind_test_ui_yt')
     logger.info("emit to '/blind_test_admin_ui_yt' namespace 'stop_blind_test' event with data %s", emit_data_to_namespace_blind_test_admin_ui_yt)
     socketio.emit('stop_blind_test', emit_data_to_namespace_blind_test_admin_ui_yt, namespace='/blind_test_admin_ui_yt')
     new_score = game.get_player_score(message['player_name'])
@@ -328,6 +358,7 @@ def next_question():
     logger.info("Receive next_question event from blind_test_admin_ui_yt")
     emit_data_to_namespace_blind_test_admin_ui_yt = {'enable_stop_question_button': True}
     answer_str = ""
+    detail_str = ""
     youtube_answer_id = ""
     result = []
     # logger.info("Game questions number = %s", len(game.questions))
@@ -343,18 +374,22 @@ def next_question():
     if not result:
         stop_question()
         return
+    answer_str = result.get('reponse', '')
     for key, value in result.items():
         # logger.debug("key: %s, value: %s", key, value)
-        answer_str = f'{answer_str}{key}="{value}" '
+        if key not in ['start_time', 'reponse']:
+            detail_str = f'{detail_str}{key}="{value}" '
     youtube_answer_id = result['id']
     topic = result.get('topic', "Donnez l'artiste de la chanson")
     start_time = result.get('start_time', "0")
-    emit_data_to_namespace_blind_test_admin_ui_yt["answer"] = answer_str
+    emit_data_to_namespace_blind_test_admin_ui_yt["topic"] = topic
+    emit_data_to_namespace_blind_test_admin_ui_yt["response"] = answer_str
+    emit_data_to_namespace_blind_test_admin_ui_yt["detail"] = detail_str
     emit_data_to_namespace_blind_test_admin_ui_yt["youtube_answer_id"] = youtube_answer_id
 
     logger.info("emit to '/blind_test_admin_ui_yt' namespace 'set_answer' event with data %s", emit_data_to_namespace_blind_test_admin_ui_yt)
     socketio.emit('set_answer', emit_data_to_namespace_blind_test_admin_ui_yt, namespace='/blind_test_admin_ui_yt')
-    emit_set_answer_to_namespace_blind_test_ui_yt = {'youtube_answer_id': youtube_answer_id, 'question_type': "youtube_suite"}
+    emit_set_answer_to_namespace_blind_test_ui_yt = {'youtube_answer_id': youtube_answer_id, 'question_type': "youtube_suite", 'topic': topic}
     logger.info("emit to '/blind_test_ui_yt' namespace 'set_answer' event with data %s", emit_set_answer_to_namespace_blind_test_ui_yt)
     socketio.emit('set_answer', emit_set_answer_to_namespace_blind_test_ui_yt, namespace='/blind_test_ui_yt')
     game.set_state(GameState.WAITING_PLAYERS)
@@ -596,6 +631,7 @@ def add_video_to_db(message):
     for key, value in message.items():
         if key not in ['db1', 'db2', 'db3', 'db4', 'db5']:
             message_without_sp_chars[key] = str_without_sp_chars(value)
+    message_without_sp_chars.setdefault('reponse', '')
     # db = TinyDB('db.json', indent=4)
     db = TinyDB('database/default.json', indent=4)
     table = db.table('yt')

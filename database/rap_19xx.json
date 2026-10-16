@@ -1,4 +1,5 @@
 {
+    "name": "Rap 19xx",
     "yt": {
         "1": {
             "id": "G2lRn53hHKI",
@@ -10,6 +11,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "2": {
@@ -22,6 +24,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "3": {
@@ -34,6 +37,7 @@
             "sampled_by": "",
             "sample_from": "Queen - Another One Bites The Dust",
             "topic": "Donnez l'artiste orginal",
+            "reponse": "",
             "masked_id": ""
         },
         "4": {
@@ -46,6 +50,7 @@
             "sampled_by": "",
             "sample_from": "Kool And The Gang - Ladies Night",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "5": {
@@ -58,6 +63,7 @@
             "sampled_by": "",
             "sample_from": "Grandmaster Flash - The Message",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "6": {
@@ -70,6 +76,7 @@
             "sampled_by": "Ice Cube - Check Yo Self",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "7": {
@@ -82,6 +89,7 @@
             "sampled_by": "",
             "sample_from": "Patrice Rushen - Forget Me Nots",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "8": {
@@ -94,6 +102,7 @@
             "sampled_by": "",
             "sample_from": "Carl Carlton - She's a bad mama jama",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "9": {
@@ -106,6 +115,7 @@
             "sampled_by": "Daddy Yankee - Con Calma",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "10": {
@@ -118,6 +128,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
+            "reponse": "",
             "masked_id": ""
         },
         "11": {
@@ -130,6 +141,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "12": {
@@ -142,6 +154,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "13": {
@@ -154,6 +167,7 @@
             "sampled_by": "",
             "sample_from": "Madonna - Holiday",
             "topic": "Donnez l'artiste orginal",
+            "reponse": "",
             "masked_id": ""
         },
         "14": {
@@ -166,6 +180,7 @@
             "sampled_by": "",
             "sample_from": "Cyndi Lauper - True Colors",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "15": {
@@ -178,6 +193,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "16": {
@@ -190,6 +206,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "17": {
@@ -202,6 +219,7 @@
             "sampled_by": "",
             "sample_from": "Patrice Rushen - Remind Me",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "18": {
@@ -214,6 +232,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "19": {
@@ -226,6 +245,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "20": {
@@ -238,6 +258,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": ""
         },
         "21": {
@@ -250,6 +271,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -263,6 +285,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -276,6 +299,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -289,6 +313,7 @@
             "sampled_by": "Hatik - Angela",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -302,6 +327,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         },
@@ -315,6 +341,7 @@
             "sampled_by": "",
             "sample_from": "Michael McDonald - I Keep Forgettin'",
             "topic": "Donnez l'artiste de la chanson",
+            "reponse": "",
             "masked_id": "",
             "start_time": "0"
         }
