@@ -117,7 +117,7 @@ def blind_test_buzzer():
 def get_players():
     logger.info("Receive get_players event from blind_test_admin_ui_yt")
     for player_name, player in game.players.items():
-        logger.info("emit add_player event to blind_test_admin_ui_yt with player name {} and score {} points".format(player_name, player.score))
+        logger.info("emit add_player event to blind_test_admin_ui_yt with player name %s and score %d points", player_name, player.score)
         socketio.emit('add_player',
                       {'player_name': player_name, 'player_score': player.score},
                       namespace='/blind_test_admin_ui_yt')
@@ -133,16 +133,16 @@ def get_players():
 
 @socketio.on('update_score_player', namespace='/blind_test_admin_ui_yt')
 def update_score_player(message):
-    logger.info("Receive update_score_player event from blind_test_admin_ui_yt with player name '{}' and {} points to update from score".format(message['player_name'], message['update_score']))
-    logger.info("Add '{}' increment to '{}' player in game".format(message['update_score'], message['player_name']))
+    logger.info("Receive update_score_player event from blind_test_admin_ui_yt with player name %s and %d points to update from score", message['player_name'], message['update_score'])
+    logger.info("Add %d increment to %s player in game", message['update_score'], message['player_name'])
     increment = int(message['update_score'])
     game.increase_score(message['player_name'], increment)
     new_score = game.get_player_score(message['player_name'])
-    logger.info("emit 'update_score_player' event to 'blind_test_admin_ui_yt' namespace with player name {} and score {} points ".format(message['player_name'], new_score))
+    logger.info("emit 'update_score_player' event to 'blind_test_admin_ui_yt' namespace with player name %s and score %d points ", message['player_name'], new_score)
     socketio.emit('update_score_player',
                   {'player_name': message['player_name'], 'score': new_score},
                   namespace='/blind_test_admin_ui_yt')
-    logger.info("emit 'update_score_player' event to 'blind_test_ui_yt' namespace with player name {} and score {} points ".format(message['player_name'], new_score))
+    logger.info("emit 'update_score_player' event to 'blind_test_ui_yt' namespace with player name %s and score %d points ", message['player_name'], new_score)
     socketio.emit('update_score_player',
                   {'player_name': message['player_name'], 'score': new_score},
                   namespace='/blind_test_ui_yt')
