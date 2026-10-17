@@ -39,6 +39,17 @@ question_format = ""
 thread = None
 thread_lock = Lock()
 
+def get_local_ip():
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    try:
+        # On simule une connexion vers une IP externe (pas besoin qu'elle réponde)
+        s.connect(('8.8.8.8', 80))
+        ip = s.getsockname()[0]
+    except Exception:
+        ip = '127.0.0.1'
+    finally:
+        s.close()
+    return ip
 
 def countdown_thread(counter):
     """Example of how to send server generated events to clients."""
@@ -541,8 +552,10 @@ def add_buzz_player(message):
 
 @socketio.on('gamepad_press', namespace='/blind_test_admin_ui_yt')
 def gamepad_press_event(message):
-    if message["gamepad_id"] != "Buzz (Vendor: 054c Product: 1000)":
+    # logger.debug("gamepad ID is:%s", message["gamepad_id"])
+    if message["gamepad_id"] != "Buzz (Vendor: 054c Product: 1000)" and message["gamepad_id"] != "Namtai Buzz (Vendor: 054c Product: 1000)":
         return
+    # logger.debug("Button index is:%s", message["button_index"])
     buzz_nb = {0: 1, 5: 2, 10: 3, 15: 4}.get(message["button_index"])
     if buzz_nb:
         if game.state == GameState.DISPLAY_QUESTION:
@@ -555,6 +568,7 @@ def gamepad_press_event(message):
                     "status": "play_blind_test"
                 })
             return
+        logger.info("emit to '/blind_test_admin_ui_yt' namespace 'add_buzz_player' event with buzz_nb %s", buzz_nb)
         socketio.emit('add_buzz_player', {"buzz_nb": buzz_nb}, namespace='/blind_test_admin_ui_yt')
 
 def check_str_in_str(str1, str2):
@@ -704,7 +718,10 @@ def bouton_click_event(message):
         logger.info("Unkonwn Game state '{}'".format(game_state))
 if __name__ == '__main__':
     hostname = socket.gethostname()
-    host_ip = socket.gethostbyname(hostname)
+    logger.info("hostname is %s", hostname)
+    # host_ip = socket.gethostbyname(hostname)
+    host_ip = get_local_ip()
+    logger.info("host_ip is %s", host_ip)
     qr = qrcode.make(f"http://{host_ip}:5000/blind_test_login")
     qr.save("static/qrcode.png")
     logger.info('launch admin interface http://%s:5000/blind_test_admin_ui_yt', hostname)

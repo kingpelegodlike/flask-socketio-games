@@ -49,6 +49,19 @@ suites_list = []
 nb_times_color_choosed = [0, 0, 0, 0]
 
 
+def get_local_ip():
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    try:
+        # On simule une connexion vers une IP externe (pas besoin qu'elle réponde)
+        s.connect(('8.8.8.8', 80))
+        ip = s.getsockname()[0]
+    except Exception:
+        ip = '127.0.0.1'
+    finally:
+        s.close()
+    return ip
+
+
 def background_thread():
     """Example of how to send server generated events to clients."""
     count = 0
@@ -1187,7 +1200,8 @@ def gamepad_press_button_event(message):
 @socketio.on('gamepad_press', namespace='/test')
 def gamepad_press_event(message):
     gamepad_id = message["gamepad_id"]
-    if gamepad_id != "Buzz (Vendor: 054c Product: 1000)":
+    # logger.debug("gamepad ID is:%s", gamepad_id)
+    if gamepad_id != "Buzz (Vendor: 054c Product: 1000)" and gamepad_id != "Namtai Buzz (Vendor: 054c Product: 1000)":
         return
     button_index = message["button_index"]
     if button_index == 0:
@@ -1218,11 +1232,10 @@ if __name__ == '__main__':
     if args.suites:
         suites_path = args.suites
     hostname = socket.gethostname()
-    # s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    # s.connect(("8.8.8.8", 80))
-    # hostname = s.getsockname()[0]
-    # s.close()
-    host_ip = socket.gethostbyname(hostname)
+    logger.info("hostname is %s", hostname)
+    # host_ip = socket.gethostbyname(hostname)
+    host_ip = get_local_ip()
+    logger.info("host_ip is %s", host_ip)
     qr = qrcode.make(f"http://{host_ip}:5000/web_quizz_login")
     qr.save("static/qrcode.png")
     logger.info('launch http://%s:5000/web_quizz', hostname)
