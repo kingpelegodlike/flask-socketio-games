@@ -325,6 +325,7 @@ def wrong_answer(message):
     for key, value in message.items():
         message_items = f"{message_items}, {key} = {value}"
     logger.info("Receive 'wrong_answer' event from '/blind_test_admin_ui_yt' with namespace with message data %s", message_items[1:])
+    game.set_state(GameState.DISPLAY_QUESTION)
     player_name_list = game.get_player_name_list_not_played()
     logger.info("emit to '/blind_test_ui_yt' namespace 'wrong_answer' event")
     socketio.emit('wrong_answer', {}, namespace='/blind_test_ui_yt')
@@ -687,16 +688,16 @@ def bouton_click_event(message):
         socketio.emit('set_player_ready', emit_data_to_blind_test_ui_yt, namespace='/blind_test_ui_yt')
     elif game_state == GameState.ASK_QUESTION :
         logger.info("Game state is ASK_QUESTION")
-        answer_button = game.answer_button
-        emit_data_to_namespace_test = {'name': message['name'], 'time': message['time']}
-        logger.info("emit to '/test' namespace 'add_players_console' event with data %s", emit_data_to_namespace_test)
-        socketio.emit('add_players_console', emit_data_to_namespace_test, namespace='/test')
-        if message['data'] == answer_button:
-            game.increase_score(message['name'])
-            game.increase_time(message['name'], message['time'])
-            game.set_round_played(message['name'])
-        else:
-            game.increase_timeout(message['name'])
+        # answer_button = game.answer_button
+        # emit_data_to_namespace_test = {'name': message['name'], 'time': message['time']}
+        # logger.info("emit to '/test' namespace 'add_players_console' event with data %s", emit_data_to_namespace_test)
+        # socketio.emit('add_players_console', emit_data_to_namespace_test, namespace='/test')
+        # if message['data'] == answer_button:
+        #     game.increase_score(message['name'])
+        #     game.increase_time(message['name'], message['time'])
+        #     game.set_round_played(message['name'])
+        # else:
+        #     game.increase_timeout(message['name'])
     elif game_state == GameState.DISPLAY_QUESTION:
         logger.info("Game state is DISPLAY_QUESTION")
         if message['status'] == "play_blind_test":
@@ -706,6 +707,7 @@ def bouton_click_event(message):
             logger.info("emit to '/blind_test_buz' namespace 'pause_blind_test' event with data %s", emit_data_to_namespace_blind_test_buz)
             socketio.emit('pause_blind_test', emit_data_to_namespace_blind_test_buz, namespace='/blind_test_buz')
             game.set_round_played(message['name'])
+            game.set_state(GameState.ASK_QUESTION)
             emit_data_to_namespace_blind_test_admin_ui_yt = {'player_name': message['name']}
             logger.info("emit to '/blind_test_admin_ui_yt' namespace 'pause_blind_test' event with data %s", emit_data_to_namespace_blind_test_admin_ui_yt)
             socketio.emit('pause_blind_test', emit_data_to_namespace_blind_test_admin_ui_yt, namespace='/blind_test_admin_ui_yt')
