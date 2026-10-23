@@ -1154,6 +1154,9 @@ def gamepad_press_button_event(message):
         except KeyError:
             logger.info("Player {} not in game".format(buzzer_player_name))
     if game_state == GameState.ASK_QUESTION :
+        if buzzer_player_name not in game.get_player_name_list_not_played():
+            logger.info("Player %s has already played this round", buzzer_player_name)
+            return
         answer_button = game.answer_button
         emit_data_to_test = {
             'name': buzzer_player_name, 'time': message['time'],
