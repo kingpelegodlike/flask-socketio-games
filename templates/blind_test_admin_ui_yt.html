@@ -15,6 +15,12 @@
     <h2><label id="topic_label"></label></h2>
     <h2><label id="answer_label"></label></h2>
     <label id="detail_label"></label>
+    <form id="to_do_update_form" method="POST" action="#">
+      <button type="submit" disabled id="to_do_update_button" name="to_do_update" placeholder="To Update" value="Update" style="display: none;">To Update</button>
+    </form>
+    <form id="to_do_delete_form" method="POST" action="#">
+      <button type="submit" disabled id="to_do_delete_button" name="to_do_delete" placeholder="To Delete" value="Delete" style="display: none;">To Delete</button>
+    </form>
     <label id="waiting_player_answer_label"></label>
     <div class="btn-group">
       <form id="good_answer_form" method="POST" action="#">
@@ -359,6 +365,30 @@
       </form>
       <textarea id="video_links_area" name="video_links_area" rows="4" cols="200"></textarea>
     </div>
+    <hr class="section-divider" id="update_section">
+    <div>
+      <label style="font-size: 24px;font-weight: bold;">Update Youtube Video ID in Database</label>
+      </br>
+      <label>Current ID:</label>
+      <input type="text" id="current_video_id_input">
+      <label>New ID:</label>
+      <input type="text" id="new_video_id_input">
+      </br>
+      <form id="update_video_to_db_form" method="POST" action="#">
+        <button type="submit" id="update_video_to_db_button"> Update Video In Database</button>
+      </form>
+    </div>
+    <hr class="section-divider" id="delete_section">
+    <div>
+      <label style="font-size: 24px;font-weight: bold;">Delete Youtube Video ID in Database</label>
+      </br>
+      <label>ID:</label>
+      <input type="text" id="delete_video_id_input">
+      </br>
+      <form id="delete_video_to_db_form" method="POST" action="#">
+        <button type="submit" id="delete_video_to_db_button"> Delete Video From Database</button>
+      </form>
+    </div>
     <hr class="section-divider">
     <div>
       <label style="font-size: 24px;font-weight: bold;">Add Youtube Video ID in Database</label>
@@ -524,6 +554,18 @@
 
             requestAnimationFrame(scruterManettes);
 
+            $('form#to_do_update_form').submit(function(event) {
+                var detail = document.getElementById("detail_label").textContent;
+                socket.emit('to_do_update', {detail: detail});
+                return false;
+            });
+
+            $('form#to_do_delete_form').submit(function(event) {
+                var detail = document.getElementById("detail_label").textContent;
+                socket.emit('to_do_delete', {detail: detail});
+                return false;
+            });
+            
             socket.on('add_buzz_player', function(msg) {
                 console.log("Événement add_buzz_player reçu du serveur.");
                 if (msg && msg.buzz_nb) {
@@ -834,6 +876,12 @@
                 if (msg.youtube_answer_id != "") {
                     document.getElementById("youtube_link").value = msg.youtube_answer_id;
                 }
+              document.getElementById("to_do_update_button").disabled = false;
+              document.getElementById("to_do_update_button").style.display = 'inline-block';
+              document.getElementById("to_do_update_button").style.visibility = "visible";
+              document.getElementById("to_do_delete_button").disabled = false;
+              document.getElementById("to_do_delete_button").style.display = 'inline-block';
+              document.getElementById("to_do_delete_button").style.visibility = "visible";
             });
             
             socket.on('play_question', function(msg) {
@@ -923,6 +971,10 @@
                 if (!('enable_stop_question_button' in msg)) {
                   document.getElementById("answer_label").innerHTML = "";
                   document.getElementById("detail_label").innerHTML = "";
+                  document.getElementById("to_do_update_button").style.display = 'none';
+                  document.getElementById("to_do_update_button").style.visibility = "hidden";
+                  document.getElementById("to_do_delete_button").style.display = 'none';
+                  document.getElementById("to_do_delete_button").style.visibility = "hidden";
                 }
                 document.getElementById("nb_random_yt_id_input").value = 0;
                 $('#good_answer_button').attr('disabled','disabled');
@@ -1198,6 +1250,31 @@
                 var videos_find = msg.videos_find;
                 var video_links_area = document.getElementById("video_links_area");
                 video_links_area.innerHTML = videos_find;
+            });
+
+            $('form#update_video_to_db_form').submit(function(event) {
+                var current_video_id_value = document.getElementById("current_video_id_input").value;
+                var new_video_id_value = document.getElementById("new_video_id_input").value;
+                socket.emit('update_video_in_db', {current_id: current_video_id_value, new_id: new_video_id_value});
+                return false;
+            });
+
+            socket.on('video_updated', function(msg) {
+                alert("video updated in databases: " + msg.databases);
+                document.getElementById("current_video_id_input").value = "";
+                document.getElementById("new_video_id_input").value = "";
+            });
+
+            $('form#delete_video_to_db_form').submit(function(event) {
+                var delete_video_id_value = document.getElementById("delete_video_id_input").value;
+                socket.emit('delete_video_from_db', {id: delete_video_id_value});
+                return false;
+            });
+            
+            socket.on('video_deleted', function(msg) {
+                var modified_databases = msg.modified_databases;
+                alert("video deleted from databases: " + modified_databases);
+                document.getElementById("delete_video_id_input").value = "";
             });
 
             $('form#video_to_db_form').submit(function(event) {

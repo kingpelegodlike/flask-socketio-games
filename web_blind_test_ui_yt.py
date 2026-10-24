@@ -113,6 +113,18 @@ def blind_test_login():
 def blind_test_buzzer():
     return render_template('blind_test_buzzer.html', async_mode=socketio.async_mode)
 
+@socketio.on('to_do_update', namespace='/blind_test_admin_ui_yt')
+def to_do_update(message):
+    detail = message['detail']
+    with open('to_do/to_update.txt', 'a', encoding='utf-8') as to_update_file:
+        to_update_file.write(detail + "\n")
+
+@socketio.on('to_do_delete', namespace='/blind_test_admin_ui_yt')
+def to_do_delete(message):
+    detail = message['detail']
+    with open('to_do/to_delete.txt', 'a', encoding='utf-8') as to_delete_file:
+        to_delete_file.write(detail + "\n")
+
 @socketio.on('get_players', namespace='/blind_test_admin_ui_yt')
 def get_players():
     logger.info("Receive get_players event from blind_test_admin_ui_yt")
@@ -642,6 +654,49 @@ def search_video(message):
     emit_data_to_namespace_blind_test_admin_ui_yt = {'videos_find': videos_find_str}
     logger.info("emit to '/blind_test_admin_ui_yt' namespace 'videos_find' event with data %s", emit_data_to_namespace_blind_test_admin_ui_yt)
     socketio.emit('videos_find', emit_data_to_namespace_blind_test_admin_ui_yt, namespace='/blind_test_admin_ui_yt')
+
+@socketio.on('update_video_in_db', namespace='/blind_test_admin_ui_yt')
+def update_video_in_db(message):
+    current_video_id = message['current_id']
+    new_video_id = message['new_id']
+    logger.info("Updating video with ID: %s to new ID: %s", current_video_id, new_video_id)
+    database_directory = os.path.join(os.path.dirname(__file__), 'database')
+    databases = []
+    for filename in sorted(os.listdir(database_directory)):
+        if filename.endswith('.json'):
+            database_path = os.path.join(database_directory, filename)
+            db = TinyDB(database_path, indent=4)
+            table = db.table('yt')
+            song = Query()
+            out = table.update({'id': new_video_id}, song.id == current_video_id)
+            if out:
+                databases.append(filename)
+                logger.debug("Updated video with ID: %s to new ID: %s in database %s", current_video_id, new_video_id, filename)
+    modified_databases = ', '.join(databases) if databases else 'none'
+    emit_data_to_admin_ui_yt = {'current_id': current_video_id, 'new_id': new_video_id, 'databases': modified_databases}
+    logger.info("emit to '/blind_test_admin_ui_yt' namespace 'video_updated' event with data %s", emit_data_to_admin_ui_yt)
+    socketio.emit('video_updated', emit_data_to_admin_ui_yt, namespace='/blind_test_admin_ui_yt')
+
+@socketio.on('delete_video_from_db', namespace='/blind_test_admin_ui_yt')
+def delete_video_from_db(message):
+    video_id = message['id']
+    logger.info("Deleting video with ID: %s", video_id)
+    database_directory = os.path.join(os.path.dirname(__file__), 'database')
+    databases = []
+    for filename in sorted(os.listdir(database_directory)):
+        if filename.endswith('.json'):
+            database_path = os.path.join(database_directory, filename)
+            db = TinyDB(database_path, indent=4)
+            table = db.table('yt')
+            song = Query()
+            out = table.remove(song.id == video_id)
+            if out:
+                databases.append(filename)
+                logger.debug("Removed video with ID: %s from database %s, removed entries: %s", video_id, filename, out)
+    modified_databases = ', '.join(databases) if databases else 'none'
+    logger.info("Video with ID: %s deleted from databases: %s", video_id, modified_databases)
+    logger.info("emit to '/blind_test_admin_ui_yt' namespace 'video_deleted' event with data %s", {'id': video_id, 'databases': modified_databases})
+    socketio.emit('video_deleted', {'id': video_id, 'databases': modified_databases}, namespace='/blind_test_admin_ui_yt')
 
 @socketio.on('add_video_to_db', namespace='/blind_test_admin_ui_yt')
 def add_video_to_db(message):
