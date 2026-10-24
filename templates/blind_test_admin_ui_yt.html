@@ -373,6 +373,19 @@
       <input type="text" id="current_video_id_input">
       <label>New ID:</label>
       <input type="text" id="new_video_id_input">
+      <label>New start time:</label>
+      <select name="new_start_time_select" id="new_start_time_select" onchange="update_add_video_topic(this)">
+        <option selected="selected" value="0">0 sec</option>
+        <option value="10">10 sec</option>
+        <option value="20">20 sec</option>
+        <option value="30">30 sec</option>
+        <option value="40">40 sec</option>
+        <option value="50">50 sec</option>
+        <option value="60">60 sec</option>
+        <option value="70">70 sec</option>
+        <option value="80">80 sec</option>
+        <option value="90">90 sec</option>
+      </select>
       </br>
       <form id="update_video_to_db_form" method="POST" action="#">
         <button type="submit" id="update_video_to_db_button"> Update Video In Database</button>
@@ -1255,7 +1268,12 @@
             $('form#update_video_to_db_form').submit(function(event) {
                 var current_video_id_value = document.getElementById("current_video_id_input").value;
                 var new_video_id_value = document.getElementById("new_video_id_input").value;
-                socket.emit('update_video_in_db', {current_id: current_video_id_value, new_id: new_video_id_value});
+                var new_start_time_element = document.getElementById("new_start_time_select");
+                var new_start_time_idx = new_start_time_element.selectedIndex;
+                var new_start_time_value = new_start_time_element.options[new_start_time_idx].value;
+                socket.emit('update_video_in_db', { current_id: current_video_id_value,
+                                                    new_id: new_video_id_value,
+                                                    new_start_time: new_start_time_value});
                 return false;
             });
 
@@ -1272,8 +1290,7 @@
             });
             
             socket.on('video_deleted', function(msg) {
-                var modified_databases = msg.modified_databases;
-                alert("video deleted from databases: " + modified_databases);
+                alert("video deleted from databases: " + msg.databases);
                 document.getElementById("delete_video_id_input").value = "";
             });
 

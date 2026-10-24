@@ -659,6 +659,7 @@ def search_video(message):
 def update_video_in_db(message):
     current_video_id = message['current_id']
     new_video_id = message['new_id']
+    new_start_time = message.get('new_start_time', '0')
     logger.info("Updating video with ID: %s to new ID: %s", current_video_id, new_video_id)
     database_directory = os.path.join(os.path.dirname(__file__), 'database')
     databases = []
@@ -668,13 +669,19 @@ def update_video_in_db(message):
             db = TinyDB(database_path, indent=4)
             table = db.table('yt')
             song = Query()
-            out = table.update({'id': new_video_id}, song.id == current_video_id)
+            out = table.update({'id': new_video_id, 'start_time': new_start_time}, song.id == current_video_id)
             if out:
                 databases.append(filename)
-                logger.debug("Updated video with ID: %s to new ID: %s in database %s", current_video_id, new_video_id, filename)
+                logger.debug("Updated video with ID: %s to new ID: %s in database %s",
+                             current_video_id, new_video_id, filename)
     modified_databases = ', '.join(databases) if databases else 'none'
-    emit_data_to_admin_ui_yt = {'current_id': current_video_id, 'new_id': new_video_id, 'databases': modified_databases}
-    logger.info("emit to '/blind_test_admin_ui_yt' namespace 'video_updated' event with data %s", emit_data_to_admin_ui_yt)
+    emit_data_to_admin_ui_yt = {
+        'current_id': current_video_id,
+        'new_id': new_video_id,
+        'databases': modified_databases
+    }
+    logger.info("emit to '/blind_test_admin_ui_yt' namespace 'video_updated' event with data %s",
+                emit_data_to_admin_ui_yt)
     socketio.emit('video_updated', emit_data_to_admin_ui_yt, namespace='/blind_test_admin_ui_yt')
 
 @socketio.on('delete_video_from_db', namespace='/blind_test_admin_ui_yt')
@@ -692,11 +699,16 @@ def delete_video_from_db(message):
             out = table.remove(song.id == video_id)
             if out:
                 databases.append(filename)
-                logger.debug("Removed video with ID: %s from database %s, removed entries: %s", video_id, filename, out)
+                logger.debug("Removed video with ID: %s from database %s, removed entries: %s",
+                             video_id, filename, out)
     modified_databases = ', '.join(databases) if databases else 'none'
-    logger.info("Video with ID: %s deleted from databases: %s", video_id, modified_databases)
-    logger.info("emit to '/blind_test_admin_ui_yt' namespace 'video_deleted' event with data %s", {'id': video_id, 'databases': modified_databases})
-    socketio.emit('video_deleted', {'id': video_id, 'databases': modified_databases}, namespace='/blind_test_admin_ui_yt')
+    emit_data_to_admin_ui_yt = {
+        'id': video_id,
+        'databases': modified_databases
+    }
+    logger.info("emit to '/blind_test_admin_ui_yt' namespace 'video_deleted' event with data %s",
+                emit_data_to_admin_ui_yt)
+    socketio.emit('video_deleted', emit_data_to_admin_ui_yt, namespace='/blind_test_admin_ui_yt')
 
 @socketio.on('add_video_to_db', namespace='/blind_test_admin_ui_yt')
 def add_video_to_db(message):
