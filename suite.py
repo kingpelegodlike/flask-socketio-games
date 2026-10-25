@@ -28,8 +28,8 @@ def configure_logging():
     logger.addHandler(fh)
     return logger
 
-import json
-from collections import OrderedDict
+from tinydb import TinyDB, Query
+from tinydb.storages import JSONStorage
 import random
 import ntpath
 
@@ -40,14 +40,16 @@ class Suite:
     topic = ""
     category = "All"
     try:
-        with open(suite_file_name, encoding='utf-8') as json_file:
-            data = json.load(json_file, object_pairs_hook=OrderedDict)
-        question_list = data['questions']
+        db = TinyDB(suite_file_name, storage=JSONStorage, encoding='utf-8')
+        storage_data = db.storage.read()
         topic = ntpath.basename(suite_file_name)
         topic = topic.replace(".json", "")
-        if "topic" in data:
-            topic = data['topic']
-    except FileNotFoundError as e:
+        if "topic" in storage_data:
+            topic = storage_data['topic']
+
+        table = db.table('questions')
+        question_list = table.all()
+    except Exception as e:
         question_list = []
     self.questions = []
     if question_nbr_list == []:
@@ -67,5 +69,3 @@ class Suite:
                 # logger.debug("Add question {}".format(question.question))
     random.shuffle(self.questions)
     self.questions = self.questions[:max_questions_nbr]
-
-  

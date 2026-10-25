@@ -135,14 +135,14 @@
             "question": "Quel est ce dessin animé ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 14,
-            "waiting_answer_start_time": 3.0,
+            "waiting_answer_start_time": 14.0,
             "answer_timeout": 3,
             "question_media": [
                 "/static/sounds/countdown.mp3",
                 "/static/images/disney/disney.jpg"
             ],
             "waiting_answer_media": [
-                "XKnMMmZ-LpI.yt",
+                "4wAAoO-zJNg.yt",
                 "/static/images/disney/disney.jpg"
             ],
             "answer_media": [
@@ -233,6 +233,31 @@
                 "Les 101 Dalmatiens"
             ],
             "good_answer": "Hercule"
+        },
+        "10": {
+            "question": "Quel est ce dessin animé ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 20,
+            "waiting_answer_start_time": 45.0,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/disney/disney.jpg"
+            ],
+            "waiting_answer_media": [
+                "whM1ce_NnUg.yt",
+                "/static/images/disney/disney.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/disney/le_roi_lion.jpg"
+            ],
+            "wrong_answers": [
+                "Raiponce",
+                "Pocahontas",
+                "Le Livre de la Jungle"
+            ],
+            "good_answer": "Le Roi Lion"
         }
     }
 }

@@ -1094,7 +1094,7 @@
             "good_answer" : "Jean Dujardin"
         },
         {
-            "question" : "Qui a réalisé le film “Les Infiltrés” de 2006 ?",
+            "question" : "Qui a réalisé le film 'Les Infiltrés' de 2006 ?",
             "question_timeout" : 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
