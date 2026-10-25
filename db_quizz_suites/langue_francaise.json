@@ -1,0 +1,203 @@
+{
+    "topic": "Langue Francaise",
+    "categories": [
+        "Elders",
+        "Adults"
+    ],
+    "generation_min": "Adults",
+    "generation_max": "Elders",
+    "questions": {
+        "1": {
+            "question": "Comment qualifier deux mots presque homonymes ne présentant qu'une ressemblance de l'orthographe ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "wrong_answers": [
+                "Eponymes",
+                "Synonymes",
+                "Antonymes"
+            ],
+            "good_answer": "Paronymes"
+        },
+        "2": {
+            "question": "Quel expression signigie que l'on devine clairement les chose ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "wrong_answers": [
+                "Avoir la main lourde",
+                "Avoir les dents longues",
+                "Avoir le coeur gros"
+            ],
+            "good_answer": "Avoir le nez creux"
+        },
+        "3": {
+            "question": "Lequel de ces adjectifs désigne une odeur très forte qui monte à la tête ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "wrong_answers": [
+                "Truculent",
+                "Exsangue",
+                "Pastoral"
+            ],
+            "good_answer": "Capiteux"
+        },
+        "4": {
+            "question": "Que signifie l'expression française: 'avoir du chien' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "wrong_answers": [
+                "Avoir de la force",
+                "Avoir une forte odeur",
+                "Avoir du sang-froid"
+            ],
+            "good_answer": "Avoir du charme"
+        },
+        "5": {
+            "question": "Quelle est la définition du sionisme ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "wrong_answers": [
+                "La croyance d'une hiérarchie des races",
+                "L'hostilité envers les Juifs",
+                "L'hostilité envers les Musulmans"
+            ],
+            "good_answer": "La volonté de la création d'un Etat Juif"
+        },
+        "6": {
+            "question": "Comment désigne-t-ton un religieux contemplatif qui se retire dans la solitude ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "wrong_answers": [
+                "Diacre",
+                "Cénobite",
+                "Bénédictin"
+            ],
+            "good_answer": "Anachorète"
+        },
+        "7": {
+            "question": "Que signifie l'adjectif flavescent ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "wrong_answers": [
+                "Qui tire sur le bleu",
+                "Qui tire sur le vert",
+                "Qui tire sur le rouge"
+            ],
+            "good_answer": "Qui tire sur le jaune"
+        },
+        "8": {
+            "question": "Quelle est la conjugaison du verbe 'acquérir' à la premiere personne du présent de l'indicatif ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "wrong_answers": [
+                "J'acquière",
+                "J'acquiert",
+                "J'acquis"
+            ],
+            "good_answer": "J'acquiers"
+        }
+    }
+}

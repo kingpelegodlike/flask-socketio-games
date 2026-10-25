@@ -197,7 +197,7 @@ def new_question(message):
             topic_str = result[0].get('topic', "Donnez l'artiste de la chanson")
             answer_str = result[0].get('reponse', '')
             for key, value in result[0].items():
-                if key not in ['start_time', 'reponse', 'topic']:
+                if key not in ['reponse', 'topic']:
                     detail_str = f'{detail_str}{key}="{value}" '
                 if key == 'start_time':
                     start_time = value
@@ -218,7 +218,7 @@ def new_question(message):
         answer_str = game.question.get('reponse', '')
         for key, value in game.question.items():
             # logger.debug("key: %s, value: %s", key, value)
-            if key not in ['start_time', 'reponse', 'topic']:
+            if key not in ['reponse', 'topic']:
                 detail_str = f'{detail_str}{key}="{value}" '
         youtube_answer_id = game.question['id']
         message['topic'] = game.question.get('topic', "Donnez l'artiste de la chanson")
@@ -404,7 +404,7 @@ def next_question():
     answer_str = result.get('reponse', '')
     for key, value in result.items():
         # logger.debug("key: %s, value: %s", key, value)
-        if key not in ['start_time', 'reponse']:
+        if key not in ['reponse']:
             detail_str = f'{detail_str}{key}="{value}" '
     youtube_answer_id = result['id']
     topic = result.get('topic', "Donnez l'artiste de la chanson")

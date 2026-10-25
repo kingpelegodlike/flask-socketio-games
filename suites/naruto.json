@@ -23,7 +23,7 @@
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/byakugan.jpg" ],
             "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/byakugan.jpg" ],
             "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/byakugan.jpg" ],
-            "wrong_answers" : [ "Gurrenlagan", "Rinnegan", "Sharingan‎" ],
+            "wrong_answers" : [ "Gurrenlagan", "Rinnegan", "Sharingan" ],
             "good_answer" : "Byakugan"
         },
         {
@@ -34,7 +34,7 @@
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/rinnegan.jpg" ],
             "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/rinnegan.jpg" ],
             "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/rinnegan.jpg" ],
-            "wrong_answers" : [ "Byakugan", "Spielvan", "Sharingan‎" ],
+            "wrong_answers" : [ "Byakugan", "Spielvan", "Sharingan" ],
             "good_answer" : "Rinnegan"
         },
         {
@@ -45,7 +45,7 @@
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/sharingan.jpg" ],
             "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/sharingan.jpg" ],
             "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/sharingan.jpg" ],
-            "wrong_answers" : [ "Sarutobi", "Yamanaka", "Inuzuka‎" ],
+            "wrong_answers" : [ "Sarutobi", "Yamanaka", "Inuzuka" ],
             "good_answer" : "Uchiwa"
         },
         {
@@ -56,7 +56,7 @@
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/sharingan.jpg" ],
             "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/sharingan.jpg" ],
             "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/sharingan.jpg" ],
-            "wrong_answers" : [ "Byakugan", "Rinnegan", "Gurrenlagan‎" ],
+            "wrong_answers" : [ "Byakugan", "Rinnegan", "Gurrenlagan" ],
             "good_answer" : "Sharingan"
         },
         {
@@ -67,7 +67,7 @@
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_itachi.jpg" ],
             "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_itachi.jpg" ],
             "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/mangekyo_sharingan_itachi.jpg" ],
-            "wrong_answers" : [ "Izuna", "Kakashi", "Madara‎" ],
+            "wrong_answers" : [ "Izuna", "Kakashi", "Madara" ],
             "good_answer" : "Itachi"
         },
         {
@@ -78,7 +78,7 @@
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_izuna.jpg" ],
             "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_izuna.jpg" ],
             "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/mangekyo_sharingan_izuna.jpg" ],
-            "wrong_answers" : [ "Obito", "Shisui", "Madara‎" ],
+            "wrong_answers" : [ "Obito", "Shisui", "Madara" ],
             "good_answer" : "Izuna"
         },
         {
@@ -89,7 +89,7 @@
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_kakashi.jpg" ],
             "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_kakashi.jpg" ],
             "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/mangekyo_sharingan_kakashi.jpg" ],
-            "wrong_answers" : [ "Itachi", "Izuna", "Madara‎" ],
+            "wrong_answers" : [ "Itachi", "Izuna", "Madara" ],
             "good_answer" : "Kakashi"
         },
         {
@@ -100,7 +100,7 @@
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_madara.jpg" ],
             "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_madara.jpg" ],
             "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/mangekyo_sharingan_madara.jpg" ],
-            "wrong_answers" : [ "Izuna", "Kakashi", "Shisui‎" ],
+            "wrong_answers" : [ "Izuna", "Kakashi", "Shisui" ],
             "good_answer" : "Madara"
         },
         {
@@ -111,7 +111,7 @@
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_sasuke.jpg" ],
             "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_sasuke.jpg" ],
             "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/mangekyo_sharingan_sasuke.jpg" ],
-            "wrong_answers" : [ "Izuna", "Itachi", "Madara‎" ],
+            "wrong_answers" : [ "Izuna", "Itachi", "Madara" ],
             "good_answer" : "Sasuke"
         },
         {
@@ -122,7 +122,7 @@
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/eternal_mangekyo_sharingan_madara.jpg" ],
             "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/eternal_mangekyo_sharingan_madara.jpg" ],
             "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/eternal_mangekyo_sharingan_madara.jpg" ],
-            "wrong_answers" : [ "Sasuke", "Itachi", "Shisui‎" ],
+            "wrong_answers" : [ "Sasuke", "Itachi", "Shisui" ],
             "good_answer" : "Madara"
         },
         {
@@ -133,7 +133,7 @@
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_shisui.jpg" ],
             "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/mangekyo_sharingan_shisui.jpg" ],
             "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/mangekyo_sharingan_shisui.jpg" ],
-            "wrong_answers" : [ "Izuna", "Obito", "Madara‎" ],
+            "wrong_answers" : [ "Izuna", "Obito", "Madara" ],
             "good_answer" : "Shisui"
         },
         {
@@ -144,7 +144,7 @@
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/naruto_logo.jpg" ],
             "waiting_answer_media" : [ "/static/sounds/countdown.mp3", "/static/images/animes/naruto/naruto_logo.jpg" ],
             "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/naruto_logo.jpg" ],
-            "wrong_answers" : [ "En devenant adulte", "Par entraînement", "Quand son père meurt‎" ],
+            "wrong_answers" : [ "En devenant adulte", "Par entraînement", "Quand son père meurt" ],
             "good_answer" : "En tuant un être cher"
         },
         {
@@ -157,6 +157,390 @@
             "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/animes/naruto/naruto_logo.jpg" ],
             "wrong_answers" : [ "Jiraya", "Orochimaru", "Asuma Sarutobi" ],
             "good_answer" : "Kakashi Hatake"
+        },
+        {
+            "question": "Quel est le nom du démon à neuf queues scellé en Naruto ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "wrong_answers": [
+                "Shukaku",
+                "Matatabi",
+                "Gyûki"
+            ],
+            "good_answer": "Kyûbi"
+        },
+        {
+            "question": "Quel est le plat préféré de Naruto Uzumaki ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "wrong_answers": [
+                "Les takoyaki",
+                "Les onigiri",
+                "Les dango"
+            ],
+            "good_answer": "Les ramen"
+        },
+        {
+            "question": "Quel est le village natal de Naruto ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "wrong_answers": [
+                "Du Sable",
+                "De la Brume",
+                "De la Pluie"
+            ],
+            "good_answer": "Du Feu"
+        },
+        {
+            "question": "Quel est le nom de la technique de l'Orbe Tourbillonnant ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "wrong_answers": [
+                "Chidori",
+                "Katon",
+                "Shinra Tensei"
+            ],
+            "good_answer": "Rasengan"
+        },
+        {
+            "question": "Qui est le coéquipier de Naruto et Sakura au sein de l'Équipe 7 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "wrong_answers": [
+                "Shikamaru Nara",
+                "Choji Akimichi",
+                "Kiba Inuzuka"
+            ],
+            "good_answer": "Sasuke Uchiwa"
+        },
+        {
+            "question": "Quel titre suprême Naruto rêve-t-il d'obtenir ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "wrong_answers": [
+                "Kazekage",
+                "Anbu",
+                "Sannin"
+            ],
+            "good_answer": "Hokage"
+        },
+        {
+            "question": "Qui a été le Premier Hokage du village de Konoha ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "wrong_answers": [
+                "Tobirama Senju",
+                "Hiruzen Sarutobi",
+                "Minato Namikaze"
+            ],
+            "good_answer": "Hashirama Senju"
+        },
+        {
+            "question": "Quel est le nom de l'organisation portant un manteau noir aux nuages rouges ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "wrong_answers": [
+                "L'Anbu",
+                "Les Sept Épéistes",
+                "Taka"
+            ],
+            "good_answer": "L'Akatsuki"
+        },
+        {
+            "question": "Quel invocation Jiraya enseigne-t-il à Naruto ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "wrong_answers": [
+                "Les Serpents",
+                "Les Limaces",
+                "Les Chiens"
+            ],
+            "good_answer": "Les Crapauds"
+        },
+        {
+            "question": "Quel est le nom du Kage du village du feu ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "wrong_answers": [
+                "Kazekage",
+                "Mizukage",
+                "Raikage"
+            ],
+            "good_answer": "Hokage"
+        },
+        {
+            "question": "Qui est le créateur du manga original Naruto ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "wrong_answers": [
+                "Eiichiro Oda",
+                "Akira Toriyama",
+                "Tite Kubo"
+            ],
+            "good_answer": "Masashi Kishimoto"
+        },
+        {
+            "question": "Quel est le nom de la technique avec des éclairs de Sasuke Uchiwa ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "wrong_answers": [
+                "Raiton",
+                "Amaterasu",
+                "Kirin"
+            ],
+            "good_answer": "Chidori"
+        },
+        {
+            "question": "Quel membre de l'Akatsuki fait équipe avec Hidan ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "wrong_answers": [
+                "Deidara",
+                "Sasori",
+                "Kisame Hoshigaki"
+            ],
+            "good_answer": "Kakuzu"
+        },
+        {
+            "question": "Quel est le nom de la mère de Naruto Uzumaki ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "wrong_answers": [
+                "Tsunade Senju",
+                "Hinata Hyûga",
+                "Kurenai Yuhi"
+            ],
+            "good_answer": "Kushina Uzumaki"
+        },
+        {
+            "question": "Quelle démon à queue est scellée en Gaara ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "wrong_answers": [
+                "Matatabi",
+                "Isobu",
+                "Son Gokû"
+            ],
+            "good_answer": "Shukaku"
+        },
+        {
+            "question": "Quel est le prénom du frère aîné de Sasuke Uchiwa ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/naruto_logo.jpg"
+            ],
+            "wrong_answers": [
+                "Madara",
+                "Obito",
+                "Shisui"
+            ],
+            "good_answer": "Itachi"
         }
     ]
 }

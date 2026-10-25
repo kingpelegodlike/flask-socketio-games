@@ -1,0 +1,275 @@
+{
+    "topic": "SPIN CITY",
+    "categories": [
+        "Elders",
+        "Adults"
+    ],
+    "generation_min": "1980s",
+    "generation_max": "1970s",
+    "questions": {
+        "1": {
+            "question": "Quel est le nom du personnage joué par Charlie Sheen dans 'Spin City' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/series/spin_city/spin_city.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/series/spin_city/charlie_crawford.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/series/spin_city/charlie_crawford.jpg"
+            ],
+            "wrong_answers": [
+                "Charlie Harper",
+                "Sean Topper Harley",
+                "Tom Logan"
+            ],
+            "good_answer": "Charlie Crawford"
+        },
+        "2": {
+            "question": "Quel est le nom du personnage joué par Michael J Fox dans 'Spin City' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/series/spin_city/spin_city.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/series/spin_city/michael_mike_patrick_flaherty.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/series/spin_city/michael_mike_patrick_flaherty.jpg"
+            ],
+            "wrong_answers": [
+                "Alex Keaton",
+                "Frank Bannister",
+                "Martin McFly"
+            ],
+            "good_answer": "Michael Patrick Flaherty"
+        },
+        "3": {
+            "question": "Quel est le nom du maire de New-York dans 'Spin City' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/series/spin_city/spin_city.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/series/spin_city/randall_winston.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/series/spin_city/randall_winston.jpg"
+            ],
+            "wrong_answers": [
+                "James Hobert III",
+                "Josiah Edward Bartlet",
+                "Stuart Bondek"
+            ],
+            "good_answer": "Randall Winston"
+        },
+        "4": {
+            "question": "Quel est le prénom de ce personnage de 'Spin City' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/series/spin_city/spin_city.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/series/spin_city/ashley_schaeffer.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/series/spin_city/ashley_schaeffer.jpg"
+            ],
+            "wrong_answers": [
+                "Carla",
+                "Lucille",
+                "Sally"
+            ],
+            "good_answer": "Ashley"
+        },
+        "5": {
+            "question": "Quel est ce personnage de 'Spin City' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/series/spin_city/spin_city.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/series/spin_city/stuart_bondek.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/series/spin_city/stuart_bondek.jpg"
+            ],
+            "wrong_answers": [
+                "Carter Heywood",
+                "James Hobert",
+                "Richard Lassiter"
+            ],
+            "good_answer": "Stuart Bondek"
+        },
+        "6": {
+            "question": "Quel est ce personnage de 'Spin City' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/series/spin_city/spin_city.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/series/spin_city/carter_sebastian_heywood.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/series/spin_city/carter_sebastian_heywood.jpg"
+            ],
+            "wrong_answers": [
+                "Stuart Bondek",
+                "Randall Winston",
+                "Paul Lassiter"
+            ],
+            "good_answer": "Carter Heywood"
+        },
+        "7": {
+            "question": "Quel est ce personnage de 'Spin City' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/series/spin_city/spin_city.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/series/spin_city/james_hobert.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/series/spin_city/james_hobert.jpg"
+            ],
+            "wrong_answers": [
+                "Michael Flaherty",
+                "Randall Winston",
+                "Paul Lassiter"
+            ],
+            "good_answer": "James Hobert"
+        },
+        "8": {
+            "question": "Quel est ce personnage de 'Spin City' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/series/spin_city/spin_city.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/series/spin_city/paul_thomas_lassiter.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/series/spin_city/paul_thomas_lassiter.jpg"
+            ],
+            "wrong_answers": [
+                "Carter Heywood",
+                "Stuart Bondek",
+                "James Hobert"
+            ],
+            "good_answer": "Paul Lassiter"
+        },
+        "9": {
+            "question": "Quel est ce personnage de 'Spin City' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/series/spin_city/spin_city.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/series/spin_city/caitlin_moore.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/series/spin_city/caitlin_moore.jpg"
+            ],
+            "wrong_answers": [
+                "Ashley Schaeffer",
+                "Nicole Faber",
+                "Mrs. Winston"
+            ],
+            "good_answer": "Caitlin Moore"
+        },
+        "10": {
+            "question": "Où se déroule la majorité de la série 'Spin City' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/series/spin_city/spin_city.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/series/spin_city/spin_city.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/series/spin_city/spin_city.jpg"
+            ],
+            "wrong_answers": [
+                "Cabinet d'avocat",
+                "Hopital",
+                "Restaurant"
+            ],
+            "good_answer": "Mairie"
+        },
+        "11": {
+            "question": "Dans quel ville se déroule 'Spin City' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/series/spin_city/spin_city.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/series/spin_city/spin_city.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/series/spin_city/spin_city.jpg"
+            ],
+            "wrong_answers": [
+                "Boston",
+                "San Francisco",
+                "Washington"
+            ],
+            "good_answer": "New-York"
+        }
+    }
+}
