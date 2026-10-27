@@ -221,6 +221,246 @@
                 "marraine"
             ],
             "good_answer": "cousine"
+        },
+        "10": {
+            "question": "Quel animal est le meilleur ami de Babar dans sa jeunesse ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/babar/babar.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/babar/zephir.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/dessins_animes/babar/zephir.jpg"
+            ],
+            "wrong_answers": [
+                "Cornelius",
+                "Pompadour",
+                "Arthur"
+            ],
+            "good_answer": "Zéphir"
+        },
+        "11": {
+            "question": "Quel vêtement Babar achète-t-il lors de son premier séjour à Paris ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/babar/babar.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/babar/babar.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/dessins_animes/babar/babar.jpg"
+            ],
+            "wrong_answers": [
+                "Une cape rouge",
+                "Un pyjama à rayures",
+                "Un imperméable jaune"
+            ],
+            "good_answer": "Un costume vert"
+        },
+        "16": {
+            "question": "Quel est le nom du conseiller royal ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/babar/babar.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/babar/pompadour.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/dessins_animes/babar/pompadour.jpg"
+            ],
+            "wrong_answers": [
+                "Cornelius",
+                "Rataxes",
+                "Zéphir"
+            ],
+            "good_answer": "Pompadour"
+        },
+        "17": {
+            "question": "Quel est le nom de la femme du roi chez les rhinocéros ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/babar/babar.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/babar/babar.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/dessins_animes/babar/babar.jpg"
+            ],
+            "wrong_answers": [
+                "Cornélia",
+                "Éléonore",
+                "Béatrice"
+            ],
+            "good_answer": "Lazarine"
+        },
+        "18": {
+            "question": "Quel inventeur farfelu et génial réside à Célesteville ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/babar/babar.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/babar/babar.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/dessins_animes/babar/babar.jpg"
+            ],
+            "wrong_answers": [
+                "Professeur Barbe-Bleue",
+                "Docteur Octopus",
+                "Professeur Nimbus"
+            ],
+            "good_answer": "Tristan"
+        },
+        "19": {
+            "question": "Comment s'appelle le fidèle conseiller et assistant du roi des rhinocéros ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/babar/babar.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/babar/basile.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/dessins_animes/babar/basile.jpg"
+            ],
+            "wrong_answers": [
+                "Pompadour",
+                "Victor",
+                "Barnabé"
+            ],
+            "good_answer": "Basile"
+        },
+        "20": {
+            "question": "Comment se prénomme le quatrième enfant de Babar et Céleste ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/babar/babar.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/babar/isabelle.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/dessins_animes/babar/isabelle.jpg"
+            ],
+            "wrong_answers": [
+                "Flora",
+                "Charlotte",
+                "Lili"
+            ],
+            "good_answer": "Isabelle"
+        },
+        "21": {
+            "question": "Quel mode de transport Babar et Céleste utilisent-ils pour leur voyage de noces ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/babar/babar.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/babar/babar.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/dessins_animes/babar/babar.jpg"
+            ],
+            "wrong_answers": [
+                "Un train à vapeur",
+                "Une montgolfière",
+                "Un paquebot de luxe"
+            ],
+            "good_answer": "Une baleine géante"
+        },
+        "22": {
+            "question": "Quel est le nom du prince des rhinocéros ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/babar/babar.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/babar/babar.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/dessins_animes/babar/babar.jpg"
+            ],
+            "wrong_answers": [
+                "Arthur",
+                "Pom",
+                "Alexandre"
+            ],
+            "good_answer": "Sylvère"
+        },
+        "23": {
+            "question": "Quel métier exerce le cousin Zéphir dans la ville de Célesteville ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/babar/babar.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/babar/aviateur.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/dessins_animes/babar/aviateur.jpg"
+            ],
+            "wrong_answers": [
+                "Chef cuisinier",
+                "Jardinier en chef",
+                "Bibliothécaire royal"
+            ],
+            "good_answer": "Pilote d'avion"
         }
     }
 }
