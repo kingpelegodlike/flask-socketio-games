@@ -725,6 +725,270 @@
                 "Shisui"
             ],
             "good_answer": "Itachi"
+        },
+        "31": {
+            "question": "Quel est le prénom de ce personnage ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/asuma_sarutobi.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/asuma_sarutobi.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/asuma_sarutobi.jpg"
+            ],
+            "wrong_answers": [
+                "Kakashi",
+                "Jiraiya",
+                "Kisame"
+            ],
+            "good_answer": "Asuma"
+        },
+        "32": {
+            "question": "Quel est le prénom de ce personnage ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/kakashi_hatake.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/kakashi_hatake.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/kakashi_hatake.jpg"
+            ],
+            "wrong_answers": [
+                "Asuma",
+                "Obito",
+                "Itachi"
+            ],
+            "good_answer": "Kakashi"
+        },
+        "33": {
+            "question": "Quel est le prénom de ce personnage ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/hinata_hyuga_young.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/hinata_hyuga_young.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/hinata_hyuga_young.jpg"
+            ],
+            "wrong_answers": [
+                "Kurenai",
+                "Sakura",
+                "Ino"
+            ],
+            "good_answer": "Hinata"
+        },
+        "34": {
+            "question": "Quel est le prénom de ce personnage ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/ino_yamanaka_young.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/ino_yamanaka_young.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/ino_yamanaka_young.jpg"
+            ],
+            "wrong_answers": [
+                "Tsunade",
+                "Tenten",
+                "Hinata"
+            ],
+            "good_answer": "Ino"
+        },
+        "35": {
+            "question": "Quel est le prénom de ce personnage ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/kiba_inuzuka_young.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/kiba_inuzuka_young.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/kiba_inuzuka_young.jpg"
+            ],
+            "wrong_answers": [
+                "Choji",
+                "Shikamaru",
+                "Neji"
+            ],
+            "good_answer": "Kiba"
+        },
+        "36": {
+            "question": "Quel est le prénom de ce personnage ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/kurenai_yuhi.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/kurenai_yuhi.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/kurenai_yuhi.jpg"
+            ],
+            "wrong_answers": [
+                "Sakura",
+                "Tenten",
+                "Hinata"
+            ],
+            "good_answer": "Kurenai"
+        },
+        "37": {
+            "question": "Quel est le nom de ce personnage ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_uzumaki_young.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/naruto_uzumaki_young.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/naruto_uzumaki_young.jpg"
+            ],
+            "wrong_answers": [
+                "Kakashi",
+                "Madara",
+                "Hyuuga"
+            ],
+            "good_answer": "Uzumaki"
+        },
+        "38": {
+            "question": "Quel est le prénom de ce personnage ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/sakura_haruno_young.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/sakura_haruno_young.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/sakura_haruno_young.jpg"
+            ],
+            "wrong_answers": [
+                "Ino",
+                "Tenten",
+                "Hinata"
+            ],
+            "good_answer": "Sakura"
+        },
+        "39": {
+            "question": "Quel est le prénom de ce personnage ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/sasuke_uchiwa_young.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/sasuke_uchiwa_young.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/sasuke_uchiwa_young.jpg"
+            ],
+            "wrong_answers": [
+                "Shikamaru",
+                "Itachi",
+                "Naruto"
+            ],
+            "good_answer": "Sasuke"
+        },
+        "40": {
+            "question": "Quel est le prénom de ce personnage ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/shikamaru_nara_young.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/shikamaru_nara_young.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/shikamaru_nara_young.jpg"
+            ],
+            "wrong_answers": [
+                "Sasuke",
+                "Kiba",
+                "Choji"
+            ],
+            "good_answer": "Shikamaru"
+        },
+        "41": {
+            "question": "Quel est le prénom de ce personnage ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/shino_aburame_young.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/naruto/shino_aburame_young.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/naruto/shino_aburame_young.jpg"
+            ],
+            "wrong_answers": [
+                "Sasuke",
+                "Kiba",
+                "Choji"
+            ],
+            "good_answer": "Shino"
         }
     }
 }
