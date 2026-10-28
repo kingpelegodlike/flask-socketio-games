@@ -67,7 +67,7 @@
             "masked_id": ""
         },
         "6": {
-            "id": "nU4IRRI4TkQ",
+            "id": "CxVVD_5Yk2U",
             "artists": "Franglish",
             "title": "Position",
             "album": "Prime",
@@ -77,7 +77,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "7": {
             "id": "4TE7F1qsGac",
@@ -535,7 +536,7 @@
             "masked_id": ""
         },
         "42": {
-            "id": "SjPBWIviMiI",
+            "id": "o1CtH_J2UUc",
             "artists": "Panjabi MC",
             "title": "Jogi",
             "album": "The Album",
@@ -545,7 +546,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "43": {
             "id": "gC45-72ncgQ",
@@ -587,7 +589,7 @@
             "masked_id": ""
         },
         "46": {
-            "id": "K69N-pWoSRQ",
+            "id": "d7EWvqBbJ00",
             "artists": "Sona Noyan",
             "title": "Khaale Peele",
             "album": "",
@@ -597,7 +599,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "47": {
             "id": "g0eO74UmRBs",
@@ -691,7 +694,7 @@
             "masked_id": ""
         },
         "54": {
-            "id": "-4AhRFOH-z4",
+            "id": "x9WO2ieJMYk",
             "artists": "Panjabi MC",
             "title": "Mundian To Back Ke",
             "album": "Legalised",
@@ -701,7 +704,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "55": {
             "id": "ElrgLMn6xJM",
@@ -3722,7 +3726,7 @@
             "masked_id": ""
         },
         "287": {
-            "id": "sfWlatB0I3w",
+            "id": "qetW6R9Jxs4",
             "artists": "Eric Prydz",
             "title": "Call On Me",
             "album": "",
@@ -3732,7 +3736,8 @@
             "sample_from": "Steve Winwood - Valerie",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "10"
         },
         "288": {
             "id": "67f22hIYiig",
@@ -3982,7 +3987,7 @@
             "masked_id": ""
         },
         "307": {
-            "id": "1cq0ym5LtvU",
+            "id": "pbfm2jrXN6c",
             "artists": "Ti Kabzy",
             "title": "My Name Iz",
             "album": "My Name Iz",
@@ -3992,7 +3997,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "40"
         },
         "308": {
             "id": "K4KicQi4kZA",
@@ -4931,7 +4937,7 @@
             "masked_id": ""
         },
         "380": {
-            "id": "XJ_w66Uxak4",
+            "id": "ofA3URC1wyk",
             "artists": "Bryan Adams; Rod Stewart; Sting",
             "title": "All For Love",
             "album": "The Three Musketeers Soundtrack",
@@ -4941,7 +4947,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "60"
         },
         "381": {
             "id": "aQh8Bi3aEm8",
@@ -7352,7 +7359,7 @@
             "masked_id": ""
         },
         "566": {
-            "id": "EKGvEJ8SMgg",
+            "id": "aDViov9bNE8",
             "artists": "Claude Lombard",
             "title": "Embrasse-Moi Lucile (Generique TV)",
             "album": "Embrasse-Moi Lucile",
@@ -7362,7 +7369,8 @@
             "sample_from": "",
             "topic": "Donnez le nom de la Serie TV",
             "reponse": "",
-            "masked_id": "MBrBAKGvtTY"
+            "masked_id": "MBrBAKGvtTY",
+            "start_time": "0"
         },
         "567": {
             "id": "FUb9Pg7KmEM",
@@ -8887,7 +8895,7 @@
             "masked_id": ""
         },
         "685": {
-            "id": "eJF4DSekiKU",
+            "id": "bKZTnnFU9HA",
             "artists": "Udit Narayan; Alka Yagnik",
             "title": "Kuch Kuch Hota Hai",
             "album": "Kuch Kuch Hota Hai Soundtrack",
@@ -8897,7 +8905,8 @@
             "sample_from": "",
             "topic": "Donnez le nom du film",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "20"
         },
         "686": {
             "id": "kTXilT_KbUM",
@@ -9329,7 +9338,7 @@
             "masked_id": ""
         },
         "719": {
-            "id": "ojUTswFMjyM",
+            "id": "dPYKxl707Jw",
             "artists": "Kunal Ganjawala",
             "title": "Bheegey Hont",
             "album": "Murder Soundtrack",
@@ -9339,10 +9348,11 @@
             "sample_from": "",
             "topic": "Donnez le nom du film",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "720": {
-            "id": "DORHU1KVXrU",
+            "id": "S0cCbN9wINQ",
             "artists": "Amir Jamal",
             "title": "Kaho Na Kaho",
             "album": "Murder Soundtrack",
@@ -9352,7 +9362,8 @@
             "sample_from": "",
             "topic": "Donnez le nom du film",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "20"
         },
         "721": {
             "id": "As9DnNT3XZA",
@@ -15190,7 +15201,7 @@
             "start_time": "0"
         },
         "1168": {
-            "id": "eFkC01sV6Lw",
+            "id": "l21wGxlWwPw",
             "artists": "Gunna",
             "title": "FukUMean",
             "album": "A Gift & a Curse",
@@ -19166,7 +19177,7 @@
             "start_time": "0"
         },
         "1453": {
-            "id": "UuaisER2Pmc",
+            "id": "-qLuogKl7go",
             "artists": "Tanya Saint-Val",
             "title": "An Love",
             "album": "",
@@ -19177,7 +19188,7 @@
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
             "masked_id": "",
-            "start_time": "30"
+            "start_time": "20"
         },
         "1454": {
             "id": "maTF0jGxDsg",
@@ -19376,7 +19387,7 @@
             "start_time": "0"
         },
         "1468": {
-            "id": "xr8FKaQakpY",
+            "id": "mhAJSqU1K6c",
             "artists": "Soumia",
             "title": "Bladi",
             "album": "",
@@ -19387,7 +19398,7 @@
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
             "masked_id": "",
-            "start_time": "40"
+            "start_time": "20"
         },
         "1469": {
             "id": "GIoeaGTlm_8",
