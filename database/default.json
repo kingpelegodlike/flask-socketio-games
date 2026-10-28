@@ -1120,7 +1120,7 @@
             "masked_id": ""
         },
         "87": {
-            "id": "-xMIerfnlss",
+            "id": "95_dAQHui94",
             "artists": "Rozalla",
             "title": "Everybody's Free (to feel good)",
             "album": "Everybody's Free",
@@ -1130,7 +1130,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "88": {
             "id": "pylGq6oN0to",
@@ -5034,7 +5035,7 @@
             "masked_id": ""
         },
         "388": {
-            "id": "OTKjISlQOhs",
+            "id": "_Jtpf8N5IDE",
             "artists": "Queen",
             "title": "Who Wants to Live Forever",
             "album": "Highlander Soundtrack",
@@ -5044,7 +5045,8 @@
             "sample_from": "",
             "topic": "Donnez le nom du film",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "10"
         },
         "389": {
             "id": "OsyM_peiSTg",
@@ -6087,7 +6089,7 @@
             "masked_id": ""
         },
         "469": {
-            "id": "0-BUctRlTgc",
+            "id": "R_l4fmcgTUc",
             "artists": "Mike Post",
             "title": "Code Quantum (TV Theme)",
             "album": "Quantum Leap Soundtrack",
@@ -6097,7 +6099,8 @@
             "sample_from": "",
             "topic": "Donnez le nom de la Serie TV",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "470": {
             "id": "dEjXPY9jOx8",
@@ -6334,7 +6337,7 @@
             "masked_id": ""
         },
         "488": {
-            "id": "DW2-zMhOV9s",
+            "id": "nBdM74T3tAI",
             "artists": "Larry Weiss",
             "title": "Madame Est Servie - Brand New Life",
             "album": "Madame Est Servie (Brand New Life)",
@@ -6344,7 +6347,8 @@
             "sample_from": "",
             "topic": "Donnez le nom de la Serie TV",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "489": {
             "id": "LBIgXhiOpeQ",
@@ -7049,7 +7053,7 @@
             "masked_id": ""
         },
         "543": {
-            "id": "mWYVKVfA3kg",
+            "id": "KUBnnrvTC2o",
             "artists": "Ariane Carletti",
             "title": "Dragon Ball Z (Generique TV)",
             "album": "Dragon Ball Z",
@@ -7059,7 +7063,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "544": {
             "id": "xRgo4r0KGRc",
@@ -7620,7 +7625,7 @@
             "masked_id": ""
         },
         "588": {
-            "id": "yYdVOySkvSM",
+            "id": "Y1sWOW23md0",
             "artists": "Angele",
             "title": "Libre",
             "album": "Nonante-Cinq",
@@ -7630,7 +7635,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "30"
         },
         "589": {
             "id": "z8oQEruBuTw",
@@ -9908,7 +9914,7 @@
             "masked_id": ""
         },
         "764": {
-            "id": "Ohptzz03i8s",
+            "id": "nAEil3_D03k",
             "artists": "Gloria Estefan",
             "title": "Dr. Beat",
             "album": "Eyes Of Innocence",
@@ -9918,7 +9924,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": "492p1sCou_U"
+            "masked_id": "492p1sCou_U",
+            "start_time": "20"
         },
         "765": {
             "id": "0zFVR0P3AqA",
@@ -10113,7 +10120,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "30"
         },
         "780": {
             "id": "bXOVrTDXmiI",
@@ -13089,8 +13097,9 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
-            "masked_id": ""
+            "reponse": "Mary J. Blige",
+            "masked_id": "",
+            "start_time": "70"
         },
         "1009": {
             "id": "YXc8MxrAC0k",
@@ -13102,7 +13111,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Mary J. Blige",
             "masked_id": ""
         },
         "1010": {
@@ -13115,7 +13124,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Mary J. Blige",
             "masked_id": ""
         },
         "1011": {
@@ -13128,7 +13137,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Nas / Mary J. Blige",
             "masked_id": ""
         },
         "1012": {
@@ -13139,9 +13148,9 @@
             "year": "1995",
             "genders": "RnB",
             "sampled_by": "",
-            "sample_from": "Mary Jane Girls - All Night Lon",
+            "sample_from": "Mary Jane Girls - All Night Long",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Mary J. Blige",
             "masked_id": ""
         },
         "1013": {
@@ -13151,10 +13160,10 @@
             "album": "Mary Jane Girls",
             "year": "1982",
             "genders": "RnB Funk",
-            "sampled_by": "",
+            "sampled_by": "Mary J. Blige - Mary Jane (All Night Long)",
             "sample_from": "",
             "topic": "Donnez l'artiste copieur",
-            "reponse": "",
+            "reponse": "Mary J. Blige / LL Cool J",
             "masked_id": ""
         },
         "1014": {
@@ -13509,7 +13518,7 @@
             "masked_id": ""
         },
         "1041": {
-            "id": "pB1uwZx-Q14",
+            "id": "Rciee-oQLoI",
             "artists": "Boyz II Men",
             "title": "Motownphilly",
             "album": "Cooleyhighharmony",
@@ -13519,7 +13528,8 @@
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "1042": {
             "id": "25R1f4J7Jss",
@@ -18904,7 +18914,7 @@
             "start_time": "0"
         },
         "1435": {
-            "id": "6dNRT0OWKbQ",
+            "id": "ceHKf0x5JRE",
             "artists": "Warren",
             "title": "A Fleur De Vous",
             "album": "Snake Me",
