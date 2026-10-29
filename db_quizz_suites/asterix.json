@@ -245,6 +245,30 @@
                 "Orthopédix"
             ],
             "good_answer": "Ordralfabétix"
+        },
+        "11": {
+            "question": "Comment s'appelle ce personnage",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/asterix/obelix_hidden.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/asterix/obelix_hidden.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/dessins_animes/asterix/obelix_hidden.jpg"
+            ],
+            "wrong_answers": [
+                "Ducobu",
+                "Quizzdefolix",
+                "Astérix"
+            ],
+            "good_answer": "Obélix"
         }
     }
 }

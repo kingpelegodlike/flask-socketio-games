@@ -485,6 +485,54 @@
                 "Une barre de bâteau"
             ],
             "good_answer": "Une ancre de marine"
+        },
+        "21": {
+            "question": "Quels sont les noms de ces personnages cachés ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/tintin/dupont_et_dupond_hidden.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/tintin/dupont_et_dupond_hidden.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/dessins_animes/tintin/dupont_et_dupond_hidden.jpg"
+            ],
+            "wrong_answers": [
+                "Blake et Mortimer",
+                "Nicolas et Barack",
+                "Laurell et Hardy"
+            ],
+            "good_answer": "Dupont et Dupond"
+        },
+        "22": {
+            "question": "Qui est ce personnage ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/tintin/professeur_tournesol_hidden.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/tintin/professeur_tournesol_hidden.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/dessins_animes/tintin/professeur_tournesol_hidden.jpg"
+            ],
+            "wrong_answers": [
+                "Professeur Nimbus",
+                "Albert Einstein",
+                "Professeur Foldingue"
+            ],
+            "good_answer": "Professeur Tournesol"
         }
     }
 }

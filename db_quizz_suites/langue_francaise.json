@@ -176,7 +176,7 @@
             "good_answer": "Qui tire sur le jaune"
         },
         "8": {
-            "question": "Quelle est la conjugaison du verbe 'acquérir' à la premiere personne du présent de l'indicatif ?",
+            "question": "Conjuger le verbe 'acquérir' à la premiere personne du présent de l'indicatif ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -198,6 +198,222 @@
                 "J'acquis"
             ],
             "good_answer": "J'acquiers"
+        },
+        "9": {
+            "question": "Quel terme qualifie deux mots qui ont un sens opposé ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "wrong_answers": [
+                "Homonymes",
+                "Synonymes",
+                "Paronymes"
+            ],
+            "good_answer": "Antonymes"
+        },
+        "10": {
+            "question": "Quel est le féminin du mot 'chasseur' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "wrong_answers": [
+                "Chasseresse",
+                "Chasseuse",
+                "Chassarde"
+            ],
+            "good_answer": "Chasseresse"
+        },
+        "11": {
+            "question": "Que signifie le préfixe 'chrono-' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "wrong_answers": [
+                "La couleur",
+                "La vitesse",
+                "La distance"
+            ],
+            "good_answer": "Le temps"
+        },
+        "12": {
+            "question": "Comment appelle-t-on un mot qui se lit de la même façon de gauche à droite et de droite à gauche ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "wrong_answers": [
+                "Un homonyme",
+                "Un acronyme",
+                "Un synonyme"
+            ],
+            "good_answer": "Un palindrome"
+        },
+        "13": {
+            "question": "Quel est le pluriel du nom 'eventail' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "wrong_answers": [
+                "Des détails",
+                "Des éventaux",
+                "Des évents"
+            ],
+            "good_answer": "Des éventails"
+        },
+        "14": {
+            "question": "Que désigne une 'onomatopée' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "wrong_answers": [
+                "D'origine étrangère",
+                "Invention d'un mot",
+                "Faute d'orthographe"
+            ],
+            "good_answer": "Qui imite un son"
+        },
+        "15": {
+            "question": "Comment appelle-t-on la figure de style qui consiste à exagérer l'expression ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "wrong_answers": [
+                "La litote",
+                "L'oxymore",
+                "L'euphemisme"
+            ],
+            "good_answer": "L'hyperbole"
+        },
+        "16": {
+            "question": "Comment appelle-t-on la figure de style avec deux mots aux sens opposés côte à côte ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "wrong_answers": [
+                "Une litote",
+                "Une hyperbole",
+                "Une métaphore"
+            ],
+            "good_answer": "Un oxymore"
+        },
+        "17": {
+            "question": "Comment appelle-t-on un mot inventé dont l'auteur ou l'origine provient d'un nom propre ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/langue_francaise.jpg"
+            ],
+            "wrong_answers": [
+                "Un synonyme",
+                "Un homonyme",
+                "Un paronyme"
+            ],
+            "good_answer": "Un éponyme"
         }
     }
 }

@@ -67,7 +67,7 @@
             "masked_id": ""
         },
         "6": {
-            "id": "nU4IRRI4TkQ",
+            "id": "CxVVD_5Yk2U",
             "artists": "Franglish",
             "title": "Position",
             "album": "Prime",
@@ -77,7 +77,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "7": {
             "id": "4TE7F1qsGac",
@@ -535,7 +536,7 @@
             "masked_id": ""
         },
         "42": {
-            "id": "SjPBWIviMiI",
+            "id": "o1CtH_J2UUc",
             "artists": "Panjabi MC",
             "title": "Jogi",
             "album": "The Album",
@@ -545,7 +546,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "43": {
             "id": "gC45-72ncgQ",
@@ -587,7 +589,7 @@
             "masked_id": ""
         },
         "46": {
-            "id": "K69N-pWoSRQ",
+            "id": "d7EWvqBbJ00",
             "artists": "Sona Noyan",
             "title": "Khaale Peele",
             "album": "",
@@ -597,7 +599,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "47": {
             "id": "g0eO74UmRBs",
@@ -691,7 +694,7 @@
             "masked_id": ""
         },
         "54": {
-            "id": "-4AhRFOH-z4",
+            "id": "x9WO2ieJMYk",
             "artists": "Panjabi MC",
             "title": "Mundian To Back Ke",
             "album": "Legalised",
@@ -701,7 +704,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "55": {
             "id": "ElrgLMn6xJM",
@@ -1120,7 +1124,7 @@
             "masked_id": ""
         },
         "87": {
-            "id": "-xMIerfnlss",
+            "id": "95_dAQHui94",
             "artists": "Rozalla",
             "title": "Everybody's Free (to feel good)",
             "album": "Everybody's Free",
@@ -1130,7 +1134,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "88": {
             "id": "pylGq6oN0to",
@@ -3721,7 +3726,7 @@
             "masked_id": ""
         },
         "287": {
-            "id": "sfWlatB0I3w",
+            "id": "qetW6R9Jxs4",
             "artists": "Eric Prydz",
             "title": "Call On Me",
             "album": "",
@@ -3731,7 +3736,8 @@
             "sample_from": "Steve Winwood - Valerie",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "10"
         },
         "288": {
             "id": "67f22hIYiig",
@@ -3981,7 +3987,7 @@
             "masked_id": ""
         },
         "307": {
-            "id": "1cq0ym5LtvU",
+            "id": "pbfm2jrXN6c",
             "artists": "Ti Kabzy",
             "title": "My Name Iz",
             "album": "My Name Iz",
@@ -3991,7 +3997,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "40"
         },
         "308": {
             "id": "K4KicQi4kZA",
@@ -4930,7 +4937,7 @@
             "masked_id": ""
         },
         "380": {
-            "id": "XJ_w66Uxak4",
+            "id": "ofA3URC1wyk",
             "artists": "Bryan Adams; Rod Stewart; Sting",
             "title": "All For Love",
             "album": "The Three Musketeers Soundtrack",
@@ -4940,7 +4947,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "60"
         },
         "381": {
             "id": "aQh8Bi3aEm8",
@@ -5034,7 +5042,7 @@
             "masked_id": ""
         },
         "388": {
-            "id": "OTKjISlQOhs",
+            "id": "_Jtpf8N5IDE",
             "artists": "Queen",
             "title": "Who Wants to Live Forever",
             "album": "Highlander Soundtrack",
@@ -5044,7 +5052,8 @@
             "sample_from": "",
             "topic": "Donnez le nom du film",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "10"
         },
         "389": {
             "id": "OsyM_peiSTg",
@@ -6087,7 +6096,7 @@
             "masked_id": ""
         },
         "469": {
-            "id": "0-BUctRlTgc",
+            "id": "R_l4fmcgTUc",
             "artists": "Mike Post",
             "title": "Code Quantum (TV Theme)",
             "album": "Quantum Leap Soundtrack",
@@ -6097,7 +6106,8 @@
             "sample_from": "",
             "topic": "Donnez le nom de la Serie TV",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "470": {
             "id": "dEjXPY9jOx8",
@@ -6334,7 +6344,7 @@
             "masked_id": ""
         },
         "488": {
-            "id": "DW2-zMhOV9s",
+            "id": "nBdM74T3tAI",
             "artists": "Larry Weiss",
             "title": "Madame Est Servie - Brand New Life",
             "album": "Madame Est Servie (Brand New Life)",
@@ -6344,7 +6354,8 @@
             "sample_from": "",
             "topic": "Donnez le nom de la Serie TV",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "489": {
             "id": "LBIgXhiOpeQ",
@@ -7049,7 +7060,7 @@
             "masked_id": ""
         },
         "543": {
-            "id": "mWYVKVfA3kg",
+            "id": "KUBnnrvTC2o",
             "artists": "Ariane Carletti",
             "title": "Dragon Ball Z (Generique TV)",
             "album": "Dragon Ball Z",
@@ -7059,7 +7070,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "544": {
             "id": "xRgo4r0KGRc",
@@ -7347,7 +7359,7 @@
             "masked_id": ""
         },
         "566": {
-            "id": "EKGvEJ8SMgg",
+            "id": "aDViov9bNE8",
             "artists": "Claude Lombard",
             "title": "Embrasse-Moi Lucile (Generique TV)",
             "album": "Embrasse-Moi Lucile",
@@ -7357,7 +7369,8 @@
             "sample_from": "",
             "topic": "Donnez le nom de la Serie TV",
             "reponse": "",
-            "masked_id": "MBrBAKGvtTY"
+            "masked_id": "MBrBAKGvtTY",
+            "start_time": "0"
         },
         "567": {
             "id": "FUb9Pg7KmEM",
@@ -7620,7 +7633,7 @@
             "masked_id": ""
         },
         "588": {
-            "id": "yYdVOySkvSM",
+            "id": "Y1sWOW23md0",
             "artists": "Angele",
             "title": "Libre",
             "album": "Nonante-Cinq",
@@ -7630,7 +7643,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "30"
         },
         "589": {
             "id": "z8oQEruBuTw",
@@ -8881,7 +8895,7 @@
             "masked_id": ""
         },
         "685": {
-            "id": "eJF4DSekiKU",
+            "id": "bKZTnnFU9HA",
             "artists": "Udit Narayan; Alka Yagnik",
             "title": "Kuch Kuch Hota Hai",
             "album": "Kuch Kuch Hota Hai Soundtrack",
@@ -8891,7 +8905,8 @@
             "sample_from": "",
             "topic": "Donnez le nom du film",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "20"
         },
         "686": {
             "id": "kTXilT_KbUM",
@@ -9323,7 +9338,7 @@
             "masked_id": ""
         },
         "719": {
-            "id": "ojUTswFMjyM",
+            "id": "dPYKxl707Jw",
             "artists": "Kunal Ganjawala",
             "title": "Bheegey Hont",
             "album": "Murder Soundtrack",
@@ -9333,10 +9348,11 @@
             "sample_from": "",
             "topic": "Donnez le nom du film",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "720": {
-            "id": "DORHU1KVXrU",
+            "id": "S0cCbN9wINQ",
             "artists": "Amir Jamal",
             "title": "Kaho Na Kaho",
             "album": "Murder Soundtrack",
@@ -9346,7 +9362,8 @@
             "sample_from": "",
             "topic": "Donnez le nom du film",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "20"
         },
         "721": {
             "id": "As9DnNT3XZA",
@@ -9908,7 +9925,7 @@
             "masked_id": ""
         },
         "764": {
-            "id": "Ohptzz03i8s",
+            "id": "nAEil3_D03k",
             "artists": "Gloria Estefan",
             "title": "Dr. Beat",
             "album": "Eyes Of Innocence",
@@ -9918,7 +9935,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": "492p1sCou_U"
+            "masked_id": "492p1sCou_U",
+            "start_time": "20"
         },
         "765": {
             "id": "0zFVR0P3AqA",
@@ -10113,7 +10131,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "30"
         },
         "780": {
             "id": "bXOVrTDXmiI",
@@ -13089,8 +13108,9 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
-            "masked_id": ""
+            "reponse": "Mary J. Blige",
+            "masked_id": "",
+            "start_time": "70"
         },
         "1009": {
             "id": "YXc8MxrAC0k",
@@ -13102,7 +13122,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Mary J. Blige",
             "masked_id": ""
         },
         "1010": {
@@ -13115,7 +13135,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Mary J. Blige",
             "masked_id": ""
         },
         "1011": {
@@ -13128,7 +13148,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Nas / Mary J. Blige",
             "masked_id": ""
         },
         "1012": {
@@ -13139,9 +13159,9 @@
             "year": "1995",
             "genders": "RnB",
             "sampled_by": "",
-            "sample_from": "Mary Jane Girls - All Night Lon",
+            "sample_from": "Mary Jane Girls - All Night Long",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Mary J. Blige",
             "masked_id": ""
         },
         "1013": {
@@ -13151,10 +13171,10 @@
             "album": "Mary Jane Girls",
             "year": "1982",
             "genders": "RnB Funk",
-            "sampled_by": "",
+            "sampled_by": "Mary J. Blige - Mary Jane (All Night Long)",
             "sample_from": "",
             "topic": "Donnez l'artiste copieur",
-            "reponse": "",
+            "reponse": "Mary J. Blige / LL Cool J",
             "masked_id": ""
         },
         "1014": {
@@ -13509,7 +13529,7 @@
             "masked_id": ""
         },
         "1041": {
-            "id": "pB1uwZx-Q14",
+            "id": "Rciee-oQLoI",
             "artists": "Boyz II Men",
             "title": "Motownphilly",
             "album": "Cooleyhighharmony",
@@ -13519,7 +13539,8 @@
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "1042": {
             "id": "25R1f4J7Jss",
@@ -15180,7 +15201,7 @@
             "start_time": "0"
         },
         "1168": {
-            "id": "eFkC01sV6Lw",
+            "id": "l21wGxlWwPw",
             "artists": "Gunna",
             "title": "FukUMean",
             "album": "A Gift & a Curse",
@@ -18904,7 +18925,7 @@
             "start_time": "0"
         },
         "1435": {
-            "id": "6dNRT0OWKbQ",
+            "id": "ceHKf0x5JRE",
             "artists": "Warren",
             "title": "A Fleur De Vous",
             "album": "Snake Me",
@@ -19156,7 +19177,7 @@
             "start_time": "0"
         },
         "1453": {
-            "id": "UuaisER2Pmc",
+            "id": "-qLuogKl7go",
             "artists": "Tanya Saint-Val",
             "title": "An Love",
             "album": "",
@@ -19167,7 +19188,7 @@
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
             "masked_id": "",
-            "start_time": "30"
+            "start_time": "20"
         },
         "1454": {
             "id": "maTF0jGxDsg",
@@ -19366,7 +19387,7 @@
             "start_time": "0"
         },
         "1468": {
-            "id": "xr8FKaQakpY",
+            "id": "mhAJSqU1K6c",
             "artists": "Soumia",
             "title": "Bladi",
             "album": "",
@@ -19377,7 +19398,7 @@
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
             "masked_id": "",
-            "start_time": "40"
+            "start_time": "20"
         },
         "1469": {
             "id": "GIoeaGTlm_8",
@@ -24726,6 +24747,286 @@
             "reponse": "Aupinard",
             "masked_id": "",
             "start_time": "0"
+        },
+        "1851": {
+            "id": "YFJXhHUwKew",
+            "artists": "SCH",
+            "title": "Deux mille",
+            "album": "JVLIVS III",
+            "year": "2024",
+            "genders": "Rap",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "reponse": "SCH",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "1852": {
+            "id": "vD1bemWtjUU",
+            "artists": "Kehlani",
+            "title": "Folded",
+            "album": "Kehlani",
+            "year": "2025",
+            "genders": "RnB",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "reponse": "Kehlani",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "1853": {
+            "id": "JpGKWUdRnXE",
+            "artists": "Dave; Burna Boy",
+            "title": "Location",
+            "album": "Psychodrama",
+            "year": "2019",
+            "genders": "Rap; Afrobeat",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "reponse": "Dave / Burna Boy",
+            "masked_id": "",
+            "start_time": "10"
+        },
+        "1854": {
+            "id": "LSK7mt5oO0w",
+            "artists": "Mauvais Djo",
+            "title": "Maladie",
+            "album": "L'undertaker",
+            "year": "2026",
+            "genders": "Rap; Afrobeat",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez l'artiste de la chanson",
+            "reponse": "Mauvais Djo",
+            "masked_id": "",
+            "start_time": "20"
+        },
+        "1855": {
+            "id": "xNbEax1uJ4w",
+            "artists": "Tiakola",
+            "title": "Me\u0301lo De\u0301cale\u0301",
+            "album": "WpointM",
+            "year": "2026",
+            "genders": "Rap",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Tiakola / Me\u0301lo De\u0301cale\u0301",
+            "masked_id": "",
+            "start_time": "10"
+        },
+        "1856": {
+            "id": "c2cNhx-MBd8",
+            "artists": "Mauvais Djo",
+            "title": "Pile",
+            "album": "L'undertaker",
+            "year": "2026",
+            "genders": "Rap",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Mauvais Djo",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "1857": {
+            "id": "RCgjYlZ34jw",
+            "artists": "Naza, SDM",
+            "title": "Tout donner",
+            "album": "",
+            "year": "2025",
+            "genders": "",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Naza / SDM / Tout donner",
+            "masked_id": "",
+            "start_time": "10"
+        },
+        "1858": {
+            "id": "dxnacr0NriQ",
+            "artists": "Keblack; Guy2Bezbar",
+            "title": "Melrose Place",
+            "album": "",
+            "year": "2025",
+            "genders": "Rap",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Keblack / Guy2Bezbar / Melrose Place",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "1859": {
+            "id": "1943hnaZoYg",
+            "artists": "L2B",
+            "title": "Pelican",
+            "album": "Nes pour briller",
+            "year": "2025",
+            "genders": "Rap",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "L2B / Pelican",
+            "masked_id": "",
+            "start_time": "30"
+        },
+        "1860": {
+            "id": "U2t5Y89I2tE",
+            "artists": "RnBoi",
+            "title": "Mon Bebe",
+            "album": "My Eyes Only - Flashback",
+            "year": "2026",
+            "genders": "Rap",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "RnBoi / Mon Bebe",
+            "masked_id": "",
+            "start_time": "10"
+        },
+        "1861": {
+            "id": "MGVFaDxThaI",
+            "artists": "Tiakola; Rsko; Hamza",
+            "title": "1h55",
+            "album": "",
+            "year": "2024",
+            "genders": "Rap",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Tiakola / Rsko / Hamza / 1h55",
+            "masked_id": "",
+            "start_time": "30"
+        },
+        "1862": {
+            "id": "fYyOQJ1LGwo",
+            "artists": " Tiakola; Ronisia",
+            "title": "C'est KO",
+            "album": "",
+            "year": "2024",
+            "genders": "Rap",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": " Tiakola / Ronisia / C'est KO",
+            "masked_id": "",
+            "start_time": "20"
+        },
+        "1863": {
+            "id": "RjKXct8sHEQ",
+            "artists": "Triangle des bermudes; Aya Nakamura",
+            "title": "Balek",
+            "album": "",
+            "year": "2026",
+            "genders": "Rap",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Triangle des bermudes / Aya Nakamura / Balek",
+            "masked_id": "",
+            "start_time": "20"
+        },
+        "1864": {
+            "id": "sbuQWfvihSw",
+            "artists": "Meryl; Eva",
+            "title": "Coco Chanel",
+            "album": "",
+            "year": "2025",
+            "genders": "RnB; Shata; Ragga",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Meryl / Coco Chanel / Eva",
+            "masked_id": "",
+            "start_time": "20"
+        },
+        "1865": {
+            "id": "09UIEAqzxwc",
+            "artists": "Keblack",
+            "title": "Laisse moi",
+            "album": "Focus",
+            "year": "2024",
+            "genders": "Rap",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Keblack / Laisse moi",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "1866": {
+            "id": "WQQ4pBn1gHs",
+            "artists": "Keblack; Franglish",
+            "title": "Boucan",
+            "album": "",
+            "year": "2024",
+            "genders": "Rap; Afrobeat",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Keblack / Franglish / Boucan",
+            "masked_id": "",
+            "start_time": "20"
+        },
+        "1867": {
+            "id": "IR4ujMOgxA4",
+            "artists": "Miimii KDS",
+            "title": "Se Miimii",
+            "album": "Se Miimii",
+            "year": "2025",
+            "genders": "Ragga",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Miimii KDS / Se Miimii",
+            "masked_id": "",
+            "start_time": "10"
+        },
+        "1868": {
+            "id": "qOrBNgOntnM",
+            "artists": "Tayc;Anyme",
+            "title": "Reanyme",
+            "album": "",
+            "year": "2026",
+            "genders": "Rap; Africain; Afrobeat",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Tayc / Reanyme / Anyme",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "1869": {
+            "id": "aGa2LgO284I",
+            "artists": "Triangle Des Bermudes; MC YOSHI; Kokosvoice; Mauvais djo",
+            "title": "Lunettes",
+            "album": "Triangle Des Bermudes 2.0",
+            "year": "2024",
+            "genders": "Rap; Afrobeat",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Triangle Des Bermudes / MC YOSHI / Kokosvoice / Mauvais djo / Lunettes",
+            "masked_id": "",
+            "start_time": "20"
+        },
+        "1870": {
+            "id": "u8FhBTkKQvA",
+            "artists": "Triangle Des Bermudes; MC YOSHI; Kokosvoice; Mauvais djo",
+            "title": "Charger",
+            "album": "Franchement",
+            "year": "2025",
+            "genders": "Rap; Afrobeat",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Triangle Des Bermudes / MC YOSHI / Kokosvoice / Mauvais Djo / Charger",
+            "masked_id": "",
+            "start_time": "30"
         }
     }
 }

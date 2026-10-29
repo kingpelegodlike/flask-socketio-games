@@ -78,6 +78,198 @@
                 "Kirishima"
             ],
             "good_answer": "Midoriya"
+        },
+        "4": {
+            "question": "Quel est le prénom du personnage principal de 'L'Attaque des Titans' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "wrong_answers": [
+                "Armin",
+                "Levi",
+                "Erwin"
+            ],
+            "good_answer": "Eren"
+        },
+        "5": {
+            "question": "Dans Sword Art Online, comment se nomme le monde virtuel du premier arc narratif ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "wrong_answers": [
+                "ALfheim Online",
+                "Gun Gale Online",
+                "Underworld"
+            ],
+            "good_answer": "Aincrad"
+        },
+        "6": {
+            "question": "Quel est le nom du héros chauve surpuissant dans 'One-Punch Man' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "wrong_answers": [
+                "Genos",
+                "Bang",
+                "King"
+            ],
+            "good_answer": "Saitama"
+        },
+        "7": {
+            "question": "Dans Steins Gate, quel objet utilise le groupe pour envoyer des messages dans le passé ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "wrong_answers": [
+                "Un ordinateur portable",
+                "Un pigeon voyageur",
+                "Un téléphone"
+            ],
+            "good_answer": "Un four à micro-ondes"
+        },
+        "8": {
+            "question": "Quel est le nom du tournoi de combat suprême dans 'Food Wars' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "wrong_answers": [
+                "Le Grand Banquet",
+                "L'Examen des Étoiles",
+                "Le Colisée Culinaire"
+            ],
+            "good_answer": "Les Shokugeki"
+        },
+        "9": {
+            "question": "Dans 'Haikyu!!', quel est le surnom donné à l'équipe du lycée Karasuno ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "wrong_answers": [
+                "Les chats noirs",
+                "Les géants d'acier",
+                "Les aigles blancs"
+            ],
+            "good_answer": "Les corbeaux déchus"
+        },
+        "10": {
+            "question": "Dans 'Tokyo Ghoul', quel est le nom du café où travaille Touka Kirishima ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "wrong_answers": [
+                "Café Lene",
+                "The Black Rabbit",
+                "Coffee & Mask"
+            ],
+            "good_answer": "L'Anteiku"
+        },
+        "11": {
+            "question": "Quel est le nom de la ville dans 'JoJo's Bizarre Adventure: : Diamond Is Unbreakable' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/quizz_animes_annees_2010.jpg"
+            ],
+            "wrong_answers": [
+                "Neo Tokyo",
+                "Oumagadoki",
+                "Kamurocho"
+            ],
+            "good_answer": "Morio-cho"
         }
     }
 }

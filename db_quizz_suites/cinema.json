@@ -2384,7 +2384,7 @@
             "good_answer": "Jean Dujardin"
         },
         "100": {
-            "question": "Qui a réalisé le film “Les Infiltrés” de 2006 ?",
+            "question": "Qui a réalisé le film 'Les Infiltrés' de 2006 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -2478,6 +2478,30 @@
                 "Forest Whitaker"
             ],
             "good_answer": "Morgan Freeman"
+        },
+        "104": {
+            "question": "Qel acteur incarne le célèbre personnage, Monsieur Hulot ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/cinema/jacques_tati_hidden.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/cinema/jacques_tati_hidden.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/cinema/jacques_tati_hidden.jpg"
+            ],
+            "wrong_answers": [
+                "Olivier Besancenot",
+                "Fernandel",
+                "Bourvil"
+            ],
+            "good_answer": "Jacques Tati"
         }
     }
 }

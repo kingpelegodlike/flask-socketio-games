@@ -71,7 +71,7 @@
             "waiting_answer_start_time": 3.0,
             "answer_timeout": 3,
             "question_media" : [ "/static/sounds/countdown.mp3", "/static/images/disney/disney.jpg" ],
-            "waiting_answer_media" : [ "XKnMMmZ-LpI.yt", "/static/images/disney/disney.jpg" ],
+            "waiting_answer_media" : [ "4wAAoO-zJNg.yt", "/static/images/disney/disney.jpg" ],
             "answer_media" : [ "/static/sounds/timeout.mp3", "/static/images/disney/cendrillon.jpg" ],
             "wrong_answers" : [ "Blanche Neige", "Robin des Bois", "La Petite Sirène" ],
             "good_answer" : "Cendrillon"

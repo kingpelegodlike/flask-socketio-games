@@ -4,9 +4,9 @@ import socket
 import os
 import fnmatch
 import qrcode
-import json
 import logging
 import logging.config
+from tinydb import JSONStorage, TinyDB, Query
 
 logging.getLogger('werkzeug').setLevel(logging.ERROR)
 logging.getLogger('engineio').setLevel(logging.ERROR)
@@ -19,25 +19,15 @@ logging.config.fileConfig('logging.conf')
 from threading import Lock
 from flask import Flask, render_template, session, request
 from flask_socketio import SocketIO, emit, join_room, leave_room, \
-    close_room, rooms, disconnect
-# from engineio.async_drivers import threading
-# from engineio.async_drivers import gevent
+ close_room, rooms, disconnect
 from game import Game, GameState
 from generation import GENERATION_TO_YEAR
 import random
 
-# Set this variable to "threading", "eventlet" or "gevent" to test the
-# different async modes, or leave it set to None for the application to choose
-# the best option based on installed packages.
 async_mode = None
-# async_mode = 'threading'
-# async_mode = 'engineio.async_drivers.threading'
-# async_mode = 'eventlet'
-# async_mode = 'gevent'
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
-# socketio = SocketIO(app, async_mode=async_mode)
 socketio = SocketIO(app, cors_allowed_origins="*")
 game = Game()
 thread = None
@@ -52,7 +42,6 @@ nb_times_color_choosed = [0, 0, 0, 0]
 def get_local_ip():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     try:
-        # On simule une connexion vers une IP externe (pas besoin qu'elle réponde)
         s.connect(('8.8.8.8', 80))
         ip = s.getsockname()[0]
     except Exception:
@@ -65,12 +54,7 @@ def get_local_ip():
 def background_thread():
     """Example of how to send server generated events to clients."""
     count = 0
-    # while True:
-        # socketio.sleep(10)
-        # count += 1
-        # socketio.emit('my_response',
-                      # {'data': 'Server generated event', 'count': count},
-                      # namespace='/test')
+
 
 def countdown_thread(counter):
     """Example of how to send server generated events to clients."""
@@ -82,7 +66,6 @@ def countdown_thread(counter):
         if game.is_round_played():
             count = counter
             buzz_clear_timeout = True
-        # print("Counter is {}".format(count))
     return buzz_clear_timeout
 
 def countdown_ready_thread(counter):
@@ -95,20 +78,13 @@ def countdown_ready_thread(counter):
         if game.is_players_ready_for_round():
             count = counter
             is_timeout = True
-        # print("Counter is {}".format(count))
     return is_timeout
 
 
 @app.route('/')
 def index():
-    # if 'username' in session:
-      # username = session['username']
-      # if username == "admin":
     logger.info("render_template 'index.html'")
     return render_template('index.html', async_mode=socketio.async_mode)
-      # else:
-        # return render_template('buzzer.html', async_mode=socketio.async_mode)
-    # return render_template('logout.html', async_mode=socketio.async_mode)
 
 
 @app.route('/web_quizz')
@@ -151,7 +127,6 @@ def login():
    
 @app.route('/logout')
 def logout():
-   # remove the username from the session if it is there
    session.pop('username', None)
    return render_template('logout.html', async_mode=socketio.async_mode)
 
@@ -235,33 +210,19 @@ def test_connect():
     with thread_lock:
         if thread is None:
             thread = socketio.start_background_task(background_thread)
-    # print("remove {} handlers".format(len(logger.handlers)))
-    # handlers = logger.handlers[:]
-    # for handler in handlers:
-        # handler.close()
-        # logger.removeHandler(handler)
-    # print("set new handler")
-    # logger = logging.getLogger('app')
     emit_data_to_test = {'data': 'Connected', 'count': 0}
     logger.info("emit to '/test' namespace 'my_response' event with data %s", emit_data_to_test)
     emit('my_response', emit_data_to_test, namespace='/test')
 
 @socketio.on('connect', namespace='/buz')
-def test_connect():
+def test_connect_buz():
     emit_data_to_test = {'data': 'Connected', 'action': 'connect'}
     logger.info("emit to '/buz' namespace 'my_response' event with data %s", emit_data_to_test)
     emit('my_response', emit_data_to_test, namespace='/buz')
 
 @socketio.on('connect', namespace='/test_question')
-def test_connect():
+def test_connect_question():
     logger.debug("Receive from '/test_question' namespace 'connect' event")
-    # global thread
-    # with thread_lock:
-    #     if thread is None:
-    #         thread = socketio.start_background_task(background_thread)
-    # emit_data_to_test = {'data': 'Connected', 'count': 0}
-    # logger.info("emit to '/test_question' namespace 'my_response' event with data %s", emit_data_to_test)
-    # emit('my_response', emit_data_to_test, namespace='/test_question')
 
 @socketio.on('disconnect', namespace='/test')
 def test_disconnect():
@@ -274,9 +235,6 @@ def set_questions(data):
     session['status'] = "set_questions"
     game.set_state(GameState.QUESTIONS_SELECTION)
     game.set_questions(suites_path=suites_path)
-    # print("with data {}\n and ID {}".format(data, data["data"][0]["id"]))
-    # suite_name = data["data"][0]["id"]
-    # game.set_questions(suite_name)
     question_nbr_per_suite = int(data["question_nbr_per_suite"])
     for i in range(len(data["data"])):
         logger.debug("with data {}\n and ID {}".format(data, data["data"][i]["id"]))
@@ -294,7 +252,6 @@ def quiz_set(data):
     session['status'] = "quiz_set"
     game = Game()
     game.is_players_report_presence = data['is_players_report_presence']
-    # logger.debug("With players report presence set to '%s'", game.is_players_report_presence)
     game.set_state(GameState.QUESTIONS_SELECTION)
     game.set_questions(suites_path=suites_path)
     PLAYERS_CATEGORY[0] = data["players_category"]
@@ -305,22 +262,23 @@ def quiz_set(data):
     logger.debug("With '%s' question per suites", NBR_QUESTIONS_PER_SUITE[0])
     players_generation_max, players_generation_min = game.get_generation_range()
     logger.debug("With players generation min '%s' and max '%s'", players_generation_min, players_generation_max)
+    
     for path, folders, files in os.walk(os.path.join(os.getcwd(), suites_path)):
-    # for path, folders, files in os.walk(os.path.join(os.getcwd(), "suites_link")):
-    # for path, folders, files in os.walk(os.path.join(os.getcwd(), "suites")):
         for file in files:
             if fnmatch.fnmatch(file, '*.json'):
                 filename = os.path.join(path, file)
                 basename = os.path.basename(filename)
                 suitename = os.path.splitext(basename)[0]
-                # print("suite file {} and path:{}".format(suitename, filename))
-                json_data = json.load(open(filename, encoding='utf-8'))
-                categories = json_data["categories"]
-                suite_generation_min = GENERATION_TO_YEAR[json_data.get("generation_min", "Youngers")]
-                suite_generation_max = GENERATION_TO_YEAR[json_data.get("generation_max", "Elders")]
+                
+                db = TinyDB(filename, storage=JSONStorage, encoding='utf-8')
+                storage_data = db.storage.read()
+                
+                categories = storage_data.get("categories", ["All"])
+                suite_generation_min = GENERATION_TO_YEAR.get(storage_data.get("generation_min", "Youngers"))
+                suite_generation_max = GENERATION_TO_YEAR.get(storage_data.get("generation_max", "Elders"))
+                topic = storage_data.get("topic", suitename)
+                
                 logger.debug("suite generation min '%s' and max '%s'", suite_generation_min, suite_generation_max)
-                topic = json_data["topic"]
-                # if ( (PLAYERS_CATEGORY[0] == "All") or (PLAYERS_CATEGORY[0] in categories) or (categories == ["All"]) ):
                 if suite_generation_max <= players_generation_max and suite_generation_min >= players_generation_min:
                     if suitename != "test_suite":
                         logger.debug("Add suite file '%s' and topic '%s' and path:'%s'", suitename, topic, filename)
@@ -373,7 +331,6 @@ def activ_all_buttons():
 def activ_buttons():
     print("activ_buttons")
     session['status'] = "activ_buttons"
-    print("\nemit my_response to buz with action {} b1 {} b2 {} b3 {} b4 {} b5 {}\n".format("activ_buttons", "ROUGE", "REPONSE BLEU", "REPONSE ORANGE", "REPONSE VERT", "REPONSE JAUNE"))
     socketio.emit('my_response',
          {'action': "activ_buttons", 'b1': "ROUGE", 'b2': "REPONSE BLEU", 'b3': "REPONSE ORANGE", 'b4': "REPONSE VERT", 'b5': "REPONSE JAUNE"},
          namespace='/buz')
@@ -409,11 +366,8 @@ def launch_quiz(data):
     global game
     logger.info("launch_quiz")
     session['status'] = "quiz_set"
-    # game = Game()
     game.is_players_report_presence = data['is_players_report_presence']
-    # logger.debug("With players report presence set to '%s'", game.is_players_report_presence)
     game.is_score_per_time_range = data['is_score_per_time_range']
-    # logger.debug("With score pert time range set to '%s'", game.is_score_per_time_range)
     game.set_state(GameState.QUESTIONS_SELECTION)
     game.set_questions(suites_path=suites_path)
     PLAYERS_CATEGORY[0] = data["players_category"]
@@ -424,22 +378,21 @@ def launch_quiz(data):
     logger.debug("With '%s' question per suites", NBR_QUESTIONS_PER_SUITE[0])
     players_generation_max, players_generation_min = game.get_generation_range()
     logger.debug("With players generation min '%s' and max '%s'", players_generation_min, players_generation_max)
+    
     for path, folders, files in os.walk(os.path.join(os.getcwd(), suites_path)):
-    # for path, folders, files in os.walk(os.path.join(os.getcwd(), "suites_link")):
-    # for path, folders, files in os.walk(os.path.join(os.getcwd(), "suites")):
         for file in files:
             if fnmatch.fnmatch(file, '*.json'):
                 filename = os.path.join(path, file)
                 basename = os.path.basename(filename)
                 suitename = os.path.splitext(basename)[0]
-                # print("suite file {} and path:{}".format(suitename, filename))
-                json_data = json.load(open(filename, encoding='utf-8'))
-                categories = json_data["categories"]
-                suite_generation_min = GENERATION_TO_YEAR[json_data.get("generation_min", "Youngers")]
-                suite_generation_max = GENERATION_TO_YEAR[json_data.get("generation_max", "Elders")]
-                logger.debug("suite generation min '%s' and max '%s'", suite_generation_min, suite_generation_max)
-                topic = json_data["topic"]
-                # if ( (PLAYERS_CATEGORY[0] == "All") or (PLAYERS_CATEGORY[0] in categories) or (categories == ["All"]) ):
+                
+                db = TinyDB(filename, storage=JSONStorage, encoding='utf-8')
+                storage_data = db.storage.read()
+                categories = storage_data.get("categories", ["All"])
+                suite_generation_min = GENERATION_TO_YEAR.get(storage_data.get("generation_min", "Youngers"))
+                suite_generation_max = GENERATION_TO_YEAR.get(storage_data.get("generation_max", "Elders"))
+                topic = storage_data.get("topic", suitename)
+                
                 if suite_generation_max <= players_generation_max and suite_generation_min >= players_generation_min:
                     if suitename != "test_suite":
                         logger.debug("Add suite file '%s' and topic '%s' and path:'%s'", suitename, topic, filename)
@@ -502,7 +455,6 @@ def display_suite_selection(game):
     sound = "/static/sounds/lets_get_ready_to_rumble.mp3"
     is_timeout = False
     is_players_report_presence = game.is_players_report_presence
-    logger.debug("is_players_report_presence %s with type %s", is_players_report_presence, type(is_players_report_presence))
     if (not is_players_report_presence):
         is_timeout = True
         for player_name in game.players:
@@ -571,7 +523,6 @@ def display_suite_selection(game):
     logger.info("emit to '/buz' namespace 'my_response' event with data %s", emit_data_to_buz)
     socketio.emit('my_response', emit_data_to_buz, namespace='/buz')
 
-    # socketio.sleep(10)
     buzz_clear_timeout = countdown_thread(waiting_answer_timeout)
 
     logger.debug("Nb times color choosed list is %s", nb_times_color_choosed)
@@ -589,7 +540,6 @@ def display_suite_selection(game):
     suites_list.append(suites_list.pop(0))
     suites_list.append(suites_list.pop(0))
     suites_list.append(suites_list.pop(0))
-    # TODO : to remove perhaprs
     emit_data_to_buz = {'action': "clear_timeout", 'b1': suite_choosen, "b2": "", "b3": "", "b4": "", "b5": ""}
     logger.info("to remove perhaps '/buz' namespace 'my_response' event with data %s", emit_data_to_buz)
     socketio.emit('my_response', emit_data_to_buz, namespace='/buz')
@@ -605,7 +555,6 @@ def display_question(game, players_name_list, players_score_list, players_play_t
     media = "/static/images/are_you_ready.jpg"
     is_timeout = False
     is_players_report_presence = game.is_players_report_presence
-    # logger.debug("is_players_report_presence %s with type %s", is_players_report_presence, type(is_players_report_presence))
     if (not is_players_report_presence):
         is_timeout = True
         for player_name in game.players:
@@ -667,31 +616,36 @@ def test_display_question(data):
     suite_file_name = data["suite_file_name"]
     question_nbr = int(data["question_nbr"])
     try:
-        json_data = json.load(open(f"suites/{suite_file_name}.json", encoding='utf-8'))
+        db = TinyDB(os.path.join(suites_path, f"{suite_file_name}.json"), storage=JSONStorage, encoding='utf-8')
+        storage_data = db.storage.read()
+        topic = storage_data.get("topic", suite_file_name)
+        table = db.table('questions')
+        questions_list = table.all()
     except Exception as e:
-        error_msg = f"Error loading suite file 'suites/{suite_file_name}.json'"
+        error_msg = f"Error loading TinyDB suite file '{suites_path}/{suite_file_name}.json'"
         logger.error("%s: %s", error_msg, e)
         emit_data_to_test = {'error_msg': error_msg}
         logger.info("emit to '/test_question' namespace 'popup_error_msg' event with data %s", emit_data_to_test)
         socketio.emit('popup_error_msg', emit_data_to_test, namespace='/test_question')
         return
+    
     from question import Question
-    nb_questions = len(json_data["questions"])
+    nb_questions = len(questions_list)
     if question_nbr < -nb_questions or question_nbr > nb_questions or question_nbr == 0:
-        error_msg = f"Question number '{question_nbr}' is out of range (1-{len(json_data['questions'])}) in suite file '{suite_file_name}.json'"
+        error_msg = f"Question number '{question_nbr}' is out of range (1-{nb_questions}) in suite file '{suite_file_name}.json'"
         logger.error("%s", error_msg)
         emit_data_to_test = {'error_msg': error_msg}
         logger.info("emit to '/test_question' namespace 'popup_error_msg' event with data %s", emit_data_to_test)
         socketio.emit('popup_error_msg', emit_data_to_test, namespace='/test_question')
         return
-    question_index = question_nbr -1 if question_nbr > 0 else nb_questions + question_nbr
-    question = Question(json_data["questions"][question_index], json_data["topic"])
+    question_index = question_nbr - 1 if question_nbr > 0 else nb_questions + question_nbr
+    question = Question(questions_list[question_index], topic)
     sound, media_type, media = get_medias(question.question_media)
-    topic = f"({question_index+1}/{nb_questions}) : {question.topic}"
+    topic_str = f"({question_index+1}/{nb_questions}) : {question.topic}"
     emit_data_to_test = {
         'action': "display_question",
         'b1': question.question, 'b2': "&nbsp;", 'b3': "&nbsp;", 'b4': "&nbsp;", 'b5': "&nbsp;",
-        'topic': topic, 'question': question.question,
+        'topic': topic_str, 'question': question.question,
         'sound': sound, 'media_type': media_type, 'media': media,
         'timeout': question.question_timeout, 'start_time': question.question_start_time
     }
@@ -735,7 +689,6 @@ def display_answer_question(game, answers, good_answer_button, buttons, players_
     players = game.players
     for player_name in players:
         game.set_round_not_played(player_name)
-    # socketio.sleep(question.waiting_answer_timeout)
     buzz_clear_timeout = countdown_thread(question.waiting_answer_timeout)
 
 
@@ -747,31 +700,36 @@ def test_display_answer_question(data):
     suite_file_name = data["suite_file_name"]
     question_nbr = int(data["question_nbr"])
     try:
-        json_data = json.load(open(f"suites/{suite_file_name}.json", encoding='utf-8'))
+        db = TinyDB(os.path.join(suites_path, f"{suite_file_name}.json"), storage=JSONStorage, encoding='utf-8')
+        storage_data = db.storage.read()
+        topic = storage_data.get("topic", suite_file_name)
+        table = db.table('questions')
+        questions_list = table.all()
     except Exception as e:
-        error_msg = f"Error loading suite file 'suites/{suite_file_name}.json'"
+        error_msg = f"Error loading TinyDB suite file '{suites_path}/{suite_file_name}.json'"
         logger.error("%s: %s", error_msg, e)
         emit_data_to_test = {'error_msg': error_msg}
         logger.info("emit to '/test_question' namespace 'popup_error_msg' event with data %s", emit_data_to_test)
         socketio.emit('popup_error_msg', emit_data_to_test, namespace='/test_question')
         return
+    
     from question import Question
-    nb_questions = len(json_data["questions"])
+    nb_questions = len(questions_list)
     if question_nbr < -nb_questions or question_nbr > nb_questions or question_nbr == 0:
-        error_msg = f"Question number '{question_nbr}' is out of range (1-{len(json_data['questions'])}) in suite file '{suite_file_name}.json'"
+        error_msg = f"Question number '{question_nbr}' is out of range (1-{nb_questions}) in suite file '{suite_file_name}.json'"
         logger.error("%s", error_msg)
         emit_data_to_test = {'error_msg': error_msg}
         logger.info("emit to '/test_question' namespace 'popup_error_msg' event with data %s", emit_data_to_test)
         socketio.emit('popup_error_msg', emit_data_to_test, namespace='/test_question')
         return
-    question_index = question_nbr -1 if question_nbr > 0 else nb_questions + question_nbr
-    question = Question(json_data["questions"][question_index], json_data["topic"])
-    topic = f"({question_index+1}/{nb_questions}) : {question.topic}"
+    question_index = question_nbr - 1 if question_nbr > 0 else nb_questions + question_nbr
+    question = Question(questions_list[question_index], topic)
+    topic_str = f"({question_index+1}/{nb_questions}) : {question.topic}"
     sound, media_type, media = get_medias(question.waiting_answer_media)
     emit_data_to_test = {
         'action': "display_answer_question",
         'b1': "ROUGE", 'b2': question.wrong_answers[0], 'b3': question.wrong_answers[1], 'b4': question.wrong_answers[2], 'b5': question.good_answer,
-        'topic': topic, 'question': question.question,
+        'topic': topic_str, 'question': question.question,
         'sound': sound, 'media_type': media_type, 'media': media,
         'timeout': question.waiting_answer_timeout,
         'start_time': question.waiting_answer_start_time
@@ -779,7 +737,6 @@ def test_display_answer_question(data):
     logger.info("emit to '/test_question' namespace 'display_answer_question' event with data %s", emit_data_to_test)
     socketio.emit('display_answer_question', emit_data_to_test, namespace='/test_question')
     socketio.sleep(question.waiting_answer_timeout)
-    # buzz_clear_timeout = countdown_thread(question.waiting_answer_timeout)
     
     emit_data_to_test = { 'action': "end_game", 'leader': "leader"}
     logger.info("emit to '/test_question' namespace 'end_game' event with data %s", emit_data_to_test)
@@ -810,7 +767,6 @@ def display_answer(game, answers, good_answer_question_index, buttons, good_answ
             game.increase_timeout(player_name)
             players_that_not_play += f"{player_name} "
 
-        # game.set_round_not_played(player_name)
     if players_that_not_play != "":
         emit_data_to_test = {
             'name': players_that_not_play, 'time': 0,
@@ -848,8 +804,6 @@ def display_answer(game, answers, good_answer_question_index, buttons, good_answ
     logger.info("emit to '/test' namespace 'display_answer' event with data %s", emit_data_to_test)
     socketio.emit('display_answer', emit_data_to_test, namespace='/test')
     socketio.sleep(question.answer_timeout)
-    # logger.info("\nemit enabled_next_question to test\n")
-    # socketio.emit('enabled_next_question', {'action': "enabled_next_question"}, namespace='/test')
     logger.info("emit to '/buz' namespace 'deactiv_buttons' event")
     socketio.emit('my_response', {'action': "deactiv_buttons"}, namespace='/buz')
 
@@ -875,37 +829,42 @@ def test_display_answer(data):
     suite_file_name = data["suite_file_name"]
     question_nbr = int(data["question_nbr"])
     try:
-        json_data = json.load(open(f"suites/{suite_file_name}.json", encoding='utf-8'))
+        db = TinyDB(os.path.join(suites_path, f"{suite_file_name}.json"), storage=JSONStorage, encoding='utf-8')
+        storage_data = db.storage.read()
+        topic = storage_data.get("topic", suite_file_name)
+        table = db.table('questions')
+        questions_list = table.all()
     except Exception as e:
-        error_msg = f"Error loading suite file 'suites/{suite_file_name}.json'"
+        error_msg = f"Error loading TinyDB suite file '{suites_path}/{suite_file_name}.json'"
         logger.error("%s: %s", error_msg, e)
         emit_data_to_test = {'error_msg': error_msg}
         logger.info("emit to '/test_question' namespace 'popup_error_msg' event with data %s", emit_data_to_test)
         socketio.emit('popup_error_msg', emit_data_to_test, namespace='/test_question')
         return
+    
     from question import Question
-    nb_questions = len(json_data["questions"])
+    nb_questions = len(questions_list)
     if question_nbr < -nb_questions or question_nbr > nb_questions or question_nbr == 0:
-        error_msg = f"Question number '{question_nbr}' is out of range (1-{len(json_data['questions'])}) in suite file '{suite_file_name}.json'"
+        error_msg = f"Question number '{question_nbr}' is out of range (1-{nb_questions}) in suite file '{suite_file_name}.json'"
         logger.error("%s", error_msg)
         emit_data_to_test = {'error_msg': error_msg}
         logger.info("emit to '/test_question' namespace 'popup_error_msg' event with data %s", emit_data_to_test)
         socketio.emit('popup_error_msg', emit_data_to_test, namespace='/test_question')
         return
-    question_index = question_nbr -1 if question_nbr > 0 else nb_questions + question_nbr
-    question = Question(json_data["questions"][question_index], json_data["topic"])
+    question_index = question_nbr - 1 if question_nbr > 0 else nb_questions + question_nbr
+    question = Question(questions_list[question_index], topic)
     game.question = question
     game.increase_timeout("player2")
     ranking = game.set_ranking()
     emit_data_to_test = {'leaderboard_update': ranking}
     logger.info("emit to '/test_question' namespace 'update_players' event with data %s", emit_data_to_test)
     socketio.emit('update_players', emit_data_to_test, namespace='/test_question')
-    topic = f"({question_index+1}/{nb_questions}) : {question.topic}"
+    topic_str = f"({question_index+1}/{nb_questions}) : {question.topic}"
     sound, media_type, media = get_medias(question.answer_media)
     emit_data_to_test = {
         'action': "display_answer",
         'b1': "ROUGE", 'b2': question.wrong_answers[0], 'b3': question.wrong_answers[1], 'b4': question.wrong_answers[2], 'b5': question.good_answer,
-        'topic': topic, 'question': question.question, 'answer': 'bouton5',
+        'topic': topic_str, 'question': question.question, 'answer': 'bouton5',
         'sound': sound, 'media_type': media_type, 'media': media,
         'timeout': question.answer_timeout, 'start_time': question.answer_start_time}
     logger.info("emit to '/test_question' namespace 'display_answer' event with data %s", emit_data_to_test)
@@ -985,7 +944,6 @@ def add_player(message):
     if res == "ADDED":
         ranking = game.set_ranking()
         emit_data_to_test = {'name': message['name'], 'number': len(game.players), 'leaderboard_update': ranking}
-        # emit_data_to_test = {'name': message['name']}
         logger.info("emit to '/test' namespace 'add_player' event with data %s", emit_data_to_test)
         socketio.emit('add_player', emit_data_to_test, namespace='/test')
 
@@ -1003,7 +961,6 @@ def add_buzz_player(message):
     if res == "ADDED":
         ranking = game.set_ranking()
         emit_data_to_test = {'name': message['name'], 'number': len(game.players), 'leaderboard_update': ranking}
-        # emit_data_to_test = {'name': message['name']}
         logger.info("emit to '/test' namespace 'add_player' event with data %s", emit_data_to_test)
         socketio.emit('add_player', emit_data_to_test, namespace='/test')
 
@@ -1069,7 +1026,6 @@ def bouton_click_event(message):
             game.increase_timeout(message['name'])
     if game.state == GameState.CHOOSE_TOPIC:
         player_name = message['name']
-        # play_time = message['time']
         answer_button = message['data']
         if not game.is_round_played_by_player(player_name):
             try:
@@ -1107,7 +1063,7 @@ def gamepad_press_button_event(message):
     button_idx = message["button_index"]
     button_name = "bouton0"
     buzzer_number = 0
-    if button_idx in [0, 5, 10, 15]: # red
+    if button_idx in [0, 5, 10, 15]:
         button_name = "bouton1"
         buzzer_number = button_idx // 5 + 1
         if game_state != GameState.WAITING_PLAYERS:
@@ -1123,13 +1079,13 @@ def gamepad_press_button_event(message):
     else:
         if buzzer_number == 0:
             return
-    if button_idx in [4, 9, 14, 19]: # Blue
+    if button_idx in [4, 9, 14, 19]:
         button_name = "bouton2"
-    elif button_idx in [3, 8, 13, 18]: # Orange
+    elif button_idx in [3, 8, 13, 18]:
         button_name = "bouton3"
-    elif button_idx in [2, 7, 12, 17]: # green
+    elif button_idx in [2, 7, 12, 17]:
         button_name = "bouton4"
-    elif button_idx in [1, 6, 11, 16]: # yellow
+    elif button_idx in [1, 6, 11, 16]:
         button_name = "bouton5"
     else:
         if button_name == "bouton0":
@@ -1176,7 +1132,6 @@ def gamepad_press_button_event(message):
             game.increase_timeout(buzzer_player_name)
     if game.state == GameState.CHOOSE_TOPIC:
         player_name = buzzer_player_name
-        # play_time = message['time']
         answer_button = button_name
         if not game.is_round_played_by_player(player_name):
             try:
@@ -1203,7 +1158,6 @@ def gamepad_press_button_event(message):
 @socketio.on('gamepad_press', namespace='/test')
 def gamepad_press_event(message):
     gamepad_id = message["gamepad_id"]
-    # logger.debug("gamepad ID is:%s", gamepad_id)
     if gamepad_id != "Buzz (Vendor: 054c Product: 1000)" and gamepad_id != "Namtai Buzz (Vendor: 054c Product: 1000)":
         return
     button_index = message["button_index"]
@@ -1225,18 +1179,15 @@ def gamepad_press_event(message):
         socketio.emit('add_buzz_player', emit_data_to_test, namespace='/test')
 
 if __name__ == '__main__':
-    # Initialize parser
     description = "Web Quiz"
     parser = argparse.ArgumentParser(description=description)
     parser.add_argument("-s", "--suites", help = "Set Suites path")
-    # Read arguments from command line
     args = parser.parse_args()
-    suites_path = "suites"
+    suites_path = "db_quizz_suites"
     if args.suites:
         suites_path = args.suites
     hostname = socket.gethostname()
     logger.info("hostname is %s", hostname)
-    # host_ip = socket.gethostbyname(hostname)
     host_ip = get_local_ip()
     logger.info("host_ip is %s", host_ip)
     qr = qrcode.make(f"http://{host_ip}:5000/web_quizz_login")
@@ -1244,5 +1195,3 @@ if __name__ == '__main__':
     logger.info('launch http://%s:5000/web_quizz', hostname)
     logger.info('launch http://%s:5000/web_quizz_login', hostname)
     socketio.run(app, host="0.0.0.0", port=5000, debug=True)
-    # socketio.run(app, host=hostname, port=5000, debug=True)
-    # socketio.run(app, host="127.0.0.1", port=5000, debug=True)

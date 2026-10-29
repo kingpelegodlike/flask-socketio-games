@@ -134,15 +134,15 @@
         "6": {
             "question": "De quel Anime vient ce générique ?",
             "question_timeout": 5,
-            "waiting_answer_timeout": 90,
-            "waiting_answer_start_time": 0.0,
-            "answer_timeout": 3,
+            "waiting_answer_timeout": 30,
+            "waiting_answer_start_time": 52.0,
+            "answer_timeout": 5,
             "question_media": [
                 "/static/sounds/countdown.mp3",
                 "/static/images/animes/quizz_animes_annees_2000.jpg"
             ],
             "waiting_answer_media": [
-                "JXTNhHfcHpU.yt",
+                "y1s0-X9O2ho.yt",
                 "/static/images/animes/quizz_animes_annees_2000.jpg"
             ],
             "answer_media": [
@@ -184,15 +184,16 @@
         "8": {
             "question": "De quel Anime vient ce générique ?",
             "question_timeout": 5,
-            "waiting_answer_timeout": 90,
+            "waiting_answer_timeout": 30,
             "waiting_answer_start_time": 0.0,
-            "answer_timeout": 3,
+            "answer_timeout": 5,
             "question_media": [
                 "/static/sounds/countdown.mp3",
                 "/static/images/animes/quizz_animes_annees_2000.jpg"
             ],
+            "waiting_answer_title": "Naruto Shippuuden Opening 2 Distance",
             "waiting_answer_media": [
-                "mFLZ-I2r3Mc.yt",
+                "r6EPMvIhtyA.yt",
                 "/static/images/animes/quizz_animes_annees_2000.jpg"
             ],
             "answer_media": [
@@ -234,15 +235,16 @@
         "10": {
             "question": "De quel Anime vient ce générique ?",
             "question_timeout": 5,
-            "waiting_answer_timeout": 86,
-            "waiting_answer_start_time": 0.0,
-            "answer_timeout": 3,
+            "waiting_answer_timeout": 30,
+            "waiting_answer_start_time": 60.0,
+            "answer_timeout": 5,
             "question_media": [
                 "/static/sounds/countdown.mp3",
                 "/static/images/animes/quizz_animes_annees_2000.jpg"
             ],
+            "waiting_answer_title": "Fullmetal Alchemist: Brotherhood Opening 1 Again",
             "waiting_answer_media": [
-                "elyXcwunIYA.yt",
+                "XCsppc963NI.yt",
                 "/static/images/animes/quizz_animes_annees_2000.jpg"
             ],
             "answer_media": [
@@ -259,13 +261,14 @@
         "11": {
             "question": "De quel Anime vient ce générique ?",
             "question_timeout": 5,
-            "waiting_answer_timeout": 90,
-            "waiting_answer_start_time": 0.0,
-            "answer_timeout": 3,
+            "waiting_answer_timeout": 30,
+            "waiting_answer_start_time": 22.0,
+            "answer_timeout": 5,
             "question_media": [
                 "/static/sounds/countdown.mp3",
                 "/static/images/animes/quizz_animes_annees_2000.jpg"
             ],
+            "waiting_answer_title": "One Piece Opening 1 We Are",
             "waiting_answer_media": [
                 "_YNtUuuBL78.yt",
                 "/static/images/animes/quizz_animes_annees_2000.jpg"
