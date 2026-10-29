@@ -365,6 +365,30 @@
                 "Bob Razowski"
             ],
             "good_answer": "Buzz l'Éclair"
+        },
+        "16": {
+            "question": "Quel est ce personnage de Disney ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/disney/donald.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/disney/donald.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/disney/donald.jpg"
+            ],
+            "wrong_answers": [
+                "Goofy",
+                "Gontran Bonheur",
+                "Picsou"
+            ],
+            "good_answer": "Donald Duck"
         }
     }
 }

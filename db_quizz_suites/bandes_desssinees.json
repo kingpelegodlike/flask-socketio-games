@@ -1,0 +1,58 @@
+{
+    "topic": "Qui est caché dans la pub iPod ?",
+    "categories": [
+        "All"
+    ],
+    "generation_min": "Adults",
+    "generation_max": "Elders",
+    "questions": {
+        "1": {
+            "question": "Quel est le nom de ce chat avec beaucoup d'esprit ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/le_chat.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/le_chat.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/bandes_dessinees/le_chat.jpg"
+            ],
+            "wrong_answers": [
+                "Gros Minet",
+                "Garfield",
+                "Felix le Chat"
+            ],
+            "good_answer": "Le Chat"
+        },
+        "2": {
+            "question": "Quel est le nom de cette bestiole ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/marsupilami_hidden.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/marsupilami_hidden.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/bandes_dessinees/marsupilami_hidden.jpg"
+            ],
+            "wrong_answers": [
+                "Taz",
+                "Felix le Chat",
+                "Snoopy"
+            ],
+            "good_answer": "Marsupilami"
+        }
+    }
+}

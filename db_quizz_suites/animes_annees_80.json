@@ -1661,6 +1661,30 @@
                 "Suzette"
             ],
             "good_answer": "Blanchette"
+        },
+		"70": {
+            "question": "Quel est le nom de ce grand méca ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/pub_ipod/goldorak_hidden.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/pub_ipod/goldorak_hidden.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/pub_ipod/goldorak_hidden.jpg"
+            ],
+            "wrong_answers": [
+                "Gundam",
+                "Mazinger Z",
+                "Megazord"
+            ],
+            "good_answer": "Goldorak"
         }
     }
 }

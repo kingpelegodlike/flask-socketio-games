@@ -989,6 +989,30 @@
                 "Costume noir"
             ],
             "good_answer": "Cravate rouge"
+        },
+        "42": {
+            "question": "Qui est ce personnage ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/video_games/lara_croft_hidden.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/video_games/lara_croft_hidden.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/video_games/lara_croft_hidden.jpg"
+            ],
+            "wrong_answers": [
+                "Laura Matsuda",
+                "Bayonetta",
+                "Aloy"
+            ],
+            "good_answer": "Lara Croft"
         }
     }
 }
