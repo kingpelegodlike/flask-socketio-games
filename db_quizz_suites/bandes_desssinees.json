@@ -1,5 +1,5 @@
 {
-    "topic": "Qui est caché dans la pub iPod ?",
+    "topic": "BANDES DESSINEES",
     "categories": [
         "All"
     ],
@@ -53,6 +53,366 @@
                 "Snoopy"
             ],
             "good_answer": "Marsupilami"
+        },
+        "3": {
+            "question": "Quel est le nom de ce célèbre reporter à la houpette ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/tintin/tintin.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/tintin/tintin.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/dessins_animes/tintin/tintin.jpg"
+            ],
+            "wrong_answers": [
+                "Spirou",
+                "Fantasio",
+                "Jo"
+            ],
+            "good_answer": "Tintin"
+        },
+        "4": {
+            "question": "Comment s'appelle cet irréductible Gaulois moustachu ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/asterix/asterix_portrait.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/asterix/asterix_portrait.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/dessins_animes/asterix/asterix_portrait.jpg"
+            ],
+            "wrong_answers": [
+                "Obélix",
+                "Abraracourcix",
+                "Assurancetourix"
+            ],
+            "good_answer": "Astérix"
+        },
+        "5": {
+            "question": "Quel est le nom de ce groom belge et de son écureuil ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/spirou.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/spirou.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/bandes_dessinees/spirou.jpg"
+            ],
+            "wrong_answers": [
+                "Fantasio",
+                "Largo Winch",
+                "Boule"
+            ],
+            "good_answer": "Spirou"
+        },
+        "6": {
+            "question": "Quel cow-boy tire plus vite que son ombre ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/lucky_luke/lucky_luke_nameless.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/lucky_luke/lucky_luke_nameless.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/dessins_animes/lucky_luke/lucky_luke.jpg"
+            ],
+            "wrong_answers": [
+                "Calamity Jane",
+                "Billy the Kid",
+                "Jeb Stuart"
+            ],
+            "good_answer": "Lucky Luke"
+        },
+        "7": {
+            "question": "Quel est le nom de cet employé de bureau gaffeur ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/gaston_lagaffe.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/gaston_lagaffe.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/bandes_dessinees/gaston_lagaffe.jpg"
+            ],
+            "wrong_answers": [
+                "Fantasio",
+                "Le Prunelle",
+                "Monsieur De Mesmaeker"
+            ],
+            "good_answer": "Gaston Lagaffe"
+        },
+        "8": {
+            "question": "Comment s'appelle ce garçon rebelle aux cheveux dressés sur la tête ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/titeuf/titeuf.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/dessins_animes/titeuf/titeuf.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/dessins_animes/titeuf/titeuf.jpg"
+            ],
+            "wrong_answers": [
+                "Cédric",
+                "Kévin",
+                "Boule"
+            ],
+            "good_answer": "Titeuf"
+        },
+        "9": {
+            "question": "Quel duo d'enquêteurs britanniques affronte régulièrement le colonel Olrik ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/blake_et_mortimer.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/blake_et_mortimer.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/bandes_dessinees/blake_et_mortimer.jpg"
+            ],
+            "wrong_answers": [
+                "Gil Jourdan et Libellule",
+                "Tif et Tondu",
+                "Ric Hochet et Bourdon"
+            ],
+            "good_answer": "Blake et Mortimer"
+        },
+        "10": {
+            "question": "Quel est le nom de ce garçon roux, passionné de jeux vidéo ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "wrong_answers": [
+                "Krilin",
+                "Ariol",
+                "Titeuf"
+            ],
+            "good_answer": "Kid Paddle"
+        },
+        "11": {
+            "question": "Quel BD évoque la vie quotidienne d'un petit âne bleu ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "wrong_answers": [
+                "Bouriquet",
+                "TroTro",
+                "Totoro"
+            ],
+            "good_answer": "Ariol"
+        },
+        "12": {
+            "question": "Quel jeune Indien sioux a le pouvoir de parler avec les animaux ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "wrong_answers": [
+                "Apache",
+                "Jeronimo",
+                "Joe"
+            ],
+            "good_answer": "Yakari"
+        },
+        "13": {
+            "question": "Quelle petite fille engagée s'inquiète pour la paix dans le monde ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "wrong_answers": [
+                "Monica",
+                "Anita",
+                "Lucy"
+            ],
+            "good_answer": "Mafalda"
+        },
+        "14": {
+            "question": "Quel inventeur teste ses inventions farfelues sur son disciple ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "wrong_answers": [
+                "Gaston Lagaffe",
+                "Professeur Tournesol",
+                "Le Marsupilami"
+            ],
+            "good_answer": "Léonard le Génie"
+        },
+        "15": {
+            "question": "Quel chat connu pour son amour des lasagnes et sa détestation des lundis ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "wrong_answers": [
+                "Sylvestre",
+                "Tom",
+                "Félix"
+            ],
+            "good_answer": "Garfield"
+        },
+        "16": {
+            "question": "Quel BD raconte les aventures d'un petit garçon roux et de son cocker anglais ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "wrong_answers": [
+                "Tintin et Milou",
+                "Lucky Luke",
+                "Spirou et Fantasio"
+            ],
+            "good_answer": "Boule et Bill"
+        },
+        "17": {
+            "question": "Quel peuple de petites créatures bleues vit dans un village de champignons ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 5,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/bandes_dessinees/quizz_bd.jpg"
+            ],
+            "wrong_answers": [
+                "Les Minions",
+                "Les Snorky",
+                "Les Trolls"
+            ],
+            "good_answer": "Les Schtroumpfs"
         }
     }
 }

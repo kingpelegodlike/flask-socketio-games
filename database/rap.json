@@ -1793,6 +1793,34 @@
             "reponse": "Tayc / Reanyme / Anyme",
             "masked_id": "",
             "start_time": "0"
+        },
+        "134": {
+            "id": "aGa2LgO284I",
+            "artists": "Triangle Des Bermudes; MC YOSHI; Kokosvoice; Mauvais djo",
+            "title": "Lunettes",
+            "album": "Triangle Des Bermudes 2.0",
+            "year": "2024",
+            "genders": "Rap; Afrobeat",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Triangle Des Bermudes / MC YOSHI / Kokosvoice / Mauvais djo / Lunettes",
+            "masked_id": "",
+            "start_time": "20"
+        },
+        "135": {
+            "id": "u8FhBTkKQvA",
+            "artists": "Triangle Des Bermudes; MC YOSHI; Kokosvoice; Mauvais djo",
+            "title": "Charger",
+            "album": "Franchement",
+            "year": "2025",
+            "genders": "Rap; Afrobeat",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Triangle Des Bermudes / MC YOSHI / Kokosvoice / Mauvais Djo / Charger",
+            "masked_id": "",
+            "start_time": "30"
         }
     }
 }
