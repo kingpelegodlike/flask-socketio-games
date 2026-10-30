@@ -1821,6 +1821,34 @@
             "reponse": "Triangle Des Bermudes / MC YOSHI / Kokosvoice / Mauvais Djo / Charger",
             "masked_id": "",
             "start_time": "30"
+        },
+        "136": {
+            "id": "AWJHNDODLsc",
+            "artists": "Big Sean",
+            "title": "Precision",
+            "album": "Better Me Than You",
+            "year": "2024",
+            "genders": "Rap; Drill",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Big Sean / Precision",
+            "masked_id": "",
+            "start_time": "10"
+        },
+        "137": {
+            "id": "T6eK-2OQtew",
+            "artists": "Kendrick Lamar",
+            "title": "Not Like Us",
+            "album": "",
+            "year": "2024",
+            "genders": "Rap",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Kendrick Lamar / Not Like Us",
+            "masked_id": "",
+            "start_time": "0"
         }
     }
 }

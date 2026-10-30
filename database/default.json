@@ -25027,6 +25027,62 @@
             "reponse": "Triangle Des Bermudes / MC YOSHI / Kokosvoice / Mauvais Djo / Charger",
             "masked_id": "",
             "start_time": "30"
+        },
+        "1871": {
+            "id": "bRaO6JpcY1M",
+            "artists": "GloRilla",
+            "title": "Typa",
+            "album": "",
+            "year": "2025",
+            "genders": "Rap; Drill",
+            "sampled_by": "",
+            "sample_from": "Keyshia Cole - Love",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "GloRilla / Typa / Keyshia Cole",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "1872": {
+            "id": "ETpU0obvKrY",
+            "artists": "Keyshia Cole",
+            "title": "Love",
+            "album": "The Way It Is",
+            "year": "2005",
+            "genders": "RnB",
+            "sampled_by": "GloRilla - Typa",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Keyshia Cole / Love / GloRilla",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "1873": {
+            "id": "AWJHNDODLsc",
+            "artists": "Big Sean",
+            "title": "Precision",
+            "album": "Better Me Than You",
+            "year": "2024",
+            "genders": "Rap; Drill",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Big Sean / Precision",
+            "masked_id": "",
+            "start_time": "10"
+        },
+        "1874": {
+            "id": "T6eK-2OQtew",
+            "artists": "Kendrick Lamar",
+            "title": "Not Like Us",
+            "album": "",
+            "year": "2024",
+            "genders": "Rap",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Kendrick Lamar / Not Like Us",
+            "masked_id": "",
+            "start_time": "0"
         }
     }
 }
