@@ -32,7 +32,7 @@
             "good_answer": "140"
         },
         "2": {
-            "question": "Quel groupe scandinave a écrit une chanson thème, qui n’a finalement pas servi à un film de James Bond ?",
+            "question": "Quel groupe scandinave a écrit une chanson thème, qui n'a finalement pas servi à un film de James Bond ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -104,7 +104,7 @@
             "good_answer": "Brigitte Bardot"
         },
         "5": {
-            "question": "Quel est le générique d’ouverture de la saga James Bond où il n’y a que des hommes ?",
+            "question": "Quel est le générique d'ouverture de la saga James Bond avec uniquement des hommes ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -193,11 +193,11 @@
                 "/static/images/cinema/james_bond/james_bond.jpg"
             ],
             "wrong_answers": [
-                "En chauffeur de taxi dans 'Casino Royale'",
-                "En cithariste dans 'Octopussy'",
-                "En joueur de cornemuse dans 'Au service secret de Sa Majesté'"
+                "Chauffeur de taxi",
+                "Cithariste",
+                "Joueur de cornemuse"
             ],
-            "good_answer": "En chef d’orchestre dans 'Tuer n’est pas jouer'"
+            "good_answer": "Chef d'orchestre"
         },
         "9": {
             "question": "Quel homme célèbre a utilisé le pistolet Walther PPK de James Bond ?",
@@ -241,14 +241,14 @@
                 "/static/images/cinema/james_bond/rien_que_pour_vos_yeux.jpg"
             ],
             "wrong_answers": [
-                "Clyde Barrow, pour ses braquages",
-                "Lee Oswald, pour assassiner Kennedy",
-                "Lucky Luke, pour tirer plus vite que son ombre"
+                "Opération Tonnerre",
+                "Moonraker",
+                "Tuer n'est pas jouer"
             ],
             "good_answer": "Rien que pour vos yeux"
         },
         "11": {
-            "question": "Dans combien de films apparaît l’agent 002 ?",
+            "question": "Dans combien de films apparaît l'agent 002 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,

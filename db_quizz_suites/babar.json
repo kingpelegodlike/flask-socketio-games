@@ -45,7 +45,7 @@
             ],
             "answer_media": [
                 "/static/sounds/timeout.mp3",
-                "/static/images/dessins_animes/babar/celesteville.jpg"
+                "/static/images/dessins_animes/babar/babar.jpg"
             ],
             "wrong_answers": [
                 "Babarland",

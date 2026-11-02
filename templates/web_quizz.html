@@ -8,6 +8,24 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/jquery.countdown.css') }}">
     <link rel="stylesheet" href="{{ url_for('static',filename='dist/themes/default/style.min.css') }}" />
+    <style>
+        .answers_label.topic-selected {
+            animation: selected-topic-blink 1s ease-in-out 5;
+            font-weight: bold;
+            box-shadow: 0 0 18px rgba(0, 0, 0, 0.4);
+        }
+        .answers_label.topic-unselected {
+            opacity: 0.25;
+        }
+        .answers_label.answer-correct {
+            animation: selected-topic-blink 1s ease-in-out infinite;
+            font-weight: bold;
+        }
+        @keyframes selected-topic-blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+    </style>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script> -->
 </head>
 <body>
@@ -218,6 +236,11 @@
             var question_audio_src = document.getElementById('question_audio_src');
             var question_video = document.getElementById('question_video');
             var question_video_src = document.getElementById('question_video_src');
+            var topicSelectionTimer;
+            function clearTopicSelection() {
+                clearTimeout(topicSelectionTimer);
+                $('.answers_label').removeClass('topic-selected topic-unselected answer-correct');
+            }
             document.cookie = "question_audio_current_time=0";
             question_video.addEventListener("ended", function(){
                 console.log('video completed');
@@ -366,6 +389,7 @@
             socket.on('add_players_console', function(msg) {
                 var players_console = document.getElementById("players_console");
                 if (msg.time == "0") {
+                    clearTopicSelection();
                     console.log("receveive add_players_console with comment:" + msg.comment + " media_type:(" + msg.media_type + ") media:(" + msg.media + ") and players:" + msg.players);
                     showPlayerBoutonsForm()
                     hideAllDelPlayerButtons()
@@ -432,6 +456,14 @@
             });
             
             socket.on('display_topic', function(msg) {
+                clearTopicSelection();
+                document.getElementById('topic').textContent = msg.answer ? 'Sujet : ' + msg.topic : 'Choix du sujet';
+                if (msg.answer) {
+                    $('.answers_label').addClass('topic-unselected');
+                    $('#reponse' + (Number(msg.answer.replace('bouton', '')) - 1))
+                        .removeClass('topic-unselected').addClass('topic-selected');
+                    topicSelectionTimer = setTimeout(clearTopicSelection, msg.timeout * 1000);
+                }
                 document.getElementById("players_console").innerHTML = "";
                 console.log("receveive " + msg.action + " " + msg.question + " sound:(" + msg.sound + ") media_type:(" + msg.media_type + ") media:(" + msg.media + ")");
                 console.log("with blue button 2:" + msg.b2 + " orange button 3:" + msg.b3 + " green button 4:" + msg.b4 + " yellow button 5:" + msg.b5);
@@ -514,6 +546,7 @@
             });
             
             socket.on('display_question', function(msg) {
+                clearTopicSelection();
                 console.log("receveive " + msg.action + " with topic:" + msg.topic + " question:" + msg.question + " sound:(" + msg.sound + ") media_type:(" + msg.media_type + ") media:(" + msg.media + ") timeout:(" + msg.timeout + ")");
                 hideMenuBoutonsForm()
                 hidePlayerBoutonsForm()
@@ -687,6 +720,12 @@
             });
             
             socket.on('display_answer', function(msg) {
+                clearTopicSelection();
+                if (/^bouton[2-5]$/.test(msg.answer)) {
+                    $('#reponse' + (Number(msg.answer.replace('bouton', '')) - 1))
+                        .addClass('answer-correct');
+                    topicSelectionTimer = setTimeout(clearTopicSelection, msg.timeout * 1000);
+                }
                 console.log("receveive " + msg.action + " " + msg.question + " sound:(" + msg.sound + ") media_type:(" + msg.media_type + ") media:(" + msg.media + ") timeout:(" + msg.timeout + ")");
                 console.log("with blue button 2:" + msg.b2 + " orange button 3:" + msg.b3 + " green button 4:" + msg.b4 + " yellow button 5:" + msg.b5);
                 console.log("The answer button is " + msg.answer);

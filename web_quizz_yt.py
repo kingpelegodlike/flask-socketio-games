@@ -245,6 +245,20 @@ def set_questions(data):
     game.set_max_questions_number(question_nbr)
 
 
+def load_suite_metadata(filename):
+    """Read suite metadata, skipping empty, malformed or unreadable files."""
+    try:
+        with TinyDB(filename, storage=JSONStorage, encoding='utf-8') as db:
+            storage_data = db.storage.read()
+    except (OSError, ValueError, UnicodeError) as error:
+        logger.warning("Skip unreadable suite file '%s': %s", filename, error)
+        return None
+    if not isinstance(storage_data, dict) or not storage_data:
+        logger.warning("Skip empty or invalid suite file '%s'", filename)
+        return None
+    return storage_data
+
+
 @socketio.on('quiz_set', namespace='/test')
 def quiz_set(data):
     global game
@@ -270,9 +284,10 @@ def quiz_set(data):
                 basename = os.path.basename(filename)
                 suitename = os.path.splitext(basename)[0]
                 
-                db = TinyDB(filename, storage=JSONStorage, encoding='utf-8')
-                storage_data = db.storage.read()
-                
+                storage_data = load_suite_metadata(filename)
+                if storage_data is None:
+                    continue
+
                 categories = storage_data.get("categories", ["All"])
                 suite_generation_min = GENERATION_TO_YEAR.get(storage_data.get("generation_min", "Youngers"))
                 suite_generation_max = GENERATION_TO_YEAR.get(storage_data.get("generation_max", "Elders"))
@@ -386,8 +401,9 @@ def launch_quiz(data):
                 basename = os.path.basename(filename)
                 suitename = os.path.splitext(basename)[0]
                 
-                db = TinyDB(filename, storage=JSONStorage, encoding='utf-8')
-                storage_data = db.storage.read()
+                storage_data = load_suite_metadata(filename)
+                if storage_data is None:
+                    continue
                 categories = storage_data.get("categories", ["All"])
                 suite_generation_min = GENERATION_TO_YEAR.get(storage_data.get("generation_min", "Youngers"))
                 suite_generation_max = GENERATION_TO_YEAR.get(storage_data.get("generation_max", "Elders"))
@@ -536,6 +552,18 @@ def display_suite_selection(game):
     print("Choose color {}".format(colors[color_index_choosed]))
     suite_choosen = suites_list[color_index_choosed]["name"]
     print("\nSUITE CHOOSEN is {}\n".format(suite_choosen))
+    game.set_state(GameState.QUESTIONS_SELECTION)
+    emit_data_to_test = {
+        'action': "display_topic",
+        'b2': topic1, 'b3': topic2, 'b4': topic3, 'b5': topic4,
+        'topic': suites_list[color_index_choosed]["topic"],
+        'question': "SUJET SELECTIONNE",
+        'answer': f"bouton{color_index_choosed + 2}",
+        'sound': '', 'media_type': media_type, 'media': media,
+        'timeout': 5
+    }
+    logger.info("emit selected topic to '/test' namespace with data %s", emit_data_to_test)
+    socketio.emit('display_topic', emit_data_to_test, namespace='/test')
     del[suites_list[color_index_choosed]]
     suites_list.append(suites_list.pop(0))
     suites_list.append(suites_list.pop(0))
@@ -543,6 +571,7 @@ def display_suite_selection(game):
     emit_data_to_buz = {'action': "clear_timeout", 'b1': suite_choosen, "b2": "", "b3": "", "b4": "", "b5": ""}
     logger.info("to remove perhaps '/buz' namespace 'my_response' event with data %s", emit_data_to_buz)
     socketio.emit('my_response', emit_data_to_buz, namespace='/buz')
+    socketio.sleep(5)
     return suite_choosen
 
 @socketio.on('display_question', namespace='/test')
