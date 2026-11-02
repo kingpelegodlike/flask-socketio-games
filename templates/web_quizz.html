@@ -9,6 +9,22 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/jquery.countdown.css') }}">
     <link rel="stylesheet" href="{{ url_for('static',filename='dist/themes/default/style.min.css') }}" />
     <style>
+        #game_div > div:first-child {
+            flex: 1.75 1 0;
+            min-width: 0;
+        }
+        #game_div > #leaderboard {
+            flex: 1 1 0;
+            min-width: 0;
+            max-width: none;
+            overflow-x: auto;
+        }
+        #game_div .answerbox,
+        #game_div .answers_label {
+            width: 100%;
+            box-sizing: border-box;
+            overflow-wrap: anywhere;
+        }
         .answers_label.topic-selected {
             animation: selected-topic-blink 1s ease-in-out 5;
             font-weight: bold;
