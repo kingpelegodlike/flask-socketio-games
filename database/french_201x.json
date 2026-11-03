@@ -11,7 +11,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Stromae",
             "masked_id": ""
         },
         "2": {
@@ -24,7 +24,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Papaoutai",
             "masked_id": ""
         },
         "3": {
@@ -37,7 +37,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Stromae",
             "masked_id": ""
         },
         "4": {
@@ -50,7 +50,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Tairo / Treesha",
             "masked_id": ""
         },
         "5": {
@@ -63,7 +63,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Tairo / Youssoupha",
             "masked_id": ""
         },
         "6": {
@@ -76,7 +76,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Tairo",
             "masked_id": ""
         },
         "7": {
@@ -89,7 +89,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Tairo",
             "masked_id": ""
         },
         "8": {
@@ -102,7 +102,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Tairo",
             "masked_id": ""
         },
         "9": {
@@ -115,7 +115,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Tal",
             "masked_id": ""
         },
         "10": {
@@ -128,7 +128,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Tal",
             "masked_id": ""
         },
         "11": {
@@ -141,7 +141,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Tal",
             "masked_id": ""
         },
         "12": {
@@ -154,7 +154,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Tal",
             "masked_id": ""
         },
         "13": {
@@ -167,7 +167,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Je vole",
             "masked_id": ""
         },
         "14": {
@@ -180,7 +180,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Louane",
             "masked_id": ""
         },
         "15": {
@@ -193,7 +193,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "M. Pokora",
             "masked_id": ""
         },
         "16": {
@@ -206,7 +206,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Zaz",
             "masked_id": ""
         },
         "17": {
@@ -219,7 +219,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "J'ecoute Du Miles Davis",
             "masked_id": ""
         },
         "18": {
@@ -232,7 +232,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Navii",
             "masked_id": ""
         },
         "19": {
@@ -245,7 +245,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Paname",
             "masked_id": ""
         },
         "20": {
@@ -258,7 +258,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Slimane / Annabelle",
             "masked_id": ""
         },
         "21": {
@@ -270,8 +270,8 @@
             "genders": "Rap; Chanson Francaise; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Dixon / En vue",
             "masked_id": ""
         },
         "22": {
@@ -284,7 +284,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Clara Luciani",
             "masked_id": ""
         },
         "23": {
@@ -297,7 +297,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Clara Luciani",
             "masked_id": ""
         },
         "24": {
@@ -310,7 +310,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Eddy de Pretto",
             "masked_id": ""
         },
         "25": {
@@ -323,7 +323,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Dadju",
             "masked_id": ""
         },
         "26": {
@@ -336,7 +336,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Matt Houston",
             "masked_id": ""
         },
         "27": {
@@ -349,7 +349,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Matt Houston",
             "masked_id": ""
         },
         "28": {
@@ -362,7 +362,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Soumia",
             "masked_id": ""
         },
         "29": {
@@ -375,7 +375,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Stromae",
             "masked_id": ""
         },
         "30": {
@@ -388,7 +388,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Stromae",
             "masked_id": ""
         },
         "31": {
@@ -401,7 +401,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kendji Girac",
             "masked_id": ""
         },
         "32": {
@@ -414,7 +414,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Hoshi",
             "masked_id": ""
         },
         "33": {
@@ -427,7 +427,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez tous les artistes de la chanson",
-            "reponse": "",
+            "reponse": "Vitaa / Claudio Capeo",
             "masked_id": ""
         },
         "34": {
@@ -440,7 +440,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez tous les artistes de la chanson",
-            "reponse": "",
+            "reponse": "Maitre Gims / Vianney",
             "masked_id": ""
         },
         "35": {
@@ -453,7 +453,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Brise",
             "masked_id": ""
         },
         "36": {
@@ -466,7 +466,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Stromae",
             "masked_id": ""
         },
         "37": {
@@ -479,7 +479,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Corneille",
             "masked_id": ""
         },
         "38": {
@@ -492,7 +492,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Jaloux",
             "masked_id": ""
         },
         "39": {
@@ -505,7 +505,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Dadju",
             "masked_id": ""
         },
         "40": {
@@ -518,7 +518,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Indila",
             "masked_id": ""
         },
         "41": {
@@ -531,7 +531,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Angele / Romeo Elvis",
             "masked_id": ""
         },
         "42": {
@@ -544,7 +544,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Le temps est bon",
             "masked_id": ""
         },
         "43": {
@@ -557,21 +557,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
-            "masked_id": "",
-            "start_time": "0"
-        },
-        "44": {
-            "id": "bEAOzOTm6bU",
-            "artists": "Jamiroquai",
-            "title": "White Knuckle Ride",
-            "album": "Rock Dust Light Star",
-            "year": "2010",
-            "genders": "Pop; Acid Jazz; Disco",
-            "sampled_by": "",
-            "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Baiser sale",
             "masked_id": "",
             "start_time": "0"
         }

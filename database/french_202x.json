@@ -11,7 +11,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jenifer",
             "masked_id": ""
         },
         "2": {
@@ -24,7 +24,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Angele",
             "masked_id": "",
             "start_time": "30"
         },
@@ -38,7 +38,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Slimane",
             "masked_id": ""
         },
         "4": {
@@ -51,7 +51,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Grand Corps Malade / Julie Berthollet / Camille Berthollet",
             "masked_id": ""
         },
         "5": {
@@ -64,7 +64,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Christophe Mae / Angelique Kidjo",
             "masked_id": ""
         },
         "6": {
@@ -77,7 +77,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Clara Luciani",
             "masked_id": ""
         },
         "7": {
@@ -90,7 +90,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Clara Luciani",
             "masked_id": ""
         },
         "8": {
@@ -103,7 +103,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Clara Luciani",
             "masked_id": ""
         },
         "9": {
@@ -116,7 +116,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Louane",
             "masked_id": ""
         },
         "10": {
@@ -129,7 +129,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Louane",
             "masked_id": ""
         },
         "11": {
@@ -142,7 +142,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Mylene Farmer",
             "masked_id": ""
         },
         "12": {
@@ -155,7 +155,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Vitaa",
             "masked_id": ""
         },
         "13": {
@@ -168,7 +168,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Disiz",
             "masked_id": ""
         },
         "14": {
@@ -181,7 +181,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Disiz",
             "masked_id": ""
         },
         "15": {
@@ -194,7 +194,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Christophe Willem",
             "masked_id": ""
         },
         "16": {
@@ -207,7 +207,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Camelia Jordana",
             "masked_id": ""
         },
         "17": {
@@ -220,7 +220,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Camelia Jordana",
             "masked_id": ""
         },
         "18": {
@@ -233,7 +233,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Camelia Jordana / Soolking",
             "masked_id": ""
         },
         "19": {
@@ -246,7 +246,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Stromae",
             "masked_id": ""
         },
         "20": {
@@ -259,7 +259,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Eva",
             "masked_id": ""
         },
         "21": {
@@ -272,7 +272,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Eva",
             "masked_id": ""
         },
         "22": {
@@ -284,8 +284,8 @@
             "genders": "Pop; Disco; Chanson Francaise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Juliette Armanet / Tu me Play",
             "masked_id": ""
         },
         "23": {
@@ -298,7 +298,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Yannick Noah",
             "masked_id": ""
         },
         "24": {
@@ -311,7 +311,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Amel Bent",
             "masked_id": ""
         },
         "25": {
@@ -323,8 +323,8 @@
             "genders": "Pop; Chanson Francaise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Ogee / La Favorite",
             "masked_id": ""
         },
         "26": {
@@ -337,7 +337,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Suzane / Grand Corps Malade",
             "masked_id": ""
         },
         "27": {

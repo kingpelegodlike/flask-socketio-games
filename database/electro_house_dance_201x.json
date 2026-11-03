@@ -11,7 +11,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Master KG / Nomcebo Zikode",
             "masked_id": ""
         },
         "2": {
@@ -24,7 +24,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Desi Boyz",
             "masked_id": ""
         },
         "3": {
@@ -37,7 +37,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Ae Dil Hai Mushkil",
             "masked_id": ""
         },
         "4": {
@@ -50,7 +50,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Race 2",
             "masked_id": ""
         },
         "5": {
@@ -63,7 +63,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Major Lazer / Ariana Grande / Machel Montano",
             "masked_id": ""
         },
         "6": {
@@ -76,7 +76,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Patrice",
             "masked_id": ""
         },
         "7": {
@@ -89,7 +89,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Major Lazer / J. Balvin / El Alfa",
             "masked_id": ""
         },
         "8": {
@@ -102,7 +102,7 @@
             "sampled_by": "",
             "sample_from": "Wamdue Project - King Of My Castle",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "King Of My Castle",
             "masked_id": ""
         },
         "9": {
@@ -115,7 +115,7 @@
             "sampled_by": "",
             "sample_from": "Stardust - Music Sounds Better With You",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Music Sounds Better with You",
             "masked_id": ""
         },
         "10": {
@@ -128,7 +128,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "LMFAO",
             "masked_id": ""
         },
         "11": {
@@ -141,7 +141,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "LMFAO / Natalia Kills",
             "masked_id": ""
         },
         "12": {
@@ -154,7 +154,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "LMFAO / Lauren Bennett / Goonrock",
             "masked_id": ""
         },
         "13": {
@@ -167,7 +167,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Avicii",
             "masked_id": ""
         },
         "14": {
@@ -180,7 +180,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Flo Rida",
             "masked_id": ""
         },
         "15": {
@@ -193,7 +193,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Bob Sinclar / Pitbull / Dragonfly / Fatman Scoop",
             "masked_id": ""
         },
         "16": {
@@ -205,8 +205,8 @@
             "genders": "Pop; Electro; Dance",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Maroon 5 / Christina Aguilera / Moves Like Jagger",
             "masked_id": ""
         },
         "17": {
@@ -219,7 +219,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Sound Of Legend",
             "masked_id": ""
         },
         "18": {
@@ -232,7 +232,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "LMFAO / Will.I.Am / GoonRock / Eva Simons",
             "masked_id": ""
         },
         "19": {
@@ -245,7 +245,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jax Jones / RAYE",
             "masked_id": ""
         },
         "20": {
@@ -258,7 +258,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jax Jones / Ina Wroldsen",
             "masked_id": ""
         },
         "21": {
@@ -271,7 +271,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "David Guetta / Ne-Yo / Akon",
             "masked_id": ""
         },
         "22": {
@@ -284,7 +284,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Remady / Manu-L",
             "masked_id": ""
         },
         "23": {
@@ -297,7 +297,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Pitbull / Ne-Yo / Afrojack / Nayer",
             "masked_id": ""
         },
         "24": {
@@ -310,7 +310,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Chris Brown / Benny Benassi",
             "masked_id": ""
         },
         "25": {
@@ -323,7 +323,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Chris Brown",
             "masked_id": ""
         },
         "26": {
@@ -336,7 +336,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Carlprit",
             "masked_id": ""
         },
         "27": {
@@ -349,7 +349,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "DJ Snake / Lil Jon",
             "masked_id": ""
         },
         "28": {
@@ -362,7 +362,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Bum Bum Tam Tam",
             "masked_id": ""
         },
         "29": {
@@ -375,7 +375,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "David Guetta / Nicki Minaj",
             "masked_id": ""
         },
         "30": {
@@ -388,7 +388,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "PSY",
             "masked_id": ""
         },
         "31": {
@@ -400,8 +400,8 @@
             "genders": "House",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel element de la chanson",
+            "reponse": "Kiesza / Hideaway",
             "masked_id": ""
         },
         "32": {
@@ -414,7 +414,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Barbra Streisand",
             "masked_id": ""
         },
         "33": {
@@ -427,7 +427,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Duke Dumont",
             "masked_id": ""
         },
         "34": {
@@ -440,7 +440,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Katy Perry / Nicki Minaj",
             "masked_id": ""
         },
         "35": {
@@ -453,7 +453,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Don Diablo",
             "masked_id": ""
         },
         "36": {
@@ -466,7 +466,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Calvin Harris / Dua Lipa",
             "masked_id": ""
         },
         "37": {
@@ -479,7 +479,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Lucenzo / Sean Paul",
             "masked_id": ""
         },
         "38": {
@@ -492,7 +492,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Deorro / Elvis Crespo",
             "masked_id": ""
         },
         "39": {
@@ -505,7 +505,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Stromae",
             "masked_id": ""
         },
         "40": {
@@ -518,7 +518,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Clara Luciani",
             "masked_id": ""
         },
         "41": {
@@ -531,7 +531,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Clara Luciani",
             "masked_id": ""
         },
         "42": {
@@ -544,7 +544,7 @@
             "sampled_by": "",
             "sample_from": "Yazoo - Don't Go",
             "topic": "Donnez l'artiste orginal",
-            "reponse": "",
+            "reponse": "Yazoo",
             "masked_id": ""
         },
         "43": {
@@ -557,7 +557,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Colonel Reyel / Krys",
             "masked_id": "",
             "start_time": "0"
         },
@@ -571,7 +571,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "reponse": "La Harissa / Neg'Marrons",
             "masked_id": "",
             "start_time": "60"
         },
@@ -585,7 +585,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jamiroquai",
             "masked_id": "",
             "start_time": "0"
         },
@@ -599,7 +599,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "reponse": "Matt Simons",
             "masked_id": "",
             "start_time": "0"
         },
@@ -613,7 +613,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "reponse": "Patrice",
             "masked_id": "",
             "start_time": "0"
         },
@@ -627,7 +627,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "reponse": "Dua Lipa / Silk City",
             "masked_id": "",
             "start_time": "30"
         },
@@ -641,7 +641,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Calvin Harris / Dua Lipa",
             "masked_id": "",
             "start_time": "10"
         },
@@ -655,7 +655,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Dua Lipa",
             "masked_id": "",
             "start_time": "0"
         }
