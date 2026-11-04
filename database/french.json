@@ -900,7 +900,7 @@
             "masked_id": ""
         },
         "71": {
-            "id": "IARaOY5h6n0",
+            "id": "wxF9DPlcDjo",
             "artists": "Corynne Charby",
             "title": "Boule de flipper",
             "album": "Toi",
@@ -910,10 +910,11 @@
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
             "reponse": "Boule de flipper",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "72": {
-            "id": "5nR2-76zSfs",
+            "id": "3Ei7c_-ENFI",
             "artists": "Gold",
             "title": "Capitaine Abandonne",
             "album": "",
@@ -923,7 +924,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "Gold",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "73": {
             "id": "r-951A8fuoU",
@@ -965,7 +967,7 @@
             "masked_id": ""
         },
         "76": {
-            "id": "01jK2yQg-0w",
+            "id": "T7rs0ZaqDoc",
             "artists": "Caroline Loeb",
             "title": "C'est La Ouate",
             "album": "Loeb C.D.",
@@ -975,7 +977,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "Caroline Loeb",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "77": {
             "id": "sxLlr7qJbJk",
@@ -1199,7 +1202,7 @@
             "masked_id": ""
         },
         "94": {
-            "id": "5RpkYHXcxKQ",
+            "id": "pRwz748goQU",
             "artists": "Stephanie de Monaco",
             "title": "Flash",
             "album": "Besoin",
@@ -1209,7 +1212,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "Stephanie de Monaco",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "95": {
             "id": "SSKIvNhoNYo",
@@ -1342,7 +1346,7 @@
             "masked_id": ""
         },
         "105": {
-            "id": "l5Hi9DFSvjQ",
+            "id": "jPeule62XmU",
             "artists": "Le Grand Orchestre Du Splendid",
             "title": "Macao",
             "album": "Le Grand Orchestre Du Splendid",
@@ -1352,7 +1356,8 @@
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
             "reponse": "Macao",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "10"
         },
         "106": {
             "id": "AWft5UI7Ksc",
@@ -1511,7 +1516,7 @@
             "masked_id": ""
         },
         "118": {
-            "id": "0le0ohtX6n8",
+            "id": "l18ooFTmTHc",
             "artists": "Demis Roussos",
             "title": "Quand Je T'aime",
             "album": "Le Grec",
@@ -1521,7 +1526,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "Demis Roussos",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "119": {
             "id": "gf9InaeAzho",
@@ -2038,7 +2044,7 @@
             "start_time": "0"
         },
         "158": {
-            "id": "EcY34IqJTaQ",
+            "id": "8LZKapv5fik",
             "artists": "Muriel Dacq",
             "title": "Tropique",
             "album": "",
@@ -2626,7 +2632,7 @@
             "start_time": "0"
         },
         "200": {
-            "id": "niaaz604mik",
+            "id": "U6HI__YOhe4",
             "artists": "Daniel Balavoine",
             "title": "Mon Fils Ma Bataille",
             "album": "Un Autre Monde",

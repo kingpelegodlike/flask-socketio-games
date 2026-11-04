@@ -11,7 +11,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jamiroquai",
             "masked_id": ""
         },
         "2": {
@@ -24,7 +24,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jamiroquai",
             "masked_id": ""
         },
         "3": {
@@ -37,7 +37,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Lionel Richie",
             "masked_id": ""
         },
         "4": {
@@ -50,7 +50,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jamiroquai",
             "masked_id": ""
         },
         "5": {
@@ -62,8 +62,8 @@
             "genders": "Electro; Funk; House",
             "sampled_by": "",
             "sample_from": "Chic - Soup for one",
-            "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "topic": "Donnez l'artiste orginal",
+            "reponse": "Chic",
             "masked_id": ""
         },
         "6": {
@@ -76,7 +76,7 @@
             "sampled_by": "Basada - Music Sounds Better with You",
             "sample_from": "Chaka Khan - Fate",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Stardust",
             "masked_id": ""
         },
         "7": {
@@ -89,7 +89,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Cunnie Williams",
             "masked_id": ""
         },
         "8": {
@@ -101,8 +101,8 @@
             "genders": "House; Electro; Funk",
             "sampled_by": "",
             "sample_from": "Chris Rea - Josephine",
-            "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "topic": "Donnez l'artiste orginal",
+            "reponse": "Chris Rea",
             "masked_id": ""
         },
         "9": {
@@ -115,7 +115,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Luther Vandross / Freemasons",
             "masked_id": ""
         },
         "10": {
@@ -128,7 +128,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Bob Sinclar",
             "masked_id": ""
         },
         "11": {
@@ -141,7 +141,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Bob Sinclar / Salome De Bahia",
             "masked_id": ""
         },
         "12": {
@@ -154,7 +154,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Sophie Ellis Bextor",
             "masked_id": ""
         },
         "13": {
@@ -167,7 +167,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Clara Luciani",
             "masked_id": ""
         },
         "14": {
@@ -180,7 +180,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Clara Luciani",
             "masked_id": ""
         },
         "15": {
@@ -193,7 +193,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Clara Luciani",
             "masked_id": ""
         },
         "16": {
@@ -205,8 +205,8 @@
             "genders": "Pop; Disco; Chanson Francaise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00c3\u00a9l\u00c3\u00a9ment de la chanson",
+            "reponse": "Juliette Armanet / Tu me Play",
             "masked_id": ""
         },
         "17": {
@@ -219,7 +219,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Clara Luciani",
             "masked_id": ""
         },
         "18": {
@@ -232,7 +232,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Clara Luciani",
             "masked_id": ""
         },
         "19": {
@@ -245,7 +245,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jamiroquai",
             "masked_id": ""
         },
         "20": {
@@ -258,7 +258,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jamiroquai",
             "masked_id": ""
         },
         "21": {
@@ -271,7 +271,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Christophe Willem",
             "masked_id": "",
             "start_time": "0"
         }

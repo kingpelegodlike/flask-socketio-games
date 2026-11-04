@@ -4274,7 +4274,7 @@
             "masked_id": ""
         },
         "329": {
-            "id": "ij3HYBJXIPw",
+            "id": "icf3ZIWjhiI",
             "artists": "Ti Kabzy",
             "title": "Baila",
             "album": "My Name Iz",
@@ -4284,7 +4284,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "330": {
             "id": "v4RvZJnq36o",
@@ -4495,7 +4496,7 @@
             "masked_id": ""
         },
         "346": {
-            "id": "wAqTaGl2kIc",
+            "id": "eRBiCZ4czbM",
             "artists": "Khaled",
             "title": "C'est La Vie",
             "album": "C'est La Vie",
@@ -4505,7 +4506,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "10"
         },
         "347": {
             "id": "PrbHLGfyNEU",
@@ -5420,7 +5422,7 @@
             "masked_id": ""
         },
         "417": {
-            "id": "tKcjZSh5xs0",
+            "id": "7uHZfjAjO7E",
             "artists": "Irene Cara",
             "title": "Flashdance What A Feeling",
             "album": "Flashdance Soundtrack",
@@ -5430,7 +5432,8 @@
             "sample_from": "",
             "topic": "Donnez le nom du film",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "418": {
             "id": "4FP3DFVXARw",
@@ -9600,7 +9603,7 @@
             "masked_id": ""
         },
         "739": {
-            "id": "bJ6yDJHPda4",
+            "id": "yGKeY0NfT84",
             "artists": "Christopher Cross",
             "title": "All Right",
             "album": "Another Page",
@@ -9610,7 +9613,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "740": {
             "id": "zRQ2CpgO_So",
@@ -9691,7 +9695,7 @@
             "masked_id": ""
         },
         "746": {
-            "id": "9A0LKQAwO24",
+            "id": "-_7v60hagbw",
             "artists": "Chris Isaak",
             "title": "Blue Hotel",
             "album": "Chris Isaak",
@@ -9701,10 +9705,11 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "747": {
-            "id": "IARaOY5h6n0",
+            "id": "wxF9DPlcDjo",
             "artists": "Corynne Charby",
             "title": "Boule de flipper",
             "album": "Toi",
@@ -9714,7 +9719,8 @@
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "748": {
             "id": "UR8Hub2BzTg",
@@ -9730,7 +9736,7 @@
             "masked_id": ""
         },
         "749": {
-            "id": "5nR2-76zSfs",
+            "id": "3Ei7c_-ENFI",
             "artists": "Gold",
             "title": "Capitaine Abandonne",
             "album": "",
@@ -9740,7 +9746,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "750": {
             "id": "4hzMRVY71hk",
@@ -9795,7 +9802,7 @@
             "masked_id": ""
         },
         "754": {
-            "id": "01jK2yQg-0w",
+            "id": "T7rs0ZaqDoc",
             "artists": "Caroline Loeb",
             "title": "C'est La Ouate",
             "album": "Loeb C.D.",
@@ -9805,7 +9812,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "755": {
             "id": "sxLlr7qJbJk",
@@ -10082,7 +10090,7 @@
             "masked_id": ""
         },
         "776": {
-            "id": "5RpkYHXcxKQ",
+            "id": "pRwz748goQU",
             "artists": "Stephanie de Monaco",
             "title": "Flash",
             "album": "Besoin",
@@ -10092,7 +10100,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "777": {
             "id": "kZl0AzHMI_Q",
@@ -10108,7 +10117,7 @@
             "masked_id": ""
         },
         "778": {
-            "id": "cakz0X67xR8",
+            "id": "MpMgzWBpu2o",
             "artists": "Eddy Grant",
             "title": "Gimme Hope Jo'anna",
             "album": "File Under Rock",
@@ -10118,7 +10127,8 @@
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "779": {
             "id": "OhlIIAFHpsk",
@@ -10356,7 +10366,7 @@
             "masked_id": ""
         },
         "797": {
-            "id": "rLOQuh8wADM",
+            "id": "UVRqSQC9pU0",
             "artists": "Prince",
             "title": "Kiss",
             "album": "Parade",
@@ -10366,10 +10376,11 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "798": {
-            "id": "ZmzjH6OjjIA",
+            "id": "UWov7-qFxKk",
             "artists": "Madonna",
             "title": "La Isla Bonita",
             "album": "True Blue",
@@ -10379,7 +10390,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "799": {
             "id": "_b3ZlFLO0BU",
@@ -10499,7 +10511,7 @@
             "masked_id": ""
         },
         "808": {
-            "id": "DtZ6gMzx0bk",
+            "id": "TpCBE68aipo",
             "artists": "Madonna",
             "title": "Like a Virgin",
             "album": "Like a Virgin",
@@ -10509,7 +10521,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "809": {
             "id": "BODBiJz7RoY",
@@ -10525,7 +10538,7 @@
             "masked_id": ""
         },
         "810": {
-            "id": "l5Hi9DFSvjQ",
+            "id": "jPeule62XmU",
             "artists": "Le Grand Orchestre Du Splendid",
             "title": "Macao",
             "album": "Le Grand Orchestre Du Splendid",
@@ -10535,7 +10548,8 @@
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "10"
         },
         "811": {
             "id": "AWft5UI7Ksc",
@@ -10785,7 +10799,7 @@
             "masked_id": ""
         },
         "830": {
-            "id": "0le0ohtX6n8",
+            "id": "l18ooFTmTHc",
             "artists": "Demis Roussos",
             "title": "Quand Je T'aime",
             "album": "Le Grec",
@@ -10795,7 +10809,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "831": {
             "id": "gf9InaeAzho",
@@ -10824,7 +10839,7 @@
             "masked_id": ""
         },
         "833": {
-            "id": "oh4tHpUflDA",
+            "id": "iCNLwAv1c1A",
             "artists": "Frankie Goes To Hollywood",
             "title": "Relax",
             "album": "Welcome To The Pleasuredome",
@@ -10834,7 +10849,8 @@
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "834": {
             "id": "qySwjyr1W0k",
@@ -10980,7 +10996,7 @@
             "masked_id": ""
         },
         "845": {
-            "id": "Ez31-p-kAPQ",
+            "id": "7VgNG8theUw",
             "artists": "Joe Jackson",
             "title": "Steppin' Out",
             "album": "Night And Day",
@@ -10990,7 +11006,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "846": {
             "id": "KCn_CJN--EM",
@@ -11058,7 +11075,7 @@
             "masked_id": ""
         },
         "851": {
-            "id": "QOUvSzidzQ0",
+            "id": "oZM51n1Dguk",
             "artists": "Chris De Burgh",
             "title": "The Lady In Red",
             "album": "Into The Light",
@@ -11068,7 +11085,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "852": {
             "id": "fcwUPNJnZ1E",
@@ -11396,7 +11414,7 @@
             "masked_id": ""
         },
         "877": {
-            "id": "jVce2IeYcTg",
+            "id": "LN-rtvGp5so",
             "artists": "Timex Social Club",
             "title": "Rumors",
             "album": "Vicious Rumors",
@@ -11406,7 +11424,8 @@
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "878": {
             "id": "MQU9hDmxKVI",
@@ -14284,7 +14303,7 @@
             "masked_id": ""
         },
         "1099": {
-            "id": "CkGg1bzfSys",
+            "id": "UjDRcVJB-78",
             "artists": "Phil Collins",
             "title": "Against All Odds",
             "album": "Against All Odds Soundtrack",
@@ -14294,7 +14313,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "1100": {
             "id": "zsfj9j0kjoU",
@@ -20115,7 +20135,7 @@
             "start_time": "0"
         },
         "1520": {
-            "id": "LEexI2npHBQ",
+            "id": "uJYOAbxAhyc",
             "artists": "Level 42",
             "title": "Lessons In Love",
             "album": "Running in the Family",
@@ -20129,7 +20149,7 @@
             "start_time": "0"
         },
         "1521": {
-            "id": "EcY34IqJTaQ",
+            "id": "8LZKapv5fik",
             "artists": "Muriel Dacq",
             "title": "Tropique",
             "album": "",
@@ -20325,7 +20345,7 @@
             "start_time": "0"
         },
         "1535": {
-            "id": "RBpidD5toks",
+            "id": "-tZ-iH_pkSo",
             "artists": "The Bangles",
             "title": "Walk Like An Egyptian",
             "album": "Different Light",
@@ -20493,7 +20513,7 @@
             "start_time": "0"
         },
         "1547": {
-            "id": "CKw5-luWpto",
+            "id": "G_2aSqF6JHU",
             "artists": "Chaka Khan",
             "title": "I Feel For You",
             "album": "I Feel For You",
@@ -20815,7 +20835,7 @@
             "start_time": "10"
         },
         "1570": {
-            "id": "sD_AXZZipbk",
+            "id": "uDeIZhuefrw",
             "artists": "Lionel Richie",
             "title": "Say You Say Me",
             "album": "Dancing on the Ceiling",
@@ -20885,7 +20905,7 @@
             "start_time": "0"
         },
         "1575": {
-            "id": "8gWZQT5FsaU",
+            "id": "EqeJUGzvnq0",
             "artists": "Etienne Daho",
             "title": "Tombe Pour La France",
             "album": "Pop Satori",
@@ -20896,7 +20916,7 @@
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
             "masked_id": "",
-            "start_time": "0"
+            "start_time": "20"
         },
         "1576": {
             "id": "nmDyUPv9Dl8",
@@ -21011,7 +21031,7 @@
             "start_time": "0"
         },
         "1584": {
-            "id": "UATBQWdLEu4",
+            "id": "DXMDWfLclNY",
             "artists": "Lionel Richie",
             "title": "You Are",
             "album": "Lionel Richie",
@@ -21263,7 +21283,7 @@
             "start_time": "0"
         },
         "1602": {
-            "id": "9bK0mtxRreU",
+            "id": "eeo39kZqZlw",
             "artists": "Sheena Easton",
             "title": "So Far So Good",
             "album": "About Last Night Soundtrack",
@@ -21274,7 +21294,7 @@
             "topic": "Donnez n'importe quel element de la chanson",
             "reponse": "",
             "masked_id": "",
-            "start_time": "0"
+            "start_time": "30"
         },
         "1603": {
             "id": "TuJyuFk5MQY",
@@ -21907,7 +21927,7 @@
             "start_time": "0"
         },
         "1648": {
-            "id": "lPR1hhTM8hg",
+            "id": "y4aZB4y0RM4",
             "artists": "John Lennon",
             "title": "Woman",
             "album": "Double Fantasy",
@@ -22126,7 +22146,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "reponse": "Paco / Amor De Mis Amores",
             "masked_id": "",
             "start_time": "0"
         },
@@ -22168,7 +22188,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "reponse": "Modern Talking / Brother Louie",
             "masked_id": "",
             "start_time": "0"
         },
@@ -22229,7 +22249,7 @@
             "start_time": "0"
         },
         "1671": {
-            "id": "niaaz604mik",
+            "id": "U6HI__YOhe4",
             "artists": "Daniel Balavoine",
             "title": "Mon Fils Ma Bataille",
             "album": "Un Autre Monde",
@@ -23587,7 +23607,7 @@
             "start_time": "0"
         },
         "1768": {
-            "id": "ymOvtRrgNv8",
+            "id": "cnRk6PFlgCg",
             "artists": "Juanes",
             "title": "La Camisa Negra",
             "album": "Mi Sangre",

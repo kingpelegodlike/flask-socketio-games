@@ -11,7 +11,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kaoma",
             "masked_id": ""
         },
         "2": {
@@ -24,7 +24,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Elvis Crespo",
             "masked_id": ""
         },
         "3": {
@@ -37,7 +37,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Elvis Crespo",
             "masked_id": ""
         },
         "4": {
@@ -50,7 +50,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Elvis Crespo",
             "masked_id": ""
         },
         "5": {
@@ -63,7 +63,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Thalia",
             "masked_id": ""
         },
         "6": {
@@ -75,8 +75,8 @@
             "genders": "Latin; Salsa",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00c3\u00a9l\u00c3\u00a9ment de la chanson",
+            "reponse": "Orquesta Aragon / Yaye Boy",
             "masked_id": ""
         },
         "7": {
@@ -89,7 +89,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Ricky Martin",
             "masked_id": ""
         },
         "8": {
@@ -102,7 +102,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Africando",
             "masked_id": ""
         },
         "9": {
@@ -115,7 +115,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Betece",
             "masked_id": ""
         },
         "10": {
@@ -128,7 +128,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Gloria Estefan",
             "masked_id": ""
         },
         "11": {
@@ -141,7 +141,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Carnavalera",
             "masked_id": ""
         },
         "12": {
@@ -154,7 +154,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "El Tiburon",
             "masked_id": ""
         },
         "13": {
@@ -167,7 +167,7 @@
             "sampled_by": "",
             "sample_from": "Enur - Calabria 2007",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Pitbull / Lil Jon",
             "masked_id": ""
         },
         "14": {
@@ -180,7 +180,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Elvis Crespo",
             "masked_id": ""
         },
         "15": {
@@ -193,11 +193,11 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Yuri Buenaventura",
             "masked_id": ""
         },
         "16": {
-            "id": "ij3HYBJXIPw",
+            "id": "icf3ZIWjhiI",
             "artists": "Ti Kabzy",
             "title": "Baila",
             "album": "My Name Iz",
@@ -206,8 +206,9 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
-            "masked_id": ""
+            "reponse": "Ti Kabzy",
+            "masked_id": "",
+            "start_time": "0"
         },
         "17": {
             "id": "B7pNImiXnvU",
@@ -219,7 +220,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Papi Sanchez",
             "masked_id": ""
         },
         "18": {
@@ -232,7 +233,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Papi Sanchez",
             "masked_id": ""
         },
         "19": {
@@ -245,7 +246,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Lucenzo / Sean Paul",
             "masked_id": ""
         },
         "20": {
@@ -258,7 +259,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Lucenzo",
             "masked_id": ""
         },
         "21": {
@@ -271,7 +272,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Rayos de sol",
             "masked_id": ""
         },
         "22": {
@@ -284,7 +285,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Lento",
             "masked_id": ""
         },
         "23": {
@@ -297,7 +298,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Shakira / Pitbull",
             "masked_id": ""
         },
         "24": {
@@ -310,7 +311,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Shakira",
             "masked_id": ""
         },
         "25": {
@@ -323,7 +324,7 @@
             "sampled_by": "",
             "sample_from": "Khaled - C'est La Vie",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Marc Anthony",
             "masked_id": ""
         },
         "26": {
@@ -335,8 +336,8 @@
             "genders": "Latin; Pop; Dance",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00c3\u00a9l\u00c3\u00a9ent de la chanson",
+            "reponse": "Jay Santos / Caliente",
             "masked_id": ""
         },
         "27": {
@@ -349,7 +350,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Shakira",
             "masked_id": ""
         },
         "28": {
@@ -362,7 +363,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Lylloo / Matt Houston",
             "masked_id": ""
         },
         "29": {
@@ -375,7 +376,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Michel Telo",
             "masked_id": ""
         },
         "30": {
@@ -388,7 +389,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Dinero",
             "masked_id": ""
         },
         "31": {
@@ -401,7 +402,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Rosalia",
             "masked_id": ""
         },
         "32": {
@@ -414,7 +415,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Dancarina",
             "masked_id": ""
         },
         "33": {
@@ -427,7 +428,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Becky G / Omega",
             "masked_id": ""
         },
         "34": {
@@ -439,8 +440,8 @@
             "genders": "Latin; Pop; Reggaeton",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00c3\u00a9l\u00c3\u00a9ment de la chanson",
+            "reponse": "El Incomprendido / Farruko / Victor Cardenas / DJ Adoni",
             "masked_id": ""
         },
         "35": {
@@ -452,8 +453,8 @@
             "genders": "Latin; Electro; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00c3\u00a9l\u00c3\u00a9ment de la chanson",
+            "reponse": "Pepas / Farruko",
             "masked_id": ""
         },
         "36": {
@@ -465,8 +466,8 @@
             "genders": "Latin; Salsa",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00c3\u00a9l\u00c3\u00a9ment de la chanson",
+            "reponse": "Anacaona / Sheila E. / Ruben Blades",
             "masked_id": ""
         },
         "37": {
@@ -478,8 +479,8 @@
             "genders": "Latin; House; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00c3\u00a9l\u00c3\u00a9ment de la chanson",
+            "reponse": "Vine Pa Quedarme / Chuly Santamaria",
             "masked_id": ""
         },
         "38": {
@@ -492,11 +493,11 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Mecano",
             "masked_id": ""
         },
         "39": {
-            "id": "ZmzjH6OjjIA",
+            "id": "UWov7-qFxKk",
             "artists": "Madonna",
             "title": "La Isla Bonita",
             "album": "True Blue",
@@ -505,8 +506,9 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
-            "masked_id": ""
+            "reponse": "Madonna",
+            "masked_id": "",
+            "start_time": "0"
         },
         "40": {
             "id": "OxFzCo7HzB8",
@@ -518,7 +520,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Eros Ramazzotti",
             "masked_id": ""
         },
         "41": {
@@ -531,7 +533,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Julio Iglesias",
             "masked_id": ""
         },
         "42": {
@@ -544,7 +546,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Julio Iglesias",
             "masked_id": ""
         },
         "43": {
@@ -557,7 +559,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Thalia",
             "masked_id": ""
         },
         "44": {
@@ -570,7 +572,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Maluma / The Weeknd",
             "masked_id": ""
         },
         "45": {
@@ -583,7 +585,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Shakira / Alejandro Sanz",
             "masked_id": ""
         },
         "46": {
@@ -596,7 +598,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Gloria Estefan",
             "masked_id": "",
             "start_time": "0"
         },
@@ -610,7 +612,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Los Lobos",
             "masked_id": "",
             "start_time": "0"
         },
@@ -624,7 +626,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "reponse": "Paco / Amor De Mis Amores",
             "masked_id": "",
             "start_time": "0"
         },
@@ -638,7 +640,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Julio Iglesias",
             "masked_id": "",
             "start_time": "20"
         },
@@ -652,12 +654,12 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Enrique Iglesias",
             "masked_id": "",
             "start_time": "0"
         },
         "51": {
-            "id": "ymOvtRrgNv8",
+            "id": "cnRk6PFlgCg",
             "artists": "Juanes",
             "title": "La Camisa Negra",
             "album": "Mi Sangre",
@@ -666,7 +668,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "reponse": "Juanes / La Camisa Negra",
             "masked_id": "",
             "start_time": "0"
         },
@@ -680,7 +682,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Manu Chao",
             "masked_id": "",
             "start_time": "0"
         },
@@ -694,7 +696,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "reponse": "Shakira / Maluma / Chantaje",
             "masked_id": "",
             "start_time": "0"
         }
