@@ -835,7 +835,7 @@
             "masked_id": ""
         },
         "65": {
-            "id": "E-LXyiymJO0",
+            "id": "qP4fNHaXE70",
             "artists": "Madonna",
             "title": "Die Another Day",
             "album": "James Bond Die Another Day Soundtrack",
@@ -845,7 +845,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "66": {
             "id": "DeumyOzKqgI",
@@ -1136,7 +1137,7 @@
             "masked_id": ""
         },
         "88": {
-            "id": "ZTTBLSK3c70",
+            "id": "AEjOxFazHYY",
             "artists": "Disiz",
             "title": "All In",
             "album": "L'Amour...",
@@ -1146,10 +1147,11 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "89": {
-            "id": "hlA1gD9jEU4",
+            "id": "-YV83cn35rM",
             "artists": "Disiz",
             "title": "C'est le love magueule",
             "album": "L'Amour...",
@@ -1159,10 +1161,11 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "90": {
-            "id": "OCoECB_C_3w",
+            "id": "KCdtO75_-Ho",
             "artists": "Christophe Willem",
             "title": "PS : Je t'aime",
             "album": "Panorama",
@@ -1172,7 +1175,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "91": {
             "id": "RbH2Miz0Ypk",
@@ -1331,7 +1335,7 @@
             "masked_id": ""
         },
         "103": {
-            "id": "-W_vWJ2yVNs",
+            "id": "IYU64ceDTjY",
             "artists": "Tal",
             "title": "Danse (Pop Version)",
             "album": "A L'infini",
@@ -1341,7 +1345,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "104": {
             "id": "wSXPHNHuw7A",
@@ -1383,7 +1388,7 @@
             "masked_id": ""
         },
         "107": {
-            "id": "Q5u2Y6P3xIc",
+            "id": "nP-lE2X7cpE",
             "artists": "Louane",
             "title": "Maman",
             "album": "Chambre 12",
@@ -1393,7 +1398,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "108": {
             "id": "kkGpBMBQZy0",
@@ -1591,7 +1597,7 @@
             "masked_id": ""
         },
         "123": {
-            "id": "bPn7yWpZgic",
+            "id": "cEDGjslmk8E",
             "artists": "Dadju",
             "title": "Jaloux",
             "album": "Gentleman 2.0",
@@ -1601,7 +1607,8 @@
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "10"
         },
         "124": {
             "id": "UnYN-8gx-Xs",
@@ -1617,7 +1624,7 @@
             "masked_id": ""
         },
         "125": {
-            "id": "UN0g9inF4fo",
+            "id": "I_oIOkQCNAw",
             "artists": "Angele; Romeo Elvis",
             "title": "Tout oublier",
             "album": "Brol",
@@ -1627,7 +1634,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "126": {
             "id": "nYLWj3rzrMg",
@@ -3546,7 +3554,7 @@
             "masked_id": ""
         },
         "273": {
-            "id": "hLy8FApMA8M",
+            "id": "vU-P-K5qtDM",
             "artists": "Darina Victry",
             "title": "Laisse-moi t'aimer",
             "album": "Laisse",
@@ -3556,7 +3564,8 @@
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "274": {
             "id": "n8OTLqdv1js",
@@ -4626,7 +4635,7 @@
             "masked_id": ""
         },
         "356": {
-            "id": "z_6_XTv4F_g",
+            "id": "6FklaIUq1mA",
             "artists": "Nelly Furtado",
             "title": "I'm Like a Bird",
             "album": "Whoa, Nelly!",
@@ -4636,10 +4645,11 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "357": {
-            "id": "BgPqNyqYDN4",
+            "id": "Dwcl4dMmWsQ",
             "artists": "Madonna; Justin Timberlake; Timbaland",
             "title": "4 Minutes",
             "album": "Hard Candy",
@@ -4649,10 +4659,11 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "358": {
-            "id": "8MNP2Ax7dyg",
+            "id": "EmvErNa46UQ",
             "artists": "Britney Spears",
             "title": "Break The Ice",
             "album": "Blackout",
@@ -4662,10 +4673,11 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "359": {
-            "id": "THuJja1hFqc",
+            "id": "TRNGDCJKceE",
             "artists": "Britney Spears",
             "title": "Gimme More",
             "album": "Blackout",
@@ -4675,7 +4687,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "20"
         },
         "360": {
             "id": "NIFNXDBoDYc",
@@ -6712,7 +6725,7 @@
             "start_time": "0"
         },
         "506": {
-            "id": "Vn0cYrlkvho",
+            "id": "BHIpvqhydLo",
             "artists": "Dua Lipa",
             "title": "Houdini",
             "album": "Radical Optimism",
@@ -7468,7 +7481,7 @@
             "start_time": "0"
         },
         "560": {
-            "id": "R6E6Ol3ov5Y",
+            "id": "GR0Dd-WB2V4",
             "artists": "No Mercy",
             "title": "Where Do You Go?",
             "album": "No Mercy",
@@ -7479,7 +7492,7 @@
             "topic": "Donnez n'importe quel element de la chanson",
             "reponse": "",
             "masked_id": "",
-            "start_time": "50"
+            "start_time": "80"
         },
         "561": {
             "id": "mIRwq57UhZU",
@@ -7776,7 +7789,7 @@
             "start_time": "20"
         },
         "582": {
-            "id": "1Hv95HBmMso",
+            "id": "JLjJRpeDKWs",
             "artists": "Pascal Obispo; Zazie",
             "title": "Les Meilleurs Ennemis",
             "album": "Superflu",
@@ -7874,7 +7887,7 @@
             "start_time": "0"
         },
         "589": {
-            "id": "wuhHuI0o_PM",
+            "id": "sWa5vE4MUpU",
             "artists": "Whitney Houston",
             "title": "Step By Step",
             "album": "The Preacher's Wife Soundtrack",
@@ -7885,7 +7898,7 @@
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
             "masked_id": "",
-            "start_time": "40"
+            "start_time": "0"
         },
         "590": {
             "id": "tTZDHlnTgR0",
@@ -7930,7 +7943,7 @@
             "start_time": "20"
         },
         "593": {
-            "id": "i_bInQnW12k",
+            "id": "nra7OwEc0oA",
             "artists": "Vanessa Williams; Brian McKnight",
             "title": "Love Is",
             "album": "",
@@ -8000,7 +8013,7 @@
             "start_time": "0"
         },
         "598": {
-            "id": "Fb1KnOLq9_c",
+            "id": "Du_YaEXVv2Y",
             "artists": "Maxi Priest",
             "title": "Close To You",
             "album": "",
@@ -8028,7 +8041,7 @@
             "start_time": "0"
         },
         "600": {
-            "id": "4iWm-mUToDg",
+            "id": "POq2AznJO1Q",
             "artists": "Backstreet Boys",
             "title": "Everybody",
             "album": "Backstreet's Back",
@@ -8039,7 +8052,7 @@
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
             "masked_id": "",
-            "start_time": "20"
+            "start_time": "0"
         },
         "601": {
             "id": "hitIxB22QcI",
@@ -8196,7 +8209,7 @@
             "start_time": "0"
         },
         "612": {
-            "id": "l7uuj57235I",
+            "id": "Q4VK9_CfOLQ",
             "artists": "Britney Spears",
             "title": "You Drive Me Crazy",
             "album": "Baby One More Time",
@@ -8308,7 +8321,7 @@
             "start_time": "0"
         },
         "620": {
-            "id": "tj5RqZpEnGk",
+            "id": "pa0PuC40KfI",
             "artists": "Sinclair",
             "title": "A la vitesse du soleil",
             "album": "Supernova Superstar",
@@ -9022,7 +9035,7 @@
             "start_time": "0"
         },
         "671": {
-            "id": "1LXsm9y-z3I",
+            "id": "Rip0bX2qrIs",
             "artists": "Matt Simons",
             "title": "Catch & Release (Deepend Remix)",
             "album": "",

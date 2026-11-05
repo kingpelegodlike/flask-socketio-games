@@ -4,14 +4,14 @@
         "1": {
             "id": "xhG45EjK14I",
             "artists": "Pierre Garnier",
-            "title": "Ceux qu'on etait",
+            "title": "Ceux qu'on \u00e9tait",
             "album": "",
             "year": "2024",
             "genders": "Pop",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Pierre Garnier",
             "masked_id": ""
         },
         "2": {
@@ -24,7 +24,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Dua Lipa",
             "masked_id": ""
         },
         "3": {
@@ -33,24 +33,24 @@
             "title": "Petit Genie",
             "album": "",
             "year": "",
-            "genders": "Pop; Afrobeat; Rap; Chanson Fran\u00c3\u00a7aise",
+            "genders": "Pop; Afrobeat; Rap; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Petit Genie",
             "masked_id": ""
         },
         "4": {
             "id": "ozthKn07Ei4",
-            "artists": "Dadju & Tayc",
+            "artists": "Dadju; Tayc",
             "title": "I love you",
-            "album": "H\u00c3\u00a9ritage",
+            "album": "H\u00a9ritage",
             "year": "2024",
-            "genders": "Pop Rnb",
+            "genders": "Pop; Rnb",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez tous les artistes de la chanson",
-            "reponse": "",
+            "reponse": "Dadju / Tayc",
             "masked_id": ""
         },
         "5": {
@@ -59,11 +59,11 @@
             "title": "Emiliana",
             "album": "Sad Romance",
             "year": "2022",
-            "genders": "Africain Pop Afrobeat",
+            "genders": "Africain; Pop; Afrobeat",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Emiliana",
             "masked_id": ""
         },
         "6": {
@@ -76,7 +76,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Tequila",
             "masked_id": ""
         },
         "7": {
@@ -89,7 +89,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "The Weeknd",
             "masked_id": ""
         },
         "8": {
@@ -102,7 +102,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Miley Cyrus",
             "masked_id": ""
         },
         "9": {
@@ -115,7 +115,7 @@
             "sampled_by": "",
             "sample_from": "Chic - Le Freak",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Pitbull / Nile Rodgers",
             "masked_id": ""
         },
         "10": {
@@ -128,7 +128,7 @@
             "sampled_by": "",
             "sample_from": "Mariah Carey - Make It Happen",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Sacrifice",
             "masked_id": ""
         },
         "11": {
@@ -141,7 +141,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Rosalia",
             "masked_id": ""
         },
         "12": {
@@ -153,8 +153,8 @@
             "genders": "Pop; Latin",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Dancarina / Pedro Sampaio / Anitta / Dadju / MC Pedrinho / Nicky Jam",
             "masked_id": ""
         },
         "13": {
@@ -167,7 +167,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Becky G / Omega",
             "masked_id": ""
         },
         "14": {
@@ -180,7 +180,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Farruko / Victor Cardenas / DJ Adoni",
             "masked_id": ""
         },
         "15": {
@@ -192,8 +192,8 @@
             "genders": "Latin; Electro; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Farruko / Pepas",
             "masked_id": ""
         },
         "16": {
@@ -205,8 +205,8 @@
             "genders": "Latin; House; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Chuly Santamaria / Vine Pa Quedarme",
             "masked_id": ""
         },
         "17": {
@@ -219,7 +219,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Imagine Dragons / JID",
             "masked_id": ""
         },
         "18": {
@@ -228,11 +228,11 @@
             "title": "Sauve qui aime",
             "album": "Numero 9",
             "year": "2022",
-            "genders": "Pop; Soul; Chanson Francaise",
+            "genders": "Pop; Soul; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jenifer",
             "masked_id": ""
         },
         "19": {
@@ -241,11 +241,11 @@
             "title": "Prends ma main",
             "album": "L'Empire de Meroe",
             "year": "2021",
-            "genders": "Rap; Pop; Chanson Francaise",
+            "genders": "Rap; Pop; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez tous les artistes de la chanson",
-            "reponse": "",
+            "reponse": "Maitre Gims / Vitaa",
             "masked_id": ""
         },
         "20": {
@@ -254,11 +254,11 @@
             "title": "Libre",
             "album": "Nonante-Cinq",
             "year": "2021",
-            "genders": "Pop; Chanson Francaise",
+            "genders": "Pop; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Angele",
             "masked_id": "",
             "start_time": "30"
         },
@@ -268,11 +268,11 @@
             "title": "Des milliers de je t'aime",
             "album": "Chroniques d'un cupidon",
             "year": "2022",
-            "genders": "Pop; Chanson Francaise",
+            "genders": "Pop; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Slimane",
             "masked_id": ""
         },
         "22": {
@@ -281,11 +281,11 @@
             "title": "Chemins de traverse",
             "album": "Mesdames",
             "year": "2021",
-            "genders": "Pop; Rap; Electro; Chanson Francaise",
+            "genders": "Pop; Rap; Electro; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Grand Corps Malade / Julie Berthollet / Camille Berthollet",
             "masked_id": ""
         },
         "23": {
@@ -294,11 +294,11 @@
             "title": "C'est drole la vie",
             "album": "C'est drole la vie",
             "year": "2023",
-            "genders": "Pop; Chanson Francaise",
+            "genders": "Pop; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Christophe Mae / Angelique Kidjo",
             "masked_id": ""
         },
         "24": {
@@ -307,11 +307,11 @@
             "title": "Derriere le brouillard",
             "album": "Mesdames",
             "year": "2021",
-            "genders": "Pop; Rap; Chanson Francaise; Electro",
+            "genders": "Pop; Rap; Chanson Fran\u00e7aise; Electro",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez tous les artistes de la chanson",
-            "reponse": "",
+            "reponse": "Grand Corps Malade / Louane",
             "masked_id": ""
         },
         "25": {
@@ -320,11 +320,11 @@
             "title": "Je ne serai que de trop",
             "album": "Mesdames",
             "year": "2021",
-            "genders": "Pop; Rap; Electro; Chanson Francaise",
+            "genders": "Pop; Rap; Electro; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Grand Corps Malade / Amuse-Bouche",
             "masked_id": ""
         },
         "26": {
@@ -333,11 +333,11 @@
             "title": "Mais je t'aime",
             "album": "Mesdames",
             "year": "2021",
-            "genders": "Pop; Rap; Chanson Francaise",
+            "genders": "Pop; Rap; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Grand Corps Malade / Camille Lellouche",
             "masked_id": ""
         },
         "27": {
@@ -346,11 +346,11 @@
             "title": "Nos plus belles annees",
             "album": "Mesdames",
             "year": "2021",
-            "genders": "Rap; Chanson Francaise; Electro",
+            "genders": "Rap; Chanson Fran\u00e7aise; Electro",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Grand Corps Malade / Kimberose",
             "masked_id": ""
         },
         "28": {
@@ -359,11 +359,11 @@
             "title": "Coeur",
             "album": "Coeur",
             "year": "2021",
-            "genders": "Disco; Pop; Chanson Francaise",
+            "genders": "Disco; Pop; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Clara Luciani",
             "masked_id": ""
         },
         "29": {
@@ -372,11 +372,11 @@
             "title": "Et Bam",
             "album": "La Vingtaine",
             "year": "2022",
-            "genders": "Pop; Chanson Francaise",
+            "genders": "Pop; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Et Bam",
             "masked_id": ""
         },
         "30": {
@@ -385,11 +385,11 @@
             "title": "Donne-moi ton coeur",
             "album": "Joie de vivre",
             "year": "2020",
-            "genders": "Pop; Chanson Francaise; Electro",
+            "genders": "Pop; Chanson Fran\u00e7aise; Electro",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Louane",
             "masked_id": ""
         },
         "31": {
@@ -398,11 +398,11 @@
             "title": "A Tout Jamais",
             "album": "L'Emprise",
             "year": "2022",
-            "genders": "Pop; Chanson Francaise; Electro",
+            "genders": "Pop; Chanson Fran\u00e7aise; Electro",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Mylene Farmer",
             "masked_id": ""
         },
         "32": {
@@ -411,11 +411,11 @@
             "title": "Secret",
             "album": "Sentiments",
             "year": "2022",
-            "genders": "Pop; Chanson Francaise",
+            "genders": "Pop; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Louane",
             "masked_id": ""
         },
         "33": {
@@ -424,38 +424,40 @@
             "title": "Promets-moi",
             "album": "Charlotte",
             "year": "2023",
-            "genders": "RnB; Pop; Chanson Francaise",
+            "genders": "RnB; Pop; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Vitaa",
             "masked_id": ""
         },
         "34": {
-            "id": "hlA1gD9jEU4",
+            "id": "-YV83cn35rM",
             "artists": "Disiz",
             "title": "C'est le love magueule",
             "album": "L'Amour...",
             "year": "2023",
-            "genders": "Pop; Disco; Chanson Francaise",
+            "genders": "Pop; Disco; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
-            "masked_id": ""
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Disiz / C'est le love magueule",
+            "masked_id": "",
+            "start_time": "0"
         },
         "35": {
-            "id": "OCoECB_C_3w",
+            "id": "KCdtO75_-Ho",
             "artists": "Christophe Willem",
             "title": "PS : Je t'aime",
             "album": "Panorama",
             "year": "2022",
-            "genders": "Pop; Chanson Francaise",
+            "genders": "Pop; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
-            "masked_id": ""
+            "reponse": "Christophe Willem",
+            "masked_id": "",
+            "start_time": "0"
         },
         "36": {
             "id": "RbH2Miz0Ypk",
@@ -463,11 +465,11 @@
             "title": "Je te suis",
             "album": "Facile x Fragile +",
             "year": "2022",
-            "genders": "Pop; Chanson Francaise",
+            "genders": "Pop; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Camelia Jordana",
             "masked_id": ""
         },
         "37": {
@@ -476,11 +478,11 @@
             "title": "Le monde en main",
             "album": "Facile x Fragile",
             "year": "2021",
-            "genders": "Pop; Chanson Francaise",
+            "genders": "Pop; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Camelia Jordana",
             "masked_id": ""
         },
         "38": {
@@ -489,11 +491,11 @@
             "title": "Te parler",
             "album": "Facile x Fragile",
             "year": "2021",
-            "genders": "Pop; Chanson Francaise",
+            "genders": "Pop; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Camelia Jordana / Soolking",
             "masked_id": ""
         },
         "39": {
@@ -502,11 +504,11 @@
             "title": "Sante",
             "album": "Multitude",
             "year": "2021",
-            "genders": "Pop; Electro; Chanson Francaise",
+            "genders": "Pop; Electro; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Sante",
             "masked_id": ""
         },
         "40": {
@@ -515,11 +517,11 @@
             "title": "Amour Impur",
             "album": "",
             "year": "2022",
-            "genders": "Pop; Chanson Francaise",
+            "genders": "Pop; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Amour Impur / Eva",
             "masked_id": ""
         },
         "41": {
@@ -528,11 +530,11 @@
             "title": "Ciel",
             "album": "Happiness",
             "year": "2021",
-            "genders": "Pop; Chanson Francaise",
+            "genders": "Pop; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Ciel / Eva",
             "masked_id": ""
         },
         "42": {
@@ -541,11 +543,11 @@
             "title": "Tu me Play",
             "album": "Bruler le feu",
             "year": "2021",
-            "genders": "Pop; Disco; Chanson Francaise",
+            "genders": "Pop; Disco; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Tu me Play / Juliette Armanet",
             "masked_id": ""
         },
         "43": {
@@ -554,11 +556,11 @@
             "title": "La vie c'est maintenant",
             "album": "",
             "year": "2022",
-            "genders": "Pop; Chanson Francaise",
+            "genders": "Pop; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Yannick Noah",
             "masked_id": ""
         },
         "44": {
@@ -567,15 +569,15 @@
             "title": "La Favorite",
             "album": "Spectre",
             "year": "2021",
-            "genders": "Pop; Chanson Francaise",
+            "genders": "Pop; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Ogee / La Favorite",
             "masked_id": ""
         },
         "45": {
-            "id": "hLy8FApMA8M",
+            "id": "vU-P-K5qtDM",
             "artists": "Darina Victry",
             "title": "Laisse-moi t'aimer",
             "album": "Laisse",
@@ -583,9 +585,10 @@
             "genders": "Pop; Africain",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez le titre de la chanson",
-            "reponse": "",
-            "masked_id": ""
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Darina Victry / Laisse-moi t'aimer",
+            "masked_id": "",
+            "start_time": "0"
         },
         "46": {
             "id": "n8OTLqdv1js",
@@ -593,11 +596,11 @@
             "title": "Pendant 24h",
             "album": "Toi Toi II",
             "year": "2020",
-            "genders": "Chanson francaise; Electro; Pop",
+            "genders": "Chanson Fran\u00e7aise; Electro; Pop",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Suzane / Grand Corps Malade",
             "masked_id": ""
         },
         "47": {
@@ -610,7 +613,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Post Malone / The Weeknd",
             "masked_id": ""
         },
         "48": {
@@ -623,7 +626,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Dua Lipa",
             "masked_id": ""
         },
         "49": {
@@ -636,7 +639,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Lil Nas X",
             "masked_id": "",
             "start_time": "0"
         },
@@ -650,7 +653,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Ed Sheeran",
             "masked_id": "",
             "start_time": "0"
         },
@@ -664,7 +667,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Doja Cat",
             "masked_id": "",
             "start_time": "0"
         },
@@ -678,12 +681,12 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Lizzo",
             "masked_id": "",
             "start_time": "0"
         },
         "53": {
-            "id": "Vn0cYrlkvho",
+            "id": "BHIpvqhydLo",
             "artists": "Dua Lipa",
             "title": "Houdini",
             "album": "Radical Optimism",
@@ -692,7 +695,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Dua Lipa",
             "masked_id": "",
             "start_time": "0"
         },
@@ -706,7 +709,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Dua Lipa",
             "masked_id": "",
             "start_time": "0"
         },
@@ -720,7 +723,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Katy Perry",
             "masked_id": "",
             "start_time": "0"
         },
@@ -734,7 +737,7 @@
             "sampled_by": "",
             "sample_from": "Crystal Waters - Gypsy Woman",
             "topic": "Donnez l'artiste orginal",
-            "reponse": "",
+            "reponse": "Crystal Waters",
             "masked_id": "",
             "start_time": "0"
         },
@@ -748,7 +751,21 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Mika",
+            "masked_id": "",
+            "start_time": "0"
+        },
+        "58": {
+            "id": "AEjOxFazHYY",
+            "artists": "Disiz",
+            "title": "All In",
+            "album": "L'Amour...",
+            "year": "2023",
+            "genders": "Pop; House; Chanson Fran\u00e7aise",
+            "sampled_by": "",
+            "sample_from": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Disiz / All In",
             "masked_id": "",
             "start_time": "0"
         }

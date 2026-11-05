@@ -159,7 +159,7 @@
             "masked_id": ""
         },
         "13": {
-            "id": "ZTTBLSK3c70",
+            "id": "AEjOxFazHYY",
             "artists": "Disiz",
             "title": "All In",
             "album": "L'Amour...",
@@ -169,10 +169,11 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "Disiz",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "14": {
-            "id": "hlA1gD9jEU4",
+            "id": "-YV83cn35rM",
             "artists": "Disiz",
             "title": "C'est le love magueule",
             "album": "L'Amour...",
@@ -182,10 +183,11 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "Disiz",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "15": {
-            "id": "OCoECB_C_3w",
+            "id": "KCdtO75_-Ho",
             "artists": "Christophe Willem",
             "title": "PS : Je t'aime",
             "album": "Panorama",
@@ -195,7 +197,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "Christophe Willem",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "16": {
             "id": "RbH2Miz0Ypk",
@@ -432,7 +435,7 @@
             "masked_id": ""
         },
         "34": {
-            "id": "-W_vWJ2yVNs",
+            "id": "IYU64ceDTjY",
             "artists": "Tal",
             "title": "Danse (Pop Version)",
             "album": "A L'infini",
@@ -442,7 +445,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "Tal",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "35": {
             "id": "wSXPHNHuw7A",
@@ -484,7 +488,7 @@
             "masked_id": ""
         },
         "38": {
-            "id": "Q5u2Y6P3xIc",
+            "id": "nP-lE2X7cpE",
             "artists": "Louane",
             "title": "Maman",
             "album": "Chambre 12",
@@ -494,7 +498,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "Louane",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "39": {
             "id": "kkGpBMBQZy0",
@@ -796,7 +801,7 @@
             "masked_id": ""
         },
         "62": {
-            "id": "bPn7yWpZgic",
+            "id": "cEDGjslmk8E",
             "artists": "Dadju",
             "title": "Jaloux",
             "album": "Gentleman 2.0",
@@ -806,7 +811,8 @@
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
             "reponse": "Jaloux",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "10"
         },
         "63": {
             "id": "UnYN-8gx-Xs",
@@ -835,7 +841,7 @@
             "masked_id": ""
         },
         "65": {
-            "id": "UN0g9inF4fo",
+            "id": "I_oIOkQCNAw",
             "artists": "Angele; Romeo Elvis",
             "title": "Tout oublier",
             "album": "Brol",
@@ -845,7 +851,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "Angele / Romeo Elvis",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "66": {
             "id": "nYLWj3rzrMg",
@@ -2716,7 +2723,7 @@
             "start_time": "20"
         },
         "206": {
-            "id": "1Hv95HBmMso",
+            "id": "JLjJRpeDKWs",
             "artists": "Pascal Obispo; Zazie",
             "title": "Les Meilleurs Ennemis",
             "album": "Superflu",
@@ -2842,7 +2849,7 @@
             "start_time": "0"
         },
         "215": {
-            "id": "tj5RqZpEnGk",
+            "id": "pa0PuC40KfI",
             "artists": "Sinclair",
             "title": "A la vitesse du soleil",
             "album": "Supernova Superstar",
