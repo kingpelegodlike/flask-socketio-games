@@ -10,7 +10,7 @@ logger = logging.getLogger('app')
 logging.config.fileConfig('logging.conf')
 
 CATEGORIES = [ "All", "Elders", "Adults", "Teenagers", "Children" ]
-mypath = "suites"
+mypath = "db_quizz_suites"
 onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 # print(onlyfiles)
 logger.debug(onlyfiles)
@@ -18,13 +18,14 @@ for sfile in onlyfiles:
     data = []
     data_loaded = False
     try:
-        # print("Try to load suites/{} file.".format(sfile))
-        logger.info("Load suites/%s file.", sfile)
-        data = json.load(open("suites/{}".format(sfile)))
+        # print("Try to load {}/{} file.".format(mypath, sfile))
+        logger.info("Load %s/%s file.", mypath, sfile)
+        with open(join(mypath, sfile), encoding="utf-8") as suite_file:
+            data = json.load(suite_file)
         data_loaded = True
     except Exception as e:
-        # print("suites/{} is not a good JSON. {}".format(sfile, e))
-        logger.error("suites/%s is not a good JSON. %s", sfile, e)
+        # print("{}/{} is not a good JSON. {}".format(mypath, sfile, e))
+        logger.error("%s/%s is not a good JSON. %s", mypath, sfile, e)
     if not data_loaded:
         continue
     if "generation_min" in data:
@@ -58,7 +59,7 @@ for sfile in onlyfiles:
     if not "topic" in data:
         # print("Topic field is missing")
         logger.debug("Topic field is missing")
-    for question_nbr, question in enumerate(data["questions"]):
+    for question_nbr, question in enumerate(data["questions"].values()):
         question_field = "Unknow"
         if "question" in question:
             question_field = question["question"]
