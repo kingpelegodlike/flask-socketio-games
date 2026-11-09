@@ -11,7 +11,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Queen Latifah",
             "masked_id": ""
         },
         "2": {
@@ -24,7 +24,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kris Kross",
             "masked_id": ""
         },
         "3": {
@@ -37,7 +37,7 @@
             "sampled_by": "",
             "sample_from": "Queen - Another One Bites The Dust",
             "topic": "Donnez l'artiste orginal",
-            "reponse": "",
+            "reponse": "Queen",
             "masked_id": ""
         },
         "4": {
@@ -50,7 +50,7 @@
             "sampled_by": "",
             "sample_from": "Kool And The Gang - Ladies Night",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Heavy D & The Boyz",
             "masked_id": ""
         },
         "5": {
@@ -63,7 +63,7 @@
             "sampled_by": "",
             "sample_from": "Grandmaster Flash - The Message",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Ice Cube / Das EFX",
             "masked_id": ""
         },
         "6": {
@@ -76,7 +76,7 @@
             "sampled_by": "Ice Cube - Check Yo Self",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Grandmaster Flash / The Furious Five",
             "masked_id": ""
         },
         "7": {
@@ -89,7 +89,7 @@
             "sampled_by": "",
             "sample_from": "Patrice Rushen - Forget Me Nots",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Will Smith / Coko",
             "masked_id": ""
         },
         "8": {
@@ -102,7 +102,7 @@
             "sampled_by": "",
             "sample_from": "Carl Carlton - She's a bad mama jama",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Foxy Brown / Dru Hill",
             "masked_id": ""
         },
         "9": {
@@ -115,7 +115,7 @@
             "sampled_by": "Daddy Yankee - Con Calma",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Snow",
             "masked_id": ""
         },
         "10": {
@@ -128,7 +128,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Wild Wild West",
             "masked_id": ""
         },
         "11": {
@@ -141,7 +141,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Tha Dogg Pound / Snoop Dogg / Nate Dogg",
             "masked_id": ""
         },
         "12": {
@@ -154,7 +154,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "DJ Jazzy Jeff / Will Smith",
             "masked_id": ""
         },
         "13": {
@@ -167,7 +167,7 @@
             "sampled_by": "",
             "sample_from": "Madonna - Holiday",
             "topic": "Donnez l'artiste orginal",
-            "reponse": "",
+            "reponse": "Madonna",
             "masked_id": ""
         },
         "14": {
@@ -180,11 +180,11 @@
             "sampled_by": "",
             "sample_from": "Cyndi Lauper - True Colors",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Mystik / K-Reen",
             "masked_id": ""
         },
         "15": {
-            "id": "G5zirRc34Xc",
+            "id": "T6QKqFPRZSA",
             "artists": "Lauryn Hill",
             "title": "Doo Wop (That Thing)",
             "album": "The Miseducation Of Lauryn Hill",
@@ -193,8 +193,9 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
-            "masked_id": ""
+            "reponse": "Lauryn Hill",
+            "masked_id": "",
+            "start_time": "0"
         },
         "16": {
             "id": "WrJvXzwrcFk",
@@ -206,7 +207,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Mariah Carey / Jermaine Dupri",
             "masked_id": ""
         },
         "17": {
@@ -219,7 +220,7 @@
             "sampled_by": "",
             "sample_from": "Patrice Rushen - Remind Me",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Heavy D & The Boyz",
             "masked_id": ""
         },
         "18": {
@@ -232,7 +233,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "R. Kelly",
             "masked_id": ""
         },
         "19": {
@@ -245,7 +246,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Nas / Mary J. Blige",
             "masked_id": ""
         },
         "20": {
@@ -258,7 +259,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Nate Dogg / Snoop Dogg / Val Young",
             "masked_id": ""
         },
         "21": {
@@ -271,7 +272,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Les Inconnus",
             "masked_id": "",
             "start_time": "0"
         },
@@ -285,7 +286,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Les Inconnus",
             "masked_id": "",
             "start_time": "0"
         },
@@ -299,7 +300,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Les Inconnus",
             "masked_id": "",
             "start_time": "0"
         },
@@ -313,7 +314,7 @@
             "sampled_by": "Hatik - Angela",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Saian Supa Crew",
             "masked_id": "",
             "start_time": "0"
         },
@@ -327,7 +328,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "reponse": "Break Machine / Street Dance",
             "masked_id": "",
             "start_time": "0"
         },
@@ -341,7 +342,7 @@
             "sampled_by": "",
             "sample_from": "Michael McDonald - I Keep Forgettin'",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Warren G / Nate Dogg",
             "masked_id": "",
             "start_time": "0"
         }

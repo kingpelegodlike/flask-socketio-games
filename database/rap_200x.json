@@ -11,7 +11,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Sniper",
             "masked_id": ""
         },
         "2": {
@@ -24,7 +24,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Public Enemy / Benny Benassi",
             "masked_id": ""
         },
         "3": {
@@ -37,7 +37,7 @@
             "sampled_by": "",
             "sample_from": "Oliver Cheatham - Get Down Saturday Night",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Rohff / DJ Abdel / Oliver Cheatham",
             "masked_id": ""
         },
         "4": {
@@ -50,7 +50,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "8 Mile",
             "masked_id": ""
         },
         "5": {
@@ -63,11 +63,11 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Method Man / Redman / Toni Braxton",
             "masked_id": ""
         },
         "6": {
-            "id": "bbDUj_PMdUk",
+            "id": "9vYFBH9m5pc",
             "artists": "Lumidee; Tony Sunshine",
             "title": "She's Like The Wind",
             "album": "Unexpected",
@@ -76,8 +76,9 @@
             "sampled_by": "",
             "sample_from": "Dirty Dancing - She's Like the Wind",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
-            "masked_id": ""
+            "reponse": "Lumidee / Tony Sunshine",
+            "masked_id": "",
+            "start_time": "10"
         },
         "7": {
             "id": "V6nXQY0c4iA",
@@ -89,7 +90,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Black Eyed Peas",
             "masked_id": ""
         },
         "8": {
@@ -101,8 +102,8 @@
             "genders": "Zouk; Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Shydeeh / Don't Even Touch",
             "masked_id": "",
             "start_time": "0"
         },
@@ -115,8 +116,8 @@
             "genders": "Zouk; Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Shydeeh / Wooh She's Who",
             "masked_id": "",
             "start_time": "0"
         },
@@ -129,8 +130,8 @@
             "genders": "Rap; Pop; House",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "One-T / Cool-T / The Magic Key",
             "masked_id": "",
             "start_time": "0"
         }

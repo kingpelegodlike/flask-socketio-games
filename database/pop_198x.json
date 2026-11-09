@@ -757,8 +757,8 @@
             "artists": "Texas",
             "title": "I Don't Want A Lover",
             "album": "Southside",
-            "year": "Pop",
-            "genders": "1989",
+            "year": "1989",
+            "genders": "Pop",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
@@ -965,14 +965,14 @@
         "74": {
             "id": "7G1ggHPDO3A",
             "artists": "Jean-Jacques Lafon",
-            "title": "Le Geant De Papier",
-            "album": "Le Geant De Papier",
+            "title": "Le G\u00e9ant De Papier",
+            "album": "Le G\u00e9ant De Papier",
             "year": "1985",
             "genders": "Chanson Francaise; Pop",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "Le Geant De Papier",
+            "reponse": "Le G\u00e9ant De Papier",
             "masked_id": ""
         },
         "75": {
@@ -2330,8 +2330,8 @@
             "genders": "Pop; New Wave",
             "sampled_by": "Riton & Oliver Heldens & Vula - Turn Me On",
             "sample_from": "",
-            "topic": "Donnez le titre de la chanson",
-            "reponse": "Yazoo",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Yazoo / Don't Go",
             "masked_id": ""
         },
         "179": {
@@ -2343,7 +2343,7 @@
             "genders": "Pop; Rock",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00c3\u00a9l\u00c3\u00a9ment de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "Air Supply / All out of love",
             "masked_id": ""
         },
@@ -3650,7 +3650,7 @@
             "genders": "Chanson Francaise; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "Patricia Kaas / Quand Jimmy Dit",
             "masked_id": "",
             "start_time": "0"
@@ -3748,7 +3748,7 @@
             "genders": "Pop; Chanson Francaise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00c3\u00a9l\u00c3\u00a9ment de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "Caroline Legrand / J'aurais Voulu Te Dire",
             "masked_id": "",
             "start_time": "0"
