@@ -11,7 +11,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Remady / Craig David",
             "masked_id": ""
         },
         "2": {
@@ -24,7 +24,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Chris Brown / Benny Benassi",
             "masked_id": ""
         },
         "3": {
@@ -37,7 +37,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Deorro / Chris Brown",
             "masked_id": ""
         },
         "4": {
@@ -50,7 +50,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez tous les artistes de la chanson",
-            "reponse": "",
+            "reponse": "John Legend / Ariana Grande",
             "masked_id": ""
         },
         "5": {
@@ -63,7 +63,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "The Weeknd / Kendrick Lamar",
             "masked_id": ""
         },
         "6": {
@@ -76,7 +76,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kendrick Lamar / SZA",
             "masked_id": ""
         },
         "7": {
@@ -89,7 +89,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Dadju",
             "masked_id": ""
         },
         "8": {
@@ -102,7 +102,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Matt Houston",
             "masked_id": ""
         },
         "9": {
@@ -115,7 +115,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Matt Houston",
             "masked_id": ""
         },
         "10": {
@@ -128,7 +128,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Jaloux",
             "masked_id": "",
             "start_time": "10"
         },
@@ -142,7 +142,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Dadju",
             "masked_id": ""
         },
         "12": {
@@ -155,7 +155,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Guatemala",
             "masked_id": "",
             "start_time": "0"
         },
@@ -169,7 +169,7 @@
             "sampled_by": "",
             "sample_from": "Santana - Maria Maria feat. The Product G&B",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "DJ Khaled / Rihanna / Bryson Tiller",
             "masked_id": "",
             "start_time": "10"
         },
@@ -182,8 +182,8 @@
             "genders": "RnB; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Kenny Lattimore / Push",
             "masked_id": "",
             "start_time": "0"
         },
@@ -196,8 +196,8 @@
             "genders": "RnB",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Leona Lewis / Trouble",
             "masked_id": "",
             "start_time": "0"
         },
@@ -211,7 +211,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Pharrell Williams",
             "masked_id": "",
             "start_time": "0"
         },
@@ -224,8 +224,8 @@
             "genders": "Pop; RnB",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Ryan Beatty / Powerslide",
             "masked_id": "",
             "start_time": "0"
         },

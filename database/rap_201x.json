@@ -11,7 +11,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Mokobe / P-Square",
             "masked_id": ""
         },
         "2": {
@@ -24,11 +24,11 @@
             "sampled_by": "",
             "sample_from": "Gala - Freed From Desire",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jul",
             "masked_id": ""
         },
         "3": {
-            "id": "ffEYMzrY1oo",
+            "id": "whbWyqmIiDA",
             "artists": "Section Pull Up; DJ Mike One",
             "title": "Comme DAB",
             "album": "",
@@ -36,9 +36,10 @@
             "genders": "Rap Jump-Up Chanson Francaise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
-            "masked_id": ""
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Section Pull Up / DJ Mike One / Comme DAB",
+            "masked_id": "",
+            "start_time": "30"
         },
         "4": {
             "id": "QFy0hQ3lY-w",
@@ -50,7 +51,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "DJ Snake / Lil Jon",
             "masked_id": ""
         },
         "5": {
@@ -62,8 +63,8 @@
             "genders": "Rap; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Silento / Watch Me",
             "masked_id": ""
         },
         "6": {
@@ -76,7 +77,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Woah",
             "masked_id": ""
         },
         "7": {
@@ -89,7 +90,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Creed",
             "masked_id": ""
         },
         "8": {
@@ -102,7 +103,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "The Weeknd / Kendrick Lamar",
             "masked_id": ""
         },
         "9": {
@@ -115,7 +116,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kendrick Lamar / SZA",
             "masked_id": ""
         },
         "10": {
@@ -124,11 +125,11 @@
             "title": "En vue",
             "album": "",
             "year": "2019",
-            "genders": "Rap; Chanson Francaise; Pop",
+            "genders": "Rap; Chanson Fran\u00e7aise; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Dixon / En vue",
             "masked_id": ""
         },
         "11": {
@@ -137,11 +138,11 @@
             "title": "Basique",
             "album": "La fete est finie",
             "year": "2017",
-            "genders": "Rap; Chanson Francaise",
+            "genders": "Rap; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Basique",
             "masked_id": ""
         },
         "12": {
@@ -150,24 +151,24 @@
             "title": "Tout va bien",
             "album": "La fete est finie",
             "year": "2018",
-            "genders": "Rap; Chanson Francaise",
+            "genders": "Rap; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Orelsan",
             "masked_id": ""
         },
         "13": {
             "id": "oDv12LfhhQ0",
             "artists": "Maitre Gims",
-            "title": "Brise",
+            "title": "Bris\u00e9",
             "album": "Mon Coeur Avait Raison (Pilule Bleu)",
             "year": "2015",
-            "genders": "Rap; Pop; Chanson Francaise",
+            "genders": "Rap; Pop; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Bris\u00e9",
             "masked_id": ""
         },
         "14": {
@@ -180,7 +181,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Guatemala",
             "masked_id": "",
             "start_time": "0"
         },
@@ -190,11 +191,11 @@
             "title": "50 CFA",
             "album": "Africa Forever",
             "year": "2011",
-            "genders": "Rap; Chanson Francaise",
+            "genders": "Rap; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Mokobe",
             "masked_id": "",
             "start_time": "0"
         },
@@ -208,7 +209,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Mokobe / Awa Imani",
             "masked_id": "",
             "start_time": "40"
         },
@@ -218,11 +219,11 @@
             "title": "Angela",
             "album": "Chaise Pliante",
             "year": "2019",
-            "genders": "Rap Chanson Francaise",
+            "genders": "Rap; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "Saian Supa Crew - Angela",
             "topic": "Donnez l'artiste orginal",
-            "reponse": "",
+            "reponse": "Saian Supa Crew",
             "masked_id": "",
             "start_time": "0"
         },
@@ -235,8 +236,8 @@
             "genders": "Pop; Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Lil Peep / iLoveMakonnen / Fall Out Boy / I've Been Waiting",
             "masked_id": "",
             "start_time": "0"
         },
@@ -249,8 +250,8 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "French Montana; Swae Lee; Unforgettable",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "French Montana / Swae Lee / Unforgettable",
             "masked_id": "",
             "start_time": "20"
         },

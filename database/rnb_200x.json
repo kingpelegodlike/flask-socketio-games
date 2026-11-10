@@ -11,7 +11,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "P-Square / J. Martins",
             "masked_id": ""
         },
         "2": {
@@ -23,8 +23,8 @@
             "genders": "RnB Indian",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Jay Sean / One Night",
             "masked_id": ""
         },
         "3": {
@@ -37,7 +37,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Truth Hurts / Rakim",
             "masked_id": ""
         },
         "4": {
@@ -50,7 +50,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Nina Sky / Jabba",
             "masked_id": ""
         },
         "5": {
@@ -63,7 +63,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Shaggy / Rikrok",
             "masked_id": ""
         },
         "6": {
@@ -76,7 +76,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Rihanna",
             "masked_id": ""
         },
         "7": {
@@ -89,7 +89,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Black Eyed Peas",
             "masked_id": ""
         },
         "8": {
@@ -102,7 +102,7 @@
             "sampled_by": "",
             "sample_from": "Change - The Glow of Love",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Janet Jackson",
             "masked_id": ""
         },
         "9": {
@@ -115,7 +115,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "R. Kelly",
             "masked_id": ""
         },
         "10": {
@@ -128,7 +128,7 @@
             "sampled_by": "",
             "sample_from": "Labelle - Lady Marmalade (Voulez Vous Coucher Avec Moi Ce Soir)",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Moulin Rouge",
             "masked_id": ""
         },
         "11": {
@@ -141,7 +141,7 @@
             "sampled_by": "",
             "sample_from": "Dirty Dancing - She's Like the Wind",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Lumidee / Tony Sunshine",
             "masked_id": "",
             "start_time": "10"
         },
@@ -155,7 +155,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Timbaland / Amar / Jim Beanz",
             "masked_id": ""
         },
         "13": {
@@ -167,8 +167,8 @@
             "genders": "RnB; Indian Song",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Raghav / Can't Get Enough",
             "masked_id": ""
         },
         "14": {
@@ -181,7 +181,7 @@
             "sampled_by": "Blue - One Love",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Kya Maine Socha / One Love",
             "masked_id": ""
         },
         "15": {
@@ -194,7 +194,7 @@
             "sampled_by": "",
             "sample_from": "Eric Benet - Georgy Porgy",
             "topic": "Donnez l'artiste orginal",
-            "reponse": "",
+            "reponse": "Eric Benet",
             "masked_id": ""
         },
         "16": {
@@ -207,7 +207,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Michael Jackson",
             "masked_id": ""
         },
         "17": {
@@ -220,7 +220,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Nelly Furtado",
             "masked_id": ""
         },
         "18": {
@@ -233,7 +233,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Nelly Furtado",
             "masked_id": ""
         },
         "19": {
@@ -246,7 +246,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Timbaland / Katy Perry",
             "masked_id": ""
         },
         "20": {
@@ -259,7 +259,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Timbaland / OneRepublic",
             "masked_id": ""
         },
         "21": {
@@ -272,7 +272,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Mariah Carey / Westlife",
             "masked_id": ""
         },
         "22": {
@@ -285,7 +285,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez tous les artistes de la chanson",
-            "reponse": "",
+            "reponse": "Whitney Houston / Enrique Iglesias",
             "masked_id": ""
         },
         "23": {
@@ -298,7 +298,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Madonna / Justin Timberlake / Timbaland",
             "masked_id": "",
             "start_time": "0"
         },
@@ -312,7 +312,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Britney Spears",
             "masked_id": "",
             "start_time": "0"
         },
@@ -326,7 +326,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Britney Spears",
             "masked_id": "",
             "start_time": "20"
         },
@@ -340,7 +340,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Gwen Stefani",
             "masked_id": ""
         },
         "27": {
@@ -353,7 +353,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Sergio Mendes / Black Eyed Peas",
             "masked_id": ""
         },
         "28": {
@@ -366,7 +366,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Black Eyed Peas",
             "masked_id": ""
         },
         "29": {
@@ -379,7 +379,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Michael McDonald",
             "masked_id": ""
         },
         "30": {
@@ -392,7 +392,7 @@
             "sampled_by": "DaBaby & Ashanti & Megan Thee Stallion- Nasty",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Ashanti",
             "masked_id": "",
             "start_time": "0"
         },
@@ -406,7 +406,7 @@
             "sampled_by": "NLE Choppa - It's Getting Hot",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Nelly",
             "masked_id": "",
             "start_time": "0"
         },
@@ -420,7 +420,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Britney Spears",
             "masked_id": "",
             "start_time": "0"
         },
@@ -434,7 +434,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "reponse": "JoJo",
             "masked_id": "",
             "start_time": "0"
         },

@@ -11,7 +11,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jimmy Cliff",
             "masked_id": ""
         },
         "2": {
@@ -24,7 +24,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Tairo / Treesha",
             "masked_id": ""
         },
         "3": {
@@ -37,7 +37,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Tairo / Youssoupha",
             "masked_id": ""
         },
         "4": {
@@ -50,7 +50,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Tairo",
             "masked_id": ""
         },
         "5": {
@@ -63,7 +63,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Tairo",
             "masked_id": ""
         },
         "6": {
@@ -76,20 +76,20 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Tairo",
             "masked_id": ""
         },
         "7": {
             "id": "i1REpOZ8KiU",
             "artists": "Cookie Dingler",
-            "title": "Femme Liberee",
+            "title": "Femme Liber\u00e9e",
             "album": "",
             "year": "1984",
-            "genders": "Chanson Francaise; Reggae",
+            "genders": "Chanson Fran\u00e7aise; Reggae",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Femme Liber\u00e9e",
             "masked_id": ""
         },
         "8": {
@@ -102,7 +102,7 @@
             "sampled_by": "",
             "sample_from": "Chris De Burgh - The Lady In Red",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Lady in red",
             "masked_id": ""
         },
         "9": {
@@ -115,7 +115,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Lauryn Hill / Bob Marley",
             "masked_id": ""
         },
         "10": {
@@ -128,7 +128,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Whitney Houston",
             "masked_id": ""
         },
         "11": {
@@ -137,11 +137,11 @@
             "title": "Yaka Danse",
             "album": "Madagascar",
             "year": "1988",
-            "genders": "Pop; Reggae; Chanson Francaise",
+            "genders": "Pop; Reggae; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Raft / Yaka Danse",
             "masked_id": "",
             "start_time": "0"
         },
@@ -151,11 +151,11 @@
             "title": "Femmes Du Congo",
             "album": "Madagascar",
             "year": "1988",
-            "genders": "Chanson Francaise; Pop; Reggae",
+            "genders": "Chanson Fran\u00e7aise; Pop; Reggae",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Raft / Femmes Du Congo",
             "masked_id": "",
             "start_time": "0"
         },
@@ -169,7 +169,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Culture Club",
             "masked_id": "",
             "start_time": "0"
         },
@@ -183,7 +183,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Yannick Noah",
             "masked_id": "",
             "start_time": "0"
         }

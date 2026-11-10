@@ -11,8 +11,9 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
-            "masked_id": ""
+            "reponse": "SPIDER",
+            "masked_id": "",
+            "start_time": "20"
         },
         "2": {
             "id": "Sq5EDI7JktA",
@@ -24,7 +25,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "GIMS",
             "masked_id": ""
         },
         "3": {
@@ -33,11 +34,11 @@
             "title": "Petit Genie",
             "album": "",
             "year": "",
-            "genders": "Pop; Afrobeat; Rap; Chanson Fran\u00c3\u00a7aise",
+            "genders": "Pop; Afrobeat; Rap; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Petit Genie",
             "masked_id": ""
         },
         "4": {
@@ -46,11 +47,11 @@
             "title": "Position",
             "album": "Prime",
             "year": "2024",
-            "genders": "RnB; Afrobeat; Rap; Chanson Fran\u00c3\u00a7aise",
+            "genders": "RnB; Afrobeat; Rap; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Franglish",
             "masked_id": "",
             "start_time": "0"
         },
@@ -64,7 +65,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Mokobe / P-Square",
             "masked_id": ""
         },
         "6": {
@@ -77,7 +78,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Queen Latifah",
             "masked_id": ""
         },
         "7": {
@@ -90,7 +91,7 @@
             "sampled_by": "",
             "sample_from": "Gala - Freed From Desire",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jul",
             "masked_id": ""
         },
         "8": {
@@ -99,11 +100,11 @@
             "title": "Zamalia",
             "album": "Trait pour trait",
             "year": "2006",
-            "genders": "Rap Chanson Francaise Ragga",
+            "genders": "Rap; Chanson Fran\u00e7aise; Ragga",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Sniper",
             "masked_id": ""
         },
         "9": {
@@ -116,11 +117,11 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kris Kross",
             "masked_id": ""
         },
         "10": {
-            "id": "ffEYMzrY1oo",
+            "id": "whbWyqmIiDA",
             "artists": "Section Pull Up; DJ Mike One",
             "title": "Comme DAB",
             "album": "",
@@ -128,9 +129,10 @@
             "genders": "Rap Jump-Up Chanson Francaise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
-            "masked_id": ""
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Section Pull Up / DJ Mike One / Comme DAB",
+            "masked_id": "",
+            "start_time": "30"
         },
         "11": {
             "id": "tR0WMdIqxus",
@@ -142,7 +144,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Public Enemy / Benny Benassi",
             "masked_id": ""
         },
         "12": {
@@ -155,7 +157,7 @@
             "sampled_by": "",
             "sample_from": "Daft Punk - One More Time",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Drake / 21 Savage",
             "masked_id": ""
         },
         "13": {
@@ -168,7 +170,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "DJ Snake / Lil Jon",
             "masked_id": ""
         },
         "14": {
@@ -180,8 +182,8 @@
             "genders": "Rap; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Silento / Watch Me",
             "masked_id": ""
         },
         "15": {
@@ -194,7 +196,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Woah",
             "masked_id": ""
         },
         "16": {
@@ -207,7 +209,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Toosie Slide",
             "masked_id": ""
         },
         "17": {
@@ -219,8 +221,8 @@
             "genders": "Rap Funk Disco",
             "sampled_by": "",
             "sample_from": "Queen - Another One Bites The Dust",
-            "topic": "Donnez l'artiste orginal",
-            "reponse": "",
+            "topic": "Donnez l'artiste original",
+            "reponse": "Queen",
             "masked_id": ""
         },
         "18": {
@@ -233,7 +235,7 @@
             "sampled_by": "",
             "sample_from": "Kool And The Gang - Ladies Night",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Heavy D & The Boyz",
             "masked_id": ""
         },
         "19": {
@@ -246,7 +248,7 @@
             "sampled_by": "",
             "sample_from": "Grandmaster Flash - The Message",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Ice Cube / Das EFX",
             "masked_id": ""
         },
         "20": {
@@ -259,7 +261,7 @@
             "sampled_by": "Ice Cube - Check Yo Self",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Grandmaster Flash / The Furious Five",
             "masked_id": ""
         },
         "21": {
@@ -272,7 +274,7 @@
             "sampled_by": "",
             "sample_from": "Oliver Cheatham - Get Down Saturday Night",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Rohff / DJ Abdel / Oliver Cheatham",
             "masked_id": ""
         },
         "22": {
@@ -285,7 +287,7 @@
             "sampled_by": "",
             "sample_from": "Patrice Rushen - Forget Me Nots",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Will Smith / Coko",
             "masked_id": ""
         },
         "23": {
@@ -298,7 +300,7 @@
             "sampled_by": "",
             "sample_from": "Carl Carlton - She's a bad mama jama",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Foxy Brown / Dru Hill",
             "masked_id": ""
         },
         "24": {
@@ -311,7 +313,7 @@
             "sampled_by": "",
             "sample_from": "Chic - Le Freak",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Pitbull / Nile Rodgers",
             "masked_id": ""
         },
         "25": {
@@ -324,7 +326,7 @@
             "sampled_by": "Daddy Yankee - Con Calma",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Snow",
             "masked_id": ""
         },
         "26": {
@@ -337,7 +339,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Creed",
             "masked_id": ""
         },
         "27": {
@@ -350,7 +352,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Wild Wild West",
             "masked_id": ""
         },
         "28": {
@@ -363,7 +365,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Tha Dogg Pound / Snoop Dogg / Nate Dogg",
             "masked_id": ""
         },
         "29": {
@@ -376,7 +378,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "8 Mile",
             "masked_id": ""
         },
         "30": {
@@ -389,7 +391,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Method Man / Redman / Toni Braxton",
             "masked_id": ""
         },
         "31": {
@@ -402,7 +404,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "The Weeknd / Kendrick Lamar",
             "masked_id": ""
         },
         "32": {
@@ -415,7 +417,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kendrick Lamar / SZA",
             "masked_id": ""
         },
         "33": {
@@ -428,7 +430,7 @@
             "sampled_by": "",
             "sample_from": "Dirty Dancing - She's Like the Wind",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Lumidee / Tony Sunshine",
             "masked_id": "",
             "start_time": "10"
         },
@@ -442,7 +444,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Nicki Minaj / Ice Spice / Aqua",
             "masked_id": ""
         },
         "35": {
@@ -455,7 +457,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "DJ Jazzy Jeff / Will Smith",
             "masked_id": ""
         },
         "37": {
@@ -468,7 +470,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez tous les artistes de la chanson",
-            "reponse": "",
+            "reponse": "Maitre Gims / Vitaa",
             "masked_id": ""
         },
         "38": {
@@ -481,7 +483,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Grand Corps Malade / Julie Berthollet / Camille Berthollet",
             "masked_id": ""
         },
         "39": {
@@ -494,7 +496,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez tous les artistes de la chanson",
-            "reponse": "",
+            "reponse": "Grand Corps Malade / Louane",
             "masked_id": ""
         },
         "40": {
@@ -507,7 +509,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Grand Corps Malade / Amuse-Bouche",
             "masked_id": ""
         },
         "41": {
@@ -520,7 +522,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Grand Corps Malade / Camille Lellouche",
             "masked_id": ""
         },
         "42": {
@@ -533,7 +535,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Grand Corps Malade / Kimberose",
             "masked_id": ""
         },
         "43": {
@@ -545,8 +547,8 @@
             "genders": "Rap; Chanson Francaise; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Dixon / En vue",
             "masked_id": ""
         },
         "44": {
@@ -559,7 +561,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Basique",
             "masked_id": ""
         },
         "45": {
@@ -572,20 +574,20 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Orelsan",
             "masked_id": ""
         },
         "46": {
             "id": "oDv12LfhhQ0",
             "artists": "Maitre Gims",
-            "title": "Brise",
+            "title": "Bris\u00e9",
             "album": "Mon Coeur Avait Raison (Pilule Bleu)",
             "year": "2015",
             "genders": "Rap; Pop; Chanson Francaise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Bris\u00e9",
             "masked_id": ""
         },
         "47": {
@@ -598,7 +600,7 @@
             "sampled_by": "",
             "sample_from": "Madonna - Holiday",
             "topic": "Donnez l'artiste orginal",
-            "reponse": "",
+            "reponse": "Madonna",
             "masked_id": ""
         },
         "48": {
@@ -611,7 +613,7 @@
             "sampled_by": "",
             "sample_from": "Cyndi Lauper - True Colors",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Mystik / K-Reen",
             "masked_id": ""
         },
         "49": {
@@ -624,7 +626,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Lauryn Hill",
             "masked_id": "",
             "start_time": "0"
         },
@@ -638,7 +640,7 @@
             "sampled_by": "",
             "sample_from": "Mariah Carey - Fantasy",
             "topic": "Donnez l'artiste orginal",
-            "reponse": "",
+            "reponse": "Mariah Carey",
             "masked_id": ""
         },
         "51": {
@@ -651,7 +653,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Mariah Carey / Jermaine Dupri",
             "masked_id": ""
         },
         "52": {
@@ -664,7 +666,7 @@
             "sampled_by": "",
             "sample_from": "Patrice Rushen - Remind Me",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Heavy D & The Boyz",
             "masked_id": ""
         },
         "53": {
@@ -677,7 +679,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "R. Kelly",
             "masked_id": ""
         },
         "54": {
@@ -690,7 +692,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Nas / Mary J. Blige",
             "masked_id": ""
         },
         "55": {
@@ -703,7 +705,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Nate Dogg / Snoop Dogg / Val Young",
             "masked_id": ""
         },
         "56": {
@@ -716,7 +718,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Black Eyed Peas",
             "masked_id": ""
         },
         "57": {
@@ -729,7 +731,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Tiakola / Rsko",
             "masked_id": ""
         },
         "58": {
@@ -742,7 +744,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Fade Up",
             "masked_id": "",
             "start_time": "60"
         },
@@ -755,8 +757,8 @@
             "genders": "Rap; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Lizzo / Cardi B / Rumors",
             "masked_id": "",
             "start_time": "0"
         },
@@ -770,7 +772,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Lizzo",
             "masked_id": "",
             "start_time": "0"
         },
@@ -784,7 +786,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Astronaut in the Ocean",
             "masked_id": "",
             "start_time": "0"
         },
@@ -797,14 +799,14 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Knucks / Thames",
             "masked_id": "",
             "start_time": "0"
         },
         "63": {
             "id": "E1EQIatNuBU",
-            "artists": "Orelsan; Angele",
+            "artists": "Orelsan; Ang\u00e8le",
             "title": "Evidemment",
             "album": "Civilisation Perdue",
             "year": "2022",
@@ -812,7 +814,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Orelsan / Ang\u00e8le",
             "masked_id": "",
             "start_time": "0"
         },
@@ -826,7 +828,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "L'Algerino",
             "masked_id": "",
             "start_time": "0"
         },
@@ -840,7 +842,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Lil Nas X",
             "masked_id": "",
             "start_time": "0"
         },
@@ -854,7 +856,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Ed Sheeran",
             "masked_id": "",
             "start_time": "0"
         },
@@ -868,7 +870,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Future / Drake",
             "masked_id": "",
             "start_time": "0"
         },
@@ -882,7 +884,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Spider-Man: Across the Spider-Verse",
             "masked_id": "",
             "start_time": "40"
         },
@@ -895,8 +897,8 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Migos / YoungBoy Never Broke Again / Need It",
             "masked_id": "",
             "start_time": "0"
         },
@@ -909,8 +911,8 @@
             "genders": "Rap; Drill",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Jnr Choi / Sam Tompkins / To the Moon",
             "masked_id": "",
             "start_time": "10"
         },
@@ -924,7 +926,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Doja Cat",
             "masked_id": "",
             "start_time": "0"
         },
@@ -938,7 +940,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Doja Cat",
             "masked_id": "",
             "start_time": "0"
         },
@@ -952,7 +954,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Post Malone / Roddy Ricch",
             "masked_id": "",
             "start_time": "0"
         },
@@ -966,7 +968,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Shenseea / 21 Savage",
             "masked_id": "",
             "start_time": "10"
         },
@@ -980,7 +982,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Snoop Dogg / October London / Nefertitti Avani",
             "masked_id": "",
             "start_time": "20"
         },
@@ -994,7 +996,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Lizzo",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1008,7 +1010,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "K-Pop",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1022,7 +1024,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Gunna",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1036,7 +1038,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Guatemala",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1050,7 +1052,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Dave / Central Cee",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1064,7 +1066,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Future / Metro Boomin / Don Toliver",
             "masked_id": "",
             "start_time": "20"
         },
@@ -1077,14 +1079,14 @@
             "genders": "Rap; Trap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Jack Harlow / Tyler Herro",
             "masked_id": "",
             "start_time": "0"
         },
         "83": {
             "id": "ig5TWGL1P94",
-            "artists": "Ikaz Boi; La Feve",
+            "artists": "Ikaz Boi; La F\u00e8ve",
             "title": "J'Savais",
             "album": "BRUT4L",
             "year": "2023",
@@ -1092,7 +1094,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Ikaz Boi / La F\u00e8ve",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1106,7 +1108,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Drake / Lil Durk",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1120,7 +1122,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Central Cee",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1133,8 +1135,8 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Jack Harlow / First Class",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1148,7 +1150,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Mood",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1162,7 +1164,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Dave / Tiakola",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1175,22 +1177,22 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Lil Nas X / Jack Harlow / Industry Baby",
             "masked_id": "",
             "start_time": "0"
         },
         "90": {
             "id": "DrKAu40vIB0",
-            "artists": "Kofs; Soso Maness; Elams; Jul; SCH; Naps; Solda; Houari; 13 Organise",
-            "title": "Bande organisee",
-            "album": "13'Organise",
+            "artists": "Kofs; Soso Maness; Elams; Jul; SCH; Naps; Solda; Houari; 13 Organis\u00e9",
+            "title": "Bande organis\u00e9e",
+            "album": "13'Organis\u00e9",
             "year": "2020",
             "genders": "Rap; Chanson Francaise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Bande organis\u00e9e",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1203,8 +1205,8 @@
             "genders": "Rap; Drill",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "CJ / Whoopty",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1218,7 +1220,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Autobahn",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1231,8 +1233,8 @@
             "genders": "Rap; Trap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "DaBaby / YoungBoy Never Broke Again / Jump",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1246,7 +1248,7 @@
             "sampled_by": "",
             "sample_from": "Ashanti - Baby",
             "topic": "Donnez l'artiste orginal",
-            "reponse": "",
+            "reponse": "Ashanti",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1259,8 +1261,8 @@
             "genders": "Rap; Afrobeat",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Wes Nelson / Loredana / Nice To Meet Ya",
             "masked_id": "",
             "start_time": "20"
         },
@@ -1274,7 +1276,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Future / Metro Boomin / Kendrick Lamar",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1288,7 +1290,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Drake / Sexyy Red / SZA",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1302,7 +1304,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Monaco",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1316,7 +1318,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Nicki Minaj",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1330,7 +1332,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Nicki Minaj / Lil Wayne / Tate Kobang",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1343,8 +1345,8 @@
             "genders": "Rap; Jazz; House",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Blue Lab Beats / IDK / Jay Prince / Nico Harris / Say Wow",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1358,7 +1360,7 @@
             "sampled_by": "",
             "sample_from": "Nelly - Hot In Herre",
             "topic": "Donnez l'artiste orginal",
-            "reponse": "",
+            "reponse": "Nelly",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1372,7 +1374,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Franglish",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1386,7 +1388,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "MHD / Tiakola",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1400,7 +1402,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Travis Scott / Playboi Carti",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1414,7 +1416,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Mokobe",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1428,7 +1430,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Mokobe / Awa Imani",
             "masked_id": "",
             "start_time": "40"
         },
@@ -1442,7 +1444,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Les Inconnus",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1456,7 +1458,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Les Inconnus",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1470,7 +1472,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Les Inconnus",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1484,7 +1486,7 @@
             "sampled_by": "Hatik - Angela",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Saian Supa Crew",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1498,7 +1500,7 @@
             "sampled_by": "",
             "sample_from": "Saian Supa Crew - Angela",
             "topic": "Donnez l'artiste orginal",
-            "reponse": "",
+            "reponse": "Saian Supa Crew",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1511,8 +1513,8 @@
             "genders": "Zouk; Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Shydeeh / Don't Even Touch",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1525,8 +1527,8 @@
             "genders": "Zouk; Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Shydeeh / Wooh She's Who",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1539,8 +1541,8 @@
             "genders": "Rap; Electro; BreakBeat",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Break Machine / Street Dance",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1554,7 +1556,7 @@
             "sampled_by": "",
             "sample_from": "Michael McDonald - I Keep Forgettin'",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Warren G / Nate Dogg",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1568,7 +1570,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "SDM",
             "masked_id": "",
             "start_time": "10"
         },
@@ -1582,7 +1584,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "SDM",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1595,8 +1597,8 @@
             "genders": "Rap; Pop; House",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "One-T / Cool-T / The Magic Key",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1609,8 +1611,8 @@
             "genders": "Pop; Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Lil Peep / iLoveMakonnen / Fall Out Boy / I've Been Waiting",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1659,14 +1661,14 @@
         "124": {
             "id": "xNbEax1uJ4w",
             "artists": "Tiakola",
-            "title": "Me\u0301lo De\u0301cale\u0301",
+            "title": "M\u00e9lo D\u00e9cal\u00e9",
             "album": "WpointM",
             "year": "2026",
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "Tiakola / Me\u0301lo De\u0301cale\u0301",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Tiakola / M\u00e9lo D\u00e9cal\u00e9",
             "masked_id": "",
             "start_time": "10"
         },
@@ -1679,7 +1681,7 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "Mauvais Djo",
             "masked_id": "",
             "start_time": "0"
@@ -1693,7 +1695,7 @@
             "genders": "",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "Naza / SDM / Tout donner",
             "masked_id": "",
             "start_time": "10"
@@ -1707,7 +1709,7 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "Keblack / Guy2Bezbar / Melrose Place",
             "masked_id": "",
             "start_time": "0"
@@ -1721,7 +1723,7 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "RnBoi / Mon Bebe",
             "masked_id": "",
             "start_time": "10"
@@ -1735,7 +1737,7 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "Tiakola / Rsko / Hamza / 1h55",
             "masked_id": "",
             "start_time": "30"
@@ -1749,7 +1751,7 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "Triangle des bermudes / Aya Nakamura / Balek",
             "masked_id": "",
             "start_time": "20"
@@ -1763,7 +1765,7 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "Keblack / Laisse moi",
             "masked_id": "",
             "start_time": "0"
@@ -1777,7 +1779,7 @@
             "genders": "Rap; Afrobeat",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "Keblack / Franglish / Boucan",
             "masked_id": "",
             "start_time": "20"
@@ -1791,7 +1793,7 @@
             "genders": "Rap; Africain; Afrobeat",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "Tayc / Reanyme / Anyme",
             "masked_id": "",
             "start_time": "0"
@@ -1805,7 +1807,7 @@
             "genders": "Rap; Afrobeat",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "Triangle Des Bermudes / MC YOSHI / Kokosvoice / Mauvais djo / Lunettes",
             "masked_id": "",
             "start_time": "20"
@@ -1819,7 +1821,7 @@
             "genders": "Rap; Afrobeat",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "Triangle Des Bermudes / MC YOSHI / Kokosvoice / Mauvais Djo / Charger",
             "masked_id": "",
             "start_time": "30"
@@ -1833,7 +1835,7 @@
             "genders": "Rap; Drill",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "Big Sean / Precision",
             "masked_id": "",
             "start_time": "10"
@@ -1847,7 +1849,7 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "Kendrick Lamar / Not Like Us",
             "masked_id": "",
             "start_time": "0"

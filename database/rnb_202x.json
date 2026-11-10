@@ -3,15 +3,15 @@
     "yt": {
         "1": {
             "id": "ozthKn07Ei4",
-            "artists": "Dadju & Tayc",
+            "artists": "Dadju; Tayc",
             "title": "I love you",
-            "album": "H\u00c3\u00a9ritage",
+            "album": "H\u00e9ritage",
             "year": "2024",
-            "genders": "Pop Rnb",
+            "genders": "Pop; Rnb",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez tous les artistes de la chanson",
-            "reponse": "",
+            "reponse": "Dadju / Tayc",
             "masked_id": ""
         },
         "2": {
@@ -20,11 +20,11 @@
             "title": "Position",
             "album": "Prime",
             "year": "2024",
-            "genders": "RnB; Afrobeat; Rap; Chanson Fran\u00c3\u00a7aise",
+            "genders": "RnB; Afrobeat; Rap; Chanson Fran\u00e7aise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Franglish",
             "masked_id": "",
             "start_time": "0"
         },
@@ -38,7 +38,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "The Weeknd",
             "masked_id": ""
         },
         "4": {
@@ -51,7 +51,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Aya Nakamura / Damso",
             "masked_id": ""
         },
         "6": {
@@ -64,7 +64,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Vitaa",
             "masked_id": ""
         },
         "7": {
@@ -77,7 +77,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Amel Bent",
             "masked_id": ""
         },
         "8": {
@@ -90,7 +90,7 @@
             "sampled_by": "",
             "sample_from": "Mark Morrison - Return Of The Mack",
             "topic": "Donnez l'artiste orginal",
-            "reponse": "",
+            "reponse": "Mark Morrison",
             "masked_id": ""
         },
         "9": {
@@ -103,7 +103,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Nicki Minaj / Lil Wayne / Tate Kobang",
             "masked_id": "",
             "start_time": "0"
         },
@@ -117,7 +117,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Dadju",
             "masked_id": "",
             "start_time": "0"
         },
@@ -145,7 +145,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Tems",
             "masked_id": "",
             "start_time": "0"
         },
@@ -201,7 +201,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "H.E.R. ou Pop Smoke ou Chris Brown ou Slide",
+            "reponse": "H.E.R. / Pop Smoke / Chris Brown / Slide",
             "masked_id": "",
             "start_time": "0"
         },
@@ -214,8 +214,8 @@
             "genders": "RnB",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "Lucky Daye; Over",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Lucky Daye / Over",
             "masked_id": "",
             "start_time": "0"
         },
@@ -228,7 +228,7 @@
             "genders": "RnB; Soul",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "Lucky Daye / Cherry Forest",
             "masked_id": "",
             "start_time": "0"
@@ -242,7 +242,7 @@
             "genders": "RnB; Soul",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "Lucky Daye / Yebba / How Much Can A Heart Take",
             "masked_id": "",
             "start_time": "0"
@@ -256,7 +256,7 @@
             "genders": "RnB; Soul",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "Lucky Daye / HERicane",
             "masked_id": "",
             "start_time": "0"
@@ -270,7 +270,7 @@
             "genders": "RnB; Soul",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "Lucky Daye / Teddy Swims / Blame",
             "masked_id": "",
             "start_time": "0"
@@ -298,7 +298,7 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "L2B / Pelican",
             "masked_id": "",
             "start_time": "30"
@@ -312,7 +312,7 @@
             "genders": "RnB; Shata; Ragga",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "Meryl / Coco Chanel / Eva",
             "masked_id": "",
             "start_time": "20"

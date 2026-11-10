@@ -3,15 +3,15 @@
     "yt": {
         "1": {
             "id": "ozthKn07Ei4",
-            "artists": "Dadju & Tayc",
+            "artists": "Dadju; Tayc",
             "title": "I love you",
-            "album": "H\u00c3\u00a9ritage",
+            "album": "H\u00e9ritage",
             "year": "2024",
-            "genders": "Pop Rnb",
+            "genders": "Pop; Rnb",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez tous les artistes de la chanson",
-            "reponse": "",
+            "reponse": "Dadju / Tayc",
             "masked_id": ""
         },
         "2": {
@@ -50,8 +50,8 @@
             "genders": "RnB Indian",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Jay Sean / One Night",
             "masked_id": ""
         },
         "5": {
@@ -328,7 +328,7 @@
             "masked_id": ""
         },
         "26": {
-            "id": "lR3gLKzxILE",
+            "id": "MG7c5GjJ7i8",
             "artists": "Whitney Houston",
             "title": "I Have Nothing",
             "album": "The Bodyguard Soundtrack",
@@ -338,7 +338,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "27": {
             "id": "T9Ybsvw_0p4",
@@ -367,7 +368,7 @@
             "masked_id": ""
         },
         "29": {
-            "id": "OSMA3E_VAsY",
+            "id": "AOY5XJN_91c",
             "artists": "Whitney Houston",
             "title": "Queen Of The Night",
             "album": "The Bodyguard Soundtrack",
@@ -377,7 +378,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "30": {
             "id": "MMyNH7mlm0M",
@@ -546,8 +548,8 @@
             "genders": "RnB; Indian Song",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Raghav / Can't Get Enough",
             "masked_id": ""
         },
         "44": {
@@ -1082,7 +1084,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "30"
         },
         "85": {
             "id": "9IJK6m-rTZs",
@@ -1640,8 +1643,8 @@
             "genders": "RnB",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Davina / Raekwon / So Good",
             "masked_id": ""
         },
         "128": {
@@ -1710,7 +1713,7 @@
             "masked_id": ""
         },
         "133": {
-            "id": "H1MzxLFarxo",
+            "id": "VijRoBx9czw",
             "artists": "Whitney Houston",
             "title": "I Learned From The Best",
             "album": "My Love Is Your Love",
@@ -1720,7 +1723,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "10"
         },
         "134": {
             "id": "AbZ6cfulEbA",
@@ -1798,7 +1802,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "20"
         },
         "140": {
             "id": "_lw0DzzwpTg",
@@ -1979,8 +1984,8 @@
             "genders": "RnB",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Jason Weaver / Stay With Me",
             "masked_id": ""
         },
         "154": {
@@ -2018,8 +2023,8 @@
             "genders": "RnB; New Jack Swing",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Whitehead Bros / Forget I Was A G",
             "masked_id": ""
         },
         "157": {
@@ -2153,7 +2158,7 @@
             "masked_id": ""
         },
         "167": {
-            "id": "hNrPBp5K0eA",
+            "id": "sbOk0unnlbw",
             "artists": "Mark Morrison",
             "title": "Return Of The Mack",
             "album": "Return Of The Mack",
@@ -2163,7 +2168,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "168": {
             "id": "fgvNxpe_TXU",
@@ -2218,7 +2224,7 @@
             "masked_id": ""
         },
         "172": {
-            "id": "tLNaDVFejQQ",
+            "id": "lBPEkEOUUp0",
             "artists": "Babyface; Stevie Wonder",
             "title": "How Come, How Long",
             "album": "The Day",
@@ -2228,7 +2234,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "173": {
             "id": "nSbE4P1yPwU",
@@ -2783,7 +2790,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Britney Spears",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2796,8 +2803,8 @@
             "genders": "RnB; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "JoJo / Leave (Get Out)",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2810,8 +2817,8 @@
             "genders": "RnB; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Kenny Lattimore / Push",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2824,8 +2831,8 @@
             "genders": "RnB",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Leona Lewis / Trouble",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2839,7 +2846,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Pharrell Williams",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2852,8 +2859,8 @@
             "genders": "Pop; RnB",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Ryan Beatty / Powerslide",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2880,7 +2887,7 @@
             "genders": "RnB",
             "sampled_by": "GloRilla - Typa",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
             "reponse": "Keyshia Cole / Love / GloRilla",
             "masked_id": "",
             "start_time": "0"

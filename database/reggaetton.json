@@ -11,7 +11,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Gimmie Di Whine",
             "masked_id": ""
         },
         "2": {
@@ -24,7 +24,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Major Lazer / J. Balvin / El Alfa",
             "masked_id": ""
         },
         "3": {
@@ -37,7 +37,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Bum Bum Tam Tam",
             "masked_id": ""
         },
         "4": {
@@ -50,11 +50,11 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Tchiriri",
             "masked_id": ""
         },
         "5": {
-            "id": "1gwhhHKyzUs",
+            "id": "WCQuf90qf9U",
             "artists": "King Africa",
             "title": "La Bomba",
             "album": "La Bomba",
@@ -63,8 +63,9 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
-            "masked_id": ""
+            "reponse": "La Bomba",
+            "masked_id": "",
+            "start_time": "30"
         },
         "6": {
             "id": "v4RvZJnq36o",
@@ -76,7 +77,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Daddy Yankee",
             "masked_id": ""
         },
         "7": {
@@ -88,8 +89,8 @@
             "genders": "Latin; Reggaeton",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Angel y Khriz / Ven Bailalo",
             "masked_id": ""
         },
         "8": {
@@ -102,7 +103,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Lorna",
             "masked_id": ""
         },
         "9": {
@@ -114,8 +115,8 @@
             "genders": "Latin; Reggaeton",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Jose De Rico; Henry Mendez; Jay Santos / Noche De Estrellas",
             "masked_id": ""
         },
         "10": {
@@ -128,7 +129,7 @@
             "sampled_by": "",
             "sample_from": "Snow - Informer",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Daddy Yankee / Snow",
             "masked_id": ""
         },
         "11": {
@@ -141,7 +142,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Maluma / Nego do Borel",
             "masked_id": ""
         },
         "12": {
@@ -153,8 +154,8 @@
             "genders": "Latin; Pop; Reggaeton",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "Farruko / Victor Cardenas / DJ Adoni / El Incomprendido",
             "masked_id": ""
         },
         "13": {
@@ -167,7 +168,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Shakira / Wyclef Jean",
             "masked_id": ""
         },
         "14": {
@@ -180,7 +181,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Maluma / The Weeknd",
             "masked_id": ""
         },
         "15": {
@@ -193,7 +194,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Rvssian / Rauw Alejandro / Chris Brown",
             "masked_id": ""
         },
         "16": {
@@ -206,7 +207,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "DJ Snake / Ozuna / Megan Thee Stallion / Lalisa Manobal",
             "masked_id": ""
         },
         "17": {
@@ -219,7 +220,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "J. Balvin / Khalid",
             "masked_id": ""
         },
         "18": {
@@ -232,7 +233,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Sean Paul / Damian Marley / Nicky Jam",
             "masked_id": ""
         },
         "19": {
@@ -244,8 +245,8 @@
             "genders": "Reggaeton; Latin",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez le titre de la chanso",
-            "reponse": "",
+            "topic": "Donnez le titre de la chanson",
+            "reponse": "Anitta",
             "masked_id": ""
         },
         "20": {
@@ -258,7 +259,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Bad Bunny",
             "masked_id": ""
         },
         "21": {
@@ -271,7 +272,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Pitbull / Omar Courtz",
             "masked_id": ""
         },
         "22": {
@@ -284,7 +285,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Bad Bunny / Jhay Cortez",
             "masked_id": ""
         },
         "23": {
@@ -297,7 +298,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Bad Bunny",
             "masked_id": ""
         },
         "24": {
@@ -310,7 +311,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Karol G / Shakira",
             "masked_id": ""
         },
         "25": {
@@ -323,7 +324,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Bad Bunny / Tainy",
             "masked_id": ""
         },
         "26": {
@@ -336,7 +337,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Bad Bunny",
             "masked_id": ""
         },
         "27": {
@@ -349,7 +350,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Nicky Jam / J. Balvin",
             "masked_id": ""
         },
         "28": {
@@ -362,7 +363,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Nio Garcia / Casper Magico / Bad Bunny / Darell / Ozuna / Nicky Jam",
             "masked_id": ""
         },
         "29": {
@@ -375,7 +376,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Shakira / Nicky Jam",
             "masked_id": ""
         },
         "30": {
@@ -388,7 +389,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "DJ Snake / J. Balvin / Tyga",
             "masked_id": ""
         },
         "31": {
@@ -401,7 +402,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "DJ Snake / Selena Gomez / Ozuna / Cardi B",
             "masked_id": ""
         },
         "32": {
@@ -414,7 +415,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "DJ Snake / Selena Gomez",
             "masked_id": ""
         },
         "33": {
@@ -427,7 +428,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Kamaleon",
             "masked_id": ""
         },
         "34": {
@@ -440,7 +441,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kamaleon",
             "masked_id": ""
         },
         "35": {
@@ -453,7 +454,7 @@
             "sampled_by": "",
             "sample_from": "Corona - The Rhythm of the Night.",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Black Eyed Peas / J. Balvin",
             "masked_id": ""
         },
         "36": {
@@ -466,7 +467,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Enrique Iglesias / Descemer Bueno / Zion & Lennox",
             "masked_id": ""
         },
         "37": {
@@ -479,7 +480,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Bad Bunny / Drake",
             "masked_id": ""
         },
         "38": {
@@ -492,7 +493,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Daddy Yankee",
             "masked_id": ""
         },
         "39": {
@@ -505,7 +506,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Ozuna",
             "masked_id": ""
         },
         "40": {
@@ -518,7 +519,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Criminal",
             "masked_id": ""
         },
         "41": {
@@ -531,7 +532,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Tusa",
             "masked_id": ""
         },
         "42": {
@@ -544,7 +545,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Ozuna",
             "masked_id": ""
         },
         "43": {
@@ -556,8 +557,8 @@
             "genders": "",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "reponse": "N.O.R.E. / Nina Sky / Oye Mi Canto",
             "masked_id": ""
         },
         "44": {
@@ -570,7 +571,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Shakira / Alejandro Sanz",
             "masked_id": ""
         },
         "45": {
@@ -583,7 +584,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Gasolina",
             "masked_id": ""
         }
     }
