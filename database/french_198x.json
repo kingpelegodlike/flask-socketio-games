@@ -201,7 +201,7 @@
         },
         "16": {
             "id": "0zFVR0P3AqA",
-            "artists": "Gerard Blanc",
+            "artists": "Gérard Blanc",
             "title": "Du Soleil Dans La Nuit",
             "album": "Ailleurs Pour Un Ailleurs",
             "year": "1988",
@@ -209,7 +209,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "Gerard Blanc",
+            "reponse": "Gérard Blanc",
             "masked_id": ""
         },
         "17": {
@@ -331,7 +331,7 @@
         },
         "26": {
             "id": "pRwz748goQU",
-            "artists": "Stephanie de Monaco",
+            "artists": "Stéphanie de Monaco",
             "title": "Flash",
             "album": "Besoin",
             "year": "1986",
@@ -339,7 +339,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "Stephanie de Monaco",
+            "reponse": "Stéphanie de Monaco",
             "masked_id": "",
             "start_time": "0"
         },
@@ -685,7 +685,7 @@
         },
         "53": {
             "id": "kh8mP1Ik2c8",
-            "artists": "Gerard Lenorman",
+            "artists": "Gérard Lenorman",
             "title": "Si J'etais President",
             "album": "La Clairiere de l'enfance",
             "year": "1980",
@@ -693,7 +693,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "Gerard Lenorman",
+            "reponse": "Gérard Lenorman",
             "masked_id": ""
         },
         "54": {
@@ -763,7 +763,7 @@
         },
         "59": {
             "id": "QZ1c-er_vec",
-            "artists": "Gerard Blanc",
+            "artists": "Gérard Blanc",
             "title": "Une Autre Histoire",
             "album": "Ailleurs Pour Un Ailleurs",
             "year": "1988",
@@ -771,7 +771,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "Gerard Blanc",
+            "reponse": "Gérard Blanc",
             "masked_id": ""
         },
         "60": {
@@ -1075,8 +1075,8 @@
             "genders": "Pop; New Wave; Chanson Francaise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "Muriel Dacq / Tropique",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1153,14 +1153,14 @@
         "88": {
             "id": "h6XFba0TVr8",
             "artists": "Raft",
-            "title": "Yaka Dans\u00e9",
+            "title": "Yaka Dansé",
             "album": "Madagascar",
             "year": "1988",
-            "genders": "Pop; Reggae; Chanson Fran\u00e7aise",
+            "genders": "Pop; Reggae; Chanson Française",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
-            "reponse": "Raft / Yaka Dans\u00e9",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "Raft / Yaka Dansé",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1170,10 +1170,10 @@
             "title": "Femmes Du Congo",
             "album": "Madagascar",
             "year": "1988",
-            "genders": "Chanson Fran\u00e7aise; Pop; Reggae",
+            "genders": "Chanson Française; Pop; Reggae",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Raft / Femmes Du Congo",
             "masked_id": "",
             "start_time": "0"
@@ -1271,7 +1271,7 @@
             "genders": "New Wave; Pop; Chanson Francaise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Partenaire Particulier",
             "masked_id": "",
             "start_time": "0"
@@ -1313,7 +1313,7 @@
             "genders": "Chanson Francaise; Pop; Ska",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Le Grand Orchestre Du Splendid / La Salsa Du Demon",
             "masked_id": "",
             "start_time": "0"
@@ -1327,7 +1327,7 @@
             "genders": "Chanson Francaise; Rock; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Lio / Fallait pas commencer",
             "masked_id": "",
             "start_time": "0"
@@ -1341,7 +1341,7 @@
             "genders": "Chanson Francaise; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Patricia Kaas / Quand Jimmy Dit",
             "masked_id": "",
             "start_time": "0"
@@ -1362,7 +1362,7 @@
         },
         "103": {
             "id": "NB0wtRNqIzM",
-            "artists": "Stephanie de Monaco",
+            "artists": "Stéphanie de Monaco",
             "title": "Ouragan",
             "album": "Besoin",
             "year": "1986",
@@ -1370,13 +1370,13 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "Stephanie de Monaco",
+            "reponse": "Stéphanie de Monaco",
             "masked_id": "",
             "start_time": "0"
         },
         "104": {
             "id": "b--jj7xcelI",
-            "artists": "Stephanie de Monaco",
+            "artists": "Stéphanie de Monaco",
             "title": "Fleur du mal",
             "album": "Besoin",
             "year": "1986",
@@ -1384,13 +1384,13 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "Stephanie de Monaco",
+            "reponse": "Stéphanie de Monaco",
             "masked_id": "",
             "start_time": "0"
         },
         "105": {
             "id": "5re4pk9qcKE",
-            "artists": "Stephanie de Monaco",
+            "artists": "Stéphanie de Monaco",
             "title": "Le Sega Mauricien",
             "album": "Besoin",
             "year": "1986",
@@ -1398,7 +1398,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "Stephanie de Monaco",
+            "reponse": "Stéphanie de Monaco",
             "masked_id": "",
             "start_time": "0"
         },

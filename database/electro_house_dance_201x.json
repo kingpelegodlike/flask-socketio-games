@@ -205,7 +205,7 @@
             "genders": "Pop; Electro; Dance",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Maroon 5 / Christina Aguilera / Moves Like Jagger",
             "masked_id": ""
         },
@@ -400,7 +400,7 @@
             "genders": "House",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Kiesza / Hideaway",
             "masked_id": ""
         },
@@ -570,7 +570,7 @@
             "genders": "Pop; Dance; Disco",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "La Harissa / Neg'Marrons",
             "masked_id": "",
             "start_time": "60"
@@ -598,7 +598,7 @@
             "genders": "Pop; House",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Matt Simons",
             "masked_id": "",
             "start_time": "0"
@@ -612,7 +612,7 @@
             "genders": "Pop; Acid Jazz",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Patrice",
             "masked_id": "",
             "start_time": "0"
@@ -626,7 +626,7 @@
             "genders": "Pop; Electro; House",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Dua Lipa / Silk City",
             "masked_id": "",
             "start_time": "30"

@@ -287,7 +287,7 @@
             "genders": "Pop; Disco; Chanson Francaise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Juliette Armanet / Tu me Play",
             "masked_id": ""
         },
@@ -326,7 +326,7 @@
             "genders": "Pop; Chanson Francaise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel element de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Ogee / La Favorite",
             "masked_id": ""
         },

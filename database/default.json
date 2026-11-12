@@ -47,7 +47,7 @@
             "title": "Petit Genie",
             "album": "",
             "year": "",
-            "genders": "Pop; Afrobeat; Rap; Chanson Fran\u00c3\u00a7aise",
+            "genders": "Pop; Afrobeat; Rap; Chanson Française",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
@@ -58,7 +58,7 @@
             "id": "ozthKn07Ei4",
             "artists": "Dadju; Tayc",
             "title": "I love you",
-            "album": "H\u00e9ritage",
+            "album": "Héritage",
             "year": "2024",
             "genders": "Pop; Rnb",
             "sampled_by": "",
@@ -73,7 +73,7 @@
             "title": "Position",
             "album": "Prime",
             "year": "2024",
-            "genders": "RnB; Afrobeat; Rap; Chanson Fran\u00c3\u00a7aise",
+            "genders": "RnB; Afrobeat; Rap; Chanson Française",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
@@ -168,7 +168,7 @@
             "genders": "Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'ann\u00c3\u00a9e de la chanson",
+            "topic": "Donnez l'année de la chanson",
             "reponse": "",
             "masked_id": ""
         },
@@ -519,7 +519,7 @@
             "genders": "RnB Indian",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Jay Sean / One Night",
             "masked_id": ""
         },
@@ -1443,7 +1443,7 @@
             "title": "Zamalia",
             "album": "Trait pour trait",
             "year": "2006",
-            "genders": "Rap; Chanson Fran\u00e7aise; Ragga",
+            "genders": "Rap; Chanson Française; Ragga",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
@@ -1732,7 +1732,7 @@
             "genders": "Rap Jump-Up Chanson Francaise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Section Pull Up / DJ Mike One / Comme DAB",
             "masked_id": "",
             "start_time": "30"
@@ -4312,7 +4312,7 @@
             "genders": "Latin; Reggaeton",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Angel y Khriz / Ven Bailalo",
             "masked_id": ""
         },
@@ -4403,7 +4403,7 @@
             "genders": "Latin; Reggaeton",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Jose De Rico; Henry Mendez; Jay Santos / Noche De Estrellas",
             "masked_id": ""
         },
@@ -4638,7 +4638,7 @@
             "genders": "Latin; Pop; Reggaeton",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Farruko / Victor Cardenas / DJ Adoni / El Incomprendido",
             "masked_id": ""
         },
@@ -8281,7 +8281,7 @@
             "genders": "Rap; Chanson Francaise; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Dixon / En vue",
             "masked_id": ""
         },
@@ -8483,14 +8483,14 @@
         "652": {
             "id": "oDv12LfhhQ0",
             "artists": "Maitre Gims",
-            "title": "Bris\u00e9",
+            "title": "Brisé",
             "album": "Mon Coeur Avait Raison (Pilule Bleu)",
             "year": "2015",
             "genders": "Rap; Pop; Chanson Francaise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "Bris\u00e9",
+            "reponse": "Brisé",
             "masked_id": ""
         },
         "653": {
@@ -8777,7 +8777,7 @@
             "genders": "RnB; Indian Song",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Raghav / Can't Get Enough",
             "masked_id": ""
         },
@@ -9962,7 +9962,7 @@
         },
         "765": {
             "id": "0zFVR0P3AqA",
-            "artists": "Gerard Blanc",
+            "artists": "Gérard Blanc",
             "title": "Du Soleil Dans La Nuit",
             "album": "Ailleurs Pour Un Ailleurs",
             "year": "1988",
@@ -10093,19 +10093,19 @@
         "775": {
             "id": "i1REpOZ8KiU",
             "artists": "Cookie Dingler",
-            "title": "Femme Liber\u00e9e",
+            "title": "Femme Liberée",
             "album": "",
             "year": "1984",
-            "genders": "Chanson Fran\u00e7aise; Reggae",
+            "genders": "Chanson Française; Reggae",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "Femme Liber\u00e9e",
+            "reponse": "Femme Liberée",
             "masked_id": ""
         },
         "776": {
             "id": "pRwz748goQU",
-            "artists": "Stephanie de Monaco",
+            "artists": "Stéphanie de Monaco",
             "title": "Flash",
             "album": "Besoin",
             "year": "1986",
@@ -10933,7 +10933,7 @@
         },
         "839": {
             "id": "kh8mP1Ik2c8",
-            "artists": "Gerard Lenorman",
+            "artists": "Gérard Lenorman",
             "title": "Si J'etais President",
             "album": "La Clairiere de l'enfance",
             "year": "1980",
@@ -11286,7 +11286,7 @@
         },
         "866": {
             "id": "QZ1c-er_vec",
-            "artists": "Gerard Blanc",
+            "artists": "Gérard Blanc",
             "title": "Une Autre Histoire",
             "album": "Ailleurs Pour Un Ailleurs",
             "year": "1988",
@@ -13313,7 +13313,7 @@
             "genders": "RnB",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Davina / Raekwon / So Good",
             "masked_id": ""
         },
@@ -13667,7 +13667,7 @@
             "genders": "RnB",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Jason Weaver / Stay With Me",
             "masked_id": ""
         },
@@ -13706,7 +13706,7 @@
             "genders": "RnB; New Jack Swing",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Whitehead Bros / Forget I Was A G",
             "masked_id": ""
         },
@@ -14176,7 +14176,7 @@
             "genders": "Pop; Electro",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Pony Pony Run Run / Hey You",
             "masked_id": ""
         },
@@ -14922,7 +14922,7 @@
             "genders": "",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "N.O.R.E. / Nina Sky / Oye Mi Canto",
             "masked_id": ""
         },
@@ -14988,7 +14988,7 @@
             "genders": "Rap; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Lizzo / Cardi B / Rumors",
             "masked_id": "",
             "start_time": "0"
@@ -15030,7 +15030,7 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Knucks / Thames",
             "masked_id": "",
             "start_time": "0"
@@ -15128,7 +15128,7 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00c3\u00a9l\u00c3\u00a9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Migos / YoungBoy Never Broke Again / Need It",
             "masked_id": "",
             "start_time": "0"
@@ -15142,7 +15142,7 @@
             "genders": "Rap; Drill",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Jnr Choi / Sam Tompkins / To the Moon",
             "masked_id": "",
             "start_time": "10"
@@ -15310,7 +15310,7 @@
             "genders": "Rap; Trap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Jack Harlow / Tyler Herro",
             "masked_id": "",
             "start_time": "0"
@@ -15366,7 +15366,7 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Jack Harlow / First Class",
             "masked_id": "",
             "start_time": "0"
@@ -15408,22 +15408,22 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00c3\u00a9l\u00c3\u00a9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Lil Nas X / Jack Harlow / Industry Baby",
             "masked_id": "",
             "start_time": "0"
         },
         "1180": {
             "id": "DrKAu40vIB0",
-            "artists": "Kofs; Soso Maness; Elams; Jul; SCH; Naps; Solda; Houari; 13 Organis\u00e9",
-            "title": "Bande organis\u00e9e",
-            "album": "13'Organis\u00e9",
+            "artists": "Kofs; Soso Maness; Elams; Jul; SCH; Naps; Solda; Houari; 13 Organisé",
+            "title": "Bande organisée",
+            "album": "13'Organisé",
             "year": "2020",
             "genders": "Rap; Chanson Francaise",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "Bande organis\u00e9e",
+            "reponse": "Bande organisée",
             "masked_id": "",
             "start_time": "0"
         },
@@ -15436,7 +15436,7 @@
             "genders": "Rap; Drill",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -15464,7 +15464,7 @@
             "genders": "Rap; Trap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -15506,7 +15506,7 @@
             "genders": "Rap; Afrobeat",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Wes Nelson / Loredana / Nice To Meet Ya",
             "masked_id": "",
             "start_time": "20"
@@ -15590,7 +15590,7 @@
             "genders": "Rap; Jazz; House",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -18824,7 +18824,7 @@
             "genders": "Zouk; Soca",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -18838,7 +18838,7 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -18880,7 +18880,7 @@
             "genders": "Zouk; Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Shydeeh / Don't Even Touch",
             "masked_id": "",
             "start_time": "0"
@@ -18964,7 +18964,7 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -19216,7 +19216,7 @@
             "genders": "Zouk; Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Shydeeh / Wooh She's Who",
             "masked_id": "",
             "start_time": "0"
@@ -19720,7 +19720,7 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -19790,7 +19790,7 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -20000,7 +20000,7 @@
             "genders": "Pop; Rock",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -20014,7 +20014,7 @@
             "genders": "Rap; Electro; BreakBeat",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -20070,7 +20070,7 @@
             "genders": "Pop; New Wave; Electro",
             "sampled_by": "Chico Rose x 71 Digits - Somebody's Watching Me",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -20098,7 +20098,7 @@
             "genders": "Pop; New Wave",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -20182,7 +20182,7 @@
             "genders": "Pop; New Wave; Chanson Francaise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -20330,14 +20330,14 @@
         "1532": {
             "id": "h6XFba0TVr8",
             "artists": "Raft",
-            "title": "Yaka Dans\u00e9",
+            "title": "Yaka Dansé",
             "album": "Madagascar",
             "year": "1988",
-            "genders": "Pop; Reggae; Chanson Fran\u00e7aise",
+            "genders": "Pop; Reggae; Chanson Française",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
-            "reponse": "Raft / Yaka Dans\u00e9",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "Raft / Yaka Dansé",
             "masked_id": "",
             "start_time": "0"
         },
@@ -20347,10 +20347,10 @@
             "title": "Femmes Du Congo",
             "album": "Madagascar",
             "year": "1988",
-            "genders": "Chanson Fran\u00e7aise; Pop; Reggae",
+            "genders": "Chanson Française; Pop; Reggae",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Raft / Femmes Du Congo",
             "masked_id": "",
             "start_time": "0"
@@ -20364,7 +20364,7 @@
             "genders": "Pop; New Wave",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Spagna / Call Me",
             "masked_id": "",
             "start_time": "0"
@@ -20378,7 +20378,7 @@
             "genders": "Pop; Rock",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -20574,7 +20574,7 @@
             "genders": "Pop; New Wave",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -20602,7 +20602,7 @@
             "genders": "New Wave; Pop; Chanson Francaise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -20700,7 +20700,7 @@
             "genders": "Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -20756,7 +20756,7 @@
             "genders": "Pop; RnB",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -20952,7 +20952,7 @@
             "genders": "Chanson Francaise; Pop; Ska",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -20966,7 +20966,7 @@
             "genders": "Chanson Francaise; Rock; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -20994,7 +20994,7 @@
             "genders": "Chanson Francaise; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -21015,7 +21015,7 @@
         },
         "1581": {
             "id": "NB0wtRNqIzM",
-            "artists": "Stephanie de Monaco",
+            "artists": "Stéphanie de Monaco",
             "title": "Ouragan",
             "album": "Besoin",
             "year": "1986",
@@ -21029,7 +21029,7 @@
         },
         "1582": {
             "id": "b--jj7xcelI",
-            "artists": "Stephanie de Monaco",
+            "artists": "Stéphanie de Monaco",
             "title": "Fleur du mal",
             "album": "Besoin",
             "year": "1986",
@@ -21043,7 +21043,7 @@
         },
         "1583": {
             "id": "5re4pk9qcKE",
-            "artists": "Stephanie de Monaco",
+            "artists": "Stéphanie de Monaco",
             "title": "Le Sega Mauricien",
             "album": "Besoin",
             "year": "1986",
@@ -21260,7 +21260,7 @@
             "genders": "Pop; New Wave; Jazz",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "40"
@@ -21302,7 +21302,7 @@
             "genders": "Pop; New Wave",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -21316,7 +21316,7 @@
             "genders": "Pop; New Wave; Soundtrack",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "30"
@@ -21330,7 +21330,7 @@
             "genders": "RnB; Pop; New Wave",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -21526,7 +21526,7 @@
             "genders": "Pop; New Wave",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "40"
@@ -21848,7 +21848,7 @@
             "genders": "Rock; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -21862,7 +21862,7 @@
             "genders": "Pop; New Wave",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -22170,7 +22170,7 @@
             "genders": "Latin; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Paco / Amor De Mis Amores",
             "masked_id": "",
             "start_time": "0"
@@ -22212,7 +22212,7 @@
             "genders": "Pop; New Wave",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Modern Talking / Brother Louie",
             "masked_id": "",
             "start_time": "0"
@@ -22296,7 +22296,7 @@
             "genders": "Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "30"
@@ -22562,7 +22562,7 @@
             "genders": "Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "80"
@@ -22688,7 +22688,7 @@
             "genders": "Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -23052,7 +23052,7 @@
             "genders": "Africain Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -23248,7 +23248,7 @@
             "genders": "Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -23374,7 +23374,7 @@
             "genders": "Pop; Chanson Francaise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -23430,7 +23430,7 @@
             "genders": "Pop; Chanson Francaise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -23444,7 +23444,7 @@
             "genders": "Pop; Chanson Francaise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -23500,7 +23500,7 @@
             "genders": "Oriental; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -23542,7 +23542,7 @@
             "genders": "Rap; Pop; House",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -23584,7 +23584,7 @@
             "genders": "Pop; Rock",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -23640,7 +23640,7 @@
             "genders": "Pop; Latin",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -23710,7 +23710,7 @@
             "genders": "Rock; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -23766,7 +23766,7 @@
             "genders": "RnB; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -23836,7 +23836,7 @@
             "genders": "Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -23892,7 +23892,7 @@
             "genders": "Pop; Ragga",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "30"
@@ -23906,7 +23906,7 @@
             "genders": "Pop; Ragga",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "30"
@@ -23920,7 +23920,7 @@
             "genders": "RnB; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Kenny Lattimore / Push",
             "masked_id": "",
             "start_time": "0"
@@ -23934,7 +23934,7 @@
             "genders": "RnB; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -23948,7 +23948,7 @@
             "genders": "Zouk; Kizomba; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "20"
@@ -23976,7 +23976,7 @@
             "genders": "Pop; Rap; Chanson Francaise",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -23990,7 +23990,7 @@
             "genders": "Pop; Dance; Disco",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "60"
@@ -24004,7 +24004,7 @@
             "genders": "Pop; House",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "70"
@@ -24018,7 +24018,7 @@
             "genders": "Pop; House",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -24046,7 +24046,7 @@
             "genders": "Pop; Rock",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -24060,7 +24060,7 @@
             "genders": "Pop; Rock",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -24074,7 +24074,7 @@
             "genders": "RnB",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -24144,7 +24144,7 @@
             "genders": "Pop; House",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -24158,7 +24158,7 @@
             "genders": "Latin; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -24186,7 +24186,7 @@
             "genders": "House; Electro; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "50"
@@ -24228,7 +24228,7 @@
             "genders": "RnB; Africain; Soundtrack",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -24242,7 +24242,7 @@
             "genders": "Pop; Dance",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -24284,7 +24284,7 @@
             "genders": "Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -24298,7 +24298,7 @@
             "genders": "Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -24312,7 +24312,7 @@
             "genders": "Pop; Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -24326,7 +24326,7 @@
             "genders": "Reggae; Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -24340,7 +24340,7 @@
             "genders": "Pop; Rock",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -24354,7 +24354,7 @@
             "genders": "Pop; Acid Jazz",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -24368,7 +24368,7 @@
             "genders": "Pop; Acid Jazz",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -24396,7 +24396,7 @@
             "genders": "Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "30"
@@ -24410,7 +24410,7 @@
             "genders": "Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -24424,7 +24424,7 @@
             "genders": "Pop; RnB",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -24438,7 +24438,7 @@
             "genders": "Pop; Electro; House",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "30"
@@ -24466,7 +24466,7 @@
             "genders": "Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -24522,7 +24522,7 @@
             "genders": "Pop",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "",
             "masked_id": "",
             "start_time": "0"
@@ -24690,7 +24690,7 @@
             "genders": "RnB",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "H.E.R. ou Pop Smoke ou Chris Brown ou Slide",
             "masked_id": "",
             "start_time": "0"
@@ -24704,7 +24704,7 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "French Montana; Swae Lee; Unforgettable",
             "masked_id": "",
             "start_time": "20"
@@ -24718,7 +24718,7 @@
             "genders": "RnB",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Lucky Daye; Over",
             "masked_id": "",
             "start_time": "0"
@@ -24732,7 +24732,7 @@
             "genders": "RnB; Soul",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Lucky Daye / Cherry Forest",
             "masked_id": "",
             "start_time": "0"
@@ -24746,7 +24746,7 @@
             "genders": "RnB; Soul",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Lucky Daye / Yebba / How Much Can A Heart Take",
             "masked_id": "",
             "start_time": "0"
@@ -24760,7 +24760,7 @@
             "genders": "RnB; Soul",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Lucky Daye / HERicane",
             "masked_id": "",
             "start_time": "0"
@@ -24774,7 +24774,7 @@
             "genders": "RnB; Soul",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Lucky Daye / Teddy Swims / Blame",
             "masked_id": "",
             "start_time": "0"
@@ -24852,14 +24852,14 @@
         "1855": {
             "id": "xNbEax1uJ4w",
             "artists": "Tiakola",
-            "title": "M\u00e9lo D\u00e9cal\u00e9",
+            "title": "Mélo Décalé",
             "album": "WpointM",
             "year": "2026",
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
-            "reponse": "Tiakola / M\u00e9lo D\u00e9cal\u00e9",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "Tiakola / Mélo Décalé",
             "masked_id": "",
             "start_time": "10"
         },
@@ -24872,7 +24872,7 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Mauvais Djo",
             "masked_id": "",
             "start_time": "0"
@@ -24886,7 +24886,7 @@
             "genders": "",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Naza / SDM / Tout donner",
             "masked_id": "",
             "start_time": "10"
@@ -24900,7 +24900,7 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Keblack / Guy2Bezbar / Melrose Place",
             "masked_id": "",
             "start_time": "0"
@@ -24914,7 +24914,7 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "L2B / Pelican",
             "masked_id": "",
             "start_time": "30"
@@ -24928,7 +24928,7 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "RnBoi / Mon Bebe",
             "masked_id": "",
             "start_time": "10"
@@ -24942,7 +24942,7 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Tiakola / Rsko / Hamza / 1h55",
             "masked_id": "",
             "start_time": "30"
@@ -24956,7 +24956,7 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Tiakola / Ronisia / C'est KO",
             "masked_id": "",
             "start_time": "20"
@@ -24970,7 +24970,7 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Triangle des bermudes / Aya Nakamura / Balek",
             "masked_id": "",
             "start_time": "20"
@@ -24984,7 +24984,7 @@
             "genders": "RnB; Shata; Ragga",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Meryl / Coco Chanel / Eva",
             "masked_id": "",
             "start_time": "20"
@@ -24998,7 +24998,7 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Keblack / Laisse moi",
             "masked_id": "",
             "start_time": "0"
@@ -25012,7 +25012,7 @@
             "genders": "Rap; Afrobeat",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Keblack / Franglish / Boucan",
             "masked_id": "",
             "start_time": "20"
@@ -25026,7 +25026,7 @@
             "genders": "Ragga",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Miimii KDS / Se Miimii",
             "masked_id": "",
             "start_time": "10"
@@ -25040,7 +25040,7 @@
             "genders": "Rap; Africain; Afrobeat",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Tayc / Reanyme / Anyme",
             "masked_id": "",
             "start_time": "0"
@@ -25054,7 +25054,7 @@
             "genders": "Rap; Afrobeat",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Triangle Des Bermudes / MC YOSHI / Kokosvoice / Mauvais djo / Lunettes",
             "masked_id": "",
             "start_time": "20"
@@ -25068,7 +25068,7 @@
             "genders": "Rap; Afrobeat",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Triangle Des Bermudes / MC YOSHI / Kokosvoice / Mauvais Djo / Charger",
             "masked_id": "",
             "start_time": "30"
@@ -25082,7 +25082,7 @@
             "genders": "Rap; Drill",
             "sampled_by": "",
             "sample_from": "Keyshia Cole - Love",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "GloRilla / Typa / Keyshia Cole",
             "masked_id": "",
             "start_time": "0"
@@ -25096,7 +25096,7 @@
             "genders": "RnB",
             "sampled_by": "GloRilla - Typa",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Keyshia Cole / Love / GloRilla",
             "masked_id": "",
             "start_time": "0"
@@ -25110,7 +25110,7 @@
             "genders": "Rap; Drill",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Big Sean / Precision",
             "masked_id": "",
             "start_time": "10"
@@ -25124,7 +25124,7 @@
             "genders": "Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez n'importe quel \u00e9l\u00e9ment de la chanson",
+            "topic": "Donnez n'importe quel élément de la chanson",
             "reponse": "Kendrick Lamar / Not Like Us",
             "masked_id": "",
             "start_time": "0"

@@ -188,7 +188,7 @@ def new_question(message):
     start_time = "0"
     game.youtube_suite_total_questions = 0
     if question_format == "youtube":
-        db = TinyDB('database/default.json', indent=4)
+        db = TinyDB('database/default.json', indent=4, encoding='utf-8', ensure_ascii=False)
         table = db.table('yt')
         song = Query()
         result = table.search(song.id == question_value)
@@ -204,7 +204,7 @@ def new_question(message):
         youtube_answer_id = question_value
     elif question_format == "youtube_suite":
         db_name = f"database/{message['db']}.json"
-        db = TinyDB(db_name, indent=4)
+        db = TinyDB(db_name, indent=4, encoding='utf-8', ensure_ascii=False)
         table = db.table('yt')
         all_yt_fields = table.all()
         # logger.debug("all_yt_fields is:\n%s", all_yt_fields)
@@ -598,10 +598,6 @@ def ascii_to_unicode(str):
     unicode_str = str.replace("é", "\u00e9")
     return unicode_str
 
-def str_without_sp_chars(str):
-    str_without_sp_chars = str.replace("é", "e").replace("à", "a").replace("è", "e").replace("ê", "e").replace("ë", "e").replace("ô", "o").replace("î", "i").replace("ç", "c").replace("ù", "u").replace("û", "u").replace("ö", "o").replace("ä", "a").replace("ï", "i").replace("’", "'")
-    return str_without_sp_chars
-
 @socketio.on('search_video', namespace='/blind_test_admin_ui_yt')
 def search_video(message):
     message_items = ""
@@ -613,35 +609,35 @@ def search_video(message):
     if 'artists' in message:
         artists_to_find = message['artists']
         logger.info("Search youtube video according to '%s' artists", artists_to_find)
-        db = TinyDB('database/default.json', indent=4)
+        db = TinyDB('database/default.json', indent=4, encoding='utf-8', ensure_ascii=False)
         table = db.table('yt')
         song = Query()
         result = table.search(song.artists.matches(".*"+artists_to_find+".*", flags=re.IGNORECASE))
     if 'title' in message:
         title_to_find = message['title']
         logger.info("Search youtube video according to '%s' title", title_to_find)
-        db = TinyDB('database/default.json', indent=4)
+        db = TinyDB('database/default.json', indent=4, encoding='utf-8', ensure_ascii=False)
         table = db.table('yt')
         song = Query()
         result = table.search(song.title.matches(".*"+title_to_find+".*", flags=re.IGNORECASE))
     if 'album' in message:
         album_to_find = message['album']
         logger.info("Search youtube video according to '%s' album", album_to_find)
-        db = TinyDB('database/default.json', indent=4)
+        db = TinyDB('database/default.json', indent=4, encoding='utf-8', ensure_ascii=False)
         table = db.table('yt')
         song = Query()
         result = table.search(song.album.matches(".*"+album_to_find+".*", flags=re.IGNORECASE))
     if 'year' in message:
         year_to_find = message['year']
         logger.info("Search youtube video according to '%s' year", year_to_find)
-        db = TinyDB('database/default.json', indent=4)
+        db = TinyDB('database/default.json', indent=4, encoding='utf-8', ensure_ascii=False)
         table = db.table('yt')
         song = Query()
         result = table.search(song.year.matches(year_to_find+".*", flags=re.IGNORECASE))
     if 'genders' in message:
         genders_to_find = message['genders']
         logger.info("Search youtube video according to '%s' genders", genders_to_find)
-        db = TinyDB('database/default.json', indent=4)
+        db = TinyDB('database/default.json', indent=4, encoding='utf-8', ensure_ascii=False)
         table = db.table('yt')
         song = Query()
         result = table.search(song.genders.matches(".*"+genders_to_find+".*", flags=re.IGNORECASE))
@@ -666,7 +662,7 @@ def update_video_in_db(message):
     for filename in sorted(os.listdir(database_directory)):
         if filename.endswith('.json'):
             database_path = os.path.join(database_directory, filename)
-            db = TinyDB(database_path, indent=4)
+            db = TinyDB(database_path, indent=4, encoding='utf-8', ensure_ascii=False)
             table = db.table('yt')
             song = Query()
             out = table.update({'id': new_video_id, 'start_time': new_start_time}, song.id == current_video_id)
@@ -693,7 +689,7 @@ def delete_video_from_db(message):
     for filename in sorted(os.listdir(database_directory)):
         if filename.endswith('.json'):
             database_path = os.path.join(database_directory, filename)
-            db = TinyDB(database_path, indent=4)
+            db = TinyDB(database_path, indent=4, encoding='utf-8', ensure_ascii=False)
             table = db.table('yt')
             song = Query()
             out = table.remove(song.id == video_id)
@@ -717,21 +713,21 @@ def add_video_to_db(message):
         message_items = f"{message_items}, {key} = {value}"
     logger.info("Receive 'add_video_to_db' event from '/blind_test_admin_ui_yt' with namespace with message data %s", message_items[2:])
 
-    message_without_sp_chars = {}
+    video_data = {}
     for key, value in message.items():
         if key not in ['db1', 'db2', 'db3', 'db4', 'db5']:
-            message_without_sp_chars[key] = str_without_sp_chars(value)
-    message_without_sp_chars.setdefault('reponse', '')
+            video_data[key] = value
+    video_data.setdefault('reponse', '')
     # db = TinyDB('db.json', indent=4)
-    db = TinyDB('database/default.json', indent=4)
+    db = TinyDB('database/default.json', indent=4, encoding='utf-8', ensure_ascii=False)
     table = db.table('yt')
-    table.insert(message_without_sp_chars)
+    table.insert(video_data)
     for db_name in ['db1', 'db2', 'db3', 'db4', 'db5']:
         if message[db_name]:
             db_file_name = f"database/{message[db_name]}.json"
-            db = TinyDB(db_file_name, indent=4)
+            db = TinyDB(db_file_name, indent=4, encoding='utf-8', ensure_ascii=False)
             table = db.table('yt')
-            table.insert(message_without_sp_chars)
+            table.insert(video_data)
 
     logger.info("emit to '/blind_test_admin_ui_yt' namespace 'video_added' event")
     socketio.emit('video_added', {}, namespace='/blind_test_admin_ui_yt')
