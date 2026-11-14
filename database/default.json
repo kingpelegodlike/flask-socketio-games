@@ -4776,7 +4776,7 @@
             "masked_id": ""
         },
         "367": {
-            "id": "MYsk98P-t9w",
+            "id": "TcxfIF4CyUk",
             "artists": "Gladys Knight",
             "title": "Licence To Kill",
             "album": "James Bond Licence to Kill Soundtrack",
@@ -4786,7 +4786,8 @@
             "sample_from": "",
             "topic": "Donnez le nom du film",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "368": {
             "id": "DeumyOzKqgI",
@@ -4906,7 +4907,7 @@
             "masked_id": ""
         },
         "377": {
-            "id": "iNMW59_AWBQ",
+            "id": "ukgluvJpL4U",
             "artists": "Bee Gees",
             "title": "How Deep Is Your Love",
             "album": "Saturday Night Fever Soundtrack",
@@ -4916,7 +4917,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "378": {
             "id": "AUJkLr98nN4",
@@ -5901,7 +5903,7 @@
             "masked_id": ""
         },
         "453": {
-            "id": "hG-45iANoxQ",
+            "id": "xWoGS5B9fvA",
             "artists": "Christopher Cross",
             "title": "Arthur's Theme",
             "album": "Arthur Soundtrack",
@@ -5911,7 +5913,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "454": {
             "id": "wjAP4IzvDVY",
@@ -6292,7 +6295,7 @@
             "masked_id": ""
         },
         "483": {
-            "id": "DwIrY7qQcDA",
+            "id": "6cAW4SBGVIY",
             "artists": "Mike Post; Pete Carpenter",
             "title": "Les Tetes Brulees (TV Theme)",
             "album": "Les Tetes Brulees",
@@ -6302,7 +6305,8 @@
             "sample_from": "",
             "topic": "Donnez le nom de la Serie TV",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "20"
         },
         "484": {
             "id": "8Gw_buXSUNY",
@@ -6423,7 +6427,7 @@
             "masked_id": ""
         },
         "493": {
-            "id": "ogyofzhqidI",
+            "id": "c5ZV2V1BHn8",
             "artists": "Mike Post; Pete Carpenter",
             "title": "Rick Hunter (TV Theme)",
             "album": "Rick Hunter",
@@ -6433,7 +6437,8 @@
             "sample_from": "",
             "topic": "Donnez le nom de la Serie TV",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "494": {
             "id": "rGOuDRViTGw",
@@ -6826,7 +6831,7 @@
             "masked_id": ""
         },
         "524": {
-            "id": "-Fk1QUev-Gs",
+            "id": "PPpEEzL658c",
             "masked_id": "stjvK1jUp0g",
             "artists": "Marie Dauphin",
             "title": "Lady Oscar (Generique TV)",
@@ -6836,7 +6841,8 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom de la Serie TV",
-            "reponse": ""
+            "reponse": "",
+            "start_time": "50"
         },
         "525": {
             "id": "HDa07orKCVE",
@@ -7034,7 +7040,7 @@
             "masked_id": ""
         },
         "540": {
-            "id": "dNJm5mpedvE",
+            "id": "gYhNMoA0iKw",
             "artists": "Lionel Leroy",
             "title": "Ulysse 31 (Generique TV 1981 fin)",
             "album": "Ulysse 31",
@@ -7044,7 +7050,8 @@
             "sample_from": "",
             "topic": "Donnez le nom de la Serie TV",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "541": {
             "id": "kEmiPAh0ers",
@@ -7177,7 +7184,7 @@
             "masked_id": "CsCcPHRPnBo"
         },
         "551": {
-            "id": "LRPwy_OtoSo",
+            "id": "d6nVizJkmx8",
             "artists": "Bernard Minet",
             "title": "Les Chevaliers du Zodiaque (Generique TV) - La Chanson des Chevaliers",
             "album": "Les Chevaliers du Zodiaque",
@@ -7187,7 +7194,8 @@
             "sample_from": "",
             "topic": "Donnez le nom de la Serie TV",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "552": {
             "id": "merLAn9vdKQ",
@@ -7203,7 +7211,7 @@
             "masked_id": ""
         },
         "553": {
-            "id": "JQPNoIZhvS8",
+            "id": "G2HZjwlZsV8",
             "artists": "Peter Lorne",
             "title": "Tortues Ninja (Generique TV) - Les Chevaliers d'ecaille",
             "album": "Tortues Ninja",
@@ -7211,9 +7219,10 @@
             "genders": "Rock; Chanson Francaise; Enfants",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez le nom de la Serie TV",
-            "reponse": "",
-            "masked_id": ""
+            "topic": "Donnez les 4 personnages principaux",
+            "reponse": "Raphael, Leonardo, Donatello, Michelangelo",
+            "masked_id": "",
+            "start_time": "0"
         },
         "554": {
             "id": "lOWZEpKpmYg",
@@ -7581,7 +7590,7 @@
             "masked_id": "3DqbPmazN9I"
         },
         "582": {
-            "id": "TXR5KOtdPk8",
+            "id": "kiML6NGhivc",
             "artists": "Claude Lombard",
             "title": "Vas-y Julie (Generique TV)",
             "album": "Vas-y Julie",
@@ -7591,7 +7600,8 @@
             "sample_from": "",
             "topic": "Donnez le nom de la Serie TV",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "583": {
             "id": "d4dSEzIaidU",
@@ -15949,7 +15959,7 @@
             "start_time": "30"
         },
         "1218": {
-            "id": "U0kxTdYYNJo",
+            "id": "eY4i-h2iTbY",
             "artists": "Debbie Davis",
             "title": "L'histoire de la vie",
             "album": "Le Roi Lion (Bande Originale)",
@@ -16075,7 +16085,7 @@
             "start_time": "0"
         },
         "1227": {
-            "id": "yMSrzW2Yf3M",
+            "id": "LQK4E-bwKgc",
             "artists": "Anais Delva",
             "title": "Libere Delivre",
             "album": "La Reine des Neiges Bande Originale",

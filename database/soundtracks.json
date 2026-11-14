@@ -103,11 +103,11 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "Goldfinger",
+            "reponse": "James Bond / Goldfinger",
             "masked_id": ""
         },
         "9": {
-            "id": "MYsk98P-t9w",
+            "id": "TcxfIF4CyUk",
             "artists": "Gladys Knight",
             "title": "Licence To Kill",
             "album": "James Bond Licence to Kill Soundtrack",
@@ -117,7 +117,8 @@
             "sample_from": "",
             "topic": "Donnez le nom du film",
             "reponse": "James Bond Licence To Kill",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "10": {
             "id": "DeumyOzKqgI",
@@ -194,7 +195,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "Beauty and the Beast",
+            "reponse": "Beauty and the Beast / La Belle et la Bête",
             "masked_id": ""
         },
         "16": {
@@ -237,7 +238,7 @@
             "masked_id": ""
         },
         "19": {
-            "id": "iNMW59_AWBQ",
+            "id": "ukgluvJpL4U",
             "artists": "Bee Gees",
             "title": "How Deep Is Your Love",
             "album": "Saturday Night Fever Soundtrack",
@@ -247,7 +248,8 @@
             "sample_from": "",
             "topic": "Donnez le nom du film",
             "reponse": "Saturday Night Fever",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "0"
         },
         "20": {
             "id": "AUJkLr98nN4",
@@ -351,7 +353,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Aigle de Fer",
             "masked_id": ""
         },
         "28": {
@@ -364,7 +366,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Highlander",
             "masked_id": "",
             "start_time": "10"
         },
@@ -378,7 +380,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Pretty Woman",
             "masked_id": ""
         },
         "30": {
@@ -391,7 +393,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Pretty Woman",
             "masked_id": ""
         },
         "31": {
@@ -403,8 +405,8 @@
             "genders": "Rap; Soundtrack",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez le nom du film",
+            "reponse": "How High / Etudiants en herbe",
             "masked_id": ""
         },
         "32": {
@@ -417,7 +419,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Befikre",
             "masked_id": ""
         },
         "33": {
@@ -430,20 +432,20 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Car Wash",
             "masked_id": ""
         },
         "34": {
             "id": "ipc1O2sIk8c",
             "artists": "Richard Sanderson",
             "title": "Reality",
-            "album": "La Boom Soundtrack",
+            "album": "La Boum Soundtrack",
             "year": "1980",
             "genders": "Pop; Rock; Soundtrack",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "La Boum",
             "masked_id": ""
         },
         "35": {
@@ -456,7 +458,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Furyo",
             "masked_id": ""
         },
         "36": {
@@ -469,7 +471,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "The Never Ending Story / L'histoire sans fin",
             "masked_id": ""
         },
         "37": {
@@ -482,7 +484,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Rasta Rockett",
             "masked_id": ""
         },
         "38": {
@@ -495,7 +497,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "James Bond / Dr. No",
             "masked_id": ""
         },
         "39": {
@@ -508,7 +510,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "The Good, The Bad and The Ugly / Le Bon, la Brute et le Truand",
             "masked_id": ""
         },
         "40": {
@@ -521,7 +523,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Once Upon a Time in the West / Un Fois dans l'ouest",
             "masked_id": ""
         },
         "41": {
@@ -534,7 +536,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "My Name Is Nobody / Je m'appelle Personne",
             "masked_id": ""
         },
         "42": {
@@ -547,7 +549,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Philadelphia",
             "masked_id": ""
         },
         "43": {
@@ -560,7 +562,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Black Panther",
             "masked_id": ""
         },
         "44": {
@@ -573,7 +575,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Black Panther",
             "masked_id": ""
         },
         "45": {
@@ -586,7 +588,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Guardians of the Galaxy / Les Gardiens de la Galaxie",
             "masked_id": ""
         },
         "46": {
@@ -599,7 +601,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Pattaya",
             "masked_id": ""
         },
         "47": {
@@ -612,7 +614,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Top Gun",
             "masked_id": ""
         },
         "48": {
@@ -625,7 +627,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Waiting To Exhale / Où sont les hommes",
             "masked_id": ""
         },
         "49": {
@@ -638,7 +640,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "The Bodyguard",
             "masked_id": "",
             "start_time": "0"
         },
@@ -652,7 +654,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "The Bodyguard",
             "masked_id": ""
         },
         "51": {
@@ -665,7 +667,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "The Bodyguard",
             "masked_id": ""
         },
         "52": {
@@ -678,7 +680,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "The Bodyguard",
             "masked_id": "",
             "start_time": "0"
         },
@@ -691,8 +693,8 @@
             "genders": "RnB; Soundtrack",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez le nom du film",
+            "reponse": "The Bodyguard",
             "masked_id": ""
         },
         "54": {
@@ -704,8 +706,8 @@
             "genders": "RnB; Soundtrack",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez le nom du film",
+            "reponse": "Waiting To Exhale / Où sont les hommes",
             "masked_id": ""
         },
         "55": {
@@ -718,7 +720,7 @@
             "sampled_by": "",
             "sample_from": "Labelle - Lady Marmalade (Voulez Vous Coucher Avec Moi Ce Soir)",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Moulin Rouge",
             "masked_id": ""
         },
         "56": {
@@ -731,7 +733,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Flashdance",
             "masked_id": "",
             "start_time": "0"
         },
@@ -744,8 +746,8 @@
             "genders": "Rap; Soundtrack",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez le nom du film",
+            "reponse": "Rush Hour 2",
             "masked_id": ""
         },
         "58": {
@@ -758,7 +760,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "The Addams Family",
             "masked_id": ""
         },
         "59": {
@@ -770,8 +772,8 @@
             "genders": "Pop; Soundtrack",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez le nom du film",
+            "reponse": "James Bond / Goldeneye",
             "masked_id": ""
         },
         "60": {
@@ -783,8 +785,8 @@
             "genders": "Pop; Rock; Soundtrack",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez le nom du film",
+            "reponse": "Mad Max Beyond Thunderdome / Mad Max 3",
             "masked_id": ""
         },
         "61": {
@@ -797,7 +799,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Maid In Manhattan / Coup de foudre à Manhattan",
             "masked_id": ""
         },
         "62": {
@@ -810,7 +812,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Bagdad Cafe",
             "masked_id": ""
         },
         "63": {
@@ -823,7 +825,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Rocky",
             "masked_id": ""
         },
         "64": {
@@ -835,8 +837,8 @@
             "genders": "Rock; Soundtrack",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez le nom du film",
+            "reponse": "Rocky IV",
             "masked_id": "",
             "start_time": "0"
         },
@@ -850,20 +852,20 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Rocky III",
             "masked_id": ""
         },
         "66": {
             "id": "wtHra9tFISY",
             "artists": "John Williams",
             "title": "Hedwig's Theme",
-            "album": "Harry Potter a l'ecole des sorciers Bande Originale",
+            "album": "Harry Potter à l'ecole des sorciers Bande Originale",
             "year": "2001",
             "genders": "Classique; Soundtrack",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Harry Potter",
             "masked_id": ""
         },
         "67": {
@@ -876,7 +878,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Footloose",
             "masked_id": ""
         },
         "68": {
@@ -888,8 +890,8 @@
             "genders": "Classique; Soundtrack",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez le nom du film",
+            "reponse": "Tron Legacy",
             "masked_id": ""
         },
         "69": {
@@ -901,8 +903,8 @@
             "genders": "Electro; Soundtrack",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez le nom du film",
+            "reponse": "Tron Legacy",
             "masked_id": ""
         },
         "70": {
@@ -915,7 +917,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Superman",
             "masked_id": ""
         },
         "71": {
@@ -928,7 +930,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Beverly Hills Cop / Le Flic de Beverly Hills",
             "masked_id": ""
         },
         "72": {
@@ -941,7 +943,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Love Story",
             "masked_id": ""
         },
         "73": {
@@ -954,7 +956,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "A Star Is Born",
             "masked_id": ""
         },
         "74": {
@@ -967,7 +969,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Armageddon",
             "masked_id": ""
         },
         "75": {
@@ -980,7 +982,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Dirty Dancing",
             "masked_id": ""
         },
         "76": {
@@ -993,7 +995,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Dirty Dancing",
             "masked_id": ""
         },
         "77": {
@@ -1006,7 +1008,7 @@
             "sampled_by": "Lumidee - She's Like The Wind",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Dirty Dancing",
             "masked_id": ""
         },
         "78": {
@@ -1019,7 +1021,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "The Mask of Zorro / Le Masque de Zorro",
             "masked_id": ""
         },
         "79": {
@@ -1032,7 +1034,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Beetlejuice",
             "masked_id": ""
         },
         "80": {
@@ -1045,7 +1047,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Inception",
             "masked_id": ""
         },
         "81": {
@@ -1058,7 +1060,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Back to the Future / Retour vers le futur",
             "masked_id": ""
         },
         "82": {
@@ -1071,7 +1073,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "The Avengers",
             "masked_id": ""
         },
         "83": {
@@ -1084,7 +1086,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Barbie",
             "masked_id": ""
         },
         "84": {
@@ -1097,7 +1099,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Ae Dil Hai Mushkil",
             "masked_id": ""
         },
         "85": {
@@ -1110,7 +1112,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "The Pink Panther / La Panthère Rose",
             "masked_id": ""
         },
         "86": {
@@ -1123,7 +1125,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Interstellar",
             "masked_id": ""
         },
         "87": {
@@ -1136,7 +1138,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Gladiator",
             "masked_id": ""
         },
         "88": {
@@ -1149,7 +1151,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Bad Boys",
             "masked_id": ""
         },
         "89": {
@@ -1162,7 +1164,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Matrix",
             "masked_id": ""
         },
         "90": {
@@ -1175,11 +1177,11 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Matrix",
             "masked_id": ""
         },
         "91": {
-            "id": "hG-45iANoxQ",
+            "id": "xWoGS5B9fvA",
             "artists": "Christopher Cross",
             "title": "Arthur's Theme",
             "album": "Arthur Soundtrack",
@@ -1188,8 +1190,9 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
-            "masked_id": ""
+            "reponse": "Christopher Cross",
+            "masked_id": "",
+            "start_time": "0"
         },
         "92": {
             "id": "Yl-kiA34Txo",
@@ -1200,8 +1203,8 @@
             "genders": "Chanson Francaise Soundtrack",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "Francis Lalanne / On Se Retrouvera / Le Passage",
             "masked_id": ""
         },
         "93": {
@@ -1214,7 +1217,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Top Gun",
             "masked_id": ""
         },
         "94": {
@@ -1227,7 +1230,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Madonna",
             "masked_id": ""
         },
         "95": {
@@ -1240,7 +1243,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Waiting To Exhale / Où sont les hommes",
             "masked_id": ""
         },
         "96": {
@@ -1253,7 +1256,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Boomerang",
             "masked_id": ""
         },
         "97": {
@@ -1266,7 +1269,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Spider-Man: Across the Spider-Verse",
             "masked_id": "",
             "start_time": "40"
         },
@@ -1551,7 +1554,7 @@
             "start_time": "30"
         },
         "118": {
-            "id": "U0kxTdYYNJo",
+            "id": "eY4i-h2iTbY",
             "artists": "Debbie Davis",
             "title": "L'histoire de la vie",
             "album": "Le Roi Lion (Bande Originale)",
@@ -1677,7 +1680,7 @@
             "start_time": "0"
         },
         "127": {
-            "id": "yMSrzW2Yf3M",
+            "id": "LQK4E-bwKgc",
             "artists": "Anais Delva",
             "title": "Libere Delivre",
             "album": "La Reine des Neiges Bande Originale",
@@ -1700,7 +1703,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Fame",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1714,7 +1717,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Flashdance",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1728,7 +1731,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "The Full Monty",
             "masked_id": "",
             "start_time": "0"
         },
