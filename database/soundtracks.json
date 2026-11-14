@@ -284,9 +284,9 @@
             "genders": "Rock; Soundtrack",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
+            "topic": "Donnez le nom du film",
             "reponse": "Bryan Adams / Rod Stewart / Sting",
-            "masked_id": "",
+            "masked_id": "Les 3 Mousquetaires",
             "start_time": "60"
         },
         "23": {
@@ -298,8 +298,8 @@
             "genders": "Rock; Soundtrack",
             "sampled_by": "Brandy - (Everything I Do) I Do It For You",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez le nom du film",
+            "reponse": "Robin des bois, prince des voleurs",
             "masked_id": ""
         },
         "24": {
@@ -312,7 +312,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "8 Mile",
             "masked_id": ""
         },
         "25": {
@@ -324,8 +324,8 @@
             "genders": "RnB; Soundtrack",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez le nom du film",
+            "reponse": "Ali",
             "masked_id": ""
         },
         "26": {
@@ -338,7 +338,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le nom du film",
-            "reponse": "",
+            "reponse": "Drive",
             "masked_id": ""
         },
         "27": {
