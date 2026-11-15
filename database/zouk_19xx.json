@@ -11,12 +11,12 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Monique Seka",
             "masked_id": ""
         },
         "2": {
             "id": "GfJeezuYyeA",
-            "artists": "La Compagnie Creole",
+            "artists": "La Compagnie Créole",
             "title": "C'est bon pour le moral",
             "album": "Vive Le Douanier Rousseau",
             "year": "1983",
@@ -24,41 +24,41 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "La Compagnie Créole",
             "masked_id": "",
             "start_time": "0"
         },
         "3": {
             "id": "Vm8vBoXcIcw",
             "artists": "David Martial",
-            "title": "Celimene",
-            "album": "Tamba Celimene",
+            "title": "Celimène",
+            "album": "Tamba Celimène",
             "year": "1975",
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Celimène",
             "masked_id": "",
             "start_time": "0"
         },
         "4": {
             "id": "Mk-cOOoj_MU",
-            "artists": "La Compagnie Creole",
-            "title": "Le Bal Masque",
-            "album": "Le Bal Masque",
+            "artists": "La Compagnie Créole",
+            "title": "Le Bal Masqué",
+            "album": "Le Bal Masqué",
             "year": "1985",
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "La Compagnie Créole",
             "masked_id": "",
             "start_time": "0"
         },
         "5": {
             "id": "t_hN-_P8xAE",
-            "artists": "La Compagnie Creole",
+            "artists": "La Compagnie Créole",
             "title": "Ca Fait Rire Les Oiseaux",
             "album": "Ca Fait Rire Les Oiseaux",
             "year": "1986",
@@ -66,13 +66,13 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "La Compagnie Créole",
             "masked_id": "",
             "start_time": "0"
         },
         "6": {
             "id": "l2Tw1VTwdMs",
-            "artists": "La Compagnie Creole",
+            "artists": "La Compagnie Créole",
             "title": "La Machine A Danser",
             "album": "La Machine A Danser",
             "year": "1987",
@@ -80,13 +80,13 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "La Compagnie Créole",
             "masked_id": "",
             "start_time": "0"
         },
         "7": {
             "id": "XsYBiw8I5lc",
-            "artists": "La Compagnie Creole",
+            "artists": "La Compagnie Créole",
             "title": "Ba Moin En Ti Bo",
             "album": "Blogodo",
             "year": "1982",
@@ -94,7 +94,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "La Compagnie Créole",
             "masked_id": "",
             "start_time": "0"
         },
@@ -108,21 +108,21 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kassav'",
             "masked_id": "",
             "start_time": "0"
         },
         "9": {
             "id": "DrKAMrVkEvU",
-            "artists": "Tatiana Miath - Zouti",
+            "artists": "Tatiana Miath",
             "title": "Soyons heureux",
             "album": "Zouti",
             "year": "1987",
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "Tatiana Miath / Soyons heureux / Zouti",
             "masked_id": "",
             "start_time": "0"
         },
@@ -136,7 +136,7 @@
             "sampled_by": "Haitian Troubadours - Ou Le",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kassav'",
             "masked_id": "",
             "start_time": "0"
         },
@@ -150,7 +150,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Ronald Rubinel",
             "masked_id": "",
             "start_time": "0"
         },
@@ -164,7 +164,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jean-Philippe Marthely / Patrick Saint-Eloi",
             "masked_id": "",
             "start_time": "0"
         },
@@ -177,8 +177,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "Jean-Philippe Marthely / Patrick Saint-Eloi / Ola Ou Ye",
             "masked_id": "",
             "start_time": "0"
         },
@@ -191,8 +191,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "Jean-Philippe Marthely / Patrick Saint-Eloi / Bizness",
             "masked_id": "",
             "start_time": "0"
         },
@@ -206,7 +206,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kassav'",
             "masked_id": "",
             "start_time": "0"
         },
@@ -219,8 +219,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Eric Virgal / Dominique Lorte",
             "masked_id": "",
             "start_time": "0"
         },
@@ -234,21 +234,21 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Pascal Vallot",
             "masked_id": "",
             "start_time": "0"
         },
         "18": {
             "id": "0mSlJqMS_Rs",
             "artists": "Guy Bordey",
-            "title": "Foud d'elle",
+            "title": "Fou d'elle",
             "album": "",
             "year": "1997",
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "Guy Bordey / Fou d'elle",
             "masked_id": "",
             "start_time": "0"
         },
@@ -262,12 +262,12 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Slaï",
             "masked_id": "",
             "start_time": "0"
         },
         "20": {
-            "id": "pE3ESZ8Edrs",
+            "id": "V-65Wm0fK8g",
             "artists": "Leila Chicot",
             "title": "San vou",
             "album": "Champagn' Light",
@@ -276,9 +276,9 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Leila Chicot",
             "masked_id": "",
-            "start_time": "0"
+            "start_time": "20"
         },
         "21": {
             "id": "Gdsh7uSAInY",
@@ -289,8 +289,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Sonia Dersion / Jean-Michel Rotin",
             "masked_id": "",
             "start_time": "0"
         },
@@ -304,7 +304,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jean-Michel Rotin",
             "masked_id": "",
             "start_time": "0"
         },
@@ -318,7 +318,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jean-Michel Rotin",
             "masked_id": "",
             "start_time": "0"
         },
@@ -332,7 +332,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Oliver N'Goma",
             "masked_id": "",
             "start_time": "0"
         },
@@ -345,8 +345,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "Njie / Bleu Nuit",
             "masked_id": "",
             "start_time": "0"
         },
@@ -360,7 +360,7 @@
             "sampled_by": "Hatik - Angela",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Saïan Supa Crew",
             "masked_id": "",
             "start_time": "0"
         },
@@ -374,7 +374,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Patrick Saint-Eloi",
             "masked_id": "",
             "start_time": "0"
         },
@@ -388,7 +388,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Patrick Saint-Eloi",
             "masked_id": "",
             "start_time": "0"
         },
@@ -402,7 +402,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Patrick Saint-Eloi",
             "masked_id": "",
             "start_time": "90"
         },
@@ -416,7 +416,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Patrick Saint-Eloi",
             "masked_id": "",
             "start_time": "0"
         },
@@ -430,7 +430,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Square One",
             "masked_id": "",
             "start_time": "0"
         },
@@ -444,7 +444,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Alice ça glisse",
             "masked_id": "",
             "start_time": "0"
         },
@@ -458,7 +458,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Francky Vincent",
             "masked_id": "",
             "start_time": "0"
         },
@@ -472,7 +472,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Harry Diboula",
             "masked_id": "",
             "start_time": "0"
         },
@@ -486,7 +486,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Fruit De La Passion",
             "masked_id": "",
             "start_time": "0"
         }

@@ -11,12 +11,12 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Monique Seka",
             "masked_id": ""
         },
         "2": {
             "id": "PcidQ59eFuY",
-            "artists": "Les Deesses; Papa Tank",
+            "artists": "Les Déesses; Papa Tank",
             "title": "Danse Avec Moi",
             "album": "Saveurs Exotiques",
             "year": "2007",
@@ -24,20 +24,20 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Les Déesses / Papa Tank",
             "masked_id": ""
         },
         "3": {
             "id": "N2t-9Tbml2w",
             "artists": "Ban Biyo",
-            "title": "Disk La Raye",
+            "title": "Disk La Rayé",
             "album": "Agwadada",
             "year": "2002",
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "Ban Biyo / Disk La Rayé",
             "masked_id": ""
         },
         "4": {
@@ -50,20 +50,20 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Tchiriri",
             "masked_id": ""
         },
         "5": {
             "id": "cetltmDkOPM",
             "artists": "Jessy Matador",
-            "title": "Decale Gwada",
+            "title": "Décalé Gwada",
             "album": "Afrikan New Style",
             "year": "2009",
-            "genders": "Soca; Coupe Decale; Pop",
+            "genders": "Soca; Coupé Decalé; Pop",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jessy Matador",
             "masked_id": ""
         },
         "6": {
@@ -76,7 +76,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Nichols",
             "masked_id": "",
             "start_time": "0"
         },
@@ -89,8 +89,8 @@
             "genders": "Zouk; Kompa",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Marvin / Ali Angel",
             "masked_id": "",
             "start_time": "0"
         },
@@ -103,8 +103,8 @@
             "genders": "Zouk; Kompa",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Priscillia / Nichols",
             "masked_id": "",
             "start_time": "30"
         },
@@ -118,7 +118,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Joe Dwet File",
             "masked_id": "",
             "start_time": "30"
         },
@@ -131,8 +131,8 @@
             "genders": "Zouk; Kompa",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Vayb / Mickael Guirand",
             "masked_id": "",
             "start_time": "0"
         },
@@ -146,7 +146,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Ou paka fe sa",
             "masked_id": "",
             "start_time": "0"
         },
@@ -159,8 +159,8 @@
             "genders": "RnB; Kompa; Afrobeat",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Aya Nakamura / Damso",
             "masked_id": "",
             "start_time": "0"
         },
@@ -173,8 +173,8 @@
             "genders": "Zouk; Kompa",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "M'rick Amokila / K-Reen",
             "masked_id": "",
             "start_time": "10"
         },
@@ -188,7 +188,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Fally Ipupa",
             "masked_id": "",
             "start_time": "0"
         },
@@ -201,14 +201,14 @@
             "genders": "Zouk; Kompa",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "Cadie Nelva / DJ Kawest / Ne Doute Pas",
             "masked_id": "",
             "start_time": "0"
         },
         "16": {
             "id": "GfJeezuYyeA",
-            "artists": "La Compagnie Creole",
+            "artists": "La Compagnie Créole",
             "title": "C'est bon pour le moral",
             "album": "Vive Le Douanier Rousseau",
             "year": "1983",
@@ -216,41 +216,41 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "La Compagnie Créole",
             "masked_id": "",
             "start_time": "0"
         },
         "17": {
             "id": "Vm8vBoXcIcw",
             "artists": "David Martial",
-            "title": "Celimene",
-            "album": "Tamba Celimene",
+            "title": "Celimène",
+            "album": "Tamba Celimène",
             "year": "1975",
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Celimène",
             "masked_id": "",
             "start_time": "0"
         },
         "18": {
             "id": "Mk-cOOoj_MU",
-            "artists": "La Compagnie Creole",
-            "title": "Le Bal Masque",
-            "album": "Le Bal Masque",
+            "artists": "La Compagnie Créole",
+            "title": "Le Bal Masqué",
+            "album": "Le Bal Masqué",
             "year": "1985",
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "La Compagnie Créole",
             "masked_id": "",
             "start_time": "0"
         },
         "19": {
             "id": "t_hN-_P8xAE",
-            "artists": "La Compagnie Creole",
+            "artists": "La Compagnie Créole",
             "title": "Ca Fait Rire Les Oiseaux",
             "album": "Ca Fait Rire Les Oiseaux",
             "year": "1986",
@@ -258,13 +258,13 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "La Compagnie Créole",
             "masked_id": "",
             "start_time": "0"
         },
         "20": {
             "id": "l2Tw1VTwdMs",
-            "artists": "La Compagnie Creole",
+            "artists": "La Compagnie Créole",
             "title": "La Machine A Danser",
             "album": "La Machine A Danser",
             "year": "1987",
@@ -272,13 +272,13 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "La Compagnie Créole",
             "masked_id": "",
             "start_time": "0"
         },
         "21": {
             "id": "XsYBiw8I5lc",
-            "artists": "La Compagnie Creole",
+            "artists": "La Compagnie Créole",
             "title": "Ba Moin En Ti Bo",
             "album": "Blogodo",
             "year": "1982",
@@ -286,7 +286,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "La Compagnie Créole",
             "masked_id": "",
             "start_time": "0"
         },
@@ -300,21 +300,21 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kassav'",
             "masked_id": "",
             "start_time": "0"
         },
         "23": {
             "id": "DrKAMrVkEvU",
-            "artists": "Tatiana Miath - Zouti",
+            "artists": "Tatiana Miath",
             "title": "Soyons heureux",
             "album": "Zouti",
             "year": "1987",
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "Tatiana Miath / Soyons heureux / Zouti",
             "masked_id": "",
             "start_time": "0"
         },
@@ -328,7 +328,7 @@
             "sampled_by": "Haitian Troubadours - Ou Le",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kassav'",
             "masked_id": "",
             "start_time": "0"
         },
@@ -342,7 +342,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Ronald Rubinel",
             "masked_id": "",
             "start_time": "0"
         },
@@ -356,7 +356,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jean-Philippe Marthely / Patrick Saint-Eloi",
             "masked_id": "",
             "start_time": "0"
         },
@@ -369,8 +369,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "Jean-Philippe Marthely / Patrick Saint-Eloi / Ola Ou Ye",
             "masked_id": "",
             "start_time": "0"
         },
@@ -383,8 +383,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "Jean-Philippe Marthely / Patrick Saint-Eloi / Bizness",
             "masked_id": "",
             "start_time": "0"
         },
@@ -398,7 +398,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kassav'",
             "masked_id": "",
             "start_time": "0"
         },
@@ -411,8 +411,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Eric Virgal / Dominique Lorte",
             "masked_id": "",
             "start_time": "0"
         },
@@ -426,21 +426,21 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Pascal Vallot",
             "masked_id": "",
             "start_time": "0"
         },
         "32": {
             "id": "0mSlJqMS_Rs",
             "artists": "Guy Bordey",
-            "title": "Foud d'elle",
+            "title": "Fou d'elle",
             "album": "",
             "year": "1997",
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "Guy Bordey / Fou d'elle",
             "masked_id": "",
             "start_time": "0"
         },
@@ -454,12 +454,12 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Slaï",
             "masked_id": "",
             "start_time": "0"
         },
         "34": {
-            "id": "pE3ESZ8Edrs",
+            "id": "V-65Wm0fK8g",
             "artists": "Leila Chicot",
             "title": "San vou",
             "album": "Champagn' Light",
@@ -468,9 +468,9 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Leila Chicot",
             "masked_id": "",
-            "start_time": "0"
+            "start_time": "20"
         },
         "35": {
             "id": "Gdsh7uSAInY",
@@ -481,8 +481,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Sonia Dersion / Jean-Michel Rotin",
             "masked_id": "",
             "start_time": "0"
         },
@@ -496,7 +496,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jean-Michel Rotin",
             "masked_id": "",
             "start_time": "0"
         },
@@ -510,7 +510,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jean-Michel Rotin",
             "masked_id": "",
             "start_time": "0"
         },
@@ -524,7 +524,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Oliver N'Goma",
             "masked_id": "",
             "start_time": "0"
         },
@@ -537,8 +537,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "Njie / Bleu Nuit",
             "masked_id": "",
             "start_time": "0"
         },
@@ -552,7 +552,7 @@
             "sampled_by": "Hatik - Angela",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Saïan Supa Crew",
             "masked_id": "",
             "start_time": "0"
         },
@@ -566,7 +566,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Patrick Saint-Eloi",
             "masked_id": "",
             "start_time": "0"
         },
@@ -580,7 +580,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Patrick Saint-Eloi",
             "masked_id": "",
             "start_time": "0"
         },
@@ -594,7 +594,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Patrick Saint-Eloi",
             "masked_id": "",
             "start_time": "90"
         },
@@ -608,7 +608,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Patrick Saint-Eloi",
             "masked_id": "",
             "start_time": "0"
         },
@@ -622,7 +622,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Square One",
             "masked_id": "",
             "start_time": "0"
         },
@@ -636,7 +636,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Alice ça glisse",
             "masked_id": "",
             "start_time": "0"
         },
@@ -650,7 +650,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Francky Vincent",
             "masked_id": "",
             "start_time": "0"
         },
@@ -664,7 +664,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Harry Diboula",
             "masked_id": "",
             "start_time": "0"
         },
@@ -692,7 +692,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kaysha",
             "masked_id": "",
             "start_time": "0"
         },
@@ -706,7 +706,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kaysha",
             "masked_id": "",
             "start_time": "40"
         },
@@ -720,7 +720,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kaysha",
             "masked_id": "",
             "start_time": "0"
         },
@@ -734,7 +734,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kaysha",
             "masked_id": "",
             "start_time": "30"
         },
@@ -748,7 +748,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kaysha",
             "masked_id": "",
             "start_time": "0"
         },
@@ -762,9 +762,9 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kaysha",
             "masked_id": "",
-            "start_time": "0"
+            "start_time": "50"
         },
         "56": {
             "id": "xHokNNWGfoU",
@@ -776,7 +776,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kaysha",
             "masked_id": "",
             "start_time": "0"
         },
@@ -790,7 +790,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kaysha",
             "masked_id": "",
             "start_time": "0"
         },
@@ -803,14 +803,14 @@
             "genders": "Zouk; Kizomba",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Kaysha / Jean-Michel Rotin",
             "masked_id": "",
             "start_time": "0"
         },
         "59": {
             "id": "REKIzkmzetM",
-            "artists": "Les Deesses",
+            "artists": "Les Déesses",
             "title": "Ensemble",
             "album": "Saveurs Exotiques",
             "year": "2007",
@@ -818,13 +818,13 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Les Déesses",
             "masked_id": "",
             "start_time": "0"
         },
         "60": {
             "id": "zCo48k7Wja8",
-            "artists": "Les Deesses",
+            "artists": "Les Déesses",
             "title": "On A Change",
             "album": "Saveurs Exotiques",
             "year": "2007",
@@ -832,7 +832,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Les Déesses",
             "masked_id": "",
             "start_time": "0"
         },
@@ -845,8 +845,8 @@
             "genders": "Zouk; Kompa",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Nichols / Jamice",
             "masked_id": "",
             "start_time": "30"
         },
@@ -859,13 +859,13 @@
             "genders": "Zouk; Kompa",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Nichols / Nickenson",
             "masked_id": "",
             "start_time": "0"
         },
         "63": {
-            "id": "q8fKwOm8teQ",
+            "id": "cy2gP9VpGFQ",
             "artists": "Marvin; Ludo",
             "title": "Ou Ja Konet'",
             "album": "Corps & Ames",
@@ -873,8 +873,8 @@
             "genders": "Zouk; Kompa",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Marvin / Ludo",
             "masked_id": "",
             "start_time": "20"
         },
@@ -888,13 +888,13 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Guy Bordey",
             "masked_id": "",
             "start_time": "0"
         },
         "65": {
             "id": "sGx-lioLVb4",
-            "artists": "Slai",
+            "artists": "Slaï",
             "title": "Flamme",
             "album": "Florilege",
             "year": "2007",
@@ -902,13 +902,13 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Slaï",
             "masked_id": "",
             "start_time": "0"
         },
         "66": {
             "id": "aW4LwDVDOIU",
-            "artists": "Slai",
+            "artists": "Slaï",
             "title": "Ne Rentre Pas Chez Toi Ce Soir",
             "album": "Florilege",
             "year": "2007",
@@ -916,7 +916,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Slaï",
             "masked_id": "",
             "start_time": "0"
         },
@@ -930,7 +930,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Edith Lefel",
             "masked_id": "",
             "start_time": "0"
         },
@@ -944,7 +944,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Edith Lefel",
             "masked_id": "",
             "start_time": "0"
         },
@@ -957,8 +957,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Lynnsha / Thierry Battery",
             "masked_id": "",
             "start_time": "0"
         },
@@ -972,7 +972,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez tous les artistes de la chanson",
-            "reponse": "",
+            "reponse": "Lynnsha / Lord Kossity",
             "masked_id": "",
             "start_time": "10"
         },
@@ -985,8 +985,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Lynnsha / Lady Sweety / Jacob Desvarieux",
             "masked_id": "",
             "start_time": "20"
         },
@@ -1000,7 +1000,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Lynnsha",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1014,7 +1014,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Milca",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1028,7 +1028,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Orlane",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1042,7 +1042,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Perle Lama",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1055,8 +1055,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Princess Lover / Perle Lama",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1070,7 +1070,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Perle Lama",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1084,12 +1084,12 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Princess Lover",
             "masked_id": "",
             "start_time": "0"
         },
         "79": {
-            "id": "2uVumkrXovI",
+            "id": "FEBez4OnD4o",
             "artists": "Samantha Nourry",
             "title": "Je t'ecris ce poeme",
             "album": "A coeur de pierre",
@@ -1098,7 +1098,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Samantha Nourry",
             "masked_id": "",
             "start_time": "20"
         },
@@ -1112,12 +1112,12 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Soumia",
             "masked_id": "",
             "start_time": "0"
         },
         "81": {
-            "id": "4ghByLUhS_I",
+            "id": "kOYrES9T63Y",
             "artists": "Soumia",
             "title": "On A Tout Le Temps",
             "album": "In Love Again",
@@ -1126,9 +1126,9 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Soumia",
             "masked_id": "",
-            "start_time": "0"
+            "start_time": "20"
         },
         "82": {
             "id": "EqgjGKCdTTA",
@@ -1139,13 +1139,13 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Soumia / Lynnsha",
             "masked_id": "",
             "start_time": "30"
         },
         "83": {
-            "id": "kNTyxpBE0Dg",
+            "id": "-6mc0fZBGN0",
             "artists": "Paskal Lanclume; Frederic Caracas",
             "title": "En Dot Chimin",
             "album": "",
@@ -1153,10 +1153,10 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Paskal Lanclume / Frederic Caracas",
             "masked_id": "",
-            "start_time": "0"
+            "start_time": "20"
         },
         "84": {
             "id": "HxguWZgQdzU",
@@ -1168,21 +1168,21 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Imelie Monteiro",
             "masked_id": "",
             "start_time": "0"
         },
         "85": {
             "id": "n3WHqPx9lko",
             "artists": "Darius Denon",
-            "title": "Je t 'emmene",
+            "title": "Je t'emmène",
             "album": "Viens",
             "year": "2005",
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Je t'emmène",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1196,7 +1196,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Darius Denon",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1210,7 +1210,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez le titre de la chanson",
-            "reponse": "",
+            "reponse": "Bagail La Bande",
             "masked_id": "",
             "start_time": "40"
         },
@@ -1223,8 +1223,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Abysse / Lino",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1238,7 +1238,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Abysse",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1251,8 +1251,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Beatrice Poulot / Francis Maiv",
             "masked_id": "",
             "start_time": "30"
         },
@@ -1265,10 +1265,10 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Elody Marquant / Patrick Andrey",
             "masked_id": "",
-            "start_time": "0"
+            "start_time": "30"
         },
         "92": {
             "id": "7qACQ0pQ2rA",
@@ -1280,7 +1280,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jean-Michel Rotin",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1294,7 +1294,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jocelyn Deloumeaux",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1308,7 +1308,7 @@
             "sampled_by": "",
             "sample_from": "Khaled - Aicha",
             "topic": "Donnez l'artiste orginal",
-            "reponse": "",
+            "reponse": "Khaled",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1322,7 +1322,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "LS",
             "masked_id": "",
             "start_time": "30"
         },
@@ -1336,7 +1336,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel élément de la chanson",
-            "reponse": "",
+            "reponse": "Gwodada / Bat La Ponyet / Zafe Cho",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1350,7 +1350,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel élément de la chanson",
-            "reponse": "",
+            "reponse": "Doriane / Naya / Si Mwen Te Sav' / Subtil'",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1363,8 +1363,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Ronald Rubinel / Edith Lefel",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1377,8 +1377,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Ronald Rubinel / Shydeeh",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1391,8 +1391,8 @@
             "genders": "Zouk; Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "Shydeeh / Don't Even Touch",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1406,7 +1406,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Sonia Dersion",
             "masked_id": "",
             "start_time": "20"
         },
@@ -1419,8 +1419,8 @@
             "genders": "Zouk; Kizomba",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Sylvie Davidson / Nichols",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1434,12 +1434,12 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Tcheky",
             "masked_id": "",
             "start_time": "0"
         },
         "104": {
-            "id": "CoxBIoooDZw",
+            "id": "GM5AFK_8u7E",
             "artists": "Tonton Ben",
             "title": "Positiver",
             "album": "2 Gammes",
@@ -1448,9 +1448,9 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Tonton Ben",
             "masked_id": "",
-            "start_time": "40"
+            "start_time": "0"
         },
         "105": {
             "id": "OxUnAT5aAvM",
@@ -1462,7 +1462,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Typical Abidos",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1476,7 +1476,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel élément de la chanson",
-            "reponse": "",
+            "reponse": "Alek's / Pour Toi",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1490,12 +1490,12 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Warren",
             "masked_id": "",
             "start_time": "0"
         },
         "108": {
-            "id": "D-NJfv5rLjM",
+            "id": "IbYXun_zd7g",
             "artists": "Warren",
             "title": "Envie",
             "album": "Prologue",
@@ -1504,12 +1504,12 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Warren",
             "masked_id": "",
-            "start_time": "10"
+            "start_time": "20"
         },
         "109": {
-            "id": "ryMYkBmy4s0",
+            "id": "ooYQi8XtFyg",
             "artists": "Willy Ververt",
             "title": "En Trouve'w",
             "album": "",
@@ -1518,9 +1518,9 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Willy Ververt",
             "masked_id": "",
-            "start_time": "0"
+            "start_time": "30"
         },
         "110": {
             "id": "5iEKs26Ebe0",
@@ -1532,7 +1532,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Njie",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1546,7 +1546,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Njie",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1560,7 +1560,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Fanny J",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1573,8 +1573,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Fanny J / Marvin",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1588,7 +1588,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Fanny J",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1602,7 +1602,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "2 Wayz",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1616,12 +1616,12 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "2 Wayz",
             "masked_id": "",
             "start_time": "30"
         },
         "117": {
-            "id": "4sILfSF7Hwk",
+            "id": "OM2Rtzfwaqs",
             "artists": "2 Wayz",
             "title": "Je veux trouver celle",
             "album": "Never Die",
@@ -1630,12 +1630,12 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "2 Wayz",
             "masked_id": "",
-            "start_time": "0"
+            "start_time": "10"
         },
         "118": {
-            "id": "0w06TSyWx1k",
+            "id": "DCaPqpuxpSw",
             "artists": "2 Wayz; Marcia",
             "title": "The Heat",
             "album": "",
@@ -1643,10 +1643,10 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "2 Wayz / Marcia",
             "masked_id": "",
-            "start_time": "0"
+            "start_time": "20"
         },
         "119": {
             "id": "NQcpyMWSyg0",
@@ -1658,7 +1658,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Patrick Saint-Eloi",
             "masked_id": "",
             "start_time": "20"
         },
@@ -1672,7 +1672,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Orlane",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1686,7 +1686,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jim Rama",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1700,7 +1700,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez tous les artistes de la chanson",
-            "reponse": "",
+            "reponse": "Admiral T / Kassav'",
             "masked_id": "",
             "start_time": "20"
         },
@@ -1714,7 +1714,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Nichols",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1727,8 +1727,8 @@
             "genders": "Zouk; Rap",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "Shydeeh / Wooh She's Who",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1742,7 +1742,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Tanya Saint-Val",
             "masked_id": "",
             "start_time": "20"
         },
@@ -1756,12 +1756,12 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Thierry Cham",
             "masked_id": "",
             "start_time": "0"
         },
         "127": {
-            "id": "xTqeoiVOTVM",
+            "id": "WpyN4YzEwIE",
             "artists": "Kim",
             "title": "Mon ami",
             "album": "Premiers pas",
@@ -1770,9 +1770,9 @@
             "sampled_by": "Zouk",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kim",
             "masked_id": "",
-            "start_time": "0"
+            "start_time": "40"
         },
         "128": {
             "id": "J_4U8LTPXWU",
@@ -1784,7 +1784,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Joe Dwet File",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1797,8 +1797,8 @@
             "genders": "Zouk; Kompa",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Epi'd Mic / RIK",
             "masked_id": "",
             "start_time": "20"
         },
@@ -1811,8 +1811,8 @@
             "genders": "Zouk; Kompa",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Jade / K9",
             "masked_id": "",
             "start_time": "30"
         },
@@ -1825,8 +1825,8 @@
             "genders": "Zouk; Kompa",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "T-Vice / Olivier Duret",
             "masked_id": "",
             "start_time": "50"
         },
@@ -1840,13 +1840,13 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Jennifer Dias",
             "masked_id": "",
             "start_time": "30"
         },
         "133": {
             "id": "opG8gDK6IJc",
-            "artists": "Slai",
+            "artists": "Slaï",
             "title": "Ca Ne Te Convient Pas",
             "album": "Escale",
             "year": "2011",
@@ -1854,7 +1854,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Slaï",
             "masked_id": "",
             "start_time": "20"
         },
@@ -1868,7 +1868,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Yoan",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1881,8 +1881,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Yoan / Kalash",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1895,8 +1895,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Lynnsha / Teeyah",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1910,7 +1910,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Milca",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1924,7 +1924,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Perle Lama",
             "masked_id": "",
             "start_time": "10"
         },
@@ -1937,8 +1937,8 @@
             "genders": "Zouk; Kizomba",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Marvin / Phyllisia Ross",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1952,7 +1952,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Soumia",
             "masked_id": "",
             "start_time": "20"
         },
@@ -1966,7 +1966,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Soumia",
             "masked_id": "",
             "start_time": "0"
         },
@@ -1980,7 +1980,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Soumia",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2008,7 +2008,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Soumia",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2022,7 +2022,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Darius Denon",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2036,7 +2036,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Kimse",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2049,13 +2049,13 @@
             "genders": "Zouk; Africain",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "Nesly / Bracket / Promesse",
             "masked_id": "",
             "start_time": "0"
         },
         "148": {
-            "id": "XTTAfXjinL4",
+            "id": "nWCRVlrLxg8",
             "artists": "Layanah",
             "title": "Je t'aime trop",
             "album": "",
@@ -2064,9 +2064,9 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Layanah",
             "masked_id": "",
-            "start_time": "0"
+            "start_time": "20"
         },
         "149": {
             "id": "O2ghnrtTFXQ",
@@ -2078,7 +2078,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Njie",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2092,7 +2092,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Njie",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2106,7 +2106,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Njie",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2120,13 +2120,13 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Njie",
             "masked_id": "",
             "start_time": "0"
         },
         "153": {
             "id": "otVpjYdAKS0",
-            "artists": "Slai",
+            "artists": "Slaï",
             "title": "Je T'emmene Au Loin",
             "album": "Double Six",
             "year": "2014",
@@ -2134,13 +2134,13 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Slaï",
             "masked_id": "",
             "start_time": "0"
         },
         "154": {
             "id": "UlRU0F0BJcQ",
-            "artists": "Slai",
+            "artists": "Slaï",
             "title": "Autour de toi",
             "album": "Escale",
             "year": "2011",
@@ -2148,7 +2148,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Slaï",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2161,8 +2161,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "LS / Priscillia",
             "masked_id": "",
             "start_time": "30"
         },
@@ -2175,8 +2175,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Perle Lama / LS",
             "masked_id": "",
             "start_time": "10"
         },
@@ -2189,8 +2189,8 @@
             "genders": "Kizomba; Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "Shana Kihal / Chaye Mwen",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2204,7 +2204,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Marvin",
             "masked_id": "",
             "start_time": "20"
         },
@@ -2217,8 +2217,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "N'Rick / Patrick Andrey",
             "masked_id": "",
             "start_time": "40"
         },
@@ -2232,7 +2232,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel élément de la chanson",
-            "reponse": "",
+            "reponse": "Antonny Drew / Stony / Aimer",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2246,7 +2246,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "K-Reen",
             "masked_id": "",
             "start_time": "30"
         },
@@ -2260,7 +2260,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Talina",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2274,7 +2274,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Nesly / Gadji Celi",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2288,7 +2288,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Stephane Moreau",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2302,7 +2302,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel élément de la chanson",
-            "reponse": "",
+            "reponse": "Kalipsxau / Barth / Dis moi je t'aime",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2316,7 +2316,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Fanny J / DJ Fly",
             "masked_id": "",
             "start_time": "20"
         },
@@ -2329,22 +2329,22 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "Kalipsxau / Were-Vana / Sans parler",
             "masked_id": "",
             "start_time": "70"
         },
         "168": {
             "id": "1fxJzdtNYEY",
             "artists": "2 Wayz; DJ Fopop",
-            "title": "J'espere encore",
+            "title": "J'espère encore",
             "album": "",
             "year": "2022",
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez n'importe quel élément de la chanson",
+            "reponse": "2 Wayz / DJ Fopop / J'espère encore",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2357,8 +2357,8 @@
             "genders": "Zouk; Afrobeat",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Maurane Voyer / Bamby",
             "masked_id": "",
             "start_time": "10"
         },
@@ -2372,7 +2372,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Aya Nakamura",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2382,11 +2382,11 @@
             "title": "Va dire a ton ex",
             "album": "Poison Ou Antidote",
             "year": "2020",
-            "genders": "RnB; Zouk; Chanson Francaise",
+            "genders": "RnB; Zouk; Chanson Française",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Dadju",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2399,8 +2399,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Ji Kann' / Guy-Andre",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2413,8 +2413,8 @@
             "genders": "Zouk",
             "sampled_by": "",
             "sample_from": "",
-            "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "topic": "Donnez un des artistes de la chanson",
+            "reponse": "Paska / Lorenz",
             "masked_id": "",
             "start_time": "20"
         },
@@ -2424,11 +2424,11 @@
             "title": "C'est toi",
             "album": "Era 24",
             "year": "2023",
-            "genders": "Afrobeat; Zouk; Chanson Francaise",
+            "genders": "Afrobeat; Zouk; Chanson Française",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Ronisia",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2438,11 +2438,11 @@
             "title": "Doucement",
             "album": "",
             "year": "2021",
-            "genders": "Afrobeat; Zouk; Chanson Francaise",
+            "genders": "Afrobeat; Zouk; Chanson Française",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Ronisia",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2452,11 +2452,11 @@
             "title": "Joli coeur",
             "album": "",
             "year": "2023",
-            "genders": "Afrobeat; Zouk; Chanson Francaise",
+            "genders": "Afrobeat; Zouk; Chanson Française",
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Ronisia",
             "masked_id": "",
             "start_time": "0"
         },
@@ -2470,7 +2470,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez n'importe quel élément de la chanson",
-            "reponse": "",
+            "reponse": "Axel Tony / Admiral T / Ma Reine",
             "masked_id": "",
             "start_time": "20"
         }

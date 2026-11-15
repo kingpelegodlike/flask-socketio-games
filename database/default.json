@@ -325,7 +325,7 @@
             "sampled_by": "",
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
-            "reponse": "",
+            "reponse": "Monique Seka",
             "masked_id": ""
         },
         "26": {
@@ -4006,7 +4006,7 @@
             "start_time": "40"
         },
         "308": {
-            "id": "K4KicQi4kZA",
+            "id": "ityQwbuCCHI",
             "artists": "Ti Kabzy",
             "title": "Relax",
             "album": "My Name Iz",
@@ -4016,7 +4016,8 @@
             "sample_from": "",
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
-            "masked_id": ""
+            "masked_id": "",
+            "start_time": "20"
         },
         "309": {
             "id": "Flg-E2OyknM",
@@ -17933,7 +17934,7 @@
             "start_time": "0"
         },
         "1360": {
-            "id": "pE3ESZ8Edrs",
+            "id": "V-65Wm0fK8g",
             "artists": "Leila Chicot",
             "title": "San vou",
             "album": "Champagn' Light",
@@ -17944,7 +17945,7 @@
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
             "masked_id": "",
-            "start_time": "0"
+            "start_time": "20"
         },
         "1361": {
             "id": "Gdsh7uSAInY",
@@ -18353,7 +18354,7 @@
             "start_time": "0"
         },
         "1390": {
-            "id": "q8fKwOm8teQ",
+            "id": "cy2gP9VpGFQ",
             "artists": "Marvin; Ludo",
             "title": "Ou Ja Konet'",
             "album": "Corps & Ames",
@@ -18577,7 +18578,7 @@
             "start_time": "0"
         },
         "1406": {
-            "id": "2uVumkrXovI",
+            "id": "FEBez4OnD4o",
             "artists": "Samantha Nourry",
             "title": "Je t'ecris ce poeme",
             "album": "A coeur de pierre",
@@ -18605,7 +18606,7 @@
             "start_time": "0"
         },
         "1408": {
-            "id": "4ghByLUhS_I",
+            "id": "kOYrES9T63Y",
             "artists": "Soumia",
             "title": "On A Tout Le Temps",
             "album": "In Love Again",
@@ -18616,7 +18617,7 @@
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
             "masked_id": "",
-            "start_time": "0"
+            "start_time": "20"
         },
         "1409": {
             "id": "EqgjGKCdTTA",
@@ -18633,7 +18634,7 @@
             "start_time": "30"
         },
         "1410": {
-            "id": "kNTyxpBE0Dg",
+            "id": "-6mc0fZBGN0",
             "artists": "Paskal Lanclume; Frederic Caracas",
             "title": "En Dot Chimin",
             "album": "",
@@ -18644,7 +18645,7 @@
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
             "masked_id": "",
-            "start_time": "0"
+            "start_time": "20"
         },
         "1411": {
             "id": "HxguWZgQdzU",
@@ -18941,7 +18942,7 @@
             "start_time": "0"
         },
         "1432": {
-            "id": "CoxBIoooDZw",
+            "id": "GM5AFK_8u7E",
             "artists": "Tonton Ben",
             "title": "Positiver",
             "album": "2 Gammes",
@@ -18952,7 +18953,7 @@
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
             "masked_id": "",
-            "start_time": "40"
+            "start_time": "0"
         },
         "1433": {
             "id": "OxUnAT5aAvM",
@@ -18997,7 +18998,7 @@
             "start_time": "0"
         },
         "1436": {
-            "id": "D-NJfv5rLjM",
+            "id": "IbYXun_zd7g",
             "artists": "Warren",
             "title": "Envie",
             "album": "Prologue",
@@ -19008,10 +19009,10 @@
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
             "masked_id": "",
-            "start_time": "10"
+            "start_time": "20"
         },
         "1437": {
-            "id": "ryMYkBmy4s0",
+            "id": "ooYQi8XtFyg",
             "artists": "Willy Ververt",
             "title": "En Trouve'w",
             "album": "",
@@ -19022,7 +19023,7 @@
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
             "masked_id": "",
-            "start_time": "0"
+            "start_time": "30"
         },
         "1438": {
             "id": "5iEKs26Ebe0",
@@ -19123,7 +19124,7 @@
             "start_time": "30"
         },
         "1445": {
-            "id": "4sILfSF7Hwk",
+            "id": "OM2Rtzfwaqs",
             "artists": "2 Wayz",
             "title": "Je veux trouver celle",
             "album": "Never Die",
@@ -19134,10 +19135,10 @@
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
             "masked_id": "",
-            "start_time": "0"
+            "start_time": "10"
         },
         "1446": {
-            "id": "0w06TSyWx1k",
+            "id": "DCaPqpuxpSw",
             "artists": "2 Wayz; Marcia",
             "title": "The Heat",
             "album": "",
@@ -19148,7 +19149,7 @@
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
             "masked_id": "",
-            "start_time": "0"
+            "start_time": "20"
         },
         "1447": {
             "id": "NQcpyMWSyg0",
@@ -19263,7 +19264,7 @@
             "start_time": "0"
         },
         "1455": {
-            "id": "xTqeoiVOTVM",
+            "id": "WpyN4YzEwIE",
             "artists": "Kim",
             "title": "Mon ami",
             "album": "Premiers pas",
@@ -19274,7 +19275,7 @@
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
             "masked_id": "",
-            "start_time": "0"
+            "start_time": "40"
         },
         "1456": {
             "id": "J_4U8LTPXWU",
@@ -19557,7 +19558,7 @@
             "start_time": "0"
         },
         "1476": {
-            "id": "XTTAfXjinL4",
+            "id": "nWCRVlrLxg8",
             "artists": "Layanah",
             "title": "Je t'aime trop",
             "album": "",
@@ -19568,7 +19569,7 @@
             "topic": "Donnez l'artiste de la chanson",
             "reponse": "",
             "masked_id": "",
-            "start_time": "0"
+            "start_time": "20"
         },
         "1477": {
             "id": "O2ghnrtTFXQ",
