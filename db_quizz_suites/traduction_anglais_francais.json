@@ -245,6 +245,366 @@
                 "Hérisson"
             ],
             "good_answer": "Hibou"
+        },
+        "11": {
+            "question": "Comment traduit-on 'Apple' en français ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "wrong_answers": [
+                "Poire",
+                "Orange",
+                "Pêche"
+            ],
+            "good_answer": "Pomme"
+        },
+        "12": {
+            "question": "Comment traduit-on 'Bonjour' en français ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "wrong_answers": [
+                "Goodbye",
+                "Please",
+                "Thanks"
+            ],
+            "good_answer": "Hello"
+        },
+        "13": {
+            "question": "Comment traduit-on 'House' en français ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "wrong_answers": [
+                "Chaise",
+                "Jardin",
+                "Fenêtre"
+            ],
+            "good_answer": "Maison"
+        },
+        "14": {
+            "question": "Comment traduit-on 'Merci' en Anglais ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "wrong_answers": [
+                "Sorry",
+                "Good night",
+                "Welcome"
+            ],
+            "good_answer": "Thank you"
+        },
+        "15": {
+            "question": "Comment traduit-on 'Book' en Français ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "wrong_answers": [
+                "Sorry",
+                "Good night",
+                "Welcome"
+            ],
+            "good_answer": "Thank you"
+        },
+        "16": {
+            "question": "Comment traduit-on 'A bientôt' en Anglais ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "wrong_answers": [
+                "Good morning",
+                "Excuse me",
+                "You’re welcome"
+            ],
+            "good_answer": "See you soon"
+        },
+        "17": {
+            "question": "Comment traduit-on 'Hungry' en Français ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "wrong_answers": [
+                "Fatigué",
+                "En colère",
+                "Pressé"
+            ],
+            "good_answer": "Affamé"
+        },
+        "18": {
+            "question": "Comment traduit-on 'I actually live in Paris' en Français ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "wrong_answers": [
+                "Je vis actuellement à Paris",
+                "Je vivrai à Paris",
+                "Je vis rarement à Paris"
+            ],
+            "good_answer": "En fait, je vis à Paris"
+        },
+        "19": {
+            "question": "Comment traduit-on 'She is sensible' en Français ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "wrong_answers": [
+                "Elle est sensible",
+                "Elle est sentimentale",
+                "Elle est susceptible"
+            ],
+            "good_answer": "Elle est raisonnable"
+        },
+        "20": {
+            "question": "Comment traduit-on 'I attended the meeting' en Français ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "wrong_answers": [
+                "J’ai attendu la réunion",
+                "J’ai organisé la réunion",
+                "J’ai annulé la réunion"
+            ],
+            "good_answer": "J’ai assisté à la réunion"
+        },
+        "21": {
+            "question": "Comment traduit-on 'The library is closed' en Français ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "wrong_answers": [
+                "La librairie est fermée",
+                "Le laboratoire est fermé",
+                "La galerie est fermée"
+            ],
+            "good_answer": "La bibliothèque est fermée"
+        },
+        "22": {
+            "question": "Comment traduit-on 'He eventually arrived' en Français ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "wrong_answers": [
+                "Il est éventuellement arrivé",
+                "Il est arrivé hier",
+                "Il est arrivé rapidement"
+            ],
+            "good_answer": "Il est finalement arrivé"
+        },
+        "23": {
+            "question": "Que signifie 'What’s your location?' en Français ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "wrong_answers": [
+                "Ta location de voiture",
+                "Ta destination de vacances",
+                "Ton logement"
+            ],
+            "good_answer": "Ton emplacement"
+        },
+        "24": {
+            "question": "Que signifie 'I have a pain in my leg' en Français ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "wrong_answers": [
+                "Du pain",
+                "Une peine",
+                "Une blessure"
+            ],
+            "good_answer": "Une douleur"
+        },
+        "25": {
+            "question": "Comment traduit-on 'Un coin tranquille' en Anglais ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/translation.jpg"
+            ],
+            "wrong_answers": [
+                "A quiet coin",
+                "A quiet room",
+                "A quiet place to rent"
+            ],
+            "good_answer": "A quiet corner"
         }
     }
 }

@@ -245,6 +245,150 @@
                 "Grosecret"
             ],
             "good_answer": "Grosveinard"
+        },
+        "11": {
+            "question": "Les Bisounours sont principalement ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/bisounours/bisounours.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/bisounours/bisounours.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/bisounours/bisounours.jpg"
+            ],
+            "wrong_answers": [
+                "Des lapins",
+                "Des chats",
+                "Des pandas"
+            ],
+            "good_answer": "Des ours"
+        },
+        "12": {
+            "question": "Où portent-ils leur symbole distinctif ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/bisounours/bisounours.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/bisounours/bisounours.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/bisounours/bisounours.jpg"
+            ],
+            "wrong_answers": [
+                "Sur une oreille",
+                "Sur le dos",
+                "Sur leur patte"
+            ],
+            "good_answer": "Sur le ventre"
+        },
+        "13": {
+            "question": "Que représente souvent leur symbole ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/bisounours/bisounours.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/bisounours/bisounours.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/bisounours/bisounours.jpg"
+            ],
+            "wrong_answers": [
+                "Leur métier",
+                "Leur âge",
+                "Leur pays"
+            ],
+            "good_answer": "Leur personnalité"
+        },
+        "14": {
+            "question": "Quel est leur grand objectif ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/bisounours/bisounours.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/bisounours/bisounours.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/bisounours/bisounours.jpg"
+            ],
+            "wrong_answers": [
+                "Faire des farces",
+                "Construire des maisons",
+                "Trouver des trésors"
+            ],
+            "good_answer": "Partager la gentillesse"
+        },
+        "15": {
+            "question": "Comment s’appelle leur royaume ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/bisounours/bisounours.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/bisounours/bisounours.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/bisounours/bisounours.jpg"
+            ],
+            "wrong_answers": [
+                "Le Pays des Lapins",
+                "La Vallée des Jouets",
+                "La Forêt Enchantée"
+            ],
+            "good_answer": "Le Royaume des Bisounours"
+        },
+        "16": {
+            "question": "Quel élément est souvent associé à leur univers ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/bisounours/bisounours.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/animes/bisounours/bisounours.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/animes/bisounours/bisounours.jpg"
+            ],
+            "wrong_answers": [
+                "Les volcans",
+                "Les pirates",
+                "Les dinosaures"
+            ],
+            "good_answer": "Les nuages"
         }
     }
 }
