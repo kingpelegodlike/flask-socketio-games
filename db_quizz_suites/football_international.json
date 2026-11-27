@@ -1,0 +1,946 @@
+{
+    "topic": "FOOTBALL INTERNATIONAL",
+    "categories": [
+        "All"
+    ],
+    "generation_min": "Youngers",
+    "generation_max": "Elders",
+    "questions": {
+        "1": {
+            "question": "A quelle unique équipe Francesco Totti fut un grand buteur ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/francesco_totti.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/francesco_totti.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/francesco_totti.jpg"
+            ],
+            "wrong_answers": [
+                "Atalanta Bergame",
+                "Bologne",
+                "Udinese"
+            ],
+            "good_answer": "AS Rome"
+        },
+        "2": {
+            "question": "Sepp Maier a remporté 3 fois la Champions League en gardant les buts de quelle équipe ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/sepp_maier.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/sepp_maier.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/sepp_maier.jpg"
+            ],
+            "wrong_answers": [
+                "Bayer Leverkusen",
+                "Borussia Mönchengladbach",
+                "Werder de Brême"
+            ],
+            "good_answer": "Bayern de Munich"
+        },
+        "3": {
+            "question": "Dans quel club était Lev Yachine, le seul gardien 'Ballon d'or' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/lev_yachine.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/lev_yachine.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/lev_yachine.jpg"
+            ],
+            "wrong_answers": [
+                "CSKA Moscou",
+                "Spartak Moscou",
+                "Torpédo Moscou"
+            ],
+            "good_answer": "Dynamo Moscou"
+        },
+        "4": {
+            "question": "A quel club Giuseppe Bergomi est-il indissociable ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/giuseppe_bergomi.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/giuseppe_bergomi.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/giuseppe_bergomi.jpg"
+            ],
+            "wrong_answers": [
+                "Bari",
+                "Bologne",
+                "Vérone"
+            ],
+            "good_answer": "Inter Milan"
+        },
+        "5": {
+            "question": "A quel club Franco Baresi est-il indissociable ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/franco_baresi_italie.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/franco_baresi_italie.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/franco_baresi_milan_ac.jpg"
+            ],
+            "wrong_answers": [
+                "Fiorentina",
+                "Juventus de Turin",
+                "Naples"
+            ],
+            "good_answer": "Milan AC"
+        },
+        "6": {
+            "question": "A quel club Paolo Maldini est-il indissociable ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/paolo_maldini.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/paolo_maldini.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/paolo_maldini_milan_ac.jpg"
+            ],
+            "wrong_answers": [
+                "Lazio de Rome",
+                "Sampdoria de Gênes",
+                "Torino"
+            ],
+            "good_answer": "Milan AC"
+        },
+        "7": {
+            "question": "Jean-Luc Ettori a fait le bonheur de quel club Francais ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/jean_luc_ettori.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/jean_luc_ettori.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/jean_luc_ettori_as_monaco.jpg"
+            ],
+            "wrong_answers": [
+                "Bordeaux",
+                "Marseille",
+                "Montpellier"
+            ],
+            "good_answer": "Monaco"
+        },
+        "8": {
+            "question": "A quel club Jean-Paul Bertrand-Demanes est-il indissociable ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/jean_paul_bertrand_demanes.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/jean_paul_bertrand_demanes.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/jean_paul_bertrand_demanes_fc_nantes.jpg"
+            ],
+            "wrong_answers": [
+                "Brest",
+                "Lens",
+                "Lyon"
+            ],
+            "good_answer": "Nantes"
+        },
+        "9": {
+            "question": "Dans quel club Cristiano Ronaldo n'a jamais évolué ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/christiano_ronaldo.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/christiano_ronaldo.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/christiano_ronaldo.jpg"
+            ],
+            "wrong_answers": [
+                "Manchester United",
+                "Sporting Portugal",
+                "Juventus"
+            ],
+            "good_answer": "Benfica"
+        },
+        "10": {
+            "question": "Quel joueur était surnommé le 'Hollandais volant' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/quiz_football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/quiz_football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/johan_cruyff_1974.jpg"
+            ],
+            "wrong_answers": [
+                "Ronald Koeman",
+                "Robin Van Persie",
+                "Mark Van Bommel"
+            ],
+            "good_answer": "Johan Cruyff"
+        },
+        "11": {
+            "question": "En quelle année Lionel Messi a-t-il remporté son premier Ballon d'or ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/lionel_messi.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/lionel_messi.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/lionel_messi.jpg"
+            ],
+            "wrong_answers": [
+                "2011",
+                "2012",
+                "2014"
+            ],
+            "good_answer": "2009"
+        },
+        "12": {
+            "question": "Quel est le milieu de terrain emblématique de Liverpool ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/quiz_football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/quiz_football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/steven_gerrard_liverpool.jpg"
+            ],
+            "wrong_answers": [
+                "Franck Lampard",
+                "David Beckham",
+                "Paul Scholes"
+            ],
+            "good_answer": "Steven Gerrard"
+        },
+        "13": {
+            "question": "Quel joueur anglais n'a jamais reçu le Ballon d'or ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/quiz_football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/quiz_football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/wayne_rooney_england.jpg"
+            ],
+            "wrong_answers": [
+                "Michael Owen",
+                "Kevin Keegan",
+                "Bobby Charlton"
+            ],
+            "good_answer": "Wayne Rooney"
+        },
+        "14": {
+            "question": "Dans quel club Bobby Charlton a-t-il inscrit 199 buts ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/bobby_charlton.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/bobby_charlton.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/bobby_charlton.jpg"
+            ],
+            "wrong_answers": [
+                "Liverpool FC",
+                "Porthsmouth FC",
+                "Blackpool FC"
+            ],
+            "good_answer": "Manchester United"
+        },
+        "15": {
+            "question": "Quel joueur de foot anglais a joué au PSG en 2013 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/quiz_football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/quiz_football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/david_beckham_psg.jpg"
+            ],
+            "wrong_answers": [
+                "Steven Gerrard",
+                "Ashley Cole",
+                "Franck Lampard"
+            ],
+            "good_answer": "David Beckham"
+        },
+        "16": {
+            "question": "Dans quel pays a eut lieu la coupe du monde 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "wrong_answers": [
+                "Serbie",
+                "Allemagne",
+                "France"
+            ],
+            "good_answer": "Russie"
+        },
+        "17": {
+            "question": "Qui est ce joueur de football ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/lionel_messi.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/lionel_messi.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/lionel_messi.jpg"
+            ],
+            "wrong_answers": [
+                "Ibrahimovic",
+                "Ronaldo",
+                "Zidane"
+            ],
+            "good_answer": "Messi"
+        },
+        "18": {
+            "question": "Quel est le surnom de l'équipe de football du Mali ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "les Castors",
+                "Les Etalons",
+                "les Léopards"
+            ],
+            "good_answer": "les Aigles"
+        },
+        "19": {
+            "question": "Quel est le surnom de l'équipe de football de la Serbie ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "les condors blancs",
+                "les faucons blancs",
+                "les pies blanches"
+            ],
+            "good_answer": "les aigles blancs"
+        },
+        "20": {
+            "question": "Quel est le surnom de l'équipe de football de la Tunisie ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "Antilopes de Carthage",
+                "Eléphants de Carthage",
+                "Lions de Carthage"
+            ],
+            "good_answer": "Aigles de Carthage"
+        },
+        "21": {
+            "question": "Quel est le surnom de l'équipe de football du Ghana ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "les Aigles de feu",
+                "les Eléphants gris",
+                "Les Gnous rouges"
+            ],
+            "good_answer": "les Blacks Stars"
+        },
+        "22": {
+            "question": "Quel est le surnom de l'équipe de football de l'Afrique du Sud ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "les Chalata Chalata",
+                "les Mataca Mataca",
+                "les Tigrou Tigrou"
+            ],
+            "good_answer": "les Bafana Bafana"
+        },
+        "23": {
+            "question": "Quel est le surnom de l'équipe de football de la Côte d'Ivoire ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "les Aigles",
+                "les Fennecs",
+                "les Super Eagles"
+            ],
+            "good_answer": "Les Eléphants"
+        },
+        "24": {
+            "question": "Quel est le surnom de l'équipe de football du Togo ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "les Mozillas",
+                "les Oiseaux du tonnerres",
+                "les Renards de feu"
+            ],
+            "good_answer": "les Eperviers"
+        },
+        "25": {
+            "question": "Quel est le surnom de l'équipe de football de l'Algérie ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "Les Guépards",
+                "les Loups",
+                "Les Renards"
+            ],
+            "good_answer": "les Fennecs"
+        },
+        "26": {
+            "question": "Quel est le surnom de l'équipe de football du Maroc ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "Les Buffles d'Hercule",
+                "Les Jaguards d'Hermes",
+                "Les Requins d'Achille"
+            ],
+            "good_answer": "les Lions de l'Atlas"
+        },
+        "27": {
+            "question": "Quel est le surnom de l'équipe de football du Nigeria ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "les Antilopes noires",
+                "Les Eléphants",
+                "les Fennecs"
+            ],
+            "good_answer": "les Super Eagles"
+        },
+        "28": {
+            "question": "Quel équipe de football nationale a pour surnom 'Les Eléphants' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "la RD Congo",
+                "la Zambie",
+                "le Burkina Faso"
+            ],
+            "good_answer": "la Côte d'Ivoire"
+        },
+        "29": {
+            "question": "Quel équipe de football nationale a pour surnom 'les Aigles de Carthage' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "l'Algérie",
+                "le Maroc",
+                "l'Egypte"
+            ],
+            "good_answer": "la Tunisie"
+        },
+        "30": {
+            "question": "Quel équipe de football nationale a pour surnom 'les Bafana Bafana' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "la Zambie",
+                "l'Angola",
+                "le Cap-Vert"
+            ],
+            "good_answer": "l'Afrique du Sud"
+        },
+        "31": {
+            "question": "Quel équipe de football nationale a pour surnom 'les Fennecs' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "la Tunisie",
+                "le Maroc",
+                "l'Egypte"
+            ],
+            "good_answer": "l'Algérie"
+        },
+        "32": {
+            "question": "Quel équipe de football nationale a pour surnom 'les Blacks Stars' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "l'Angola",
+                "le Niger",
+                "le Nigeria"
+            ],
+            "good_answer": "le Ghana"
+        },
+        "33": {
+            "question": "Quel équipe de football nationale a pour surnom 'les Lions de l'Atlas' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "la Tunisie",
+                "l'Algérie",
+                "l'Egypte"
+            ],
+            "good_answer": "le Maroc"
+        },
+        "34": {
+            "question": "Quel équipe de football nationale a pour surnom 'les Super Eagles' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "l'Angola",
+                "le Burkina Faso",
+                "le Ghana"
+            ],
+            "good_answer": "le Nigeria"
+        },
+        "35": {
+            "question": "Quel pays a accueilli la première coupe du monde la FIFA ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "Italie",
+                "Brésil",
+                "Angleterre"
+            ],
+            "good_answer": "Uruguay"
+        },
+        "36": {
+            "question": "Qui a gagné le Championnat d'Europe de Football en 2000 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "Allemagne",
+                "Italie",
+                "Portugal"
+            ],
+            "good_answer": "France"
+        },
+        "37": {
+            "question": "Qui gagne la Ligue Des Champions de Football en 2002 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "Bayer Leverkusen",
+                "FC Barcelone",
+                "Olympique Lyonnais"
+            ],
+            "good_answer": "Real Madrid"
+        },
+        "38": {
+            "question": "Quel terme désigne le Real Madrid et ses joueurs ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/sports.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/sports.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/sports.jpg"
+            ],
+            "wrong_answers": [
+                "Periquito",
+                "Ché",
+                "Culé"
+            ],
+            "good_answer": "Merengue"
+        },
+        "39": {
+            "question": "Quel est l'autre équipe moins connu de la ville de Barcelone ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "L'ASM",
+                "Les Burritos",
+                "Les Faritas"
+            ],
+            "good_answer": "L'espanyol"
+        }
+    }
+}

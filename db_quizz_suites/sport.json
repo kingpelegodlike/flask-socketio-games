@@ -81,28 +81,28 @@
             "good_answer": "10"
         },
         "4": {
-            "question": "Dans quel grand club européen Michel Platini a-t-il terminé sa carrière ?",
+            "question": "Quel sport se joue avec un volant et une raquette ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
             "question_media": [
                 "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "waiting_answer_media": [
                 "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/michel_platini_france_1986.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "answer_media": [
                 "/static/sounds/timeout.mp3",
-                "/static/images/sport/football/michel_platini_juventus_turin.jpg"
+                "/static/images/sport/bowling.jpg"
             ],
             "wrong_answers": [
-                "Le Bayern de Munich",
-                "Le Real Madrid",
-                "L'Ajax Amsterdam"
+                "Le tennis",
+                "Le squash",
+                "Le padel"
             ],
-            "good_answer": "La Juventus de Turin"
+            "good_answer": "Le badminton"
         },
         "5": {
             "question": "Quel sport Patrice Martin a-t-il dominé au cours des années 80 et 90 ?",
@@ -129,52 +129,52 @@
             "good_answer": "Le ski nautique"
         },
         "6": {
-            "question": "Comment sont surnommés les joueurs du FC Nantes ?",
+            "question": "Dans quel sport la balle peut-elle dépasser les 300 km/h au smash ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
             "question_media": [
                 "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "waiting_answer_media": [
                 "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "answer_media": [
                 "/static/sounds/timeout.mp3",
-                "/static/images/sport/les_canaris_fc_nantes.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "wrong_answers": [
-                "Les barjots",
-                "Les biscuits",
-                "Les jaunes"
+                "Le tennis",
+                "Le golf",
+                "Le tennis de table"
             ],
-            "good_answer": "Les canaris"
+            "good_answer": "Le badminton"
         },
         "7": {
-            "question": "Comment sont surnommés les joueurs de l'A.S Saint-Etienne ?",
+            "question": "Quel sport se pratique dans une piscine avec un ballon et des buts ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
             "question_media": [
                 "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "waiting_answer_media": [
                 "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "answer_media": [
                 "/static/sounds/timeout.mp3",
-                "/static/images/sport/les_verts_as_saint_etienne.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "wrong_answers": [
-                "Les gones",
-                "Les ultras",
-                "Les canaris"
+                "Le handball",
+                "Le volley-ball",
+                "Le hockey subaquatique"
             ],
-            "good_answer": "Les verts"
+            "good_answer": "Le water-polo"
         },
         "8": {
             "question": "De 1993 à 1996 quel fut le surnom de l'équipe de France de handball ?",
@@ -225,28 +225,28 @@
             "good_answer": "Portes"
         },
         "10": {
-            "question": "Qui était le capitaine de l'équipe de France de football en 1998 ?",
+            "question": "Dans quel sport utilise-t-on des balais pour frotter la glace ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
             "question_media": [
                 "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "waiting_answer_media": [
                 "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "answer_media": [
                 "/static/sounds/timeout.mp3",
-                "/static/images/sport/football/didier_deschamps_1998.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "wrong_answers": [
-                "Zinédine Zidane",
-                "Thierry Henry",
-                "Fabien Barthez"
+                "Le hockey",
+                "Le patinage",
+                "Le bobsleigh"
             ],
-            "good_answer": "Didier Deschamps"
+            "good_answer": "Le curling"
         },
         "11": {
             "question": "Quel français détient le record du monde de saut à la perche ?",
@@ -297,7 +297,7 @@
             "good_answer": "Le cheval d'arçons"
         },
         "13": {
-            "question": "Quel est le premier joueur de NBA à avoir atteint la barre des 100 points en un seul match ?",
+            "question": "Quel est le premier joueur de NBA à avoir atteint les 100 points en un match ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -321,52 +321,52 @@
             "good_answer": "Wilt Chamberlain"
         },
         "14": {
-            "question": "Avec quel club l'OL entretient-il une rivalité régionale ?",
+            "question": "Quel sport combine le ski de fond et le tir à la carabine ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
             "question_media": [
                 "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "waiting_answer_media": [
                 "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "answer_media": [
                 "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "wrong_answers": [
-                "Le Clermont Foot 63",
-                "L'AS Monaco",
-                "Le Grenoble Foot 38"
+                "Le combiné nordique",
+                "Le triathlon",
+                "Le pentathlon"
             ],
-            "good_answer": "L'AS Saint-Etienne"
+            "good_answer": "Le biathlon"
         },
         "15": {
-            "question": "Qui était le capitaine de l'équipe de France de football lors de la coupe du monde 2018 ?",
+            "question": "Quel est le sport où l'on franchit la ligne d'arrivée à reculons ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
             "question_media": [
                 "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "waiting_answer_media": [
                 "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "answer_media": [
                 "/static/sounds/timeout.mp3",
-                "/static/images/sport/football/hugo_lloris_2018.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "wrong_answers": [
-                "Antoine Griezmann",
-                "Olivier Giroud",
-                "Kylian Mbappé"
+                "Le canoë",
+                "La natation",
+                "L'escrime"
             ],
-            "good_answer": "Hugo Lloris"
+            "good_answer": "L'aviron"
         },
         "16": {
             "question": "Qui a avoué s'être dopé 'à l'insu de son plein gré .. ' ?",
@@ -393,52 +393,52 @@
             "good_answer": "Richard Virenque"
         },
         "17": {
-            "question": "Quel club de football joue dans un stade surnommé 'le chaudron' ?",
+            "question": "Dans quel sport la passe vers l'avant est-elle strictement interdite ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
             "question_media": [
                 "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "waiting_answer_media": [
                 "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "answer_media": [
                 "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "wrong_answers": [
-                "PSG",
-                "AJA Auxerre",
-                "Olympique de Marseille"
+                "Le football américain",
+                "Le handball",
+                "Le basket-ball"
             ],
-            "good_answer": "AS Saint Etienne"
+            "good_answer": "Le rugby"
         },
         "18": {
-            "question": "Quel est l'autre équipe moins connu de Barcelone ?",
+            "question": "Quel sport utilise une balle creuse en caoutchouc dans une pièce fermée ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
             "question_media": [
                 "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "waiting_answer_media": [
                 "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "answer_media": [
                 "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "wrong_answers": [
-                "L'ASM",
-                "Les Burritos",
-                "Les Faritas"
+                "Le racquetball",
+                "Le badminton",
+                "La pelote basque"
             ],
-            "good_answer": "L'espanyol"
+            "good_answer": "Le squash"
         },
         "19": {
             "question": "Des joueurs suivants, qui n'a jamais remporté Roland Garros ?",
@@ -609,7 +609,7 @@
             "good_answer": "Tennis"
         },
         "26": {
-            "question": "Quel sport evoque-t-on lorsque l'on parle de classement ATP ?",
+            "question": "Combien de joueurs composent une équipe de rugby à XV sur le terrain ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -626,11 +626,11 @@
                 "/static/images/sport/tennis.jpg"
             ],
             "wrong_answers": [
-                "Athletisme",
-                "Aviron",
-                "Basket"
+                "11 joueurs",
+                "13 joueurs",
+                "18 joueurs"
             ],
-            "good_answer": "Tennis"
+            "good_answer": "15 joueurs"
         },
         "27": {
             "question": "Quelle est la ville de ce club de basket NBA ?",
@@ -681,28 +681,28 @@
             "good_answer": "National Basketball Association"
         },
         "29": {
-            "question": "Qui est ce joueur de football ?",
+            "question": "Dans quel sport peut-on marquer un 'ippon' ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
             "question_media": [
                 "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/lionel_messi.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "waiting_answer_media": [
                 "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/lionel_messi.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "answer_media": [
                 "/static/sounds/timeout.mp3",
-                "/static/images/sport/football/lionel_messi.jpg"
+                "/static/images/sport/sports.jpg"
             ],
             "wrong_answers": [
-                "Ibrahimovic",
-                "Ronaldo",
-                "Zidane"
+                "Le karaté",
+                "La boxe",
+                "Le taekwondo"
             ],
-            "good_answer": "Messi"
+            "good_answer": "Le judo"
         },
         "30": {
             "question": "Qui est ce joueur de golf ?",
@@ -777,438 +777,6 @@
             "good_answer": "Javelo"
         },
         "33": {
-            "question": "Quel est le surnom de l'équipe de football du Mali ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "wrong_answers": [
-                "les Castors",
-                "Les Etalons",
-                "les Léopards"
-            ],
-            "good_answer": "les Aigles"
-        },
-        "34": {
-            "question": "Quel est le surnom de l'équipe de football de la Serbie ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "wrong_answers": [
-                "les condors blancs",
-                "les faucons blancs",
-                "les pies blanches"
-            ],
-            "good_answer": "les aigles blancs"
-        },
-        "35": {
-            "question": "Quel est le surnom de l'équipe de football de la Tunisie ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "wrong_answers": [
-                "Antilopes de Carthage",
-                "Eléphants de Carthage",
-                "Lions de Carthage"
-            ],
-            "good_answer": "Aigles de Carthage"
-        },
-        "36": {
-            "question": "Quel est le surnom de l'équipe de football du Ghana ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "wrong_answers": [
-                "les Aigles de feu",
-                "les Eléphants gris",
-                "Les Gnous rouges"
-            ],
-            "good_answer": "les Blacks Stars"
-        },
-        "37": {
-            "question": "Quel est le surnom de l'équipe de football de l'Afrique du Sud ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "wrong_answers": [
-                "les Chalata Chalata",
-                "les Mataca Mataca",
-                "les Tigrou Tigrou"
-            ],
-            "good_answer": "les Bafana Bafana"
-        },
-        "38": {
-            "question": "Quel est le surnom de l'équipe de football de la Côte d'Ivoire ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "wrong_answers": [
-                "les Aigles",
-                "les Fennecs",
-                "les Super Eagles"
-            ],
-            "good_answer": "Les Eléphants"
-        },
-        "39": {
-            "question": "Quel est le surnom de l'équipe de football du Togo ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "wrong_answers": [
-                "les Mozillas",
-                "les Oiseaux du tonnerres",
-                "les Renards de feu"
-            ],
-            "good_answer": "les Eperviers"
-        },
-        "40": {
-            "question": "Quel est le surnom de l'équipe de football de l'Algérie ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "wrong_answers": [
-                "Les Guépards",
-                "les Loups",
-                "Les Renards"
-            ],
-            "good_answer": "les Fennecs"
-        },
-        "41": {
-            "question": "Quel est le surnom de l'équipe de football du Maroc ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "wrong_answers": [
-                "Les Buffles d'Hercule",
-                "Les Jaguards d'Hermes",
-                "Les Requins d'Achille"
-            ],
-            "good_answer": "les Lions de l'Atlas"
-        },
-        "42": {
-            "question": "Quel est le surnom de l'équipe de football du Nigeria ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "wrong_answers": [
-                "les Antilopes noires",
-                "Les Eléphants",
-                "les Fennecs"
-            ],
-            "good_answer": "les Super Eagles"
-        },
-        "43": {
-            "question": "Quel équipe de football nationale a pour surnom 'Les Eléphants' ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "wrong_answers": [
-                "la RD Congo",
-                "la Zambie",
-                "le Burkina Faso"
-            ],
-            "good_answer": "la Côte d'Ivoire"
-        },
-        "44": {
-            "question": "Quel équipe de football nationale a pour surnom 'les Aigles de Carthage' ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "wrong_answers": [
-                "l'Algérie",
-                "le Maroc",
-                "l'Egypte"
-            ],
-            "good_answer": "la Tunisie"
-        },
-        "45": {
-            "question": "Quel équipe de football nationale a pour surnom 'les Bafana Bafana' ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "wrong_answers": [
-                "la Zambie",
-                "l'Angola",
-                "le Cap-Vert"
-            ],
-            "good_answer": "l'Afrique du Sud"
-        },
-        "46": {
-            "question": "Quel équipe de football nationale a pour surnom 'les Fennecs' ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "wrong_answers": [
-                "la Tunisie",
-                "le Maroc",
-                "l'Egypte"
-            ],
-            "good_answer": "l'Algérie"
-        },
-        "47": {
-            "question": "Quel équipe de football nationale a pour surnom 'les Blacks Stars' ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "wrong_answers": [
-                "l'Angola",
-                "le Niger",
-                "le Nigeria"
-            ],
-            "good_answer": "le Ghana"
-        },
-        "48": {
-            "question": "Quel équipe de football nationale a pour surnom 'les Lions de l'Atlas' ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "wrong_answers": [
-                "la Tunisie",
-                "l'Algérie",
-                "l'Egypte"
-            ],
-            "good_answer": "le Maroc"
-        },
-        "49": {
-            "question": "Quel équipe de football nationale a pour surnom 'les Super Eagles' ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "wrong_answers": [
-                "l'Angola",
-                "le Burkina Faso",
-                "le Ghana"
-            ],
-            "good_answer": "le Nigeria"
-        },
-        "50": {
-            "question": "Quel pays a accueilli la première coupe du monde la FIFA ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "wrong_answers": [
-                "Italie",
-                "Brésil",
-                "Angleterre"
-            ],
-            "good_answer": "Uruguay"
-        },
-        "51": {
             "question": "Quel est le nom de ce catcheur ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
@@ -1232,7 +800,7 @@
             ],
             "good_answer": "Hulk Hogan"
         },
-        "52": {
+        "34": {
             "question": "Quel est le nom de ce catcheur ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
@@ -1256,7 +824,7 @@
             ],
             "good_answer": "Batista"
         },
-        "53": {
+        "35": {
             "question": "Quel athlète popularise la méthode de saut en rouleau dorsal ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
@@ -1280,7 +848,7 @@
             ],
             "good_answer": "Dick Fosbury"
         },
-        "54": {
+        "36": {
             "question": "Quel français remporte le 110 mètres haies aux jeux de Montréal en 1976 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
@@ -1304,7 +872,7 @@
             ],
             "good_answer": "Guy Drut"
         },
-        "55": {
+        "37": {
             "question": "Comment Abebe Bikila gagna le marathon des jeux olympiques de Rome en 1960 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
@@ -1328,8 +896,8 @@
             ],
             "good_answer": "Pieds nus"
         },
-        "56": {
-            "question": "Quel est cet athlète, vainqueur de 4 médailles d'or aux jeux Olympiques de Berlin en 1936 ?",
+        "38": {
+            "question": "Quel athlète est vainqueur de 4 médailles d'or aux jeux Olympiques de Berlin en 1936 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -1352,7 +920,7 @@
             ],
             "good_answer": "Jesse Owens"
         },
-        "57": {
+        "39": {
             "question": "Dans quelle discipline, Alain Mimoun est-il médaillé d'or en 1956 à Melbourne ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
@@ -1376,7 +944,7 @@
             ],
             "good_answer": "Marathon"
         },
-        "58": {
+        "40": {
             "question": "Quelle était la nationalité d'Emil Zatopek ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
@@ -1400,7 +968,7 @@
             ],
             "good_answer": "Tchèque"
         },
-        "59": {
+        "41": {
             "question": "Quel Jamaïcain, triple champion olympique à Pékin et surnommé 'l'éclair' ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
@@ -1424,7 +992,7 @@
             ],
             "good_answer": "Usain Bolt"
         },
-        "60": {
+        "42": {
             "question": "Où se sont déroulés les JO en 2014 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
@@ -1448,7 +1016,7 @@
             ],
             "good_answer": "Sochi"
         },
-        "61": {
+        "43": {
             "question": "Combien de médailles remporte la gymnase roumaine Nadia Comaneci aux JO de Montréal en 1976 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
@@ -1472,7 +1040,7 @@
             ],
             "good_answer": "5"
         },
-        "62": {
+        "44": {
             "question": "Dans quelles épreuves Marie-José Pérec réussie-t-elle un doublé aux JO d'Atlanta de 1996 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
@@ -1496,7 +1064,7 @@
             ],
             "good_answer": "200 et 400 mètres"
         },
-        "63": {
+        "45": {
             "question": "Combien de médailles remporte Carl Lewis aux JO de 1984 de Los Angelès ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
@@ -1520,7 +1088,7 @@
             ],
             "good_answer": "4"
         },
-        "64": {
+        "46": {
             "question": "Comment était surnommé la légende du saut à la perche, Sergueï Bubka ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
@@ -1544,7 +1112,7 @@
             ],
             "good_answer": "Le Tsar"
         },
-        "65": {
+        "47": {
             "question": "Qu'est-ils arrivé aux colombes aux JO de 88 à Séoul ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
@@ -1568,55 +1136,7 @@
             ],
             "good_answer": "Elles ont brulés"
         },
-        "66": {
-            "question": "Qui a gagné le Championnat d'Europe de Football en 2000 ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "wrong_answers": [
-                "Allemagne",
-                "Italie",
-                "Portugal"
-            ],
-            "good_answer": "France"
-        },
-        "67": {
-            "question": "Qui gagne la Ligue Des Champions de Football en 2002 ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football.jpg"
-            ],
-            "wrong_answers": [
-                "Bayer Leverkusen",
-                "FC Barcelone",
-                "Olympique Lyonnais"
-            ],
-            "good_answer": "Real Madrid"
-        },
-        "68": {
+        "48": {
             "question": "Combien d'épreuves sont disputées au cours d'un heptathlon ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
@@ -1640,7 +1160,7 @@
             ],
             "good_answer": "7"
         },
-        "69": {
+        "49": {
             "question": "En quelle année ont eu lieu les premiers Jeux Olympiques modernes fondés par Pierre de Coubertin ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
@@ -1664,8 +1184,8 @@
             ],
             "good_answer": "1896"
         },
-        "70": {
-            "question": "Quel terme désigne le Real Madrid et ses joueurs ?",
+        "50": {
+            "question": "Quel sport se joue avec un disque plat appelé 'palet' sur la glace ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -1682,11 +1202,35 @@
                 "/static/images/sport/sports.jpg"
             ],
             "wrong_answers": [
-                "Periquito",
-                "Ché",
-                "Culé"
+                "Le curling",
+                "Le patinage de vitesse",
+                "Le bandy"
             ],
-            "good_answer": "Merengue"
+            "good_answer": "Le hockey sur glace"
+        },
+        "51": {
+            "question": "Dans quel sport marque-t-on un 'hole-in-one' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/sports.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/sports.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/sports.jpg"
+            ],
+            "wrong_answers": [
+                "Le bowling",
+                "Le tir à l'arc",
+                "La pétanque"
+            ],
+            "good_answer": "Le golf"
         }
     }
 }

@@ -1,13 +1,637 @@
 {
-    "topic": "Joueurs Francais de Football",
+    "topic": "FOOTBALL FRANCAIS",
     "categories": [
         "All"
     ],
-    "generation_min": "Adults",
+    "generation_min": "Youngers",
     "generation_max": "Elders",
     "questions": {
         "1": {
-            "question": "Qui est-ce ?",
+            "question": "Qui est le capitaine de l'équipe de France 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/hugo_lloris_2018.jpg"
+            ],
+            "wrong_answers": [
+                "Paul Pogba",
+                "Blaise Matuidi",
+                "Antoine Griezmann"
+            ],
+            "good_answer": "Hugo Lloris"
+        },
+        "2": {
+            "question": "Quel est le poste de ce joueur ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/steve_mandanda_2018.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/steve_mandanda_2018.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff/steve_mandanda_2018.jpg"
+            ],
+            "wrong_answers": [
+                "Attaquant",
+                "Milieu",
+                "Défenseur"
+            ],
+            "good_answer": "Gardien"
+        },
+        "3": {
+            "question": "Qui est ce joueur de l'équipe de France 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/Alphonse_Areola_2019.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/Alphonse_Areola_2019.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/Alphonse_Areola_2019.jpg"
+            ],
+            "wrong_answers": [
+                "Raphael Varane",
+                "Corentin Tolisso",
+                "Presnel Kimpembe"
+            ],
+            "good_answer": "Alphonse Areola"
+        },
+        "4": {
+            "question": "Qui est surnommé 'Jeff Tuche' de l'équipe de France 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff/benjamin_pavard_2018.jpg"
+            ],
+            "wrong_answers": [
+                "Olivier Giroud",
+                "Kylian Mbappé",
+                "Lucas Hernandez"
+            ],
+            "good_answer": "Benjamin Pavard"
+        },
+        "5": {
+            "question": "Qui est ce joueur de l'équipe de France 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/presnel_kimpembe_2018.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/presnel_kimpembe_2018.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff/presnel_kimpembe_2018.jpg"
+            ],
+            "wrong_answers": [
+                "Djibril Sidibé",
+                "Steven Nzonzi",
+                "Ousmane Dembélé"
+            ],
+            "good_answer": "Presnel Kimpembe"
+        },
+        "6": {
+            "question": "Qui jouait au Real Madrid en 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff/raphael_varane_2018.jpg"
+            ],
+            "wrong_answers": [
+                "Antoine Griezmann",
+                "Ousmane Dembélé",
+                "Samuel Umtiti"
+            ],
+            "good_answer": "Raphaël Varane"
+        },
+        "7": {
+            "question": "Qui a cassé la démarche à la Coup du Monde 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff/samuel_umtiti_2018.jpg"
+            ],
+            "wrong_answers": [
+                "Adil Rami",
+                "Paul Pogba",
+                "Blaise Matuidi"
+            ],
+            "good_answer": "Samuel Umtiti"
+        },
+        "8": {
+            "question": "Qui est ce joueur de l'équipe de France 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/om_adil_rami_2018.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/om_adil_rami_2018.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/om_adil_rami_2018.jpg"
+            ],
+            "wrong_answers": [
+                "Nabil Fekir",
+                "Olivier Giroud",
+                "Lucas Hernandez"
+            ],
+            "good_answer": "Adil Rami"
+        },
+        "9": {
+            "question": "Quel est le poste de ce joueur de l'équipe de France 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/djibril_sidibe_2018.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/djibril_sidibe_2018.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff/djibril_sidibe_2018.jpg"
+            ],
+            "wrong_answers": [
+                "Attaquant",
+                "Milieu",
+                "Gardien"
+            ],
+            "good_answer": "Défenseur"
+        },
+        "10": {
+            "question": "Qui aurait pu jouer avec la sélection Espagnole ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff/lucas_hernandez_2018.jpg"
+            ],
+            "wrong_answers": [
+                "Antoine Griezmann",
+                "Nabil Fekir",
+                "Alphonse Areola"
+            ],
+            "good_answer": "Lucas Hernandez"
+        },
+        "11": {
+            "question": "Qui est ce joueur de l'équipe de France 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/benjamin_mendy_2018.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/benjamin_mendy_2018.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff/benjamin_mendy_2018.jpg"
+            ],
+            "wrong_answers": [
+                "Blaise Matuidi",
+                "Steven Nzonzi",
+                "Djibril Sidibé"
+            ],
+            "good_answer": "Benjamin Mendy"
+        },
+        "12": {
+            "question": "Qui est surnommé 'La Pioche' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff/paul_pogba_2018.jpg"
+            ],
+            "wrong_answers": [
+                "N'Golo Kanté",
+                "Thomas Lemar",
+                "Ousmane Dembélé"
+            ],
+            "good_answer": "Paul Pogba"
+        },
+        "13": {
+            "question": "Quel est le poste de ce joueur de l'équipe de France 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/corentin_tolisso_2018.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/corentin_tolisso_2018.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff/corentin_tolisso_2018.jpg"
+            ],
+            "wrong_answers": [
+                "Attaquant",
+                "Défenseur",
+                "Gardien"
+            ],
+            "good_answer": "Milieu"
+        },
+        "14": {
+            "question": "Qui est ce joueur de l'équipe de France 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/ngolo_kante_2018.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/ngolo_kante_2018.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff/ngolo_kante_2018.jpg"
+            ],
+            "wrong_answers": [
+                "Ousmane Dembélé",
+                "Steve Mandanda",
+                "Steven Nzonzi"
+            ],
+            "good_answer": "N'Golo Kanté"
+        },
+        "15": {
+            "question": "Qui de l'équipe de France 2018 est surnommé 'El Pulpo' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff/steven_nzonzi_2018.jpg"
+            ],
+            "wrong_answers": [
+                "Ousmane Dembélé",
+                "Paul Pogba",
+                "N'Golo Kanté"
+            ],
+            "good_answer": "Steven Nzonzi"
+        },
+        "16": {
+            "question": "Qui est ce joueur de l'équipe de France 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/Antoine_Griezmann_2018.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/Antoine_Griezmann_2018.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/Antoine_Griezmann_2018.jpg"
+            ],
+            "wrong_answers": [
+                "Hugo Lloris",
+                "Lucas Hernandez",
+                "Florian Thauvin"
+            ],
+            "good_answer": "Antoine Griezmann"
+        },
+        "17": {
+            "question": "Qui est ce joueur de l'équipe de France 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/thomas_lemar_2018.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/thomas_lemar_2018.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff/thomas_lemar_2018.jpg"
+            ],
+            "wrong_answers": [
+                "Raphaël Varane",
+                "Presnel Kimpembe",
+                "Corentin Tolisso"
+            ],
+            "good_answer": "Thomas Lemar"
+        },
+        "18": {
+            "question": "Qui est ce joueur de l'équipe de France 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/olivier_giroud_2018.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/olivier_giroud_2018.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff/olivier_giroud_2018.jpg"
+            ],
+            "wrong_answers": [
+                "Lucas Hernandez",
+                "Antoine Griezmann",
+                "Benjamin Pavard"
+            ],
+            "good_answer": "Olivier Giroud"
+        },
+        "19": {
+            "question": "Qui est ce joueur de l'équipe de France 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/kylian_mbappe_2018.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/kylian_mbappe_2018.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff/kylian_mbappe_2018.jpg"
+            ],
+            "wrong_answers": [
+                "Corentin Tolisso",
+                "Presnel Kimpembe",
+                "Ousmane Dembélé"
+            ],
+            "good_answer": "Kylian Mbappé"
+        },
+        "20": {
+            "question": "Qui est ce joueur de l'équipe de France 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/ousmane_dembele_2018.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/ousmane_dembele_2018.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff/ousmane_dembele_2018.jpg"
+            ],
+            "wrong_answers": [
+                "Paul Pogba",
+                "Samuel Umtiti",
+                "Lionel Messi"
+            ],
+            "good_answer": "Ousmane Dembélé"
+        },
+        "21": {
+            "question": "Qui est ce joueur de l'équipe de France 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/nabil_fekir_2018.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/nabil_fekir_2018.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff/nabil_fekir_2018.jpg"
+            ],
+            "wrong_answers": [
+                "Alphonse Areola",
+                "Adil Rami",
+                "Lucas Hernandez"
+            ],
+            "good_answer": "Nabil Fekir"
+        },
+        "22": {
+            "question": "Quel est le poste de ce joueur de l'équipe de France 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/florian_thauvin_2018.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff/florian_thauvin_2018.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff/florian_thauvin_2018.jpg"
+            ],
+            "wrong_answers": [
+                "Gardien",
+                "Milieu",
+                "Défenseur"
+            ],
+            "good_answer": "Attaquant"
+        },
+        "23": {
+            "question": "Quel était l'adversaire en demie-finale de la coupe du monde 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "wrong_answers": [
+                "Serbie",
+                "Brésil",
+                "Argentine"
+            ],
+            "good_answer": "Belgique"
+        },
+        "24": {
+            "question": "Quel était l'adversaire en finale de la coupe du monde 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "wrong_answers": [
+                "Belgique",
+                "Brésil",
+                "Angleterre"
+            ],
+            "good_answer": "Serbie"
+        },
+        "25": {
+            "question": "Quel était l'adversaire en quarts de finale de la coupe du monde 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "wrong_answers": [
+                "Belgique",
+                "Argentine",
+                "Angleterre"
+            ],
+            "good_answer": "Uruguay"
+        },
+        "26": {
+            "question": "Quel était l'adversaire en huitième de finale de la coupe du monde 2018 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/fff.jpg"
+            ],
+            "wrong_answers": [
+                "Danemark",
+                "Espagne",
+                "Uruguay"
+            ],
+            "good_answer": "Argentine"
+        },
+		"27": {
+            "question": "Qui est ce joueur de l'équipe de France 2012 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -30,8 +654,8 @@
             ],
             "good_answer": "Adil Rami"
         },
-        "2": {
-            "question": "Qui est-ce ?",
+        "28": {
+            "question": "Qui est ce joueur de l'équipe de France 2012 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -54,32 +678,8 @@
             ],
             "good_answer": "Alou Diarra"
         },
-        "3": {
-            "question": "Qui est-ce ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/alphonse_areola.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/alphonse_areola.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football/fff/alphonse_areola.jpg"
-            ],
-            "wrong_answers": [
-                "Adil Rami",
-                "Hugo Lloris",
-                "Steve Mandanda"
-            ],
-            "good_answer": "Alphonse Areola"
-        },
-        "4": {
-            "question": "Qui est-ce ?",
+        "29": {
+            "question": "Qui est ce joueur de l'équipe de France 2016 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -102,8 +702,8 @@
             ],
             "good_answer": "André-Pierre Gignac"
         },
-        "5": {
-            "question": "Qui est-ce ?",
+        "30": {
+            "question": "Qui est ce joueur de l'équipe de France 2016 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -126,8 +726,8 @@
             ],
             "good_answer": "Anthony Martial"
         },
-        "6": {
-            "question": "Qui est-ce ?",
+        "31": {
+            "question": "Qui est ce joueur de l'équipe de France 2012 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -150,8 +750,8 @@
             ],
             "good_answer": "Anthony Réveillère"
         },
-        "7": {
-            "question": "Qui est-ce ?",
+        "32": {
+            "question": "Qui est ce joueur de l'équipe de France 2016 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -174,8 +774,8 @@
             ],
             "good_answer": "Antoine Griezmann"
         },
-        "8": {
-            "question": "Qui est-ce ?",
+        "33": {
+            "question": "Qui est ce joueur de l'équipe de France 2014 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -198,8 +798,8 @@
             ],
             "good_answer": "Antoine GRIEZMANN"
         },
-        "9": {
-            "question": "Qui est-ce ?",
+        "34": {
+            "question": "Qui est ce joueur de l'équipe de France 2014 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -222,8 +822,8 @@
             ],
             "good_answer": "Rio MAVUBA"
         },
-        "10": {
-            "question": "Qui est-ce ?",
+        "35": {
+            "question": "Qui est ce joueur de l'équipe de France 2016 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -246,8 +846,8 @@
             ],
             "good_answer": "Bacary Sagna"
         },
-        "11": {
-            "question": "Qui est-ce ?",
+        "36": {
+            "question": "Qui est ce joueur de l'équipe de France 2014 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -270,56 +870,8 @@
             ],
             "good_answer": "Bacary SAGNA"
         },
-        "12": {
-            "question": "Qui est-ce ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/benjamin_mendy_2018.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/benjamin_mendy_2018.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football/fff/benjamin_mendy_2018.jpg"
-            ],
-            "wrong_answers": [
-                "Benjamin Pavard",
-                "Presnel Kimpembe",
-                "Raphael Varane"
-            ],
-            "good_answer": "Benjamin Mendy"
-        },
-        "13": {
-            "question": "Qui est-ce ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/benjamin_pavard_2018.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/benjamin_pavard_2018.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football/fff/benjamin_pavard_2018.jpg"
-            ],
-            "wrong_answers": [
-                "Samuel Umtiti",
-                "Presnel Kimpembe",
-                "Raphael Varane"
-            ],
-            "good_answer": "Benjamin Pavard"
-        },
-        "14": {
-            "question": "Qui est-ce ?",
+        "37": {
+            "question": "Qui est ce joueur de l'équipe de France ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -342,8 +894,8 @@
             ],
             "good_answer": "Benoît Costil"
         },
-        "15": {
-            "question": "Qui est-ce ?",
+        "38": {
+            "question": "Qui est ce joueur de l'équipe de France 2012 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -366,8 +918,8 @@
             ],
             "good_answer": "Blaise Matuidi"
         },
-        "16": {
-            "question": "Qui est-ce ?",
+        "39": {
+            "question": "Qui est ce joueur de l'équipe de France ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -390,32 +942,8 @@
             ],
             "good_answer": "Cédric Carrasso"
         },
-        "17": {
-            "question": "Qui est-ce ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/corentin_tolisso_2018.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/corentin_tolisso_2018.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football/fff/corentin_tolisso_2018.jpg"
-            ],
-            "wrong_answers": [
-                "Blaise Matuidi",
-                "N'Golo Kanté",
-                "Steven Nzonzi"
-            ],
-            "good_answer": "Corentin Tolisso"
-        },
-        "18": {
-            "question": "Qui est-ce ?",
+        "40": {
+            "question": "Qui est ce joueur de l'équipe de France 2016 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -438,8 +966,8 @@
             ],
             "good_answer": "Dimitri Payet"
         },
-        "19": {
-            "question": "Qui est-ce ?",
+        "41": {
+            "question": "Qui est ce joueur de l'équipe de France 2018 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -462,8 +990,8 @@
             ],
             "good_answer": "Djibril Sidibe"
         },
-        "20": {
-            "question": "Qui est-ce ?",
+        "42": {
+            "question": "Qui est ce joueur de l'équipe de France 2016 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -486,8 +1014,8 @@
             ],
             "good_answer": "Eliaquim Mangala"
         },
-        "21": {
-            "question": "Qui est-ce ?",
+        "43": {
+            "question": "Qui est ce joueur de l'équipe de France 2014 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -510,8 +1038,8 @@
             ],
             "good_answer": "Eliaquim MANGALA"
         },
-        "22": {
-            "question": "Qui est-ce ?",
+        "44": {
+            "question": "Qui est ce joueur de l'équipe de France 2012 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -534,8 +1062,8 @@
             ],
             "good_answer": "Florent Malouda"
         },
-        "23": {
-            "question": "Qui est-ce ?",
+        "45": {
+            "question": "Qui est ce joueur de l'équipe de France 2018 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -558,8 +1086,8 @@
             ],
             "good_answer": "Florian Thauvin"
         },
-        "24": {
-            "question": "Qui est-ce ?",
+        "46": {
+            "question": "Qui est ce joueur de l'équipe de France 2012 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -582,8 +1110,8 @@
             ],
             "good_answer": "Franck Ribéry"
         },
-        "25": {
-            "question": "Qui est-ce ?",
+        "47": {
+            "question": "Qui est ce joueur de l'équipe de France 2012 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -606,8 +1134,8 @@
             ],
             "good_answer": "Gaël Clichy"
         },
-        "26": {
-            "question": "Qui est-ce ?",
+        "48": {
+            "question": "Qui est ce joueur de l'équipe de France 2012 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -630,8 +1158,8 @@
             ],
             "good_answer": "Hatem Ben Arfa"
         },
-        "27": {
-            "question": "Qui est-ce ?",
+        "49": {
+            "question": "Qui est ce joueur de l'équipe de France ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -654,8 +1182,8 @@
             ],
             "good_answer": "Hugo Lloris"
         },
-        "28": {
-            "question": "Qui est-ce ?",
+        "50": {
+            "question": "Qui est ce joueur de l'équipe de France 2012 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -678,8 +1206,8 @@
             ],
             "good_answer": "Jérémy Ménez"
         },
-        "29": {
-            "question": "Qui est-ce ?",
+        "51": {
+            "question": "Qui est ce joueur de l'équipe de France 2012 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -702,8 +1230,8 @@
             ],
             "good_answer": "Karim Benzema"
         },
-        "30": {
-            "question": "Qui est-ce ?",
+        "52": {
+            "question": "Qui est ce joueur de l'équipe de France 2016 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -726,32 +1254,8 @@
             ],
             "good_answer": "Kingsley Coman"
         },
-        "31": {
-            "question": "Qui est-ce ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/kylian_mbappe_2018.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/kylian_mbappe_2018.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football/fff/kylian_mbappe_2018.jpg"
-            ],
-            "wrong_answers": [
-                "Florian Thauvin",
-                "Nabil Fekir",
-                "Ousmane Dembele"
-            ],
-            "good_answer": "Kylian Mbappe"
-        },
-        "32": {
-            "question": "Qui est-ce ?",
+        "53": {
+            "question": "Qui est ce joueur de l'équipe de France 1998 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -774,8 +1278,8 @@
             ],
             "good_answer": "Laurent Blanc"
         },
-        "33": {
-            "question": "Qui est-ce ?",
+        "54": {
+            "question": "Qui est ce joueur de l'équipe de France 2012 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -798,8 +1302,8 @@
             ],
             "good_answer": "Laurent Koscielny"
         },
-        "34": {
-            "question": "Qui est-ce ?",
+        "55": {
+            "question": "Qui est ce joueur de l'équipe de France 2014 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -822,8 +1326,8 @@
             ],
             "good_answer": "Loic REMY"
         },
-        "35": {
-            "question": "Qui est-ce ?",
+        "56": {
+            "question": "Qui est ce joueur de l'équipe de France 2016 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -846,8 +1350,8 @@
             ],
             "good_answer": "Lucas Digne"
         },
-        "36": {
-            "question": "Qui est-ce ?",
+        "57": {
+            "question": "Qui est ce joueur de l'équipe de France 2014 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -870,32 +1374,8 @@
             ],
             "good_answer": "Lucas DIGNE"
         },
-        "37": {
-            "question": "Qui est-ce ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/lucas_hernandez_2018.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/lucas_hernandez_2018.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football/fff/lucas_hernandez_2018.jpg"
-            ],
-            "wrong_answers": [
-                "Benjamin Mendy",
-                "Benjamin Pavard",
-                "Presnel Kimpembe"
-            ],
-            "good_answer": "Lucas Hernandez"
-        },
-        "38": {
-            "question": "Qui est-ce ?",
+        "58": {
+            "question": "Qui est ce joueur de l'équipe de France 2014 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -918,8 +1398,8 @@
             ],
             "good_answer": "Mamadou SAKHO"
         },
-        "39": {
-            "question": "Qui est-ce ?",
+        "59": {
+            "question": "Qui est ce joueur de l'équipe de France 2012 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -942,8 +1422,8 @@
             ],
             "good_answer": "Marvin Martin"
         },
-        "40": {
-            "question": "Qui est-ce ?",
+        "60": {
+            "question": "Qui est ce joueur de l'équipe de France 2012 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -966,8 +1446,8 @@
             ],
             "good_answer": "Mathieu Debuchy"
         },
-        "41": {
-            "question": "Qui est-ce ?",
+        "61": {
+            "question": "Qui est ce joueur de l'équipe de France 2012 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -990,8 +1470,8 @@
             ],
             "good_answer": "Mathieu Valbuena"
         },
-        "42": {
-            "question": "Qui est-ce ?",
+        "62": {
+            "question": "Qui est cet ancien joueur de l'équipe de France ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -1014,8 +1494,8 @@
             ],
             "good_answer": "Mickael LANDREAU"
         },
-        "43": {
-            "question": "Qui est-ce ?",
+        "63": {
+            "question": "Qui est ce joueur de l'équipe de France 2016 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -1038,8 +1518,8 @@
             ],
             "good_answer": "Morgan Schneiderlin"
         },
-        "44": {
-            "question": "Qui est-ce ?",
+        "64": {
+            "question": "Qui est ce joueur de l'équipe de France 2014 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -1062,8 +1542,8 @@
             ],
             "good_answer": "Morgan SCHNEIDERLIN"
         },
-        "45": {
-            "question": "Qui est-ce ?",
+        "65": {
+            "question": "Qui est ce joueur de l'équipe de France 2016 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -1086,8 +1566,8 @@
             ],
             "good_answer": "Moussa Sissoko"
         },
-        "46": {
-            "question": "Qui est-ce ?",
+        "66": {
+            "question": "Qui est ce joueur de l'équipe de France 2014 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -1110,56 +1590,8 @@
             ],
             "good_answer": "Moussa SISSOKO"
         },
-        "47": {
-            "question": "Qui est-ce ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/nabil_fekir_2018.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/nabil_fekir_2018.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football/fff/nabil_fekir_2018.jpg"
-            ],
-            "wrong_answers": [
-                "Antoine Griezmann",
-                "Florian Thauvin",
-                "Thomas Lemar"
-            ],
-            "good_answer": "Nabil Fekir"
-        },
-        "48": {
-            "question": "Qui est-ce ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/ngolo_kante_2018.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/ngolo_kante_2018.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football/fff/ngolo_kante_2018.jpg"
-            ],
-            "wrong_answers": [
-                "Blaise Matuidi",
-                "Paul Pogba",
-                "Steven Nzonzi"
-            ],
-            "good_answer": "N'Golo Kanté"
-        },
-        "49": {
-            "question": "Qui est-ce ?",
+        "67": {
+            "question": "Qui est ce joueur de l'équipe de France 2016 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -1182,8 +1614,8 @@
             ],
             "good_answer": "N'Golo Kanté"
         },
-        "50": {
-            "question": "Qui est-ce ?",
+        "68": {
+            "question": "Qui est ce joueur de l'équipe de France 2012 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -1206,32 +1638,8 @@
             ],
             "good_answer": "Olivier Giroud"
         },
-        "51": {
-            "question": "Qui est-ce ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/ousmane_dembele_2018.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/ousmane_dembele_2018.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football/fff/ousmane_dembele_2018.jpg"
-            ],
-            "wrong_answers": [
-                "Antoine Griezmann",
-                "Florian Thauvin",
-                "Nabil Fekir"
-            ],
-            "good_answer": "Ousmane Dembele"
-        },
-        "52": {
-            "question": "Qui est-ce ?",
+        "69": {
+            "question": "Qui est ce joueur de l'équipe de France 2012 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -1254,8 +1662,8 @@
             ],
             "good_answer": "Patrice Evra"
         },
-        "53": {
-            "question": "Qui est-ce ?",
+        "70": {
+            "question": "Qui est ce joueur de l'équipe de France 2016 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -1278,8 +1686,8 @@
             ],
             "good_answer": "Paul Pogba"
         },
-        "54": {
-            "question": "Qui est-ce ?",
+        "71": {
+            "question": "Qui est ce joueur de l'équipe de France 2014 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -1302,8 +1710,8 @@
             ],
             "good_answer": "Paul POGBA"
         },
-        "55": {
-            "question": "Qui est-ce ?",
+        "72": {
+            "question": "Qui est ce joueur de l'équipe de France 2012 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -1326,32 +1734,8 @@
             ],
             "good_answer": "Philippe Mexès"
         },
-        "56": {
-            "question": "Qui est-ce ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/presnel_kimpembe_2018.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/presnel_kimpembe_2018.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football/fff/presnel_kimpembe_2018.jpg"
-            ],
-            "wrong_answers": [
-                "Adil Rami",
-                "Raphael Varane",
-                "Samuel Umtiti"
-            ],
-            "good_answer": "Presnel Kimpembe"
-        },
-        "57": {
-            "question": "Qui est-ce ?",
+        "73": {
+            "question": "Qui est ce joueur de l'équipe de France 2014 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -1374,8 +1758,8 @@
             ],
             "good_answer": "Raphael VARANE"
         },
-        "58": {
-            "question": "Qui est-ce ?",
+        "74": {
+            "question": "Qui est ce joueur de l'équipe de France 2014 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -1398,8 +1782,8 @@
             ],
             "good_answer": "Remy CABELLA"
         },
-        "59": {
-            "question": "Qui est-ce ?",
+        "75": {
+            "question": "Qui est ce joueur de l'équipe de France 2012 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -1422,8 +1806,8 @@
             ],
             "good_answer": "Samir Nasri"
         },
-        "60": {
-            "question": "Qui est-ce ?",
+        "76": {
+            "question": "Qui est ce joueur de l'équipe de France 2016 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -1446,8 +1830,8 @@
             ],
             "good_answer": "Samuel Umtiti"
         },
-        "61": {
-            "question": "Qui est-ce ?",
+        "77": {
+            "question": "Qui est ce joueur de l'équipe de France 2014 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -1470,8 +1854,8 @@
             ],
             "good_answer": "Stephane RUFFIER"
         },
-        "62": {
-            "question": "Qui est-ce ?",
+        "78": {
+            "question": "Qui est cet ancien joueur de l'équipe de France ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -1494,56 +1878,8 @@
             ],
             "good_answer": "Steve Mandanda"
         },
-        "63": {
-            "question": "Qui est-ce ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/steven_nzonzi_2018.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/steven_nzonzi_2018.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football/fff/steven_nzonzi_2018.jpg"
-            ],
-            "wrong_answers": [
-                "Corentin Tolisso",
-                "N'Golo Kanté",
-                "Patrice Evra"
-            ],
-            "good_answer": "Steven Nzonzi"
-        },
-        "64": {
-            "question": "Qui est-ce ?",
-            "question_timeout": 5,
-            "waiting_answer_timeout": 10,
-            "answer_timeout": 3,
-            "question_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/thomas_lemar_2018.jpg"
-            ],
-            "waiting_answer_media": [
-                "/static/sounds/countdown.mp3",
-                "/static/images/sport/football/fff/thomas_lemar_2018.jpg"
-            ],
-            "answer_media": [
-                "/static/sounds/timeout.mp3",
-                "/static/images/sport/football/fff/thomas_lemar_2018.jpg"
-            ],
-            "wrong_answers": [
-                "Kylian Mbappe",
-                "Olivier Giroud",
-                "Ousmane Dembele"
-            ],
-            "good_answer": "Thomas Lemar"
-        },
-        "65": {
-            "question": "Qui est-ce ?",
+        "79": {
+            "question": "Qui est ce joueur de l'équipe de France 2012 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -1566,8 +1902,8 @@
             ],
             "good_answer": "Yann M'Vila"
         },
-        "66": {
-            "question": "Qui est-ce ?",
+        "80": {
+            "question": "Qui est ce joueur de l'équipe de France 2012 ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -1590,8 +1926,8 @@
             ],
             "good_answer": "Yohan Cabaye"
         },
-        "67": {
-            "question": "Dans quel club français Karim Benzema a-t-il débuté sa carrière ?",
+        "81": {
+            "question": "Dans quel club français Karim Benzema a débuté sa carrière ?",
             "question_timeout": 5,
             "waiting_answer_timeout": 10,
             "answer_timeout": 3,
@@ -1613,6 +1949,150 @@
                 "Monaco"
             ],
             "good_answer": "OL"
+        },
+        "82": {
+            "question": "Dans quel club européen Michel Platini a terminé sa carrière ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football/michel_platini_france_1986.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/michel_platini_juventus_turin.jpg"
+            ],
+            "wrong_answers": [
+                "Bayern de Munich",
+                "Real Madrid",
+                "Ajax Amsterdam"
+            ],
+            "good_answer": "Juventus de Turin"
+        },
+        "83": {
+            "question": "Qui était le capitaine de l'équipe de France 1998 ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football/didier_deschamps_1998.jpg"
+            ],
+            "wrong_answers": [
+                "Zinédine Zidane",
+                "Thierry Henry",
+                "Fabien Barthez"
+            ],
+            "good_answer": "Didier Deschamps"
+        },
+        "84": {
+            "question": "Comment sont surnommés les joueurs de l'A.S Saint-Etienne ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/les_verts_as_saint_etienne.jpg"
+            ],
+            "wrong_answers": [
+                "Les gones",
+                "Les ultras",
+                "Les canaris"
+            ],
+            "good_answer": "Les verts"
+        },
+        "85": {
+            "question": "Comment sont surnommés les joueurs du FC Nantes ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/les_canaris_fc_nantes.jpg"
+            ],
+            "wrong_answers": [
+                "Les barjots",
+                "Les biscuits",
+                "Les jaunes"
+            ],
+            "good_answer": "Les canaris"
+        },
+        "86": {
+            "question": "Avec quel club l'OL entretient-il une rivalité régionale ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "Le Clermont Foot 63",
+                "L'AS Monaco",
+                "Le Grenoble Foot 38"
+            ],
+            "good_answer": "L'AS Saint-Etienne"
+        },
+        "87": {
+            "question": "Quel club joue dans un stade surnommé 'le chaudron' ?",
+            "question_timeout": 5,
+            "waiting_answer_timeout": 10,
+            "answer_timeout": 3,
+            "question_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "waiting_answer_media": [
+                "/static/sounds/countdown.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "answer_media": [
+                "/static/sounds/timeout.mp3",
+                "/static/images/sport/football.jpg"
+            ],
+            "wrong_answers": [
+                "PSG",
+                "AJA Auxerre",
+                "Olympique de Marseille"
+            ],
+            "good_answer": "AS Saint Etienne"
         }
-    }
+	}
 }
